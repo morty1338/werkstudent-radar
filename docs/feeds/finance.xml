@@ -6,7 +6,39 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 14:55:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 11:04:02 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) im Bereich Finance,Alsfeld,Frankfurt am Main</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2354645-S</link>
+      <guid isPermaLink="false">12811-2354645-S</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>MRH Trowe Insurance Brokers GmbH · Frankfurt am Main · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent im Kundenkontakt (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001B08-S</link>
+      <guid isPermaLink="false">18024-10Q4800001B08-S</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Sparkasse Hohenlohekreis · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent in internen Bereichen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001C08-S</link>
+      <guid isPermaLink="false">18024-10Q4800001C08-S</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Sparkasse Hohenlohekreis · Künzelsau · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Controlling (w/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/opentas/werkstudent-controlling-hamburg-48627</link>
+      <guid isPermaLink="false">an:werkstudent-controlling-hamburg-48627</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Opentas · Hamburg · Finance &amp; Controlling</description>
+    </item>
   </channel>
 </rss>

@@ -6,7 +6,55 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 14:55:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 11:04:02 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Supply Chain Planning Working Student (all genders)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/hellofresh/supply-chain-planning-working-student-all-genders-berlin-berlin-64817</link>
+      <guid isPermaLink="false">an:supply-chain-planning-working-student-all-genders-berlin-berlin-64817</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>hellofresh · Berlin · Operations &amp; Logistics · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent Facility Management (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/verivox/werkstudent-facility-management-heidelberg-209044</link>
+      <guid isPermaLink="false">an:werkstudent-facility-management-heidelberg-209044</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Verivox · Heidelberg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent Partner Management &amp; Operations - E-Mobilität</title>
+      <link>https://www.arbeitnow.com/jobs/companies/verivox/werkstudent-partner-management-operations-e-mobilitat-heidelberg-400752</link>
+      <guid isPermaLink="false">an:werkstudent-partner-management-operations-e-mobilitat-heidelberg-400752</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Verivox · Heidelberg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Operations (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/storymachine-gmbh/werkstudentin-operations-berlin-43169</link>
+      <guid isPermaLink="false">an:werkstudentin-operations-berlin-43169</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>StoryMachine GmbH · Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student Retail Operations (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/project-eaden-personio/working-student-retail-operations-berlin-kreuzberg-207693</link>
+      <guid isPermaLink="false">an:working-student-retail-operations-berlin-kreuzberg-207693</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Project Eaden - Personio · Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student Supply Chain (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/project-eaden-personio/working-student-supply-chain-berlin-kreuzberg-188337</link>
+      <guid isPermaLink="false">an:working-student-supply-chain-berlin-kreuzberg-188337</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Project Eaden - Personio · Berlin · Operations &amp; Logistics</description>
+    </item>
   </channel>
 </rss>

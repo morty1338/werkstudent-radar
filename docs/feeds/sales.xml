@@ -6,7 +6,23 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 14:55:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 11:04:02 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in im Vertrieb (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16334-rpgfzzyrpt46bfkbm9-S</link>
+      <guid isPermaLink="false">16334-rpgfzzyrpt46bfkbm9-S</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>DEKA Kleben &amp; Dichten GmbH · Winterhof · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) im Vertrieb</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kloepfel-consulting-gmbh/werkstudent-im-vertrieb-dusseldorf-240001</link>
+      <guid isPermaLink="false">an:werkstudent-im-vertrieb-dusseldorf-240001</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Kloepfel Consulting Gmbh · Düsseldorf · Sales &amp; Business Development</description>
+    </item>
   </channel>
 </rss>

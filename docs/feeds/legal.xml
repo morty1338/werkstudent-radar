@@ -6,15 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 14:55:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 11:04:02 +0000</lastBuildDate>
     <ttl>720</ttl>
-    <item>
-      <title>Werkstudent - Compliance Management (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44470038-928-S</link>
-      <guid isPermaLink="false">15086-44470038-928-S</guid>
-      <pubDate>Sat, 10 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Legal</category>
-      <description>Bechtle AG · Neckarsulm · Legal</description>
-    </item>
   </channel>
 </rss>

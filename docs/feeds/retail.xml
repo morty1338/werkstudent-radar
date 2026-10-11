@@ -6,7 +6,23 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 14:55:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 11:04:02 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudentin im Verkauf - Karlsruhe Ettlinger Tor</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003837818-S</link>
+      <guid isPermaLink="false">10001-1003837818-S</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Hunkemöller Deutschland B.V. &amp; Co. KG · Karlsruhe · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudentin im Verkauf - Konstanz</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003837820-S</link>
+      <guid isPermaLink="false">10001-1003837820-S</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Hunkemöller Deutschland B.V. &amp; Co. KG · Konstanz · Retail &amp; Hospitality</description>
+    </item>
   </channel>
 </rss>

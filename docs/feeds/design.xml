@@ -6,7 +6,31 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 14:55:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 11:04:02 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Presentation Design &amp; Content (d/w/m)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/mawave-marketing-gmbh/werkstudent-presentation-design-content-munchen-25170</link>
+      <guid isPermaLink="false">an:werkstudent-presentation-design-content-munchen-25170</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Mawave Marketing GmbH · München · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (w/m/d) Visual Design</title>
+      <link>https://www.arbeitnow.com/jobs/companies/leonine-holding-gmbh/werkstudentin-visual-design-koln-250653</link>
+      <guid isPermaLink="false">an:werkstudentin-visual-design-koln-250653</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>LEONINE Holding GmbH · Köln · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Working Student – Graphic Design E-Commerce (all genders)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/niboline-gmbh/working-student-graphic-design-e-commerce-all-genders-berlin-189027</link>
+      <guid isPermaLink="false">an:working-student-graphic-design-e-commerce-all-genders-berlin-189027</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Niboline Gmbh · Berlin · Design &amp; UX</description>
+    </item>
   </channel>
 </rss>

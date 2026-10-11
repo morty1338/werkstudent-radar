@@ -6,7 +6,31 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 14:55:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 11:04:02 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent/Pflichtpraktikant  Arbeitssicherheit (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f897j0444484-S</link>
+      <guid isPermaLink="false">12336-a26f897j0444484-S</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>HAMBURG WASSER · Hamburg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) IT Operations – SysOps, Client Management &amp; Software</title>
+      <link>https://www.arbeitnow.com/jobs/companies/opentas/werkstudent-it-operations-sysops-client-management-software-hamburg-256407</link>
+      <guid isPermaLink="false">an:werkstudent-it-operations-sysops-client-management-software-hamburg-256407</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Opentas · Hamburg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Fullstack Developer - ERP &amp; Prozessautomatisierung (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/welectron/werkstudentin-fullstack-developer-erp-prozessautomatisierung-karlsruhe-306278</link>
+      <guid isPermaLink="false">an:werkstudentin-fullstack-developer-erp-prozessautomatisierung-karlsruhe-306278</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Welectron · Karlsruhe · IT &amp; Software</description>
+    </item>
   </channel>
 </rss>
