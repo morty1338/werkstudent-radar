@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 12:23:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 23:12:31 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Innovation, Data Science &amp; Automation (all genders), H World International</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2355864-S</link>
+      <guid isPermaLink="false">12811-2355864-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>H World International - Team Center · Frankfurt am Main · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent/in (m/w/d) Künstliche Intelligenz trifft Ingenieurwesen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003840311-S</link>
@@ -63,6 +71,14 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>ZDF Digital Medienproduktion GmbH · Mainz · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Landwirtschaft und betriebliche Datenprüfung (all genders) (Berlin I DE Remote möglich)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/klim/werkstudentin-landwirtschaft-und-betriebliche-datenprufung-all-genders-berlin-i-de-remote-moglich-235990</link>
+      <guid isPermaLink="false">an:werkstudentin-landwirtschaft-und-betriebliche-datenprufung-all-genders-berlin-i-de-remote-moglich-235990</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Klim · Berlin · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Working Student - Data &amp; Financial Research eCommerce (m/f/d)</title>

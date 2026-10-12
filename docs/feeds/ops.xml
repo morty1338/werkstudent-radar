@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 12:23:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 23:12:31 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) in der Logistik</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1642577-1-S</link>
+      <guid isPermaLink="false">12465-1642577-1-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Siemens AG · Nürnberg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (m/w/d) Zentrale Disposition - Messstellen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18624-0068040632-S</link>
+      <guid isPermaLink="false">18624-0068040632-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Stadtwerke Augsburg Holding GmbH · Augsburg · €18.00/h · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent Einkauf (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12489-44499300-1011-S</link>
@@ -65,6 +81,14 @@
       <description>Revel8 · München · Operations &amp; Logistics · no German needed</description>
     </item>
     <item>
+      <title>Supply Chain Planning Working Student (all genders)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/hellofresh/supply-chain-planning-working-student-all-genders-berlin-berlin-64817</link>
+      <guid isPermaLink="false">an:supply-chain-planning-working-student-all-genders-berlin-berlin-64817</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>hellofresh · Berlin · Operations &amp; Logistics · no German needed</description>
+    </item>
+    <item>
       <title>Werkstudent Facility Management (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/verivox/werkstudent-facility-management-heidelberg-209044</link>
       <guid isPermaLink="false">an:werkstudent-facility-management-heidelberg-209044</guid>
@@ -87,6 +111,22 @@
       <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>StoryMachine GmbH · Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student Retail Operations (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/project-eaden-personio/working-student-retail-operations-berlin-kreuzberg-207693</link>
+      <guid isPermaLink="false">an:working-student-retail-operations-berlin-kreuzberg-207693</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Project Eaden - Personio · Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student Supply Chain (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/project-eaden-personio/working-student-supply-chain-berlin-kreuzberg-188337</link>
+      <guid isPermaLink="false">an:working-student-supply-chain-berlin-kreuzberg-188337</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Project Eaden - Personio · Berlin · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>
