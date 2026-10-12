@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 11:04:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 12:23:19 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent/innen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839565-S</link>
+      <guid isPermaLink="false">10001-1003839565-S</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Kanzlei Voigt Rechtsanwalts GmbH · Koblenz am Rhein · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent Office &amp; Team Management (F/M/*)</title>
       <link>https://www.arbeitnow.com/jobs/companies/amber/werkstudent-office-team-management-f-m-aachen-491481</link>

@@ -6,15 +6,63 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 11:04:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 12:23:19 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
-      <title>Supply Chain Planning Working Student (all genders)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/hellofresh/supply-chain-planning-working-student-all-genders-berlin-berlin-64817</link>
-      <guid isPermaLink="false">an:supply-chain-planning-working-student-all-genders-berlin-berlin-64817</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <title>Werkstudent Einkauf (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12489-44499300-1011-S</link>
+      <guid isPermaLink="false">12489-44499300-1011-S</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
-      <description>hellofresh · Berlin · Operations &amp; Logistics · no German needed</description>
+      <description>Fressnapf Holding SE · Krefeld · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent Business Operations – Automation &amp; AI (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/talentspring-academy/werkstudent-business-operations-automation-ai-berlin-170975</link>
+      <guid isPermaLink="false">an:werkstudent-business-operations-automation-ai-berlin-170975</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Talentspring Academy · Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent: in im Einkauf / Materialbeschaffung (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/technica-engineering-gmbh/werkstudent-in-im-einkauf-materialbeschaffung-munchen-129850</link>
+      <guid isPermaLink="false">an:werkstudent-in-im-einkauf-materialbeschaffung-munchen-129850</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Technica Engineering GmbH · München · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Operations</title>
+      <link>https://www.arbeitnow.com/jobs/companies/aura-health-technologies-gmbh/werkstudentin-operations-berlin-356012</link>
+      <guid isPermaLink="false">an:werkstudentin-operations-berlin-356012</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>AURA Health Technologies GmbH · Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Operations &amp; Customer Experience</title>
+      <link>https://www.arbeitnow.com/jobs/companies/nuuenergy/werkstudentin-operations-customer-experience-munchen-260615</link>
+      <guid isPermaLink="false">an:werkstudentin-operations-customer-experience-munchen-260615</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Nuuenergy · München · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student (gn) Purchasing</title>
+      <link>https://www.arbeitnow.com/jobs/companies/vercore/working-student-gn-purchasing-germany-production-plant-fulda-119104</link>
+      <guid isPermaLink="false">an:working-student-gn-purchasing-germany-production-plant-fulda-119104</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Vercore · Fulda · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student Office Management &amp; Operations (all genders)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/revel8/working-student-office-management-operations-all-genders-munich-314326</link>
+      <guid isPermaLink="false">an:working-student-office-management-operations-all-genders-munich-314326</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Revel8 · München · Operations &amp; Logistics · no German needed</description>
     </item>
     <item>
       <title>Werkstudent Facility Management (m/w/d)</title>
@@ -39,22 +87,6 @@
       <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>StoryMachine GmbH · Berlin · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Working Student Retail Operations (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/project-eaden-personio/working-student-retail-operations-berlin-kreuzberg-207693</link>
-      <guid isPermaLink="false">an:working-student-retail-operations-berlin-kreuzberg-207693</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Project Eaden - Personio · Berlin · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Working Student Supply Chain (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/project-eaden-personio/working-student-supply-chain-berlin-kreuzberg-188337</link>
-      <guid isPermaLink="false">an:working-student-supply-chain-berlin-kreuzberg-188337</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Project Eaden - Personio · Berlin · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

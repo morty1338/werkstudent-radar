@@ -6,15 +6,63 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 11:04:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 12:23:19 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
-      <title>Werkstudent:in Landwirtschaft und betriebliche Datenprüfung (all genders) (Berlin I DE Remote möglich)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/klim/werkstudentin-landwirtschaft-und-betriebliche-datenprufung-all-genders-berlin-i-de-remote-moglich-235990</link>
-      <guid isPermaLink="false">an:werkstudentin-landwirtschaft-und-betriebliche-datenprufung-all-genders-berlin-i-de-remote-moglich-235990</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <title>Werkstudent/in (m/w/d) Künstliche Intelligenz trifft Ingenieurwesen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003840311-S</link>
+      <guid isPermaLink="false">10001-1003840311-S</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
-      <description>Klim · Berlin · Data &amp; Analytics</description>
+      <description>rö ingenieure gmbh · Würzburg · €15.85/h · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) – Künstliche Intelligenz &amp; LLM</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003841532-S</link>
+      <guid isPermaLink="false">10001-1003841532-S</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>EUROKEY Software GmbH · Saarbrücken · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Data Analytics &amp; Digital Search Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/prologistik-group/data-analytics-digital-search-werkstudent-dortmund-87728</link>
+      <guid isPermaLink="false">an:data-analytics-digital-search-werkstudent-dortmund-87728</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>proLogistik Group · Dortmund · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Data Engineer Working Student (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/data-engineer-working-student-koln-482150</link>
+      <guid isPermaLink="false">an:data-engineer-working-student-koln-482150</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Trusteq Gmbh · Köln · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Data Analytics (Controlling Focus) (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/1komma5grad/remote-werkstudentin-data-analytics-controlling-focus-hamburg-271791</link>
+      <guid isPermaLink="false">an:remote-werkstudentin-data-analytics-controlling-focus-hamburg-271791</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>1Komma5Grad · Hamburg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) MarTech, Data &amp; Analytics</title>
+      <link>https://www.arbeitnow.com/jobs/companies/es-group/werkstudent-martech-data-analytics-berlin-197618</link>
+      <guid isPermaLink="false">an:werkstudent-martech-data-analytics-berlin-197618</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Es Group · Berlin · €18.50/h · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Data Analytics (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/zdf-digital-medienproduktion-gmbh/werkstudentin-data-analytics-mainz-oder-berlin-42026</link>
+      <guid isPermaLink="false">an:werkstudentin-data-analytics-mainz-oder-berlin-42026</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>ZDF Digital Medienproduktion GmbH · Mainz · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Working Student - Data &amp; Financial Research eCommerce (m/f/d)</title>
