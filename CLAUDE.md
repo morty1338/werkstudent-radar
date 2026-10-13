@@ -66,6 +66,12 @@ them via the check-runs annotations API, since the logs need the owner's login.
 - `assets/match.js` — the "Check your skills" section: skill chips, match summary, collapsible job list
 - `assets/companies.js` — the "Company career pages" section: city switch (Berlin/München, `?co=muenchen`), field chips, keyword search, jobs grouped by company from `data/companies.json`; hidden with its nav link when the file is missing. Not tied to the filter bar
 - `#claude` card in `index.html` ("Ask Claude about these jobs"): the hosted MCP server URL with a copy button (`initCopyUrl` in `app.js`) and the connector steps; the URL also appears in `claude.steps` in `i18n.js` and in the README
+- `assets/tracker.js`, `assets/tracker-store.js` — the visitor's application tracker: header button
+  `#trk-open` (count, warning colour when a follow-up is due) opens the panel `#trk` (a dialog on the right,
+  full screen on phones; Esc and the backdrop close it, focus stays inside). The data lives only in
+  `localStorage` under `werkstudent-radar.applications` (`{version, items}`); the store has no DOM and
+  works in memory when storage is blocked. Export/import is a JSON file (import merges by id, newer change
+  wins). The panel sits outside `.site-header` (z-index 55/60, above the tab bar and the filter sheet)
 - `assets/i18n.js` — UI language (`?lang=de`, default English): `STRINGS` holds every UI text with `en` and `de` side by side; `t(key, vars)`; `fieldLabel`/`groupLabel`/`skillLabel` translate data labels; `applyStatic()` fills `data-i18n` (text), `data-i18n-html` and `data-i18n-attr="attr:key"` in `index.html`. New UI text goes into `STRINGS`, never inline (a test checks every used key exists in both languages). `fmt` in `charts.js` formats numbers/dates for the language
 - `assets/gap.js` — skill-gap plan (`gapPlan`, greedy by marginal gain; no imports, tested in Node)
 - `assets/stats.js` — bootstrap 95% CI of a median (`medianCI`, same method as `radar/stats.py`, memoised)

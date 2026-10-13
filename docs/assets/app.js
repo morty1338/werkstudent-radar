@@ -4,6 +4,7 @@ import { initCv } from "./cv.js?v=dev";
 import { applyStatic, fieldLabel, groupLabel, initLangSwitch, lang, skillLabel as localSkillLabel, t } from "./i18n.js?v=dev";
 import { initMatch } from "./match.js?v=dev";
 import { medianCI } from "./stats.js?v=dev";
+import { initTracker } from "./tracker.js?v=dev";
 
 // Column positions in checker.json "jobs" rows.
 export const J = { CAT: 0, CITY: 1, DE: 2, PAY: 3, SKILLS: 4, ROLE: 5, ROLE_CITY: 6, COMPANY: 7 };
@@ -28,6 +29,8 @@ async function main() {
   applyStatic();
   initLangSwitch();
   initTooltip();
+  // The tracker works without the job data, so it starts before it loads.
+  initTracker();
   let S, D, H, L, C, CO;
   try {
     // lifetimes, cooccurrence and companies are extras: the page works without them.

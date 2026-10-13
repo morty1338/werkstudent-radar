@@ -33,6 +33,7 @@
     <symbol id="i-skills" viewBox="0 0 24 24"><path d="M12 3.5l2.5 5.4 5.9.7-4.4 4 1.2 5.8L12 16.5l-5.2 2.9L8 13.6l-4.4-4 5.9-.7z"/></symbol>
     <symbol id="i-trends" viewBox="0 0 24 24"><path d="M3.5 17.5l5.5-5.5 4 3 7.5-8"/><path d="M15.5 7h5v5"/></symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.4l2.6 2.6 4.8-5.2"/></symbol>
+    <symbol id="i-apps" viewBox="0 0 24 24"><rect x="5" y="4.5" width="14" height="16.5" rx="2"/><path d="M9 4.5V3h6v1.5"/><path d="M8.5 11.5l2 2 4-4.5M8.5 17h7"/></symbol>
     <symbol id="i-companies" viewBox="0 0 24 24"><path d="M3 20.5h18M5 20.5V5.5l7-2v17M12 20.5v-11l7 2.5v8.5"/><path d="M8 8.5h1.5M8 12h1.5M8 15.5h1.5M15 14h1.5M15 17h1.5"/></symbol>
   </svg>
   <header class="site-header">
@@ -47,8 +48,11 @@
         <a href="#skills"><svg class="ico" aria-hidden="true"><use href="#i-skills"></use></svg><span data-i18n="nav.skills">Skills</span></a>
         <a href="#trends"><svg class="ico" aria-hidden="true"><use href="#i-trends"></use></svg><span data-i18n="nav.trends">Trends</span></a>
         <a href="#check" aria-label="Your skills" data-i18n-attr="aria-label:nav.check"><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg><span class="nav-full" data-i18n="nav.check">Your skills</span><span class="nav-short" data-i18n="nav.check_short">Match</span></a>
-        <a href="#companies" aria-label="Company career pages" data-i18n-attr="aria-label:nav.companies_aria"><svg class="ico" aria-hidden="true"><use href="#i-companies"></use></svg><span class="nav-full" data-i18n="nav.companies">Companies</span><span class="nav-short" data-i18n="nav.companies_short">Firms</span></a>
+        <a href="#companies"><svg class="ico" aria-hidden="true"><use href="#i-companies"></use></svg><span class="nav-full" data-i18n="nav.companies">Companies</span><span class="nav-short" data-i18n="nav.companies_short">Firms</span></a>
       </nav>
+      <button type="button" class="trk-btn" id="trk-open" aria-haspopup="dialog" aria-controls="trk" aria-expanded="false" aria-label="Applications" data-i18n-attr="aria-label:trk.title">
+        <svg class="ico" aria-hidden="true"><use href="#i-apps"></use></svg><span class="trk-btn-label" data-i18n="trk.title">Applications</span><span class="trk-count" id="trk-count" hidden></span>
+      </button>
       <div class="lang-switch" role="group" aria-label="Language" data-i18n-attr="aria-label:lang.aria">
         <button type="button" data-lang="en" lang="en" aria-pressed="true">EN</button><button type="button" data-lang="de" lang="de" aria-pressed="false">DE</button>
       </div>
@@ -244,6 +248,46 @@
       </details>
     </section>
   </main>
+
+  <!-- The visitor's application tracker (tracker.js): stored only in this browser. -->
+  <div class="trk-backdrop" id="trk-backdrop" hidden></div>
+  <aside class="tracker" id="trk" role="dialog" aria-modal="true" aria-labelledby="trk-title">
+    <div class="trk-head">
+      <h2 id="trk-title" data-i18n="trk.title">Applications</h2>
+      <button type="button" class="link-btn" id="trk-close" data-i18n="trk.close">Close</button>
+    </div>
+    <div class="trk-body">
+      <p class="trk-local" id="trk-local"></p>
+      <button type="button" class="btn" id="trk-new" aria-expanded="false" aria-controls="trk-form" data-i18n="trk.new">+ New application</button>
+      <form class="trk-form" id="trk-form" hidden>
+        <label><span data-i18n="trk.f_title">Job title</span><input type="text" name="title" required maxlength="200" autocomplete="off"></label>
+        <label><span data-i18n="trk.f_company">Company</span><input type="text" name="company" maxlength="120" autocomplete="off"></label>
+        <label><span data-i18n="trk.f_city">City</span><input type="text" name="city" maxlength="80" autocomplete="off"></label>
+        <label><span data-i18n="trk.f_url">Link to the posting</span><input type="url" name="url" maxlength="500" placeholder="https://" autocomplete="off"></label>
+        <label><span data-i18n="trk.f_status">Status</span>
+          <select name="status">
+            <option value="saved" data-i18n="trk.s_saved">Saved</option>
+            <option value="applied" data-i18n="trk.s_applied">Applied</option>
+            <option value="interview" data-i18n="trk.s_interview">Interview</option>
+            <option value="offer" data-i18n="trk.s_offer">Offer</option>
+            <option value="rejected" data-i18n="trk.s_rejected">Rejected</option>
+          </select>
+        </label>
+        <label><span data-i18n="trk.f_note">Note</span><textarea name="note" rows="2" maxlength="2000"></textarea></label>
+        <div class="trk-form-buttons">
+          <button type="submit" class="btn" data-i18n="trk.save">Save</button>
+          <button type="button" class="link-btn" id="trk-cancel" data-i18n="trk.cancel">Cancel</button>
+        </div>
+      </form>
+      <div class="chips-row trk-filter" id="trk-filter"></div>
+      <div class="trk-list" id="trk-list"></div>
+    </div>
+    <div class="trk-foot">
+      <button type="button" class="link-btn" id="trk-export" data-i18n="trk.export">Export file</button>
+      <label class="link-btn trk-import"><input type="file" id="trk-import" accept=".json,application/json"><span data-i18n="trk.import">Import file</span></label>
+      <span class="trk-msg" id="trk-msg" aria-live="polite"></span>
+    </div>
+  </aside>
 
   <footer class="site-footer">
     <div class="wrap" data-i18n-html="footer">Werkstudent Radar · data: Bundesagentur für Arbeit and company career sites via <a href="https://www.arbeitnow.com/">Arbeitnow</a> · <a href="https://github.com/morty1338/werkstudent-radar">source code</a></div>
