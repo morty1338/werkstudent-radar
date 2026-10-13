@@ -53,15 +53,18 @@ them via the check-runs annotations API, since the logs need the owner's login.
 ## Frontend notes
 
 **Files** (`docs/`, served as-is, no build step):
-- `index.html` — all sections and element ids; `favicon.svg` (the logo, amber radar)
+- `index.html` — all sections and element ids; `favicon.svg` (the logo, amber radar). Sections have no
+  numbers: each starts with `.eyebrow` (an icon on a split-flap tile + the nav label, `data-i18n`), and the
+  phone tab bar shows the same icons. The icons are `<symbol>`s in the inline sprite at the top of `<body>`
+  (24×24, stroked with `currentColor`), used as `<svg class="ico"><use href="#i-…">`
 - `manifest.json`, `icons/` — PWA manifest and PNG icons (180 apple-touch, 192, 512, also
   used as maskable: logo at 72% on a full `#0B0B0C` square). Made once from
   `favicon.svg` (headless Chrome screenshot at 512 px, then `sips -z`); redo them if the logo changes
 - `assets/style.css` — the only stylesheet
-- `assets/app.js` — state, filter bar, sections 01–04 (where, pay, skills, trends), URL sync
+- `assets/app.js` — state, filter bar, the sections where, pay, skills and trends, URL sync
 - `assets/charts.js` — chart helpers (`barList`, `histogram`, `dotRange`, `bubbleMap`, `lineChart` with optional CI band, `survivalChart`), tooltip, `rollDigits` (KPI tile animation, only for values that changed), `fmt`, `esc`
-- `assets/match.js` — section 05 "Check your skills": skill chips, match summary, collapsible job list
-- `assets/companies.js` — section 06 "Company career pages": city switch (Berlin/München, `?co=muenchen`), field chips, keyword search, jobs grouped by company from `data/companies.json`; hidden with its nav link when the file is missing. Not tied to the filter bar
+- `assets/match.js` — the "Check your skills" section: skill chips, match summary, collapsible job list
+- `assets/companies.js` — the "Company career pages" section: city switch (Berlin/München, `?co=muenchen`), field chips, keyword search, jobs grouped by company from `data/companies.json`; hidden with its nav link when the file is missing. Not tied to the filter bar
 - `#claude` card in `index.html` ("Ask Claude about these jobs"): the hosted MCP server URL with a copy button (`initCopyUrl` in `app.js`) and the connector steps; the URL also appears in `claude.steps` in `i18n.js` and in the README
 - `assets/i18n.js` — UI language (`?lang=de`, default English): `STRINGS` holds every UI text with `en` and `de` side by side; `t(key, vars)`; `fieldLabel`/`groupLabel`/`skillLabel` translate data labels; `applyStatic()` fills `data-i18n` (text), `data-i18n-html` and `data-i18n-attr="attr:key"` in `index.html`. New UI text goes into `STRINGS`, never inline (a test checks every used key exists in both languages). `fmt` in `charts.js` formats numbers/dates for the language
 - `assets/gap.js` — skill-gap plan (`gapPlan`, greedy by marginal gain; no imports, tested in Node)

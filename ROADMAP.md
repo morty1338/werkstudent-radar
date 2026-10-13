@@ -182,3 +182,21 @@ login, never secrets in the repository. Stop after each step for review.
 - [x] Step 4 — a plain-language explanation: local vs. remote MCP, hosting, Docker
       and the deploy pipeline, cold starts, rate limits, the request flow, and
       likely interview questions.
+
+## Phase 11 — Application tracker, no section numbers
+
+Visitors keep track of their own applications on the site. Stored only in their
+browser (localStorage) with an export/import file; nothing leaves the device. The
+sections lose their numbers. Stop after each step for review.
+
+- [x] Step 1 — design without numbers: each section starts with an icon on a
+      split-flap tile and its name; the phone tab bar shows the same icons (inline
+      SVG sprite, no icon library).
+- [ ] Step 2 — tracker panel: an "Applications" button with a count in the header
+      opens a panel on the right (full screen on phones): applications by status
+      (saved, applied, interview, offer, rejected) with the date of each change,
+      notes, a follow-up date with overdue ones highlighted, delete, export/import.
+- [ ] Step 3 — adding: a "Track" button on every job in "Check your skills" and on
+      the Companies tab, a form for jobs found elsewhere, and a "no longer online"
+      mark when a tracked posting leaves the daily data.
+- [ ] Step 4 — tests for the tracker logic (Node), README and CLAUDE.md, Lighthouse.
