@@ -1,16 +1,20 @@
 """Werkstudent Radar MCP server: lets Claude answer questions with the radar's job data.
 
 Run (Claude Desktop / Claude Code start it for you, see the README):
-    mcp/.venv/bin/python mcp/radar_server.py            # data from docs/data/ in this repo
-    mcp/.venv/bin/python mcp/radar_server.py --live     # data from the published site
+    mcp/.venv/bin/python mcp/radar_server.py            # stdio, data from docs/data/ in this repo
+    mcp/.venv/bin/python mcp/radar_server.py --live     # stdio, data from the published site
+    mcp/.venv/bin/python mcp/radar_server.py --http     # Streamable HTTP on :8000/mcp, live data
 
-It speaks MCP over stdio: the client starts this script and exchanges JSON-RPC
-messages on its stdin/stdout, so nothing else may be printed to stdout (logs go
-to stderr). Read-only: it only reads the JSON files the website uses.
+Locally it speaks MCP over stdio: the client starts this script and exchanges
+JSON-RPC messages on its stdin/stdout, so nothing else may be printed to stdout
+(logs go to stderr). With --http it is a web server anyone can connect to by URL
+(radar_http.py: rate limits, body limit, /health); its data is the published
+JSON, refreshed hourly. Read-only either way: it only reads the website's files.
 """
 
 import argparse
 import logging
+import os
 import sys
 from typing import Any
 
@@ -90,23 +94,42 @@ def match_skills(skills: list[str], city: str | None = None, field: str | None =
     return answer(rt.match_skills, skills, city=city, field=field, examples=examples)
 
 
+HTTP_TTL = 3600   # the data changes once a day; an hour keeps a remote server close to it
+
+
 def configure(argv=None):
-    """Pick the data source from the command line."""
+    """Pick the transport and the data source from the command line."""
     global store
-    parser = argparse.ArgumentParser(description="Werkstudent Radar MCP server (stdio)")
+    parser = argparse.ArgumentParser(description="Werkstudent Radar MCP server (stdio, or Streamable HTTP with --http)")
     parser.add_argument("--live", action="store_true", help=f"read the published JSON from {radar_data.LIVE_URL}")
-    parser.add_argument("--data-dir", default=radar_data.DATA_DIR, help="folder with summary.json, checker.json, postings.json")
-    parser.add_argument("--ttl", type=int, default=radar_data.LIVE_TTL, help="seconds to keep live data in memory")
+    parser.add_argument("--data-dir", help="folder with summary.json, checker.json, postings.json (default: docs/data)")
+    parser.add_argument("--ttl", type=int, help="seconds to keep live data in memory (stdio 600, HTTP 3600)")
+    parser.add_argument("--http", action="store_true", help="serve Streamable HTTP instead of stdio (live data unless --data-dir)")
+    parser.add_argument("--host", default=os.environ.get("HOST", "127.0.0.1"), help="HTTP address (0.0.0.0 in a container)")
+    parser.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8000")), help="HTTP port (or $PORT)")
     args = parser.parse_args(argv)
-    store = radar_data.Store(radar_data.Source(data_dir=args.data_dir, live=args.live, ttl=args.ttl))
+    live = args.live or (args.http and not args.data_dir)
+    ttl = args.ttl or (HTTP_TTL if args.http else radar_data.LIVE_TTL)
+    store = radar_data.Store(radar_data.Source(data_dir=args.data_dir or radar_data.DATA_DIR, live=live, ttl=ttl))
     return args
 
 
 def main(argv=None):
     logging.basicConfig(level=logging.INFO, stream=sys.stderr, format="%(levelname)s %(name)s: %(message)s")
-    configure(argv)
+    args = configure(argv)
     logging.getLogger("radar_server").info("data from %s", store.source.where)
-    mcp.run()   # stdio
+    if not args.http:
+        mcp.run()   # stdio
+        return
+    import uvicorn
+
+    import radar_http
+    app = radar_http.build_app(mcp, store)
+    # Behind a hosting proxy the client address comes from X-Forwarded-For (FORWARDED_ALLOW_IPS="*"
+    # in the container). uvicorn's access log is off: it would record client addresses.
+    uvicorn.run(app, host=args.host, port=args.port, access_log=False, proxy_headers=True,
+                forwarded_allow_ips=os.environ.get("FORWARDED_ALLOW_IPS", "127.0.0.1"),
+                limit_concurrency=50, timeout_keep_alive=5)
 
 
 if __name__ == "__main__":

@@ -26,7 +26,12 @@ published files with `--live`). Own `requirements.txt` and git-ignored `.venv/`,
 so the daily run doesn't install the SDK; `requirements-dev.txt` includes it, so
 `tests.yml` runs `tests/test_mcp.py` (tools on a hand-made fixture, the server
 through the SDK's in-memory client, agreement with `gap.js` and `summary.json`).
-`radar_tools.py` holds the logic without the SDK; `radar_server.py` only wraps it. The folder has no `__init__.py`
+`radar_tools.py` holds the logic without the SDK; `radar_server.py` only wraps it.
+`--http` serves the same tools over Streamable HTTP at `/mcp` (`radar_http.py`:
+stateless JSON responses, rate limits, 64 KiB body limit, `/health`, Host check
+from `MCP_ALLOWED_HOSTS`, log without client addresses; uvicorn's access log stays
+off). In HTTP mode the data is the live JSON, cached for an hour.
+`tests/test_mcp_http.py` runs a real uvicorn on a free port. The folder has no `__init__.py`
 and its modules are named `radar_*.py`: a module or package called `mcp` would
 shadow the SDK. On stdio nothing may be printed to stdout (logs go to stderr).
 

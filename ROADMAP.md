@@ -150,3 +150,25 @@ stay as they are. Stop after each step for review.
       (`examples`).
 - [x] Step 5 — a plain-language explanation of MCP, the request flow and each file,
       with likely interview questions.
+
+## Phase 10 — Remote MCP server: connect Radar to Claude by URL
+
+The Phase 9 server, also reachable over the internet so anyone can add it to
+Claude by URL. The local stdio mode keeps working; read-only public data, no
+login, never secrets in the repository. Stop after each step for review.
+
+- [x] Step 1 — remote transport: Streamable HTTP (the SDK's recommended remote
+      transport) next to stdio with the same tools, `--http`. Stateless JSON
+      responses; live JSON from GitHub Pages cached for an hour; per-client and
+      global rate limits, a 64 KiB request body limit, Host header check
+      (`MCP_ALLOWED_HOSTS`), `/health`, and a request log without client addresses.
+- [ ] Step 2 — hosting: compare three hosts with a free or very cheap tier
+      (current terms, cold starts, limits), recommend one; Dockerfile and a GitHub
+      Actions workflow that deploys on pushes to main changing `mcp/`; the account
+      and GitHub secret steps for the owner.
+- [ ] Step 3 — use it: test the deployed URL with the MCP Inspector, as a custom
+      connector in claude.ai and in Claude Code with the three example questions;
+      README "Use Radar in Claude" and a short "Use in Claude" section on the site.
+- [ ] Step 4 — a plain-language explanation: local vs. remote MCP, hosting, Docker
+      and the deploy pipeline, cold starts, rate limits, the request flow, and
+      likely interview questions.
