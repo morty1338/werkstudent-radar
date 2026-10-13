@@ -37,6 +37,10 @@ Berlin on the map or "IT & Software" in a chart and the whole page follows.
    skills are ticked for you, to see the share of jobs you qualify for, what to
    learn next and the matching postings. The CV is analysed in the browser with
    the same skill dictionary as the postings and is never uploaded.
+6. **Straight from company career pages.** Werkstudent jobs in Berlin and
+   München read every morning from the job boards of a list of companies,
+   grouped by company, with a city switch, field and keyword filters, "new
+   today" and "also on BA" marks, and links to the original postings.
 
 In German or English (switch in the header), on phones with a bottom tab bar,
 and installable as a home-screen app. RSS feeds announce new postings per field.
@@ -193,6 +197,7 @@ Outputs:
 | `docs/data/history.json` | daily series built from `data/history.csv` (median pay with its 95% CI) |
 | `docs/data/lifetimes.json` | Kaplan–Meier curve of postings still online by days since publication, median days online overall and by field |
 | `docs/data/cooccurrence.json` | per skill, the skills most often asked for together, with lift and share |
+| `docs/data/companies.json` | Werkstudent jobs from company career pages in Berlin and München (company, title, city, field, link, first seen, new today, also on BA/Arbeitnow) and per company its board status; see [Company career pages](#company-career-pages) |
 | `docs/data/og.png` | link preview image with today's numbers (shown by Telegram, WhatsApp, LinkedIn; also at the top of this README) |
 | `data/history.csv` | one row per day × metric (`total`, `category`, `city`, `skill`, `major`, `german`). Which postings were online on a given day can't be reconstructed later, so this is collected from day one. |
 
@@ -227,6 +232,39 @@ SELECT field, COUNT(*) AS gone, AVG(days_seen) AS avg_days
 FROM lifetimes WHERE NOT still_online GROUP BY field ORDER BY gone DESC;
 ```
 
+## Company career pages
+
+[`data/companies.yaml`](data/companies.yaml) lists employers in Berlin and
+München with their careers page: those with at least two Bundesagentur postings
+there in the last week, plus boards added by hand. Many careers pages run on an
+applicant tracking system (ATS) whose public job-board API lists the open jobs,
+so no page is scraped:
+
+| ATS | Endpoint | Note |
+|-----|----------|------|
+| Greenhouse | `boards-api.greenhouse.io/v1/boards/{slug}/jobs` | public, no key |
+| Lever | `api.lever.co/v0/postings/{slug}` (EU: `api.eu.lever.co`) | public, no key |
+| Ashby | `api.ashbyhq.com/posting-api/job-board/{slug}` | public, no key |
+| Personio | `{slug}.jobs.personio.de/xml` | when the company turns the feed on |
+| SmartRecruiters | — | detected but not read: the API's robots.txt allows only LinkedInBot |
+
+`python -m radar.companies detect --all` finds the ATS and slug of each careers
+page from its redirects, links, iframes and scripts (and up to three linked job
+pages); anything else stays `unsupported` with a note on what was seen
+(Workday, SuccessFactors, a 403, …). `python -m radar.companies candidates`
+lists Bundesagentur employers in the two cities that aren't in the list yet.
+
+The daily step [`radar/careers.py`](radar/careers.py) reads the enabled boards
+through one small adapter per ATS ([`radar/ats/`](radar/ats/)), keeps titles
+with Werkstudent / Working Student / Werkstudierende in Berlin or München
+(remote in Germany flagged separately) and writes `docs/data/companies.json`:
+no job texts, only links. `first_seen` is carried over from the previous day, so
+jobs first seen today at an already listed company are marked new. A job counts
+as "also on BA" when an employer name from `ba_names`, the normalised title
+(no gender tags, Werkstudent:in = Working Student) and the city match a
+Bundesagentur posting online today. Requests use the project's User-Agent,
+respect robots.txt and are spaced 1.5 s apart with retries.
+
 ## Automation
 
 [`daily.yml`](.github/workflows/daily.yml) runs every morning (04:23 UTC) and
@@ -234,7 +272,7 @@ can be started by hand from the Actions tab. GitHub doesn't guarantee scheduled
 runs, so a catch-up run at 16:23 UTC does the work only if the morning one
 didn't happen (it checks `data/history.csv` for today's date):
 
-1. `collect` → `arbeitnow` → `enrich` → `history` → `checks` → `build`. Only new postings need their
+1. `collect` → `arbeitnow` → `enrich` → `history` → `checks` → `build` → `careers`. Only new postings need their
    text, so a normal day takes a few minutes. If the Arbeitnow step fails, the
    day goes on with the Bundesagentur's data and recently seen career-site
    postings are kept.
@@ -256,6 +294,11 @@ committed:
 | `checks` (pay) | an hourly rate of today's postings is outside 12–60 €/h, or its minimum is above its maximum |
 
 `checks` also writes its results as a table into the run's summary page.
+
+`careers` (company career pages) never fails the run. It writes warnings into
+the log and a table per company into the summary when a board answers 404 (fix
+`ats`/`slug` in `data/companies.yaml`), is empty after having postings, or
+can't be read; an unreadable board keeps its previous jobs for up to 3 days.
 
 [`pages.yml`](.github/workflows/pages.yml) publishes `docs/` to GitHub Pages.
 It runs on pushes that change the site and is called by the daily workflow
@@ -396,7 +439,7 @@ Full reports: [baseline](data/eval/report_baseline.md),
 
 ```bash
 .venv/bin/pip install -r requirements-dev.txt
-.venv/bin/python -m pytest                   # 214 tests (rules, SQL, history, stats, feeds, browser code via Node)
+.venv/bin/python -m pytest                   # 260 tests (rules, SQL, history, stats, feeds, browser code via Node)
 .venv/bin/python -m radar.evaluate report    # needs the local sample texts
 ```
 
@@ -416,6 +459,9 @@ radar/stats.py     bootstrap CIs for medians, Kaplan–Meier with delayed entry
 radar/feeds.py     RSS feeds of new postings -> docs/feeds/
 radar/og_image.py  link preview image with today's numbers
 radar/patterns.py  skill rules exported for the browser (CV analysis)
+radar/companies.py company list helpers: ATS detection, candidate employers
+radar/ats/         one adapter per ATS job board (Greenhouse, Lever, Ashby, Personio)
+radar/careers.py   company career page jobs -> docs/data/companies.json
 radar/sql/         schema and one query per output
 radar/evaluate.py  accuracy check against labelled postings
 eval/label.html    blind labelling form
@@ -426,11 +472,12 @@ lighthouserc.json  Lighthouse CI thresholds
 data/jobs.csv      extracted features (committed)
 data/history.csv   daily metric snapshots (committed)
 data/history/      scans and online stretches per posting (committed; source of history.sqlite)
+data/companies.yaml companies with careers page, ATS and slug (Berlin and München)
 data/eval/         evaluation labels and reports (job texts stay local)
 docs/              the website: index.html, assets/app.js (filters, sections), charts.js
                    (charts, map, tooltip), match.js (skills check, job list), gap.js
                    (learning plan), cv.js (CV reading), stats.js (bootstrap CI),
-                   i18n.js (German/English strings)
+                   companies.js (company career pages), i18n.js (German/English strings)
 docs/data/         JSON consumed by the website
 docs/feeds/        RSS feeds (all and per field), rebuilt daily
 data/raw/          local raw dumps, one folder per day (not committed)
