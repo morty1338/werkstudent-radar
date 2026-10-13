@@ -157,7 +157,7 @@ def build_app(server, store, limiter=None, allowed_hosts=None, trust_proxy=False
             "name": "Werkstudent Radar MCP server",
             "mcp_endpoint": "/mcp",
             "about": "Read-only statistics of Werkstudent job postings in Germany, updated daily.",
-            "docs": "https://github.com/morty1338/werkstudent-radar#use-with-claude",
+            "docs": "https://github.com/morty1338/werkstudent-radar#use-radar-in-claude",
         })
 
     app = server.streamable_http_app(

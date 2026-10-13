@@ -351,13 +351,29 @@ To preview locally:
 python3 -m http.server --directory docs
 ```
 
-## Use with Claude
+## Use Radar in Claude
 
-[`mcp/`](mcp/) is an [MCP](https://modelcontextprotocol.io) server: it lets
-Claude (Desktop or Code) answer questions with the radar's data instead of
-guessing. Claude starts it as a small local program and calls its tools; it
-only reads the same JSON files as the website (`docs/data/`, or the published
-ones with `--live`) and never sees job texts.
+Werkstudent Radar is also an [MCP](https://modelcontextprotocol.io) server: add it
+to Claude and ask about the Werkstudent job market in plain words; Claude answers
+with the radar's daily data instead of guessing. Nothing to install:
+
+**Server URL: `https://radar-mcp.vercel.app/mcp`**
+
+- **claude.ai and Claude Desktop**: Settings → Connectors → Add custom connector,
+  name it "Werkstudent Radar", paste the URL, Add. In a chat, turn it on under the
+  "+" button → Connectors. (Custom connectors work on every plan; the Free plan
+  allows one.)
+- **Claude Code**:
+
+  ```bash
+  claude mcp add --transport http werkstudent-radar https://radar-mcp.vercel.app/mcp
+  ```
+
+Example questions:
+
+1. *How many Werkstudent jobs are there in Germany right now, and what do they pay?*
+2. *What does a Werkstudent in IT earn in Berlin, and which skills are asked for most?*
+3. *I know Python, SQL and Excel. How many Werkstudent jobs in München fit me, what should I learn next, and show me three of them.*
 
 | Tool | Answers |
 |------|---------|
@@ -365,29 +381,33 @@ ones with `--live`) and never sees job texts.
 | `search_jobs` | postings by city, field, skill or "no German needed", with links to the originals |
 | `pay_stats` | median hourly pay, middle half and 95% CI for a field and/or city; says when there are fewer than 10 rates |
 | `top_skills` | the most requested skills for a field and/or city, with their share of postings |
-| `match_skills` | how many postings a set of skills fits, and the 3 skills that would open the most more |
+| `match_skills` | how many postings a set of skills fits, the 3 skills that would open the most more, and example postings |
 
 Unknown names come back with the closest ones in the data ("Did you mean:
-Berlin?"); English and umlaut-free spellings (Munich, Koeln) work.
+Berlin?"); English and umlaut-free spellings (Munich, Koeln) work. Answers are
+compact JSON with the date of the data; job texts are never included, only links.
 
-**Install** (once, in the repository folder; Python 3.10+):
+**The hosted server** ([`mcp/`](mcp/)) is read-only, public and needs no login. It
+reads the same published JSON as the website (cached for an hour), limits requests
+per client (30 at once, then one a second) and overall, accepts request bodies up to
+64 KiB, and logs requests without IP addresses. It runs on Vercel's free plan
+([why, and how it's deployed](mcp/DEPLOY.md)); a push that changes `mcp/` tests it,
+builds its Docker image and redeploys it. `https://radar-mcp.vercel.app/health`
+shows whether it's up and the date of its data.
+
+**Run it locally instead** (stdio; Python 3.10+), from the repository folder:
 
 ```bash
 python3 -m venv mcp/.venv && mcp/.venv/bin/pip install -r mcp/requirements.txt
 ```
 
-**Claude Code**: register it from the repository folder (`$PWD` makes the paths
-absolute; add `--live` at the end for the published data):
-
 ```bash
 claude mcp add werkstudent-radar -- "$PWD/mcp/.venv/bin/python" "$PWD/mcp/radar_server.py"
 ```
 
-`claude mcp list` should show it as connected; `/mcp` inside a session lists its tools.
-
-**Claude Desktop**: add it to `~/Library/Application Support/Claude/claude_desktop_config.json`
-(Windows: `%APPDATA%\Claude\claude_desktop_config.json`) with absolute paths, then
-quit and reopen the app:
+For Claude Desktop, add it to `~/Library/Application Support/Claude/claude_desktop_config.json`
+(Windows: `%APPDATA%\Claude\claude_desktop_config.json`) with absolute paths and
+reopen the app; without `--live` it reads `docs/data/` of your checkout:
 
 ```json
 {
@@ -400,11 +420,8 @@ quit and reopen the app:
 }
 ```
 
-Example questions:
-
-1. *How many Werkstudent jobs are there in Germany right now, and what do they pay?*
-2. *What does a Werkstudent in IT earn in Berlin, and which skills are asked for most?*
-3. *I know Python, SQL and Excel. How many Werkstudent jobs in München fit me, what should I learn next, and show me three of them.*
+`mcp/.venv/bin/python mcp/radar_server.py --http` starts the HTTP server locally
+(`http://127.0.0.1:8000/mcp`).
 
 ## Methods
 
@@ -520,8 +537,9 @@ radar/careers.py   company career page jobs -> docs/data/companies.json
 radar/sql/         schema and one query per output
 radar/evaluate.py  accuracy check against labelled postings
 eval/label.html    blind labelling form
-mcp/               MCP server for Claude: radar_server.py (tools), radar_tools.py (answers),
-                   radar_data.py (reads docs/data or the live site)
+mcp/               MCP server for Claude: radar_server.py (tools, stdio or --http), radar_tools.py
+                   (answers), radar_data.py (reads docs/data or the live site), radar_http.py
+                   (limits, /health), Dockerfile, vercel/ (deploy), DEPLOY.md (hosting)
 tests/             rule tests on made-up snippets, SQL tests on a tiny fixture, Node tests for browser code
 experiments/       side studies with their own dependencies (sentence embeddings vs. rules)
 media/             README screenshots
