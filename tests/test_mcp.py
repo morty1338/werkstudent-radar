@@ -292,6 +292,8 @@ async def test_server_answers_and_explains_unknown_names(server):
         ok = await c.call_tool("pay_stats", {"city": "Berlin", "field": "it"})
         bad = await c.call_tool("search_jobs", {"city": "Berln"})
     assert not ok.is_error and ok.structured_content["median_eur_per_hour"] == 17.5
+    text = ok.content[0].text                       # what the model reads: compact JSON, same data
+    assert "\n" not in text and ", " not in text and json.loads(text) == ok.structured_content
     assert bad.is_error and "Did you mean: Berlin?" in bad.content[0].text
 
 

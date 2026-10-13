@@ -13,6 +13,7 @@ JSON, refreshed hourly. Read-only either way: it only reads the website's files.
 """
 
 import argparse
+import json
 import logging
 import os
 import sys
@@ -20,6 +21,7 @@ from typing import Any
 
 from mcp.server import MCPServer
 from mcp.server.mcpserver.exceptions import ToolError
+from mcp.types import CallToolResult, TextContent
 
 import radar_data
 import radar_tools as rt
@@ -37,11 +39,16 @@ store = radar_data.Store(radar_data.Source())
 
 
 def answer(fn, *args, **kwargs):
-    """Run a tool on today's data; unknown names and missing data become messages for Claude."""
+    """Run a tool on today's data; unknown names and missing data become messages for Claude.
+
+    The text the model reads is compact JSON (the SDK would indent it, which costs tokens);
+    the same dict goes out as structured content and matches the declared dict return type."""
     try:
-        return fn(store.data(), *args, **kwargs)
+        data = fn(store.data(), *args, **kwargs)
     except (rt.UnknownValue, radar_data.DataError) as e:
         raise ToolError(str(e)) from e
+    text = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    return CallToolResult(content=[TextContent(type="text", text=text)], structured_content=data)
 
 
 @mcp.tool()
