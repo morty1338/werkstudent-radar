@@ -82,22 +82,32 @@ jobs:
 
       # The project is created on the first run; Vercel builds the staged folder
       # (Python 3.12, requirements.txt, app.py) and makes it the production deployment.
+      # The folder lies outside the git checkout, so `vercel link` finds no repository
+      # to connect (Vercel's Git integration would deploy the whole repo on every commit).
       - name: Deploy to Vercel
         if: env.VERCEL_TOKEN != ''
         run: |
-          bash mcp/vercel/stage.sh build
-          cd build
-          npx --yes "$VERCEL_CLI" project add "$PROJECT" --token "$VERCEL_TOKEN" || true   # already exists
-          npx --yes "$VERCEL_CLI" link --yes --project "$PROJECT" --token "$VERCEL_TOKEN"
-          npx --yes "$VERCEL_CLI" deploy --prod --yes --token "$VERCEL_TOKEN" > ../deployment.txt
-          cat ../deployment.txt
+          token=$(printf '%s' "$VERCEL_TOKEN" | tr -d '\r\n' | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')
+          case "$token" in
+            *[[:space:]]*) echo "::error::The VERCEL_TOKEN secret contains a space. Paste only the token itself (one word, no name, no 'Bearer')."; exit 1 ;;
+          esac
+          echo "::add-mask::$token"
+          echo "TOKEN=$token" >> "$GITHUB_ENV"
+          build="$RUNNER_TEMP/radar-mcp"
+          echo "BUILD=$build" >> "$GITHUB_ENV"
+          bash mcp/vercel/stage.sh "$build"
+          cd "$build"
+          npx --yes "$VERCEL_CLI" project add "$PROJECT" --token "$token" || true   # fails when it already exists
+          npx --yes "$VERCEL_CLI" link --yes --project "$PROJECT" --token "$token"
+          npx --yes "$VERCEL_CLI" deploy --prod --yes --token "$token" > deployment.txt
+          cat deployment.txt
 
       - name: Check the deployed server
         if: env.VERCEL_TOKEN != ''
         run: |
           # The production address (deployment-specific URLs may sit behind Vercel's login).
-          cd build
-          domain=$(npx --yes "$VERCEL_CLI" inspect "$(tail -1 ../deployment.txt)" --token "$VERCEL_TOKEN" 2>&1 \
+          cd "$BUILD"
+          domain=$(npx --yes "$VERCEL_CLI" inspect "$(tail -1 deployment.txt)" --token "$TOKEN" 2>&1 \
                    | grep -oE 'https://[a-z0-9-]+\.vercel\.app' | awk '{ print length, $0 }' | sort -n | head -1 | cut -d' ' -f2)
           echo "Production address: $domain"
           curl -fsS --retry 5 --retry-delay 3 --retry-all-errors "$domain/health"
