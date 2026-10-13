@@ -154,6 +154,9 @@ def test_match_skills_counts_fits_and_plans_what_to_learn(d):
                                {"skill": "Power BI", "extra_postings": 4, "extra_total": 8},
                                {"skill": "Excel", "extra_postings": 1, "extra_total": 9}]
     assert "unknown_skills" not in r
+    assert [j["title"] for j in r["examples"]] == ["Werkstudent 11"]          # the one fitting posting
+    assert len(rt.match_skills(d, ["sql", "python", "power bi"], examples=2)["examples"]) == 2
+    assert rt.match_skills(d, ["sql"], examples=0)["examples"] == []
 
 
 def test_match_skills_reports_unknown_skills_with_suggestions(d):

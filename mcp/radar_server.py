@@ -80,12 +80,14 @@ def top_skills(field: str | None = None, city: str | None = None, limit: int = 1
 
 
 @mcp.tool()
-def match_skills(skills: list[str], city: str | None = None, field: str | None = None) -> dict[str, Any]:
+def match_skills(skills: list[str], city: str | None = None, field: str | None = None,
+                 examples: int = 3) -> dict[str, Any]:
     """How many Werkstudent postings someone with these skills qualifies for (a posting fits
     when at most a quarter of its listed skills are missing), the share of postings that list
-    skills, and the next 3 skills that would make the most extra postings fit. Use it for
-    "which jobs fit my skills?" or "what should I learn next?". Optional city and field filters."""
-    return answer(rt.match_skills, skills, city=city, field=field)
+    skills, the next 3 skills that would make the most extra postings fit, and the newest
+    fitting postings with links (`examples`, 0–10). Use it for "which jobs fit my skills?" or
+    "what should I learn next?". Optional city and field filters."""
+    return answer(rt.match_skills, skills, city=city, field=field, examples=examples)
 
 
 def configure(argv=None):

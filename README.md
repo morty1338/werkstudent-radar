@@ -351,6 +351,61 @@ To preview locally:
 python3 -m http.server --directory docs
 ```
 
+## Use with Claude
+
+[`mcp/`](mcp/) is an [MCP](https://modelcontextprotocol.io) server: it lets
+Claude (Desktop or Code) answer questions with the radar's data instead of
+guessing. Claude starts it as a small local program and calls its tools; it
+only reads the same JSON files as the website (`docs/data/`, or the published
+ones with `--live`) and never sees job texts.
+
+| Tool | Answers |
+|------|---------|
+| `get_overview` | how many postings, last update, median pay, top cities, fields and skills |
+| `search_jobs` | postings by city, field, skill or "no German needed", with links to the originals |
+| `pay_stats` | median hourly pay, middle half and 95% CI for a field and/or city; says when there are fewer than 10 rates |
+| `top_skills` | the most requested skills for a field and/or city, with their share of postings |
+| `match_skills` | how many postings a set of skills fits, and the 3 skills that would open the most more |
+
+Unknown names come back with the closest ones in the data ("Did you mean:
+Berlin?"); English and umlaut-free spellings (Munich, Koeln) work.
+
+**Install** (once, in the repository folder; Python 3.10+):
+
+```bash
+python3 -m venv mcp/.venv && mcp/.venv/bin/pip install -r mcp/requirements.txt
+```
+
+**Claude Code**: register it from the repository folder (`$PWD` makes the paths
+absolute; add `--live` at the end for the published data):
+
+```bash
+claude mcp add werkstudent-radar -- "$PWD/mcp/.venv/bin/python" "$PWD/mcp/radar_server.py"
+```
+
+`claude mcp list` should show it as connected; `/mcp` inside a session lists its tools.
+
+**Claude Desktop**: add it to `~/Library/Application Support/Claude/claude_desktop_config.json`
+(Windows: `%APPDATA%\Claude\claude_desktop_config.json`) with absolute paths, then
+quit and reopen the app:
+
+```json
+{
+  "mcpServers": {
+    "werkstudent-radar": {
+      "command": "/absolute/path/to/werkstudent-radar/mcp/.venv/bin/python",
+      "args": ["/absolute/path/to/werkstudent-radar/mcp/radar_server.py", "--live"]
+    }
+  }
+}
+```
+
+Example questions:
+
+1. *How many Werkstudent jobs are there in Germany right now, and what do they pay?*
+2. *What does a Werkstudent in IT earn in Berlin, and which skills are asked for most?*
+3. *I know Python, SQL and Excel. How many Werkstudent jobs in München fit me, what should I learn next, and show me three of them.*
+
 ## Methods
 
 **Each role counts once in pay figures.** Pay statistics use one posting per
@@ -439,7 +494,7 @@ Full reports: [baseline](data/eval/report_baseline.md),
 
 ```bash
 .venv/bin/pip install -r requirements-dev.txt
-.venv/bin/python -m pytest                   # 260 tests (rules, SQL, history, stats, feeds, browser code via Node)
+.venv/bin/python -m pytest                   # 296 tests (rules, SQL, history, stats, feeds, browser code via Node)
 .venv/bin/python -m radar.evaluate report    # needs the local sample texts
 ```
 
@@ -465,6 +520,8 @@ radar/careers.py   company career page jobs -> docs/data/companies.json
 radar/sql/         schema and one query per output
 radar/evaluate.py  accuracy check against labelled postings
 eval/label.html    blind labelling form
+mcp/               MCP server for Claude: radar_server.py (tools), radar_tools.py (answers),
+                   radar_data.py (reads docs/data or the live site)
 tests/             rule tests on made-up snippets, SQL tests on a tiny fixture, Node tests for browser code
 experiments/       side studies with their own dependencies (sentence embeddings vs. rules)
 media/             README screenshots

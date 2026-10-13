@@ -245,9 +245,7 @@ def search_jobs(d, city=None, field=None, skill=None, no_german=False, limit=10)
     si = resolve_skill(d, skill) if skill else None
     idx = [i for i in pool(d, fi, ci, no_german) if si is None or si in d.jobs[i][rd.SKILLS]]
     limit = max(1, min(int(limit or 10), MAX_LIMIT))
-    if d.postings is not None:   # newest first
-        pos = d.posting_fields.index("published")
-        idx.sort(key=lambda i: d.postings[i][pos] or "", reverse=True)
+    idx = newest_first(d, idx)
     return {
         "as_of": d.as_of,
         "filters": filters_used(d, fi, ci, no_german, si),
@@ -288,7 +286,15 @@ def top_skills(d, field=None, city=None, limit=10):
     }
 
 
-def match_skills(d, skills, city=None, field=None):
+def newest_first(d, idx):
+    """Postings `idx` with the latest publication date first (as listed when postings.json is missing)."""
+    if d.postings is None:
+        return list(idx)
+    pos = d.posting_fields.index("published")
+    return sorted(idx, key=lambda i: d.postings[i][pos] or "", reverse=True)
+
+
+def match_skills(d, skills, city=None, field=None, examples=3):
     fi, ci = resolve_field(d, field), resolve_city(d, city)
     have, unknown = set(), []
     for name in skills or []:
@@ -298,7 +304,8 @@ def match_skills(d, skills, city=None, field=None):
             unknown.append({"name": name, "did_you_mean": e.suggestions})
     idx = pool(d, fi, ci)
     listed = [d.jobs[i][rd.SKILLS] for i in idx if d.jobs[i][rd.SKILLS]]
-    fit = sum(1 for s in listed if fits(s, have))
+    fitting = [i for i in idx if d.jobs[i][rd.SKILLS] and fits(d.jobs[i][rd.SKILLS], have)]
+    fit = len(fitting)
     near = sum(1 for s in listed if not fits(s, have) and sum(1 for x in s if x not in have) == len(s) // 4 + 1)
     demand = {i: s["jobs"] for i, s in enumerate(d.skills)}
     plan = gap_plan(listed, have, steps=3, demand=demand)
@@ -311,6 +318,7 @@ def match_skills(d, skills, city=None, field=None):
         "fit_share": round(fit / len(listed), 4) if listed else 0,
         "one_skill_short": near,
         "learn_next": [{"skill": d.skills[p["skill"]]["label"], "extra_postings": p["gain"], "extra_total": p["total"]} for p in plan],
+        "examples": [posting_out(d, i) for i in newest_first(d, fitting)[:max(0, min(int(examples or 0), 10))]],
         "rule": "A posting fits when you lack at most a quarter (rounded down) of the skills it lists.",
     }
     if unknown:

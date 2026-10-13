@@ -142,7 +142,11 @@ stay as they are. Stop after each step for review.
       job texts.
 - [x] Step 3 — quality: pytest per tool on a small fixture copy of the data;
       unknown city/field/skill answered with close matches.
-- [ ] Step 4 — docs: README "Use with Claude" (Claude Desktop config, `claude mcp
-      add`), three example questions, tried in a Claude Code session.
+- [x] Step 4 — docs: README "Use with Claude" (Claude Desktop config, `claude mcp
+      add`), three example questions, tried in a Claude Code session. Registered
+      with the README's `claude mcp add` (connected; a new Claude Code session lists
+      the five tools); the questions were asked through the server over stdio.
+      Testing showed `match_skills` should also return a few fitting postings
+      (`examples`).
 - [ ] Step 5 — a plain-language explanation of MCP, the request flow and each file,
       with likely interview questions.
