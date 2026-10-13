@@ -120,7 +120,7 @@ never fetched. Stop after each step for review.
       (no job texts, links to the originals), deduped against BA postings (company +
       normalised title + city) with an "also on BA" mark; run-log warnings for a 404
       or 0 jobs after having jobs; pytest per adapter on saved sample responses.
-- [ ] Step 4 — frontend: "Companies" tab in the radar style with a Berlin / München
+- [x] Step 4 — frontend: "Companies" tab in the radar style with a Berlin / München
       switch, list grouped by company with job counts, field keyword filter, "new
       today" badge and links to the originals; works with the phone tab bar and
       filter sheet.

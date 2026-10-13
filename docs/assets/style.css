@@ -305,6 +305,22 @@ a.tile:hover { transform: translateY(-2px); border-color: var(--accent); }
 .filter-chip { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; background: var(--accent-soft); border-radius: 999px; padding: 4px 6px 4px 12px; margin-bottom: 8px; }
 .filter-chip button { border: 0; background: none; cursor: pointer; font-size: 16px; line-height: 1; padding: 0 6px; }
 
+/* 06 Company career pages */
+#co-search { width: min(100%, 300px); }
+.seg-n, .chip-n { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 12px; color: var(--ink-3); margin-left: 2px; }
+.seg button[aria-selected="true"] .seg-n { color: var(--accent-ink); }
+.chip[aria-pressed="true"] .chip-n { color: var(--on-accent); }
+.co-group { padding-top: 6px; }
+.co-group + .co-group { margin-top: 10px; border-top: 1px solid var(--surface-3); padding-top: 14px; }
+.co-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.co-head h3 { margin: 0; }
+.co-count { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 13px; font-weight: 700; color: var(--accent-ink); }
+.co-link { margin-left: auto; font-size: 13px; color: var(--ink-2); }
+.co-link:hover { color: var(--accent-ink); }
+.badge.new { background: var(--accent); color: var(--on-accent); font-weight: 600; }
+.co-empty { color: var(--ink-2); margin: 8px 0; }
+.co-note { display: block; line-height: 1.5; }
+
 /* Line charts */
 .line-chart svg { display: block; width: 100%; height: 180px; overflow: visible; }
 .line-chart .grid line { stroke: var(--line); stroke-width: 1; }
@@ -400,6 +416,8 @@ a.tile:hover { transform: translateY(-2px); border-color: var(--accent); }
   .job { grid-template-columns: minmax(0, 1fr); }
   .job .side { grid-column: 1; grid-row: auto; flex-direction: row; align-items: center; flex-wrap: wrap; }
   .dot-row { grid-template-columns: minmax(90px, 34%) 1fr 56px; }
+  #co-search { width: 100%; }
+  .co-link { margin-left: 0; flex-basis: 100%; }
 }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }

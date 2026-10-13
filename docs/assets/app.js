@@ -1,4 +1,5 @@
 import { barList, bubbleMap, dotRange, esc, fmt, histogram, initTooltip, lineChart, rollDigits, survivalChart } from "./charts.js?v=dev";
+import { initCompanies } from "./companies.js?v=dev";
 import { initCv } from "./cv.js?v=dev";
 import { applyStatic, fieldLabel, groupLabel, initLangSwitch, lang, skillLabel as localSkillLabel, t } from "./i18n.js?v=dev";
 import { initMatch } from "./match.js?v=dev";
@@ -27,12 +28,12 @@ async function main() {
   applyStatic();
   initLangSwitch();
   initTooltip();
-  let S, D, H, L, C;
+  let S, D, H, L, C, CO;
   try {
-    // lifetimes and cooccurrence are extras: the page works without them.
-    [S, D, H, L, C] = await Promise.all([
+    // lifetimes, cooccurrence and companies are extras: the page works without them.
+    [S, D, H, L, C, CO] = await Promise.all([
       load("summary"), load("checker"), load("history"),
-      load("lifetimes").catch(() => null), load("cooccurrence").catch(() => null),
+      load("lifetimes").catch(() => null), load("cooccurrence").catch(() => null), load("companies").catch(() => null),
     ]);
   } catch (e) {
     document.getElementById("tiles").innerHTML = `<p class="stale">${esc(t("load.error", { msg: e.message }))}</p>`;
@@ -540,6 +541,8 @@ async function main() {
     if (lang !== "en") p.set("lang", lang);
     const skills = ctx.match.ids();
     if (skills.length) p.set("skills", skills.join(","));
+    const co = ctx.companiesParam?.();
+    if (co) p.set("co", co);
     const url = new URL(location.href);
     url.search = p.toString();
     history.replaceState(null, "", url);
@@ -564,6 +567,7 @@ async function main() {
 
   ctx.match = initMatch(ctx, (params.get("skills") || "").split(",").filter(Boolean));
   initCv(ctx);
+  initCompanies(ctx, CO);
   renderTrends();
   render();
 
@@ -593,7 +597,7 @@ async function main() {
     },
     { rootMargin: "-40% 0px -55% 0px" },
   );
-  navLinks.forEach((a) => spy.observe(document.querySelector(a.hash)));
+  navLinks.filter((a) => !a.hidden).forEach((a) => spy.observe(document.querySelector(a.hash)));
   spy.observe(document.querySelector(".hero"));
 
   // Sections get their height only now, so jump to #anchor again.

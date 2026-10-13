@@ -38,6 +38,7 @@
         <a href="#skills"><b class="nav-num" aria-hidden="true">03</b><span data-i18n="nav.skills">Skills</span></a>
         <a href="#trends"><b class="nav-num" aria-hidden="true">04</b><span data-i18n="nav.trends">Trends</span></a>
         <a href="#check" aria-label="Your skills" data-i18n-attr="aria-label:nav.check"><b class="nav-num" aria-hidden="true">05</b><span class="nav-full" data-i18n="nav.check">Your skills</span><span class="nav-short" data-i18n="nav.check_short">Match</span></a>
+        <a href="#companies" aria-label="Company career pages" data-i18n-attr="aria-label:nav.companies_aria"><b class="nav-num" aria-hidden="true">06</b><span class="nav-full" data-i18n="nav.companies">Companies</span><span class="nav-short" data-i18n="nav.companies_short">Firms</span></a>
       </nav>
       <div class="lang-switch" role="group" aria-label="Language" data-i18n-attr="aria-label:lang.aria">
         <button type="button" data-lang="en" lang="en" aria-pressed="true">EN</button><button type="button" data-lang="de" lang="de" aria-pressed="false">DE</button>
@@ -188,11 +189,27 @@
       </div>
     </section>
 
+    <section id="companies" class="wrap section">
+      <p class="step">06</p>
+      <h2 data-i18n="co.title">Straight from company career pages</h2>
+      <p class="insight" id="co-insight"></p>
+      <div class="card">
+        <div class="card-head">
+          <div class="seg" id="co-city" role="tablist" aria-label="City" data-i18n-attr="aria-label:co.city_aria"></div>
+          <label class="sr-only" for="co-search" data-i18n="co.search">Filter by keyword</label>
+          <input id="co-search" type="search" placeholder="Keyword: data, marketing, SAP…" data-i18n-attr="placeholder:co.search_ph">
+        </div>
+        <div class="chips-row" id="co-fields"></div>
+        <div id="co-list" aria-live="polite"></div>
+        <p class="legend-line co-note" id="co-note"></p>
+      </div>
+    </section>
+
     <section class="wrap section about">
       <details>
         <summary data-i18n="about.summary">About the data</summary>
         <div class="about-body" data-i18n-html="about.body">
-          <p><strong>Sources.</strong> Every morning a script collects all postings with “Werkstudent”, “Working Student” or “Werkstudierende” in the title from the public job search of the <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, plus Werkstudent postings from companies' own career sites through the free <a href="https://www.arbeitnow.com/">Arbeitnow</a> job API. A posting found in both counts once. LinkedIn, StepStone and Indeed don't allow automated collection and aren't used; many of their postings come from the same company career sites.</p>
+          <p><strong>Sources.</strong> Every morning a script collects all postings with “Werkstudent”, “Working Student” or “Werkstudierende” in the title from the public job search of the <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, plus Werkstudent postings from companies' own career sites through the free <a href="https://www.arbeitnow.com/">Arbeitnow</a> job API. A posting found in both counts once. LinkedIn, StepStone and Indeed don't allow automated collection and aren't used; many of their postings come from the same company career sites. <strong>Company career pages</strong> (section 06) are read directly from the public job boards of a list of companies in Berlin and München (Greenhouse, Lever, Ashby, Personio).</p>
           <p><strong>Pay</strong> comes from the posting's salary fields or phrases like “17,50 € pro Stunde”. Each role counts once, and a median needs at least 10 roles.</p>
           <p><strong>Skills and German</strong> are found by rules with German and English synonyms, checked against 100 labelled postings. <a href="https://github.com/morty1338/werkstudent-radar#accuracy">How accurate they are</a>.</p>
           <p><strong>Your CV</strong> is read and analysed in your browser with the same rules. It is never uploaded or stored.</p>

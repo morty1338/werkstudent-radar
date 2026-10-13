@@ -29,6 +29,7 @@ numbers, never job text.
 - `assets/app.js` — state, filter bar, sections 01–04 (where, pay, skills, trends), URL sync
 - `assets/charts.js` — chart helpers (`barList`, `histogram`, `dotRange`, `bubbleMap`, `lineChart` with optional CI band, `survivalChart`), tooltip, `rollDigits` (KPI tile animation, only for values that changed), `fmt`, `esc`
 - `assets/match.js` — section 05 "Check your skills": skill chips, match summary, collapsible job list
+- `assets/companies.js` — section 06 "Company career pages": city switch (Berlin/München, `?co=muenchen`), field chips, keyword search, jobs grouped by company from `data/companies.json`; hidden with its nav link when the file is missing. Not tied to the filter bar
 - `assets/i18n.js` — UI language (`?lang=de`, default English): `STRINGS` holds every UI text with `en` and `de` side by side; `t(key, vars)`; `fieldLabel`/`groupLabel`/`skillLabel` translate data labels; `applyStatic()` fills `data-i18n` (text), `data-i18n-html` and `data-i18n-attr="attr:key"` in `index.html`. New UI text goes into `STRINGS`, never inline (a test checks every used key exists in both languages). `fmt` in `charts.js` formats numbers/dates for the language
 - `assets/gap.js` — skill-gap plan (`gapPlan`, greedy by marginal gain; no imports, tested in Node)
 - `assets/stats.js` — bootstrap 95% CI of a median (`medianCI`, same method as `radar/stats.py`, memoised)
@@ -54,11 +55,11 @@ map) a tap within 22 px of a small bubble picks the nearest one.
 
 **State and navigation:** `state` in `app.js` (`field`, `city`, `noGerman`,
 `payBy`, `skillGroup`, `skill`); selected skills live in `match.js`.
-`syncUrl()` mirrors them to `?field=&city=&german=no&skills=` via
+`syncUrl()` mirrors them to `?field=&city=&german=no&skills=` (plus `co=` from `companies.js`) via
 `history.replaceState`; they are read back on load. Chart clicks use delegated
 `data-key` handlers (`onPick`) and call `render()`, which redraws every
 filtered section; trends are not filtered. Section anchors:
-`#where #pay #skills #trends #check`, under a sticky header with the
+`#where #pay #skills #trends #check #companies`, under a sticky header with the
 filter bar; an IntersectionObserver sets `aria-current` on the nav link in view.
 Active filters also show as removable chips in `#f-chips` (phones only).
 

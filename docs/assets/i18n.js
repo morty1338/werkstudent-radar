@@ -146,9 +146,7 @@ const STRINGS = {
   "skills.have": { en: "✓ In your skills", de: "✓ In deinen Skills" },
   "skills.add": { en: "+ I have this", de: "+ Kann ich" },
 
-  // --- 04 Programmes -----------------------------------------------------------------------------------------------
-
-  // --- 05 Trends ----------------------------------------------------------------------------------------------------
+  // --- 04 Trends ----------------------------------------------------------------------------------------------------
   "trends.title": { en: "How is it changing?", de: "Wie verändert es sich?" },
   "trends.early": {
     en: "A snapshot is taken every morning since {date}. Trends appear after a few weeks.",
@@ -184,7 +182,7 @@ const STRINGS = {
   "chart.latest": { en: "{label}: latest {v}", de: "{label}: zuletzt {v}" },
   "chart.ci": { en: " (95% CI {lo}–{hi})", de: " (95%-KI {lo}–{hi})" },
 
-  // --- 06 Check your skills -------------------------------------------------------------------------------------------
+  // --- 05 Check your skills -------------------------------------------------------------------------------------------
   "check.title": { en: "Check your skills", de: "Prüfe deine Skills" },
   "check.insight": {
     en: "Tick what you can do, or let your CV fill it in, to see the share of these jobs you qualify for.",
@@ -259,17 +257,54 @@ const STRINGS = {
   "subscribe.copied": { en: "Copied ✓", de: "Kopiert ✓" },
   "subscribe.hint": { en: "Pick a field in the filters to get a feed for just that field.", de: "Wähle in den Filtern einen Bereich für einen Feed nur dieses Bereichs." },
 
-  // --- 07 SQL playground ---------------------------------------------------------------------------------------------
+  // --- 06 Company career pages ------------------------------------------------------------------------------------
+  "nav.companies": { en: "Companies", de: "Unternehmen" },
+  "nav.companies_short": { en: "Firms", de: "Firmen" },
+  "nav.companies_aria": { en: "Company career pages", de: "Karriereseiten der Unternehmen" },
+  "co.title": { en: "Straight from company career pages", de: "Direkt von den Karriereseiten" },
+  "co.city_aria": { en: "City", de: "Stadt" },
+  "co.search": { en: "Filter by keyword", de: "Nach Stichwort filtern" },
+  "co.search_ph": { en: "Keyword: data, marketing, SAP…", de: "Stichwort: Daten, Marketing, SAP …" },
+  "co.all_fields": { en: "All fields", de: "Alle Bereiche" },
+  "co.insight": {
+    en: (v) => `<strong>${v.n}</strong> Werkstudent ${plural(v.n === "1" ? 1 : 2, "job", "jobs")} at ${v.firms} ${plural(v.firms === "1" ? 1 : 2, "company", "companies")} in ${v.city}, read every morning from their own job boards.`,
+    de: (v) => `<strong>${v.n}</strong> ${plural(v.n === "1" ? 1 : 2, "Werkstudentenstelle", "Werkstudentenstellen")} bei ${v.firms} ${plural(v.firms === "1" ? 1 : 2, "Unternehmen", "Unternehmen")} in ${v.city}, jeden Morgen direkt von ihren Jobbörsen gelesen.`,
+  },
+  "co.insight_new": { en: "{n} new today.", de: "{n} heute neu." },
+  "co.insight_new_on": { en: "{n} new on {date}.", de: "{n} neu am {date}." },
+  "co.insight_only": {
+    en: (v) => `${v.n} of them ${v.n === "1" ? "isn't" : "aren't"} on the Bundesagentur job board.`,
+    de: (v) => `${v.n} davon ${v.n === "1" ? "steht" : "stehen"} nicht in der Jobbörse der Bundesagentur.`,
+  },
+  "co.empty": { en: "No Werkstudent jobs at the listed companies in {city} right now.", de: "Gerade keine Werkstudentenstellen bei den gelisteten Unternehmen in {city}." },
+  "co.no_match": { en: "No job matches this filter.", de: "Kein Job passt zu diesem Filter." },
+  "co.careers": { en: "Career page ↗", de: "Karriereseite ↗" },
+  "co.remote_de": { en: "Remote in Germany", de: "Remote in Deutschland" },
+  "co.remote": { en: "Remote", de: "Remote" },
+  "co.posted": { en: "posted {date}", de: "veröffentlicht {date}" },
+  "co.new_today": { en: "New today", de: "Heute neu" },
+  "co.new_on": { en: "New {date}", de: "Neu am {date}" },
+  "co.first_seen": { en: "First seen on {date}", de: "Zuerst gesehen am {date}" },
+  "co.also_ba": { en: "Also on BA", de: "Auch bei der BA" },
+  "co.also_ba_title": {
+    en: "The same job is on the Bundesagentur job board, so it also counts in the charts above",
+    de: "Dieselbe Stelle steht in der Jobbörse der Bundesagentur und zählt daher auch in den Grafiken oben",
+  },
+  "co.note": {
+    en: "{read} of {n} company job boards (Greenhouse, Lever, Ashby, Personio) read on {date}. Not affected by the filters above.",
+    de: "{read} von {n} Jobbörsen der Unternehmen (Greenhouse, Lever, Ashby, Personio) gelesen am {date}. Die Filter oben gelten hier nicht.",
+  },
+  "co.quiet": { en: "No Werkstudent jobs here right now: {list}.", de: "Hier gerade ohne Werkstudentenstellen: {list}." },
 
   // --- About, footer -------------------------------------------------------------------------------------------------
   "about.summary": { en: "About the data", de: "Über die Daten" },
   "about.body": {
-    en: `<p><strong>Sources.</strong> Every morning a script collects all postings with “Werkstudent”, “Working Student” or “Werkstudierende” in the title from the public job search of the <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, plus Werkstudent postings from companies' own career sites through the free <a href="https://www.arbeitnow.com/">Arbeitnow</a> job API. A posting found in both counts once. LinkedIn, StepStone and Indeed don't allow automated collection and aren't used; many of their postings come from the same company career sites.</p>
+    en: `<p><strong>Sources.</strong> Every morning a script collects all postings with “Werkstudent”, “Working Student” or “Werkstudierende” in the title from the public job search of the <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, plus Werkstudent postings from companies' own career sites through the free <a href="https://www.arbeitnow.com/">Arbeitnow</a> job API. A posting found in both counts once. LinkedIn, StepStone and Indeed don't allow automated collection and aren't used; many of their postings come from the same company career sites. <strong>Company career pages</strong> (section 06) are read directly from the public job boards of a list of companies in Berlin and München (Greenhouse, Lever, Ashby, Personio).</p>
 <p><strong>Pay</strong> comes from the posting's salary fields or phrases like “17,50 € pro Stunde”. Each role counts once; a median needs at least 10 roles and is shown with its 95% confidence interval.</p>
 <p><strong>Skills and German</strong> are found by rules with German and English synonyms, checked against 100 labelled postings. <a href="https://github.com/morty1338/werkstudent-radar#accuracy">How accurate they are</a>.</p>
 <p><strong>Your CV</strong> is read and analysed in your browser with the same rules. It is never uploaded or stored.</p>
 <p>Job texts belong to the employers and aren't published here; links lead to the originals. Code and data: <a href="https://github.com/morty1338/werkstudent-radar">github.com/morty1338/werkstudent-radar</a>.</p>`,
-    de: `<p><strong>Quellen.</strong> Jeden Morgen sammelt ein Skript alle Anzeigen mit „Werkstudent“, „Working Student“ oder „Werkstudierende“ im Titel aus der öffentlichen Jobsuche der <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, dazu Werkstudentenstellen von Karriereseiten der Unternehmen über die kostenlose Job-API von <a href="https://www.arbeitnow.com/">Arbeitnow</a>. Eine Anzeige, die in beiden vorkommt, zählt einmal. LinkedIn, StepStone und Indeed erlauben kein automatisches Sammeln und werden nicht genutzt; viele ihrer Anzeigen stammen von denselben Karriereseiten.</p>
+    de: `<p><strong>Quellen.</strong> Jeden Morgen sammelt ein Skript alle Anzeigen mit „Werkstudent“, „Working Student“ oder „Werkstudierende“ im Titel aus der öffentlichen Jobsuche der <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, dazu Werkstudentenstellen von Karriereseiten der Unternehmen über die kostenlose Job-API von <a href="https://www.arbeitnow.com/">Arbeitnow</a>. Eine Anzeige, die in beiden vorkommt, zählt einmal. LinkedIn, StepStone und Indeed erlauben kein automatisches Sammeln und werden nicht genutzt; viele ihrer Anzeigen stammen von denselben Karriereseiten. <strong>Karriereseiten</strong> (Abschnitt 06) werden direkt aus den öffentlichen Jobbörsen ausgewählter Unternehmen in Berlin und München gelesen (Greenhouse, Lever, Ashby, Personio).</p>
 <p><strong>Löhne</strong> stammen aus den Gehaltsfeldern der Anzeige oder aus Formulierungen wie „17,50 € pro Stunde“. Jede Rolle zählt einmal; ein Median braucht mindestens 10 Rollen und wird mit seinem 95%-Konfidenzintervall gezeigt.</p>
 <p><strong>Skills und Deutsch</strong> werden mit Regeln mit deutschen und englischen Synonymen erkannt und an 100 annotierten Anzeigen geprüft. <a href="https://github.com/morty1338/werkstudent-radar#accuracy">Wie genau sie sind</a>.</p>
 <p><strong>Dein Lebenslauf</strong> wird in deinem Browser mit denselben Regeln gelesen und ausgewertet. Er wird nie hochgeladen oder gespeichert.</p>
