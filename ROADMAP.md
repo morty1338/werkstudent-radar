@@ -171,9 +171,14 @@ login, never secrets in the repository. Stop after each step for review.
       (current terms, cold starts, limits), recommend one; Dockerfile and a GitHub
       Actions workflow that deploys on pushes to main changing `mcp/`; the account
       and GitHub secret steps for the owner.
-- [ ] Step 3 — use it: test the deployed URL with the MCP Inspector, as a custom
+- [x] Step 3 — use it: test the deployed URL with the MCP Inspector, as a custom
       connector in claude.ai and in Claude Code with the three example questions;
       README "Use Radar in Claude" and a short "Use in Claude" section on the site.
+      Live at `https://radar-mcp.vercel.app/mcp`; answered the three questions through
+      the SDK client, the Inspector CLI, Claude Code, a claude.ai connector ("No
+      sign-in") and that connector inside a Claude Code session. Testing showed the
+      SDK's indented text copies cost about a third more tokens, so the tools now
+      send compact JSON.
 - [ ] Step 4 — a plain-language explanation: local vs. remote MCP, hosting, Docker
       and the deploy pipeline, cold starts, rate limits, the request flow, and
       likely interview questions.
