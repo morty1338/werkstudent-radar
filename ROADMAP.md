@@ -148,5 +148,5 @@ stay as they are. Stop after each step for review.
       the five tools); the questions were asked through the server over stdio.
       Testing showed `match_skills` should also return a few fitting postings
       (`examples`).
-- [ ] Step 5 — a plain-language explanation of MCP, the request flow and each file,
+- [x] Step 5 — a plain-language explanation of MCP, the request flow and each file,
       with likely interview questions.
