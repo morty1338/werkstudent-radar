@@ -50,6 +50,19 @@ integration: it would deploy everything on every bot commit. Failing workflow st
 repeat their output as public annotations (`.github/scripts/run_logged.sh`): read
 them via the check-runs annotations API, since the logs need the owner's login.
 
+## Telegram alerts
+
+`radar/notify.py` runs in `daily.yml` after the data commit (so the catch-up run can't
+send a day twice) and POSTs today's new postings to an n8n workflow, which filters them
+and posts to Telegram. "New" = first_seen on the latest collection day, by
+`feeds.new_postings`' rules, plus `new` jobs in `companies.json` with an empty `also_on`.
+Payload: facts and links only (never job texts), at most `MAX_JOBS`, the full count in
+`total`. Signed with `X-Radar-Signature: sha256=HMAC-SHA256(WEBHOOK_SECRET, "<ts>." + body)`
+and `X-Radar-Timestamp`; changing the body encoding breaks the check in n8n. Secrets
+`N8N_WEBHOOK_URL` and `WEBHOOK_SECRET` (GitHub Secrets only): without them the step does
+nothing; it always exits 0, and never prints the URL (request errors would contain it).
+`python -m radar.notify --dry-run` prints the payload.
+
 ## Frontend notes
 
 **Files** (`docs/`, served as-is, no build step):

@@ -202,3 +202,28 @@ sections lose their numbers. Stop after each step for review.
       skills" and on the Companies tab, and a "no longer online" mark when a tracked
       posting leaves the daily data.
 - [x] Step 4 — tests for the tracker logic (Node), README and CLAUDE.md, Lighthouse.
+
+## Phase 12 — Telegram job alerts (webhook + n8n)
+
+New postings reach Telegram every morning: the daily pipeline sends one signed
+webhook, an n8n workflow filters and formats it, a Telegram bot posts it. The site,
+the pipeline and the data format stay as they are; secrets live only in GitHub
+Secrets and n8n credentials. Stop after each step for review.
+
+- [x] Step 1 — new postings + webhook: `radar/notify.py` picks the postings first seen
+      on the latest collection day (same rules as the RSS feeds, from the history's
+      first_seen) plus new jobs found only on company career pages, and POSTs one
+      compact JSON payload (title, company, city, field, skills, pay, German, link; no
+      job texts) to `N8N_WEBHOOK_URL`, signed with HMAC-SHA256 over timestamp and body
+      (`WEBHOOK_SECRET`). Runs after the data commit; without the secrets it does
+      nothing, and a failed call is a warning, never a failed run. pytest for the
+      selection, payload, signature and sending.
+- [ ] Step 2 — n8n workflow in `integrations/n8n/`: Webhook → check signature →
+      filter (city, fields, skills, no German) → short Telegram message (≤10 jobs,
+      then "+N more" with a link to the site) → Telegram; a public channel with all new
+      Berlin jobs and the owner's personal chat with its own filter. Setup guide
+      (bot, chat IDs, hosting, import, credentials, GitHub Secrets).
+- [ ] Step 3 — test: a manual `workflow_dispatch` that sends a test payload, and a
+      "Get alerts on Telegram" link on the site to the public channel.
+- [ ] Step 4 — a plain-language explanation: webhooks, why n8n, the data flow, the
+      signature, likely interview questions.

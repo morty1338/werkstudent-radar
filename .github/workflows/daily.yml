@@ -118,6 +118,16 @@ jobs:
           git pull --rebase origin main
           git push
 
+      # Today's new postings as one signed POST to the n8n workflow that posts them
+      # to Telegram. Only after the data is saved, so the catch-up run can't send the
+      # same day twice. Does nothing without the two secrets and never fails the run.
+      - name: Send Telegram alerts
+        continue-on-error: true
+        env:
+          N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
+          WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+        run: python -m radar.notify 2>&1 | tee -a "$LOG"
+
       - name: Report failure
         if: failure()
         uses: actions/github-script@v9
