@@ -15,7 +15,7 @@ memory for an hour. It needs a host that runs Python and gives it an HTTPS URL,
 | Monthly limits | 1,000,000 function invocations, 4 hours of active CPU, 360 GB-hours of memory, 100 GB transfer | 750 instance hours per workspace, 5 GB bandwidth | as above |
 | When idle | scales to zero | spins down after 15 minutes | scales to zero |
 | Cold start | about a second or two (Python function) | **about a minute** | a few seconds |
-| Runs | Python ASGI apps as functions (`app` in `app.py`), lifespan events supported | Docker images | Docker images |
+| Runs | any Python ASGI app as a function (served with uvicorn, lifespan events included) | Docker images | Docker images |
 | Terms | personal, non-commercial use | — | — |
 
 Also looked at: Hugging Face Spaces (Docker Spaces now need a paid PRO plan), Fly.io
@@ -48,10 +48,18 @@ host, including Render's free tier (with its one-minute wake-up).
 
 1. **test**: the MCP tests, then the Docker image is built, started and asked for
    `get_overview` over HTTP;
-2. **deploy**: `mcp/vercel/stage.sh` puts only the server into `build/` (the entrypoint
-   `mcp/vercel/app.py` as `app.py`, `mcp/radar_*.py`, `radar/stats.py`, the SDK as the
-   only requirement, Python 3.12), and the Vercel CLI deploys that folder as the
-   production deployment of the project `radar-mcp`, then checks `/health`.
+2. **deploy**: `mcp/vercel/deploy.sh` runs `mcp/vercel/stage.sh`, which puts only the
+   server into a temporary folder outside the checkout (the entrypoint
+   `mcp/vercel/index.py` as `api/index.py`, `mcp/radar_*.py`, `radar/stats.py`, the SDK
+   as the only requirement, Python 3.12; `vercel.json` sends every path to the
+   entrypoint). The Vercel CLI deploys that folder as the production deployment of the
+   project `radar-mcp`; the production address comes from Vercel's API, and the
+   workflow checks its `/health`.
+
+A failing step repeats its last output lines as an annotation of the run
+(`.github/scripts/run_logged.sh`). Logs need a signed-in owner; annotations of a
+public repository don't, so the cause of a failure can be read by anyone, e.g.
+`https://api.github.com/repos/morty1338/werkstudent-radar/check-runs/<job id>/annotations`.
 
 The website and the data pipeline aren't part of this deployment; the server reads
 the published JSON like any visitor.

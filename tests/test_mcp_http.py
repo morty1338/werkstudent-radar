@@ -153,8 +153,9 @@ def test_transport_security_from_env(env, protected, allowed):
 
 @pytest.fixture(scope="module")
 def vercel_url(tmp_path_factory):
-    """mcp/vercel/stage.sh's output, served the way Vercel serves it: `app` imported from app.py
-    (here by uvicorn in its own process, with a local copy of the data instead of the live site)."""
+    """mcp/vercel/stage.sh's output, served the way Vercel serves it: `app` imported from
+    api/index.py by uvicorn in its own process, every path sent to it (here with the
+    repository's data instead of the live site)."""
     import os
     import shutil as sh
     import subprocess
@@ -164,13 +165,17 @@ def vercel_url(tmp_path_factory):
     out = tmp_path_factory.mktemp("vercel") / "deploy"
     subprocess.run(["bash", str(ROOT / "mcp" / "vercel" / "stage.sh"), str(out)], check=True)
     files = sorted(str(p.relative_to(out)) for p in out.rglob("*") if p.is_file())
-    assert files == [".python-version", "app.py", "mcp/radar_data.py", "mcp/radar_http.py", "mcp/radar_server.py",
-                     "mcp/radar_tools.py", "radar/__init__.py", "radar/stats.py", "requirements.txt", "vercel.json"]
+    assert files == [".python-version", ".vercelignore", "api/index.py", "mcp/radar_data.py", "mcp/radar_http.py",
+                     "mcp/radar_server.py", "mcp/radar_tools.py", "radar/__init__.py", "radar/stats.py",
+                     "requirements.txt", "vercel.json"]
+    config = json.loads((out / "vercel.json").read_text())
+    assert config["rewrites"] == [{"source": "/(.*)", "destination": "/api/index"}] and "api/index.py" in config["functions"]
+    assert ".env*" in (out / ".vercelignore").read_text()
     # Point the staged server at the repository's data instead of the network.
-    app_py = out / "app.py"
+    app_py = out / "api" / "index.py"
     app_py.write_text(app_py.read_text().replace('configure(["--http"])', f'configure(["--http", "--data-dir", {str(ROOT / "docs" / "data")!r}])'))
     port = free_port()
-    proc = subprocess.Popen([sys.executable, "-m", "uvicorn", "app:app", "--port", str(port), "--log-level", "warning"],
+    proc = subprocess.Popen([sys.executable, "-m", "uvicorn", "--app-dir", "api", "index:app", "--port", str(port), "--log-level", "warning"],
                             cwd=out, env={**os.environ, "PYTHONPATH": ""}, stderr=subprocess.PIPE)
     url = f"http://127.0.0.1:{port}"
     for _ in range(100):

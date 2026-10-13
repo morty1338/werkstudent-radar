@@ -20,27 +20,35 @@ numbers, never job text.
 
 ## MCP server
 
-`mcp/` holds a read-only MCP server (official MCP Python SDK v2, `MCPServer`,
-stdio) that answers questions with the site's JSON (`docs/data/`, or the
-published files with `--live`). Own `requirements.txt` and git-ignored `.venv/`,
-so the daily run doesn't install the SDK; `requirements-dev.txt` includes it, so
-`tests.yml` runs `tests/test_mcp.py` (tools on a hand-made fixture, the server
-through the SDK's in-memory client, agreement with `gap.js` and `summary.json`).
-`radar_tools.py` holds the logic without the SDK; `radar_server.py` only wraps it.
+`mcp/` holds a read-only MCP server (official MCP Python SDK v2, `MCPServer`)
+that answers questions with the site's JSON (`docs/data/`, or the published files
+with `--live`). `radar_tools.py` holds the logic without the SDK; `radar_server.py`
+only wraps it. Own `requirements.txt` and git-ignored `.venv/`, so the daily run
+doesn't install the SDK; `requirements-dev.txt` includes it, so `tests.yml` runs
+`tests/test_mcp.py` (tools on a hand-made fixture, the server through the SDK's
+in-memory client, agreement with `gap.js` and `summary.json`). The folder has no
+`__init__.py` and its modules are named `radar_*.py`: a module or package called
+`mcp` would shadow the SDK. On stdio nothing may be printed to stdout (logs go to
+stderr).
+
 `--http` serves the same tools over Streamable HTTP at `/mcp` (`radar_http.py`:
 stateless JSON responses, rate limits, 64 KiB body limit, `/health`, Host check
 from `MCP_ALLOWED_HOSTS`, log without client addresses; uvicorn's access log stays
 off). In HTTP mode the data is the live JSON, cached for an hour.
-`tests/test_mcp_http.py` runs a real uvicorn on a free port.
+`tests/test_mcp_http.py` runs a real uvicorn on a free port, and the staged Vercel
+deployment in its own process.
+
 Hosting: Vercel Hobby (free, no payment method; `mcp/DEPLOY.md` compares hosts).
-`mcp/vercel/stage.sh` assembles the deployment (entrypoint `mcp/vercel/app.py` as
-`app.py` with `trust_proxy=True` and any Host, `mcp/radar_*.py`, `radar/stats.py`);
+`mcp/vercel/deploy.sh` stages the deployment with `mcp/vercel/stage.sh` (entrypoint
+`mcp/vercel/index.py` as `api/index.py` with `trust_proxy=True` and any Host, every
+path rewritten to it; `mcp/radar_*.py`, `radar/stats.py`) outside the checkout and
+deploys it; Vercel only finds Python apps without FastAPI/Flask/Django in `api/`.
 `mcp-deploy.yml` tests, builds and smoke-tests `mcp/Dockerfile` (built from the repo
-root; `mcp/Dockerfile.dockerignore`) on every change to `mcp/`, and deploys with the
-Vercel CLI only when the secret `VERCEL_TOKEN` exists. Never connect the repository
-to Vercel's Git integration: it would deploy everything on every bot commit. The folder has no `__init__.py`
-and its modules are named `radar_*.py`: a module or package called `mcp` would
-shadow the SDK. On stdio nothing may be printed to stdout (logs go to stderr).
+root; `mcp/Dockerfile.dockerignore`) on every change to `mcp/`, and deploys only
+when the secret `VERCEL_TOKEN` exists. Never connect the repository to Vercel's Git
+integration: it would deploy everything on every bot commit. Failing workflow steps
+repeat their output as public annotations (`.github/scripts/run_logged.sh`): read
+them via the check-runs annotations API, since the logs need the owner's login.
 
 ## Frontend notes
 

@@ -4,7 +4,9 @@ name: Deploy MCP server
 # then deploys the server to Vercel (free Hobby plan, no payment method) when it
 # changes on main. Only the server goes out (mcp/vercel/stage.sh), not the website.
 # The deploy job waits until the repository secret VERCEL_TOKEN exists
-# (Settings → Secrets and variables → Actions); see mcp/DEPLOY.md.
+# (Settings → Secrets and variables → Actions); see mcp/DEPLOY.md. Failing steps
+# repeat their last output lines as annotations (.github/scripts/run_logged.sh),
+# which anyone can read for a public repository, unlike the logs.
 
 on:
   push:
@@ -14,6 +16,7 @@ on:
       - "radar/stats.py"
       - "tests/test_mcp*.py"
       - ".github/workflows/mcp-deploy.yml"
+      - ".github/scripts/**"
   workflow_dispatch:
 
 concurrency:
@@ -42,7 +45,7 @@ jobs:
         run: pip install -r requirements-dev.txt
 
       - name: Run the MCP tests
-        run: python -m pytest -q tests/test_mcp.py tests/test_mcp_http.py
+        run: bash .github/scripts/run_logged.sh "MCP tests" python -m pytest -q tests/test_mcp.py tests/test_mcp_http.py
 
       # The image the host will run, started as the host would: own port, a foreign
       # Host header, no data inside (it reads the published JSON).
@@ -80,36 +83,16 @@ jobs:
       - uses: actions/checkout@v7
         if: env.VERCEL_TOKEN != ''
 
-      # The project is created on the first run; Vercel builds the staged folder
-      # (Python 3.12, requirements.txt, app.py) and makes it the production deployment.
-      # The folder lies outside the git checkout, so `vercel link` finds no repository
-      # to connect (Vercel's Git integration would deploy the whole repo on every commit).
+      # mcp/vercel/deploy.sh: creates the project on the first run, deploys only the
+      # server (staged outside the checkout) as production, finds the production address.
       - name: Deploy to Vercel
         if: env.VERCEL_TOKEN != ''
-        run: |
-          token=$(printf '%s' "$VERCEL_TOKEN" | tr -d '\r\n' | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')
-          case "$token" in
-            *[[:space:]]*) echo "::error::The VERCEL_TOKEN secret contains a space. Paste only the token itself (one word, no name, no 'Bearer')."; exit 1 ;;
-          esac
-          echo "::add-mask::$token"
-          echo "TOKEN=$token" >> "$GITHUB_ENV"
-          build="$RUNNER_TEMP/radar-mcp"
-          echo "BUILD=$build" >> "$GITHUB_ENV"
-          bash mcp/vercel/stage.sh "$build"
-          cd "$build"
-          npx --yes "$VERCEL_CLI" project add "$PROJECT" --token "$token" || true   # fails when it already exists
-          npx --yes "$VERCEL_CLI" link --yes --project "$PROJECT" --token "$token"
-          npx --yes "$VERCEL_CLI" deploy --prod --yes --token "$token" > deployment.txt
-          cat deployment.txt
+        run: bash .github/scripts/run_logged.sh "Deploy to Vercel" bash mcp/vercel/deploy.sh
 
       - name: Check the deployed server
         if: env.VERCEL_TOKEN != ''
         run: |
-          # The production address (deployment-specific URLs may sit behind Vercel's login).
-          cd "$BUILD"
-          domain=$(npx --yes "$VERCEL_CLI" inspect "$(tail -1 deployment.txt)" --token "$TOKEN" 2>&1 \
-                   | grep -oE 'https://[a-z0-9-]+\.vercel\.app' | awk '{ print length, $0 }' | sort -n | head -1 | cut -d' ' -f2)
-          echo "Production address: $domain"
-          curl -fsS --retry 5 --retry-delay 3 --retry-all-errors "$domain/health"
+          bash .github/scripts/run_logged.sh "Check the deployed server" \
+            curl -fsS --retry 5 --retry-delay 3 --retry-all-errors "$MCP_URL/health"
           echo "### MCP server deployed" >> "$GITHUB_STEP_SUMMARY"
-          echo "Connect Claude to \`$domain/mcp\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "Connect Claude to \`$MCP_URL/mcp\`" >> "$GITHUB_STEP_SUMMARY"
