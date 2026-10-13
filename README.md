@@ -45,6 +45,13 @@ Berlin on the map or "IT & Software" in a chart and the whole page follows.
 In German or English (switch in the header), on phones with a bottom tab bar,
 and installable as a home-screen app. RSS feeds announce new postings per field.
 
+**Applications** (the button in the header) keeps track of your own applications:
+press "+ Track" on any job on the page or add one found elsewhere, then move it from
+saved to applied, interview, offer or rejection (each step dated), add a note and a
+follow-up date. Postings that leave the daily data are marked "no longer online".
+The list stays in your browser and is never sent anywhere; an export file is the
+backup.
+
 ## Screenshots
 
 | Overview and map | Pay with confidence intervals |
@@ -68,7 +75,7 @@ As of 13 Oct 2026 (the live site updates every morning):
 | Company career pages | 20 Werkstudent jobs in Berlin and München from 15 company job boards, 7 of them also on the Bundesagentur |
 | Skill detection, 14 common skills | precision **99%**, recall **97%** on the random 70 labelled postings (before rule fixes: 99% / 96%); sentence embeddings on the same postings: 87% / 75% ([experiment](experiments/README.md)) |
 | German requirement | right level in 69 of 70 random postings; "open without German" correct 15/15 |
-| Tests | 308 (pytest, incl. Node checks for the browser code and the MCP server over HTTP) |
+| Tests | 316 (pytest, incl. Node checks for the browser code and the MCP server over HTTP) |
 | Lighthouse (desktop) | 100 / 100 / 100 / 100 |
 
 ## Architecture
@@ -340,6 +347,17 @@ for 10 minutes, so the deploy stamps its commit into the asset URLs
   pay, field and the link to the original posting, never the job text. Feed URLs
   have no version suffix so subscriptions keep working. Linked from the page
   ("Subscribe to new jobs") and announced with `<link rel="alternate">`.
+- **Application tracker** ([`tracker.js`](docs/assets/tracker.js), rules in
+  [`tracker-store.js`](docs/assets/tracker-store.js)): a dialog that slides in from
+  the right. Everything is stored in the browser's `localStorage` (and kept in memory
+  when a private window blocks it), so there is no account and no server that could
+  leak anyone's job search. Export/import is a JSON file; an import merges by id, the
+  more recently changed copy wins, and every field of an imported file is checked
+  again (unknown statuses, bad dates and non-http links are dropped). Tests run the
+  store in Node with a stand-in for `localStorage`.
+- **No section numbers.** Each section starts with an icon on a split-flap tile and
+  its name; the phone tab bar shows the same icons. They are one inline SVG sprite,
+  drawn with the page's colours, no icon library.
 - **German and English.** A switch in the header (`?lang=de` in the URL, like the
   filters) changes every text, number and date format (`€16.00` / `16,00 €`).
   All strings, both languages side by side, are in one dictionary,
@@ -512,7 +530,7 @@ Full reports: [baseline](data/eval/report_baseline.md),
 
 ```bash
 .venv/bin/pip install -r requirements-dev.txt
-.venv/bin/python -m pytest                   # 296 tests (rules, SQL, history, stats, feeds, browser code via Node)
+.venv/bin/python -m pytest                   # 316 tests (rules, SQL, history, stats, feeds, MCP server, browser code via Node)
 .venv/bin/python -m radar.evaluate report    # needs the local sample texts
 ```
 
@@ -553,7 +571,8 @@ data/eval/         evaluation labels and reports (job texts stay local)
 docs/              the website: index.html, assets/app.js (filters, sections), charts.js
                    (charts, map, tooltip), match.js (skills check, job list), gap.js
                    (learning plan), cv.js (CV reading), stats.js (bootstrap CI),
-                   companies.js (company career pages), i18n.js (German/English strings)
+                   companies.js (company career pages), tracker.js + tracker-store.js
+                   (application tracker), i18n.js (German/English strings)
 docs/data/         JSON consumed by the website
 docs/feeds/        RSS feeds (all and per field), rebuilt daily
 data/raw/          local raw dumps, one folder per day (not committed)

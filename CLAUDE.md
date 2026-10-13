@@ -70,7 +70,7 @@ them via the check-runs annotations API, since the logs need the owner's login.
   `#trk-open` (count, warning colour when a follow-up is due) opens the panel `#trk` (a dialog on the right,
   full screen on phones; Esc and the backdrop close it, focus stays inside). The data lives only in
   `localStorage` under `werkstudent-radar.applications` (`{version, items}`); the store has no DOM and
-  works in memory when storage is blocked. Export/import is a JSON file (import merges by id, newer change
+  works in memory when storage is blocked (`tests/test_tracker.py` runs it in Node with a stand-in storage). Export/import is a JSON file (import merges by id, newer change
   wins). The panel sits outside `.site-header` (z-index 55/60, above the tab bar and the filter sheet).
   Job rows in `match.js` and `companies.js` have a `.track-btn` (`data-track` = row index): `ctx.tracker.track()`
   stores the posting with `ref` "p:<refnr>" or "c:<url>", a second click opens the panel at it; lists

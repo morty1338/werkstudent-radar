@@ -201,4 +201,4 @@ sections lose their numbers. Stop after each step for review.
 - [x] Step 3 — adding from the radar: a "Track" button on every job in "Check your
       skills" and on the Companies tab, and a "no longer online" mark when a tracked
       posting leaves the daily data.
-- [ ] Step 4 — tests for the tracker logic (Node), README and CLAUDE.md, Lighthouse.
+- [x] Step 4 — tests for the tracker logic (Node), README and CLAUDE.md, Lighthouse.
