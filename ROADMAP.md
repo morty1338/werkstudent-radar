@@ -25,6 +25,11 @@ Rules for every phase:
   Parquet export and the `duckdb` dependency went with the playground; the degree
   data stays in `summary.json` (formats only grow) and the CV check still names the
   degree it finds.
+- **No SmartRecruiters adapter (Phase 8).** `api.smartrecruiters.com/robots.txt`
+  disallows every crawler except LinkedInBot, and the official Posting API now asks
+  for a key, so SmartRecruiters boards are detected but not read (AUTO1, Bosch,
+  Drees & Sommer stay `enabled: false`). Greenhouse, Lever, Ashby and Personio
+  publish keyless job-board endpoints that their robots.txt allows.
 
 ## Phase 1 — Data engineering: history
 
@@ -105,7 +110,7 @@ never fetched. Stop after each step for review.
       München and extended by hand. `python -m radar.companies detect` finds the ATS
       (Greenhouse, Lever, Ashby, Personio, SmartRecruiters) from redirects and links;
       anything else stays `unsupported`.
-- [ ] Step 2 — adapters: one small adapter per ATS on its official public job-board
+- [x] Step 2 — adapters: one small adapter per ATS on its official public job-board
       endpoint (endpoint and terms checked first), normalised to company, title, city,
       url, posted_at, source_ats. Keep titles with Werkstudent / Working Student /
       Werkstudierende in Berlin or München (remote in Germany flagged separately).

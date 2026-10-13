@@ -4,9 +4,10 @@
 # cities       cities whose jobs are kept (Berlin, München)
 # careers_url  the company's careers page
 # ats          greenhouse | lever | ashby | personio | smartrecruiters | unsupported
-#              (filled by `python -m radar.companies detect --all`)
+#              (filled by `python -m radar.companies detect --all`; smartrecruiters
+#              isn't read: its API's robots.txt allows only LinkedInBot)
 # slug         the company's id on that ATS
-# enabled      fetched by the daily run (only supported ATS)
+# enabled      fetched by the daily run (only ATS with an adapter in radar/ats)
 # ba_names     employer names in Bundesagentur postings, to mark jobs "also on BA"
 # note         what detection saw: another ATS, a 404, robots.txt, ...
 
@@ -96,9 +97,9 @@ companies:
   careers_url: https://www.auto1-group.com/jobs/
   ats: smartrecruiters
   slug: AUTO1
-  enabled: true
+  enabled: false
   ba_names: [AUTO1 Group SE]
-  note: careers page shows SmartRecruiters job ids; slug checked against the public API
+  note: 'SmartRecruiters API: robots.txt allows only LinkedInBot, so it isn''t read'
 - name: aveato
   cities: [Berlin]
   careers_url: https://www.aveato.de/jobs
@@ -152,9 +153,9 @@ companies:
   careers_url: https://jobs.bosch.com/
   ats: smartrecruiters
   slug: BoschGroup
-  enabled: true
+  enabled: false
   ba_names: [Robert Bosch GmbH]
-  note: null
+  note: 'SmartRecruiters API: robots.txt allows only LinkedInBot, so it isn''t read'
 - name: BSH Hausgeräte
   cities: [München, Berlin]
   careers_url: https://www.bsh-group.com/de/karriere
@@ -248,9 +249,9 @@ companies:
   careers_url: https://www.dreso.com/de/karriere
   ats: smartrecruiters
   slug: DreesSommerSE
-  enabled: true
+  enabled: false
   ba_names: [Drees & Sommer SE]
-  note: careers page shows SmartRecruiters job ids; slug checked against the public API
+  note: 'SmartRecruiters API: robots.txt allows only LinkedInBot, so it isn''t read'
 - name: Eberhardt Service Group
   cities: [Berlin]
   careers_url: null
@@ -592,9 +593,9 @@ companies:
   careers_url: https://www.zertificon.com/it-jobs-berlin/stellenangebote
   ats: personio
   slug: zertificon
-  enabled: true
+  enabled: false
   ba_names: [Zertificon Solutions GmbH]
-  note: null
+  note: Personio board without the public XML feed (xml answers 404)
 - name: ZETCON Ingenieure
   cities: [Berlin]
   careers_url: https://www.zetcon.de/karriere

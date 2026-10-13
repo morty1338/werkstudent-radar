@@ -1,0 +1,68 @@
+[
+ {
+  "categories": {
+   "commitment": "Working Student",
+   "department": "Growth",
+   "location": "Munich",
+   "team": "Sales",
+   "allLocations": [
+    "Munich"
+   ]
+  },
+  "createdAt": 1787843517593,
+  "id": "45362e9d-5498-4923-99cb-0481c3272cf5",
+  "text": "Working Student - B2B Sales (m/w/d)",
+  "country": "DE",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/finn/45362e9d-5498-4923-99cb-0481c3272cf5",
+  "applyUrl": "https://jobs.lever.co/finn/45362e9d-5498-4923-99cb-0481c3272cf5/apply"
+ },
+ {
+  "categories": {
+   "commitment": "Full Time",
+   "department": "Operations",
+   "location": "Germany",
+   "team": "Fleet Operations",
+   "allLocations": [
+    "Germany"
+   ]
+  },
+  "createdAt": 1791360631356,
+  "id": "d5c89c2e-6d11-4666-83ca-2abb7d3a465a",
+  "salaryRange": {
+   "min": 36000,
+   "max": 48000,
+   "currency": "EUR",
+   "interval": "per-year-salary"
+  },
+  "text": "(Junior) Fleet Coordinator Kfz-Technik & Fahrzeugmanagement (m/w/x)",
+  "country": "DE",
+  "workplaceType": "remote",
+  "hostedUrl": "https://jobs.lever.co/finn/d5c89c2e-6d11-4666-83ca-2abb7d3a465a",
+  "applyUrl": "https://jobs.lever.co/finn/d5c89c2e-6d11-4666-83ca-2abb7d3a465a/apply"
+ },
+ {
+  "categories": {
+   "commitment": "Full Time",
+   "department": "Growth",
+   "location": "Munich",
+   "team": "Account Management",
+   "allLocations": [
+    "Munich"
+   ]
+  },
+  "createdAt": 1743503418965,
+  "id": "07b11edf-19b9-40c3-b210-a44d6093fcdb",
+  "salaryRange": {
+   "currency": "EUR",
+   "min": 54000,
+   "max": 73000,
+   "interval": "per-year-salary"
+  },
+  "text": "(Junior) Key Account Manager (m/w/d) - starting from 01.02.2027",
+  "country": "DE",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/finn/07b11edf-19b9-40c3-b210-a44d6093fcdb",
+  "applyUrl": "https://jobs.lever.co/finn/07b11edf-19b9-40c3-b210-a44d6093fcdb/apply"
+ }
+]

@@ -1,0 +1,113 @@
+{
+ "apiVersion": "1",
+ "jobs": [
+  {
+   "id": "4e7de8c5-5356-43f6-99ac-323b52efbc2b",
+   "title": "Werkstudent:in Kundenbetreuer:in (w/m/d)",
+   "department": "Sales",
+   "team": "Inside Sales",
+   "employmentType": "PartTime",
+   "location": "Berlin",
+   "secondaryLocations": [
+    {
+     "location": "Remote",
+     "address": {
+      "postalAddress": {
+       "addressCountry": "Germany",
+       "addressLocality": "Remote"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-09-07T12:13:01.304+00:00",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Hybrid",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Berlin",
+     "addressCountry": "Germany",
+     "addressLocality": "Berlin"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/enpal/4e7de8c5-5356-43f6-99ac-323b52efbc2b",
+   "applyUrl": "https://jobs.ashbyhq.com/enpal/4e7de8c5-5356-43f6-99ac-323b52efbc2b/application"
+  },
+  {
+   "id": "ff122601-f78f-4d4f-a66e-a2a5e9b9cd91",
+   "title": "Werkstudent:in Booking Manager:in (w/m/d)",
+   "department": "Installation PV",
+   "team": "Customer Care",
+   "employmentType": "PartTime",
+   "location": "Berlin",
+   "secondaryLocations": [],
+   "publishedAt": "2026-10-08T11:51:50.750+00:00",
+   "isListed": true,
+   "isRemote": null,
+   "workplaceType": null,
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Berlin",
+     "addressCountry": "Germany",
+     "addressLocality": "Berlin"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/enpal/ff122601-f78f-4d4f-a66e-a2a5e9b9cd91",
+   "applyUrl": "https://jobs.ashbyhq.com/enpal/ff122601-f78f-4d4f-a66e-a2a5e9b9cd91/application"
+  },
+  {
+   "id": "b8f180ba-4429-49e6-866d-59e4379dfda4",
+   "title": "Werkstudent:in Customer Success Manager:in (w/m/d)",
+   "department": "Sales",
+   "team": "Inside Sales",
+   "employmentType": "PartTime",
+   "location": "Berlin",
+   "secondaryLocations": [
+    {
+     "location": "Remote",
+     "address": {
+      "postalAddress": {
+       "addressCountry": "Germany",
+       "addressLocality": "Remote"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-09-28T14:03:29.567+00:00",
+   "isListed": true,
+   "isRemote": null,
+   "workplaceType": null,
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Berlin",
+     "addressCountry": "Germany",
+     "addressLocality": "Berlin"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/enpal/b8f180ba-4429-49e6-866d-59e4379dfda4",
+   "applyUrl": "https://jobs.ashbyhq.com/enpal/b8f180ba-4429-49e6-866d-59e4379dfda4/application"
+  },
+  {
+   "id": "7b8573da-bbbb-4c47-8644-372219ecbe8a",
+   "title": "(Junior) Legal Counsel Corporate (w/m/d)",
+   "department": "Headquarter Growth",
+   "team": "Legal",
+   "employmentType": "FullTime",
+   "location": "Berlin",
+   "secondaryLocations": [],
+   "publishedAt": "2026-09-22T08:02:02.303+00:00",
+   "isListed": true,
+   "isRemote": null,
+   "workplaceType": null,
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Berlin",
+     "addressCountry": "Germany",
+     "addressLocality": "Berlin"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/enpal/7b8573da-bbbb-4c47-8644-372219ecbe8a",
+   "applyUrl": "https://jobs.ashbyhq.com/enpal/7b8573da-bbbb-4c47-8644-372219ecbe8a/application"
+  }
+ ]
+}

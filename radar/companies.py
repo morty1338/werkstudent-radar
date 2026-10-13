@@ -33,6 +33,9 @@ JOBS_PATH = os.path.join(ROOT, "data", "jobs.csv")
 
 CITIES = ("Berlin", "München")
 SUPPORTED = ("greenhouse", "lever", "ashby", "personio", "smartrecruiters")
+# ATS with an adapter in radar/ats. SmartRecruiters is detected but not read: its
+# API host's robots.txt disallows every crawler except LinkedInBot.
+ENABLED_ATS = ("greenhouse", "lever", "ashby", "personio")
 USER_AGENT = "werkstudent-radar/0.1 (+https://github.com/morty1338/werkstudent-radar)"
 TIMEOUT = 20
 DELAY = 1.5          # seconds between companies (and between pages of one company)
@@ -46,9 +49,10 @@ HEADER = """\
 # cities       cities whose jobs are kept (Berlin, München)
 # careers_url  the company's careers page
 # ats          greenhouse | lever | ashby | personio | smartrecruiters | unsupported
-#              (filled by `python -m radar.companies detect --all`)
+#              (filled by `python -m radar.companies detect --all`; smartrecruiters
+#              isn't read: its API's robots.txt allows only LinkedInBot)
 # slug         the company's id on that ATS
-# enabled      fetched by the daily run (only supported ATS)
+# enabled      fetched by the daily run (only ATS with an adapter in radar/ats)
 # ba_names     employer names in Bundesagentur postings, to mark jobs "also on BA"
 # note         what detection saw: another ATS, a 404, robots.txt, ...
 """
@@ -196,7 +200,7 @@ class Fetcher:
             self.robots[host] = rp
         return self.robots[host].can_fetch(USER_AGENT, url)
 
-    def get(self, url, retries=3):
+    def get(self, url, retries=3, max_bytes=MAX_BYTES):
         wait = self.delay - (time.monotonic() - self.last)
         if wait > 0:
             self.sleep(wait)
@@ -204,7 +208,9 @@ class Fetcher:
         for attempt in range(retries):
             try:
                 resp = self.session.get(url, timeout=TIMEOUT, stream=True)
-                body = resp.raw.read(MAX_BYTES, decode_content=True).decode(resp.encoding or "utf-8", "replace")
+                # Without a charset in Content-Type requests guesses ISO-8859-1; UTF-8 is far more likely.
+                charset = resp.encoding if "charset" in resp.headers.get("Content-Type", "").lower() else "utf-8"
+                body = resp.raw.read(max_bytes, decode_content=True).decode(charset or "utf-8", "replace")
                 self.last = time.monotonic()
                 if resp.status_code in (429, 500, 502, 503, 504):
                     raise requests.HTTPError(f"HTTP {resp.status_code}")
@@ -266,7 +272,7 @@ def detect_all(companies, force=False, fetcher=None, log=print):
             continue
         result = detect(c["careers_url"], fetcher)
         c.update(result)
-        c["enabled"] = result["ats"] in SUPPORTED
+        c["enabled"] = result["ats"] in ENABLED_ATS
         log(f"{c['name']:<40} {result['ats']:<16} {result['slug'] or '':<24} {result['note'] or ''}")
     return companies
 
