@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Strategischer Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1609196-2-S</link>
+      <guid isPermaLink="false">12465-1609196-2-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Siemens AG · Frankfurt am Main · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent:in Fiskalberatung (m/w/d) ? AI focus</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-OLGYVU-CKL-S</link>
@@ -15,6 +23,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Scopevisio AG · Halle (Westfalen) · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>WERKSTUDENT Consulting - Schwerpunkt Prozessautomatisier ...</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-115316-S</link>
+      <guid isPermaLink="false">13884-115316-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Munich Consulting Group GmbH · München · Consulting &amp; Strategy</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) - Strategy &amp; Projects</title>

@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Vertrieb Neukunden</title>
@@ -25,6 +25,22 @@
       <description>FERCHAU GmbH Niederlassung Braunschweig · Braunschweig · Sales &amp; Business Development</description>
     </item>
     <item>
+      <title>Werkstudent*in (gn) Sales Support B2B, Zentrale | Klostertor 1</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356302-S</link>
+      <guid isPermaLink="false">12811-2356302-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>LichtBlick SE · Hamburg · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent Customer Service (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/auxmoney-gmbh/remote-werkstudent-customer-service-257523</link>
+      <guid isPermaLink="false">an:remote-werkstudent-customer-service-257523</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Auxmoney Gmbh · Düsseldorf · Sales &amp; Business Development</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) B2B-Telefonvertrieb</title>
       <link>https://www.arbeitnow.com/jobs/companies/econ-tel-gmbh/werkstudent-b2b-telefonvertrieb-munster-77992</link>
       <guid isPermaLink="false">an:werkstudent-b2b-telefonvertrieb-munster-77992</guid>
@@ -39,6 +55,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Montredo GmbH · Berlin · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Working Student Customer Success (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/docuware/working-student-customer-success-germering-germany-127801</link>
+      <guid isPermaLink="false">an:working-student-customer-success-germering-germany-127801</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>DocuWare · Germering · Sales &amp; Business Development</description>
     </item>
     <item>
       <title>Werkstudent / Sales Assistant (m/w/d) - CECIL und Street One im Leo-Center in Leonberg</title>

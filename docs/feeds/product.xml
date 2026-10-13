@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Projektassistent (w/m/d) für national &amp; international geförderte Projekte</title>
@@ -31,6 +31,22 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Deutsche Bahn AG · Regensburg · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent:in kaufmännisches Projektmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1642680-1-S</link>
+      <guid isPermaLink="false">12456-1642680-1-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Deutsche Bahn AG · Dresden · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Projektmanagement Office</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1635989-2-S</link>
+      <guid isPermaLink="false">12465-1635989-2-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Siemens AG · München · €17.27/h · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudent Projektassistent (w/m/d) für national &amp; international geförderte Projekte</title>

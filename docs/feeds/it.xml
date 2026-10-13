@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (w/m/d) IT Service Portfolio Management</title>
@@ -33,6 +33,14 @@
       <description>simplecon GmbH · Hamburg · IT &amp; Software</description>
     </item>
     <item>
+      <title>Werkstudent Informationssicherheit (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4964542907-S</link>
+      <guid isPermaLink="false">12288-4964542907-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Müller Service GmbH · Fischach · IT &amp; Software</description>
+    </item>
+    <item>
       <title>Werkstudent (w/m/d) im Test Engineering Umfeld</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1642080-1-S</link>
       <guid isPermaLink="false">12465-1642080-1-S</guid>
@@ -41,12 +49,60 @@
       <description>Siemens AG · Karlsruhe · IT &amp; Software</description>
     </item>
     <item>
+      <title>Werkstudent (w/m/d) IT Service Portfolio Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1642579-1-S</link>
+      <guid isPermaLink="false">12465-1642579-1-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · Hannover · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Konstruktion (w/m/d) im R&amp;D Bereich Technology &amp; Innovation</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1643056-1-S</link>
+      <guid isPermaLink="false">12465-1643056-1-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · Frankfurt am Main · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12649-1642937-1-S</link>
+      <guid isPermaLink="false">12649-1642937-1-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Merck KGaA · Gernsheim · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent für den IT Helpdesk (m/w/d), Hamburg, Zentrale</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356519-S</link>
+      <guid isPermaLink="false">12811-2356519-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Block Gruppe · Hamburg · IT &amp; Software</description>
+    </item>
+    <item>
       <title>Werkstudent*in IT Mercedes-Benz Cars Operations</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1642548-1-S</link>
       <guid isPermaLink="false">13151-1642548-1-S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Mercedes-Benz Group AG · Böblingen · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent*in IT-Controlling</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1642730-1-S</link>
+      <guid isPermaLink="false">13151-1642730-1-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Mercedes-Benz Group AG · Böblingen · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent*in IT-Infrastruktur Sales &amp; Aftersales</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1642752-1-S</link>
+      <guid isPermaLink="false">13151-1642752-1-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Mercedes-Benz Group AG · Berlin · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent Business Solutions (m/w/d)</title>
@@ -121,6 +177,14 @@
       <description>IDS Industry &amp; Facility Services GmbH · Hochdorf · IT &amp; Software</description>
     </item>
     <item>
+      <title>Werkstudent*in Test Engineering &amp; Messtechnik (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20279-k62365.1098-S</link>
+      <guid isPermaLink="false">20279-k62365.1098-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>ENQT GmbH · Hamburg · IT &amp; Software</description>
+    </item>
+    <item>
       <title>Business Automation &amp; AI Intern/Working Student (f/m/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/liqid-lig/business-automation-ai-intern-working-student-berlin-6500</link>
       <guid isPermaLink="false">an:business-automation-ai-intern-working-student-berlin-6500</guid>
@@ -129,12 +193,36 @@
       <description>Liqid Lig · Berlin · IT &amp; Software · no German needed</description>
     </item>
     <item>
+      <title>Werkstudent IT Support (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/auxmoney-gmbh/werkstudent-it-support-dusseldorf-13892</link>
+      <guid isPermaLink="false">an:werkstudent-it-support-dusseldorf-13892</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Auxmoney Gmbh · Düsseldorf · IT &amp; Software</description>
+    </item>
+    <item>
       <title>Werkstudent:in AI &amp; Automation (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/smartvillage/werkstudentin-ai-automation-munchen-headquarter-475430</link>
       <guid isPermaLink="false">an:werkstudentin-ai-automation-munchen-headquarter-475430</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Smartvillage · München · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent:in IT-Support</title>
+      <link>https://www.arbeitnow.com/jobs/companies/momox/werkstudentin-it-support-berlin-345647</link>
+      <guid isPermaLink="false">an:werkstudentin-it-support-berlin-345647</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>momox · Berlin · €16.00/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Working Student Business Applications (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/docuware/working-student-business-applications-germering-germany-28850</link>
+      <guid isPermaLink="false">an:working-student-business-applications-germering-germany-28850</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>DocuWare · Germering · IT &amp; Software · no German needed</description>
     </item>
     <item>
       <title>Werkstudent/Minijob Sales Specialist (m/w/d) – Cloud &amp; KI-Lösungen</title>

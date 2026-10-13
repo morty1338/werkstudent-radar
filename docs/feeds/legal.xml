@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Forderungsmanagement (m/w/d)</title>
@@ -23,6 +23,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Legal</category>
       <description>MERKUR.COM AG · Espelkamp · Legal</description>
+    </item>
+    <item>
+      <title>Working Student Legal &amp; Compliance (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/docuware/working-student-legal-compliance-germering-germany-262859</link>
+      <guid isPermaLink="false">an:working-student-legal-compliance-germering-germany-262859</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Legal</category>
+      <description>DocuWare · Germering · Legal</description>
     </item>
     <item>
       <title>Werkstudent im Bereich Legal / Compliance (d/m/w)</title>

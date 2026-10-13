@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Recruiting (m/w/d)</title>
@@ -15,6 +15,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>MetaComp GmbH Computer + Netzwerke · Stuttgart · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent HR (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-52633-YF-S</link>
+      <guid isPermaLink="false">12117-YF-52633-YF-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Friedberg · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent im Recruiting (m/w/d)</title>
@@ -63,6 +71,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Siemens AG · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Recruiting (m/w/d), Dortmund</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356395-S</link>
+      <guid isPermaLink="false">12811-2356395-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Dr. Ausbüttel GmbH &amp; Co. KG · Dortmund · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent HR Operations: Betreuung von Studierenden (all genders)</title>
@@ -137,6 +153,14 @@
       <description>Teampicnic · Hamburg · €15.12/h · HR &amp; Recruiting</description>
     </item>
     <item>
+      <title>Werkstudent Recruiting  (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kebos-group-gmbh/werkstudent-recruiting-munchen-milbertshofen-157899</link>
+      <guid isPermaLink="false">an:werkstudent-recruiting-munchen-milbertshofen-157899</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>KEBOS Group GmbH · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
       <title>Werkstudent*In (M/W/D) Crew Recruiting</title>
       <link>https://www.arbeitnow.com/jobs/companies/ramp106-gmbh/werkstudentin-crew-recruiting-hamburg-228192</link>
       <guid isPermaLink="false">an:werkstudentin-crew-recruiting-hamburg-228192</guid>
@@ -159,6 +183,22 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>OXG Glasfaser GmbH · Düsseldorf · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Working student (all genders) - Talent Development</title>
+      <link>https://www.arbeitnow.com/jobs/companies/xitaso/working-student-all-genders-talent-development-augsburg-292909</link>
+      <guid isPermaLink="false">an:working-student-all-genders-talent-development-augsburg-292909</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Xitaso · Augsburg · €17.50/h · HR &amp; Recruiting · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student (m/f/x) - HR &amp; Finance</title>
+      <link>https://www.arbeitnow.com/jobs/companies/cofinity-x-gmbh/working-student-hr-finance-koln-102386</link>
+      <guid isPermaLink="false">an:working-student-hr-finance-koln-102386</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Cofinity-X GmbH · Köln · HR &amp; Recruiting · no German needed</description>
     </item>
     <item>
       <title>Working Student / Internship  HR Business Partner (m/f/d)</title>

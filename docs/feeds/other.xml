@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Bibliothek (w/m/d), Berlin</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356523-S</link>
+      <guid isPermaLink="false">12811-2356523-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Gleiss Lutz Support · Berlin · Other</description>
+    </item>
     <item>
       <title>Werkstudierende Jelbi Kundensupport (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-934de67b-f261-4880--S</link>
@@ -119,6 +127,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>BERNARD Gruppe · Dresden · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Fitter für das HIO Headquarter in München - all genders welcome!</title>
+      <link>https://www.arbeitnow.com/jobs/companies/vicegolf/werkstudentin-fitter-fur-das-hio-headquarter-in-munchen-all-genders-welcome-220798</link>
+      <guid isPermaLink="false">an:werkstudentin-fitter-fur-das-hio-headquarter-in-munchen-all-genders-welcome-220798</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Vicegolf · München · Other</description>
     </item>
     <item>
       <title>Werkstudentin (W/M/D) Omr Festival Support</title>

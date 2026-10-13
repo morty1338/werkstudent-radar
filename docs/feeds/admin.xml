@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent/in Büroorganisation &amp; Kanzleimanagement (m/w/d)</title>
@@ -33,12 +33,36 @@
       <description>damago GmbH · Bremen · Office &amp; Admin</description>
     </item>
     <item>
+      <title>Werkstudent Office Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003850485-S</link>
+      <guid isPermaLink="false">10001-1003850485-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Ströer X GmbH · Köln · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (m/w/d) zur Unterstützung der Verwaltung im Bereich GIS</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003850579-S</link>
+      <guid isPermaLink="false">10001-1003850579-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Stadt Bad Laasphe · Bad Laasphe · Office &amp; Admin</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) Kundenempfang für unsere Tudor Boutique in Berlin, Tudor Boutique Berlin</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2355815-S</link>
       <guid isPermaLink="false">12811-2355815-S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Office &amp; Admin</category>
       <description>Gerhard D. Wempe GmbH &amp; Co. KG · Berlin · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Office Management (m/w/d), Ströer X GmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356587-S</link>
+      <guid isPermaLink="false">12811-2356587-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Ströer X GmbH · Köln · Office &amp; Admin</description>
     </item>
     <item>
       <title>Werkstudent Backoffice (m/w/d)</title>

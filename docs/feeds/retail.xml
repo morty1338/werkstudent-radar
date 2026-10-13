@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent / Studentische Aushilfe 14:00 - 21:30 (Mo, Mi, Do)(m/w/d)</title>
@@ -31,6 +31,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>Teppich-Kibek GmbH (Vertrieb) · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent Verkauf Teilzeit 16 Std./Woche Bramfeld (m/w/d), Hamburg-Bramfeld, Br...</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356535-S</link>
+      <guid isPermaLink="false">12811-2356535-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>budni · Hamburg · Retail &amp; Hospitality</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d)</title>

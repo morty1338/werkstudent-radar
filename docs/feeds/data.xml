@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d)  KI-Prozessintegration &amp; Datenmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1635998-2-S</link>
+      <guid isPermaLink="false">12465-1635998-2-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · Erlangen · €15.00/h · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent Innovation, Data Science &amp; Automation (all genders), H World International</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2355864-S</link>
@@ -63,6 +71,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Ramp106 Gmbh · Hamburg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student Analytics Engineering (f/m/x)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/thermondo/working-student-analytics-engineering-berlin-zentrale-381296</link>
+      <guid isPermaLink="false">an:working-student-analytics-engineering-berlin-zentrale-381296</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Thermondo · Berlin · Data &amp; Analytics · no German needed</description>
     </item>
     <item>
       <title>Working Student CRM &amp; Data Operations (all gender)</title>
