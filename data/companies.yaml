@@ -180,6 +180,14 @@ companies:
   enabled: false
   ba_names: [BWI GmbH]
   note: no known ATS found
+- name: Celonis
+  cities: [München, Berlin]
+  careers_url: https://job-boards.greenhouse.io/celonis
+  ats: greenhouse
+  slug: celonis
+  enabled: true
+  ba_names: []
+  note: added by hand; board checked against its public API
 - name: CHECK24
   cities: [München, Berlin]
   careers_url: https://jobs.check24.de/
@@ -204,6 +212,14 @@ companies:
   enabled: true
   ba_names: [Com2uS Europe GmbH]
   note: null
+- name: Contentful
+  cities: [Berlin]
+  careers_url: https://job-boards.greenhouse.io/contentful
+  ats: greenhouse
+  slug: contentful
+  enabled: true
+  ba_names: []
+  note: added by hand; board checked against its public API
 - name: CURA Seniorenwohnheime
   cities: [Berlin]
   careers_url: https://www.cura-ag.com/karriere
@@ -260,6 +276,22 @@ companies:
   enabled: false
   ba_names: [Eberhardt Service Group GmbH]
   note: careers page not found
+- name: Enpal
+  cities: [Berlin]
+  careers_url: https://jobs.ashbyhq.com/enpal
+  ats: ashby
+  slug: enpal
+  enabled: true
+  ba_names: []
+  note: added by hand; board checked against its public API
+- name: FINN
+  cities: [München]
+  careers_url: https://jobs.lever.co/finn
+  ats: lever
+  slug: finn
+  enabled: true
+  ba_names: []
+  note: added by hand; board checked against its public API
 - name: Forward Education
   cities: [München]
   careers_url: null
@@ -284,6 +316,14 @@ companies:
   enabled: false
   ba_names: [Genossenschaftsverband Bayern e.V.]
   note: no known ATS found
+- name: GetYourGuide
+  cities: [Berlin]
+  careers_url: https://job-boards.greenhouse.io/getyourguide
+  ats: greenhouse
+  slug: getyourguide
+  enabled: true
+  ba_names: []
+  note: added by hand; board checked against its public API
 - name: Gleiss Lutz
   cities: [Berlin]
   careers_url: https://www.gleisslutz.com/de/karriere
@@ -308,6 +348,22 @@ companies:
   enabled: false
   ba_names: [Heimstaden Germany GmbH]
   note: no known ATS found
+- name: HelloFresh
+  cities: [Berlin]
+  careers_url: https://job-boards.greenhouse.io/hellofresh
+  ats: greenhouse
+  slug: hellofresh
+  enabled: true
+  ba_names: []
+  note: added by hand; board checked against its public API
+- name: Helsing
+  cities: [München, Berlin]
+  careers_url: https://jobs.ashbyhq.com/helsing
+  ats: ashby
+  slug: helsing
+  enabled: true
+  ba_names: []
+  note: added by hand; board checked against its public API
 - name: Hoffmann Group
   cities: [München]
   careers_url: https://www.hoffmann-group.com/DE/de/hom/hoffmann-group/karriere/e/116222/
@@ -428,6 +484,14 @@ companies:
   enabled: false
   ba_names: [München Klinik]
   note: no known ATS found
+- name: N26
+  cities: [Berlin]
+  careers_url: https://job-boards.greenhouse.io/n26
+  ats: greenhouse
+  slug: n26
+  enabled: true
+  ba_names: []
+  note: added by hand; board checked against its public API
 - name: Nexia
   cities: [München]
   careers_url: https://www.nexia.de/karriere
