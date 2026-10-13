@@ -1,6 +1,8 @@
 // "Applications": the visitor's own application tracker, a panel that slides in from the
 // right (full screen on phones) behind the header button #trk-open. The list lives only in
-// this browser (tracker-store.js); export/import files are the backup.
+// this browser (tracker-store.js); export/import files are the backup. Job lists add
+// postings with track() (key `ref`: "p:<refnr>" or "c:<url>"); setOnlineCheck() lets the
+// panel mark tracked postings that are no longer in today's data.
 
 import { esc, fmt } from "./charts.js?v=dev";
 import { t } from "./i18n.js?v=dev";
@@ -31,19 +33,40 @@ export function initTracker() {
     importInput: document.getElementById("trk-import"),
     msg: document.getElementById("trk-msg"),
   };
-  let store = createStore(storage(), { onChange: () => render() });
-  const st = { filter: "all", confirmDelete: null };
+  const listeners = new Set();
+  const changed = () => {
+    render();
+    listeners.forEach((fn) => fn());
+  };
+  let store = createStore(storage(), { onChange: changed });
+  const st = { filter: "all", confirmDelete: null, gone: new Set(), onlineCheck: null };
   const label = (s) => t(`trk.s_${s}`);
 
   // --- Opening and closing ---------------------------------------------------------------------
-  function open() {
+  function open(ref) {
     el.panel.classList.add("open");
     el.panel.inert = false;
     el.backdrop.hidden = false;
     el.open.setAttribute("aria-expanded", "true");
     document.body.classList.add("trk-open");
+    const a = ref ? store.findByRef(ref) : null;
+    if (a) st.filter = "all";
     render();
     el.close.focus();
+    if (a) el.list.querySelector(`[data-id="${CSS.escape(a.id)}"]`)?.scrollIntoView({ block: "center" });
+    refreshOnline();
+  }
+
+  // Which tracked postings from the radar have left today's data (asked each time the panel opens).
+  async function refreshOnline() {
+    const refs = store.all().filter((a) => a.source === "radar" && a.ref).map((a) => a.ref);
+    if (!st.onlineCheck || !refs.length) return;
+    try {
+      st.gone = await st.onlineCheck(refs);
+      render();
+    } catch {
+      // Unknown today; no marks rather than wrong ones.
+    }
   }
   function close() {
     el.panel.classList.remove("open");
@@ -168,8 +191,8 @@ export function initTracker() {
   // Another tab changed the list: read it again.
   window.addEventListener("storage", (e) => {
     if (e.key !== KEY) return;
-    store = createStore(storage(), { onChange: () => render() });
-    render();
+    store = createStore(storage(), { onChange: changed });
+    changed();
   });
 
   function say(message) {
@@ -216,9 +239,10 @@ export function initTracker() {
     const history = a.history.map((h) => `${esc(label(h.status))} ${esc(fmt.shortDate(h.date))}`).join(" → ");
     const options = STATUSES.map((s) => `<option value="${s}"${s === a.status ? " selected" : ""}>${esc(label(s))}</option>`).join("");
     const overdue = isOverdue(a, day) ? `<span class="badge overdue">${esc(t("trk.overdue"))}</span>` : "";
+    const gone = st.gone.has(a.ref) ? `<span class="badge gone" title="${esc(t("trk.gone_title"))}">${esc(t("trk.gone"))}</span>` : "";
     const confirming = st.confirmDelete === a.id;
     return `<article class="trk-item${a.status === "rejected" ? " closed" : ""}" data-id="${esc(a.id)}">
-      <div class="trk-item-head">${title}${overdue}</div>
+      <div class="trk-item-head">${title}<span class="trk-badges">${overdue}${gone}</span></div>
       ${meta ? `<div class="meta">${meta}</div>` : ""}
       <div class="trk-fields">
         <label><span>${esc(t("trk.f_status"))}</span><select data-act="status">${options}</select></label>
@@ -231,5 +255,19 @@ export function initTracker() {
   }
 
   render();
-  return { store: () => store, open };
+  return {
+    open,
+    isTracked: (ref) => Boolean(store.findByRef(ref)),
+    // A posting from one of the site's job lists: { ref, title, company, city, url }.
+    track(job) {
+      const a = store.add({ ...job, source: "radar", status: "saved" });
+      if (a) say(t("trk.added", { title: a.title }));
+      return a;
+    },
+    onChange: (fn) => listeners.add(fn),
+    // fn(refs) resolves to the set of refs that are no longer online.
+    setOnlineCheck(fn) {
+      st.onlineCheck = fn;
+    },
+  };
 }

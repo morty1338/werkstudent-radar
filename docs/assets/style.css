@@ -391,6 +391,14 @@ body.trk-open { overflow: hidden; }
 .trk-import { position: relative; cursor: pointer; }
 .trk-import input { position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; }
 .trk-msg { font-size: 13px; color: var(--good); }
+.trk-badges { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.badge.gone { background: var(--surface-3); color: var(--ink-2); }
+.track-btn {
+  font-size: 13px; padding: 3px 10px; border-radius: 999px; cursor: pointer; white-space: nowrap;
+  background: transparent; color: var(--accent-ink); border: 1px solid var(--accent);
+}
+.track-btn:hover { background: var(--accent-soft); }
+.track-btn[aria-pressed="true"] { background: var(--accent-soft); color: var(--ink); border-color: var(--accent-soft); }
 
 /* Line charts */
 .line-chart svg { display: block; width: 100%; height: 180px; overflow: visible; }

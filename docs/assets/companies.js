@@ -53,6 +53,19 @@ export function initCompanies(ctx, data) {
     st.field = b.dataset.field === st.field || b.dataset.field === "" ? null : b.dataset.field;
     render();
   });
+  // "+ Track" adds a job to the visitor's applications; once tracked it opens the list.
+  const index = new Map(data.jobs.map((j, i) => [j, i]));
+  const jobRef = (j) => `c:${j.url}`;
+  el.list.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-track]");
+    if (!b || !ctx.tracker) return;
+    const j = data.jobs[Number(b.dataset.track)];
+    if (ctx.tracker.isTracked(jobRef(j))) ctx.tracker.open(jobRef(j));
+    else ctx.tracker.track({ ref: jobRef(j), title: j.title, company: j.company, city: j.city || t("co.remote_de"), url: j.url });
+  });
+  ctx.tracker?.onChange(() => render());
+  ctx.companiesUrls = () => new Set(data.jobs.map((j) => j.url));
+
   el.search.addEventListener("input", () => {
     st.q = el.search.value.trim().toLowerCase();
     render();
@@ -127,6 +140,12 @@ export function initCompanies(ctx, data) {
     </div>`;
   }
 
+  function trackButton(j) {
+    const tracked = Boolean(ctx.tracker?.isTracked(jobRef(j)));
+    return `<button type="button" class="track-btn" data-track="${index.get(j)}" aria-pressed="${tracked}"
+      title="${esc(t(tracked ? "trk.tracked_title" : "trk.track_title"))}">${esc(t(tracked ? "trk.tracked" : "trk.track"))}</button>`;
+  }
+
   function row(j) {
     const where = j.city || t("co.remote_de");
     const meta = [label(j.field), where, j.posted_at ? t("co.posted", { date: fmt.date(j.posted_at) }) : null].filter(Boolean).map(esc).join(" · ");
@@ -134,6 +153,7 @@ export function initCompanies(ctx, data) {
       j.new ? `<span class="badge new" title="${esc(t("co.first_seen", { date: fmt.date(j.first_seen) }))}">${esc(fresh ? t("co.new_today") : t("co.new_on", { date: fmt.shortDate(j.first_seen) }))}</span>` : "",
       j.remote ? `<span class="badge">${esc(t("co.remote"))}</span>` : "",
       j.also_on?.includes("ba") ? `<span class="badge" title="${esc(t("co.also_ba_title"))}">${esc(t("co.also_ba"))}</span>` : "",
+      trackButton(j),
     ].join("");
     return `<div class="job">
       <a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>

@@ -30,7 +30,7 @@ async function main() {
   initLangSwitch();
   initTooltip();
   // The tracker works without the job data, so it starts before it loads.
-  initTracker();
+  const tracker = initTracker();
   let S, D, H, L, C, CO;
   try {
     // lifetimes, cooccurrence and companies are extras: the page works without them.
@@ -107,7 +107,7 @@ async function main() {
   // "95% CI €15.40–17.60" / "95%-KI 15,40–17,60 €"
   const ciText = (lo, hi) => (lo == null ? "" : t("ci", { lo: fmt.num2(lo), hi: fmt.num2(hi) }));
 
-  const ctx = { D, S, J, state, pool, payStats, catLabel, skillLabel, render: () => render(), syncUrl: () => syncUrl() };
+  const ctx = { D, S, J, state, pool, payStats, catLabel, skillLabel, tracker, render: () => render(), syncUrl: () => syncUrl() };
 
   // --- Filter bar -------------------------------------------------------------------
   const fField = document.getElementById("f-field");
@@ -571,6 +571,19 @@ async function main() {
   ctx.match = initMatch(ctx, (params.get("skills") || "").split(",").filter(Boolean));
   initCv(ctx);
   initCompanies(ctx, CO);
+  // Tracked postings that left today's data get a "no longer online" mark in the tracker.
+  tracker.setOnlineCheck(async (refs) => {
+    const gone = new Set();
+    const companyUrls = ctx.companiesUrls?.();
+    const refnrs = refs.some((r) => r.startsWith("p:"))
+      ? await ctx.match.postings().then((p) => (p ? new Set(p.rows.map((row) => row[0])) : null))
+      : null;
+    for (const r of refs) {
+      if (r.startsWith("p:") && refnrs && !refnrs.has(r.slice(2))) gone.add(r);
+      if (r.startsWith("c:") && companyUrls && !companyUrls.has(r.slice(2))) gone.add(r);
+    }
+    return gone;
+  });
   initCopyUrl();
   renderTrends();
   render();

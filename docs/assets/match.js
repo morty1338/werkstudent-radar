@@ -61,6 +61,15 @@ export function initMatch(ctx, initialIds) {
   });
   el.sort.addEventListener("change", () => { st.sort = el.sort.value; renderList(); });
   el.more.addEventListener("click", () => { st.shown += PAGE; renderList(); });
+  // "+ Track" adds the posting to the visitor's applications; once tracked it opens the list.
+  el.list.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-track]");
+    if (!b || !postings || !ctx.tracker) return;
+    const job = posting(Number(b.dataset.track));
+    if (ctx.tracker.isTracked(job.ref)) ctx.tracker.open(job.ref);
+    else ctx.tracker.track(job);
+  });
+  ctx.tracker?.onChange(() => renderList());
   el.chip.addEventListener("click", (e) => {
     if (e.target.closest("button")) { st.mustSkill = null; renderList(); }
   });
@@ -243,11 +252,24 @@ export function initMatch(ctx, initialIds) {
     el.more.textContent = t("check.more", { n: fmt.int(items.length - st.shown) });
   }
 
-  function row(i, missing) {
-    const [refnr, title, company, city, published, link] = postings.rows[i];
-    const j = D.jobs[i];
+  // Title, company, city and link of posting i, with its tracker key.
+  function posting(i) {
+    const [refnr, title, company, city, , link] = postings.rows[i];
     // Bundesagentur postings link via the reference number; company career sites have their own URL.
     const url = link || postings.url.replace("{refnr}", encodeURIComponent(refnr));
+    return { ref: `p:${refnr}`, title, company, city, url };
+  }
+
+  function trackButton(ref, index) {
+    const tracked = Boolean(ctx.tracker?.isTracked(ref));
+    return `<button type="button" class="track-btn" data-track="${index}" aria-pressed="${tracked}"
+      title="${esc(t(tracked ? "trk.tracked_title" : "trk.track_title"))}">${esc(t(tracked ? "trk.tracked" : "trk.track"))}</button>`;
+  }
+
+  function row(i, missing) {
+    const [, title, company, city, published] = postings.rows[i];
+    const { ref, url } = posting(i);
+    const j = D.jobs[i];
     const need = missing ? `<span class="badge need">+ ${missing.map((s) => esc(D.skills[s].label)).join(t("or"))}</span>` : "";
     const en = j[J.DE] <= 1 ? `<span class="badge en">${esc(t(j[J.DE] === 0 ? "check.no_german" : "check.german_plus"))}</span>` : "";
     const yours = j[J.SKILLS].filter((s) => selected.has(s)).slice(0, 4).map((s) => esc(D.skills[s].label));
@@ -255,7 +277,7 @@ export function initMatch(ctx, initialIds) {
       <a href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a>
       <div class="meta">${esc(company)} · ${esc(city || "—")}${published ? ` · ${esc(fmt.shortDate(published))}` : ""}</div>
       ${yours.length ? `<div class="why">✓ ${yours.join(" · ")}</div>` : ""}
-      <div class="side">${j[J.PAY] != null ? `<span class="pay">${fmt.eur(j[J.PAY])}${t("check.per_hour")}</span>` : ""}${need}${en}</div>
+      <div class="side">${j[J.PAY] != null ? `<span class="pay">${fmt.eur(j[J.PAY])}${t("check.per_hour")}</span>` : ""}${need}${en}${trackButton(ref, i)}</div>
     </div>`;
   }
 
@@ -268,6 +290,8 @@ export function initMatch(ctx, initialIds) {
 
   return {
     update,
+    // postings.json (titles and links, by position), loaded on first use; null if it can't be.
+    postings: () => ensurePostings().then(() => postings),
     toggleSkill,
     setSkills,
     showSkill,

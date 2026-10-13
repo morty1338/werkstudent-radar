@@ -71,7 +71,12 @@ them via the check-runs annotations API, since the logs need the owner's login.
   full screen on phones; Esc and the backdrop close it, focus stays inside). The data lives only in
   `localStorage` under `werkstudent-radar.applications` (`{version, items}`); the store has no DOM and
   works in memory when storage is blocked. Export/import is a JSON file (import merges by id, newer change
-  wins). The panel sits outside `.site-header` (z-index 55/60, above the tab bar and the filter sheet)
+  wins). The panel sits outside `.site-header` (z-index 55/60, above the tab bar and the filter sheet).
+  Job rows in `match.js` and `companies.js` have a `.track-btn` (`data-track` = row index): `ctx.tracker.track()`
+  stores the posting with `ref` "p:<refnr>" or "c:<url>", a second click opens the panel at it; lists
+  re-render on `ctx.tracker.onChange`. When the panel opens, `setOnlineCheck` (in `app.js`) marks tracked
+  postings that are no longer in `postings.json` (loaded only then, via `ctx.match.postings()`) or
+  `companies.json`; manually added ones are never marked
 - `assets/i18n.js` — UI language (`?lang=de`, default English): `STRINGS` holds every UI text with `en` and `de` side by side; `t(key, vars)`; `fieldLabel`/`groupLabel`/`skillLabel` translate data labels; `applyStatic()` fills `data-i18n` (text), `data-i18n-html` and `data-i18n-attr="attr:key"` in `index.html`. New UI text goes into `STRINGS`, never inline (a test checks every used key exists in both languages). `fmt` in `charts.js` formats numbers/dates for the language
 - `assets/gap.js` — skill-gap plan (`gapPlan`, greedy by marginal gain; no imports, tested in Node)
 - `assets/stats.js` — bootstrap 95% CI of a median (`medianCI`, same method as `radar/stats.py`, memoised)
