@@ -23,7 +23,10 @@ numbers, never job text.
 `mcp/` holds a read-only MCP server (official MCP Python SDK v2, `MCPServer`,
 stdio) that answers questions with the site's JSON (`docs/data/`, or the
 published files with `--live`). Own `requirements.txt` and git-ignored `.venv/`,
-so the daily run and CI don't install the SDK. The folder has no `__init__.py`
+so the daily run doesn't install the SDK; `requirements-dev.txt` includes it, so
+`tests.yml` runs `tests/test_mcp.py` (tools on a hand-made fixture, the server
+through the SDK's in-memory client, agreement with `gap.js` and `summary.json`).
+`radar_tools.py` holds the logic without the SDK; `radar_server.py` only wraps it. The folder has no `__init__.py`
 and its modules are named `radar_*.py`: a module or package called `mcp` would
 shadow the SDK. On stdio nothing may be printed to stdout (logs go to stderr).
 

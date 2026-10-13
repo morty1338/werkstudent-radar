@@ -140,7 +140,7 @@ stay as they are. Stop after each step for review.
 - [x] Step 2 — tools: `get_overview`, `search_jobs`, `pay_stats`, `top_skills`,
       `match_skills`, with typed parameters and descriptions; compact JSON, never
       job texts.
-- [ ] Step 3 — quality: pytest per tool on a small fixture copy of the data;
+- [x] Step 3 — quality: pytest per tool on a small fixture copy of the data;
       unknown city/field/skill answered with close matches.
 - [ ] Step 4 — docs: README "Use with Claude" (Claude Desktop config, `claude mcp
       add`), three example questions, tried in a Claude Code session.

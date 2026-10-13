@@ -15,6 +15,7 @@ match the page:
 Every function returns a small JSON-ready dict. No job texts exist in the data.
 """
 
+import difflib
 import re
 import sys
 import unicodedata
@@ -39,7 +40,16 @@ CITY_ALIASES = {
 
 
 class UnknownValue(ValueError):
-    """A city, field or skill that isn't in the data."""
+    """A city, field or skill that isn't in the data, with the closest names that are."""
+
+    def __init__(self, kind, name, suggestions, hint=""):
+        self.kind, self.name, self.suggestions = kind, name, suggestions
+        msg = f"unknown {kind} {name!r}"
+        if suggestions:
+            msg += ". Did you mean: " + ", ".join(suggestions) + "?"
+        elif hint:
+            msg += f". {hint}"
+        super().__init__(msg)
 
 
 def fold(s):
@@ -49,7 +59,25 @@ def fold(s):
     return re.sub(r"[^a-z0-9+#]", "", s)
 
 
+def plain(s):
+    """Like fold, but umlauts lose their dots: 'Köln' and 'Koln' -> 'koln'."""
+    s = unicodedata.normalize("NFKD", (s or "").lower().replace("ß", "ss")).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9+#]", "", s)
+
+
 # --- Resolving names ---------------------------------------------------------------------------
+
+def suggest(name, names, n=3):
+    """Up to n of `names` that look like `name`: close spellings first, then names containing it."""
+    key = fold(name)
+    by_key = {}
+    for x in names:
+        by_key.setdefault(fold(x), x)
+    hits = difflib.get_close_matches(key, list(by_key), n=n, cutoff=0.75)
+    if len(key) >= 3:
+        hits += [k for k in by_key if k not in hits and (k.startswith(key) or key in k)]
+    return list(dict.fromkeys(by_key[k] for k in hits))[:n]
+
 
 def resolve_field(d, name):
     """Field index for an id ('it') or label ('IT & Software'); None for no filter."""
@@ -63,7 +91,11 @@ def resolve_field(d, name):
     hits = [i for i, fid in enumerate(d.fields) if fold(re.split(r"[ &/]", d.field_labels.get(fid, ""))[0]) == key]
     if len(hits) == 1:
         return hits[0]
-    raise UnknownValue(f"unknown field {name!r}; fields are: " + ", ".join(f"{f} ({d.field_labels.get(f, f)})" for f in d.fields))
+    labels = [d.field_labels.get(f, f) for f in d.fields]
+    by_id = dict(zip(d.fields, labels))
+    close = list(dict.fromkeys(by_id.get(x, x) for x in suggest(name, labels + list(d.fields))))
+    raise UnknownValue("field", name, close,
+                       "Fields are: " + ", ".join(f"{f} ({lab})" for f, lab in zip(d.fields, labels)))
 
 
 def resolve_city(d, name):
@@ -73,18 +105,20 @@ def resolve_city(d, name):
     key = fold(name)
     target = fold(CITY_ALIASES.get(key, name))
     for i, city in enumerate(d.cities):
-        if fold(city) == target:
+        if fold(city) == target or plain(city) == plain(name):
             return i
-    raise UnknownValue(f"unknown city {name!r}: no Werkstudent postings there today")
+    # checker.json lists cities by postings, most first
+    raise UnknownValue("city", name, suggest(name, d.cities),
+                       "No Werkstudent postings there today; most are in " + ", ".join(d.cities[:5]) + ".")
 
 
 def resolve_skill(d, name):
     """Skill index for an id ('powerbi') or label ('Power BI')."""
     key = fold(name)
     for i, s in enumerate(d.skills):
-        if key in (fold(s["id"]), fold(s["label"])):
+        if key in (fold(s["id"]), fold(s["label"])) or plain(name) == plain(s["label"]):
             return i
-    raise UnknownValue(f"unknown skill {name!r}")
+    raise UnknownValue("skill", name, suggest(name, [s["label"] for s in d.skills]))
 
 
 # --- Shared pieces -----------------------------------------------------------------------------
@@ -260,8 +294,8 @@ def match_skills(d, skills, city=None, field=None):
     for name in skills or []:
         try:
             have.add(resolve_skill(d, name))
-        except UnknownValue:
-            unknown.append(name)
+        except UnknownValue as e:
+            unknown.append({"name": name, "did_you_mean": e.suggestions})
     idx = pool(d, fi, ci)
     listed = [d.jobs[i][rd.SKILLS] for i in idx if d.jobs[i][rd.SKILLS]]
     fit = sum(1 for s in listed if fits(s, have))
