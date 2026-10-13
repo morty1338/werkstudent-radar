@@ -1,0 +1,7 @@
+# Build context for mcp/Dockerfile (docker build -f mcp/Dockerfile .): everything
+# is left out except the files the image copies.
+*
+!mcp/requirements.txt
+!mcp/radar_*.py
+!radar/__init__.py
+!radar/stats.py

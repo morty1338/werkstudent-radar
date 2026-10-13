@@ -31,7 +31,14 @@ through the SDK's in-memory client, agreement with `gap.js` and `summary.json`).
 stateless JSON responses, rate limits, 64 KiB body limit, `/health`, Host check
 from `MCP_ALLOWED_HOSTS`, log without client addresses; uvicorn's access log stays
 off). In HTTP mode the data is the live JSON, cached for an hour.
-`tests/test_mcp_http.py` runs a real uvicorn on a free port. The folder has no `__init__.py`
+`tests/test_mcp_http.py` runs a real uvicorn on a free port.
+Hosting: Vercel Hobby (free, no payment method; `mcp/DEPLOY.md` compares hosts).
+`mcp/vercel/stage.sh` assembles the deployment (entrypoint `mcp/vercel/app.py` as
+`app.py` with `trust_proxy=True` and any Host, `mcp/radar_*.py`, `radar/stats.py`);
+`mcp-deploy.yml` tests, builds and smoke-tests `mcp/Dockerfile` (built from the repo
+root; `mcp/Dockerfile.dockerignore`) on every change to `mcp/`, and deploys with the
+Vercel CLI only when the secret `VERCEL_TOKEN` exists. Never connect the repository
+to Vercel's Git integration: it would deploy everything on every bot commit. The folder has no `__init__.py`
 and its modules are named `radar_*.py`: a module or package called `mcp` would
 shadow the SDK. On stdio nothing may be printed to stdout (logs go to stderr).
 

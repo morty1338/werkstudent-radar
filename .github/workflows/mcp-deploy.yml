@@ -1,0 +1,105 @@
+name: Deploy MCP server
+
+# Tests the MCP server, builds its container image (mcp/Dockerfile) and checks it,
+# then deploys the server to Vercel (free Hobby plan, no payment method) when it
+# changes on main. Only the server goes out (mcp/vercel/stage.sh), not the website.
+# The deploy job waits until the repository secret VERCEL_TOKEN exists
+# (Settings → Secrets and variables → Actions); see mcp/DEPLOY.md.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "mcp/**"
+      - "radar/stats.py"
+      - "tests/test_mcp*.py"
+      - ".github/workflows/mcp-deploy.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: mcp-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  PROJECT: radar-mcp        # the Vercel project; its address is https://<project>.vercel.app
+  VERCEL_CLI: vercel@61.1.0
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run the MCP tests
+        run: python -m pytest -q tests/test_mcp.py tests/test_mcp_http.py
+
+      # The image the host will run, started as the host would: own port, a foreign
+      # Host header, no data inside (it reads the published JSON).
+      - name: Build and check the container
+        run: |
+          docker build -f mcp/Dockerfile -t radar-mcp .
+          docker run -d --name radar-mcp -p 8080:8080 radar-mcp
+          curl -fsS --retry 10 --retry-delay 1 --retry-all-errors -H "Host: radar-mcp.example.run.app" http://localhost:8080/health
+          python - <<'EOF'
+          import anyio
+          from mcp import Client
+
+          async def main():
+              async with Client("http://localhost:8080/mcp") as c:
+                  r = await c.call_tool("get_overview", {})
+                  assert not r.is_error and r.structured_content["postings"] > 0, r
+                  print("get_overview:", r.structured_content["postings"], "postings on", r.structured_content["as_of"])
+
+          anyio.run(main)
+          EOF
+          docker logs radar-mcp
+          docker rm -f radar-mcp
+
+  deploy:
+    needs: test
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+    steps:
+      - name: Wait for the Vercel token
+        if: env.VERCEL_TOKEN == ''
+        run: echo "::notice::VERCEL_TOKEN isn't set yet, so nothing is deployed (see mcp/DEPLOY.md)."
+
+      - uses: actions/checkout@v7
+        if: env.VERCEL_TOKEN != ''
+
+      # The project is created on the first run; Vercel builds the staged folder
+      # (Python 3.12, requirements.txt, app.py) and makes it the production deployment.
+      - name: Deploy to Vercel
+        if: env.VERCEL_TOKEN != ''
+        run: |
+          bash mcp/vercel/stage.sh build
+          cd build
+          npx --yes "$VERCEL_CLI" project add "$PROJECT" --token "$VERCEL_TOKEN" || true   # already exists
+          npx --yes "$VERCEL_CLI" link --yes --project "$PROJECT" --token "$VERCEL_TOKEN"
+          npx --yes "$VERCEL_CLI" deploy --prod --yes --token "$VERCEL_TOKEN" > ../deployment.txt
+          cat ../deployment.txt
+
+      - name: Check the deployed server
+        if: env.VERCEL_TOKEN != ''
+        run: |
+          # The production address (deployment-specific URLs may sit behind Vercel's login).
+          cd build
+          domain=$(npx --yes "$VERCEL_CLI" inspect "$(tail -1 ../deployment.txt)" --token "$VERCEL_TOKEN" 2>&1 \
+                   | grep -oE 'https://[a-z0-9-]+\.vercel\.app' | awk '{ print length, $0 }' | sort -n | head -1 | cut -d' ' -f2)
+          echo "Production address: $domain"
+          curl -fsS --retry 5 --retry-delay 3 --retry-all-errors "$domain/health"
+          echo "### MCP server deployed" >> "$GITHUB_STEP_SUMMARY"
+          echo "Connect Claude to \`$domain/mcp\`" >> "$GITHUB_STEP_SUMMARY"

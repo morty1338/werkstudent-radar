@@ -16,7 +16,9 @@ instead:
   name for tool calls; no IP addresses, user agents or arguments are logged.
   Client addresses are only kept in memory for rate limiting.
 
-Allowed Host headers come from MCP_ALLOWED_HOSTS (comma-separated, e.g.
+Behind a host's proxy that doesn't hand uvicorn the client address (Vercel),
+`trust_proxy=True` takes it from X-Real-IP / X-Forwarded-For, which that proxy
+sets itself. Allowed Host headers come from MCP_ALLOWED_HOSTS (comma-separated, e.g.
 "radar-mcp.example.com"); "*" turns the DNS-rebinding check off, which is what
 you want behind a hosting proxy that sets the Host header itself.
 """
@@ -80,8 +82,17 @@ class RateLimiter:
 class Guard:
     """ASGI middleware around the MCP app: rate limit and body limit for /mcp, request log."""
 
-    def __init__(self, app, limiter=None, max_body=MAX_BODY):
-        self.app, self.limiter, self.max_body = app, limiter or RateLimiter(), max_body
+    def __init__(self, app, limiter=None, max_body=MAX_BODY, trust_proxy=False):
+        self.app, self.limiter, self.max_body, self.trust_proxy = app, limiter or RateLimiter(), max_body, trust_proxy
+
+    def client(self, scope):
+        """The client address for rate limiting (kept in memory only, never logged)."""
+        if self.trust_proxy:
+            headers = dict(scope.get("headers") or [])
+            ip = headers.get(b"x-real-ip") or (headers.get(b"x-forwarded-for") or b"").split(b",")[0]
+            if ip.strip():
+                return ip.strip().decode("latin-1")
+        return (scope.get("client") or ("unknown", 0))[0]
 
     async def __call__(self, scope, receive, send):
         if scope["type"] != "http":
@@ -96,8 +107,7 @@ class Guard:
 
         try:
             if path.startswith("/mcp"):
-                client = (scope.get("client") or ("unknown", 0))[0]
-                ok, wait = self.limiter.allow(client)
+                ok, wait = self.limiter.allow(self.client(scope))
                 if not ok:
                     resp = JSONResponse({"error": "Too many requests; try again shortly."}, status_code=429,
                                         headers={"Retry-After": str(wait)})
@@ -133,7 +143,7 @@ class Guard:
         return wrapped
 
 
-def build_app(server, store, limiter=None, allowed_hosts=None):
+def build_app(server, store, limiter=None, allowed_hosts=None, trust_proxy=False):
     """The ASGI app: MCP at /mcp, plus / and /health."""
 
     @server.custom_route("/health", methods=["GET"])
@@ -156,4 +166,4 @@ def build_app(server, store, limiter=None, allowed_hosts=None):
         max_request_body_size=MAX_BODY,
         transport_security=transport_security(allowed_hosts),
     )
-    return Guard(app, limiter=limiter)
+    return Guard(app, limiter=limiter, trust_proxy=trust_proxy)

@@ -147,3 +147,56 @@ def test_transport_security_from_env(env, protected, allowed):
     assert s.enable_dns_rebinding_protection is protected
     if allowed:
         assert allowed in s.allowed_hosts
+
+
+# --- The Vercel deployment ---------------------------------------------------------------------
+
+@pytest.fixture(scope="module")
+def vercel_url(tmp_path_factory):
+    """mcp/vercel/stage.sh's output, served the way Vercel serves it: `app` imported from app.py
+    (here by uvicorn in its own process, with a local copy of the data instead of the live site)."""
+    import os
+    import shutil as sh
+    import subprocess
+
+    if sh.which("bash") is None:
+        pytest.skip("bash not available")
+    out = tmp_path_factory.mktemp("vercel") / "deploy"
+    subprocess.run(["bash", str(ROOT / "mcp" / "vercel" / "stage.sh"), str(out)], check=True)
+    files = sorted(str(p.relative_to(out)) for p in out.rglob("*") if p.is_file())
+    assert files == [".python-version", "app.py", "mcp/radar_data.py", "mcp/radar_http.py", "mcp/radar_server.py",
+                     "mcp/radar_tools.py", "radar/__init__.py", "radar/stats.py", "requirements.txt", "vercel.json"]
+    # Point the staged server at the repository's data instead of the network.
+    app_py = out / "app.py"
+    app_py.write_text(app_py.read_text().replace('configure(["--http"])', f'configure(["--http", "--data-dir", {str(ROOT / "docs" / "data")!r}])'))
+    port = free_port()
+    proc = subprocess.Popen([sys.executable, "-m", "uvicorn", "app:app", "--port", str(port), "--log-level", "warning"],
+                            cwd=out, env={**os.environ, "PYTHONPATH": ""}, stderr=subprocess.PIPE)
+    url = f"http://127.0.0.1:{port}"
+    for _ in range(100):
+        try:
+            get(url + "/health")
+            break
+        except OSError:
+            time.sleep(0.1)
+    yield url
+    proc.terminate()
+    proc.wait(5)
+
+
+@pytest.mark.anyio
+async def test_vercel_deployment_serves_the_tools(vercel_url):
+    from mcp import Client
+    assert get(vercel_url + "/health")[1]["status"] == "ok"
+    async with Client(f"{vercel_url}/mcp") as c:
+        r = await c.call_tool("pay_stats", {"city": "Berlin"})
+    assert not r.is_error and r.structured_content["rates"] > 0
+    # Any Host header passes behind the host's proxy.
+    assert post(vercel_url + "/mcp", INIT, {"Host": "radar-mcp.vercel.app"})[0] == 200
+
+
+def test_vercel_deployment_limits_each_client_by_its_forwarded_address(vercel_url):
+    burst = radar_http.PER_CLIENT_BURST
+    first = [post(vercel_url + "/mcp", INIT, {"X-Real-IP": "203.0.113.1"})[0] for _ in range(burst + 1)]
+    assert first[-1] == 429
+    assert post(vercel_url + "/mcp", INIT, {"X-Real-IP": "203.0.113.2"})[0] == 200

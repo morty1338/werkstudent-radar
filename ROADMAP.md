@@ -25,6 +25,11 @@ Rules for every phase:
   Parquet export and the `duckdb` dependency went with the playground; the degree
   data stays in `summary.json` (formats only grow) and the CV check still names the
   degree it finds.
+- **Hosting on Vercel (Phase 10).** The plan compared paid-capable hosts; the owner
+  wants no costs at all, so the server runs on Vercel's Hobby plan: free, no payment
+  method, and past a limit it pauses instead of billing. Google Cloud Run would be
+  free at this traffic too but needs a card; Render's free tier needs none but takes
+  about a minute to wake up. The Dockerfile stays for CI and other container hosts.
 - **No SmartRecruiters adapter (Phase 8).** `api.smartrecruiters.com/robots.txt`
   disallows every crawler except LinkedInBot, and the official Posting API now asks
   for a key, so SmartRecruiters boards are detected but not read (AUTO1, Bosch,
@@ -162,7 +167,7 @@ login, never secrets in the repository. Stop after each step for review.
       responses; live JSON from GitHub Pages cached for an hour; per-client and
       global rate limits, a 64 KiB request body limit, Host header check
       (`MCP_ALLOWED_HOSTS`), `/health`, and a request log without client addresses.
-- [ ] Step 2 — hosting: compare three hosts with a free or very cheap tier
+- [x] Step 2 — hosting: compare three hosts with a free or very cheap tier
       (current terms, cold starts, limits), recommend one; Dockerfile and a GitHub
       Actions workflow that deploys on pushes to main changing `mcp/`; the account
       and GitHub secret steps for the owner.
