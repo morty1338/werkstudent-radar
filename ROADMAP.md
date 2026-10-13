@@ -179,6 +179,6 @@ login, never secrets in the repository. Stop after each step for review.
       sign-in") and that connector inside a Claude Code session. Testing showed the
       SDK's indented text copies cost about a third more tokens, so the tools now
       send compact JSON.
-- [ ] Step 4 — a plain-language explanation: local vs. remote MCP, hosting, Docker
+- [x] Step 4 — a plain-language explanation: local vs. remote MCP, hosting, Docker
       and the deploy pipeline, cold starts, rate limits, the request flow, and
       likely interview questions.
