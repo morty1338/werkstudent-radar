@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 23:12:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in Fiskalberatung (m/w/d) ? AI focus</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-OLGYVU-CKL-S</link>
+      <guid isPermaLink="false">12518-OLGYVU-CKL-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Scopevisio AG · Halle (Westfalen) · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) - Strategy &amp; Projects</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20471-2355796-S</link>
@@ -15,6 +23,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Hoffmann SE · München · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent Strategie &amp; Projektmanagement (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/van-der-valk-deutschland/werkstudent-strategie-projektmanagement-moers-436117</link>
+      <guid isPermaLink="false">an:werkstudent-strategie-projektmanagement-moers-436117</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Van der Valk Deutschland · Moers · Consulting &amp; Strategy</description>
     </item>
     <item>
       <title>Werkstudent Strategic Projects People und Culture (m/w/d)</title>

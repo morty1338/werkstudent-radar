@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 23:12:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Projektassistent (w/m/d) für national &amp; international geförderte Projekte</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003846815-S</link>
+      <guid isPermaLink="false">10001-1003846815-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>HaCon Ingenieurgesellschaft mbH · Hannover · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent Logistik &amp; Projektkoordination (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4963187425-S</link>
+      <guid isPermaLink="false">12288-4963187425-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>cademify · Lippstadt · Product &amp; Project Mgmt · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent:in Technisches Projektmanagement Infrastrukturprojekte</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1642485-1-S</link>
@@ -41,12 +57,28 @@
       <description>WISAG Job &amp; Karriere GmbH &amp; Co. KG · Frankfurt am Main · Product &amp; Project Mgmt</description>
     </item>
     <item>
+      <title>Werkstudent Training Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13509-000021115a3001-S</link>
+      <guid isPermaLink="false">13509-000021115a3001-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>BWI GmbH · €16.00/h · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
       <title>Werkstudent/in (m/w/d) Projektleitung Hochbau</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19192-260727-39119078-S</link>
       <guid isPermaLink="false">19192-260727-39119078-S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Reuter Bauunternehmen GmbH · Grevenbroich · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent Geschäftsführung, Support &amp; Special Projects (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/ucmagency/werkstudent-geschaftsfuhrung-support-special-projects-berlin-235547</link>
+      <guid isPermaLink="false">an:werkstudent-geschaftsfuhrung-support-special-projects-berlin-235547</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>ucm.agency · Berlin · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudent Projektmanagement für Industrieprojekte (m/w/d)</title>

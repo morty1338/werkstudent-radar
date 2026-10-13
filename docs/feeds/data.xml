@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 23:12:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Innovation, Data Science &amp; Automation (all genders), H World International</title>
@@ -15,6 +15,62 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>H World International - Team Center · Frankfurt am Main · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Datenmanagement &amp; Anwendungsbetreuung (m/w/d), Hörmann KG Verkaufsgesellschaft</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356299-S</link>
+      <guid isPermaLink="false">12811-2356299-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Hörmann KG Verkaufsgesellschaft · Steinhagen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Innovation, Data Science &amp; Automation (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-9766a5a3-7d95-41e1--S</link>
+      <guid isPermaLink="false">12951-9766a5a3-7d95-41e1--S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>H World International Germany · Frankfurt am Main · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Erneuerbare Energien - Marktstammdaten</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-288041-S</link>
+      <guid isPermaLink="false">13645-288041-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>EAM I Energie aus der Mitte · Gladenbach · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Erneuerbare Energien - Marktstammdaten</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-288042-S</link>
+      <guid isPermaLink="false">13645-288042-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>EAM I Energie aus der Mitte · Hardegsen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent*In (M/W/D) Market Research &amp; Data Insights</title>
+      <link>https://www.arbeitnow.com/jobs/companies/ramp106-gmbh/werkstudentin-market-research-data-insights-hamburg-486711</link>
+      <guid isPermaLink="false">an:werkstudentin-market-research-data-insights-hamburg-486711</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Ramp106 Gmbh · Hamburg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student CRM &amp; Data Operations (all gender)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kranus-health-gmbh/working-student-crm-data-operations-all-gender-berlin-317215</link>
+      <guid isPermaLink="false">an:working-student-crm-data-operations-all-gender-berlin-317215</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Kranus Health Gmbh · Berlin · Data &amp; Analytics · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student / Intern – Control Team (Systems &amp; Data Infrastructure) (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/phlair/working-student-intern-control-team-systems-data-infrastructure-munchen-297607</link>
+      <guid isPermaLink="false">an:working-student-intern-control-team-systems-data-infrastructure-munchen-297607</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Phlair · München · Data &amp; Analytics · no German needed</description>
     </item>
     <item>
       <title>Werkstudent/in (m/w/d) Künstliche Intelligenz trifft Ingenieurwesen</title>

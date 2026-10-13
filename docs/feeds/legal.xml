@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 23:12:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudententätigkeit Datenschutz (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14820-0068053712-S</link>
+      <guid isPermaLink="false">14820-0068053712-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Legal</category>
+      <description>MERKUR.COM AG · Espelkamp · Legal</description>
+    </item>
     <item>
       <title>Werkstudent im Bereich Legal / Compliance (d/m/w)</title>
       <link>https://www.arbeitnow.com/jobs/companies/nyala/werkstudent-im-bereich-legal-compliance-berlin-267265</link>

@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 23:12:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in Finanzen &amp; Controlling</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1642484-1-S</link>
+      <guid isPermaLink="false">12456-1642484-1-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Deutsche Bahn AG · Hannover · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Controlling (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1459831-28033-1-S</link>
+      <guid isPermaLink="false">12608-1459831-28033-1-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>REWE Group · Köln · Finance &amp; Controlling</description>
+    </item>
     <item>
       <title>Werkstudent*in Buchhaltung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-c5f5ab34-177a-4cf0--S</link>
@@ -17,12 +33,60 @@
       <description>Weber Unternehmensgruppe · Pulheim · Finance &amp; Controlling</description>
     </item>
     <item>
+      <title>Werkstudent Controlling International (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13011-44502686-1012-S</link>
+      <guid isPermaLink="false">13011-44502686-1012-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Dr. August Oetker NM KG · Bielefeld · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Controlling (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1338024-3-S</link>
+      <guid isPermaLink="false">13348-1338024-3-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Deutsche Lufthansa AG · Hamburg · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent im Kundenkontakt (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001B0A-S</link>
+      <guid isPermaLink="false">18024-10Q4800001B0A-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Sparkasse Hohenlohekreis · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent in internen Bereichen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001C0A-S</link>
+      <guid isPermaLink="false">18024-10Q4800001C0A-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Sparkasse Hohenlohekreis · Künzelsau · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Working Student Corporate Controlling (m/f/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18069-44501696-1012-S</link>
+      <guid isPermaLink="false">18069-44501696-1012-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>exyte Management GmbH · Stuttgart · Finance &amp; Controlling</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) Projektsteuerung im Bauwesen in Stuttgart</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19192-260417-64762646-S</link>
       <guid isPermaLink="false">19192-260417-64762646-S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Scheu+Engel GmbH · Stuttgart · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Social Media Marketing &amp; Content Management für Wirtschafts- und Finanzbildung (m/w/d) / Flossbach von Storch Stiftung</title>
+      <link>https://www.arbeitnow.com/jobs/companies/flossbach-von-storch-ag/werkstudent-social-media-marketing-content-management-fur-wirtschafts-und-finanzbildung-flossbach-von-storch-stiftung-koln-293616</link>
+      <guid isPermaLink="false">an:werkstudent-social-media-marketing-content-management-fur-wirtschafts-und-finanzbildung-flossbach-von-storch-stiftung-koln-293616</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Flossbach Von Storch Ag · Köln · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Working Student Tax Operations - Withholding Tax</title>

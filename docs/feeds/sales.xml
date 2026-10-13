@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 23:12:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Vertrieb Neukunden</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003844426-S</link>
+      <guid isPermaLink="false">10001-1003844426-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>konzeptwerk GmbH · Düsseldorf · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent Sales (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-520651_JB5270951-S</link>
+      <guid isPermaLink="false">12265-520651_JB5270951-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>FERCHAU GmbH Niederlassung Braunschweig · Braunschweig · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) B2B-Telefonvertrieb</title>
+      <link>https://www.arbeitnow.com/jobs/companies/econ-tel-gmbh/werkstudent-b2b-telefonvertrieb-munster-77992</link>
+      <guid isPermaLink="false">an:werkstudent-b2b-telefonvertrieb-munster-77992</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>ECON TEL GmbH · Münster · €15.00/h · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent Kundenservice (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/montredo-gmbh/werkstudent-kundenservice-berlin-446869</link>
+      <guid isPermaLink="false">an:werkstudent-kundenservice-berlin-446869</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Montredo GmbH · Berlin · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent / Sales Assistant (m/w/d) - CECIL und Street One im Leo-Center in Leonberg</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839383-S</link>
