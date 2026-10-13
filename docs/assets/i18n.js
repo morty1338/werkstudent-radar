@@ -310,7 +310,7 @@ const STRINGS = {
   "trk.f_city": { en: "City", de: "Stadt" },
   "trk.f_url": { en: "Link to the posting", de: "Link zur Anzeige" },
   "trk.f_status": { en: "Status", de: "Status" },
-  "trk.f_follow": { en: "Follow up on", de: "Nachfassen am" },
+  "trk.f_follow": { en: "Remind me on", de: "Erinnern am" },
   "trk.f_note": { en: "Note", de: "Notiz" },
   "trk.save": { en: "Save", de: "Speichern" },
   "trk.cancel": { en: "Cancel", de: "Abbrechen" },
