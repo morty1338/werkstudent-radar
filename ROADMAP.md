@@ -116,7 +116,7 @@ never fetched. Stop after each step for review.
       Werkstudierende in Berlin or München (remote in Germany flagged separately).
       robots.txt and terms respected, identifying User-Agent, 1–2 s between
       companies, retries with backoff.
-- [ ] Step 3 — pipeline and quality: daily run writes `docs/data/companies.json`
+- [x] Step 3 — pipeline and quality: daily run writes `docs/data/companies.json`
       (no job texts, links to the originals), deduped against BA postings (company +
       normalised title + city) with an "also on BA" mark; run-log warnings for a 404
       or 0 jobs after having jobs; pytest per adapter on saved sample responses.

@@ -97,6 +97,13 @@ jobs:
       - name: Build aggregates
         run: python -m radar.build 2>&1 | tee -a "$LOG"
 
+      # Werkstudent jobs in Berlin and München from company career pages, read
+      # through their ATS job-board APIs (data/companies.yaml). A board that
+      # can't be read is a warning in the run summary, not a failed run.
+      - name: Read company career pages
+        continue-on-error: true
+        run: python -m radar.careers 2>&1 | tee -a "$LOG"
+
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
