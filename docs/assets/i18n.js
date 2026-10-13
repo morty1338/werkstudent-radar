@@ -296,6 +296,24 @@ const STRINGS = {
   },
   "co.quiet": { en: "No Werkstudent jobs here right now: {list}.", de: "Hier gerade ohne Werkstudentenstellen: {list}." },
 
+  // --- Use in Claude ---------------------------------------------------------------------------------------------------
+  "claude.title": { en: "Ask Claude about these jobs", de: "Frag Claude nach diesen Jobs" },
+  "claude.lede": {
+    en: "The radar is also an MCP server: add it to Claude as a connector and ask in plain words, for example “What does a Werkstudent in IT earn in Berlin?”. Claude answers with today's data and links to the postings.",
+    de: "Der Radar ist auch ein MCP-Server: Füge ihn in Claude als Connector hinzu und frag ganz normal, zum Beispiel „Was verdient ein Werkstudent in der IT in Berlin?“. Claude antwortet mit den heutigen Daten und Links zu den Anzeigen.",
+  },
+  "claude.copy": { en: "Copy URL", de: "URL kopieren" },
+  "claude.copied": { en: "Copied", de: "Kopiert" },
+  "claude.copy_failed": { en: "Select the URL and copy it", de: "URL markieren und kopieren" },
+  "claude.steps": {
+    en: '<li><strong>claude.ai or Claude Desktop:</strong> Settings → Connectors → Add custom connector, paste the URL, then turn it on in a chat under “+” → Connectors.</li><li><strong>Claude Code:</strong> <code>claude mcp add --transport http werkstudent-radar https://radar-mcp.vercel.app/mcp</code></li>',
+    de: '<li><strong>claude.ai oder Claude Desktop:</strong> Einstellungen → Connectors → Benutzerdefinierten Connector hinzufügen, URL einfügen, dann im Chat unter „+“ → Connectors einschalten.</li><li><strong>Claude Code:</strong> <code>claude mcp add --transport http werkstudent-radar https://radar-mcp.vercel.app/mcp</code></li>',
+  },
+  "claude.note": {
+    en: 'Free, read-only and without login; job texts are never sent, only links. <a href="https://github.com/morty1338/werkstudent-radar#use-radar-in-claude">How it works</a>',
+    de: 'Kostenlos, nur lesend und ohne Login; Stellentexte werden nie gesendet, nur Links. <a href="https://github.com/morty1338/werkstudent-radar#use-radar-in-claude">So funktioniert es</a>',
+  },
+
   // --- About, footer -------------------------------------------------------------------------------------------------
   "about.summary": { en: "About the data", de: "Über die Daten" },
   "about.body": {

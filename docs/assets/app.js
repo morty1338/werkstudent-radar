@@ -568,6 +568,7 @@ async function main() {
   ctx.match = initMatch(ctx, (params.get("skills") || "").split(",").filter(Boolean));
   initCv(ctx);
   initCompanies(ctx, CO);
+  initCopyUrl();
   renderTrends();
   render();
 
@@ -603,6 +604,23 @@ async function main() {
   // Sections get their height only now, so jump to #anchor again.
   const target = location.hash && document.getElementById(location.hash.slice(1));
   if (target) target.scrollIntoView({ behavior: "instant" });
+}
+
+// "Ask Claude": copy the MCP server URL.
+function initCopyUrl() {
+  const button = document.getElementById("mcp-copy");
+  const status = document.getElementById("mcp-copied");
+  const url = document.getElementById("mcp-url").textContent.trim();
+  button.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(url);
+      status.textContent = t("claude.copied");
+    } catch {
+      window.getSelection()?.selectAllChildren(document.getElementById("mcp-url"));
+      status.textContent = t("claude.copy_failed");
+    }
+    setTimeout(() => (status.textContent = ""), 2500);
+  });
 }
 
 main();
