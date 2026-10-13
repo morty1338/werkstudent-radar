@@ -12,10 +12,13 @@ to stderr). Read-only: it only reads the JSON files the website uses.
 import argparse
 import logging
 import sys
+from typing import Any
 
 from mcp.server import MCPServer
+from mcp.server.mcpserver.exceptions import ToolError
 
 import radar_data
+import radar_tools as rt
 
 INSTRUCTIONS = """\
 Werkstudent Radar: daily statistics of Werkstudent (working student) job postings in
@@ -27,6 +30,62 @@ aren't available; each posting links to its original."""
 
 mcp = MCPServer("Werkstudent Radar", instructions=INSTRUCTIONS)
 store = radar_data.Store(radar_data.Source())
+
+
+def answer(fn, *args, **kwargs):
+    """Run a tool on today's data; unknown names and missing data become messages for Claude."""
+    try:
+        return fn(store.data(), *args, **kwargs)
+    except (rt.UnknownValue, radar_data.DataError) as e:
+        raise ToolError(str(e)) from e
+
+
+@mcp.tool()
+def get_overview() -> dict[str, Any]:
+    """Headline numbers of the Werkstudent job market in Germany today: number of postings,
+    date of the last update, median hourly pay with its 95% confidence interval, the top
+    cities, fields and skills. Start here for general questions ("how many Werkstudent jobs
+    are there?", "what does a Werkstudent earn?")."""
+    return answer(rt.get_overview)
+
+
+@mcp.tool()
+def search_jobs(city: str | None = None, field: str | None = None, skill: str | None = None,
+                no_german: bool = False, limit: int = 10) -> dict[str, Any]:
+    """Find Werkstudent postings online today, newest first, with title, company, city,
+    field, hourly pay if stated, German requirement and the link to the original posting.
+
+    city: a German city, e.g. "Berlin", "München" or "Munich".
+    field: a job field id or name, e.g. "it", "data", "marketing", "Finance & Controlling".
+    skill: one skill, e.g. "Python", "SQL", "Excel", "SAP".
+    no_german: only postings that don't require German.
+    limit: how many postings to return (1–50); `matches` gives the total."""
+    return answer(rt.search_jobs, city=city, field=field, skill=skill, no_german=no_german, limit=limit)
+
+
+@mcp.tool()
+def pay_stats(field: str | None = None, city: str | None = None) -> dict[str, Any]:
+    """Hourly pay of Werkstudent postings, optionally for one field and/or city: median,
+    middle half (25th–75th percentile), 95% confidence interval and how many postings state
+    a rate. `reliable` is false when there are fewer than 10 stated rates (or fewer than 5
+    employers, or a very wide interval); then say the numbers are only anecdotal."""
+    return answer(rt.pay_stats, field=field, city=city)
+
+
+@mcp.tool()
+def top_skills(field: str | None = None, city: str | None = None, limit: int = 10) -> dict[str, Any]:
+    """The skills most often asked for in Werkstudent postings, optionally for one field
+    and/or city, with the number and share of postings that ask for each."""
+    return answer(rt.top_skills, field=field, city=city, limit=limit)
+
+
+@mcp.tool()
+def match_skills(skills: list[str], city: str | None = None, field: str | None = None) -> dict[str, Any]:
+    """How many Werkstudent postings someone with these skills qualifies for (a posting fits
+    when at most a quarter of its listed skills are missing), the share of postings that list
+    skills, and the next 3 skills that would make the most extra postings fit. Use it for
+    "which jobs fit my skills?" or "what should I learn next?". Optional city and field filters."""
+    return answer(rt.match_skills, skills, city=city, field=field)
 
 
 def configure(argv=None):

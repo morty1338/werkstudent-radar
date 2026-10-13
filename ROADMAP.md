@@ -137,7 +137,7 @@ stay as they are. Stop after each step for review.
       published JSON from GitHub Pages with a short in-memory cache. Reuses
       `summary.json`, the positional `checker.json` rows and `postings.json`
       (matched by position and `as_of`).
-- [ ] Step 2 — tools: `get_overview`, `search_jobs`, `pay_stats`, `top_skills`,
+- [x] Step 2 — tools: `get_overview`, `search_jobs`, `pay_stats`, `top_skills`,
       `match_skills`, with typed parameters and descriptions; compact JSON, never
       job texts.
 - [ ] Step 3 — quality: pytest per tool on a small fixture copy of the data;
