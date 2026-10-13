@@ -146,6 +146,11 @@ shows up in n8n under **Executions**.
   401 = wrong secret, changed body or a timestamp older than 10 minutes;
   500 = `WEBHOOK_SECRET` is missing in n8n. A 404 means the workflow isn't published
   or the path is wrong.
+- **Telegram errors** (n8n → Executions → the red node): "Not Found" means a wrong bot
+  token in the credential (paste it again, without a `bot` prefix or spaces);
+  "Credential with ID … does not exist" means the credential was deleted and made again.
+  Give the new one another name, select it in both Telegram nodes, Save and Publish
+  (with the same name n8n sees no change and keeps Publish greyed out).
 - **A day is posted once.** "Build messages" remembers the last day it sent; a
   repeated daily run is answered with "already sent". Test payloads always go through.
 - **Changing the code:** edit `code/*.js`, run `python integrations/n8n/build_workflow.py`
