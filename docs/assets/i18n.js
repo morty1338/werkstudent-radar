@@ -16,7 +16,6 @@ const STRINGS = {
   "nav.where": { en: "Jobs", de: "Jobs" },
   "nav.pay": { en: "Pay", de: "Gehalt" },
   "nav.skills": { en: "Skills", de: "Skills" },
-  "nav.programmes": { en: "Degrees", de: "Studium" },
   "nav.trends": { en: "Trends", de: "Trends" },
   "nav.check": { en: "Your skills", de: "Deine Skills" },
   "nav.check_short": { en: "Match", de: "Match" },
@@ -148,15 +147,6 @@ const STRINGS = {
   "skills.add": { en: "+ I have this", de: "+ Kann ich" },
 
   // --- 04 Programmes -----------------------------------------------------------------------------------------------
-  "programmes.title": { en: "What does your degree lead to?", de: "Wohin führt dein Studium?" },
-  "programmes.jobs": { en: "Jobs mentioning it", de: "Jobs, die es nennen" },
-  "programmes.share": { en: "Share of all jobs", de: "Anteil aller Jobs" },
-  "programmes.median": { en: "Median pay", de: "Medianlohn" },
-  "programmes.top_field": { en: "Top field", de: "Top-Bereich" },
-  "programmes.fields": { en: "Fields", de: "Bereiche" },
-  "programmes.skills": { en: "Skills they ask for", de: "Gesuchte Skills" },
-  "programmes.skills_hint": { en: "click to add to yours", de: "anklicken, um ihn hinzuzufügen" },
-  "programmes.newest": { en: "Newest postings", de: "Neueste Anzeigen" },
 
   // --- 05 Trends ----------------------------------------------------------------------------------------------------
   "trends.title": { en: "How is it changing?", de: "Wie verändert es sich?" },
@@ -270,30 +260,6 @@ const STRINGS = {
   "subscribe.hint": { en: "Pick a field in the filters to get a feed for just that field.", de: "Wähle in den Filtern einen Bereich für einen Feed nur dieses Bereichs." },
 
   // --- 07 SQL playground ---------------------------------------------------------------------------------------------
-  "query.title": { en: "Query the data yourself", de: "Frag die Daten selbst ab" },
-  "query.insight": {
-    en: "Every posting since the first scan as one table: field, city, pay, German, skills, first and last seen. SQL runs in your browser with DuckDB. No job texts.",
-    de: "Jede Stelle seit dem ersten Scan als eine Tabelle: Bereich, Stadt, Lohn, Deutsch, Skills, zuerst und zuletzt gesehen. SQL läuft in deinem Browser mit DuckDB. Keine Stellentexte.",
-  },
-  "query.open": { en: "Open the SQL playground", de: "SQL-Playground öffnen" },
-  "query.open_hint": { en: "loads DuckDB-WASM (a few MB) from jsDelivr when opened", de: "lädt beim Öffnen DuckDB-WASM (einige MB) von jsDelivr" },
-  "query.label": { en: "SQL query", de: "SQL-Abfrage" },
-  "query.run": { en: "Run", de: "Ausführen" },
-  "query.loading": { en: "Loading DuckDB (a few MB, once)…", de: "DuckDB wird geladen (einmalig, einige MB) …" },
-  "query.running": { en: "Running…", de: "Läuft …" },
-  "query.rows": {
-    en: ({ n, v, ms }) => `${v} ${plural(n, "row", "rows")} in ${ms} ms`,
-    de: ({ n, v, ms }) => `${v} ${plural(n, "Zeile", "Zeilen")} in ${ms} ms`,
-  },
-  "query.first": { en: " · first {m} shown", de: " · erste {m} angezeigt" },
-  "query.ex1": { en: "Median pay by field", de: "Medianlohn nach Bereich" },
-  "query.ex2": { en: "Skills in jobs without German", de: "Skills in Jobs ohne Deutsch" },
-  "query.ex3": { en: "Best-paid skills", de: "Bestbezahlte Skills" },
-  "query.ex4": { en: "IT jobs from €18/h by city", de: "IT-Jobs ab 18 €/Std. nach Stadt" },
-  "query.help": {
-    en: 'Tables: <code>postings</code> (refnr, source, title, company, field, field_label, city, lat, lon, pay, pay_min, pay_max, german, remote, published, first_seen, last_seen, online, skills[], url) and <code>skills</code> (id, label, group). Pay is €/h; <code>german</code> is required, implicit, plus or none. Download: <a href="data/postings.parquet" download>postings.parquet</a>, <a href="data/skills.parquet" download>skills.parquet</a>.',
-    de: 'Tabellen: <code>postings</code> (refnr, source, title, company, field, field_label, city, lat, lon, pay, pay_min, pay_max, german, remote, published, first_seen, last_seen, online, skills[], url) und <code>skills</code> (id, label, group). Lohn in €/Std.; <code>german</code> ist required, implicit, plus oder none. Download: <a href="data/postings.parquet" download>postings.parquet</a>, <a href="data/skills.parquet" download>skills.parquet</a>.',
-  },
 
   // --- About, footer -------------------------------------------------------------------------------------------------
   "about.summary": { en: "About the data", de: "Über die Daten" },

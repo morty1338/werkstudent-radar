@@ -2,12 +2,10 @@ import { barList, bubbleMap, dotRange, esc, fmt, histogram, initTooltip, lineCha
 import { initCv } from "./cv.js?v=dev";
 import { applyStatic, fieldLabel, groupLabel, initLangSwitch, lang, skillLabel as localSkillLabel, t } from "./i18n.js?v=dev";
 import { initMatch } from "./match.js?v=dev";
-import { initSql } from "./sql.js?v=dev";
 import { medianCI } from "./stats.js?v=dev";
 
 // Column positions in checker.json "jobs" rows.
 export const J = { CAT: 0, CITY: 1, DE: 2, PAY: 3, SKILLS: 4, ROLE: 5, ROLE_CITY: 6, COMPANY: 7 };
-const MAJOR_ORDER = ["wiinf", "inf", "bwl", "wiing", "mb", "et", "math", "comm"];
 const PAY_MIN = 12;
 const PAY_BINS = 14; // €12 … €24, then 25+
 
@@ -502,65 +500,7 @@ async function main() {
     el.querySelector('[data-act="have"]').addEventListener("click", () => ctx.match.toggleSkill(r.key));
   }
 
-  // --- 05 Programmes (whole market, not filtered) ------------------------------------------------
-  function renderMajors() {
-    const majors = [...S.majors].sort((a, b) => MAJOR_ORDER.indexOf(a.id) - MAJOR_ORDER.indexOf(b.id));
-    const tabs = document.getElementById("mj-tabs");
-    const panel = document.getElementById("mj-panel");
-    let current = majors.find((m) => m.id === params.get("programme"))?.id ?? majors[0].id;
-    tabs.innerHTML = majors.map((m) => `<button type="button" class="tab" role="tab" data-id="${m.id}">${esc(m.label)}</button>`).join("");
-    tabs.addEventListener("click", (e) => {
-      const b = e.target.closest(".tab");
-      if (b) { current = b.dataset.id; draw(); }
-    });
-    panel.addEventListener("click", (e) => {
-      const s = e.target.closest("[data-skill]");
-      if (!s) return;
-      const idx = D.skills.findIndex((x) => x.id === s.dataset.skill);
-      if (idx >= 0) ctx.match.toggleSkill(idx);
-    });
-    const draw = () => {
-      tabs.querySelectorAll(".tab").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.id === current)));
-      const m = majors.find((x) => x.id === current);
-      const topField = m.categories[0];
-      panel.innerHTML = `
-        <div class="mj-stats">
-          <div class="mj-stat"><div class="label">${t("programmes.jobs")}</div><div class="value">${fmt.int(m.jobs)}</div></div>
-          <div class="mj-stat"><div class="label">${t("programmes.share")}</div><div class="value">${fmt.pct(m.share, 0)}</div></div>
-          <div class="mj-stat"><div class="label">${t("programmes.median")}</div><div class="value">${fmt.eur(m.median_pay)}</div>${
-            m.median_pay != null ? `<div class="ci">${ciText(m.median_pay_lo, m.median_pay_hi)}</div>` : ""}</div>
-          <div class="mj-stat"><div class="label">${t("programmes.top_field")}</div><div class="value" style="font-size:20px">${esc(topField ? catLabel(D.categories.indexOf(topField.key)) : "—")}</div></div>
-        </div>
-        <div class="mj-grid">
-          <div><h3>${t("programmes.fields")}</h3><div id="mj-fields"></div></div>
-          <div>
-            <h3>${t("programmes.skills")} <span class="hint-inline">${t("programmes.skills_hint")}</span></h3>
-            <div class="chips-row">${m.skills
-              .filter((x) => D.skills.some((s) => s.id === x.key))
-              .map((x) => {
-                const idx = D.skills.findIndex((s) => s.id === x.key);
-                return `<button type="button" class="chip" data-skill="${esc(x.key)}" aria-pressed="${ctx.match.has(idx)}">${esc(skillLabel(x.key))}</button>`;
-              })
-              .join("")}</div>
-            <h3 style="margin-top:18px">${t("programmes.newest")}</h3>
-            <div class="job-list">${m.examples.slice(0, 5).map((j) => `<div class="job"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a><div class="meta">${esc(j.company)} · ${esc(j.city || "—")}</div><div class="side">${j.pay != null ? `<span class="pay">${fmt.eur(j.pay)}</span>` : ""}</div></div>`).join("")}</div>
-          </div>
-        </div>`;
-      barList(
-        panel.querySelector("#mj-fields"),
-        m.categories.map((c) => ({ label: catLabel(D.categories.indexOf(c.key)), value: c.jobs, text: fmt.int(c.jobs) })),
-      );
-    };
-    ctx.showProgramme = (id) => {
-      if (!majors.some((m) => m.id === id)) return;
-      current = id;
-      draw();
-    };
-    ctx.redrawProgramme = draw;
-    draw();
-  }
-
-  // --- 06 Trends (whole market) ----------------------------------------------------------------------
+  // --- 04 Trends (whole market) ----------------------------------------------------------------------
   function renderTrends() {
     const days = H.dates.length;
     document.getElementById("trends-insight").textContent =
@@ -619,14 +559,11 @@ async function main() {
   ctx.onSkillsChanged = () => {
     renderTiles(pool());
     renderSkills();
-    ctx.redrawProgramme?.();
     syncUrl();
   };
 
   ctx.match = initMatch(ctx, (params.get("skills") || "").split(",").filter(Boolean));
   initCv(ctx);
-  initSql();
-  renderMajors();
   renderTrends();
   render();
 

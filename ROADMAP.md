@@ -20,6 +20,11 @@ Rules for every phase:
   `data/jobs.csv` (one row per posting, already kept forever) plus small,
   append-mostly CSVs in `data/history/`. `data/history.sqlite` is rebuilt from
   them in seconds (`python -m radar.history`) and is git-ignored.
+- **Fewer sections (after Phase 7).** The "What does your degree lead to?" section
+  and the SQL playground (Phase 6) were taken off the site to keep it focused. The
+  Parquet export and the `duckdb` dependency went with the playground; the degree
+  data stays in `summary.json` (formats only grow) and the CV check still names the
+  degree it finds.
 
 ## Phase 1 — Data engineering: history
 

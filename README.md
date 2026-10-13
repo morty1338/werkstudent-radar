@@ -31,16 +31,12 @@ Berlin on the map or "IT & Software" in a chart and the whole page follows.
    field or city; every median with its 95% confidence interval.
 3. **Which skills are asked for?** The most requested skills by group; click one
    for its pay, where it's used, and its jobs.
-4. **What does your degree lead to?** Wirtschaftsinformatik, Informatik, BWL,
-   Wirtschaftsingenieurwesen and more.
-5. **How is it changing?** Daily snapshots from 9 Oct 2026 on, and how long
+4. **How is it changing?** Daily snapshots from 9 Oct 2026 on, and how long
    postings stay online (Kaplan–Meier).
-6. **Check your skills.** Tick skills, or upload a CV (PDF, DOCX or TXT) and its
+5. **Check your skills.** Tick skills, or upload a CV (PDF, DOCX or TXT) and its
    skills are ticked for you, to see the share of jobs you qualify for, what to
    learn next and the matching postings. The CV is analysed in the browser with
    the same skill dictionary as the postings and is never uploaded.
-7. **Query the data yourself.** A SQL playground (DuckDB in the browser) over
-   every posting since the first scan.
 
 In German or English (switch in the header), on phones with a bottom tab bar,
 and installable as a home-screen app. RSS feeds announce new postings per field.
@@ -87,9 +83,9 @@ flowchart LR
     Q -- "fail" --> I["issue + e-mail"]
     Q -- "pass" --> B["build<br/>SQLite in memory + radar/sql"]
   end
-  B --> D["docs/<br/>JSON · Parquet · RSS"]
+  B --> D["docs/<br/>JSON · RSS"]
   D --> P["GitHub Pages"]
-  P --> U["Browser: charts, CIs, skill gap,<br/>CV analysis, DuckDB-WASM"]
+  P --> U["Browser: charts, CIs, skill gap,<br/>CV analysis"]
 ```
 
 Everything runs on free tiers: GitHub Actions for the pipeline, GitHub Pages for
@@ -197,7 +193,6 @@ Outputs:
 | `docs/data/history.json` | daily series built from `data/history.csv` (median pay with its 95% CI) |
 | `docs/data/lifetimes.json` | Kaplan–Meier curve of postings still online by days since publication, median days online overall and by field |
 | `docs/data/cooccurrence.json` | per skill, the skills most often asked for together, with lift and share |
-| `docs/data/postings.parquet` | every posting ever seen, one row each (field, city, pay, German, skills as a list, first/last seen, link; no job text), plus `skills.parquet` with labels; written with DuckDB for the SQL playground |
 | `docs/data/og.png` | link preview image with today's numbers (shown by Telegram, WhatsApp, LinkedIn; also at the top of this README) |
 | `data/history.csv` | one row per day × metric (`total`, `category`, `city`, `skill`, `major`, `german`). Which postings were online on a given day can't be reconstructed later, so this is collected from day one. |
 
@@ -284,8 +279,7 @@ their space.
 A static page in plain HTML, CSS and JavaScript (no framework, no build step),
 so it loads instantly and costs nothing to host. Charts are hand-made HTML/SVG
 in a dark "radar" theme. The only third-party code is loaded on demand: pdf.js
-from cdnjs when someone uploads a PDF, DuckDB-WASM from jsDelivr when someone
-opens the SQL playground. GitHub Pages lets browsers cache files
+from cdnjs when someone uploads a PDF. GitHub Pages lets browsers cache files
 for 10 minutes, so the deploy stamps its commit into the asset URLs
 (`?v=dev` → `?v=<commit>`); otherwise a browser can mix old and new scripts.
 
@@ -307,12 +301,6 @@ for 10 minutes, so the deploy stamps its commit into the asset URLs
   All strings, both languages side by side, are in one dictionary,
   [`i18n.js`](docs/assets/i18n.js); a test checks that every key the page uses
   exists in both.
-- **SQL playground** (section 07, [`sql.js`](docs/assets/sql.js)): DuckDB compiled to
-  WebAssembly runs SQL in the browser on `postings.parquet`, with four example
-  queries (median pay by field with roles counted once, skills in jobs without
-  German, best-paid skills, well-paid IT jobs by city). DuckDB-WASM is loaded from
-  jsDelivr only when someone opens the playground; a test runs every example
-  query against the export.
 
 To preview locally:
 
@@ -408,7 +396,7 @@ Full reports: [baseline](data/eval/report_baseline.md),
 
 ```bash
 .venv/bin/pip install -r requirements-dev.txt
-.venv/bin/python -m pytest                   # 215 tests (rules, SQL, history, stats, feeds, browser code via Node)
+.venv/bin/python -m pytest                   # 214 tests (rules, SQL, history, stats, feeds, browser code via Node)
 .venv/bin/python -m radar.evaluate report    # needs the local sample texts
 ```
 
@@ -442,7 +430,7 @@ data/eval/         evaluation labels and reports (job texts stay local)
 docs/              the website: index.html, assets/app.js (filters, sections), charts.js
                    (charts, map, tooltip), match.js (skills check, job list), gap.js
                    (learning plan), cv.js (CV reading), stats.js (bootstrap CI),
-                   sql.js (SQL playground), i18n.js (German/English strings)
+                   i18n.js (German/English strings)
 docs/data/         JSON consumed by the website
 docs/feeds/        RSS feeds (all and per field), rebuilt daily
 data/raw/          local raw dumps, one folder per day (not committed)

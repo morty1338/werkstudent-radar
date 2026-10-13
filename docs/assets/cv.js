@@ -98,13 +98,6 @@ export function initCv(ctx) {
   const out = document.getElementById("cv-result");
 
   input.addEventListener("change", () => input.files[0] && run(input.files[0]));
-  out.addEventListener("click", (e) => {
-    const b = e.target.closest("[data-programme]");
-    if (b) {
-      ctx.showProgramme?.(b.dataset.programme);
-      document.getElementById("programmes").scrollIntoView({ behavior: "smooth" });
-    }
-  });
 
   async function run(file) {
     out.textContent = t("cv.reading", { file: file.name });
@@ -123,7 +116,7 @@ export function initCv(ctx) {
       ctx.match.setSkills(idx, { fromCv: true });
       const major = found.majors[0];
       out.innerHTML = `${esc(t("cv.found", { n: idx.length }))}${
-        major ? `${esc(t("cv.degree"))}<button type="button" class="link-btn" data-programme="${esc(major.id)}">${esc(major.label)}</button>` : ""}`;
+        major ? esc(t("cv.degree") + major.label) : ""}`;
     } catch (err) {
       out.textContent = t("cv.error", { file: file.name, msg: err.message });
     } finally {
