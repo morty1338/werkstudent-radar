@@ -1,3 +1,3 @@
-# MCP server (mcp/radar_server.py). Its own environment, like experiments/:
+# MCP server (mcp/radar_server.py). Its own environment:
 #   python3 -m venv mcp/.venv && mcp/.venv/bin/pip install -r mcp/requirements.txt
 mcp>=2.3,<3

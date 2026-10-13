@@ -73,7 +73,7 @@ As of 13 Oct 2026 (the live site updates every morning):
 | Days of history | 5 (daily since 9 Oct 2026), with online stretches per posting |
 | Median hourly pay | **€16.00** (95% CI €16.00–16.00; 665 roles with a stated rate) |
 | Company career pages | 20 Werkstudent jobs in Berlin and München from 15 company job boards, 7 of them also on the Bundesagentur |
-| Skill detection, 14 common skills | precision **99%**, recall **97%** on the random 70 labelled postings (before rule fixes: 99% / 96%); sentence embeddings on the same postings: 87% / 75% ([experiment](experiments/README.md)) |
+| Skill detection, 14 common skills | precision **99%**, recall **97%** on the random 70 labelled postings (before rule fixes: 99% / 96%) |
 | German requirement | right level in 69 of 70 random postings; "open without German" correct 15/15 |
 | Tests | 316 (pytest, incl. Node checks for the browser code and the MCP server over HTTP) |
 | Lighthouse (desktop) | 100 / 100 / 100 / 100 |
@@ -494,10 +494,6 @@ be completed by one more skill, so the gain of skill *s* is the number of those
 postings missing *s*. Each step picks the skill with the largest gain, adds it,
 and recomputes. Greedy is exact for one step and a good approximation beyond.
 
-**Rules vs. embeddings.** Skill extraction by sentence embeddings was tested
-against the rules on the labelled postings with cross-validated thresholds:
-micro F1 75% vs. 95%, so the rules stay ([details](experiments/README.md)).
-
 ## Accuracy
 
 The extraction rules are heuristics, so they are measured against 100 labelled
@@ -555,12 +551,10 @@ radar/ats/         one adapter per ATS job board (Greenhouse, Lever, Ashby, Pers
 radar/careers.py   company career page jobs -> docs/data/companies.json
 radar/sql/         schema and one query per output
 radar/evaluate.py  accuracy check against labelled postings
-eval/label.html    blind labelling form
 mcp/               MCP server for Claude: radar_server.py (tools, stdio or --http), radar_tools.py
                    (answers), radar_data.py (reads docs/data or the live site), radar_http.py
                    (limits, /health), Dockerfile, vercel/ (deploy), DEPLOY.md (hosting)
 tests/             rule tests on made-up snippets, SQL tests on a tiny fixture, Node tests for browser code
-experiments/       side studies with their own dependencies (sentence embeddings vs. rules)
 media/             README screenshots
 lighthouserc.json  Lighthouse CI thresholds
 data/jobs.csv      extracted features (committed)

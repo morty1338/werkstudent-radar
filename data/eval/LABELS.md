@@ -7,8 +7,7 @@ answers only, no job text).
   were written in the same project, so this is a consistency check against a
   careful second reading, not an independent human evaluation.
 - **Pass 1, blind:** every posting text was read in full and labelled before
-  any prediction was looked at, following the definitions in
-  [`eval/label.html`](../../eval/label.html). A skill counts when the posting
+  any prediction was looked at, following fixed skill definitions. A skill counts when the posting
   asks for it (required or nice to have) or names it as a tool the student will
   use; not when it only describes the employer's products.
 - **Pass 2, verification:** every disagreement with the rules was re-read
