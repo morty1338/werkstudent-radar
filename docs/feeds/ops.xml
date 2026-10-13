@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudentin/Werkstudent Lager/Logistik (m/w/d)</title>
@@ -57,12 +57,36 @@
       <description>Deutsche Lufthansa AG · Hamburg · Operations &amp; Logistics</description>
     </item>
     <item>
+      <title>Werkstudent (m/w/d) Lager</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-f4e42acb_JB5270750-S</link>
+      <guid isPermaLink="false">13635-f4e42acb_JB5270750-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Vilor GmbH · Unna · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student – Supply Chain und Procurement (m/f/d) / 45565</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-44516-2-S</link>
+      <guid isPermaLink="false">15986-44516-2-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>BSH Hausgeräte GmbH · Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
       <title>Werkstudent*in (m/w/d) Zentrale Disposition - Messstellen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18624-0068040632-S</link>
       <guid isPermaLink="false">18624-0068040632-S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Stadtwerke Augsburg Holding GmbH · Augsburg · €18.00/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student – AI &amp; Operations</title>
+      <link>https://www.arbeitnow.com/jobs/companies/oviva/working-student-ai-operations-berlin-484363</link>
+      <guid isPermaLink="false">an:working-student-ai-operations-berlin-484363</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Oviva · Berlin · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent Einkauf (m/w/d)</title>

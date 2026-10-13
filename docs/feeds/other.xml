@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudierende Jelbi Kundensupport (w/m/d)</title>
@@ -127,6 +127,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>Ramp106 Gmbh · Hamburg · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent*in People Experience Team</title>
+      <link>https://www.arbeitnow.com/jobs/companies/oviva/werkstudentin-people-experience-team-potsdam-391653</link>
+      <guid isPermaLink="false">an:werkstudentin-people-experience-team-potsdam-391653</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Oviva · Potsdam · Other</description>
     </item>
     <item>
       <title>Werkstudium UGC Creator Manager - Paid Social (m/w/d)</title>

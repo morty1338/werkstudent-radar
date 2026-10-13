@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Recruiting (m/w/d)</title>
@@ -129,6 +129,14 @@
       <description>asgoodasnew electronics GmbH · Berlin · HR &amp; Recruiting</description>
     </item>
     <item>
+      <title>Werkstudent Recruiting (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/werkstudent-recruiting-hamburg-hamburg-139377</link>
+      <guid isPermaLink="false">an:werkstudent-recruiting-hamburg-hamburg-139377</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Teampicnic · Hamburg · €15.12/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
       <title>Werkstudent*In (M/W/D) Crew Recruiting</title>
       <link>https://www.arbeitnow.com/jobs/companies/ramp106-gmbh/werkstudentin-crew-recruiting-hamburg-228192</link>
       <guid isPermaLink="false">an:werkstudentin-crew-recruiting-hamburg-228192</guid>
@@ -143,6 +151,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>eeden GmbH · Münster · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (m/w/d) People &amp; Culture – Schwerpunkt Recruiting</title>
+      <link>https://www.arbeitnow.com/jobs/companies/oxg-glasfaser-gmbh/werkstudentin-people-culture-schwerpunkt-recruiting-dusseldorf-278710</link>
+      <guid isPermaLink="false">an:werkstudentin-people-culture-schwerpunkt-recruiting-dusseldorf-278710</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>OXG Glasfaser GmbH · Düsseldorf · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Working Student / Internship  HR Business Partner (m/f/d)</title>

@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Innovation, Data Science &amp; Automation (all genders), H World International</title>
@@ -47,6 +47,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>EAM I Energie aus der Mitte · Hardegsen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Commercial Analytics Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/commercial-analytics-werkstudent-dusseldorf-north-rhine-westphalia-8301</link>
+      <guid isPermaLink="false">an:commercial-analytics-werkstudent-dusseldorf-north-rhine-westphalia-8301</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Teampicnic · Düsseldorf · €15.12/h · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent*In (M/W/D) Market Research &amp; Data Insights</title>

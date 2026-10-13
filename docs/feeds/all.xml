@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/all.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Digital Marketing &amp; E-Commerce (m/w/d)</title>
@@ -111,6 +111,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>Christliches Jugenddorfwerk Deutschlands gemeinnütziger e.V. · Dortmund · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent Technischer Netzservice (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003849778-S</link>
+      <guid isPermaLink="false">10001-1003849778-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Stadtwerke Barth GmbH · Barth · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent im Bereich Seriendisposition Antriebsstrang (w/m/d)</title>
@@ -601,12 +609,28 @@
       <description>Sportec Solutions AG · Köln · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudierende in der Vertriebssteuerung (m/w/d) 20 Std/Wo - Berlin</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-1da8699a_JB5270374-S</link>
+      <guid isPermaLink="false">13635-1da8699a_JB5270374-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Ampere AG · Berlin · €15.00/h · Finance &amp; Controlling</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) - Video-Techniker im Bereich VAR &amp; TLT vor Ort bei Bundesligaproduktionen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-1f25bf81_JB5269458-S</link>
       <guid isPermaLink="false">13635-1f25bf81_JB5269458-S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>Sportec Solutions AG · Augsburg · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent Buchhaltung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-20ee80a6_JB5270685-S</link>
+      <guid isPermaLink="false">13635-20ee80a6_JB5270685-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>LESORA GmbH · Freiburg · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Architektur / Bauingenieurwesen- Bauen im Bestand</title>
@@ -641,12 +665,28 @@
       <description>Allane SE · München · IT &amp; Software</description>
     </item>
     <item>
+      <title>Werkstudent (m/w/d) KI-Prozessmanagement &amp; Microsoft Copilot</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-980f0996_JB5270645-S</link>
+      <guid isPermaLink="false">13635-980f0996_JB5270645-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Cactus GmbH · Baden-Baden · IT &amp; Software</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) - Scoutingfeed Operator</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-9893a3d2_JB5269460-S</link>
       <guid isPermaLink="false">13635-9893a3d2_JB5269460-S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>Sportec Solutions AG · Cottbus · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Forderungsmanagement (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-9b8d5d2f_JB5270687-S</link>
+      <guid isPermaLink="false">13635-9b8d5d2f_JB5270687-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Legal</category>
+      <description>LESORA GmbH · Freiburg · Legal</description>
     </item>
     <item>
       <title>Werkstudent Backoffice (m/w/d)</title>
@@ -681,6 +721,14 @@
       <description>Schneider Gruppe · Zwickau · Retail &amp; Hospitality</description>
     </item>
     <item>
+      <title>Werkstudent:in Auftragsmanagement / Projektkoordination / Disposition (m/w/d) - Photovoltaik, Wärmep</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-b1d12a11_JB5271561-S</link>
+      <guid isPermaLink="false">13635-b1d12a11_JB5271561-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>1Komma5° GmbH · Berlin · Design &amp; UX</description>
+    </item>
+    <item>
       <title>Werkstudent:in für digitale Transformation und KI (m/w/d/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-cd596d11_JB5270313-S</link>
       <guid isPermaLink="false">13635-cd596d11_JB5270313-S</guid>
@@ -697,6 +745,14 @@
       <description>42watt · München · Office &amp; Admin</description>
     </item>
     <item>
+      <title>Werkstudent:in Kursmanagement &amp; Teilnehmerservice (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-d8eb6ee1_JB5270555-S</link>
+      <guid isPermaLink="false">13635-d8eb6ee1_JB5270555-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>SMARTMAX Holding GmbH · Berlin · Marketing &amp; Communication</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) - Team Coordinator im Bereich VAR &amp; TLT vor Ort bei Bundesligaproduktionen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-f2af0f4c_JB5269456-S</link>
       <guid isPermaLink="false">13635-f2af0f4c_JB5269456-S</guid>
@@ -711,6 +767,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>Sportec Solutions AG · Unterföhring · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Lager</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-f4e42acb_JB5270750-S</link>
+      <guid isPermaLink="false">13635-f4e42acb_JB5270750-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Vilor GmbH · Unna · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Architektur / Bauingenieurwesen</title>
@@ -751,6 +815,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Adolf Lupp GmbH + Co KG Bauunternehmen · Frankfurt am Main · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Informatik - Kundensupport (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-7cf7b40fd471d65d-S</link>
+      <guid isPermaLink="false">14225-7cf7b40fd471d65d-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Berliner Verkehrsbetriebe (BVG) · Berlin · €18.03/h · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent Content Creation &amp; Employer Branding (m/w/d)</title>
@@ -825,6 +897,14 @@
       <description>Rheinmetall AG · Düsseldorf · IT &amp; Software</description>
     </item>
     <item>
+      <title>Working Student – Supply Chain und Procurement (m/f/d) / 45565</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-44516-2-S</link>
+      <guid isPermaLink="false">15986-44516-2-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>BSH Hausgeräte GmbH · Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
       <title>Werkstudent Human Resources  (m/w/d) / 45806</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-45806-1-S</link>
       <guid isPermaLink="false">15986-45806-1-S</guid>
@@ -839,6 +919,22 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Robert Bosch GmbH · Reutlingen · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Entwicklung, experimentelle Validierung, Charakterisierung eines Schnelltests zur Bestim</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF298408L-6743cc1-S</link>
+      <guid isPermaLink="false">15986-REF298408L-6743cc1-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Robert Bosch GmbH · Dresden · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent im Bereich Marketing (w/m/div.)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF298422A-af4d7fa-S</link>
+      <guid isPermaLink="false">15986-REF298422A-af4d7fa-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Robert Bosch GmbH · Wetzlar · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Unternehmenskommunikation für 6 Monate</title>
@@ -1009,12 +1105,28 @@
       <description>Liqid Lig · Berlin · IT &amp; Software · no German needed</description>
     </item>
     <item>
+      <title>Commercial Analytics Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/commercial-analytics-werkstudent-dusseldorf-north-rhine-westphalia-8301</link>
+      <guid isPermaLink="false">an:commercial-analytics-werkstudent-dusseldorf-north-rhine-westphalia-8301</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Teampicnic · Düsseldorf · €15.12/h · Data &amp; Analytics</description>
+    </item>
+    <item>
       <title>Legal Assistant (m/w/d) - Werkstudent</title>
       <link>https://www.arbeitnow.com/jobs/companies/bergmanclinics/legal-assistant-werkstudent-holdco-hamburg-206378</link>
       <guid isPermaLink="false">an:legal-assistant-werkstudent-holdco-hamburg-206378</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Office &amp; Admin</category>
       <description>Bergmanclinics · Hamburg · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Working Student Marketing (a)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/oviva/remote-working-student-marketing-a-53305</link>
+      <guid isPermaLink="false">an:remote-working-student-marketing-a-53305</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Oviva · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Retail Promoter (m/w/d) – Werkstudent / Teilzeit, 16 Std./Woche (ab Januar)</title>
@@ -1169,6 +1281,14 @@
       <description>Voessing · Düsseldorf · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent Office Management (all genders)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/aroundhome/werkstudent-office-management-all-genders-berlin-296711</link>
+      <guid isPermaLink="false">an:werkstudent-office-management-all-genders-berlin-296711</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Aroundhome · Berlin · Office &amp; Admin</description>
+    </item>
+    <item>
       <title>Werkstudent Partnermanagement AWS (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/skaylink/werkstudent-partnermanagement-aws-stuttgart-baden-wurttemberg-338129</link>
       <guid isPermaLink="false">an:werkstudent-partnermanagement-aws-stuttgart-baden-wurttemberg-338129</guid>
@@ -1185,12 +1305,28 @@
       <description>Newboxes · München · Product &amp; Project Mgmt</description>
     </item>
     <item>
+      <title>Werkstudent (m/w/d) Projektmanagement</title>
+      <link>https://www.arbeitnow.com/jobs/companies/nexmart-gmbh-co-kg/werkstudent-projektmanagement-stuttgart-349020</link>
+      <guid isPermaLink="false">an:werkstudent-projektmanagement-stuttgart-349020</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>nexMart GmbH &amp; Co. KG · Stuttgart · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
       <title>Werkstudent Recruiting (all genders)</title>
       <link>https://www.arbeitnow.com/jobs/companies/asgoodasnew-electronics-gmbh/werkstudent-recruiting-all-genders-berlin-317568</link>
       <guid isPermaLink="false">an:werkstudent-recruiting-all-genders-berlin-317568</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>asgoodasnew electronics GmbH · Berlin · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Recruiting (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/werkstudent-recruiting-hamburg-hamburg-139377</link>
+      <guid isPermaLink="false">an:werkstudent-recruiting-hamburg-hamburg-139377</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Teampicnic · Hamburg · €15.12/h · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent Social Media Marketing &amp; Content Management für Wirtschafts- und Finanzbildung (m/w/d) / Flossbach von Storch Stiftung</title>
@@ -1233,6 +1369,14 @@
       <description>BERNARD Gruppe · Dresden · Other</description>
     </item>
     <item>
+      <title>Werkstudent:in AI &amp; Automation (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/smartvillage/werkstudentin-ai-automation-munchen-headquarter-475430</link>
+      <guid isPermaLink="false">an:werkstudentin-ai-automation-munchen-headquarter-475430</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Smartvillage · München · IT &amp; Software</description>
+    </item>
+    <item>
       <title>Werkstudent*In (M/W/D) Crew Recruiting</title>
       <link>https://www.arbeitnow.com/jobs/companies/ramp106-gmbh/werkstudentin-crew-recruiting-hamburg-228192</link>
       <guid isPermaLink="false">an:werkstudentin-crew-recruiting-hamburg-228192</guid>
@@ -1273,6 +1417,22 @@
       <description>Ramp106 Gmbh · Hamburg · Other</description>
     </item>
     <item>
+      <title>Werkstudent*in (m/w/d) People &amp; Culture – Schwerpunkt Recruiting</title>
+      <link>https://www.arbeitnow.com/jobs/companies/oxg-glasfaser-gmbh/werkstudentin-people-culture-schwerpunkt-recruiting-dusseldorf-278710</link>
+      <guid isPermaLink="false">an:werkstudentin-people-culture-schwerpunkt-recruiting-dusseldorf-278710</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>OXG Glasfaser GmbH · Düsseldorf · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent*in People Experience Team</title>
+      <link>https://www.arbeitnow.com/jobs/companies/oviva/werkstudentin-people-experience-team-potsdam-391653</link>
+      <guid isPermaLink="false">an:werkstudentin-people-experience-team-potsdam-391653</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Oviva · Potsdam · Other</description>
+    </item>
+    <item>
       <title>Werkstudent:in Produkt &amp; Qualitätssicherung (M/W/D)</title>
       <link>https://www.arbeitnow.com/jobs/companies/rausgegangen-gmbh/werkstudentin-produkt-qualitatssicherung-koln-315019</link>
       <guid isPermaLink="false">an:werkstudentin-produkt-qualitatssicherung-koln-315019</guid>
@@ -1295,6 +1455,22 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>Creative Dreams · Düsseldorf · Other</description>
+    </item>
+    <item>
+      <title>Working Student – AI &amp; Operations</title>
+      <link>https://www.arbeitnow.com/jobs/companies/oviva/working-student-ai-operations-berlin-484363</link>
+      <guid isPermaLink="false">an:working-student-ai-operations-berlin-484363</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Oviva · Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student - CAD design</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kyrall/working-student-cad-design-munich-164638</link>
+      <guid isPermaLink="false">an:working-student-cad-design-munich-164638</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Kyrall · München · Design &amp; UX · no German needed</description>
     </item>
     <item>
       <title>Working Student Content Creation - Remote / Berlin (German Speaking)</title>
@@ -1329,6 +1505,14 @@
       <description>Unitelabs · München · Marketing &amp; Communication</description>
     </item>
     <item>
+      <title>Working Student Finance (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/westbridge-gruppe/working-student-finance-frankfurt-am-main-446985</link>
+      <guid isPermaLink="false">an:working-student-finance-frankfurt-am-main-446985</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Westbridge Gruppe · Frankfurt am Main · Finance &amp; Controlling</description>
+    </item>
+    <item>
       <title>Working Student - Information Security</title>
       <link>https://www.arbeitnow.com/jobs/companies/eqs-group/working-student-information-security-munich-381975</link>
       <guid isPermaLink="false">an:working-student-information-security-munich-381975</guid>
@@ -1353,6 +1537,14 @@
       <description>Ineratec Gmbh 1 · Karlsruhe · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Working Student International Energy Advisory (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/westbridge-gruppe/working-student-international-energy-advisory-frankfurt-am-main-241659</link>
+      <guid isPermaLink="false">an:working-student-international-energy-advisory-frankfurt-am-main-241659</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Westbridge Gruppe · Frankfurt am Main · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Working Student / Internship  HR Business Partner (m/f/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-internship-hr-business-partner-gilching-300929</link>
       <guid isPermaLink="false">an:working-student-internship-hr-business-partner-gilching-300929</guid>
@@ -1367,6 +1559,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Quantum-Systems GmbH · Gilching · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Working Student Marketing - Content Creation</title>
+      <link>https://www.arbeitnow.com/jobs/companies/deeploi-this-is-it/working-student-marketing-content-creation-berlin-153309</link>
+      <guid isPermaLink="false">an:working-student-marketing-content-creation-berlin-153309</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>deeploi - This is IT · Berlin · Marketing &amp; Communication · no German needed</description>
     </item>
     <item>
       <title>Working Student Pool - Your start at Quantum-Systems</title>
@@ -2207,206 +2407,6 @@
       <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Sparkasse Hohenlohekreis · Künzelsau · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>People Operations Working Student</title>
-      <link>https://www.arbeitnow.com/jobs/companies/gympass/people-operations-working-student-476920</link>
-      <guid isPermaLink="false">an:people-operations-working-student-476920</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>gympass · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) als Sprachdozent Deutsch/ Englisch</title>
-      <link>https://www.arbeitnow.com/jobs/companies/education-partners/remote-werkstudent-als-sprachdozent-deutsch-englisch-hessen-bbi-381642</link>
-      <guid isPermaLink="false">an:remote-werkstudent-als-sprachdozent-deutsch-englisch-hessen-bbi-381642</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Education Partners · Hessen BBI · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Supply Chain Planning Working Student (all genders)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/hellofresh/supply-chain-planning-working-student-all-genders-berlin-berlin-64817</link>
-      <guid isPermaLink="false">an:supply-chain-planning-working-student-all-genders-berlin-berlin-64817</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>hellofresh · Berlin · Operations &amp; Logistics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) als Sprachdozent Deutsch</title>
-      <link>https://www.arbeitnow.com/jobs/companies/education-partners/werkstudent-als-sprachdozent-deutsch-hessen-bbi-349024</link>
-      <guid isPermaLink="false">an:werkstudent-als-sprachdozent-deutsch-hessen-bbi-349024</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Education Partners · Hessen BBI · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent Content (m|w|d) - ca. 15 Wochenstunden</title>
-      <link>https://www.arbeitnow.com/jobs/companies/assecor-group/werkstudent-content-mwd-ca-15-wochenstunden-cybay-hannover-367159</link>
-      <guid isPermaLink="false">an:werkstudent-content-mwd-ca-15-wochenstunden-cybay-hannover-367159</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Assecor Group · Hannover · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent Controlling (w/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/opentas/werkstudent-controlling-hamburg-48627</link>
-      <guid isPermaLink="false">an:werkstudent-controlling-hamburg-48627</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Opentas · Hamburg · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Facility Management (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/verivox/werkstudent-facility-management-heidelberg-209044</link>
-      <guid isPermaLink="false">an:werkstudent-facility-management-heidelberg-209044</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Verivox · Heidelberg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Forschung/Laser Research (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/dornier-medtech-gmbh/werkstudent-forschung-laser-research-dmt-germany-wessling-95614</link>
-      <guid isPermaLink="false">an:werkstudent-forschung-laser-research-dmt-germany-wessling-95614</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Dornier MedTech GmbH · DMT-Germany · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent Go-To-Market &amp; Partner Management (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/bees-bears-gmbh/werkstudent-go-to-market-partner-management-berlin-95939</link>
-      <guid isPermaLink="false">an:werkstudent-go-to-market-partner-management-berlin-95939</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Bees &amp; Bears GmbH · Berlin · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im Vertrieb</title>
-      <link>https://www.arbeitnow.com/jobs/companies/kloepfel-consulting-gmbh/werkstudent-im-vertrieb-dusseldorf-240001</link>
-      <guid isPermaLink="false">an:werkstudent-im-vertrieb-dusseldorf-240001</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Kloepfel Consulting Gmbh · Düsseldorf · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent/in Digital Marketing, Content &amp; KI</title>
-      <link>https://www.arbeitnow.com/jobs/companies/martinis-gmbh/werkstudent-in-digital-marketing-content-ki-quierschied-331498</link>
-      <guid isPermaLink="false">an:werkstudent-in-digital-marketing-content-ki-quierschied-331498</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Martinis GmbH · Quierschied · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) IT Operations – SysOps, Client Management &amp; Software</title>
-      <link>https://www.arbeitnow.com/jobs/companies/opentas/werkstudent-it-operations-sysops-client-management-software-hamburg-256407</link>
-      <guid isPermaLink="false">an:werkstudent-it-operations-sysops-client-management-software-hamburg-256407</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Opentas · Hamburg · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Logopädie - Nürnberg</title>
-      <link>https://www.arbeitnow.com/jobs/companies/palabra/werkstudent-logopadie-nurnberg-453445</link>
-      <guid isPermaLink="false">an:werkstudent-logopadie-nurnberg-453445</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Palabra · Nürnberg · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Marketing Projektmanagement (m|w|d) - ca. 10 Wochenstunden</title>
-      <link>https://www.arbeitnow.com/jobs/companies/assecor-group/werkstudent-marketing-projektmanagement-mwd-ca-10-wochenstunden-cybay-hannover-239812</link>
-      <guid isPermaLink="false">an:werkstudent-marketing-projektmanagement-mwd-ca-10-wochenstunden-cybay-hannover-239812</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Assecor Group · Hannover · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent Office &amp; Team Management (F/M/*)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/amber/werkstudent-office-team-management-f-m-aachen-491481</link>
-      <guid isPermaLink="false">an:werkstudent-office-team-management-f-m-aachen-491481</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Amber · Aachen · €15.50/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Partner Management &amp; Operations - E-Mobilität</title>
-      <link>https://www.arbeitnow.com/jobs/companies/verivox/werkstudent-partner-management-operations-e-mobilitat-heidelberg-400752</link>
-      <guid isPermaLink="false">an:werkstudent-partner-management-operations-e-mobilitat-heidelberg-400752</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Verivox · Heidelberg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent / Praktikant (m/w/d) Marketing &amp; Sales – Hotel-Tech-Startup</title>
-      <link>https://www.arbeitnow.com/jobs/companies/suitee-spectrum-gmbh/werkstudent-praktikant-marketing-sales-hotel-tech-startup-munich-213982</link>
-      <guid isPermaLink="false">an:werkstudent-praktikant-marketing-sales-hotel-tech-startup-munich-213982</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>SUITEe Spectrum GmbH · München · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent Presentation Design &amp; Content (d/w/m)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/mawave-marketing-gmbh/werkstudent-presentation-design-content-munchen-25170</link>
-      <guid isPermaLink="false">an:werkstudent-presentation-design-content-munchen-25170</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Mawave Marketing GmbH · München · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Social Media (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/leonine-holding-gmbh/werkstudent-social-media-berlin-489656</link>
-      <guid isPermaLink="false">an:werkstudent-social-media-berlin-489656</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>LEONINE Holding GmbH · Berlin · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudenten (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/valeara/werkstudenten-berlin-tegel-249626</link>
-      <guid isPermaLink="false">an:werkstudenten-berlin-tegel-249626</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Valeara · Berlin-Tegel · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Art Direction (w/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/hirschen-group-gmbh/werkstudentin-art-direction-berlin-schlesische-strasse-26-406821</link>
-      <guid isPermaLink="false">an:werkstudentin-art-direction-berlin-schlesische-strasse-26-406821</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Hirschen Group GmbH · Berlin · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Fullstack Developer - ERP &amp; Prozessautomatisierung (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/welectron/werkstudentin-fullstack-developer-erp-prozessautomatisierung-karlsruhe-306278</link>
-      <guid isPermaLink="false">an:werkstudentin-fullstack-developer-erp-prozessautomatisierung-karlsruhe-306278</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Welectron · Karlsruhe · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent*in für Studien- &amp; Projektkoordination</title>
-      <link>https://www.arbeitnow.com/jobs/companies/now-gmbh-nationale-organisation-fur-den-wandel-in-der/werkstudentin-fur-studien-projektkoordination-berlin-fasanenstrasse-410655</link>
-      <guid isPermaLink="false">an:werkstudentin-fur-studien-projektkoordination-berlin-fasanenstrasse-410655</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>NOW GmbH Nationale Organisation für den Wandel in der ... · Berlin · €15.00/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Klimafreundliche Schifffahrt und Häfen</title>
-      <link>https://www.arbeitnow.com/jobs/companies/now-gmbh-nationale-organisation-fur-den-wandel-in-der/werkstudentin-klimafreundliche-schifffahrt-und-hafen-berlin-fasanenstrasse-432542</link>
-      <guid isPermaLink="false">an:werkstudentin-klimafreundliche-schifffahrt-und-hafen-berlin-fasanenstrasse-432542</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>NOW GmbH Nationale Organisation für den Wandel in der ... · Berlin · €15.00/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Landwirtschaft und betriebliche Datenprüfung (all genders) (Berlin I DE Remote möglich)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/klim/werkstudentin-landwirtschaft-und-betriebliche-datenprufung-all-genders-berlin-i-de-remote-moglich-235990</link>
-      <guid isPermaLink="false">an:werkstudentin-landwirtschaft-und-betriebliche-datenprufung-all-genders-berlin-i-de-remote-moglich-235990</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Klim · Berlin · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

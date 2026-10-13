@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent:in Bauleitung (m/w/d) in Rheinland-Pfalz</title>
@@ -15,6 +15,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>STRABAG Umwelttechnik GmbH · Bitburg · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Technischer Netzservice (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003849778-S</link>
+      <guid isPermaLink="false">10001-1003849778-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Stadtwerke Barth GmbH · Barth · Engineering &amp; Production</description>
     </item>
     <item>
       <title>GlobalFoundries Management Services GmbH &amp; Co. KG: Werkstudent*in im Bereich Global Repair Shop</title>
@@ -161,6 +169,14 @@
       <description>Adolf Lupp GmbH + Co KG Bauunternehmen · Frankfurt am Main · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent Entwicklung, experimentelle Validierung, Charakterisierung eines Schnelltests zur Bestim</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF298408L-6743cc1-S</link>
+      <guid isPermaLink="false">15986-REF298408L-6743cc1-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Robert Bosch GmbH · Dresden · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) Bauingenieurwesen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19192-260615-75850676-S</link>
       <guid isPermaLink="false">19192-260615-75850676-S</guid>
@@ -215,6 +231,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Ineratec Gmbh 1 · Karlsruhe · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Working Student International Energy Advisory (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/westbridge-gruppe/working-student-international-energy-advisory-frankfurt-am-main-241659</link>
+      <guid isPermaLink="false">an:working-student-international-energy-advisory-frankfurt-am-main-241659</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Westbridge Gruppe · Frankfurt am Main · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent CAE Simulation (x|w|m)</title>

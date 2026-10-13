@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (w/m/d) IT Service Portfolio Management</title>
@@ -57,12 +57,28 @@
       <description>Allane SE · München · IT &amp; Software</description>
     </item>
     <item>
+      <title>Werkstudent (m/w/d) KI-Prozessmanagement &amp; Microsoft Copilot</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-980f0996_JB5270645-S</link>
+      <guid isPermaLink="false">13635-980f0996_JB5270645-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Cactus GmbH · Baden-Baden · IT &amp; Software</description>
+    </item>
+    <item>
       <title>Werkstudent:in für digitale Transformation und KI (m/w/d/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-cd596d11_JB5270313-S</link>
       <guid isPermaLink="false">13635-cd596d11_JB5270313-S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>greenwind Group · Berlin · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Informatik - Kundensupport (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-7cf7b40fd471d65d-S</link>
+      <guid isPermaLink="false">14225-7cf7b40fd471d65d-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Berliner Verkehrsbetriebe (BVG) · Berlin · €18.03/h · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent IT Projektmanagement (m/w/d)</title>
@@ -111,6 +127,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Liqid Lig · Berlin · IT &amp; Software · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent:in AI &amp; Automation (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/smartvillage/werkstudentin-ai-automation-munchen-headquarter-475430</link>
+      <guid isPermaLink="false">an:werkstudentin-ai-automation-munchen-headquarter-475430</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Smartvillage · München · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent/Minijob Sales Specialist (m/w/d) – Cloud &amp; KI-Lösungen</title>

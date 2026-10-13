@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 12:07:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 13:14:21 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent:in Finanzen &amp; Controlling</title>
@@ -49,6 +49,22 @@
       <description>Deutsche Lufthansa AG · Hamburg · Finance &amp; Controlling</description>
     </item>
     <item>
+      <title>Werkstudierende in der Vertriebssteuerung (m/w/d) 20 Std/Wo - Berlin</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-1da8699a_JB5270374-S</link>
+      <guid isPermaLink="false">13635-1da8699a_JB5270374-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Ampere AG · Berlin · €15.00/h · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Buchhaltung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-20ee80a6_JB5270685-S</link>
+      <guid isPermaLink="false">13635-20ee80a6_JB5270685-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>LESORA GmbH · Freiburg · Finance &amp; Controlling</description>
+    </item>
+    <item>
       <title>Werkstudent im Kundenkontakt (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001B0A-S</link>
       <guid isPermaLink="false">18024-10Q4800001B0A-S</guid>
@@ -87,6 +103,14 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Flossbach Von Storch Ag · Köln · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Working Student Finance (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/westbridge-gruppe/working-student-finance-frankfurt-am-main-446985</link>
+      <guid isPermaLink="false">an:working-student-finance-frankfurt-am-main-446985</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Westbridge Gruppe · Frankfurt am Main · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Working Student Tax Operations - Withholding Tax</title>
