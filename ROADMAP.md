@@ -91,3 +91,31 @@ Rules for every phase:
       docs/ → Pages), screenshots, live link, key numbers (postings per day, days of
       history, skill-detection precision/recall) and a "Methods" section (bootstrap,
       Kaplan–Meier, lift).
+
+## Phase 8 — Company career pages (Berlin & München)
+
+A "Companies" tab with Werkstudent / working student jobs in Berlin and München read
+directly from company career pages through the public job-board APIs of their
+applicant tracking systems (ATS). No per-site scrapers; LinkedIn and Indeed are
+never fetched. Stop after each step for review.
+
+- [x] Step 1 — company list: `data/companies.yaml` (name, cities, careers URL, ats,
+      slug, enabled, plus `ba_names` for matching Bundesagentur employers and a
+      detection `note`), seeded with employers from our BA postings in Berlin and
+      München and extended by hand. `python -m radar.companies detect` finds the ATS
+      (Greenhouse, Lever, Ashby, Personio, SmartRecruiters) from redirects and links;
+      anything else stays `unsupported`.
+- [ ] Step 2 — adapters: one small adapter per ATS on its official public job-board
+      endpoint (endpoint and terms checked first), normalised to company, title, city,
+      url, posted_at, source_ats. Keep titles with Werkstudent / Working Student /
+      Werkstudierende in Berlin or München (remote in Germany flagged separately).
+      robots.txt and terms respected, identifying User-Agent, 1–2 s between
+      companies, retries with backoff.
+- [ ] Step 3 — pipeline and quality: daily run writes `docs/data/companies.json`
+      (no job texts, links to the originals), deduped against BA postings (company +
+      normalised title + city) with an "also on BA" mark; run-log warnings for a 404
+      or 0 jobs after having jobs; pytest per adapter on saved sample responses.
+- [ ] Step 4 — frontend: "Companies" tab in the radar style with a Berlin / München
+      switch, list grouped by company with job counts, field keyword filter, "new
+      today" badge and links to the originals; works with the phone tab bar and
+      filter sheet.

@@ -1,0 +1,605 @@
+# Company career pages for the "Companies" tab (Berlin and München).
+#
+# name         company name as shown on the site
+# cities       cities whose jobs are kept (Berlin, München)
+# careers_url  the company's careers page
+# ats          greenhouse | lever | ashby | personio | smartrecruiters | unsupported
+#              (filled by `python -m radar.companies detect --all`)
+# slug         the company's id on that ATS
+# enabled      fetched by the daily run (only supported ATS)
+# ba_names     employer names in Bundesagentur postings, to mark jobs "also on BA"
+# note         what detection saw: another ATS, a 404, robots.txt, ...
+
+companies:
+- name: 42watt
+  cities: [München]
+  careers_url: https://42watt.de/ueber-uns/karriere
+  ats: personio
+  slug: 42watt
+  enabled: true
+  ba_names: [42watt]
+  note: null
+- name: ADAC
+  cities: [München]
+  careers_url: https://karriere.adac.de/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [ADAC Versicherung AG, ADAC Autovermietung GmbH, ADAC IT Service GmbH, ADAC e.V., ADAC Service GmbH, ADAC SE]
+  note: no known ATS found
+- name: advita
+  cities: [Berlin]
+  careers_url: https://www.advita.de/karriere/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [advita Pflegedienst GmbH, advita Holding GmbH]
+  note: no known ATS found
+- name: AGNITAS
+  cities: [München]
+  careers_url: https://www.agnitas.de/karriere/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [AGNITAS AG]
+  note: no known ATS found
+- name: Airbus
+  cities: [München, Berlin]
+  careers_url: https://www.airbus.com/en/careers
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Airbus Defence and Space GmbH]
+  note: workday
+- name: ALDB
+  cities: [Berlin]
+  careers_url: https://aldb.de/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [ALDB GmbH]
+  note: 'fetch failed: ConnectionError'
+- name: Allane Mobility Group
+  cities: [München]
+  careers_url: https://www.allane-mobility-group.com/karriere/
+  ats: personio
+  slug: allane
+  enabled: true
+  ba_names: [Allane SE]
+  note: found on https://allane-mobility-group.com/karriere
+- name: Apleona
+  cities: [Berlin]
+  careers_url: https://apleona.com/careers/ihr-karrierepotential/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Apleona Group]
+  note: no known ATS found
+- name: ARAG
+  cities: [München]
+  careers_url: https://www.arag.com/de/karriere/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [ARAG Krankenversicherungs-AG]
+  note: no known ATS found
+- name: Augustinum
+  cities: [München]
+  careers_url: https://augustinum.de/jobs-karriere/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Augustinum gGmbH]
+  note: no known ATS found
+- name: AUTO1 Group
+  cities: [Berlin, München]
+  careers_url: https://www.auto1-group.com/jobs/
+  ats: smartrecruiters
+  slug: AUTO1
+  enabled: true
+  ba_names: [AUTO1 Group SE]
+  note: careers page shows SmartRecruiters job ids; slug checked against the public API
+- name: aveato
+  cities: [Berlin]
+  careers_url: https://www.aveato.de/jobs
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [aveato GmbH - aveato Catering Berlin]
+  note: no known ATS found
+- name: Baker Tilly
+  cities: [Berlin, München]
+  careers_url: https://www.bakertilly.de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Baker Tilly Holding GmbH Wirtschaftsprüfungs- gesellschaft, Baker Tilly]
+  note: no known ATS found
+- name: Berliner Volksbank
+  cities: [Berlin]
+  careers_url: https://www.berliner-volksbank.de/karriere.html
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Berliner Volksbank eG]
+  note: no known ATS found
+- name: BETTENRID
+  cities: [München]
+  careers_url: https://www.bettenrid.de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [BETTENRID GmbH]
+  note: no known ATS found
+- name: BLM
+  cities: [München]
+  careers_url: https://www.blm.de/die_blm/stellenangebote.cfm
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [BLM Bayerische Landeszentrale für neue Medien Anstalt des öffentl.Rechts]
+  note: no known ATS found
+- name: BMW Group
+  cities: [München]
+  careers_url: https://www.bmwgroup.jobs/de/de.html
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [BMW AG]
+  note: successfactors
+- name: Bosch
+  cities: [Berlin]
+  careers_url: https://jobs.bosch.com/
+  ats: smartrecruiters
+  slug: BoschGroup
+  enabled: true
+  ba_names: [Robert Bosch GmbH]
+  note: null
+- name: BSH Hausgeräte
+  cities: [München, Berlin]
+  careers_url: https://www.bsh-group.com/de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [BSH Hausgeräte GmbH]
+  note: no known ATS found
+- name: Bundesdruckerei
+  cities: [Berlin]
+  careers_url: https://www.bundesdruckerei-gmbh.de/de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Bundesdruckerei Gruppe GmbH]
+  note: no known ATS found
+- name: BWI
+  cities: [Berlin, München]
+  careers_url: https://www.bwi.de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [BWI GmbH]
+  note: no known ATS found
+- name: CHECK24
+  cities: [München, Berlin]
+  careers_url: https://jobs.check24.de/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [CHECK24 Services Personal GmbH]
+  note: no known ATS found
+- name: Circle K Deutschland
+  cities: [Berlin]
+  careers_url: https://www.circlek-deutschland.de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Circle K Deutschland GmbH]
+  note: no known ATS found
+- name: Com2uS Europe
+  cities: [Berlin]
+  careers_url: https://gvc2u.jobs.personio.de/
+  ats: personio
+  slug: gvc2u
+  enabled: true
+  ba_names: [Com2uS Europe GmbH]
+  note: null
+- name: CURA Seniorenwohnheime
+  cities: [Berlin]
+  careers_url: https://www.cura-ag.com/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [CURA Seniorenwohn- und Pflegeheime Dienstleistungs GmbH]
+  note: no known ATS found
+- name: DAkkS
+  cities: [Berlin]
+  careers_url: https://www.dakks.de/de/karriere.html
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Deutsche Akkreditierungsstelle GmbH (DAkkS)]
+  note: no known ATS found
+- name: Deloitte
+  cities: [Berlin, München]
+  careers_url: https://www.deloitte.com/de/de/careers.html
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Deloitte GmbH]
+  note: no known ATS found
+- name: Deutsche Bahn
+  cities: [Berlin, München]
+  careers_url: https://db.jobs/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Deutsche Bahn AG]
+  note: no known ATS found
+- name: DO & CO
+  cities: [München]
+  careers_url: https://www.doco.com/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [DO & CO Deutschland Holding]
+  note: no known ATS found
+- name: Drees & Sommer
+  cities: [Berlin, München]
+  careers_url: https://www.dreso.com/de/karriere
+  ats: smartrecruiters
+  slug: DreesSommerSE
+  enabled: true
+  ba_names: [Drees & Sommer SE]
+  note: careers page shows SmartRecruiters job ids; slug checked against the public API
+- name: Eberhardt Service Group
+  cities: [Berlin]
+  careers_url: null
+  ats: null
+  slug: null
+  enabled: false
+  ba_names: [Eberhardt Service Group GmbH]
+  note: careers page not found
+- name: Forward Education
+  cities: [München]
+  careers_url: null
+  ats: null
+  slug: null
+  enabled: false
+  ba_names: [Forward Education GmbH]
+  note: careers page not found
+- name: gematik
+  cities: [Berlin]
+  careers_url: https://www.gematik.de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [gematik GmbH]
+  note: no known ATS found
+- name: Genossenschaftsverband Bayern
+  cities: [München]
+  careers_url: https://www.gv-bayern.de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Genossenschaftsverband Bayern e.V.]
+  note: no known ATS found
+- name: Gleiss Lutz
+  cities: [Berlin]
+  careers_url: https://www.gleisslutz.com/de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Gleiss Lutz Support]
+  note: rexx
+- name: GSG Berlin
+  cities: [Berlin]
+  careers_url: https://www.gsg.de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [GSG Berlin GmbH]
+  note: no known ATS found
+- name: Heimstaden Germany
+  cities: [Berlin]
+  careers_url: https://heimstaden.com/de/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Heimstaden Germany GmbH]
+  note: no known ATS found
+- name: Hoffmann Group
+  cities: [München]
+  careers_url: https://www.hoffmann-group.com/DE/de/hom/hoffmann-group/karriere/e/116222/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Hoffmann SE]
+  note: no known ATS found
+- name: HypoVereinsbank
+  cities: [München]
+  careers_url: https://www.hypovereinsbank.de/hvb/ueber-uns/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [HypoVereinsbank - UniCredit Bank GmbH]
+  note: HTTP 403
+- name: IPPEN.MEDIA
+  cities: [München]
+  careers_url: https://www.ippen.media/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [IPPEN.MEDIA]
+  note: robots.txt disallows the careers page
+- name: Johanniter Bayern
+  cities: [München]
+  careers_url: https://www.johanniter.de/karriere/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Johanniter-Unfall-Hilfe e.V. Landesverband Bayern]
+  note: no known ATS found
+- name: Knorr-Bremse
+  cities: [München]
+  careers_url: https://careers.knorr-bremse.com/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Knorr-Bremse Systeme für Schienenfahrzeuge GmbH]
+  note: successfactors
+- name: Kompavo
+  cities: [Berlin]
+  careers_url: null
+  ats: null
+  slug: null
+  enabled: false
+  ba_names: [Kompavo GmbH]
+  note: careers page not found
+- name: Korian
+  cities: [München]
+  careers_url: https://www.korian.de/karriere/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [KORIAN Holding GmbH]
+  note: icims
+- name: Köster
+  cities: [Berlin, München]
+  careers_url: https://www.koester-bau.de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Köster GmbH]
+  note: umantis
+- name: Lufthansa
+  cities: [Berlin]
+  careers_url: https://www.be-lufthansa.com/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Deutsche Lufthansa AG]
+  note: 'fetch failed: ConnectionError'
+- name: MAN Truck & Bus
+  cities: [München]
+  careers_url: https://www.man.eu/corporate/de/karriere/man-als-arbeitgeber/karriere-bei-man/karriere.html
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [MAN Truck & Bus]
+  note: no known ATS found
+- name: Mercedes-Benz
+  cities: [Berlin]
+  careers_url: https://group.mercedes-benz.com/karriere/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Mercedes-Benz Group AG]
+  note: HTTP 403
+- name: MTU Aero Engines
+  cities: [München]
+  careers_url: https://www.mtu.de/de/karriere/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [MTU Aero Engines AG]
+  note: no known ATS found
+- name: MVTec Software
+  cities: [München]
+  careers_url: https://www.mvtec.com/de/unternehmen/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [MVTec Software GmbH]
+  note: no known ATS found
+- name: Mérieux NutriSciences (Institut Kirchhoff Berlin)
+  cities: [Berlin]
+  careers_url: https://www.merieuxnutrisciences.com/de/jobs/
+  ats: personio
+  slug: institut-kirchhoff-berlin-gmbh
+  enabled: true
+  ba_names: [Institut Kirchhoff Berlin GmbH]
+  note: null
+- name: München Klinik
+  cities: [München]
+  careers_url: https://www.muenchen-klinik.de/karriere/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [München Klinik]
+  note: no known ATS found
+- name: Nexia
+  cities: [München]
+  careers_url: https://www.nexia.de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Nexia GmbH]
+  note: no known ATS found
+- name: PD – Berater der öffentlichen Hand
+  cities: [Berlin]
+  careers_url: https://www.pd-g.de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [PD - Berater der öffentlichen Hand GmbH]
+  note: no known ATS found
+- name: Pinguin Druck
+  cities: [Berlin]
+  careers_url: https://pinguindruck.de/jobs
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Pinguin Druck GmbH]
+  note: no known ATS found
+- name: ProSiebenSat.1
+  cities: [München, Berlin]
+  careers_url: https://www.prosiebensat1.com/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [ProSiebenSat.1 Media SE]
+  note: no known ATS found
+- name: qards
+  cities: [München]
+  careers_url: https://www.qards.de/karriere
+  ats: personio
+  slug: qardscom-gmbh
+  enabled: true
+  ba_names: [qards GmbH]
+  note: found on https://www.qards.de/karriere/offene-stellen
+- name: R/Drei International
+  cities: [München]
+  careers_url: null
+  ats: null
+  slug: null
+  enabled: false
+  ba_names: [R/Drei International GmbH]
+  note: careers page not found
+- name: REWE Group (REWE, PENNY)
+  cities: [Berlin, München]
+  careers_url: https://karriere.rewe-group.com/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Penny-Markt GmbH Ost, Penny-Markt GmbH Verwaltung, REWE Markt GmbH ZwNL Ost]
+  note: successfactors
+- name: Schleich
+  cities: [München]
+  careers_url: https://www.schleich-s.com/de/de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Schleich GmbH]
+  note: no known ATS found
+- name: Schneider Electric
+  cities: [Berlin]
+  careers_url: https://www.se.com/de/de/about-us/careers/overview.jsp
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Schneider Electric GmbH]
+  note: icims, taleo
+- name: secunet
+  cities: [Berlin, München]
+  careers_url: https://www.secunet.com/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Secunet Security Networks AG]
+  note: no known ATS found
+- name: Siemens
+  cities: [Berlin, München]
+  careers_url: https://jobs.siemens.com/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Siemens AG]
+  note: no known ATS found
+- name: SIGNAL IDUNA
+  cities: [Berlin]
+  careers_url: https://karriere.signal-iduna.de/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [SIGNAL IDUNA]
+  note: successfactors
+- name: Sitegeist
+  cities: [München]
+  careers_url: https://sitegeist.de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Sitegeist GmbH]
+  note: no known ATS found
+- name: TDK Sensors
+  cities: [Berlin]
+  careers_url: https://www.tdk-electronics.tdk.com/en/careers
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [TDK Sensors AG & Co. KG]
+  note: HTTP 403
+- name: usd
+  cities: [München]
+  careers_url: https://www.usd.de/karriere/
+  ats: personio
+  slug: usd-ag
+  enabled: true
+  ba_names: [usd AG]
+  note: null
+- name: VINCI Construction
+  cities: [Berlin]
+  careers_url: https://www.vinci-construction.de/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [VINCI Construction Shared Services GmbH]
+  note: 'fetch failed: ConnectionError'
+- name: Vivantes
+  cities: [Berlin]
+  careers_url: https://karriere.vivantes.de/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Vivantes Netzwerk für Gesundheit GmbH]
+  note: no known ATS found
+- name: Vonovia
+  cities: [München]
+  careers_url: https://karriere.vonovia.de/
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [Vonovia Recruiting DE]
+  note: no known ATS found
+- name: Vössing
+  cities: [Berlin, München]
+  careers_url: https://www.voessing.de/karriere
+  ats: personio
+  slug: voessing
+  enabled: true
+  ba_names: [Vössing Ingenieurgesellschaft mbH]
+  note: null
+- name: Your Showdown
+  cities: [Berlin]
+  careers_url: null
+  ats: null
+  slug: null
+  enabled: false
+  ba_names: [Your Showdown GmbH]
+  note: careers page not found
+- name: Zertificon
+  cities: [Berlin]
+  careers_url: https://www.zertificon.com/it-jobs-berlin/stellenangebote
+  ats: personio
+  slug: zertificon
+  enabled: true
+  ba_names: [Zertificon Solutions GmbH]
+  note: null
+- name: ZETCON Ingenieure
+  cities: [Berlin]
+  careers_url: https://www.zetcon.de/karriere
+  ats: unsupported
+  slug: null
+  enabled: false
+  ba_names: [ZETCON Ingenieure GmbH]
+  note: no known ATS found
