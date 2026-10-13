@@ -57,17 +57,18 @@ and installable as a home-screen app. RSS feeds announce new postings per field.
 
 ## Key numbers
 
-As of 10 Oct 2026 (the live site updates every morning):
+As of 13 Oct 2026 (the live site updates every morning):
 
 | | |
 |---|---|
-| Postings online | **4,891** (Bundesagentur 4,201, company career sites 690) from 2,590 employers in 941 places |
-| Postings tracked since the start | 4,917 |
-| Days of history | 2 (daily since 9 Oct 2026), with online stretches per posting |
-| Median hourly pay | **€16.00** (95% CI €16.00–16.00; 653 roles with a stated rate) |
+| Postings online | **5,032** (Bundesagentur 4,287, company career sites 745) from 2,638 employers in 965 places |
+| Postings tracked since the start | 5,296 |
+| Days of history | 5 (daily since 9 Oct 2026), with online stretches per posting |
+| Median hourly pay | **€16.00** (95% CI €16.00–16.00; 665 roles with a stated rate) |
+| Company career pages | 20 Werkstudent jobs in Berlin and München from 15 company job boards, 7 of them also on the Bundesagentur |
 | Skill detection, 14 common skills | precision **99%**, recall **97%** on the random 70 labelled postings (before rule fixes: 99% / 96%); sentence embeddings on the same postings: 87% / 75% ([experiment](experiments/README.md)) |
 | German requirement | right level in 69 of 70 random postings; "open without German" correct 15/15 |
-| Tests | 215 (pytest, incl. Node checks for the browser code) |
+| Tests | 308 (pytest, incl. Node checks for the browser code and the MCP server over HTTP) |
 | Lighthouse (desktop) | 100 / 100 / 100 / 100 |
 
 ## Architecture
