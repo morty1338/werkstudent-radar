@@ -3,6 +3,8 @@
 Usage:
     python -m radar.notify             after the daily build: one signed POST, if configured
     python -m radar.notify --dry-run   print the payload instead of sending it
+    python -m radar.notify --test      send it marked as a test (n8n posts "🧪 Test" messages)
+    --strict                           exit 1 when nothing could be sent (for manual runs)
 
 New means new since the previous run: postings whose first_seen is the latest
 collection day, by the same rules as the RSS feeds (feeds.new_postings: not a
@@ -17,7 +19,7 @@ Configuration comes from the environment (GitHub Secrets in the daily workflow):
 Signature: X-Radar-Signature: sha256=<hex HMAC-SHA256(secret, "<timestamp>." + body)>,
 with the Unix time in X-Radar-Timestamp, so a recorded call can't be replayed later.
 Without both settings the step does nothing; a failed call is reported but never
-fails the run (the exit code is always 0).
+fails the daily run (the exit code is 0 unless --strict).
 """
 
 import argparse
@@ -146,13 +148,24 @@ def send(url, secret, data, *, session=None, sleep=time.sleep):
             message = f"no answer ({type(e).__name__})"     # the exception text would contain the URL
         else:
             if 200 <= r.status_code < 300:
-                return True, f"HTTP {r.status_code}"
+                return True, f"HTTP {r.status_code}" + _n8n_reason(r)
             message = f"HTTP {r.status_code}"
             if r.status_code < 500 and r.status_code != 429:
                 return False, message                       # wrong URL or rejected: retrying won't help
         if attempt < ATTEMPTS:
             sleep(2 ** attempt)
     return False, message
+
+
+def _n8n_reason(response):
+    """n8n answers {"ok": false, "reason": …} with 200 when it skips a call (a day already sent)."""
+    try:
+        data = response.json()
+    except (AttributeError, ValueError):
+        return ""
+    if isinstance(data, dict) and data.get("ok") is False and data.get("reason"):
+        return f", n8n: {str(data['reason'])[:120]}"
+    return ""
 
 
 def load_companies(path=COMPANIES_JSON):
@@ -171,10 +184,13 @@ def collect(jobs_csv=build.JOBS_CSV, companies_json=COMPANIES_JSON):
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--dry-run", action="store_true", help="print the payload, send nothing")
+    ap.add_argument("--test", action="store_true", help="mark the payload as a test")
+    ap.add_argument("--strict", action="store_true", help="exit 1 when nothing could be sent")
     args = ap.parse_args(argv)
+    failed = 1 if args.strict else 0
 
     as_of, jobs = collect()
-    data = payload(as_of, jobs)
+    data = payload(as_of, jobs, test=args.test)
     if args.dry_run:
         print(json.dumps(data, ensure_ascii=False, indent=1))
         return 0
@@ -183,18 +199,19 @@ def main(argv=None):
     secret = os.environ.get("WEBHOOK_SECRET", "").strip()
     if not url or not secret:
         print("Telegram alerts: N8N_WEBHOOK_URL or WEBHOOK_SECRET not set; nothing sent.")
-        return 0
+        return failed
     if not url_ok(url):
         print("Telegram alerts: N8N_WEBHOOK_URL must start with https://; nothing sent.")
-        return 0
+        return failed
     ok, message = send(url, secret, data)
     sources = {s: sum(j["source"] == s for j in jobs) for s in ("ba", "arbeitnow", "career_page")}
     detail = ", ".join(f"{n} {s}" for s, n in sources.items() if n) or "none"
+    kind = "test with " if args.test else ""
     if ok:
-        print(f"Telegram alerts: sent {len(data['jobs'])} new postings for {as_of} ({detail}): {message}")
-    else:
-        print(f"::warning::Telegram alerts: the n8n webhook failed ({message}); {len(jobs)} new postings not sent")
-    return 0
+        print(f"Telegram alerts: sent {kind}{len(data['jobs'])} new postings for {as_of} ({detail}): {message}")
+        return 0
+    print(f"::warning::Telegram alerts: the n8n webhook failed ({message}); {len(jobs)} new postings not sent")
+    return failed
 
 
 if __name__ == "__main__":

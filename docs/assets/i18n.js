@@ -245,6 +245,9 @@ const STRINGS = {
   "cv.too_big": { en: "the file is larger than 10 MB", de: "die Datei ist größer als 10 MB" },
   "cv.format": { en: "please use a PDF, DOCX or TXT file", de: "bitte eine PDF-, DOCX- oder TXT-Datei verwenden" },
 
+  // Telegram channel (posted by the n8n workflow in integrations/n8n)
+  "alerts.telegram": { en: "Get alerts on Telegram", de: "Benachrichtigungen auf Telegram" },
+  "alerts.telegram_hint": { en: "new Berlin jobs every morning", de: "neue Berliner Jobs jeden Morgen" },
   // Subscribe
   "subscribe.summary": { en: "Subscribe to new jobs", de: "Neue Jobs abonnieren" },
   "subscribe.text": {

@@ -41,7 +41,7 @@ GitHub Actions has to reach n8n over HTTPS when the daily run finishes (usually
 **Recommendation: self-host with Docker.** It costs nothing after 14 days, your
 data stays with you, and it's the better story in an interview (you run the whole
 chain yourself). The catch is that the computer has to be awake in the morning; if it
-wasn't, the run shows a warning and you can send the day again by hand (Step 3). Use
+wasn't, the run shows a warning and you can send the day again by hand (step 6, mode resend). Use
 the Cloud trial only if you want to try n8n before installing Docker.
 
 ## Setup
@@ -129,16 +129,23 @@ From the next daily run on, the step "Send Telegram alerts" calls the webhook.
 
 ### 6. Try it
 
-Step 3 of this phase adds a button in GitHub Actions for a test message. Until then,
-from the repository root (asks for the secret, so it isn't stored in your shell
-history):
+github.com/morty1338/werkstudent-radar → **Actions** → **Telegram alerts** → **Run
+workflow** → mode **test** → Run. It sends the latest day's new postings marked as a
+test: a "🧪 Test" message arrives in both chats, and the day still counts as unsent.
+The run fails (red) when the secrets are missing or n8n doesn't answer, with the reason
+in the run's summary.
+
+Mode **resend** sends the latest day for real: use it when your computer was off
+during the daily run (the daily step then shows a warning). n8n skips a day it already
+posted and says so in the log.
+
+From your own computer, with the secret from `.env`:
 
 ```bash
-read -rs WEBHOOK_SECRET && export WEBHOOK_SECRET && N8N_WEBHOOK_URL=https://<NGROK_DOMAIN>/webhook/werkstudent-radar .venv/bin/python -c "import os; from radar import notify; a, j = notify.collect(); print(notify.send(os.environ['N8N_WEBHOOK_URL'], os.environ['WEBHOOK_SECRET'], notify.payload(a, j, test=True)))"
+read -rs WEBHOOK_SECRET && export WEBHOOK_SECRET && N8N_WEBHOOK_URL=https://<NGROK_DOMAIN>/webhook/werkstudent-radar .venv/bin/python -m radar.notify --test --strict
 ```
 
-`(True, 'HTTP 200')` and a "🧪 Test" message in both chats means it works. Every run
-shows up in n8n under **Executions**.
+Every run shows up in n8n under **Executions**.
 
 ## Good to know
 

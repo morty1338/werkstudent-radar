@@ -228,7 +228,12 @@ Secrets and n8n credentials. Stop after each step for review.
       Cloud trial. Tried in a local n8n 2.43.4, which showed that its Code node has
       no `URLSearchParams` and that a repeated day must be marked only after the
       messages are built.
-- [ ] Step 3 — test: a manual `workflow_dispatch` that sends a test payload, and a
-      "Get alerts on Telegram" link on the site to the public channel.
+- [x] Step 3 — test: a manual `workflow_dispatch` that sends a test payload, and a
+      "Get alerts on Telegram" link on the site to the public channel. `telegram.yml`
+      has two modes: `test` ("🧪 Test" messages, the day stays unsent) and `resend`
+      (the latest day for real, for mornings when n8n was offline); it fails when
+      nothing could be sent. The link (@werkstudentradar) sits above "Subscribe to new
+      jobs" in "Check your skills". Hosted on the owner's Mac (Docker + ngrok); the
+      test message reached the channel and the personal chat.
 - [ ] Step 4 — a plain-language explanation: webhooks, why n8n, the data flow, the
       signature, likely interview questions.

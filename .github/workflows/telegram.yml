@@ -1,0 +1,48 @@
+name: Telegram alerts
+
+# Manual run (Actions → Telegram alerts → Run workflow) with the data in the repository:
+#   test    the latest day's new postings, marked as a test: n8n posts "🧪 Test" messages and
+#           doesn't count the day as sent; for checking the n8n workflow and the bot
+#   resend  the latest day for real, e.g. when n8n was offline during the daily run
+#           (n8n skips it if that day was already posted)
+# Unlike the daily step, this run fails when nothing could be sent.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "test = a 🧪 test message; resend = the latest day's alerts for real"
+        type: choice
+        options: [test, resend]
+        default: test
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send to the n8n webhook
+        env:
+          N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
+          WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+          MODE: ${{ inputs.mode }}
+        run: |
+          args=(--strict)
+          if [ "$MODE" != "resend" ]; then args+=(--test); fi
+          .github/scripts/run_logged.sh "Telegram alerts" python -m radar.notify "${args[@]}"

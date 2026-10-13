@@ -61,7 +61,9 @@ Payload: facts and links only (never job texts), at most `MAX_JOBS`, the full co
 and `X-Radar-Timestamp`; changing the body encoding breaks the check in n8n. Secrets
 `N8N_WEBHOOK_URL` and `WEBHOOK_SECRET` (GitHub Secrets only): without them the step does
 nothing; it always exits 0, and never prints the URL (request errors would contain it).
-`python -m radar.notify --dry-run` prints the payload.
+`python -m radar.notify --dry-run` prints the payload; `--test` marks it as a test (n8n posts
+"🧪 Test" messages and doesn't count the day), `--strict` exits 1 when nothing was sent. The
+manual workflow `telegram.yml` (modes `test` and `resend`) runs it with `--strict`.
 
 The n8n side is in `integrations/n8n/` (setup guide in its README): the two Code nodes are
 `code/*.js`, built into `werkstudent-radar-alerts.json` by `build_workflow.py` (run it after
@@ -85,6 +87,8 @@ the bot token or `integrations/n8n/.env`.
 - `assets/charts.js` — chart helpers (`barList`, `histogram`, `dotRange`, `bubbleMap`, `lineChart` with optional CI band, `survivalChart`), tooltip, `rollDigits` (KPI tile animation, only for values that changed), `fmt`, `esc`
 - `assets/match.js` — the "Check your skills" section: skill chips, match summary, collapsible job list
 - `assets/companies.js` — the "Company career pages" section: city switch (Berlin/München, `?co=muenchen`), field chips, keyword search, jobs grouped by company from `data/companies.json`; hidden with its nav link when the file is missing. Not tied to the filter bar
+- `.follow` in `#check`: the "Get alerts on Telegram" link to the public channel `t.me/werkstudentradar`
+  (posted by the n8n workflow) above the RSS `details.subscribe`
 - `#claude` card in `index.html` ("Ask Claude about these jobs"): the hosted MCP server URL with a copy button (`initCopyUrl` in `app.js`) and the connector steps; the URL also appears in `claude.steps` in `i18n.js` and in the README
 - `assets/tracker.js`, `assets/tracker-store.js` — the visitor's application tracker: header button
   `#trk-open` (count, warning colour when a follow-up is due) opens the panel `#trk` (a dialog on the right,

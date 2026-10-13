@@ -244,3 +244,44 @@ def test_end_to_end_over_http():
         assert notify.send(url, "wrong", data, sleep=lambda _: None) == (False, "HTTP 401")
     finally:
         server.shutdown()
+
+
+def test_test_mode_and_strict_exit_codes(today_data, monkeypatch, capsys):
+    sent = []
+    monkeypatch.setattr(notify, "send", lambda url, secret, data: sent.append(data) or (True, "HTTP 200"))
+    monkeypatch.delenv("N8N_WEBHOOK_URL", raising=False)
+    assert notify.main(["--strict"]) == 1                 # a manual run says when nothing was sent
+    assert notify.main([]) == 0
+    monkeypatch.setenv("N8N_WEBHOOK_URL", "https://n8n.example.org/webhook/x")
+    monkeypatch.setenv("WEBHOOK_SECRET", "k")
+    assert notify.main(["--test", "--strict"]) == 0
+    assert sent[-1]["test"] is True and sent[-1]["jobs"][0]["id"] == "a"
+    assert "sent test with 1 new postings" in capsys.readouterr().out
+    monkeypatch.setattr(notify, "send", lambda *a, **k: (False, "HTTP 401"))
+    assert notify.main(["--strict"]) == 1
+    assert notify.main([]) == 0
+
+
+def test_send_reports_why_n8n_skipped_a_call():
+    class Answer:
+        status_code = 200
+
+        def __init__(self, data):
+            self.data = data
+
+        def json(self):
+            if self.data is None:
+                raise ValueError("no JSON")
+            return self.data
+
+    class Session:
+        def __init__(self, answer):
+            self.answer = answer
+
+        def post(self, *a, **k):
+            return self.answer
+
+    skipped = Session(Answer({"ok": False, "reason": "2026-10-13 was already sent"}))
+    assert notify.send("https://x", "k", {}, session=skipped) == (True, "HTTP 200, n8n: 2026-10-13 was already sent")
+    assert notify.send("https://x", "k", {}, session=Session(Answer({"ok": True}))) == (True, "HTTP 200")
+    assert notify.send("https://x", "k", {}, session=Session(Answer(None))) == (True, "HTTP 200")
