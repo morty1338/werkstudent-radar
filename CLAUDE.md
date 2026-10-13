@@ -63,6 +63,13 @@ and `X-Radar-Timestamp`; changing the body encoding breaks the check in n8n. Sec
 nothing; it always exits 0, and never prints the URL (request errors would contain it).
 `python -m radar.notify --dry-run` prints the payload.
 
+The n8n side is in `integrations/n8n/` (setup guide in its README): the two Code nodes are
+`code/*.js`, built into `werkstudent-radar-alerts.json` by `build_workflow.py` (run it after
+editing; `tests/test_n8n.py` fails when the JSON is stale and runs the scripts in Node against
+payloads signed by `notify.py`). n8n's Code node sandbox has no `URL`/`URLSearchParams`
+(the test hides them too). Chat IDs in the JSON are placeholders; never commit real ones,
+the bot token or `integrations/n8n/.env`.
+
 ## Frontend notes
 
 **Files** (`docs/`, served as-is, no build step):

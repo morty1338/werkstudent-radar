@@ -29,3 +29,6 @@ experiments/.cache/
 
 # Lighthouse CI results (local runs)
 .lighthouseci/
+
+# n8n for the Telegram alerts: secrets for docker compose
+integrations/n8n/.env

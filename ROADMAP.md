@@ -218,11 +218,16 @@ Secrets and n8n credentials. Stop after each step for review.
       (`WEBHOOK_SECRET`). Runs after the data commit; without the secrets it does
       nothing, and a failed call is a warning, never a failed run. pytest for the
       selection, payload, signature and sending.
-- [ ] Step 2 — n8n workflow in `integrations/n8n/`: Webhook → check signature →
+- [x] Step 2 — n8n workflow in `integrations/n8n/`: Webhook → check signature →
       filter (city, fields, skills, no German) → short Telegram message (≤10 jobs,
       then "+N more" with a link to the site) → Telegram; a public channel with all new
       Berlin jobs and the owner's personal chat with its own filter. Setup guide
-      (bot, chat IDs, hosting, import, credentials, GitHub Secrets).
+      (bot, chat IDs, hosting, import, credentials, GitHub Secrets). The Code nodes
+      live in `code/*.js` (tested in Node) and are built into the importable JSON;
+      self-hosting with Docker + ngrok's free domain is recommended over the 14-day
+      Cloud trial. Tried in a local n8n 2.43.4, which showed that its Code node has
+      no `URLSearchParams` and that a repeated day must be marked only after the
+      messages are built.
 - [ ] Step 3 — test: a manual `workflow_dispatch` that sends a test payload, and a
       "Get alerts on Telegram" link on the site to the public channel.
 - [ ] Step 4 — a plain-language explanation: webhooks, why n8n, the data flow, the

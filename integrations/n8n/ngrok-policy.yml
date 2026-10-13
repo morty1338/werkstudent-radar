@@ -1,0 +1,8 @@
+# Only the webhook is public. The n8n editor stays on http://localhost:5678.
+on_http_request:
+  - expressions:
+      - "!req.url.path.startsWith('/webhook/')"
+    actions:
+      - type: deny
+        config:
+          status_code: 404

@@ -1,0 +1,290 @@
+{
+  "name": "Werkstudent Radar: Telegram alerts",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "werkstudent-radar",
+        "responseMode": "responseNode",
+        "options": {
+          "rawBody": true
+        }
+      },
+      "id": "82e5d576-8d77-5078-91b9-b52c1da8f39f",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        300
+      ],
+      "webhookId": "5b94e5a8-d236-5883-a4f9-5275df263841"
+    },
+    {
+      "parameters": {
+        "jsCode": "// \"Check signature\": accept only calls from the Werkstudent Radar pipeline.\n// radar/notify.py sends X-Radar-Signature: sha256=HMAC-SHA256(secret, \"<timestamp>.\" + body)\n// and X-Radar-Timestamp; this node recomputes it over the raw body bytes. It also skips a\n// day that was already sent (a re-run of the daily workflow); test payloads always pass.\n//\n// The secret: self-hosted, WEBHOOK_SECRET in the environment (.env next to docker-compose.yml).\n// n8n Cloud has no environment variables: paste it into SECRET below instead.\nconst SECRET = '';\nconst MAX_AGE_S = 600;   // a call older than 10 minutes is a replay\n\nconst crypto = require('crypto');\nlet secret = SECRET;\nif (!secret) {\n  try { secret = $env.WEBHOOK_SECRET || ''; } catch (e) { secret = ''; }\n}\nconst reject = (status, reason) => [{ json: { ok: false, status, reason } }];\nif (!secret) return reject(500, 'WEBHOOK_SECRET is not set in n8n');\n\nconst item = $input.first();\nconst headers = item.json.headers || {};\nconst ts = String(headers['x-radar-timestamp'] || '');\nconst given = String(headers['x-radar-signature'] || '');\nif (!/^\\d{1,12}$/.test(ts) || Math.abs(Date.now() / 1000 - Number(ts)) > MAX_AGE_S) {\n  return reject(401, 'missing or expired timestamp');\n}\n\n// The exact bytes that were signed (Webhook node option \"Raw Body\"); parsed JSON would differ.\nconst raw = await this.helpers.getBinaryDataBuffer(0, 'data');\nconst expected = 'sha256=' + crypto.createHmac('sha256', secret).update(ts + '.').update(raw).digest('hex');\nconst a = Buffer.from(given);\nconst b = Buffer.from(expected);\nif (a.length !== b.length || !crypto.timingSafeEqual(a, b)) return reject(401, 'bad signature');\n\nlet payload;\ntry {\n  payload = JSON.parse(raw.toString('utf8'));\n} catch (e) {\n  return reject(400, 'body is not JSON');\n}\nif (payload.event !== 'new_postings' || !Array.isArray(payload.jobs)) return reject(400, 'unknown event');\n\n// \"Build messages\" stores the day it sent last.\nif (!payload.test && $getWorkflowStaticData('global').lastAsOf === payload.as_of) {\n  return [{ json: { ok: false, status: 200, reason: `${payload.as_of} was already sent` } }];\n}\nreturn [{ json: { ok: true, status: 200, payload } }];\n"
+      },
+      "id": "1c5446f2-e049-599b-a809-7c5cc8a133c2",
+      "name": "Check signature",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        220,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "28599495-e3a8-51a1-b8f2-6c6be995f3c9",
+              "leftValue": "={{ $json.ok }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "46031b9e-5f38-5876-9265-2c029d88fc8c",
+      "name": "Valid?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        440,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { \"ok\": true } }}",
+        "options": {
+          "responseCode": 200
+        }
+      },
+      "id": "2f2ee30a-0c40-5643-8a0a-7c557702187f",
+      "name": "Accept",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        660,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { \"ok\": false, \"reason\": $json.reason } }}",
+        "options": {
+          "responseCode": "={{ $json.status }}"
+        }
+      },
+      "id": "52b182ab-7db8-5e8a-bbd3-c3927bc0fc2d",
+      "name": "Reject",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        660,
+        420
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// \"Build messages\": one Telegram message per target with the new jobs that pass its filter,\n// then marks the day as sent (\"Check signature\" skips it if the daily run is repeated).\n// Edit the targets here after importing. Empty lists mean \"no filter\".\n//   chatId         \"@channel_name\" for a public channel, or the numeric chat ID (see README)\n//   cities         as on the site: \"Berlin\", \"München\", \"Hamburg\", …\n//   includeRemote  also jobs that are remote anywhere in Germany (no city)\n//   fields         field ids: it, data, engineering, marketing, sales, finance, consulting,\n//                  product, design, hr, ops, research, admin, legal, education, health, retail, other\n//   skills         skill names as on the site (\"Python\", \"SQL\", \"Excel\", …); a job needs one of them\n//   noGerman       only jobs that don't require German\nconst TARGETS = [\n  { target: 'channel', chatId: '@your_channel', cities: ['Berlin'], includeRemote: false, fields: [], skills: [], noGerman: false },\n  { target: 'me', chatId: '123456789', cities: ['Berlin'], includeRemote: true, fields: ['it', 'data'], skills: [], noGerman: false },\n];\nconst MAX_JOBS = 10;     // per message; the rest is \"+N more\" with a link to the site\n\nconst p = $input.first().json.payload;\nconst MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];\nconst esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\"/g, '&quot;');\nconst cut = (s, n) => (s.length > n ? s.slice(0, n - 1) + '…' : s);\nconst lower = (list) => (list || []).map((s) => String(s).toLowerCase());\nconst [y, m, d] = String(p.as_of).split('-').map(Number);\nconst day = `${d} ${MONTHS[m - 1]} ${y}`;\n\nfunction matches(job, t) {\n  const cities = t.cities || [];\n  if (cities.length && !(cities.includes(job.city) || (t.includeRemote && job.city === ''))) return false;\n  if ((t.fields || []).length && !t.fields.includes(job.field)) return false;\n  const skills = lower(t.skills);\n  if (skills.length && !lower(job.skills).some((s) => skills.includes(s))) return false;\n  if (t.noGerman && !job.no_german) return false;\n  return true;\n}\n\n// The site with the target's filter, where the rest of the jobs can be found.\n// (No URLSearchParams: n8n's Code node sandbox doesn't have it.)\nfunction siteLink(t) {\n  const q = [];\n  if ((t.fields || []).length === 1) q.push(['field', t.fields[0]]);\n  if ((t.cities || []).length === 1) q.push(['city', t.cities[0]]);\n  if (t.noGerman) q.push(['german', 'no']);\n  const s = q.map(([k, v]) => `${k}=${encodeURIComponent(v)}`).join('&');\n  return p.site + (s ? `?${s}` : '');\n}\n\nfunction line(job) {\n  const pay = typeof job.pay === 'number' ? `€${job.pay.toFixed(2)}/h` : null;\n  const where = job.city || 'Remote (DE)';\n  const facts = [cut(job.company || '', 60), where, pay, job.field_label].filter(Boolean).map(esc).join(' · ');\n  return `• <a href=\"${esc(job.url)}\">${esc(cut(job.title || '', 120))}</a>\\n   ${facts}`;\n}\n\nconst out = [];\nfor (const t of TARGETS) {\n  const jobs = p.jobs.filter((j) => matches(j, t))\n    .sort((a, b) => (b.pay ?? -1) - (a.pay ?? -1) || String(a.title).localeCompare(String(b.title)));\n  if (!jobs.length) continue;\n  const where = (t.cities || []).length ? t.cities.join(', ') : 'Germany';\n  const head = `${p.test ? '🧪 Test · ' : ''}<b>${jobs.length} new Werkstudent job${jobs.length === 1 ? '' : 's'} · ${esc(where)}</b>\\n${day}`;\n  const shown = jobs.slice(0, MAX_JOBS).map(line);\n  const more = jobs.length - shown.length;\n  const tail = more > 0\n    ? `<a href=\"${esc(siteLink(t))}\">+${more} more on Werkstudent Radar</a>`\n    : `<a href=\"${esc(siteLink(t))}\">Werkstudent Radar</a>`;\n  out.push({ json: { target: t.target, chatId: t.chatId, count: jobs.length, text: [head, shown.join('\\n'), tail].join('\\n\\n') } });\n}\n// Remember the day only now, so a day whose messages couldn't be built isn't skipped later.\nif (!p.test) $getWorkflowStaticData('global').lastAsOf = p.as_of;\nreturn out;\n"
+      },
+      "id": "c45f2f1e-0b18-5e6a-8f31-f926547ae7dd",
+      "name": "Build messages",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        880,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "6a5d3ec5-a806-551d-87b7-c46e088d2211",
+              "leftValue": "={{ $json.target === 'channel' }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "b15d965c-2433-5dea-9aed-f0e8235afe0f",
+      "name": "Public channel?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1100,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $json.chatId }}",
+        "text": "={{ $json.text }}",
+        "additionalFields": {
+          "appendAttribution": false,
+          "disable_web_page_preview": true,
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "dad09614-6908-586a-b089-1cbae2ef297f",
+      "name": "Telegram: public channel",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1320,
+        100
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "",
+          "name": "Werkstudent Radar bot"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $json.chatId }}",
+        "text": "={{ $json.text }}",
+        "additionalFields": {
+          "appendAttribution": false,
+          "disable_web_page_preview": true,
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "3fe19f40-7d9c-56e9-8ea9-c3c31dffe165",
+      "name": "Telegram: my chat",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1320,
+        300
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "",
+          "name": "Werkstudent Radar bot"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Check signature",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check signature": {
+      "main": [
+        [
+          {
+            "node": "Valid?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Valid?": {
+      "main": [
+        [
+          {
+            "node": "Accept",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Reject",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Accept": {
+      "main": [
+        [
+          {
+            "node": "Build messages",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build messages": {
+      "main": [
+        [
+          {
+            "node": "Public channel?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Public channel?": {
+      "main": [
+        [
+          {
+            "node": "Telegram: public channel",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Telegram: my chat",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Berlin"
+  },
+  "pinData": {},
+  "active": false
+}
