@@ -18,6 +18,15 @@ that differ from the original plan.
 job texts in `data/eval/sample.json` and must only write scores and reference
 numbers, never job text.
 
+## MCP server
+
+`mcp/` holds a read-only MCP server (official MCP Python SDK v2, `MCPServer`,
+stdio) that answers questions with the site's JSON (`docs/data/`, or the
+published files with `--live`). Own `requirements.txt` and git-ignored `.venv/`,
+so the daily run and CI don't install the SDK. The folder has no `__init__.py`
+and its modules are named `radar_*.py`: a module or package called `mcp` would
+shadow the SDK. On stdio nothing may be printed to stdout (logs go to stderr).
+
 ## Frontend notes
 
 **Files** (`docs/`, served as-is, no build step):

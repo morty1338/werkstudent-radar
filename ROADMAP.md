@@ -124,3 +124,25 @@ never fetched. Stop after each step for review.
       switch, list grouped by company with job counts, field keyword filter, "new
       today" badge and links to the originals; works with the phone tab bar and
       filter sheet.
+
+## Phase 9 — MCP server: ask Claude about the data
+
+An MCP server in `mcp/` so Claude (Desktop or Code) can answer questions with the
+radar's data. Read-only; the website, the Python pipeline and the data format
+stay as they are. Stop after each step for review.
+
+- [x] Step 1 — setup: `mcp/` with a stdio server on the official MCP Python SDK
+      (its own `requirements.txt` and git-ignored `.venv/`, like `experiments/`).
+      Reads `docs/data/*.json` from the repo by default, or with `--live` the
+      published JSON from GitHub Pages with a short in-memory cache. Reuses
+      `summary.json`, the positional `checker.json` rows and `postings.json`
+      (matched by position and `as_of`).
+- [ ] Step 2 — tools: `get_overview`, `search_jobs`, `pay_stats`, `top_skills`,
+      `match_skills`, with typed parameters and descriptions; compact JSON, never
+      job texts.
+- [ ] Step 3 — quality: pytest per tool on a small fixture copy of the data;
+      unknown city/field/skill answered with close matches.
+- [ ] Step 4 — docs: README "Use with Claude" (Claude Desktop config, `claude mcp
+      add`), three example questions, tried in a Claude Code session.
+- [ ] Step 5 — a plain-language explanation of MCP, the request flow and each file,
+      with likely interview questions.
