@@ -115,12 +115,22 @@ def test_rate_limit_per_client(base_url, limiter):
 
 
 def test_log_has_no_client_address(base_url, caplog):
+    def lines():
+        return [r.getMessage() for r in caplog.records if r.name == "radar_http"]
+
+    def logged():
+        return any(line.startswith("POST /mcp ") and line.endswith("tool=pay_stats") for line in lines())
+
     with caplog.at_level(logging.INFO, logger="radar_http"):
         post(base_url + "/mcp", {"jsonrpc": "2.0", "id": 2, "method": "tools/call",
                                  "params": {"name": "pay_stats", "arguments": {"city": "Leipzig"}}})
-    lines = [r.getMessage() for r in caplog.records if r.name == "radar_http"]
-    assert any(line.startswith("POST /mcp ") and line.endswith("tool=pay_stats") for line in lines)
-    assert not any("127.0.0.1" in line or "Leipzig" in line for line in lines)
+        # The line is written after the response has gone out, so it can lag behind it.
+        for _ in range(40):
+            if logged():
+                break
+            time.sleep(0.05)
+    assert logged()
+    assert not any("127.0.0.1" in line or "Leipzig" in line for line in lines())
 
 
 # --- Pieces on their own -----------------------------------------------------------------------
