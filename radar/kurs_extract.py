@@ -50,7 +50,7 @@ POSTINGS_CSV = os.path.join(KURS_DIR, "postings.csv")
 
 FEATURE_COLUMNS = ["refnr", "text_hash", "checked", "status", "version", "qe_text", "qe_kind", "ai_text", "rules_skills"]
 # Raise when the phrases or the AI terms change: postings are checked again (their texts are fetched again).
-DETECT_VERSION = "1"
+DETECT_VERSION = "2"
 RUN_COLUMNS = ["date", "run_at", "trigger", "active", "fetched_texts", "no_text", "candidates", "sent", "done",
                "failed", "pending", "over_budget", "input_tokens", "cache_read_tokens", "output_tokens", "cost_usd"]
 DEFAULTS = {"KURS_MAX_FETCH": 600, "KURS_LLM_MAX_POSTINGS": 1000, "KURS_LLM_MAX_USD": 0.5,
@@ -62,7 +62,8 @@ log = logging.getLogger("kurs_extract")
 
 # --- Detection --------------------------------------------------------------------------------
 
-_OPT = r"(?:abgeschlossene[nr]?\s+|kaufmännische[nr]?\s+|einschlägige[nr]?\s+|passende[nr]?\s+|entsprechende[nr]?\s+|fachliche[nr]?\s+)?"
+_OPT = (r"(?:(?:abgeschlossene|kaufmännische|einschlägige|passende|entsprechende|fachliche|spezifische|besondere|vorherige)"
+        r"[nr]?\s+)?")
 _NOT_NEEDED = r"(?:ist\s+|sind\s+)?(?:nicht\s+(?:zwingend\s+)?(?:erforderlich|notwendig|nötig|vorausgesetzt|voraussetzung)|kein\s+muss)"
 # (kind, pattern). Kinds are stored, the matched words are not (they are job text).
 CAREER_CHANGER = [

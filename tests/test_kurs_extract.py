@@ -24,6 +24,8 @@ TEXT = ("Wir sind ein KI-Startup aus Berlin.\n\nDeine Aufgaben:\n- Recruiting\n\
     ("Keine Vorerfahrung nötig", "ohne_erfahrung"),
     ("Berufserfahrung ist nicht zwingend erforderlich.", "ohne_erfahrung"),
     ("(keine Vorkenntnisse nötig)", "ohne_erfahrung"),
+    ("Es ist keine spezifische Berufserfahrung als Sachbearbeiter erforderlich", "ohne_erfahrung"),
+    ("Ob Ausbildung, Studium oder Quereinstieg: entscheidend sind Ihre Fähigkeiten", "quereinstieg"),
     ("Wir stellen auch ohne abgeschlossene Ausbildung ein.", "ohne_ausbildung"),
     ("Eine Ausbildung ist kein Muss.", "ohne_ausbildung"),
     ("Erfahrung im Assistenzbereich – gern auch branchenfremd", "branchenfremd"),
