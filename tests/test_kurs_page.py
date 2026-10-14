@@ -166,3 +166,15 @@ def test_mcp_academy_shows_the_per_title_values():
     out = rt.kurs_radar(k, academy="HR")
     assert out["weighting"]["method"] == "equal per job title"
     assert out["by_job_title"]["quereinsteiger"][0] == {"job_title": "Recruiter", "share": 0.16, "postings_read": 100, "in_average": True}
+
+
+@node
+def test_equal_shares_weigh_each_job_title_the_same(tmp_path):
+    """Jobs mode, one academy: 40 postings of title A (all ask for skill 0) and 20 of title B
+    (none do) give 50%, not 40/60; a title under 20 postings is left out; one big title: null."""
+    a = [[0]] * 40
+    b = [[1]] * 20
+    small = [[0, 1]] * 5
+    out = run_node(tmp_path, f"[m.equalShares({json.dumps([a, b, small])}, 3), m.equalShares({json.dumps([a, small])}, 3)]")
+    assert out[0] == [0.5, 0.5, 0] and out[1] is None
+

@@ -1,6 +1,6 @@
 # Skill extraction: Claude Haiku 5.5 vs. the rules
 
-Model `claude-haiku-5-5`, adaptive thinking at effort `low` (the default; earlier runs differ, see below), structured JSON output, cached system prompt (6,209 characters: instructions and the 183 skills). Labels: `labels.csv` (14 skills) and `labels_extra.csv` (Word, Outlook, MS Teams), see `LABELS.md`.
+Model `claude-haiku-5-5`, adaptive thinking at effort `low` (the default; earlier runs differ, see below), structured JSON output, cached system prompt (6,357 characters: instructions and the 184 skills). Labels: `labels.csv` (14 skills) and `labels_extra.csv` (Word, Outlook, MS Teams), see `LABELS.md`.
 
 Answers: 100 of 100 postings; 13 had no task or requirement section and were not sent (the rules' answer counts for them).
 
@@ -122,7 +122,7 @@ German level found by the LLM (all 100): unknown 59, fluent 21, c1_plus 16, nati
 
 ## What else the LLM returns
 
-- 386 skills in 100 postings: must have 287, nice to have 99; 125 of them not on our list ("other").
+- 386 skills in 100 postings: must have 287, nice to have 99; 126 of them not on our list ("other").
 - Most frequent "other" terms: ai tools (3), kassiervorgänge mit software (2), kundenberatung (2), angebote erstellen (2), akustische messtechnik (1), kenntnisse in der akustik (1), hr-systeme (1), abrechnung mit krankenkassen (1), ui5 (1), presentation tools (1), kassiervorgänge und zahlungen (1), kundenkontakt (1), verkauf (1), foto (1), capcut (1), low-code cloudtechnologien (1), skripte (1), datenaufbereitung, analyse (1), artificial intelligence (1), change management (1), computerkasse (1), automatisierungstechnik (1), softwareapplikationen (1), mess- und steuerungstechnik (1), inventuren (1)
 
 ## Disagreements: MS Office, Excel, Word, Outlook, MS Teams
@@ -134,7 +134,7 @@ German level found by the LLM (all 100): unknown 59, fluent 21, c1_plus 16, nati
 
 ## Answers
 
-- Stop reasons: {'end_turn': 87, None: 13}; schema problems after the API's own check: 58 ({"genai -> other for 'AI tools'": 3, "sales_skills -> other for 'Angebote erstellen'": 2, "powerpoint -> other for 'presentation tools'": 1, "customer_service -> other for 'Kundenkontakt'": 1, "sales_skills -> other for 'Verkauf'": 1})
+- Stop reasons: {'end_turn': 87, None: 13}; schema problems after the API's own check: 59 ({"genai -> other for 'AI tools'": 3, "sales_skills -> other for 'Angebote erstellen'": 2, "powerpoint -> other for 'presentation tools'": 1, "customer_service -> other for 'Kundenkontakt'": 1, "sales_skills -> other for 'Verkauf'": 1})
 - Errors: 0
 
 ## Tokens and cost

@@ -2,7 +2,7 @@ import { barList, bubbleMap, dotRange, esc, fmt, histogram, initTooltip, lineCha
 import { initCompanies } from "./companies.js?v=dev";
 import { initCv } from "./cv.js?v=dev";
 import { applyStatic, fieldLabel, groupLabel, initLangSwitch, lang, skillLabel as localSkillLabel, t } from "./i18n.js?v=dev";
-import { MIN_BASE, opportunities } from "./kurs-rank.js?v=dev";
+import { MIN_BASE, equalShares, opportunities } from "./kurs-rank.js?v=dev";
 import { initMatch } from "./match.js?v=dev";
 import { beta, dataUrl, jobsAllowed, mode, modeUrl, refPrefix } from "./mode.js?v=dev";
 import { medianCI } from "./stats.js?v=dev";
@@ -479,17 +479,10 @@ async function main() {
       for (const i of idx) {
         const c = D.jobs[i][J.CAT];
         if (!groups.has(c)) groups.set(c, []);
-        groups.get(c).push(i);
+        groups.get(c).push(D.jobs[i][J.SKILLS]);
       }
-      const big = [...groups.values()].filter((g) => g.length >= MIN_BASE);
-      if (big.length > 1) {
-        const parts = big.map((g) => {
-          const n = new Array(D.skills.length).fill(0);
-          for (const i of g) for (const s of D.jobs[i][J.SKILLS]) n[s]++;
-          return n.map((x) => x / g.length);
-        });
-        share = (s) => parts.reduce((sum, p) => sum + p[s], 0) / parts.length;
-      }
+      const eq = equalShares([...groups.values()], D.skills.length);
+      if (eq) share = (s) => eq[s];
     }
     return counts
       .map((n, s) => ({ key: s, id: D.skills[s].id, label: D.skills[s].label, group: D.skills[s].group, n, share: share(s) }))

@@ -47,3 +47,20 @@ export function opportunities(data) {
     .sort((a, b) => b.score - a.score || b.postings - a.postings);
   return { rows, skipped };
 }
+
+// Share of postings asking for each skill, every group (job title) with at least MIN_BASE
+// postings weighing the same; null when fewer than two groups are that big (then the plain
+// share is right). groups: arrays of skill-index lists, one list per posting; n: number of skills.
+// The page's academy view in Jobs mode; kurs_stats.equal_weight does the same for kurs.json.
+export function equalShares(groups, n) {
+  const big = groups.filter((g) => g.length >= MIN_BASE);
+  if (big.length < 2) return null;
+  const out = new Array(n).fill(0);
+  for (const g of big) {
+    const counts = new Array(n).fill(0);
+    for (const skills of g) for (const s of skills) counts[s]++;
+    counts.forEach((c, s) => (out[s] += c / g.length / big.length));
+  }
+  return out;
+}
+
