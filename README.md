@@ -25,8 +25,9 @@ are copied from the same company career sites.
 The page answers one question per section, and every chart is a filter: click
 Berlin on the map or "IT & Software" in a chart and the whole page follows.
 
-1. **Where are the jobs?** A map of ~940 places on Germany's outline, with a slow
-   radar sweep, and the job fields.
+1. **Where are the jobs?** The radar opens the page: a map of ~940 places on
+   Germany's outline with a slow sweep, next to the headline; a click on a city
+   filters everything. Further down, the job fields.
 2. **What does it pay?** The hourly pay distribution and the typical range per
    field or city; every median with its 95% confidence interval.
 3. **Which skills are asked for?** The most requested skills by group; click one

@@ -83,6 +83,8 @@
 
   <main id="top">
     <section class="hero wrap">
+      <div class="hero-grid">
+      <div class="hero-text">
       <p class="status" id="status"></p>
       <h1 data-i18n-html="hero.title">Werkstudent jobs in Germany, in&nbsp;numbers</h1>
       <p class="lede">Every Werkstudent posting on the Bundesagentur für Arbeit job board and on company career sites.</p>
@@ -91,6 +93,14 @@
         <a class="btn btn-lg btn-ghost" href="https://t.me/werkstudentradar" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-telegram"></use></svg><span data-i18n="hero.cta_tg">New jobs on Telegram</span></a>
       </div>
       <p class="hero-kurs"><a href="kurs.html" id="kurs-link"><span data-i18n="kurs.link">Kurs-Radar: jobs after a course</span> →</a></p>
+      </div>
+      <!-- The radar: where the jobs are, live; a click on a city filters the whole page. -->
+      <div class="hero-map">
+        <h2 class="sr-only" data-i18n="where.title">Where are the jobs?</h2>
+        <div id="map"></div>
+        <p class="hero-map-hint" data-i18n="where.by_place_hint">click a bubble to filter</p>
+      </div>
+      </div>
       <div class="tiles" id="tiles">
         <div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div>
       </div>
@@ -161,15 +171,10 @@
       <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-where"></use></svg></span><span data-i18n="nav.where">Jobs</span></p>
       <h2 data-i18n="where.title">Where are the jobs?</h2>
       <p class="insight" id="where-insight"></p>
-      <div class="grid-map">
-        <div class="card">
-          <h3><span data-i18n="where.by_place">By place</span> <span class="hint-inline" data-i18n="where.by_place_hint">click a bubble to filter</span></h3>
-          <div id="map"></div>
-        </div>
-        <div class="card">
-          <h3><span data-i18n="where.by_field">By field</span> <span class="hint-inline" data-i18n="where.by_field_hint">click to filter</span></h3>
-          <div id="fields" class="chart"></div>
-        </div>
+      <div class="card">
+        <h3><span data-i18n="where.by_field">By field</span> <span class="hint-inline" data-i18n="where.by_field_hint">click to filter</span></h3>
+        <div id="fields" class="chart"></div>
+        <p class="legend-line"><a href="#top" data-i18n="where.map_up">The map of places is at the top ↑</a></p>
       </div>
     </section>
 

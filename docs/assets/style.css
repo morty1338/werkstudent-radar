@@ -114,6 +114,15 @@ a.btn { display: inline-flex; align-items: center; gap: 8px; text-decoration: no
 @keyframes blink { 50% { opacity: .25; } }
 .lede { font-size: 19px; color: var(--ink-2); margin-top: 14px; max-width: 680px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+/* Hero: text on the left, the radar map on the right; tiles below across the full width. */
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 32px; align-items: center; }
+/* No frame: the radar sits on the page background. */
+.hero-map { position: relative; }
+/* Fixed height: the map arrives with the data, the page mustn't jump. */
+.hero-map #map { height: 500px; }
+.hero-map .map { width: 100%; height: 100%; max-height: none; overflow: visible; }
+.hero-map .map-label { stroke: var(--bg); }
+.hero-map-hint { margin: 2px 0 0; text-align: center; font-size: 13px; color: var(--ink-3); }
 .tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 28px; }
 .tile {
   display: flex; flex-direction: column; gap: 4px; min-height: 128px; padding: 18px;
@@ -459,6 +468,8 @@ body.trk-open { overflow: hidden; }
 }
 @media (max-width: 860px) {
   .tiles { grid-template-columns: repeat(2, 1fr); }
+  .hero-grid { grid-template-columns: 1fr; gap: 20px; }
+  .hero-map #map { height: 380px; }
   .grid-2, .grid-map, .grid-skills, .updates-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 560px) {
@@ -516,6 +527,7 @@ body.trk-open { overflow: hidden; }
   .status { letter-spacing: .04em; }
   .lang-switch button { min-height: 36px; min-width: 42px; }
   .tile { min-height: 112px; padding: 14px; }
+  .hero-map #map { height: 320px; }
   .tile .value { font-size: 30px; }
   .insight { font-size: 17px; }
   .match-big { font-size: 44px; }

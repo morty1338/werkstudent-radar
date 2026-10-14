@@ -72,6 +72,7 @@ const STRINGS = {
   // --- 01 Where ---------------------------------------------------------------------------------------------
   "where.title": { en: "Where are the jobs?", de: "Wo sind die Jobs?" },
   "where.by_place": { en: "By place", de: "Nach Ort" },
+  "where.map_up": { en: "The map of places is at the top ↑", de: "Die Karte der Orte ist ganz oben ↑" },
   "where.by_place_hint": { en: "click a bubble to filter", de: "Blase anklicken zum Filtern" },
   "where.by_field": { en: "By field", de: "Nach Bereich" },
   "where.by_field_hint": { en: "click to filter", de: "zum Filtern anklicken" },
