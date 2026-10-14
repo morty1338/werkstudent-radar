@@ -130,6 +130,27 @@ jobs:
         timeout-minutes: 10
         run: python -m radar.kurs 2>&1 | tee -a "$LOG"
 
+      # Texts of the Kurs-Radar postings not read yet (career-changer phrases, AI,
+      # rules' skills in data/kurs/features.csv; texts stay on the runner), then the
+      # same Claude Haiku extraction as above as one batch. It doesn't wait: the next
+      # run collects the batch (data/kurs/llm_pending.json), the rules count until then.
+      - name: Read Kurs-Radar postings (texts, Claude Haiku)
+        continue-on-error: true
+        timeout-minutes: 15
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          KURS_MAX_FETCH: "600"
+          KURS_LLM_MAX_POSTINGS: "1000"
+          KURS_LLM_MAX_USD: "0.50"
+          KURS_LLM_WAIT_MINUTES: "0"
+        run: python -m radar.kurs_extract 2>&1 | tee -a "$LOG"
+
+      # Per job title and academy: postings, top skills (must / nice), Quereinsteiger,
+      # AI and Basics shares, week-over-week change -> docs/data/kurs.json.
+      - name: Build Kurs-Radar numbers
+        continue-on-error: true
+        run: python -m radar.kurs_stats 2>&1 | tee -a "$LOG"
+
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
