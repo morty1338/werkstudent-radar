@@ -20,3 +20,13 @@ answers only, no job text).
   honest baseline. Both are reported.
 
 A human can replace or extend these labels with `python -m radar.evaluate label`.
+
+## Word, Outlook and MS Teams (`labels_extra.csv`)
+
+Added later for the LLM pilot (`report_llm.md`), by the same AI assistant, blind
+(before any rule or model output for them was looked at): every mention of Word,
+Outlook, Teams and Office in the 100 texts was read in context. A program counts
+only when the posting names it ("MS Office" alone is not Word or Outlook), as for
+the other skills. Result: Word in 4 postings, Outlook in 2, MS Teams as a tool in
+none ("Teams" only in the sense of working teams). Across all 4,219 postings with
+a text on 13 Oct 2026, MS Teams is named as a tool in about 1%.

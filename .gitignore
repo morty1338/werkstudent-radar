@@ -28,3 +28,6 @@ data/history.sqlite
 
 # n8n for the Telegram alerts: secrets for docker compose
 integrations/n8n/.env
+
+# Local secrets (e.g. ANTHROPIC_API_KEY); in Actions they come from GitHub Secrets
+.env
