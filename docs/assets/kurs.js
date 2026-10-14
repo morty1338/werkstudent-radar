@@ -1,4 +1,4 @@
-// Kurs-Radar page (kurs.html): academy → job title → KPI tiles and skill bars, plus the
+// "All jobs" page (kurs.html, internally Kurs-Radar): academy → job title → KPI tiles and skill bars, plus the
 // "Opportunities" ranking. Data: data/kurs.json from radar/kurs_stats.py. No filters of
 // the Werkstudent page apply here; the state is ?a=<academy>&t=<job title>.
 import { esc, fmt, initTooltip, rollDigits } from "./charts.js?v=dev";
@@ -15,9 +15,10 @@ async function loadKurs() {
 
 async function main() {
   applyStatic();
+  document.title = t("kurs.doc_title");
   initLangSwitch();
   initTooltip();
-  if (lang === "de") document.getElementById("k-home").href = "index.html?lang=de";
+  if (lang === "de") document.querySelectorAll(".k-home-link").forEach((a) => (a.href = "index.html?lang=de"));
   let D;
   try {
     D = await loadKurs();

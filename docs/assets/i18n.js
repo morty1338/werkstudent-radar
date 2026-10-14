@@ -405,19 +405,22 @@ const STRINGS = {
   },
 
   // --- Kurs-Radar (kurs.html) ----------------------------------------------------------------------------------------
-  "kurs.brand_aria": { en: "Kurs-Radar, back to top", de: "Kurs-Radar, nach oben" },
+  "kurs.brand_aria": { en: "Werkstudent Radar, back to the Werkstudent jobs", de: "Werkstudent Radar, zurück zu den Werkstudentenjobs" },
+  "kurs.back": { en: "Back to the Werkstudent jobs", de: "Zurück zu den Werkstudentenjobs" },
+  "kurs.nav_all": { en: "All jobs", de: "Alle Jobs" },
+  "kurs.doc_title": { en: "All jobs · Werkstudent Radar", de: "Alle Jobs · Werkstudent Radar" },
   "kurs.nav_jobs": { en: "Job titles", de: "Berufe" },
   "kurs.nav_chancen": { en: "Opportunities", de: "Chancen" },
   "kurs.nav_home": { en: "Werkstudent Radar", de: "Werkstudent Radar" },
   "kurs.nav_home_short": { en: "Werkstudent", de: "Werkstudent" },
-  "kurs.link": { en: "Kurs-Radar: jobs after a course", de: "Kurs-Radar: Jobs nach dem Kurs" },
+  "kurs.link": { en: "All jobs, not only Werkstudent: what employers ask for after a course", de: "Alle Jobs, nicht nur Werkstudent: was Arbeitgeber nach dem Kurs verlangen" },
   "kurs.choose": { en: "Academy", de: "Akademie" },
   "kurs.academy": { en: "Academy", de: "Akademie" },
   "kurs.job_title": { en: "Job title", de: "Berufsbild" },
   "kurs.show": { en: "Show", de: "Anzeigen" },
   "kurs.all_titles": { en: "All job titles", de: "Alle Berufsbilder" },
   "kurs.as_of_short": { en: "as of {date}", de: "Stand {date}" },
-  "kurs.title": { en: "Kurs-Radar: what the jobs after a course ask&nbsp;for", de: "Kurs-Radar: was die Jobs nach dem Kurs&nbsp;verlangen" },
+  "kurs.title": { en: "All jobs: what employers ask for after a&nbsp;course", de: "Alle Jobs: was Arbeitgeber nach dem Kurs&nbsp;verlangen" },
   "kurs.lede": {
     en: "The job titles that career-changer courses train for, across all working times: how many postings there are, which skills they ask for, and how open they are to career changers.",
     de: "Die Berufe, auf die Kurse für Quereinsteiger vorbereiten, in Voll- und Teilzeit: wie viele Stellen es gibt, welche Skills verlangt werden und wie offen sie für Quereinsteiger sind.",
@@ -517,8 +520,8 @@ const STRINGS = {
 <p>Stellentexte gehören den Arbeitgebern und werden hier nicht veröffentlicht. Code und Daten: <a href="https://github.com/morty1338/werkstudent-radar">github.com/morty1338/werkstudent-radar</a>.</p>`,
   },
   "kurs.footer": {
-    en: 'Kurs-Radar · data: Bundesagentur für Arbeit · <a href="index.html">Werkstudent Radar</a> · <a href="https://github.com/morty1338/werkstudent-radar">source code</a>',
-    de: 'Kurs-Radar · Daten: Bundesagentur für Arbeit · <a href="index.html?lang=de">Werkstudent Radar</a> · <a href="https://github.com/morty1338/werkstudent-radar">Quellcode</a>',
+    en: 'All jobs · data: Bundesagentur für Arbeit · <a href="index.html">Werkstudent Radar</a> · <a href="https://github.com/morty1338/werkstudent-radar">source code</a>',
+    de: 'Alle Jobs · Daten: Bundesagentur für Arbeit · <a href="index.html?lang=de">Werkstudent Radar</a> · <a href="https://github.com/morty1338/werkstudent-radar">Quellcode</a>',
   },
 
   // --- Data labels (fields, skill groups, a few skills) ---------------------------------------------------------------

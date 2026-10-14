@@ -30,7 +30,7 @@ async function main() {
   applyStatic();
   initLangSwitch();
   initTooltip();
-  if (lang === "de") document.getElementById("kurs-link").href = "kurs.html?lang=de";
+  if (lang === "de") for (const id of ["kurs-link", "kurs-nav"]) document.getElementById(id).href = "kurs.html?lang=de";
   // The tracker works without the job data, so it starts before it loads.
   const tracker = initTracker();
   let S, D, H, L, C, CO;
@@ -653,7 +653,7 @@ async function main() {
   status.innerHTML = `<span class="status-dot" aria-hidden="true">●</span> ${t(ageDays > 2 ? "status.stale" : "status.live")} · ${t("status.last_scan")} <time datetime="${esc(S.generated_at || D.as_of)}">${esc(scanned)}</time>`;
 
   // Mark the section in view in the nav (the bottom tab bar on phones).
-  const navLinks = [...document.querySelectorAll(".nav a")];
+  const navLinks = [...document.querySelectorAll(".nav a[href^='#']")];
   const spy = new IntersectionObserver(
     (entries) => {
       for (const e of entries) {

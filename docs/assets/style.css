@@ -481,6 +481,7 @@ body.trk-open { overflow: hidden; }
   .nav .ico { display: block; width: 20px; height: 20px; color: var(--ink-3); }
   .nav a[aria-current] .ico { color: var(--accent); }
   .nav-full { display: none; }
+  .nav .nav-page { display: none; }   /* phones: 6 tabs at most; the hero link leads there */
   .nav-short { display: inline; }
 
   /* Filters: one button and removable chips; the controls open as a bottom sheet */
@@ -535,6 +536,10 @@ body.trk-open { overflow: hidden; }
 }
 
 /* Kurs-Radar (kurs.html) */
+.k-back { margin: 0 0 14px; font-size: 15px; }
+.k-back a { text-decoration: none; font-weight: 600; }
+.k-back a:hover { text-decoration: underline; }
+.nav .nav-page { color: var(--accent-ink); }
 .kurs-hero h1 { max-width: 900px; }
 .kurs-note {
   display: inline-block; margin-top: 18px; padding: 8px 12px; border-radius: 8px; font-size: 14px; color: var(--ink-2);

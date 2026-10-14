@@ -316,17 +316,18 @@ as "also on BA" when an employer name from `ba_names`, the normalised title
 Bundesagentur posting online today. Requests use the project's User-Agent,
 respect robots.txt and are spaced 1.5 s apart with retries.
 
-## Kurs-Radar (`kurs.html`)
+## All jobs (`kurs.html`, Kurs-Radar)
 
-**[Kurs-Radar](https://morty1338.github.io/werkstudent-radar/kurs.html)** looks at a
-different set of jobs: the regular jobs (full-time, part-time, minijob) that
+**[All jobs](https://morty1338.github.io/werkstudent-radar/kurs.html)** (internally Kurs-Radar)
+looks at a different set of jobs: the regular jobs (full-time, part-time, minijob) that
 career-changer courses train for, grouped by academy (Sales, Marketing, HR, KI, Job
 Academy). Pick an academy and a job title to see how many postings there are, the
 share open to career changers, asking for AI skills and asking for the office basics,
 and the most asked-for skills split into must have and nice to have. An
 "Opportunities" view ranks the job titles by size, current demand and openness to
 career changers, as input for deciding on a new course. Only Bundesagentur postings,
-a snapshot of one day.
+a snapshot of one day. Linked from the main page (hero and header); its logo and a
+back link lead back.
 
 - **Config, not code.** [`data/kurs_radar.yaml`](data/kurs_radar.yaml) lists the
   academies, their job titles, the search terms and title patterns; a posting counts
