@@ -239,3 +239,8 @@ CONTEXT_REQUIRED = {
     "email_marketing", "it_support", "agile", "statistics", "dataviz", "ux",
     "embedded", "robotics", "automotive", "gmp", "clinical",
 }
+
+
+# Skills almost every office job asks for. The site and the MCP server show them apart
+# from the specific skills, which say more about a job (summary.json "basic_skills").
+BASIC_SKILLS = ["ms_office", "excel", "powerpoint", "word", "driving_licence"]

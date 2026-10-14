@@ -43,6 +43,7 @@ async function main() {
     document.getElementById("tiles").innerHTML = `<p class="stale">${esc(t("load.error", { msg: e.message }))}</p>`;
     return;
   }
+  const BASICS = new Set(S.basic_skills ?? ["ms_office", "excel", "powerpoint", "word", "driving_licence"]);
 
   // Labels in the page's language (the data has English ones).
   for (const s of [...D.skills, ...S.skills]) s.label = localSkillLabel(s.id, s.label);
@@ -226,6 +227,7 @@ async function main() {
   onPick(document.getElementById("fields"), setField);
   onPick(document.getElementById("pay-range"), (k) => (state.payBy === "field" ? setField(k) : setCity(k)));
   onPick(document.getElementById("skill-bars"), (k) => { state.skill = k; renderSkills(); });
+  onPick(document.getElementById("skill-basics"), (k) => { state.skill = k; renderSkills(); });
   document.getElementById("pay-seg").addEventListener("click", (e) => {
     const b = e.target.closest("[data-by]");
     if (!b) return;
@@ -244,7 +246,7 @@ async function main() {
   function renderTiles(all) {
     const ps = payStats(all);
     const places = new Set(all.map((i) => D.jobs[i][J.CITY]).filter((c) => c >= 0)).size;
-    const top = topSkills(all)[0];
+    const top = topSkills(all).find((r) => !BASICS.has(r.id));
     const perCity = new Map();
     for (const i of all) {
       const c = D.jobs[i][J.CITY];
@@ -255,7 +257,7 @@ async function main() {
     const tiles = [
       { href: "#where", label: where ? t("tile.jobs_where", { where }) : t("tile.jobs_online"), value: fmt.int(all.length), sub: t("tile.places", { n: places, v: fmt.int(places) }) },
       { href: "#pay", label: t("tile.median"), value: ps.enough ? fmt.eur(ps.median) : "—", sub: ps.enough ? t("tile.per_hour", { ci: ciText(...ps.ci) }) : ps.why },
-      { href: "#skills", label: t("tile.top_skill"), value: top ? top.label : "—", sub: top ? t("tile.skill_share", { pct: fmt.pct(top.share, 0) }) : "", small: true },
+      { href: "#skills", label: t("tile.top_specific"), value: top ? top.label : "—", sub: top ? t("tile.skill_share", { pct: fmt.pct(top.share, 0) }) : "", small: true },
       { href: "#where", label: t("tile.most_jobs"), value: bigCity >= 0 ? D.cities[bigCity].name : "—", sub: bigCity >= 0 ? t("jobs.n", { n: bigCount, v: fmt.int(bigCount) }) : "", small: true },
     ];
     const box = document.getElementById("tiles");
@@ -430,13 +432,16 @@ async function main() {
 
   function renderSkills(all = pool()) {
     const ranked = topSkills(all);
-    const groups = ["All", ...new Set(ranked.map((r) => r.group))];
+    // Basics (MS Office, Excel, …) come up in most office jobs; the specific skills say more about a job.
+    const specific = ranked.filter((r) => !BASICS.has(r.id));
+    const basics = ranked.filter((r) => BASICS.has(r.id));
+    const groups = ["All", ...new Set(specific.map((r) => r.group))];
     if (!groups.includes(state.skillGroup)) state.skillGroup = "All";
     document.getElementById("skill-groups").innerHTML = groups
       .slice(0, 10)
       .map((g) => `<button type="button" class="chip" data-group="${esc(g)}" aria-pressed="${state.skillGroup === g}">${esc(g === "All" ? t("skills.all") : groupLabel(g))}</button>`)
       .join("");
-    const shown = ranked.filter((r) => state.skillGroup === "All" || r.group === state.skillGroup).slice(0, 15);
+    const shown = specific.filter((r) => state.skillGroup === "All" || r.group === state.skillGroup).slice(0, 15);
     if (state.skill == null || !ranked.some((r) => r.key === state.skill)) state.skill = shown[0]?.key ?? null;
     barList(
       document.getElementById("skill-bars"),
@@ -451,11 +456,20 @@ async function main() {
       { empty: t("skills.empty"), dim: false },
     );
 
-    const prog = ranked.find((r) => r.group === "Programming");
-    const top = ranked[0];
+    // Basics in one compact row under the specific skills; a click shows their details too.
+    document.getElementById("skill-basics").innerHTML = basics.length
+      ? `<span class="basics-label" data-tip="${esc(t("skills.basics_tip"))}">${esc(t("skills.basics"))}</span>` +
+        basics.map((r) => `<button type="button" class="chip" data-key="${r.key}" aria-pressed="${r.key === state.skill}"
+          data-tip="${esc(`<strong>${esc(r.label)}</strong><br>${t("skills.bar_tip", { n: fmt.int(r.n), total: fmt.int(all.length) })}${impTip(all, r.key)}`)}">${esc(r.label)} <span class="chip-n">${fmt.pct(r.share, r.share < 0.1 ? 1 : 0)}</span></button>`).join("")
+      : "";
+
+    const prog = specific.find((r) => r.group === "Programming");
+    const top = specific[0];
+    const office = basics[0];
     document.getElementById("skills-insight").innerHTML = top
-      ? t("skills.insight", { skill: esc(top.label), pct: fmt.pct(top.share, 0) }) +
-        (prog ? t("skills.prog", { skill: esc(prog.label), pct: fmt.pct(prog.share, 1) }) : "")
+      ? t("skills.insight_specific", { skill: esc(top.label), pct: fmt.pct(top.share, 0) }) +
+        (prog && prog !== top ? t("skills.prog", { skill: esc(prog.label), pct: fmt.pct(prog.share, 1) }) : "") +
+        (office ? t("skills.basics_note", { skill: esc(office.label), pct: fmt.pct(office.share, 0) }) : "")
       : "";
     renderSkillDetail(all, ranked);
   }

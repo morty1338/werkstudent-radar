@@ -190,15 +190,26 @@ effort `low` (2 points more F1 than without, for about a quarter more cost).
 Every answer is checked again: an id is kept only when the term fits it (the
 rules' pattern for that skill or a word of its label), else it goes to the
 listed skill that fits or to "other"; this stops the model from filing
-"Präsentationen" under PowerPoint. Postings without such sections are not sent;
-the rules cover them. The daily run sends only postings whose text (title +
-text, hashed) has no result yet, as one Message Batch at half price; a batch
+"Präsentationen" under PowerPoint. Each skill also comes with a short verbatim
+quote (`evidence`), checked against the text that was sent; the quotes are used
+for checks only and never stored in the repository. Postings without such
+headings (about one in six) are sent whole. The daily run sends only postings
+whose text (title + text, hashed) has no result yet, as one Message Batch at
+half price; an active Bundesagentur posting without a result whose text this
+run doesn't have (fetched by an earlier run elsewhere) is fetched once, up to
+300 per run. A batch
 that isn't done in 20 minutes is collected by the next run, and without the API
 key or on any API error the rules' results stand. Results:
 `data/history/llm.csv`; per run tokens, cost and the agreement with the rules:
 `data/history/llm_runs.csv`. The site's skill statistics use the LLM's skills
 where they exist and the rules' otherwise; German and pay still come from the
-rules.
+rules. Basics that most office jobs ask for (MS Office, Excel, PowerPoint,
+Word, driving licence; `BASIC_SKILLS` in `radar/skills.py`) are shown in their
+own row under the specific skills: MS Office is a real requirement in most IT
+postings too (a check of 40 sampled IT postings with the evidence quotes found
+37 asked of the candidate, 3 borderline IT-support cases, none from "tools we
+offer"), but it says little about a job. The MCP tool `top_skills` has
+`exclude_basics` for the same view.
 
 ## Aggregation (`radar/build.py`, `radar/sql/`)
 

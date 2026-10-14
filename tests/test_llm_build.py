@@ -104,3 +104,28 @@ def test_mcp_top_skills_reports_the_split(tmp_path):
     assert (by["SQL"]["must_have"], by["SQL"]["nice_to_have"]) == (0, 1)
     assert out["postings_read_by_llm"] == 2
 
+
+
+
+def test_mcp_top_skills_can_leave_out_the_basics():
+    rd = importlib.import_module("radar_data")
+    rt = importlib.import_module("radar_tools")
+    skills = [{"id": "ms_office", "label": "MS Office", "group": "Office & Tools", "jobs": 3},
+              {"id": "python", "label": "Python", "group": "Programming", "jobs": 1}]
+    rows = [[0, 0, 3, None, [0, 1], 1, 1, 0], [0, 0, 3, None, [0], 1, 1, 0], [0, 0, 3, None, [0], 1, 1, 0]]
+    d = rd.Dataset(as_of="2026-10-14", summary={"basic_skills": ["ms_office"]}, checker={"german": ["none", "plus", "implicit", "required"]},
+                   fields=["it"], field_labels={"it": "IT"}, cities=["Berlin"], skills=skills, jobs=rows, postings=None)
+    assert [s["skill"] for s in rt.top_skills(d)["skills"]] == ["MS Office", "Python"]
+    out = rt.top_skills(d, exclude_basics=True)
+    assert [s["skill"] for s in out["skills"]] == ["Python"] and out["excluded_basics"] == ["MS Office"]
+    assert "excluded_basics" not in rt.top_skills(d)
+    d.summary = {}                                                         # an older summary.json: the built-in list
+    assert [s["skill"] for s in rt.top_skills(d, exclude_basics=True)["skills"]] == ["Python"]
+
+
+def test_summary_names_the_basics(tmp_path):
+    from radar.skills import BASIC_SKILLS, SKILLS
+    assert set(BASIC_SKILLS) <= {sid for sid, *_ in SKILLS}
+    assert build.build_summary(make_db(tmp_path))["basic_skills"] == BASIC_SKILLS
+    rt = importlib.import_module("radar_tools")
+    assert rt.BASIC_SKILLS == BASIC_SKILLS                                 # the MCP fallback is the same list

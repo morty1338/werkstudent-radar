@@ -268,12 +268,23 @@ def pay_stats(d, field=None, city=None):
     }
 
 
-def top_skills(d, field=None, city=None, limit=10):
+# Asked for in most office jobs; summary.json names them (older files: this list).
+BASIC_SKILLS = ["ms_office", "excel", "powerpoint", "word", "driving_licence"]
+
+
+def basic_skill_ids(d):
+    return set((d.summary or {}).get("basic_skills") or BASIC_SKILLS)
+
+
+def top_skills(d, field=None, city=None, limit=10, exclude_basics=False):
     fi, ci = resolve_field(d, field), resolve_city(d, city)
     idx = pool(d, fi, ci)
+    basics = basic_skill_ids(d)
     counts = {}
     for i in idx:
         for s in d.jobs[i][rd.SKILLS]:
+            if exclude_basics and d.skills[s]["id"] in basics:
+                continue
             counts[s] = counts.get(s, 0) + 1
     # Postings read by the LLM also say how they ask for a skill (rows of older files lack it).
     must, nice, read = {}, {}, 0
@@ -300,6 +311,8 @@ def top_skills(d, field=None, city=None, limit=10):
         "postings": len(idx),
         "skills": [entry(s, n) for s, n in top],
     }
+    if exclude_basics:
+        out["excluded_basics"] = sorted(s["label"] for s in d.skills if s["id"] in basics)
     if read:
         out["postings_read_by_llm"] = read
     return out

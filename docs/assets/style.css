@@ -275,6 +275,10 @@ a.tile:hover { transform: translateY(-2px); border-color: var(--accent); }
 .lg-must { background: var(--accent); }
 .lg-nice { background: var(--muted-bar); }
 .imp-n { color: var(--ink-3); }
+/* Basics (MS Office, Excel, …): one compact row under the specific skills */
+.basics { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.basics:empty { display: none; }
+.basics-label { font-family: var(--mono); font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin-right: 4px; }
 
 /* Skills check (compact) */
 .check-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 28px; align-items: start; }

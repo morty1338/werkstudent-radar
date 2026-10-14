@@ -34,7 +34,7 @@ from datetime import date, datetime, timezone
 
 from . import feeds, og_image, patterns, stats
 from .extract import CATEGORIES, MAJORS
-from .skills import SKILLS
+from .skills import BASIC_SKILLS, SKILLS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SQL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sql")
@@ -272,6 +272,7 @@ def build_summary(db):
         "cities": cities,
         "skills": skills,
         "skill_source": skill_source(db),
+        "basic_skills": BASIC_SKILLS,          # shown apart from the specific skills (new field)
         "majors": majors,
         "english_friendly": [with_url(r) for r in query(db, "english_friendly")],
         "insights": insights(totals, categories, cities, skills),
