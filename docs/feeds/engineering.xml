@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 01:25:20 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent in der Konstruktion (w/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/knick-gmbh/werkstudent-in-der-konstruktion-knick-berlin-323670</link>
+      <guid isPermaLink="false">an:werkstudent-in-der-konstruktion-knick-berlin-323670</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Knick Gmbh · Berlin · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Schulungskonzepte &amp; Erneuerbare Energien</title>
+      <link>https://www.arbeitnow.com/jobs/companies/lichtblick-energy-as-a-service-gmbh/werkstudent-schulungskonzepte-erneuerbare-energien-koln-zentrale-349620</link>
+      <guid isPermaLink="false">an:werkstudent-schulungskonzepte-erneuerbare-energien-koln-zentrale-349620</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>LichtBlick Energy as a Service GmbH · Köln · Engineering &amp; Production</description>
+    </item>
     <item>
       <title>Werkstudent:in Bauleitung (m/w/d) in Rheinland-Pfalz</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003847017-S</link>
@@ -31,14 +47,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>GlobalFoundries Management Services GmbH &amp; Co. KG · Dresden · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Praktikant/Werkstudent (w/m/d) Terminplanung &amp; Lean Construction Management</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4961423136-S</link>
-      <guid isPermaLink="false">12288-4961423136-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Drees &amp; Sommer SE · Dresden · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent:in für Digitales Wissensmanagement im Baumanagement</title>
@@ -335,14 +343,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>platzmann federn gmbh &amp; co. kg · Hagen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Baumanagement in Coburg</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4961405463-S</link>
-      <guid isPermaLink="false">12288-4961405463-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Drees &amp; Sommer SE · Nürnberg · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent Material Management (m/w/d), Hattersheim am Main</title>

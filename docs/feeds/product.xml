@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 01:25:20 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Projektmanagement Hochbau</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4961411507-S</link>
+      <guid isPermaLink="false">12288-4961411507-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Drees &amp; Sommer SE · München · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent Projektassistent (w/m/d) für national &amp; international geförderte Projekte</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003846815-S</link>

@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 19:11:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 01:25:20 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) KI &amp; Automatisierung, Waltenhofen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356493-S</link>
+      <guid isPermaLink="false">12811-2356493-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Wilhelm Geiger GmbH &amp; Co. KG · Waltenhofen · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent_in IT Service Management, Prozessmanagement &amp; KI (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/audi-business-innovation-gmbh/werkstudent-in-it-service-management-prozessmanagement-ki-munich-359523</link>
+      <guid isPermaLink="false">an:werkstudent-in-it-service-management-prozessmanagement-ki-munich-359523</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Audi Business Innovation Gmbh · München · IT &amp; Software</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) IT Service Portfolio Management</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003846556-S</link>
@@ -239,14 +255,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Bayerische Versorgungskammer · München · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Digitale Transformation und KI (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12952-2026_1743441-S</link>
-      <guid isPermaLink="false">12952-2026_1743441-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>SCHEUERLE Fahrzeugfabrik GmbH · Pfedelbach · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent Systemmodellierung (m/w/d)</title>
