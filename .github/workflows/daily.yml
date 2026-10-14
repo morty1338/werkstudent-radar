@@ -121,11 +121,21 @@ jobs:
         continue-on-error: true
         run: python -m radar.careers 2>&1 | tee -a "$LOG"
 
+      # Kurs-Radar: postings of all working times for the job titles in
+      # data/kurs_radar.yaml (~115 search requests, about 1.5 minutes), in data/kurs/.
+      # All or nothing: a failed request or an implausible drop writes nothing, and
+      # the Werkstudent data above is committed anyway.
+      - name: Collect Kurs-Radar postings
+        continue-on-error: true
+        timeout-minutes: 10
+        run: python -m radar.kurs 2>&1 | tee -a "$LOG"
+
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/jobs.csv data/history.csv data/history docs/data docs/feeds
+          if [ -d data/kurs ]; then git add data/kurs; fi
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0

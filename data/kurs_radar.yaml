@@ -1,0 +1,171 @@
+# Kurs-Radar: the job titles each academy trains career changers for, and how to
+# find their postings in the Bundesagentur für Arbeit's job search.
+#
+# Add an academy or a job title by editing this file; no code changes needed.
+# Read daily by `python -m radar.kurs` (see the module docstring).
+#
+# Per job title:
+#   id       stable key (lowercase, a-z0-9_): stored in data/kurs/*.csv, keep it fixed
+#   name     shown on the site
+#   queries  search terms sent to the job search ("was" parameter); results come most
+#            relevant first, so a capped title keeps the closest matches
+#   match    case-insensitive regular expressions on the posting title: a posting counts
+#            for a title only when one of them matches. The search is fuzzy
+#            ("Prompt Engineer" also returns "AI Engineer"), the patterns keep it honest.
+#            (?-i:...) makes a part case-sensitive: KI and AI only in capitals.
+#   exclude  optional patterns: a matching posting doesn't count for this title (it may
+#            still count for a later one)
+#
+# A posting is stored once even when several queries return it. It counts for the
+# FIRST title in this file whose pattern matches, so specific titles come before
+# general ones (within an academy, and KI before Job Academy, whose titles are the
+# broadest). The other titles whose patterns match are kept in the `also` column.
+
+settings:
+  # Offer type in the job search: 1 = Arbeit (jobs of every working time: full-time,
+  # part-time, minijob). Leaves out Ausbildung / Duales Studium (4), Praktikum /
+  # Trainee (34) and Selbständigkeit (2).
+  angebotsart: 1
+  # Postings kept per job title and day, most relevant first. Above this the count
+  # on the site is a lower-bound estimate (see radar/kurs.py); skills use this sample.
+  cap_per_title: 500
+  max_pages_per_query: 10      # 100 results per page
+  # Titles that never count: Werkstudent postings (the main radar has them),
+  # internships and trainee programmes that slip through, and leadership roles,
+  # which a course doesn't lead to.
+  exclude:
+    - 'werk-?s{1,2}tud|werkstund|working[- ]student'
+    - 'praktik|internship|trainee|duales? studium|abschlussarbeit|thesis'
+    - 'head of|director|direktor|\bvp\b|vice president|chief|leiter(in)?\b'
+
+academies:
+  - id: sales
+    name: Sales
+    titles:
+      - id: saas_sales
+        name: SaaS Sales / Account Executive
+        queries: ["Account Executive", "SaaS Sales"]
+        match:
+          - 'account executive'
+          - 'saas.{0,40}(sales|vertrieb|account)'
+          - '(sales|vertrieb|account).{0,40}saas'
+      - id: bdr
+        name: Business Development Representative
+        queries: ["Business Development Representative", "Sales Development Representative"]
+        match:
+          - '(business|sales) development representative'
+          - '\b(bdr|sdr)\b'
+      - id: vertrieb_innendienst
+        name: Vertriebsmitarbeiter Innendienst
+        queries: ["Vertriebsinnendienst", "Vertriebsmitarbeiter Innendienst", "Inside Sales"]
+        match:
+          - 'innendienst'
+          - 'inside[- ]sales'
+          - 'vertriebsassist|vertriebssachbearb'
+          - 'sachbearbeit\w*\s+(im\s+)?vertrieb'
+
+  - id: marketing
+    name: Marketing
+    titles:
+      - id: social_media
+        name: Social Media Manager
+        queries: ["Social Media Manager"]
+        match:
+          - 'social[- ]?media'
+          - 'community[- ]?manag'
+      - id: content_marketing
+        name: Content Marketing
+        queries: ["Content Marketing", "Content Manager"]
+        match:
+          - 'content'
+          - 'copywrit|texter\b'
+      - id: seo
+        name: SEO
+        queries: ["SEO", "SEO Manager"]
+        match:
+          - '\bseo\b'
+          - '\bsea\b[- ]?(manag|spezial|special|expert|consult|kampag|campaign)'
+          - 'suchmaschin'
+      - id: crm
+        name: CRM Manager
+        queries: ["CRM Manager"]
+        match:
+          - '\bcrm\b'
+          - 'marketing[- ]automation'
+      - id: online_marketing
+        name: Online Marketing Manager
+        queries: ["Online Marketing Manager", "Digital Marketing Manager", "Performance Marketing Manager"]
+        match:
+          - '(online|digital|performance|e-?commerce)[- ]?marketing'
+          - 'marketing[- ]?manager'
+        exclude:
+          - 'sales manager|vertrieb|verkauf|außendienst'   # selling ads to businesses: a sales job
+
+  - id: hr
+    name: HR
+    titles:
+      - id: personalreferent
+        name: Personalreferent / HR Generalist
+        queries: ["Personalreferent", "HR Generalist", "HR Business Partner"]
+        match:
+          - 'personal-?referent'
+          - 'referent\w*\s+(f(ü|ue)r\s+)?personal'
+          - 'hr[- ]?(generalist|referent|business[- ]partner|manager)'
+          - 'personalmanager'
+      - id: recruiter
+        name: Recruiter
+        queries: ["Recruiter", "Talent Acquisition"]
+        match:
+          - 'recruit'
+          - 'talent[- ]acquisition'
+          - 'personalbeschaff|personalgewinnung|personalberater'
+      - id: hr_sachbearbeiter
+        name: HR-Sachbearbeiter
+        queries: ["Personalsachbearbeiter", "HR Sachbearbeiter", "Personalassistenz"]
+        match:
+          - 'personal-?sachbearb'
+          - 'sachbearbeit\w*\s+(im\s+|f(ü|ue)r\s+)?(personal|hr\b|lohn|entgelt)'
+          - 'hr[- ]?(sachbearb|assist|administrat|koordinat|coordinator)'
+          - 'personal-?(assist|verwalt|administrat)'
+
+  - id: ki
+    name: KI
+    titles:
+      - id: prompt_engineer
+        name: Prompt Engineer
+        queries: ["Prompt Engineer"]
+        match:
+          - 'prompt'
+      - id: ki_projektassistenz
+        name: KI-Projektassistenz
+        queries: ["KI Projektassistenz", "KI Assistenz"]
+        match:
+          - '((?-i:\b(KI|AI)\b)|künstliche intelligenz).{0,40}(assist|koordinat|coordinator)'
+          - '(assist|koordinat|coordinator).{0,40}((?-i:\b(KI|AI)\b)|künstliche intelligenz)'
+      - id: ki_manager
+        name: KI-Manager / AI Specialist
+        queries: ["KI Manager", "AI Specialist", "KI Spezialist", "AI Manager"]
+        match:
+          - '((?-i:\b(KI|AI)\b)|künstliche intelligenz|artificial intelligence|gen-?ai).{0,50}(manag|spezialist|specialist|consultant|berater|expert|beauftragt|officer|transformation|enablement|coach|trainer|referent|integration|implement|automati|prozess|process|workflow)'
+          - '(manag|spezialist|specialist|consultant|berater|expert|beauftragt|officer|coach|trainer|referent).{0,50}((?-i:\b(KI|AI)\b)|künstliche intelligenz|artificial intelligence)'
+
+  - id: job_academy
+    name: Job Academy
+    titles:
+      - id: buero_assistenz
+        name: Bürokaufmann / Kaufmännische Assistenz
+        queries: ["Kaufmännische Assistenz", "Bürokaufmann", "Kaufmann Büromanagement", "Bürokraft"]
+        match:
+          - 'bürokauf|büromanagement|bürokraft|büroassist'
+          - 'büro(sach|mitarbeiter|angestellt|allround)'
+          - 'kaufm(ä|ae)nnisch\S*\s+(\S+\s+)?(assist|mitarbeit|angestellt|allround|fachkraft)'
+          - 'office[- ](manag|allround)'
+          - '(team|management|administrative|executive|office)[- ]?assist|sekretär|sekretariat'
+          - '^\W*assisten(z|t)\w*\b'                         # "Assistenz (m/w/d) der Leitung"
+          - 'assisten(z|t)\w*\W+(der|des|im)\s'
+          - '(geschäftsführ|vorstands)\w*assist'
+      - id: sachbearbeitung
+        name: Sachbearbeitung
+        queries: ["Sachbearbeiter", "Sachbearbeitung"]
+        match:
+          - 'sachbearb'
