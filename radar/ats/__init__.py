@@ -71,10 +71,11 @@ def cities_of(locations):
     return [city for city, rx in CITY_PATTERNS.items() if rx.search(text)]
 
 
-def normalise(company, ats, raw):
+def normalise(company, ats, raw, keep=None):
     """Rows for one raw posting: one per matching city in the company's cities, or
-    one with city "" when it is remote in Germany without a Berlin/München office."""
-    if not is_werkstudent(raw["title"]):
+    one with city "" when it is remote in Germany without a Berlin/München office.
+    `keep(title)` picks the postings (default: Werkstudent titles)."""
+    if not (keep or is_werkstudent)(raw["title"]):
         return []
     locations = [x for x in raw.get("locations") or [] if x]
     text = " | ".join(locations)
@@ -100,32 +101,44 @@ def normalise(company, ats, raw):
     return []
 
 
-def fetch_company(company, fetcher):
-    """Werkstudent jobs of one company; raises AtsError when its board can't be read."""
-    adapter = ADAPTERS.get(company.get("ats"))
-    if adapter is None:
-        raise AtsError(f"no adapter for ats {company.get('ats')!r}")
-    raws = adapter.fetch(company["slug"], lambda url, kind="json": get(fetcher, url, kind))
-    rows = [row for raw in raws for row in normalise(company, company["ats"], raw)]
-    seen, unique = set(), []
+def _unique(rows):
+    seen, out = set(), []
     for r in rows:
         key = (r["url"], r["city"])
         if key not in seen:
             seen.add(key)
-            unique.append(r)
-    return unique, len(raws)
+            out.append(r)
+    return out
 
 
-def fetch_all(companies, fetcher=None, log=print):
+def fetch_company(company, fetcher, extra=None):
+    """Werkstudent jobs of one company; raises AtsError when its board can't be read.
+    With `extra(title)`, the postings it keeps come back too, from the same request:
+    (rows, board size, extra rows)."""
+    adapter = ADAPTERS.get(company.get("ats"))
+    if adapter is None:
+        raise AtsError(f"no adapter for ats {company.get('ats')!r}")
+    raws = adapter.fetch(company["slug"], lambda url, kind="json": get(fetcher, url, kind))
+    rows = _unique([row for raw in raws for row in normalise(company, company["ats"], raw)])
+    if extra is None:
+        return rows, len(raws)
+    return rows, len(raws), _unique([row for raw in raws for row in normalise(company, company["ats"], raw, keep=extra)])
+
+
+def fetch_all(companies, fetcher=None, log=print, extra=None):
     """Jobs from every enabled company, plus a status per company:
-    {name: {"ok": bool, "board": n postings on the board, "jobs": n kept, "error": str}}."""
+    {name: {"ok": bool, "board": n postings on the board, "jobs": n kept, "error": str}}.
+    With `extra(title)`: (jobs, status, extra jobs) from the same requests."""
     fetcher = fetcher or C.Fetcher()
-    jobs, status = [], {}
+    jobs, status, extra_jobs = [], {}, []
     for company in companies:
         if not company.get("enabled"):
             continue
         try:
-            rows, board = fetch_company(company, fetcher)
+            got = fetch_company(company, fetcher, extra)
+            rows, board = got[0], got[1]
+            if extra is not None:
+                extra_jobs += got[2]
             jobs += rows
             status[company["name"]] = {"ok": True, "board": board, "jobs": len(rows), "error": None}
             log(f"{company['name']:<40} {company['ats']:<10} {board:>4} on board, {len(rows):>3} Werkstudent in Berlin/München")
@@ -133,7 +146,7 @@ def fetch_all(companies, fetcher=None, log=print):
             status[company["name"]] = {"ok": False, "board": None, "jobs": 0, "error": str(e),
                                        "not_found": isinstance(e, BoardNotFound)}
             log(f"{company['name']:<40} {company['ats']:<10} FAILED: {e}")
-    return jobs, status
+    return (jobs, status, extra_jobs) if extra is not None else (jobs, status)
 
 
 def main(argv=None):

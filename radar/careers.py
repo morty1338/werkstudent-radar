@@ -32,13 +32,16 @@ import sys
 from datetime import date, datetime
 from zoneinfo import ZoneInfo
 
-from . import ats
+from . import ats, kurs
 from . import companies as C
 from .extract import CATEGORIES, classify
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_PATH = os.path.join(ROOT, "docs", "data", "companies.json")
 JOBS_PATH = os.path.join(ROOT, "data", "jobs.csv")
+# Jobs mode: the same boards' postings for the Kurs-Radar job titles (data/kurs_radar.yaml).
+JOBS_OUT_PATH = os.path.join(ROOT, "docs", "data", "jobs_companies.json")
+KURS_POSTINGS_PATH = os.path.join(ROOT, "data", "kurs", "postings.csv")
 CARRY_DAYS = 3
 
 _GENDER = re.compile(
@@ -73,8 +76,9 @@ def online_postings(path=JOBS_PATH):
     for r in rows:
         if r["last_seen"] != last:
             continue
-        company = r["company"] if r["source"] == "ba" else norm_company(r["company"])
-        out.add((r["source"], company, r["city"], norm_title(r["title"])))
+        source = r.get("source") or "ba"                 # data/kurs/postings.csv: Bundesagentur only
+        company = r["company"] if source == "ba" else norm_company(r["company"])
+        out.add((source, company, r["city"], norm_title(r["title"])))
     return out
 
 
@@ -102,10 +106,11 @@ def load_previous(path=OUT_PATH):
         return None
 
 
-def build(companies, fetched, status, previous, postings, as_of):
+def build(companies, fetched, status, previous, postings, as_of, field_of=None, field_labels=None):
     """companies.json content and the list of warnings.
 
-    fetched/status come from ats.fetch_all; previous is yesterday's file (or None)."""
+    fetched/status come from ats.fetch_all; previous is yesterday's file (or None).
+    field_of(title) and field_labels replace the Werkstudent fields (Jobs mode: job titles)."""
     prev = previous or {}
     prev_as_of = prev.get("as_of")
     prev_companies = {c["name"]: c for c in prev.get("companies") or []}
@@ -131,7 +136,7 @@ def build(companies, fetched, status, previous, postings, as_of):
         first_seen = old["first_seen"] if old else as_of
         out_jobs.append({
             **j,
-            "field": classify(j["title"], ""),
+            "field": field_of(j["title"]) if field_of else classify(j["title"], ""),
             "first_seen": first_seen,
             "new": first_seen == as_of and since < as_of,
             "also_on": also_on(j, company, postings),
@@ -163,7 +168,7 @@ def build(companies, fetched, status, previous, postings, as_of):
     data = {
         "as_of": as_of,
         "cities": list(ats.CITY_PATTERNS),
-        "field_labels": {cid: label for cid, label, _ in CATEGORIES} | {"other": "Other"},
+        "field_labels": field_labels or ({cid: label for cid, label, _ in CATEGORIES} | {"other": "Other"}),
         "companies": out_companies,
         "jobs": out_jobs,
     }
@@ -193,8 +198,23 @@ def report(data, warnings):
 def main():
     as_of = datetime.now(ZoneInfo("Europe/Berlin")).date().isoformat()
     companies = [c for c in C.load() if c.get("enabled")]
-    fetched, status = ats.fetch_all(companies)
+    try:
+        config = kurs.load_config()
+    except Exception as e:                                   # noqa: BLE001 – Jobs mode must not cost the Werkstudent file
+        print(f"WARNING Kurs-Radar config unreadable ({e}); no jobs_companies.json today")
+        config = None
+    keep = (lambda title: bool(kurs.classify(title, config))) if config else None
+    got = ats.fetch_all(companies, extra=keep) if keep else ats.fetch_all(companies)
+    fetched, status = got[0], got[1]
     data, warnings = build(companies, fetched, status, load_previous(), online_postings(), as_of)
+    if config:
+        labels = {t["id"]: t["name"] for t in config["titles"]} | {"other": "Other"}
+        jobs_data, _ = build(companies, got[2], status, load_previous(JOBS_OUT_PATH), online_postings(KURS_POSTINGS_PATH),
+                             as_of, field_of=lambda title: (kurs.classify(title, config) or ["other"])[0], field_labels=labels)
+        jobs_data["mode"] = "jobs"
+        with open(JOBS_OUT_PATH, "w", encoding="utf-8") as f:
+            json.dump(jobs_data, f, ensure_ascii=False, separators=(",", ":"))
+        print(f"wrote {os.path.relpath(JOBS_OUT_PATH, ROOT)}: {len(jobs_data['jobs'])} jobs for the Kurs-Radar titles")
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))

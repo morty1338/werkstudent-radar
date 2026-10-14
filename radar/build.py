@@ -114,10 +114,12 @@ def _num(s, cast=float):
     return cast(s) if s not in (None, "") else None
 
 
-def load_db(jobs_csv=JOBS_CSV, llm_csv=None):
+def load_db(jobs_csv=JOBS_CSV, llm_csv=None, rows=None, categories=None):
     """jobs.csv in an in-memory database. llm_csv defaults to data/history/llm.csv for the
-    real jobs.csv (tests pass their own or none)."""
-    if llm_csv is None and jobs_csv == JOBS_CSV:
+    real jobs.csv (tests pass their own or none). `rows` (dicts with jobs.csv's columns) and
+    `categories` ([(id, label)]) replace the file and the Werkstudent fields, so another data
+    set in the same shape (radar/jobs_build.py) runs through the same SQL."""
+    if llm_csv is None and jobs_csv == JOBS_CSV and rows is None:
         llm_csv = LLM_CSV
     db = sqlite3.connect(":memory:")
     db.row_factory = sqlite3.Row
@@ -127,10 +129,13 @@ def load_db(jobs_csv=JOBS_CSV, llm_csv=None):
 
     db.executemany("INSERT INTO skills VALUES (?, ?, ?)", [(sid, label, grp) for sid, label, grp, _ in SKILLS])
     db.executemany("INSERT INTO majors VALUES (?, ?)", [(mid, label) for mid, label, _ in MAJORS])
-    db.executemany("INSERT INTO categories VALUES (?, ?)", [(cid, label) for cid, label, _ in CATEGORIES] + [("other", "Other")])
+    if categories is None:
+        categories = [(cid, label) for cid, label, _ in CATEGORIES] + [("other", "Other")]
+    db.executemany("INSERT INTO categories VALUES (?, ?)", categories)
 
-    with open(jobs_csv, newline="", encoding="utf-8") as f:
-        rows = list(csv.DictReader(f))
+    if rows is None:
+        with open(jobs_csv, newline="", encoding="utf-8") as f:
+            rows = list(csv.DictReader(f))
     jobs, job_skills, job_majors = [], [], []
     for r in rows:
         lo, hi = _num(r["pay_min"]), _num(r["pay_max"])

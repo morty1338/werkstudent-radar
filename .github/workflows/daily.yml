@@ -151,6 +151,12 @@ jobs:
         continue-on-error: true
         run: python -m radar.kurs_stats 2>&1 | tee -a "$LOG"
 
+      # Jobs mode of the site: the Kurs-Radar postings in the same shape as the Werkstudent
+      # data (docs/data/jobs_*.json, salary per year), through the same SQL as build.
+      - name: Build Jobs mode data
+        continue-on-error: true
+        run: python -m radar.jobs_build 2>&1 | tee -a "$LOG"
+
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"

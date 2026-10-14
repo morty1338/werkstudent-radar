@@ -37,10 +37,11 @@ from datetime import date, datetime, timedelta, timezone
 
 from . import llm
 from .enrich import WORKERS, fetch_details, read_jsonl_gz
-from .extract import find_skills
+from .extract import english_requirement, find_majors, find_skills, german_requirement, hours_per_week, posting_language
 from .extract_llm import (EST_USD_PER_POSTING, SPEND_LIMIT_NOTE, collect_pending, read_csv, store_row,
                           STORE_COLUMNS, write_csv)
 from .kurs import KURS_DIR, RAW_DIR
+from .salary import annual
 
 FEATURES_CSV = os.path.join(KURS_DIR, "features.csv")
 STORE_CSV = os.path.join(KURS_DIR, "llm.csv")
@@ -48,9 +49,10 @@ RUNS_CSV = os.path.join(KURS_DIR, "llm_runs.csv")
 PENDING_JSON = os.path.join(KURS_DIR, "llm_pending.json")
 POSTINGS_CSV = os.path.join(KURS_DIR, "postings.csv")
 
-FEATURE_COLUMNS = ["refnr", "text_hash", "checked", "status", "version", "qe_text", "qe_kind", "ai_text", "rules_skills"]
+FEATURE_COLUMNS = ["refnr", "text_hash", "checked", "status", "version", "qe_text", "qe_kind", "ai_text", "rules_skills",
+                   "lang", "german", "english", "hours", "majors", "pay_min", "pay_max", "pay_src"]
 # Raise when the phrases or the AI terms change: postings are checked again (their texts are fetched again).
-DETECT_VERSION = "2"
+DETECT_VERSION = "3"
 RUN_COLUMNS = ["date", "run_at", "trigger", "active", "fetched_texts", "no_text", "candidates", "sent", "done",
                "failed", "pending", "over_budget", "input_tokens", "cache_read_tokens", "output_tokens", "cost_usd"]
 DEFAULTS = {"KURS_MAX_FETCH": 600, "KURS_LLM_MAX_POSTINGS": 1000, "KURS_LLM_MAX_USD": 0.5,
@@ -112,12 +114,22 @@ def ai_in_requirements(title, text):
 
 
 def features_row(posting, day):
+    """Facts from one posting's text (never the text): career-changer phrase, AI, the rules'
+    skills, and the same features as a Werkstudent posting in data/jobs.csv (language, German,
+    English, hours, study programmes) with the salary per year instead of per hour (radar/salary.py;
+    the Bundesagentur's salary fields come with the text in `posting["detail"]`)."""
     title, text = posting["title"], posting["text"]
+    full = f"{title}\n{text}"
     kind = career_changer(title, text)
+    lang = posting_language(text or title)
+    pay = annual(posting.get("detail"), text)
     return {"refnr": posting["refnr"], "text_hash": llm.text_hash(posting), "checked": day, "status": "ok",
             "version": DETECT_VERSION,
             "qe_text": int(bool(kind)), "qe_kind": kind or "", "ai_text": int(ai_in_requirements(title, text)),
-            "rules_skills": "|".join(find_skills(f"{title}\n{text}"))}
+            "rules_skills": "|".join(find_skills(full)),
+            "lang": lang, "german": german_requirement(full, lang), "english": int(english_requirement(full, lang)),
+            "hours": hours_per_week(full) or "", "majors": "|".join(find_majors(full)),
+            "pay_min": f"{pay[0]:.0f}" if pay else "", "pay_max": f"{pay[1]:.0f}" if pay else "", "pay_src": pay[2] if pay else ""}
 
 
 # --- Inputs -----------------------------------------------------------------------------------
@@ -139,15 +151,21 @@ def active_postings(path=POSTINGS_CSV):
     return day, {r["refnr"]: r for r in rows if r["last_seen"] == day}
 
 
-def local_texts(refs, raw_dir=RAW_DIR):
-    """Texts already fetched on this machine (data/raw/*/kurs_details.jsonl.gz)."""
-    texts = {}
+def local_details(refs, raw_dir=RAW_DIR):
+    """Detail records (text and salary fields) already fetched on this machine
+    (data/raw/*/kurs_details.jsonl.gz), the newest per posting."""
+    details = {}
     for path in sorted(glob.glob(os.path.join(raw_dir, "*", "kurs_details.jsonl.gz"))):
         for rec in read_jsonl_gz(path):
             ref = rec.get("referenznummer")
             if ref in refs and rec.get("stellenangebotsBeschreibung"):
-                texts[ref] = rec["stellenangebotsBeschreibung"]
-    return texts
+                details[ref] = rec
+    return details
+
+
+def local_texts(refs, raw_dir=RAW_DIR):
+    """Texts already fetched on this machine."""
+    return {ref: d["stellenangebotsBeschreibung"] for ref, d in local_details(refs, raw_dir).items()}
 
 
 def todo(active, features, store, pending_refs, day):
@@ -191,7 +209,8 @@ def run(dry_run=False, kurs_dir=KURS_DIR, raw_dir=RAW_DIR, fetch=fetch_details, 
     pending_refs = {v["refnr"] for v in (pending or {}).get("requests", {}).values()}
 
     refs = todo(active, features, store, pending_refs, day)
-    texts = local_texts(set(refs), raw_dir)
+    details = local_details(set(refs), raw_dir)
+    texts = {ref: d["stellenangebotsBeschreibung"] for ref, d in details.items()}
     missing = [r for r in refs if r not in texts][:setting("KURS_MAX_FETCH", int)]
     stats = Counter(active=len(active), fetched_texts=0, no_text=0)
     log.info("%s: %d active postings, %d need a text check or skills, %d texts here, %d to fetch",
@@ -209,13 +228,15 @@ def run(dry_run=False, kurs_dir=KURS_DIR, raw_dir=RAW_DIR, fetch=fetch_details, 
         for ref, rec in got.items():
             if rec and rec.get("stellenangebotsBeschreibung"):
                 texts[ref] = rec["stellenangebotsBeschreibung"]
+                details[ref] = rec
                 stats["fetched_texts"] += 1
             elif features.get(ref, {}).get("status") != "ok":
                 # Taken down, empty or a failed request: try again in a few days.
                 features[ref] = {"refnr": ref, "text_hash": "", "checked": day, "status": "no_text", "version": DETECT_VERSION}
                 stats["no_text"] += 1
 
-    postings = {ref: {"refnr": ref, "title": active[ref]["title"], "text": t} for ref, t in texts.items() if ref in active}
+    postings = {ref: {"refnr": ref, "title": active[ref]["title"], "text": t, "detail": details.get(ref)}
+                for ref, t in texts.items() if ref in active}
     for ref, p in postings.items():
         f = features.get(ref, {})
         if f.get("text_hash") != llm.text_hash(p) or f.get("version") != DETECT_VERSION:
