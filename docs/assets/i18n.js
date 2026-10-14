@@ -147,6 +147,12 @@ const STRINGS = {
   "skills.vs_all": { en: " ({d} vs all)", de: " ({d} ggü. allen)" },
   "skills.in_field": { en: "in {field}", de: "in {field}" },
   "skills.where": { en: "Where it's asked for", de: "Wo er gesucht wird" },
+  "skills.imp_title": { en: "Required or a plus?", de: "Pflicht oder Plus?" },
+  "skills.imp_must": { en: "must have {pct}", de: "Pflicht {pct}" },
+  "skills.imp_nice": { en: "nice to have {pct}", de: "von Vorteil {pct}" },
+  "skills.imp_n": { en: "of {n} postings read by AI", de: "von {n} per KI gelesenen Anzeigen" },
+  "skills.imp_aria": { en: "Must have in {must}, nice to have in {nice} of the postings read by AI", de: "Pflicht in {must}, von Vorteil in {nice} der per KI gelesenen Anzeigen" },
+  "skills.imp_tip": { en: "must have {must} · nice to have {nice}", de: "Pflicht {must} · von Vorteil {nice}" },
   "skills.show_jobs": { en: "Show {n} jobs", de: "{n} Jobs anzeigen" },
   "skills.have": { en: "✓ In your skills", de: "✓ In deinen Skills" },
   "skills.add": { en: "+ I have this", de: "+ Kann ich" },
@@ -380,12 +386,12 @@ const STRINGS = {
   "about.body": {
     en: `<p><strong>Sources.</strong> Every morning a script collects all postings with “Werkstudent”, “Working Student” or “Werkstudierende” in the title from the public job search of the <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, plus Werkstudent postings from companies' own career sites through the free <a href="https://www.arbeitnow.com/">Arbeitnow</a> job API. A posting found in both counts once. LinkedIn, StepStone and Indeed don't allow automated collection and aren't used; many of their postings come from the same company career sites. <strong>Company career pages</strong> (the Companies section) are read directly from the public job boards of a list of companies in Berlin and München (Greenhouse, Lever, Ashby, Personio).</p>
 <p><strong>Pay</strong> comes from the posting's salary fields or phrases like “17,50 € pro Stunde”. Each role counts once; a median needs at least 10 roles and is shown with its 95% confidence interval.</p>
-<p><strong>Skills and German</strong> are found by rules with German and English synonyms, checked against 100 labelled postings. <a href="https://github.com/morty1338/werkstudent-radar#accuracy">How accurate they are</a>.</p>
+<p><strong>Skills</strong> are read by an AI model (Claude Haiku) from the task and requirement sections of each new posting, which also says whether a skill is a must or only a plus; postings without such sections use rules with German and English synonyms. Only these sections are sent, and each posting only once. <strong>German</strong> and <strong>pay</strong> come from the rules. Both methods were checked against 100 labelled postings (skills: 96% for the AI, 95% for the rules, F1). <a href="https://github.com/morty1338/werkstudent-radar#accuracy">How accurate they are</a>.</p>
 <p><strong>Your CV</strong> is read and analysed in your browser with the same rules. It is never uploaded or stored.</p>
 <p>Job texts belong to the employers and aren't published here; links lead to the originals. Code and data: <a href="https://github.com/morty1338/werkstudent-radar">github.com/morty1338/werkstudent-radar</a>.</p>`,
     de: `<p><strong>Quellen.</strong> Jeden Morgen sammelt ein Skript alle Anzeigen mit „Werkstudent“, „Working Student“ oder „Werkstudierende“ im Titel aus der öffentlichen Jobsuche der <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, dazu Werkstudentenstellen von Karriereseiten der Unternehmen über die kostenlose Job-API von <a href="https://www.arbeitnow.com/">Arbeitnow</a>. Eine Anzeige, die in beiden vorkommt, zählt einmal. LinkedIn, StepStone und Indeed erlauben kein automatisches Sammeln und werden nicht genutzt; viele ihrer Anzeigen stammen von denselben Karriereseiten. <strong>Karriereseiten</strong> (Bereich Unternehmen) werden direkt aus den öffentlichen Jobbörsen ausgewählter Unternehmen in Berlin und München gelesen (Greenhouse, Lever, Ashby, Personio).</p>
 <p><strong>Löhne</strong> stammen aus den Gehaltsfeldern der Anzeige oder aus Formulierungen wie „17,50 € pro Stunde“. Jede Rolle zählt einmal; ein Median braucht mindestens 10 Rollen und wird mit seinem 95%-Konfidenzintervall gezeigt.</p>
-<p><strong>Skills und Deutsch</strong> werden mit Regeln mit deutschen und englischen Synonymen erkannt und an 100 annotierten Anzeigen geprüft. <a href="https://github.com/morty1338/werkstudent-radar#accuracy">Wie genau sie sind</a>.</p>
+<p><strong>Skills</strong> liest ein KI-Modell (Claude Haiku) aus den Abschnitten zu Aufgaben und Anforderungen jeder neuen Anzeige, auch ob ein Skill Pflicht oder nur von Vorteil ist; Anzeigen ohne solche Abschnitte werden mit Regeln mit deutschen und englischen Synonymen ausgewertet. Nur diese Abschnitte werden gesendet, jede Anzeige nur einmal. <strong>Deutsch</strong> und <strong>Gehalt</strong> kommen aus den Regeln. Beide Verfahren wurden an 100 annotierten Anzeigen geprüft (Skills: 96 % für die KI, 95 % für die Regeln, F1). <a href="https://github.com/morty1338/werkstudent-radar#accuracy">Wie genau sie sind</a>.</p>
 <p><strong>Dein Lebenslauf</strong> wird in deinem Browser mit denselben Regeln gelesen und ausgewertet. Er wird nie hochgeladen oder gespeichert.</p>
 <p>Stellentexte gehören den Arbeitgebern und werden hier nicht veröffentlicht; Links führen zu den Originalen. Code und Daten: <a href="https://github.com/morty1338/werkstudent-radar">github.com/morty1338/werkstudent-radar</a>.</p>`,
   },

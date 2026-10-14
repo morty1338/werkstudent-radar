@@ -275,15 +275,34 @@ def top_skills(d, field=None, city=None, limit=10):
     for i in idx:
         for s in d.jobs[i][rd.SKILLS]:
             counts[s] = counts.get(s, 0) + 1
+    # Postings read by the LLM also say how they ask for a skill (rows of older files lack it).
+    must, nice, read = {}, {}, 0
+    for i in idx:
+        row = d.jobs[i]
+        if len(row) > rd.LLM and row[rd.LLM]:
+            read += 1
+            for s in row[rd.SKILLS]:
+                target = nice if s in row[rd.NICE] else must
+                target[s] = target.get(s, 0) + 1
     limit = max(1, min(int(limit or 10), MAX_LIMIT))
     top = sorted(counts.items(), key=lambda x: (-x[1], d.skills[x[0]]["label"]))[:limit]
-    return {
+
+    def entry(s, n):
+        e = {"skill": d.skills[s]["label"], "group": d.skills[s]["group"], "postings": n,
+             "share": round(n / len(idx), 4) if idx else 0}
+        if must.get(s) or nice.get(s):
+            e["must_have"], e["nice_to_have"] = must.get(s, 0), nice.get(s, 0)
+        return e
+
+    out = {
         "as_of": d.as_of,
         "filters": filters_used(d, fi, ci),
         "postings": len(idx),
-        "skills": [{"skill": d.skills[s]["label"], "group": d.skills[s]["group"], "postings": n,
-                    "share": round(n / len(idx), 4) if idx else 0} for s, n in top],
+        "skills": [entry(s, n) for s, n in top],
     }
+    if read:
+        out["postings_read_by_llm"] = read
+    return out
 
 
 def newest_first(d, idx):

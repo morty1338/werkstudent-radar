@@ -78,8 +78,9 @@ As of 13 Oct 2026 (the live site updates every morning):
 | Median hourly pay | **€16.00** (95% CI €16.00–16.00; 665 roles with a stated rate) |
 | Company career pages | 20 Werkstudent jobs in Berlin and München from 15 company job boards, 7 of them also on the Bundesagentur |
 | Skill detection, 14 common skills | precision **99%**, recall **97%** on the random 70 labelled postings (before rule fixes: 99% / 96%) |
+| Skills read by Claude Haiku | F1 **96%** vs. 95% for the rules on all 100 labelled postings (17 skills), plus must have / nice to have; about **$0.22 per 1,000 postings** by Message Batch |
 | German requirement | right level in 69 of 70 random postings; "open without German" correct 15/15 |
-| Tests | 316 (pytest, incl. Node checks for the browser code and the MCP server over HTTP) |
+| Tests | 372 (pytest, incl. Node checks for the browser code, the MCP server over HTTP and the LLM step with a stand-in API) |
 | Lighthouse (desktop) | 100 / 100 / 100 / 100 |
 
 ## Architecture
@@ -92,6 +93,8 @@ flowchart LR
     C["collect + arbeitnow"] --> R[("data/raw<br/>local only")]
     R --> E["enrich<br/>rules: skills, German, pay"]
     E --> J[("data/jobs.csv")]
+    R --> L["extract_llm<br/>Claude Haiku, new postings,<br/>one Message Batch"]
+    L --> HC
     J --> H["history"]
     H --> HC[("data/history/*.csv")]
     HC --> SQ[("history.sqlite")]
@@ -171,6 +174,31 @@ One row per Werkstudent posting ever seen.
   "von Vorteil" is attributed to English.
 - **Pay**: an amount only counts as hourly pay when the marker sits right next
   to it ("16 €/h", "Stundenlohn von 16 €"), and only between 12 and 60 €.
+
+### Skills by Claude Haiku (`radar/llm.py`, `radar/extract_llm.py`)
+
+Where a posting has task and requirement sections ("Deine Aufgaben", "Dein
+Profil", "Das bringst du mit", "Von Vorteil", found by heading rules), only
+those go to `claude-haiku-5-5`, with single lines about pay or hours. The model
+answers in a strict JSON schema (structured outputs): each skill with the
+posting's own term, an id from the skill list (or "other"), and must have or
+nice to have; German and English level; hourly pay; weekly hours. The
+instructions and the skill list are one cached system prompt, so after the
+first request of a run they cost a tenth of the input price. Thinking runs at
+effort `low` (2 points more F1 than without, for about a quarter more cost).
+
+Every answer is checked again: an id is kept only when the term fits it (the
+rules' pattern for that skill or a word of its label), else it goes to the
+listed skill that fits or to "other"; this stops the model from filing
+"Präsentationen" under PowerPoint. Postings without such sections are not sent;
+the rules cover them. The daily run sends only postings whose text (title +
+text, hashed) has no result yet, as one Message Batch at half price; a batch
+that isn't done in 20 minutes is collected by the next run, and without the API
+key or on any API error the rules' results stand. Results:
+`data/history/llm.csv`; per run tokens, cost and the agreement with the rules:
+`data/history/llm_runs.csv`. The site's skill statistics use the LLM's skills
+where they exist and the rules' otherwise; German and pay still come from the
+rules.
 
 ## Aggregation (`radar/build.py`, `radar/sql/`)
 
@@ -284,7 +312,7 @@ can be started by hand from the Actions tab. GitHub doesn't guarantee scheduled
 runs, so a catch-up run at 16:23 UTC does the work only if the morning one
 didn't happen (it checks `data/history.csv` for today's date):
 
-1. `collect` → `arbeitnow` → `enrich` → `history` → `checks` → `build` → `careers`. Only new postings need their
+1. `collect` → `arbeitnow` → `enrich` → `extract_llm` → `history` → `checks` → `build` → `careers`. Only new postings need their
    text, so a normal day takes a few minutes. If the Arbeitnow step fails, the
    day goes on with the Bundesagentur's data and recently seen career-site
    postings are kept.
@@ -527,11 +555,40 @@ part: many postings sit between two fields ("Datenanalyse & Finance
 Operations").
 
 Full reports: [baseline](data/eval/report_baseline.md),
-[current](data/eval/report.md). Every fixed error became a test case:
+[current](data/eval/report.md). Every fixed error became a test case.
+
+### Rules vs. Claude Haiku
+
+The same 100 postings, with Word, Outlook and MS Teams labelled as well
+([`labels_extra.csv`](data/eval/labels_extra.csv)), sent through the LLM
+([`radar/evaluate_llm.py`](radar/evaluate_llm.py), full report:
+[`report_llm.md`](data/eval/report_llm.md)). Postings without task or
+requirement sections (13 of 100) keep the rules' answer, as in the daily run.
+
+| Skills, 17 common ones (P / R / F1) | All 100 | Random 70 |
+|---|---|---|
+| Rules (tuned on these postings) | 94% / 96% / 95% | 99% / 97% / 98% |
+| Claude Haiku, first prompt, thinking off | 89% / 90% / 90% | 89% / 91% / 90% |
+| Claude Haiku, final (term before id, id check, thinking low) | 96% / 95% / 96% | 97% / 97% / 97% |
+
+The final prompt was tuned on these same postings, like the rules, so both are
+optimistic; the first-prompt row is the LLM's honest baseline. The LLM is
+better on SAP, SQL, Git, accounting and driving licences, worse on the fuzzy
+"Controlling / Reporting"; it found every labelled hourly rate (19/19) and is a
+little more cautious with "open without German". Answers vary between runs by
+about ±1 point. Cost, measured: $0.15 per 1,000 pilot postings by batch, $0.22
+on real daily postings (longer skill lists); most of it is output tokens
+(including thinking), not the cached prompt.
+
+```bash
+.venv/bin/python -m radar.evaluate_llm report --main v5-enum   # rebuild report_llm.md from stored answers
+```
+
+Tests:
 
 ```bash
 .venv/bin/pip install -r requirements-dev.txt
-.venv/bin/python -m pytest                   # 316 tests (rules, SQL, history, stats, feeds, MCP server, browser code via Node)
+.venv/bin/python -m pytest                   # 372 tests (rules, SQL, history, stats, feeds, MCP server, LLM step, browser code via Node)
 .venv/bin/python -m radar.evaluate report    # needs the local sample texts
 ```
 
@@ -556,6 +613,9 @@ radar/ats/         one adapter per ATS job board (Greenhouse, Lever, Ashby, Pers
 radar/careers.py   company career page jobs -> docs/data/companies.json
 radar/sql/         schema and one query per output
 radar/evaluate.py  accuracy check against labelled postings
+radar/llm.py       Claude Haiku extraction: sections, cached prompt, JSON schema, answer checks, batches
+radar/extract_llm.py daily step: new or changed postings in one Message Batch -> data/history/llm.csv
+radar/evaluate_llm.py the LLM pilot on the labelled postings -> data/eval/report_llm.md
 mcp/               MCP server for Claude: radar_server.py (tools, stdio or --http), radar_tools.py
                    (answers), radar_data.py (reads docs/data or the live site), radar_http.py
                    (limits, /health), Dockerfile, vercel/ (deploy), DEPLOY.md (hosting)

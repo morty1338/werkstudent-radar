@@ -265,6 +265,16 @@ a.tile:hover { transform: translateY(-2px); border-color: var(--accent); }
 .sd-stat .v { font-family: var(--mono); font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
 .sd-stat .l { font-size: 13px; color: var(--ink-2); }
 .sd-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+/* Must have vs. nice to have (postings read by the LLM) */
+.imp-bar { display: flex; gap: 2px; height: 10px; border-radius: 999px; overflow: hidden; background: var(--surface-3); }
+.imp-bar span { display: block; height: 100%; }
+.imp-must { background: var(--accent); }
+.imp-nice { background: var(--muted-bar); }
+.imp-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin: 8px 0 16px; font-size: 13px; color: var(--ink-2); }
+.imp-legend .lg-must, .imp-legend .lg-nice { width: 10px; height: 10px; border-radius: 3px; margin-right: -6px; }
+.lg-must { background: var(--accent); }
+.lg-nice { background: var(--muted-bar); }
+.imp-n { color: var(--ink-3); }
 
 /* Skills check (compact) */
 .check-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 28px; align-items: start; }

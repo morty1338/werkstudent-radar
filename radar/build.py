@@ -7,6 +7,10 @@ Loads jobs.csv into an in-memory SQLite database (schema in sql/schema.sql),
 runs the queries in sql/*.sql and writes:
 
     docs/data/summary.json   headline numbers, pay, German, fields, cities, skills, majors
+
+Skills come from Claude Haiku where data/history/llm.csv has a result for the posting
+(radar/extract_llm.py), from the rules otherwise; the LLM also says whether a posting
+asks for a skill as must have or nice to have.
     docs/data/checker.json   compact per-job skill lists for the in-browser skill checker
     docs/data/postings.json  title, company and city per checker job (loaded on demand)
     docs/data/history.json   daily time series for the trend charts
@@ -35,6 +39,7 @@ from .skills import SKILLS
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SQL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sql")
 JOBS_CSV = os.path.join(ROOT, "data", "jobs.csv")
+LLM_CSV = os.path.join(ROOT, "data", "history", "llm.csv")
 HISTORY_CSV = os.path.join(ROOT, "data", "history.csv")
 OUT_DIR = os.path.join(ROOT, "docs", "data")
 
@@ -109,7 +114,11 @@ def _num(s, cast=float):
     return cast(s) if s not in (None, "") else None
 
 
-def load_db(jobs_csv=JOBS_CSV):
+def load_db(jobs_csv=JOBS_CSV, llm_csv=None):
+    """jobs.csv in an in-memory database. llm_csv defaults to data/history/llm.csv for the
+    real jobs.csv (tests pass their own or none)."""
+    if llm_csv is None and jobs_csv == JOBS_CSV:
+        llm_csv = LLM_CSV
     db = sqlite3.connect(":memory:")
     db.row_factory = sqlite3.Row
     db.create_aggregate("percentile", 2, Percentile)
@@ -139,7 +148,24 @@ def load_db(jobs_csv=JOBS_CSV):
     db.executemany(f"INSERT INTO jobs VALUES ({','.join('?' * 24)})", jobs)
     db.executemany("INSERT INTO job_skills VALUES (?, ?)", job_skills)
     db.executemany("INSERT INTO job_majors VALUES (?, ?)", job_majors)
+    load_llm_skills(db, llm_csv)
     return db
+
+
+def load_llm_skills(db, path):
+    """Replace the rules' skills of postings the LLM has read (status ok) with its skills."""
+    if not path or not os.path.exists(path):
+        return
+    known = {r[0] for r in db.execute("SELECT id FROM skills")}
+    jobs = {r[0] for r in db.execute("SELECT refnr FROM jobs")}
+    with open(path, newline="", encoding="utf-8") as f:
+        rows = [r for r in csv.DictReader(f) if r["status"] == "ok" and r["refnr"] in jobs]
+    imp = [(r["refnr"], s, level) for r in rows for col, level in (("must", "must_have"), ("nice", "nice_to_have"))
+           for s in r[col].split("|") if s in known]
+    db.executemany("DELETE FROM job_skills WHERE refnr = ?", [(r["refnr"],) for r in rows])
+    db.executemany("INSERT OR IGNORE INTO job_skills VALUES (?, ?)", [(ref, s) for ref, s, _ in imp])
+    db.executemany("INSERT OR IGNORE INTO skill_importance VALUES (?, ?, ?)", imp)
+    db.executemany("INSERT INTO llm_jobs VALUES (?)", [(r["refnr"],) for r in rows])
 
 
 def query(db, name, **params):
@@ -170,6 +196,13 @@ def share(part, whole):
 
 
 # --- Outputs -----------------------------------------------------------------------
+
+def skill_source(db):
+    """Postings with a text whose skills come from the LLM and from the rules."""
+    llm, rules = db.execute("SELECT COALESCE(SUM(refnr IN (SELECT refnr FROM llm_jobs)), 0), "
+                            "COALESCE(SUM(refnr NOT IN (SELECT refnr FROM llm_jobs)), 0) FROM active_tagged").fetchone()
+    return {"llm": llm, "rules": rules}
+
 
 def build_summary(db):
     t = query(db, "totals")[0]
@@ -238,6 +271,7 @@ def build_summary(db):
         "categories": categories,
         "cities": cities,
         "skills": skills,
+        "skill_source": skill_source(db),
         "majors": majors,
         "english_friendly": [with_url(r) for r in query(db, "english_friendly")],
         "insights": insights(totals, categories, cities, skills),
@@ -401,6 +435,7 @@ def build_checker(db, summary):
     jobs, rows = [], []
     for r in rows_in:
         ids = sorted(skill_idx[s] for s in (r["skills"] or "").split("|") if s in skill_idx)
+        nice = sorted(skill_idx[s] for s in (r["nice"] or "").split("|") if s in skill_idx)
         jobs.append([
             cat_idx.get(r["category"], -1),
             city_idx.get(r["city"], -1),
@@ -410,11 +445,13 @@ def build_checker(db, summary):
             int(r["role_first"]),
             int(r["role_city_first"]),
             company_idx[r["company"]],
+            nice,                    # appended later: skills this posting marks as nice to have (LLM)
+            int(r["llm"]),           # 1: skills read by the LLM, 0: by the rules
         ])
         rows.append([r["refnr"], r["title"], r["company"], r["city"], r["published"], r["url"]])
     checker = {
         "as_of": summary["as_of"],
-        "fields": ["category", "city", "german", "pay", "skills", "role_first", "role_city_first", "company"],
+        "fields": ["category", "city", "german", "pay", "skills", "role_first", "role_city_first", "company", "nice", "llm"],
         "skills": [{"id": s["id"], "label": s["label"], "group": s["group"], "jobs": s["jobs"]} for s in skills],
         "categories": cats,
         "category_labels": {c["key"]: c["label"] for c in summary["categories"]},

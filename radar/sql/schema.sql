@@ -29,6 +29,10 @@ CREATE TABLE jobs (
 );
 
 CREATE TABLE job_skills (refnr TEXT, skill TEXT, PRIMARY KEY (refnr, skill));
+-- Postings whose skills come from Claude Haiku (data/history/llm.csv) instead of the rules,
+-- and how the posting asks for each skill.
+CREATE TABLE llm_jobs (refnr TEXT PRIMARY KEY);
+CREATE TABLE skill_importance (refnr TEXT, skill TEXT, importance TEXT, PRIMARY KEY (refnr, skill));
 CREATE TABLE job_majors (refnr TEXT, major TEXT, PRIMARY KEY (refnr, major));
 
 -- Dimension tables with display labels (filled from skills.py / extract.py).

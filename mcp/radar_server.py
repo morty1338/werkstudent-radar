@@ -86,7 +86,9 @@ def pay_stats(field: str | None = None, city: str | None = None) -> dict[str, An
 @mcp.tool()
 def top_skills(field: str | None = None, city: str | None = None, limit: int = 10) -> dict[str, Any]:
     """The skills most often asked for in Werkstudent postings, optionally for one field
-    and/or city, with the number and share of postings that ask for each."""
+    and/or city, with the number and share of postings that ask for each. Where the
+    postings were read by an LLM, `must_have` / `nice_to_have` count how many of those
+    postings require a skill or only call it a plus (`postings_read_by_llm` in total)."""
     return answer(rt.top_skills, field=field, city=city, limit=limit)
 
 

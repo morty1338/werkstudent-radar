@@ -20,10 +20,14 @@ SELECT s.id,
        median_ci(a.role_pay, 1)                                        AS median_pay_hi,
        conc.pay_employers,
        conc.top_employer_share,
-       ROUND(AVG(a.no_german), 4)                                      AS no_german_share
+       ROUND(AVG(a.no_german), 4)                                      AS no_german_share,
+       -- only postings read by the LLM say how they ask for a skill
+       COALESCE(SUM(si.importance = 'must_have'), 0)                   AS must_have,
+       COALESCE(SUM(si.importance = 'nice_to_have'), 0)                AS nice_to_have
 FROM job_skills js
 JOIN active_tagged a ON a.refnr = js.refnr
 JOIN skills s        ON s.id = js.skill
 LEFT JOIN conc       ON conc.skill = s.id
+LEFT JOIN skill_importance si ON si.refnr = js.refnr AND si.skill = js.skill
 GROUP BY s.id
 ORDER BY jobs DESC, s.id;

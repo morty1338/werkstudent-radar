@@ -31,7 +31,7 @@ LIVE_TTL = 600        # GitHub Pages caches files for 10 minutes too
 TIMEOUT = 20
 
 # checker.json "jobs" row positions (same as J in docs/assets/app.js).
-CAT, CITY, DE, PAY, SKILLS, ROLE, ROLE_CITY, COMPANY = range(8)
+CAT, CITY, DE, PAY, SKILLS, ROLE, ROLE_CITY, COMPANY, NICE, LLM = range(10)   # NICE, LLM: newer checker.json only
 
 log = logging.getLogger(__name__)   # stderr only: on stdio, stdout carries the protocol
 

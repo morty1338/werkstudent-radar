@@ -7,7 +7,8 @@ import { medianCI } from "./stats.js?v=dev";
 import { initTracker } from "./tracker.js?v=dev";
 
 // Column positions in checker.json "jobs" rows.
-export const J = { CAT: 0, CITY: 1, DE: 2, PAY: 3, SKILLS: 4, ROLE: 5, ROLE_CITY: 6, COMPANY: 7 };
+// NICE (skills marked nice to have) and LLM (1 = skills read by the LLM) come last; older files lack them.
+export const J = { CAT: 0, CITY: 1, DE: 2, PAY: 3, SKILLS: 4, ROLE: 5, ROLE_CITY: 6, COMPANY: 7, NICE: 8, LLM: 9 };
 const PAY_MIN = 12;
 const PAY_BINS = 14; // €12 … €24, then 25+
 
@@ -414,6 +415,19 @@ async function main() {
       .sort((a, b) => b.n - a.n);
   }
 
+  // Of the postings in idx that the LLM read and that ask for skill s: how many require it.
+  function importance(idx, s) {
+    let must = 0, nice = 0;
+    for (const i of idx) {
+      const j = D.jobs[i];
+      if (!j[J.LLM] || !j[J.SKILLS].includes(s)) continue;
+      if (j[J.NICE].includes(s)) nice++;
+      else must++;
+    }
+    return { must, nice, n: must + nice };
+  }
+  const MIN_IMPORTANCE = 5;   // fewer postings read by the LLM: no split shown
+
   function renderSkills(all = pool()) {
     const ranked = topSkills(all);
     const groups = ["All", ...new Set(ranked.map((r) => r.group))];
@@ -432,7 +446,7 @@ async function main() {
         value: r.share,
         text: fmt.pct(r.share, r.share < 0.1 ? 1 : 0),
         selected: r.key === state.skill,
-        tip: `<strong>${esc(r.label)}</strong><br>${t("skills.bar_tip", { n: fmt.int(r.n), total: fmt.int(all.length) })}`,
+        tip: `<strong>${esc(r.label)}</strong><br>${t("skills.bar_tip", { n: fmt.int(r.n), total: fmt.int(all.length) })}${impTip(all, r.key)}`,
       })),
       { empty: t("skills.empty"), dim: false },
     );
@@ -444,6 +458,25 @@ async function main() {
         (prog ? t("skills.prog", { skill: esc(prog.label), pct: fmt.pct(prog.share, 1) }) : "")
       : "";
     renderSkillDetail(all, ranked);
+  }
+
+  function impTip(all, s) {
+    const m = importance(all, s);
+    return m.n >= MIN_IMPORTANCE ? `<br>${t("skills.imp_tip", { must: fmt.pct(m.must / m.n, 0), nice: fmt.pct(m.nice / m.n, 0) })}` : "";
+  }
+
+  // Required or only a plus, from the postings the LLM read.
+  function importanceBlock(all, s) {
+    const m = importance(all, s);
+    if (m.n < MIN_IMPORTANCE) return "";
+    const must = m.must / m.n;
+    return `<h3>${esc(t("skills.imp_title"))}</h3>
+      <div class="imp-bar" role="img" aria-label="${esc(t("skills.imp_aria", { must: fmt.pct(must, 0), nice: fmt.pct(1 - must, 0) }))}">
+        <span class="imp-must" style="width:${(must * 100).toFixed(1)}%"></span><span class="imp-nice" style="width:${((1 - must) * 100).toFixed(1)}%"></span>
+      </div>
+      <p class="imp-legend"><span class="lg-must"></span>${t("skills.imp_must", { pct: fmt.pct(must, 0) })}
+        <span class="lg-nice"></span>${t("skills.imp_nice", { pct: fmt.pct(1 - must, 0) })}
+        <span class="imp-n">${esc(t("skills.imp_n", { n: fmt.int(m.n) }))}</span></p>`;
   }
 
   // Skills most often asked for together with this one (cooccurrence.json, whole market).
@@ -482,6 +515,7 @@ async function main() {
           ps.enough ? `<div class="ci">${ciText(...ps.ci)}</div>` : `<div class="ci">${ps.why}</div>`}</div>
         <div class="sd-stat"><div class="v">${fmt.pct(topCats[0] ? topCats[0][1] / withIt.length : null, 0)}</div><div class="l">${esc(t("skills.in_field", { field: topCats[0] ? catLabel(topCats[0][0]) : "—" }))}</div></div>
       </div>
+      ${importanceBlock(all, r.key)}
       <h3>${esc(t("skills.where"))}</h3>
       <div id="sd-fields"></div>
       ${related(r.key)}
