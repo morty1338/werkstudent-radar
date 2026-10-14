@@ -18,7 +18,8 @@ Per posting:
   or the Bundesagentur's own flag `quereinstiegGeeignet` is set; base: postings with text.
 - AI: an AI skill (GenAI, ML, NLP, deep learning) or an "other" term about AI from the
   LLM; for rules-only postings, AI words in the task/requirement sections.
-- Basics: MS Office, Excel, PowerPoint or Word asked for (KURS_BASICS).
+- Basics: MS Office, Excel, PowerPoint, Word, Outlook or MS Teams asked for (KURS_BASICS; the
+  same office basics as the Werkstudent page, without the driving licence).
 - New in 7 days: published at most 7 days before the as-of day.
 Week-over-week: SQL over the daily counts (radar/sql/kurs_wow.sql); empty until a
 collection day 7–10 days back exists.
@@ -36,16 +37,18 @@ from datetime import date, datetime, timedelta, timezone
 from .extract_llm import read_csv
 from .kurs import CONFIG_PATH, KURS_DIR, ROOT, load_config
 from .kurs_extract import AI_SKILLS, AI_TERMS
-from .skills import SKILLS
+from .skills import SKILLS, basic_from_term
 
 OUT_JSON = os.path.join(ROOT, "docs", "data", "kurs.json")
 POSTINGS_JSON = os.path.join(ROOT, "docs", "data", "kurs_postings.json")
 JOB_URL = "https://www.arbeitsagentur.de/jobsuche/jobdetail/{refnr}"
 POSTING_FIELDS = ["refnr", "title", "company", "city", "published", "job_title", "qe", "ai"]
 SQL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sql")
-KURS_BASICS = ["ms_office", "excel", "powerpoint", "word"]
+KURS_BASICS = ["ms_office", "excel", "powerpoint", "word", "outlook", "teams"]
 TOP_SKILLS = 15
 TOP_TERMS = 10
+MIN_TITLE_BASE = 20     # a job title counts in its academy's averages from this many postings (kurs-rank.js MIN_BASE)
+SHARES = ("new_7d", "quereinsteiger", "ai", "basics")
 NOTE = {"de": "nur Stellen der Bundesagentur für Arbeit, Momentaufnahme",
         "en": "Bundesagentur für Arbeit postings only, a snapshot"}
 
@@ -67,6 +70,9 @@ def posting_facts(p, feature, result, day):
              "source": None, "skills": set(), "must": set(), "nice": set(), "terms": []}
     if result and result.get("status") == "ok":
         must, nice = _ids(result["must"]), _ids(result["nice"])
+        # Basics the LLM named as "other" terms before they were listed ("Microsoft Teams").
+        must |= {b for t in _terms(result.get("other_must")) if (b := basic_from_term(t))}
+        nice |= {b for t in _terms(result.get("other_nice")) if (b := basic_from_term(t))} - must
         terms = _terms(result.get("other_must")) + _terms(result.get("other_nice"))
         facts.update(source="llm", must=must, nice=nice, skills=must | nice, terms=terms,
                      ai=bool((must | nice) & AI_SKILLS) or any(AI_TERMS.search(t) for t in terms))
@@ -110,6 +116,7 @@ def aggregate(facts):
 
     ranked = sorted(n, key=lambda s: (-n[s], s))
     return {
+        "_skill": {sid: (n[sid], must[sid], nice[sid], n[sid] / len(with_skills)) for sid in n},   # all skills, for academies
         "sample": len(facts),
         "with_text": len(with_text),
         "with_skills": len(with_skills),
@@ -124,6 +131,35 @@ def aggregate(facts):
         "basics_skills": [row(s) for s in KURS_BASICS if n[s]],
         "other_terms": [{"term": spelled[k].most_common(1)[0][0], "n": c} for k, c in terms.most_common(TOP_TERMS) if c >= 2],
     }
+
+
+def equal_weight(titles, pooled, names):
+    """An academy's metrics with every job title weighted the same: shares and skill shares are
+    the mean over its titles with at least MIN_TITLE_BASE postings (Sales would otherwise be 80%
+    Vertriebsinnendienst). Counts (sample, texts, postings per skill) stay sums over all postings;
+    each share keeps the pooled value (`pooled_share`) and the per-title values (`by_title`)."""
+    weighted = [t for t in titles if t["sample"] >= MIN_TITLE_BASE] or [t for t in titles if t["sample"]]
+    out = {k: v for k, v in pooled.items() if k != "_skill"}
+    for key in SHARES:
+        vals = [t[key]["share"] for t in weighted if t[key]["share"] is not None]
+        out[key] = {**pooled[key], "pooled_share": pooled[key]["share"],
+                    "share": round(sum(vals) / len(vals), 3) if vals else None,
+                    "by_title": [{"id": t["id"], "name": names[t["id"]], "share": t[key]["share"], "base": t[key]["base"],
+                                  "weighted": t in weighted} for t in titles]}
+    ids = {sid for t in weighted for sid in t["_skill"]}
+    mean = {sid: sum(t["_skill"].get(sid, (0, 0, 0, 0))[3] for t in weighted) / len(weighted) for sid in ids} if weighted else {}
+
+    def row(sid):
+        cnt, must, nice, _ = pooled["_skill"].get(sid, (0, 0, 0, 0))
+        return {"id": sid, "n": cnt, "share": round(mean[sid], 3), "must": must, "nice": nice,
+                "by_title": {t["id"]: round(t["_skill"].get(sid, (0, 0, 0, 0))[3], 3) for t in weighted}}
+
+    ranked = sorted(mean, key=lambda s: (-mean[s], s))
+    out["skills"] = [row(s) for s in ranked if s not in KURS_BASICS][:TOP_SKILLS]
+    out["basics_skills"] = [row(s) for s in KURS_BASICS if mean.get(s)]
+    out["weighting"] = {"method": "equal per job title", "min_postings": MIN_TITLE_BASE,
+                        "titles": [t["id"] for t in weighted]}
+    return out
 
 
 def week_over_week(counts):
@@ -172,7 +208,9 @@ def build(kurs_dir=KURS_DIR, config_path=CONFIG_PATH):
                            "postings_exact": bool(c and c["complete"] == "1"),
                            **m, "wow": _wow([wow.get(tid)])})
             used.update(s["id"] for s in m["skills"] + m["basics_skills"])
-        m = aggregate([f for f in facts if f["title"] in a["titles"]])
+        m = equal_weight(titles, aggregate([f for f in facts if f["title"] in a["titles"]]), names)
+        for t in titles:
+            t.pop("_skill")
         used.update(s["id"] for s in m["skills"] + m["basics_skills"])
         academies.append({"id": a["id"], "name": a["name"],
                           "postings": sum(t["postings"] for t in titles),

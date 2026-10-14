@@ -129,3 +129,10 @@ def test_summary_names_the_basics(tmp_path):
     assert build.build_summary(make_db(tmp_path))["basic_skills"] == BASIC_SKILLS
     rt = importlib.import_module("radar_tools")
     assert rt.BASIC_SKILLS == BASIC_SKILLS                                 # the MCP fallback is the same list
+
+
+def test_basic_from_term():
+    from radar.skills import basic_from_term
+    assert basic_from_term("Microsoft Teams") == "teams" and basic_from_term("MS-Teams") == "teams"
+    assert basic_from_term("Outlook-Kalender") == "outlook"
+    assert basic_from_term("in Teams arbeiten") is None and basic_from_term("Personio") is None

@@ -205,7 +205,7 @@ key or on any API error the rules' results stand. Results:
 `data/history/llm_runs.csv`. The site's skill statistics use the LLM's skills
 where they exist and the rules' otherwise; German and pay still come from the
 rules. Basics that most office jobs ask for (MS Office, Excel, PowerPoint,
-Word, driving licence; `BASIC_SKILLS` in `radar/skills.py`) are shown in their
+Word, Outlook, MS Teams, driving licence; `BASIC_SKILLS` in `radar/skills.py`) are shown in their
 own row under the specific skills: MS Office is a real requirement in most IT
 postings too (a check of 40 sampled IT postings with the evidence quotes found
 37 asked of the candidate, 3 borderline IT-support cases, none from "tools we
@@ -327,9 +327,12 @@ share open to career changers, asking for AI skills and asking for the office ba
 the most asked-for skills as simple bars (must have / nice to have in the tooltip),
 and the postings themselves with links to the Bundesagentur and "+ Track" (the same
 application tracker as the Werkstudent page; a filter shows only postings open to
-career changers). "Opportunities" is a numbered list of the job titles with many
-postings, many new ones and many open to career changers, as input for deciding on a
-new course. Only Bundesagentur postings,
+career changers). "Opportunities" ranks the job titles as input for deciding on a new
+course: a score 0–100, the mean of three parts shown next to each title, each scaled
+among the titles: volume (postings, log scale), the share of postings new in the last 7
+days and the share open to career changers. An academy's shares weigh each of its job
+titles with 20+ postings the same (otherwise Sales would be 80% one title), with the
+per-title values in the tooltip and in the MCP tool. Only Bundesagentur postings,
 a snapshot of one day. Linked from the main page (hero and header); its logo and a
 back link lead back.
 

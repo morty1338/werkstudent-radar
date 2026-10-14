@@ -36,7 +36,7 @@ settings:
   exclude:
     - 'werk-?s{1,2}tud|werkstund|working[- ]student'
     - 'praktik|internship|trainee|duales? studium|abschlussarbeit|thesis'
-    - 'head of|director|direktor|\bvp\b|vice president|chief|leiter(in)?\b'
+    - 'head of|director|direktor|\bvp\b|vice president|chief|principal|leiter(in)?\b'
 
 academies:
   - id: sales

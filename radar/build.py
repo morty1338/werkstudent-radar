@@ -34,7 +34,7 @@ from datetime import date, datetime, timezone
 
 from . import feeds, og_image, patterns, stats
 from .extract import CATEGORIES, MAJORS
-from .skills import BASIC_SKILLS, SKILLS
+from .skills import BASIC_SKILLS, SKILLS, basic_from_term
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SQL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sql")
@@ -167,6 +167,9 @@ def load_llm_skills(db, path):
         rows = [r for r in csv.DictReader(f) if r["status"] == "ok" and r["refnr"] in jobs]
     imp = [(r["refnr"], s, level) for r in rows for col, level in (("must", "must_have"), ("nice", "nice_to_have"))
            for s in r[col].split("|") if s in known]
+    # Basics the LLM named as "other" terms before they were listed ("Microsoft Teams").
+    imp += [(r["refnr"], b, level) for r in rows for col, level in (("other_must", "must_have"), ("other_nice", "nice_to_have"))
+            for term in (r.get(col) or "").split(";") if (b := basic_from_term(term)) and b in known]
     db.executemany("DELETE FROM job_skills WHERE refnr = ?", [(r["refnr"],) for r in rows])
     db.executemany("INSERT OR IGNORE INTO job_skills VALUES (?, ?)", [(ref, s) for ref, s, _ in imp])
     db.executemany("INSERT OR IGNORE INTO skill_importance VALUES (?, ?, ?)", imp)

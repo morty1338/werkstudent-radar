@@ -140,7 +140,7 @@ def test_no_week_back_yet(tmp_path):
 def test_labels_and_note(world):
     assert world["skills"]["recruiting"]["label"]
     assert world["note"]["de"] == "nur Stellen der Bundesagentur für Arbeit, Momentaufnahme"
-    assert world["basics"] == ["ms_office", "excel", "powerpoint", "word"]
+    assert world["basics"] == ["ms_office", "excel", "powerpoint", "word", "outlook", "teams"]
     json.dumps(world)                                                              # serialisable
 
 
@@ -172,3 +172,34 @@ def test_postings_list_for_the_page(tmp_path):
     assert out["rows"] == [["r2", "Recruiter", "Beta", "Köln", "2026-10-12", "recruiter", 0, 1],     # newest first
                            ["r1", "Recruiter (m/w/d)", "Acme", "Berlin", "2026-10-10", "recruiter", 1, 0]]
     assert "text" not in json.dumps(out)                                           # facts and links only
+
+
+def test_academy_weighs_each_job_title_the_same(tmp_path):
+    """Sales-like case: 40 postings of one title and 20 of another; the academy's share is the
+    mean of the two titles' shares (not 40:20), and a title under 20 postings stays out."""
+    (tmp_path / "kurs.yaml").write_text(YAML, encoding="utf-8")
+    kdir = tmp_path / "kurs"
+    kdir.mkdir()
+    rec = [p(f"r{i}", "recruiter") for i in range(40)]
+    sb = [p(f"s{i}", "hr_sb") for i in range(20)]
+    write(kdir / "postings.csv", rec + sb + [p("e1", "prompt_engineer")])
+    write(kdir / "features.csv", [feat(f"r{i}", qe=1 if i < 4 else 0, rules="recruiting") for i in range(40)]      # 10%
+          + [feat(f"s{i}", qe=1 if i < 10 else 0, rules="payroll|teams") for i in range(20)] + [feat("e1", qe=1)])   # 50%
+    write(kdir / "counts.csv", [count(DAY, "recruiter", "hr", 40), count(DAY, "hr_sb", "hr", 20)])
+    data = KS.build(kurs_dir=str(kdir), config_path=str(tmp_path / "kurs.yaml"))
+    hr = next(a for a in data["academies"] if a["id"] == "hr")
+    q = hr["quereinsteiger"]
+    assert q["share"] == 0.3 and q["pooled_share"] == round(14 / 60, 3)
+    assert [(b["id"], b["share"], b["weighted"]) for b in q["by_title"]] == [("recruiter", 0.1, True), ("hr_sb", 0.5, True)]
+    assert hr["weighting"] == {"method": "equal per job title", "min_postings": 20, "titles": ["recruiter", "hr_sb"]}
+    skills = {s["id"]: s for s in hr["skills"]}
+    assert skills["recruiting"]["share"] == 0.5 and skills["payroll"]["share"] == 0.5      # 100% in one title each
+    assert skills["recruiting"]["by_title"] == {"recruiter": 1.0, "hr_sb": 0.0}
+    assert [b["id"] for b in hr["basics_skills"]] == ["teams"]                             # MS Teams is a basic now
+    ki = next(a for a in data["academies"] if a["id"] == "ki")
+    assert ki["sample"] == 1 and ki["weighting"]["titles"] == ["prompt_engineer"]           # fewer than 20: fall back
+
+
+def test_ms_teams_from_an_old_llm_answer_counts_as_a_basic():
+    facts = KS.posting_facts(p("r1", "recruiter"), feat("r1"), res("r1", must="recruiting", other_nice="Microsoft Teams;Personio"), DAY)
+    assert "teams" in facts["skills"] and "teams" in facts["nice"] and facts["basics"]

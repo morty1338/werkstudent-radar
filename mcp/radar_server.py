@@ -92,7 +92,7 @@ def top_skills(field: str | None = None, city: str | None = None, limit: int = 1
     postings were read by an LLM, `must_have` / `nice_to_have` count how many of those
     postings require a skill or only call it a plus (`postings_read_by_llm` in total).
     `exclude_basics` leaves out skills most office jobs ask for (MS Office, Excel,
-    PowerPoint, Word, driving licence), so the specific skills of a field show; use it for
+    PowerPoint, Word, Outlook, MS Teams, driving licence), so the specific skills of a field show; use it for
     "what do IT jobs really ask for?"."""
     return answer(rt.top_skills, field=field, city=city, limit=limit, exclude_basics=exclude_basics)
 
@@ -116,7 +116,9 @@ def kurs_radar(academy: str | None = None, job_title: str | None = None) -> dict
 
     Without arguments: every academy with postings, Quereinsteiger / AI / basics shares, top
     skills and an "opportunities" ranking (many postings, current demand, open to career
-    changers) as input for deciding on a new course. academy: one academy with its job titles.
+    changers; score parts shown) as input for deciding on a new course. academy: one academy
+    with its job titles; its shares weigh every job title with 20+ postings the same
+    (`by_job_title` lists the per-title values).
     job_title: one title, e.g. "Recruiter", "SEO", "Personalreferent", with the top 15 skills
     (must have / nice to have), basics and other terms. Shares are null below 20 postings."""
     return answer_kurs(rt.kurs_radar, academy=academy, job_title=job_title)

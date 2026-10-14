@@ -16,6 +16,7 @@ Every function returns a small JSON-ready dict. No job texts exist in the data.
 """
 
 import difflib
+import math
 import re
 import sys
 import unicodedata
@@ -269,7 +270,7 @@ def pay_stats(d, field=None, city=None):
 
 
 # Asked for in most office jobs; summary.json names them (older files: this list).
-BASIC_SKILLS = ["ms_office", "excel", "powerpoint", "word", "driving_licence"]
+BASIC_SKILLS = ["ms_office", "excel", "powerpoint", "word", "outlook", "teams", "driving_licence"]
 
 
 def basic_skill_ids(d):
@@ -408,6 +409,12 @@ def _kurs_metrics(k, x, detail):
          **({"must_have": s["must"], "nice_to_have": s["nice"]} if s["must"] or s["nice"] else {})}
         for s in x["skills"][:n]
     ]
+    if x.get("weighting"):
+        # An academy: every job title with enough postings weighs the same; the per-title values next to it.
+        out["weighting"] = x["weighting"]
+        out["by_job_title"] = {key: [{"job_title": b["name"], "share": b["share"], "postings_read": b["base"],
+                                      "in_average": b["weighted"]} for b in x[key]["by_title"]]
+                               for key in ("quereinsteiger", "ai", "basics", "new_7d")}
     if detail:
         out["basics"] = [{"skill": label(s["id"]), "share": s["share"]} for s in x["basics_skills"]]
         out["other_terms"] = x.get("other_terms", [])
@@ -416,28 +423,34 @@ def _kurs_metrics(k, x, detail):
     return out
 
 
-def _ranks(values):
-    s = sorted(values)
-    if len(values) < 2:
-        return [0.5] * len(values)
-    return [(s.index(v) + (len(s) - 1 - s[::-1].index(v))) / 2 / (len(values) - 1) for v in values]
+def _scaled(values):
+    lo, hi = min(values, default=0), max(values, default=0)
+    return [(v - lo) / (hi - lo) if hi > lo else 0.5 for v in values]
+
+
+def _round(x):
+    """Like JavaScript's Math.round (halves up), so the ranking matches the page."""
+    return int(math.floor(x + 0.5))
 
 
 def kurs_opportunities(k):
-    """Same ranking as the page (kurs.js `opportunities`): average percentile rank of postings,
-    momentum (week-over-week change once every title has one, else the share published in the
-    last 7 days) and Quereinsteiger share, among job titles with enough postings."""
+    """Same score as the page (kurs-rank.js `opportunities`): the mean of three parts, each scaled
+    0–100 among the job titles with enough postings: volume (postings, log scale), momentum
+    (share of postings new in the last 7 days) and openness (Quereinsteiger share)."""
     titles = [dict(x, academy=a["name"]) for a in k["academies"] for x in a["titles"]]
     rated = [x for x in titles if x["sample"] >= KURS_MIN_BASE and _kurs_share(x["quereinsteiger"]) is not None]
-    use_wow = bool(rated) and all(_kurs_wow(x.get("wow")) is not None for x in rated)
-    momentum = [(_kurs_wow(x.get("wow")) if use_wow else (x["new_7d"]["share"] or 0)) for x in rated]
-    r = list(zip(_ranks([x["postings"] for x in rated]), _ranks(momentum), _ranks([x["quereinsteiger"]["share"] for x in rated])))
-    rows = [{"job_title": x["name"], "academy": x["academy"], "score": round(sum(rk) / 3 * 100),
-             "postings": x["postings"], "momentum": m, "quereinsteiger_share": x["quereinsteiger"]["share"]}
-            for x, m, rk in zip(rated, momentum, r)]
+    vol = _scaled([math.log10(max(x["postings"], 1)) for x in rated])
+    mom = _scaled([x["new_7d"]["share"] or 0 for x in rated])
+    opn = _scaled([x["quereinsteiger"]["share"] for x in rated])
+    rows = [{"job_title": x["name"], "academy": x["academy"], "score": _round((v + m + o) / 3 * 100),
+             "parts": {"volume": _round(v * 100), "momentum": _round(m * 100), "openness": _round(o * 100)},
+             "postings": x["postings"], "new_in_7_days_share": x["new_7d"]["share"],
+             "quereinsteiger_share": x["quereinsteiger"]["share"]}
+            for x, v, m, o in zip(rated, vol, mom, opn)]
     rows.sort(key=lambda y: (-y["score"], -y["postings"]))
-    return {"momentum": "week_over_week_change" if use_wow else "new_in_7_days_share", "ranking": rows,
-            "not_rated": [x["name"] for x in titles if x not in rated]}
+    return {"how": "score 0-100 = mean of volume (postings, log scale), momentum (share new in the last 7 days) "
+                   "and openness (Quereinsteiger share), each scaled 0-100 among the rated job titles",
+            "ranking": rows, "not_rated": [x["name"] for x in titles if x not in rated]}
 
 
 def kurs_radar(k, academy=None, job_title=None):

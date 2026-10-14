@@ -590,6 +590,13 @@ body.trk-open { overflow: hidden; }
 .k-chancen .top .k-rank { background: var(--accent); color: var(--on-accent); }
 .k-chance-body small { color: var(--ink-3); font-size: 13px; margin-left: 4px; }
 .k-chance-text { display: block; color: var(--ink-2); font-size: 14px; margin-top: 2px; }
+.k-chance-parts { display: block; color: var(--ink-3); font-size: 12px; font-family: var(--mono); margin-top: 2px; }
+.k-chance-body { flex: 1; min-width: 0; }
+.k-score {
+  flex: none; align-self: center; min-width: 44px; text-align: center; padding: 4px 8px; border-radius: 8px;
+  font-family: var(--mono); font-weight: 700; background: var(--surface-3); color: var(--ink);
+}
+.k-chancen .top .k-score { background: var(--accent-soft); color: var(--accent-ink); }
 .k-method { display: block; line-height: 1.5; margin-top: 16px; }
 .hero-kurs { margin-top: 12px; font-size: 15px; }
 @media (max-width: 560px) {

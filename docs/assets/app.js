@@ -44,7 +44,7 @@ async function main() {
     document.getElementById("tiles").innerHTML = `<p class="stale">${esc(t("load.error", { msg: e.message }))}</p>`;
     return;
   }
-  const BASICS = new Set(S.basic_skills ?? ["ms_office", "excel", "powerpoint", "word", "driving_licence"]);
+  const BASICS = new Set(S.basic_skills ?? ["ms_office", "excel", "powerpoint", "word", "outlook", "teams", "driving_licence"]);
 
   // Labels in the page's language (the data has English ones).
   for (const s of [...D.skills, ...S.skills]) s.label = localSkillLabel(s.id, s.label);

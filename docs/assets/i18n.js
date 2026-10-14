@@ -391,12 +391,12 @@ const STRINGS = {
   "about.body": {
     en: `<p><strong>Sources.</strong> Every morning a script collects all postings with “Werkstudent”, “Working Student” or “Werkstudierende” in the title from the public job search of the <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, plus Werkstudent postings from companies' own career sites through the free <a href="https://www.arbeitnow.com/">Arbeitnow</a> job API. A posting found in both counts once. LinkedIn, StepStone and Indeed don't allow automated collection and aren't used; many of their postings come from the same company career sites. <strong>Company career pages</strong> (the Companies section) are read directly from the public job boards of a list of companies in Berlin and München (Greenhouse, Lever, Ashby, Personio).</p>
 <p><strong>Pay</strong> comes from the posting's salary fields or phrases like “17,50 € pro Stunde”. Each role counts once; a median needs at least 10 roles and is shown with its 95% confidence interval.</p>
-<p><strong>Skills</strong> are read by an AI model (Claude Haiku): from the task and requirement sections of each posting, or from the whole text when it has no such headings. It also says whether a skill is a must or only a plus. Each posting is sent only once; the few it hasn't read yet use rules with German and English synonyms. Basics most office jobs ask for (MS Office, Excel, PowerPoint, Word, driving licence) are shown apart from the specific skills. <strong>German</strong> and <strong>pay</strong> come from the rules. Both methods were checked against 100 labelled postings (skills: 96% for the AI, 95% for the rules, F1). <a href="https://github.com/morty1338/werkstudent-radar#accuracy">How accurate they are</a>.</p>
+<p><strong>Skills</strong> are read by an AI model (Claude Haiku): from the task and requirement sections of each posting, or from the whole text when it has no such headings. It also says whether a skill is a must or only a plus. Each posting is sent only once; the few it hasn't read yet use rules with German and English synonyms. Basics most office jobs ask for (MS Office, Excel, PowerPoint, Word, Outlook, MS Teams, driving licence) are shown apart from the specific skills. <strong>German</strong> and <strong>pay</strong> come from the rules. Both methods were checked against 100 labelled postings (skills: 96% for the AI, 95% for the rules, F1). <a href="https://github.com/morty1338/werkstudent-radar#accuracy">How accurate they are</a>.</p>
 <p><strong>Your CV</strong> is read and analysed in your browser with the same rules. It is never uploaded or stored.</p>
 <p>Job texts belong to the employers and aren't published here; links lead to the originals. Code and data: <a href="https://github.com/morty1338/werkstudent-radar">github.com/morty1338/werkstudent-radar</a>.</p>`,
     de: `<p><strong>Quellen.</strong> Jeden Morgen sammelt ein Skript alle Anzeigen mit „Werkstudent“, „Working Student“ oder „Werkstudierende“ im Titel aus der öffentlichen Jobsuche der <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, dazu Werkstudentenstellen von Karriereseiten der Unternehmen über die kostenlose Job-API von <a href="https://www.arbeitnow.com/">Arbeitnow</a>. Eine Anzeige, die in beiden vorkommt, zählt einmal. LinkedIn, StepStone und Indeed erlauben kein automatisches Sammeln und werden nicht genutzt; viele ihrer Anzeigen stammen von denselben Karriereseiten. <strong>Karriereseiten</strong> (Bereich Unternehmen) werden direkt aus den öffentlichen Jobbörsen ausgewählter Unternehmen in Berlin und München gelesen (Greenhouse, Lever, Ashby, Personio).</p>
 <p><strong>Löhne</strong> stammen aus den Gehaltsfeldern der Anzeige oder aus Formulierungen wie „17,50 € pro Stunde“. Jede Rolle zählt einmal; ein Median braucht mindestens 10 Rollen und wird mit seinem 95%-Konfidenzintervall gezeigt.</p>
-<p><strong>Skills</strong> liest ein KI-Modell (Claude Haiku): aus den Abschnitten zu Aufgaben und Anforderungen jeder Anzeige, oder aus dem ganzen Text, wenn sie keine solchen Überschriften hat. Es sagt auch, ob ein Skill Pflicht oder nur von Vorteil ist. Jede Anzeige wird nur einmal gesendet; die wenigen noch nicht gelesenen werden mit Regeln mit deutschen und englischen Synonymen ausgewertet. Basics, die fast jeder Bürojob verlangt (MS Office, Excel, PowerPoint, Word, Führerschein), stehen getrennt von den spezifischen Skills. <strong>Deutsch</strong> und <strong>Gehalt</strong> kommen aus den Regeln. Beide Verfahren wurden an 100 annotierten Anzeigen geprüft (Skills: 96 % für die KI, 95 % für die Regeln, F1). <a href="https://github.com/morty1338/werkstudent-radar#accuracy">Wie genau sie sind</a>.</p>
+<p><strong>Skills</strong> liest ein KI-Modell (Claude Haiku): aus den Abschnitten zu Aufgaben und Anforderungen jeder Anzeige, oder aus dem ganzen Text, wenn sie keine solchen Überschriften hat. Es sagt auch, ob ein Skill Pflicht oder nur von Vorteil ist. Jede Anzeige wird nur einmal gesendet; die wenigen noch nicht gelesenen werden mit Regeln mit deutschen und englischen Synonymen ausgewertet. Basics, die fast jeder Bürojob verlangt (MS Office, Excel, PowerPoint, Word, Outlook, MS Teams, Führerschein), stehen getrennt von den spezifischen Skills. <strong>Deutsch</strong> und <strong>Gehalt</strong> kommen aus den Regeln. Beide Verfahren wurden an 100 annotierten Anzeigen geprüft (Skills: 96 % für die KI, 95 % für die Regeln, F1). <a href="https://github.com/morty1338/werkstudent-radar#accuracy">Wie genau sie sind</a>.</p>
 <p><strong>Dein Lebenslauf</strong> wird in deinem Browser mit denselben Regeln gelesen und ausgewertet. Er wird nie hochgeladen oder gespeichert.</p>
 <p>Stellentexte gehören den Arbeitgebern und werden hier nicht veröffentlicht; Links führen zu den Originalen. Code und Daten: <a href="https://github.com/morty1338/werkstudent-radar">github.com/morty1338/werkstudent-radar</a>.</p>`,
   },
@@ -446,7 +446,7 @@ const STRINGS = {
   "kurs.tile_qe": { en: "Open to career changers", de: "Offen für Quereinsteiger" },
   "kurs.tile_ai": { en: "Ask for AI skills", de: "Verlangen KI-Kenntnisse" },
   "kurs.tile_basics": { en: "Ask for the basics", de: "Verlangen die Basics" },
-  "kurs.tile_basics_sub": { en: "MS Office, Excel, PowerPoint or Word", de: "MS Office, Excel, PowerPoint oder Word" },
+  "kurs.tile_basics_sub": { en: "MS Office, Excel, PowerPoint, Word, Outlook or Teams", de: "MS Office, Excel, PowerPoint, Word, Outlook oder Teams" },
   "kurs.tile_of": { en: "{n} of {base} postings", de: "{n} von {base} Stellen" },
   "kurs.too_few": { en: "too few postings ({n})", de: "zu wenige Stellen ({n})" },
   "kurs.tip_exact": { en: "Every posting the job search found for this title.", de: "Alle Stellen, die die Jobsuche für diesen Titel findet." },
@@ -462,7 +462,7 @@ const STRINGS = {
     en: "AI in the tasks or requirements: AI tools, ChatGPT, Copilot, prompting, machine learning. An AI company's “about us” doesn't count.",
     de: "KI in Aufgaben oder Anforderungen: KI-Tools, ChatGPT, Copilot, Prompting, Machine Learning. Ein „Über uns“ einer KI-Firma zählt nicht.",
   },
-  "kurs.tip_basics": { en: "At least one of MS Office, Excel, PowerPoint or Word.", de: "Mindestens eins von MS Office, Excel, PowerPoint oder Word." },
+  "kurs.tip_basics": { en: "At least one of MS Office, Excel, PowerPoint, Word, Outlook or MS Teams.", de: "Mindestens eins von MS Office, Excel, PowerPoint, Word, Outlook oder MS Teams." },
   "kurs.skills_title": { en: "What employers ask for most", de: "Was Arbeitgeber am häufigsten verlangen" },
   "kurs.bar_tip": { en: "in {n} of {base} postings", de: "in {n} von {base} Stellen" },
   "kurs.bar_tip_imp": { en: "must have {must} · nice to have {nice}", de: "Muss {must} · Plus {nice}" },
@@ -489,25 +489,26 @@ const STRINGS = {
   "kurs.badge_qe": { en: "Career changers welcome", de: "Quereinsteiger willkommen" },
   "kurs.badge_ai": { en: "AI skills", de: "KI-Kenntnisse" },
   "kurs.chance_new7": {
-    en: "{n} jobs · {m} new in the last 7 days · {qe} open to career changers",
-    de: "{n} Stellen · {m} in den letzten 7 Tagen neu · {qe} offen für Quereinsteiger",
+    en: "{n} jobs · {m} of postings new in the last 7 days · {qe} open to career changers",
+    de: "{n} Stellen · {m} der Stellen in den letzten 7 Tagen neu · {qe} offen für Quereinsteiger",
   },
-  "kurs.chance_wow": {
-    en: "{n} jobs · {m} vs. last week · {qe} open to career changers",
-    de: "{n} Stellen · {m} ggü. Vorwoche · {qe} offen für Quereinsteiger",
+  "kurs.equal_weight": {
+    en: "Every job title with 20+ postings counts the same:",
+    de: "Jedes Berufsbild mit 20+ Stellen zählt gleich viel:",
   },
+  "kurs.chance_parts": {
+    en: "Points: volume {v} · new postings {m} · career changers {o}",
+    de: "Punkte: Menge {v} · neue Stellen {m} · Quereinsteiger {o}",
+  },
+  "kurs.score_title": { en: "Score 0–100: mean of the three points", de: "Score 0–100: Mittelwert der drei Punkte" },
   "kurs.method_simple": {
-    en: "Order: many jobs, many new jobs and many open to career changers count the same. Only job titles with at least {min} jobs. Tap one to see its skills and jobs.",
-    de: "Reihenfolge: viele Stellen, viele neue Stellen und viele für Quereinsteiger zählen gleich viel. Nur Berufsbilder mit mindestens {min} Stellen. Antippen zeigt Skills und Stellen.",
+    en: "How the score works: each job title gets 0–100 points for volume (postings, on a log scale), for the share of postings new in the last 7 days and for the share open to career changers, compared with the other titles; the score is their mean. Only job titles with at least {min} postings. Tap one to see its skills and jobs.",
+    de: "So entsteht der Score: Jedes Berufsbild bekommt 0–100 Punkte für die Menge (Stellenzahl, logarithmisch), für den Anteil der in den letzten 7 Tagen neuen Stellen und für den Quereinsteiger-Anteil, jeweils im Vergleich zu den anderen; der Score ist ihr Mittelwert. Nur Berufsbilder mit mindestens {min} Stellen. Antippen zeigt Skills und Stellen.",
   },
   "kurs.chancen_title": { en: "Where could a new course make sense?", de: "Wo könnte ein neuer Kurs sinnvoll sein?" },
   "kurs.chancen_insight": {
     en: "Many postings, many of them new this week, and open to career changers: {top} lead today. Input for a decision, not a forecast.",
     de: "Viele Stellen, viele davon diese Woche neu, und offen für Quereinsteiger: heute vorn sind {top}. Eine Entscheidungshilfe, keine Prognose.",
-  },
-  "kurs.chancen_insight_wow": {
-    en: "Many postings, growing demand and open to career changers: {top} lead today. Input for a decision, not a forecast.",
-    de: "Viele Stellen, wachsende Nachfrage und offen für Quereinsteiger: heute vorn sind {top}. Eine Entscheidungshilfe, keine Prognose.",
   },
   "kurs.method_skipped": { en: "Not rated (too few postings): {list}.", de: "Nicht bewertet (zu wenige Stellen): {list}." },
   "kurs.about": {

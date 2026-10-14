@@ -35,7 +35,7 @@ def title(tid, name, postings, sample, qe, new7, exact=True, wow=None, skills=()
 
 KURS = {
     "as_of": "2026-10-14", "note": {"de": "nur Stellen der Bundesagentur für Arbeit, Momentaufnahme", "en": "BA only"},
-    "basics": ["ms_office", "excel", "powerpoint", "word"],
+    "basics": ["ms_office", "excel", "powerpoint", "word", "outlook", "teams"],
     "skills": {"recruiting": {"label": "Recruiting / Sourcing", "group": "x"}, "ms_office": {"label": "MS Office", "group": "y"}},
     "academies": [
         {"id": "hr", "name": "HR", **title("hr", "HR", 1300, 120, 20, 30), "titles": [
@@ -68,22 +68,27 @@ def test_page_helpers(tmp_path):
 
 
 @node
-def test_opportunities_rank_and_skip_small_titles(tmp_path):
+def test_opportunities_score_is_the_mean_of_three_scaled_parts(tmp_path):
     out = run_node(tmp_path, f"m.opportunities({json.dumps(KURS)})")
     assert [r["id"] for r in out["rows"]] == ["recruiter", "ki_manager", "hr_sb"]
     assert [x["id"] for x in out["skipped"]] == ["prompt_engineer"]
-    assert out["momentum"] == "new_7d"
-    assert out["rows"][0]["score"] == 100                          # top in all three
+    rec, ki, hr = out["rows"]
+    assert rec["parts"] == {"volume": 100, "momentum": 100, "openness": 100} and rec["score"] == 100
+    # 38 postings is the smallest volume (log scale: 1000 vs 300 vs 38 -> 1, 0.63, 0)
+    assert ki["parts"] == {"volume": 0, "momentum": 11, "openness": 54} and ki["score"] == 22
+    assert hr["parts"] == {"volume": 63, "momentum": 0, "openness": 0} and hr["score"] == 21
 
 
 @node
-def test_opportunities_switch_to_week_over_week_when_every_title_has_it(tmp_path):
+def test_week_over_week_doesnt_change_the_score(tmp_path):
+    """Momentum is always the share of postings new in the last 7 days."""
     k = json.loads(json.dumps(KURS))
     for a in k["academies"]:
         for x in a["titles"]:
-            x["wow"] = {"now": x["postings"], "before": x["postings"] + (50 if x["id"] == "recruiter" else -5), "before_date": "2026-10-07"}
-    out = run_node(tmp_path, f"m.opportunities({json.dumps(k)})")
-    assert out["momentum"] == "wow"
+            x["wow"] = {"now": x["postings"], "before": 1, "before_date": "2026-10-07"}
+    a = run_node(tmp_path, f"m.opportunities({json.dumps(KURS)}).rows.map((r) => r.score)")
+    b = run_node(tmp_path, f"m.opportunities({json.dumps(k)}).rows.map((r) => r.score)")
+    assert a == b
 
 
 @node
@@ -93,6 +98,8 @@ def test_mcp_ranking_matches_the_page(tmp_path, kurs):
     js = run_node(tmp_path, f"m.opportunities({json.dumps(k)}).rows.map((r) => [r.name, r.score])")
     py = rt.kurs_opportunities(k)
     assert [[r["job_title"], r["score"]] for r in py["ranking"]] == js
+    parts = run_node(tmp_path, f"m.opportunities({json.dumps(k)}).rows.map((r) => r.parts)")
+    assert [r["parts"] for r in py["ranking"]] == parts
 
 
 def test_mcp_overview_academy_and_title():
@@ -147,3 +154,15 @@ async def test_server_tool(tmp_path):
 @pytest.fixture
 def anyio_backend():
     return "asyncio"
+
+
+def test_mcp_academy_shows_the_per_title_values():
+    k = json.loads(json.dumps(KURS))
+    hr = k["academies"][0]
+    hr["weighting"] = {"method": "equal per job title", "min_postings": 20, "titles": ["recruiter", "hr_sb"]}
+    for key in ("quereinsteiger", "ai", "basics", "new_7d"):
+        hr[key]["by_title"] = [{"id": "recruiter", "name": "Recruiter", "share": 0.16, "base": 100, "weighted": True},
+                               {"id": "hr_sb", "name": "HR-Sachbearbeiter", "share": 0.04, "base": 50, "weighted": True}]
+    out = rt.kurs_radar(k, academy="HR")
+    assert out["weighting"]["method"] == "equal per job title"
+    assert out["by_job_title"]["quereinsteiger"][0] == {"job_title": "Recruiter", "share": 0.16, "postings_read": 100, "in_average": True}

@@ -1,5 +1,5 @@
 // Kurs-Radar numbers for the page (kurs.js), without the DOM: shares with enough postings,
-// week-over-week change, must/nice split and the "Opportunities" ranking. No imports, so
+// week-over-week change, must/nice split and the "Opportunities" score. No imports, so
 // tests run it in Node; mcp/radar_tools.py kurs_opportunities ranks the same way.
 
 export const MIN_BASE = 20;        // fewer postings behind a share: show "—" instead of a percentage
@@ -17,31 +17,33 @@ export function mustFraction(s) {
   return n >= MIN_IMPORTANCE ? s.must / n : null;
 }
 
-// Mean of the percentile ranks (0 = lowest, 1 = highest; ties share a rank) of each value.
-function ranks(values) {
-  const sorted = [...values].sort((a, b) => a - b);
-  return values.map((v) => {
-    if (values.length < 2) return 0.5;
-    const first = sorted.indexOf(v);
-    const last = sorted.lastIndexOf(v);
-    return (first + last) / 2 / (values.length - 1);
-  });
+// Each value scaled to 0…1 between the smallest and the largest (all equal: 0.5).
+function scaled(values) {
+  const lo = Math.min(...values);
+  const hi = Math.max(...values);
+  return values.map((v) => (hi > lo ? (v - lo) / (hi - lo) : 0.5));
 }
 
-// Opportunities: job titles with enough postings, scored by the average rank of size,
-// momentum (week-over-week change once every title has one, else the share published in
-// the last 7 days) and the Quereinsteiger share. Returns { rows, skipped, momentum }.
+// Opportunities: job titles with enough postings, scored 0–100 by the mean of three parts,
+// each scaled 0–100 among the rated titles:
+//   volume     postings on the board, on a log scale (2 vs. 20 postings counts like 200 vs. 2,000)
+//   momentum   share of postings new in the last 7 days
+//   openness   share open to career changers
+// Returns { rows (with .parts = { volume, momentum, openness }), skipped }.
 export function opportunities(data) {
   const all = data.academies.flatMap((a) => a.titles.map((x) => ({ ...x, academy: a })));
   const rated = all.filter((x) => x.sample >= MIN_BASE && shareOf(x.quereinsteiger) != null);
   const skipped = all.filter((x) => !rated.includes(x));
-  const useWow = rated.length > 0 && rated.every((x) => wowChange(x.wow) != null);
-  const momentum = (x) => (useWow ? wowChange(x.wow) : x.new_7d.share ?? 0);
-  const r1 = ranks(rated.map((x) => x.postings));
-  const r2 = ranks(rated.map(momentum));
-  const r3 = ranks(rated.map((x) => x.quereinsteiger.share));
+  const vol = scaled(rated.map((x) => Math.log10(Math.max(x.postings, 1))));
+  const mom = scaled(rated.map((x) => x.new_7d.share ?? 0));
+  const open = scaled(rated.map((x) => x.quereinsteiger.share));
   const rows = rated
-    .map((x, i) => ({ ...x, momentum: momentum(x), score: Math.round(((r1[i] + r2[i] + r3[i]) / 3) * 100) }))
+    .map((x, i) => ({
+      ...x,
+      momentum: x.new_7d.share ?? 0,
+      parts: { volume: Math.round(vol[i] * 100), momentum: Math.round(mom[i] * 100), openness: Math.round(open[i] * 100) },
+      score: Math.round(((vol[i] + mom[i] + open[i]) / 3) * 100),
+    }))
     .sort((a, b) => b.score - a.score || b.postings - a.postings);
-  return { rows, skipped, momentum: useWow ? "wow" : "new_7d" };
+  return { rows, skipped };
 }

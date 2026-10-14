@@ -157,6 +157,9 @@ async function main() {
 
   function renderTiles(view) {
     const few = (m) => t("kurs.too_few", { n: fmt.int(m?.base ?? 0) });
+    // An academy's shares weigh its job titles the same: list them in the tooltip.
+    const perTitle = (m) => (m?.by_title ? `<br>${esc(t("kurs.equal_weight"))}<br>` + m.by_title
+      .map((b) => `${esc(b.name)}: ${b.share == null || b.base < MIN_BASE ? "—" : fmt.pct(b.share, 0)}`).join("<br>") : "");
     const wow = wowChange(view.wow);
     const tiles = [
       {
@@ -166,7 +169,7 @@ async function main() {
         sub: wow != null
           ? t("kurs.tile_wow", { pct: fmt.signedPct(wow), date: fmt.shortDate(view.wow.before_date) })
           : t("kurs.tile_new7", { pct: fmt.pct(view.new_7d.share ?? 0, 0) }),
-        tip: view.postings_exact ? t("kurs.tip_exact") : t("kurs.tip_estimate", { sample: fmt.int(view.sample) }),
+        tip: esc(view.postings_exact ? t("kurs.tip_exact") : t("kurs.tip_estimate", { sample: fmt.int(view.sample) })),
       },
       {
         href: "#stellen",
@@ -174,21 +177,21 @@ async function main() {
         value: pctOr(view.quereinsteiger),
         sub: shareOf(view.quereinsteiger) == null ? few(view.quereinsteiger)
           : t("kurs.tile_of", { n: fmt.int(view.quereinsteiger.n), base: fmt.int(view.quereinsteiger.base) }),
-        tip: t("kurs.tip_qe", { text: fmt.int(view.quereinsteiger.text), ba: fmt.int(view.quereinsteiger.ba_flag) }),
+        tip: esc(t("kurs.tip_qe", { text: fmt.int(view.quereinsteiger.text), ba: fmt.int(view.quereinsteiger.ba_flag) })) + perTitle(view.quereinsteiger),
       },
       {
         href: "#k-skills-card",
         label: t("kurs.tile_ai"),
         value: pctOr(view.ai),
         sub: shareOf(view.ai) == null ? few(view.ai) : t("kurs.tile_of", { n: fmt.int(view.ai.n), base: fmt.int(view.ai.base) }),
-        tip: t("kurs.tip_ai"),
+        tip: esc(t("kurs.tip_ai")) + perTitle(view.ai),
       },
       {
         href: "#k-skills-card",
         label: t("kurs.tile_basics"),
         value: pctOr(view.basics),
         sub: shareOf(view.basics) == null ? few(view.basics) : t("kurs.tile_basics_sub"),
-        tip: t("kurs.tip_basics"),
+        tip: esc(t("kurs.tip_basics")) + perTitle(view.basics),
       },
     ];
     const box = document.getElementById("k-tiles");
@@ -317,21 +320,17 @@ async function main() {
 
   // --- Opportunities: a plain ranked list ------------------------------------------------------
   function renderChancen() {
-    const { rows, skipped, momentum } = opportunities(D);
+    const { rows, skipped } = opportunities(D);
     document.getElementById("k-chancen").innerHTML = rows
       .map((x, i) => `<li class="${i < 3 ? "top" : ""}"><button type="button" class="k-chance" data-pick="${esc(x.academy.id)}/${esc(x.id)}">
         <span class="k-rank">${i + 1}</span>
         <span class="k-chance-body"><strong>${esc(x.name)}</strong> <small>${esc(x.academy.name)}</small>
-        <span class="k-chance-text">${esc(t(momentum === "wow" ? "kurs.chance_wow" : "kurs.chance_new7", {
-          n: count(x),
-          m: momentum === "wow" ? fmt.signedPct(x.momentum) : fmt.pct(x.momentum, 0),
-          qe: fmt.pct(x.quereinsteiger.share, 0),
-        }))}</span></span></button></li>`)
+        <span class="k-chance-text">${esc(t("kurs.chance_new7", { n: count(x), m: fmt.pct(x.momentum, 0), qe: fmt.pct(x.quereinsteiger.share, 0) }))}</span>
+        <span class="k-chance-parts">${esc(t("kurs.chance_parts", { v: x.parts.volume, m: x.parts.momentum, o: x.parts.openness }))}</span></span>
+        <span class="k-score" title="${esc(t("kurs.score_title"))}">${x.score}</span></button></li>`)
       .join("");
     const top3 = rows.slice(0, 3).map((x) => `<strong>${esc(x.name)}</strong>`);
-    document.getElementById("k-chancen-insight").innerHTML = rows.length
-      ? t(momentum === "wow" ? "kurs.chancen_insight_wow" : "kurs.chancen_insight", { top: top3.join(", ") })
-      : "";
+    document.getElementById("k-chancen-insight").innerHTML = rows.length ? t("kurs.chancen_insight", { top: top3.join(", ") }) : "";
     document.getElementById("k-chancen-method").textContent = t("kurs.method_simple", { min: MIN_BASE }) +
       (skipped.length ? ` ${t("kurs.method_skipped", { list: skipped.map((x) => `${x.name} (${fmt.int(x.sample)})`).join(", ") })}` : "");
   }

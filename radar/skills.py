@@ -9,6 +9,8 @@ Bump EXTRACTOR_VERSION in extract.py whenever this file changes: active jobs
 are then re-fetched and re-tagged on the next run.
 """
 
+import re
+
 SKILLS = [
     # --- Programming languages -------------------------------------------
     ("python", "Python", "Programming", [r"\bpython\b", r"\bphyton\b"]),  # common typo in postings
@@ -118,6 +120,8 @@ SKILLS = [
     ("powerpoint", "PowerPoint", "Office & Tools", [r"power\s*point", r"\bpptx?\b"]),
     ("word", "Word", "Office & Tools", [r"(?-i:\bWord\b)(?!\s+of)", r"ms[- ]word"]),
     ("outlook", "Outlook", "Office & Tools", [r"\boutlook\b"]),
+    # Not the bare word: "Teams" is also the German plural of Team.
+    ("teams", "MS Teams", "Office & Tools", [r"\bms[- ]?teams\b", r"microsoft[- ]teams"]),
     ("google_workspace", "Google Workspace", "Office & Tools", [r"google (?:workspace|sheets|docs|suite)", r"\bg[- ]suite\b"]),
     ("jira", "Jira / Confluence", "Office & Tools", [r"\bjira\b", r"confluence"]),
     ("notion", "Notion / Miro", "Office & Tools", [r"(?-i:\bNotion\b)", r"\bmiro\b"]),
@@ -244,4 +248,13 @@ CONTEXT_REQUIRED = {
 
 # Skills almost every office job asks for. The site and the MCP server show them apart
 # from the specific skills, which say more about a job (summary.json "basic_skills").
-BASIC_SKILLS = ["ms_office", "excel", "powerpoint", "word", "driving_licence"]
+BASIC_SKILLS = ["ms_office", "excel", "powerpoint", "word", "outlook", "teams", "driving_licence"]
+
+
+def basic_from_term(term):
+    """The basic skill an LLM "other" term names ("Microsoft Teams" -> teams), or None.
+    Answers from before a skill was listed keep it as an "other" term; this puts it back."""
+    for sid, _, _, patterns in SKILLS:
+        if sid in BASIC_SKILLS and any(re.search(p, term or "", re.I) for p in patterns):
+            return sid
+    return None
