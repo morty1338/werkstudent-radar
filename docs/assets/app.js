@@ -1,19 +1,24 @@
-import { barList, bubbleMap, dotRange, esc, fmt, histogram, initTooltip, lineChart, rollDigits, survivalChart } from "./charts.js?v=dev";
+import { barList, bubbleMap, dotRange, esc, fmt, histogram, initTooltip, lineChart, payPerYear, rollDigits, survivalChart } from "./charts.js?v=dev";
 import { initCompanies } from "./companies.js?v=dev";
 import { initCv } from "./cv.js?v=dev";
 import { applyStatic, fieldLabel, groupLabel, initLangSwitch, lang, skillLabel as localSkillLabel, t } from "./i18n.js?v=dev";
+import { MIN_BASE, opportunities } from "./kurs-rank.js?v=dev";
 import { initMatch } from "./match.js?v=dev";
+import { beta, dataUrl, jobsAllowed, mode, modeUrl, refPrefix } from "./mode.js?v=dev";
 import { medianCI } from "./stats.js?v=dev";
 import { initTracker } from "./tracker.js?v=dev";
 
 // Column positions in checker.json "jobs" rows.
 // NICE (skills marked nice to have) and LLM (1 = skills read by the LLM) come last; older files lack them.
 export const J = { CAT: 0, CITY: 1, DE: 2, PAY: 3, SKILLS: 4, ROLE: 5, ROLE_CITY: 6, COMPANY: 7, NICE: 8, LLM: 9 };
-const PAY_MIN = 12;
-const PAY_BINS = 14; // €12 … €24, then 25+
+// Jobs mode (?mode=jobs, mode.js): the same charts for the Kurs-Radar job titles, salary per year.
+const JOBS = mode === "jobs";
+// Pay histogram bins: Werkstudent €12 … €24 an hour, then 25+; Jobs €15k … €95k a year in
+// 5,000 € steps, then 100k+.
+const PAY = JOBS ? { min: 15000, step: 5000, bins: 18 } : { min: 12, step: 1, bins: 14 };
 
 async function load(name) {
-  const res = await fetch(`data/${name}.json`, { cache: "no-cache" });
+  const res = await fetch(dataUrl(name), { cache: "no-cache" });
   if (!res.ok) throw new Error(`${name}.json: HTTP ${res.status}`);
   return res.json();
 }
@@ -27,10 +32,12 @@ function quantile(sorted, q) {
 }
 
 async function main() {
+  if (JOBS) payPerYear();
   applyStatic();
   initLangSwitch();
   initTooltip();
-  if (lang === "de") for (const id of ["kurs-link", "kurs-nav"]) document.getElementById(id).href = "kurs.html?lang=de";
+  if (lang === "de" && !jobsAllowed) for (const id of ["kurs-link", "kurs-nav"]) document.getElementById(id).href = "kurs.html?lang=de";
+  initModeSwitch();
   // The tracker works without the job data, so it starts before it loads.
   const tracker = initTracker();
   let S, D, H, L, C, CO;
@@ -51,7 +58,12 @@ async function main() {
   for (const k of Object.keys(D.category_labels)) D.category_labels[k] = fieldLabel(k, D.category_labels[k]);
 
   const params = new URLSearchParams(location.search);
+  // Jobs mode: job titles are the "fields", grouped in academies (an extra filter).
+  const academies = D.academies ?? [];
+  const academyOf = D.category_academy ?? {};
+  const sampled = new Set(D.sampled ?? []);
   const state = {
+    academy: academies.findIndex((a) => a.id === params.get("academy")),
     field: Math.max(-1, D.categories.indexOf(params.get("field"))),
     city: Math.max(-1, D.cities.findIndex((c) => c.name === params.get("city"))),
     noGerman: params.get("german") === "no",
@@ -69,6 +81,7 @@ async function main() {
     const out = [];
     D.jobs.forEach((j, i) => {
       if (!except.field && state.field >= 0 && j[J.CAT] !== state.field) return;
+      if (!except.field && state.academy >= 0 && academyOf[D.categories[j[J.CAT]]] !== academies[state.academy].id) return;
       if (!except.city && state.city >= 0 && j[J.CITY] !== state.city) return;
       if (state.noGerman && j[J.DE] > 1) return;
       out.push(i);
@@ -108,7 +121,7 @@ async function main() {
     };
   }
   // "95% CI €15.40–17.60" / "95%-KI 15,40–17,60 €"
-  const ciText = (lo, hi) => (lo == null ? "" : t("ci", { lo: fmt.num2(lo), hi: fmt.num2(hi) }));
+  const ciText = (lo, hi) => (lo == null ? "" : t("ci", { lo: JOBS ? fmt.int(lo) : fmt.num2(lo), hi: JOBS ? fmt.int(hi) : fmt.num2(hi) }));
 
   const ctx = { D, S, J, state, pool, payStats, catLabel, skillLabel, tracker, render: () => render(), syncUrl: () => syncUrl() };
 
@@ -121,7 +134,25 @@ async function main() {
   function countBy(col, v) {
     return D.jobs.reduce((n, j) => n + (j[col] === v), 0);
   }
-  byCount.forEach((i) => fField.add(new Option(catLabel(i), i)));
+  const fAcademy = document.getElementById("f-academy");
+  function fieldOptions() {
+    // Jobs mode: only the job titles of the chosen academy.
+    const keep = byCount.filter((i) => state.academy < 0 || academyOf[D.categories[i]] === academies[state.academy].id);
+    fField.length = 1;
+    keep.forEach((i) => fField.add(new Option(catLabel(i) + (sampled.has(D.categories[i]) ? ` (${t("mode.sampled")})` : ""), i)));
+  }
+  if (JOBS) {
+    fAcademy.hidden = false;
+    document.querySelector('label[for="f-academy"]').hidden = false;
+    academies.forEach((a, i) => fAcademy.add(new Option(a.name, i)));
+    fAcademy.addEventListener("change", () => {
+      state.academy = fAcademy.value === "" ? -1 : Number(fAcademy.value);
+      if (state.field >= 0 && state.academy >= 0 && academyOf[D.categories[state.field]] !== academies[state.academy].id) state.field = -1;
+      fieldOptions();
+      render();
+    });
+  }
+  fieldOptions();
   const TOP_CITIES = 40;
   D.cities.slice(0, TOP_CITIES).forEach((c, i) => fCity.add(new Option(c.name, i)));
 
@@ -139,7 +170,7 @@ async function main() {
   fField.addEventListener("change", () => { state.field = fField.value === "" ? -1 : Number(fField.value); render(); });
   fCity.addEventListener("change", () => { state.city = fCity.value === "" ? -1 : Number(fCity.value); render(); });
   fDe.addEventListener("change", () => { state.noGerman = fDe.checked; render(); });
-  fReset.addEventListener("click", () => { Object.assign(state, { field: -1, city: -1, noGerman: false }); render(); });
+  fReset.addEventListener("click", () => { Object.assign(state, { academy: -1, field: -1, city: -1, noGerman: false }); fieldOptions(); render(); });
 
   // Phones: the filters live in a bottom sheet; active ones show as removable chips.
   const sheet = document.getElementById("f-sheet");
@@ -159,6 +190,7 @@ async function main() {
     const b = e.target.closest("[data-clear]");
     if (!b) return;
     if (b.dataset.clear === "field") state.field = -1;
+    if (b.dataset.clear === "academy") { state.academy = -1; fieldOptions(); }
     if (b.dataset.clear === "city") state.city = -1;
     if (b.dataset.clear === "german") state.noGerman = false;
     render();
@@ -169,15 +201,18 @@ async function main() {
       fCity.add(new Option(D.cities[state.city].name, state.city));
     }
     fField.value = state.field >= 0 ? String(state.field) : "";
+    fAcademy.value = state.academy >= 0 ? String(state.academy) : "";
+    fAcademy.classList.toggle("active", state.academy >= 0);
     fCity.value = state.city >= 0 ? String(state.city) : "";
     fDe.checked = state.noGerman;
     fField.classList.toggle("active", state.field >= 0);
     fCity.classList.toggle("active", state.city >= 0);
-    fReset.hidden = state.field < 0 && state.city < 0 && !state.noGerman;
+    fReset.hidden = state.field < 0 && state.city < 0 && !state.noGerman && state.academy < 0;
     document.getElementById("f-count").textContent = t("filter.count", { n: fmt.int(all.length) });
     document.getElementById("f-done").textContent = t("filter.show", { n: fmt.int(all.length) });
     renderSubscribe();
     const chips = [
+      state.academy >= 0 && state.field < 0 && ["academy", academies[state.academy].name],
       state.field >= 0 && ["field", catLabel(state.field)],
       state.city >= 0 && ["city", D.cities[state.city].name],
       state.noGerman && ["german", t("filter.chip_no_german")],
@@ -189,6 +224,12 @@ async function main() {
 
   // RSS feeds of new postings: all fields, plus the selected field's own feed.
   function renderSubscribe() {
+    if (JOBS) {
+      document.getElementById("subscribe").innerHTML = `<p>${esc(t("subscribe.jobs_note"))}</p>
+        <div class="feed-row"><a href="feeds/all.xml">${esc(t("subscribe.all"))}</a>
+        <button type="button" class="link-btn" data-copy="feeds/all.xml">${esc(t("subscribe.copy"))}</button></div>`;
+      return;
+    }
     const field = state.field >= 0 ? D.categories[state.field] : null;
     const list = [["all", t("subscribe.all")], ...(field ? [[field, t("subscribe.field", { field: catLabel(state.field) })]] : [])];
     document.getElementById("subscribe").innerHTML = `
@@ -243,6 +284,14 @@ async function main() {
     renderSkills();
   });
 
+  // Jobs mode: postings on the board for the chosen job titles (exact, or a lower bound for samples).
+  const catInfo = Object.fromEntries((S.categories ?? []).map((c) => [c.key, c]));
+  function boardEstimate() {
+    const keys = state.field >= 0 ? [D.categories[state.field]]
+      : D.categories.filter((k) => state.academy < 0 || academyOf[k] === academies[state.academy].id);
+    return { n: keys.reduce((sum, k) => sum + (catInfo[k]?.estimated ?? 0), 0), sampled: keys.some((k) => sampled.has(k)) };
+  }
+
   // --- Overview tiles ------------------------------------------------------------------
   function renderTiles(all) {
     const ps = payStats(all);
@@ -254,9 +303,14 @@ async function main() {
       if (c >= 0) perCity.set(c, (perCity.get(c) || 0) + 1);
     }
     const [bigCity, bigCount] = [...perCity].sort((a, b) => b[1] - a[1])[0] ?? [-1, 0];
-    const where = [state.field >= 0 ? catLabel(state.field) : null, state.city >= 0 ? D.cities[state.city].name : null].filter(Boolean).join(" · ");
+    const where = [state.field >= 0 ? catLabel(state.field) : state.academy >= 0 ? academies[state.academy].name : null,
+      state.city >= 0 ? D.cities[state.city].name : null].filter(Boolean).join(" · ");
+    // Jobs mode: titles with many postings are a sample; say how many the board has.
+    const board = JOBS && state.city < 0 && !state.noGerman ? boardEstimate() : null;
     const tiles = [
-      { href: "#where", label: where ? t("tile.jobs_where", { where }) : t("tile.jobs_online"), value: fmt.int(all.length), sub: t("tile.places", { n: places, v: fmt.int(places) }) },
+      { href: "#where", label: where ? t("tile.jobs_where", { where }) : t("tile.jobs_online"), value: fmt.int(all.length),
+        sub: board ? t("tile.board", { n: `${board.sampled ? "≥ " : ""}${fmt.int(board.n)}`, s: board.sampled ? ` · ${t("mode.sampled")}` : "" })
+          : t("tile.places", { n: places, v: fmt.int(places) }) },
       { href: "#pay", label: t("tile.median"), value: ps.enough ? fmt.eur(ps.median) : "—", sub: ps.enough ? t("tile.per_hour", { ci: ciText(...ps.ci) }) : ps.why },
       { href: "#skills", label: t("tile.top_specific"), value: top ? top.label : "—", sub: top ? t("tile.skill_share", { pct: fmt.pct(top.share, 0) }) : "", small: true },
       { href: "#where", label: t("tile.most_jobs"), value: bigCity >= 0 ? D.cities[bigCity].name : "—", sub: bigCity >= 0 ? t("jobs.n", { n: bigCount, v: fmt.int(bigCount) }) : "", small: true },
@@ -311,7 +365,9 @@ async function main() {
         value: n,
         text: fmt.int(n),
         selected: state.field === k,
-        tip: `<strong>${esc(catLabel(k))}</strong><br>${t("where.field_tip", { n: fmt.int(n), pct: fmt.pct(n / fieldPool.length, 0) })}`,
+        sub: JOBS && sampled.has(D.categories[k]) ? t("mode.sampled") : "",
+        tip: `<strong>${esc(catLabel(k))}</strong><br>${t("where.field_tip", { n: fmt.int(n), pct: fmt.pct(n / fieldPool.length, 0) })}` +
+          (JOBS && sampled.has(D.categories[k]) ? `<br>${esc(t("mode.sampled_tip", { n: fmt.int(catInfo[D.categories[k]]?.estimated ?? n) }))}` : ""),
       }));
     barList(document.getElementById("fields"), rows);
 
@@ -354,21 +410,23 @@ async function main() {
 
   function renderPay(all = pool()) {
     const ps = payStats(all);
-    const counts = new Array(PAY_BINS).fill(0);
-    for (const v of ps.values) counts[Math.min(PAY_BINS - 1, Math.max(0, Math.floor(v) - PAY_MIN))]++;
+    const counts = new Array(PAY.bins).fill(0);
+    for (const v of ps.values) counts[Math.min(PAY.bins - 1, Math.max(0, Math.floor((v - PAY.min) / PAY.step)))]++;
+    const short = (v) => (JOBS ? `${Math.round(v / 1000)}k` : String(v));
     const bins = counts.map((n, b) => {
-      const lo = PAY_MIN + b;
+      const lo = PAY.min + b * PAY.step;
+      const last = b === PAY.bins - 1;
       return {
-        label: b === PAY_BINS - 1 ? `${lo}+` : String(lo),
+        label: last ? `${short(lo)}+` : short(lo),
         value: n,
-        inRange: ps.n > 0 && lo + 1 > ps.p25 && lo <= ps.p75,
-        tip: `<strong>${t(b === PAY_BINS - 1 ? "pay.bin_top" : "pay.bin", { lo })}</strong><br>${t("pay.roles", { n, v: fmt.int(n) })}`,
+        inRange: ps.n > 0 && lo + PAY.step > ps.p25 && lo <= ps.p75,
+        tip: `<strong>${t(last ? "pay.bin_top" : "pay.bin", { lo: JOBS ? fmt.int(lo) : lo, hi: fmt.int(lo + PAY.step - 1) })}</strong><br>${t("pay.roles", { n, v: fmt.int(n) })}`,
       };
     });
     const hist = document.getElementById("pay-hist");
     if (ps.n) {
       histogram(hist, bins, {
-        median: { pos: Math.min(PAY_BINS, Math.max(0, ps.median - PAY_MIN)), label: t("pay.median_marker", { v: fmt.eur(ps.median) }) },
+        median: { pos: Math.min(PAY.bins, Math.max(0, (ps.median - PAY.min) / PAY.step)), label: t("pay.median_marker", { v: fmt.eur(ps.median) }) },
         axisTitle: t("pay.axis", { n: fmt.int(ps.n) }),
       });
       hist.insertAdjacentHTML("beforeend", `<div class="pay-trio">
@@ -390,11 +448,12 @@ async function main() {
     let rows = rangeRows(groups, state.payBy === "field" ? catLabel : (k) => D.cities[k].name, state.payBy === "city");
     if (state.payBy === "city") rows = rows.sort((a, b) => b.jobs - a.jobs).slice(0, 12).sort((a, b) => b.median - a.median);
     // Scale to the data (a dot plot needs no zero line): the differences are a few euros.
-    const lo = Math.floor(Math.min(...rows.map((r) => r.p25), 15)) - 0.5;
-    const hi = Math.ceil(Math.max(...rows.map((r) => r.p75), 17)) + 0.5;
+    const u = JOBS ? 5000 : 1;                                   // tick unit: 1 € an hour, 5,000 € a year
+    const lo = Math.floor(Math.min(...rows.map((r) => r.p25), JOBS ? 40000 : 15) / u) * u - u / 2;
+    const hi = Math.ceil(Math.max(...rows.map((r) => r.p75), JOBS ? 50000 : 17) / u) * u + u / 2;
     const ticks = [];
-    for (let t = Math.ceil(lo); t <= hi; t += hi - lo > 9 ? 2 : 1) ticks.push(t);
-    dotRange(document.getElementById("pay-range"), rows, { min: lo, max: hi, ticks });
+    for (let t = Math.ceil(lo / u) * u; t <= hi; t += (hi - lo) / u > 9 ? 2 * u : u) ticks.push(t);
+    dotRange(document.getElementById("pay-range"), rows, { min: lo, max: hi, ticks, ...(JOBS ? { tickLabel: (v) => `${v / 1000}k` } : {}) });
     document.querySelectorAll("#pay-seg button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.by === state.payBy)));
 
     const el = document.getElementById("pay-insight");
@@ -412,10 +471,30 @@ async function main() {
   function topSkills(idx) {
     const counts = new Array(D.skills.length).fill(0);
     for (const i of idx) for (const s of D.jobs[i][J.SKILLS]) counts[s]++;
+    let share = (s) => (idx.length ? counts[s] / idx.length : 0);
+    // Jobs mode, one academy: each job title with enough postings weighs the same (Sales would
+    // otherwise be four fifths Vertriebsinnendienst), as in kurs_stats.equal_weight.
+    if (JOBS && state.academy >= 0 && state.field < 0) {
+      const groups = new Map();
+      for (const i of idx) {
+        const c = D.jobs[i][J.CAT];
+        if (!groups.has(c)) groups.set(c, []);
+        groups.get(c).push(i);
+      }
+      const big = [...groups.values()].filter((g) => g.length >= MIN_BASE);
+      if (big.length > 1) {
+        const parts = big.map((g) => {
+          const n = new Array(D.skills.length).fill(0);
+          for (const i of g) for (const s of D.jobs[i][J.SKILLS]) n[s]++;
+          return n.map((x) => x / g.length);
+        });
+        share = (s) => parts.reduce((sum, p) => sum + p[s], 0) / parts.length;
+      }
+    }
     return counts
-      .map((n, s) => ({ key: s, id: D.skills[s].id, label: D.skills[s].label, group: D.skills[s].group, n, share: idx.length ? n / idx.length : 0 }))
+      .map((n, s) => ({ key: s, id: D.skills[s].id, label: D.skills[s].label, group: D.skills[s].group, n, share: share(s) }))
       .filter((x) => x.n > 0)
-      .sort((a, b) => b.n - a.n);
+      .sort((a, b) => b.share - a.share || b.n - a.n);
   }
 
   // Of the postings in idx that the LLM read and that ask for skill s: how many require it.
@@ -587,6 +666,9 @@ async function main() {
   // --- Wiring -----------------------------------------------------------------------------------------
   function syncUrl() {
     const p = new URLSearchParams();
+    if (JOBS) p.set("mode", "jobs");
+    if (beta) p.set("beta", "1");
+    if (state.academy >= 0) p.set("academy", academies[state.academy].id);
     if (state.field >= 0) p.set("field", D.categories[state.field]);
     if (state.city >= 0) p.set("city", D.cities[state.city].name);
     if (state.noGerman) p.set("german", "no");
@@ -624,18 +706,55 @@ async function main() {
   tracker.setOnlineCheck(async (refs) => {
     const gone = new Set();
     const companyUrls = ctx.companiesUrls?.();
-    const refnrs = refs.some((r) => r.startsWith("p:"))
+    const { posting: pp, company: cp } = refPrefix;      // "p:"/"c:", or "k:"/"kc:" in Jobs mode
+    const refnrs = refs.some((r) => r.startsWith(pp))
       ? await ctx.match.postings().then((p) => (p ? new Set(p.rows.map((row) => row[0])) : null))
       : null;
     for (const r of refs) {
-      if (r.startsWith("p:") && refnrs && !refnrs.has(r.slice(2))) gone.add(r);
-      if (r.startsWith("c:") && companyUrls && !companyUrls.has(r.slice(2))) gone.add(r);
+      if (r.startsWith(pp) && refnrs && !refnrs.has(r.slice(pp.length))) gone.add(r);
+      if (r.startsWith(cp) && companyUrls && !companyUrls.has(r.slice(cp.length))) gone.add(r);
     }
     return gone;
   });
   initCopyUrl();
   renderTrends();
   render();
+  if (JOBS) initChancen();
+
+  // --- Jobs mode: Opportunities (kurs.json; the score in kurs-rank.js) ----------------------------------
+  async function initChancen() {
+    let K;
+    try {
+      K = await (await fetch("data/kurs.json", { cache: "no-cache" })).json();
+    } catch {
+      return;                                                   // an extra: the page works without it
+    }
+    const { rows, skipped } = opportunities(K);
+    const count = (x) => `${x.postings_exact ? "" : "≥ "}${fmt.int(x.postings)}`;
+    document.getElementById("k-chancen").innerHTML = rows
+      .map((x, i) => `<li class="${i < 3 ? "top" : ""}"><button type="button" class="k-chance" data-pick="${esc(x.id)}">
+        <span class="k-rank">${i + 1}</span>
+        <span class="k-chance-body"><strong>${esc(x.name)}</strong> <small>${esc(x.academy.name)}</small>
+        <span class="k-chance-text">${esc(t("kurs.chance_new7", { n: count(x), m: fmt.pct(x.momentum, 0), qe: fmt.pct(x.quereinsteiger.share, 0) }))}</span>
+        <span class="k-chance-parts">${esc(t("kurs.chance_parts", { v: x.parts.volume, m: x.parts.momentum, o: x.parts.openness }))}</span></span>
+        <span class="k-score" title="${esc(t("kurs.score_title"))}">${x.score}</span></button></li>`)
+      .join("");
+    document.getElementById("k-chancen-insight").innerHTML = rows.length
+      ? t("kurs.chancen_insight", { top: rows.slice(0, 3).map((x) => `<strong>${esc(x.name)}</strong>`).join(", ") }) : "";
+    document.getElementById("k-chancen-method").textContent = t("kurs.method_simple", { min: MIN_BASE }) +
+      (skipped.length ? ` ${t("kurs.method_skipped", { list: skipped.map((x) => `${x.name} (${fmt.int(x.sample)})`).join(", ") })}` : "");
+    document.getElementById("chancen").hidden = false;
+    // A click shows that job title everywhere on the page.
+    document.getElementById("k-chancen").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-pick]");
+      if (!b) return;
+      state.field = D.categories.indexOf(b.dataset.pick);
+      state.academy = academies.findIndex((a) => a.id === academyOf[b.dataset.pick]);
+      fieldOptions();
+      render();
+      document.getElementById("top").scrollIntoView({ behavior: "smooth" });
+    });
+  }
 
   const ageDays = Math.floor((Date.now() - new Date(`${D.as_of}T12:00:00`)) / 864e5);
   if (ageDays > 2) {
@@ -671,6 +790,29 @@ async function main() {
   // Sections get their height only now, so jump to #anchor again.
   const target = location.hash && document.getElementById(location.hash.slice(1));
   if (target) target.scrollIntoView({ behavior: "instant" });
+}
+
+// Werkstudent | Jobs: reloads the page in the other mode (the city, skills and language carry over).
+// Shown while Jobs mode is in beta only with ?beta=1 (mode.js).
+function initModeSwitch() {
+  // The mode is known from the URL before the data loads: show its labels now, the page mustn't jump.
+  for (const id of ["mode-label", "mode-note"]) document.getElementById(id).hidden = !JOBS;
+  if (JOBS) document.querySelector(".lede").textContent = t("hero.lede", {});
+  if (!jobsAllowed) return;
+  const box = document.getElementById("mode-switch");
+  box.hidden = false;
+  for (const b of box.querySelectorAll("[data-mode]")) {
+    b.setAttribute("aria-pressed", String(b.dataset.mode === mode));
+    b.addEventListener("click", () => {
+      if (b.dataset.mode !== mode) location.assign(modeUrl(b.dataset.mode));
+    });
+  }
+  // The links to the old Jobs page switch the mode instead; in Jobs mode they aren't needed.
+  for (const id of ["kurs-link", "kurs-nav"]) {
+    const a = document.getElementById(id);
+    if (mode === "jobs") (id === "kurs-link" ? a.closest(".hero-kurs") : a).hidden = true;
+    else a.href = modeUrl("jobs");
+  }
 }
 
 // "Ask Claude": copy the MCP server URL.

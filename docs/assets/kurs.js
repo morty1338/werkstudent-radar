@@ -5,6 +5,7 @@
 import { barList, esc, fmt, initTooltip, rollDigits } from "./charts.js?v=dev";
 import { applyStatic, initLangSwitch, lang, skillLabel, t } from "./i18n.js?v=dev";
 import { MIN_BASE, opportunities, shareOf, wowChange } from "./kurs-rank.js?v=dev";
+import { JOBS_PUBLIC } from "./mode.js?v=dev";
 import { initTracker } from "./tracker.js?v=dev";
 
 const SKILL_ROWS = 10;      // bars shown; the rest is in kurs.json and the MCP tool
@@ -14,6 +15,17 @@ async function load(name) {
   const res = await fetch(`data/${name}.json`, { cache: "no-cache" });
   if (!res.ok) throw new Error(`${name}.json: HTTP ${res.status}`);
   return res.json();
+}
+
+// Once Jobs mode is public, this page is the main page in Jobs mode: old links keep working
+// (?a=<academy>&t=<job title> become its filters).
+function redirect() {
+  const p = new URLSearchParams(location.search);
+  const to = new URLSearchParams({ mode: "jobs" });
+  if (p.get("a")) to.set("academy", p.get("a"));
+  if (p.get("t")) to.set("field", p.get("t"));
+  if (p.get("lang")) to.set("lang", p.get("lang"));
+  location.replace(`index.html?${to}`);
 }
 
 async function main() {
@@ -373,4 +385,5 @@ async function main() {
   if (target) target.scrollIntoView({ behavior: "instant" });
 }
 
-main();
+if (JOBS_PUBLIC) redirect();
+else main();

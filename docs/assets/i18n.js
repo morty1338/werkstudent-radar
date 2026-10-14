@@ -2,9 +2,14 @@
 // filters. Every UI string lives in STRINGS below, both languages side by side.
 // Entries are plain strings with {placeholders} or functions (for plurals and
 // sentences that need reordering). Strings with HTML get already escaped values.
-// No imports, so every module can use it.
+// Its only import is mode.js (no imports itself), so every module can use it.
+
+import { mode } from "./mode.js?v=dev";
 
 export const lang = new URLSearchParams(location.search).get("lang") === "de" ? "de" : "en";
+// The data set (mode.js): in Jobs mode an entry "key@jobs" replaces "key", so the render code
+// stays the same for both.
+export { mode };
 export const locale = lang === "de" ? "de-DE" : "en-GB";
 
 const plural = (n, one, many) => (n === 1 ? one : many);
@@ -405,6 +410,90 @@ const STRINGS = {
     de: 'Werkstudent Radar · Daten: Bundesagentur für Arbeit und Karriereseiten der Unternehmen über <a href="https://www.arbeitnow.com/">Arbeitnow</a> · <a href="https://github.com/morty1338/werkstudent-radar">Quellcode</a>',
   },
 
+  // --- Mode switch and Jobs mode ("key@jobs" replaces "key" in Jobs mode) ----------------------------------------------
+  "mode.aria": { en: "Data set", de: "Datensatz" },
+  "mode.werkstudent": { en: "Werkstudent", de: "Werkstudent" },
+  "mode.jobs": { en: "Jobs", de: "Jobs" },
+  "mode.label": { en: "Kurs-Radar · jobs after a course", de: "Kurs-Radar · Jobs nach dem Kurs" },
+  "mode.sample": {
+    en: "Bundesagentur postings only, a snapshot. Job titles with many postings are a sample of the most relevant ones (marked “sample”).",
+    de: "Nur Stellen der Bundesagentur für Arbeit, Momentaufnahme. Berufsbilder mit vielen Stellen sind eine Stichprobe der relevantesten (markiert mit „Stichprobe“).",
+  },
+  "mode.sampled": { en: "sample", de: "Stichprobe" },
+  "mode.sampled_tip": {
+    en: "Sample: the most relevant postings of at least {n} on the board",
+    de: "Stichprobe: die relevantesten Stellen von mindestens {n} in der Jobbörse",
+  },
+  "tile.board": { en: "{n} on the board{s}", de: "{n} in der Jobbörse{s}" },
+  "filter.academy": { en: "Academy", de: "Akademie" },
+  "filter.all_academies": { en: "All academies", de: "Alle Akademien" },
+  "filter.field@jobs": { en: "Job title", de: "Berufsbild" },
+  "filter.all_fields@jobs": { en: "All job titles", de: "Alle Berufsbilder" },
+  "hero.title@jobs": { en: "Jobs after a course, in&nbsp;numbers", de: "Jobs nach dem Kurs, in&nbsp;Zahlen" },
+  "hero.lede@jobs": {
+    en: () => "The job titles that career-changer courses train for, across all working times: where they are, what they pay per year and which skills they ask for.",
+    de: () => "Die Berufe, auf die Kurse für Quereinsteiger vorbereiten, in Voll- und Teilzeit: wo sie sind, was sie im Jahr zahlen und welche Skills sie verlangen.",
+  },
+  "tile.jobs_online@jobs": { en: "Jobs read", de: "Stellen ausgewertet" },
+  "tile.median@jobs": { en: "Median salary", de: "Mediangehalt" },
+  "tile.per_hour@jobs": { en: "per year · {ci}", de: "pro Jahr · {ci}" },
+  "where.map_aria@jobs": { en: "Map of the postings by place", de: "Karte der Stellen nach Ort" },
+  "where.by_field@jobs": { en: "By job title", de: "Nach Berufsbild" },
+  "where.city_most@jobs": { en: " Most are <strong>{field}</strong>.", de: " Die meisten sind <strong>{field}</strong>." },
+  "where.biggest@jobs": { en: " The biggest job title is <strong>{field}</strong>.", de: " Das größte Berufsbild ist <strong>{field}</strong>." },
+  "ci@jobs": { en: "95% CI €{lo}–{hi}", de: "95%-KI {lo}–{hi} €" },
+  "why.few@jobs": { en: "too few salaries stated", de: "zu wenige Gehaltsangaben" },
+  "pay.hourly@jobs": { en: "Salary per year", de: "Jahresgehalt" },
+  "pay.by_field@jobs": { en: "by job title", de: "nach Berufsbild" },
+  "pay.legend@jobs": {
+    en: '<span class="lg-range"></span> middle half of salaries <span class="lg-dot"></span> median',
+    de: '<span class="lg-range"></span> mittlere Hälfte der Gehälter <span class="lg-dot"></span> Median',
+  },
+  "pay.range_tip@jobs": {
+    en: ({ label, median, ci, p25, p75, n, emp }) => `<strong>${label}</strong><br>Median ${median} a year · ${ci}<br>Half earn ${p25}–${p75}<br>${n} roles from ${emp} employers`,
+    de: ({ label, median, ci, p25, p75, n, emp }) => `<strong>${label}</strong><br>Median ${median} im Jahr · ${ci}<br>Die Hälfte verdient ${p25}–${p75}<br>${n} Rollen von ${emp} Arbeitgebern`,
+  },
+  "pay.one_employer@jobs": { en: "<br>{pct} of these salaries come from one employer", de: "<br>{pct} dieser Gehälter stammen von einem Arbeitgeber" },
+  "pay.bin_top@jobs": { en: "€{lo} a year or more", de: "{lo} € im Jahr oder mehr" },
+  "pay.bin@jobs": { en: "€{lo}–{hi} a year", de: "{lo}–{hi} € im Jahr" },
+  "pay.axis@jobs": { en: "€ per year (full time) · {n} roles with a stated salary", de: "€ pro Jahr (Vollzeit) · {n} Rollen mit Gehaltsangabe" },
+  "pay.no_rates@jobs": { en: "No stated salaries for this selection.", de: "Keine Gehaltsangaben für diese Auswahl." },
+  "pay.too_few@jobs": {
+    en: "Too few jobs state a salary for this selection ({n}). Try widening the filters.",
+    de: "Zu wenige Stellen nennen für diese Auswahl ein Gehalt ({n}). Versuche, die Filter zu erweitern.",
+  },
+  "pay.insight@jobs": {
+    en: "Half of the full-time jobs that state a salary pay between <strong>{p25}</strong> and <strong>{p75}</strong> a year.",
+    de: "Die Hälfte der Vollzeitstellen mit Gehaltsangabe zahlt zwischen <strong>{p25}</strong> und <strong>{p75}</strong> im Jahr.",
+  },
+  "pay.dots_empty@jobs": { en: "Not enough salary data for this selection.", de: "Nicht genug Gehaltsdaten für diese Auswahl." },
+  "trends.pay@jobs": { en: "Median salary per year", de: "Medianes Jahresgehalt" },
+  "check.per_hour@jobs": { en: " a year", de: " im Jahr" },
+  "updates.insight@jobs": {
+    en: "Telegram and the RSS feeds announce new Werkstudent jobs only; there is no channel for these jobs yet. Claude can answer about both data sets.",
+    de: "Telegram und die RSS-Feeds melden bisher nur neue Werkstudentenjobs; für diese Jobs gibt es noch keinen Kanal. Claude beantwortet Fragen zu beiden Datensätzen.",
+  },
+  "subscribe.jobs_note": {
+    en: "The feeds list new Werkstudent jobs. Switch to Werkstudent to subscribe per field.",
+    de: "Die Feeds enthalten neue Werkstudentenjobs. Wechsle zu Werkstudent, um pro Bereich zu abonnieren.",
+  },
+  "co.insight@jobs": {
+    en: (v) => `<strong>${v.n}</strong> ${plural(v.n === "1" ? 1 : 2, "job", "jobs")} for these job titles at ${v.firms} ${plural(v.firms === "1" ? 1 : 2, "company", "companies")} in ${v.city}, read every morning from their own job boards.`,
+    de: (v) => `<strong>${v.n}</strong> ${plural(v.n === "1" ? 1 : 2, "Stelle", "Stellen")} zu diesen Berufsbildern bei ${v.firms} Unternehmen in ${v.city}, jeden Morgen direkt von ihren Jobbörsen gelesen.`,
+  },
+  "co.all_fields@jobs": { en: "All job titles", de: "Alle Berufsbilder" },
+  "co.empty@jobs": { en: "No jobs for these job titles at the listed companies in {city} right now.", de: "Gerade keine Stellen zu diesen Berufsbildern bei den gelisteten Unternehmen in {city}." },
+  "co.quiet@jobs": { en: "No jobs for these job titles here right now: {list}.", de: "Hier gerade ohne Stellen zu diesen Berufsbildern: {list}." },
+  "chancen.title": { en: "Where could a new course make sense?", de: "Wo könnte ein neuer Kurs sinnvoll sein?" },
+  "about.body@jobs": {
+    en: `<p><strong>Source.</strong> Every morning the public job search of the <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a> is searched for the job titles that career-changer courses train for (Sales, Marketing, HR, KI, Job Academy; all working times, without apprenticeships, internships, Werkstudent jobs and leadership roles). Only these postings: other job boards are missing, and the numbers are a snapshot. Job titles with many postings are a <strong>sample</strong> of the 500 most relevant ones; the number on the board is then a lower bound (≥). The history starts on 14 Oct 2026.</p>
+<p><strong>Salary</strong> per year, of full-time jobs, from the posting's salary fields or clear phrases like “45.000 – 55.000 € brutto pro Jahr” (a monthly salary times 12, a range by its midpoint; “up to” and unclear amounts are ignored). Each role counts once; a median needs at least 10 roles from 5 employers and a narrow 95% confidence interval.</p>
+<p><strong>Skills</strong> are read by Claude Haiku as for the Werkstudent jobs; basics (MS Office, Excel, PowerPoint, Word, Outlook, MS Teams, driving licence) are shown apart. Job texts belong to the employers and aren't published here. Code and data: <a href="https://github.com/morty1338/werkstudent-radar">github.com/morty1338/werkstudent-radar</a>.</p>`,
+    de: `<p><strong>Quelle.</strong> Jeden Morgen wird die öffentliche Jobsuche der <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a> nach den Berufen durchsucht, auf die Kurse für Quereinsteiger vorbereiten (Sales, Marketing, HR, KI, Job Academy; alle Arbeitszeiten, ohne Ausbildung, Praktika, Werkstudentenjobs und Leitungsstellen). Nur diese Stellen: andere Jobbörsen fehlen, und die Zahlen sind eine Momentaufnahme. Berufsbilder mit vielen Stellen sind eine <strong>Stichprobe</strong> der 500 relevantesten; die Zahl in der Jobbörse ist dann eine Untergrenze (≥). Der Verlauf beginnt am 14.10.2026.</p>
+<p><strong>Gehalt</strong> pro Jahr, nur Vollzeitstellen, aus den Gehaltsfeldern der Anzeige oder klaren Angaben wie „45.000 – 55.000 € brutto pro Jahr“ (Monatsgehalt mal 12, eine Spanne mit ihrer Mitte; „bis zu“ und unklare Beträge werden ignoriert). Jede Rolle zählt einmal; ein Median braucht mindestens 10 Rollen von 5 Arbeitgebern und ein enges 95%-Konfidenzintervall.</p>
+<p><strong>Skills</strong> liest Claude Haiku wie bei den Werkstudentenjobs; Basics (MS Office, Excel, PowerPoint, Word, Outlook, MS Teams, Führerschein) stehen getrennt. Stellentexte gehören den Arbeitgebern und werden hier nicht veröffentlicht. Code und Daten: <a href="https://github.com/morty1338/werkstudent-radar">github.com/morty1338/werkstudent-radar</a>.</p>`,
+  },
+
   // --- Kurs-Radar (kurs.html) ----------------------------------------------------------------------------------------
   "kurs.brand_aria": { en: "Werkstudent Radar, back to the Werkstudent jobs", de: "Werkstudent Radar, zurück zu den Werkstudentenjobs" },
   "kurs.back": { en: "Back to the Werkstudent jobs", de: "Zurück zu den Werkstudentenjobs" },
@@ -607,7 +696,7 @@ const STRINGS = {
 
 // t("filter.count", { n: "4,822" }); a function entry gets the vars object.
 export function t(key, vars = {}) {
-  const entry = STRINGS[key];
+  const entry = (mode === "jobs" && STRINGS[`${key}@jobs`]) || STRINGS[key];
   if (!entry) return key;
   const s = entry[lang] ?? entry.en;
   if (typeof s === "function") return s(vars);

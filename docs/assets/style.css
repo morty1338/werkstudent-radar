@@ -501,6 +501,7 @@ body.trk-open { overflow: hidden; }
     font-size: 14px; font-weight: 600; background: var(--surface); color: var(--ink); border: 1px solid var(--surface-3);
   }
   .filters-btn::before { content: "☰"; font-size: 12px; color: var(--accent); }
+  .mode-switch button { min-height: 32px; padding: 4px 10px; font-size: 13px; }
   .filter-chips { display: flex; gap: 6px; }
   .filter-pill {
     display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 12px; border-radius: 999px; white-space: nowrap; cursor: pointer;
@@ -546,6 +547,21 @@ body.trk-open { overflow: hidden; }
   * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
   .map-sweep { display: none; }
 }
+
+/* Werkstudent | Jobs: the data set, a segmented control at the start of the filter row. */
+.mode-switch { display: inline-flex; flex: none; padding: 3px; border-radius: 10px; background: var(--surface-2); border: 1px solid var(--line); }
+.mode-switch button {
+  border: 0; background: none; color: var(--ink-2); font-size: 14px; font-weight: 600; padding: 5px 12px; min-height: 32px;
+  border-radius: 7px; cursor: pointer; white-space: nowrap;
+}
+.mode-switch button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
+.mode-switch button:hover:not([aria-pressed="true"]) { color: var(--ink); }
+.mode-label {
+  margin: -6px 0 10px; font-family: var(--mono); font-size: 12px; font-weight: 600; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--accent-ink);
+}
+.mode-note { font-size: 13px; color: var(--ink-3); margin-top: 14px; max-width: 820px; }
+@media (min-width: 561px) { #f-academy { width: 170px; } }
 
 /* Kurs-Radar (kurs.html) */
 .k-back { margin: 0 0 14px; font-size: 15px; }

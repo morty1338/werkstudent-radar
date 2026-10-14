@@ -282,7 +282,8 @@ async def test_server_lists_the_tools_with_descriptions(server):
     assert set(tools) == {"get_overview", "search_jobs", "pay_stats", "top_skills", "match_skills", "kurs_radar"}
     assert all(len(t.description or "") > 80 for t in tools.values())
     assert tools["match_skills"].input_schema["required"] == ["skills"]
-    assert set(tools["search_jobs"].input_schema["properties"]) == {"city", "field", "skill", "no_german", "limit"}
+    assert set(tools["search_jobs"].input_schema["properties"]) == {"city", "field", "skill", "no_german", "limit", "mode"}
+    assert "mode" in tools["pay_stats"].input_schema["properties"] and "jobs" in tools["pay_stats"].description
 
 
 @pytest.mark.anyio
@@ -322,3 +323,32 @@ def test_pay_figures_match_summary_json():
     for c in d.summary["cities"][:3]:
         r = rt.pay_stats(d, city=c["city"])
         assert (r["rates"], r["median_eur_per_hour"]) == (c["with_pay"], c["median_pay"])
+
+
+
+# --- Jobs mode: the same tools on jobs_*.json ----------------------------------------------------
+
+@pytest.mark.anyio
+async def test_jobs_mode_reads_the_jobs_files_and_says_per_year(server, data_dir):
+    from mcp import Client
+    for name in ("summary", "checker", "postings"):
+        data = json.loads((data_dir / f"{name}.json").read_text(encoding="utf-8"))
+        if name == "checker":
+            for j in data["jobs"]:
+                j[rd.PAY] = j[rd.PAY] * 2500 if j[rd.PAY] is not None else None     # €/h -> a salary per year
+        (data_dir / f"jobs_{name}.json").write_text(json.dumps(data), encoding="utf-8")
+    async with Client(server.mcp) as c:
+        ws = await c.call_tool("pay_stats", {"city": "Berlin", "field": "it"})
+        jobs = await c.call_tool("pay_stats", {"city": "Berlin", "field": "it", "mode": "jobs"})
+        bad = await c.call_tool("pay_stats", {"mode": "freelance"})
+    assert ws.structured_content["median_eur_per_hour"] == 17.5 and "mode" not in ws.structured_content
+    j = jobs.structured_content
+    assert j["mode"] == "jobs" and j["median_eur_per_year"] == 43750 and "median_eur_per_hour" not in j
+    assert all(isinstance(v, int) for v in j["middle_half"])
+    assert bad.is_error and "Modes are: werkstudent" in bad.content[0].text
+
+
+def test_resolve_mode():
+    assert rt.resolve_mode(None) == "werkstudent" and rt.resolve_mode("Jobs") == "jobs" and rt.resolve_mode("kurs-radar") == "jobs"
+    with pytest.raises(rt.UnknownValue):
+        rt.resolve_mode("praktikum")

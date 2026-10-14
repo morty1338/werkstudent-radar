@@ -475,3 +475,46 @@ def kurs_radar(k, academy=None, job_title=None):
     return {**base, "academies": [{"academy": x["name"], **_kurs_metrics(k, x, detail=False),
                                    "job_titles": [t["name"] for t in x["titles"]]} for x in academies],
             "opportunities": kurs_opportunities(k)}
+
+
+# --- Modes: the Werkstudent data (default) or the Jobs data set ------------------------------------
+
+MODES = {"werkstudent": "", "jobs": "jobs_"}     # mode -> file prefix in docs/data
+
+
+def resolve_mode(name):
+    key = fold(name or "werkstudent")
+    for m in MODES:
+        if key == fold(m) or (m == "jobs" and key in ("job", "alljobs", "kursradar", "kurs")):
+            return m
+    raise UnknownValue("mode", name, [], "Modes are: werkstudent (default), jobs.")
+
+
+def for_mode(data, mode):
+    """A tool's answer for the Jobs data set: pay is a salary per year there, so the hourly
+    names become yearly ones (rounded to whole euros), "field" means job title, and the
+    answer says which data set it is about."""
+    if mode != "jobs":
+        return data
+
+    def walk(x):
+        if isinstance(x, dict):
+            out = {}
+            for k, v in x.items():
+                k2 = k.replace("eur_per_hour", "eur_per_year").replace("stated_rate", "stated_salary")
+                v = walk(v)
+                if k2 != k or k in ("middle_half", "ci95"):
+                    v = [round(y) if isinstance(y, (int, float)) else y for y in v] if isinstance(v, list) else (round(v) if isinstance(v, float) else v)
+                out[k2] = v
+            return out
+        if isinstance(x, list):
+            return [walk(v) for v in x]
+        if isinstance(x, str):
+            return x.replace("an hourly rate", "a salary per year").replace("stated rates", "stated salaries")
+        return x
+
+    return {"mode": "jobs", "pay_unit": "eur_per_year_full_time",
+            "note_mode": "Jobs mode: all working times for the Kurs-Radar job titles (fields are job titles), "
+                         "Bundesagentur postings only; big job titles are a sample of the most relevant postings.",
+            **walk(data)}
+

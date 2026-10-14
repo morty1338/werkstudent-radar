@@ -8,6 +8,7 @@
 import { esc, fmt } from "./charts.js?v=dev";
 import { gapPlan } from "./gap.js?v=dev";
 import { t } from "./i18n.js?v=dev";
+import { dataUrl, refPrefix } from "./mode.js?v=dev";
 
 const POPULAR = 24;
 const PAGE = 15;
@@ -84,7 +85,7 @@ export function initMatch(ctx, initialIds) {
 
   function ensurePostings() {
     if (!loading) {
-      loading = fetch("data/postings.json", { cache: "no-cache" })
+      loading = fetch(dataUrl("postings"), { cache: "no-cache" })
         .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
         .then((data) => {
           // Both files come from the same build; otherwise positions don't line up.
@@ -257,7 +258,7 @@ export function initMatch(ctx, initialIds) {
     const [refnr, title, company, city, , link] = postings.rows[i];
     // Bundesagentur postings link via the reference number; company career sites have their own URL.
     const url = link || postings.url.replace("{refnr}", encodeURIComponent(refnr));
-    return { ref: `p:${refnr}`, title, company, city, url };
+    return { ref: `${refPrefix.posting}${refnr}`, title, company, city, url };
   }
 
   function trackButton(ref, index) {

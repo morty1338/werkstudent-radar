@@ -115,15 +115,16 @@ class Dataset:
         return row
 
 
-def load(source):
+def load(source, prefix=""):
     """summary + checker + postings as a Dataset. postings.json is only used when it
-    belongs to the same day and has one row per checker row (they are matched by position)."""
-    summary, checker = source.get("summary"), source.get("checker")
+    belongs to the same day and has one row per checker row (they are matched by position).
+    prefix "jobs_" reads the Jobs mode files (jobs_summary.json, …) in the same shape."""
+    summary, checker = source.get(f"{prefix}summary"), source.get(f"{prefix}checker")
     if checker.get("as_of") != summary.get("as_of"):
         log.warning("summary.json (%s) and checker.json (%s) are from different days", summary.get("as_of"), checker.get("as_of"))
     postings, fields, url = None, [], ""
     try:
-        p = source.get("postings")
+        p = source.get(f"{prefix}postings")
         if p.get("as_of") == checker.get("as_of") and len(p.get("rows") or []) == len(checker["jobs"]):
             postings, fields, url = p["rows"], p["fields"], p.get("url", "")
         else:
@@ -148,15 +149,15 @@ def load(source):
 class Store:
     """The current Dataset, rebuilt only when one of the files changed (or the live cache expired)."""
 
-    def __init__(self, source):
-        self.source = source
+    def __init__(self, source, prefix=""):
+        self.source, self.prefix = source, prefix
         self._key = None
         self._data = None
 
     def data(self):
-        parts = [self.source.get(n) for n in ("summary", "checker")]
+        parts = [self.source.get(f"{self.prefix}{n}") for n in ("summary", "checker")]
         key = tuple(id(p) for p in parts)
         if key != self._key:
-            self._data = load(self.source)
+            self._data = load(self.source, self.prefix)
             self._key = key
         return self._data

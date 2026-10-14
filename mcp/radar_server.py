@@ -36,34 +36,47 @@ aren't available; each posting links to its original. kurs_radar covers a differ
 regular jobs (all working times) for the titles career-changer courses train for."""
 
 mcp = MCPServer("Werkstudent Radar", instructions=INSTRUCTIONS)
-store = radar_data.Store(radar_data.Source())
+source = radar_data.Source()
+stores = {m: radar_data.Store(source, prefix) for m, prefix in rt.MODES.items()}
+store = stores["werkstudent"]          # the default data set (radar_http's /health reads its source)
+MODE_DOC = """
+    mode: "werkstudent" (default: Werkstudent jobs) or "jobs" (all working times for the job titles
+    career-changer courses train for; fields are job titles, pay is a full-time salary per year)."""
 
 
-def answer(fn, *args, **kwargs):
+def answer(fn, *args, mode=None, **kwargs):
     """Run a tool on today's data; unknown names and missing data become messages for Claude.
 
     The text the model reads is compact JSON (the SDK would indent it, which costs tokens);
     the same dict goes out as structured content and matches the declared dict return type."""
     try:
-        data = fn(store.data(), *args, **kwargs)
+        m = rt.resolve_mode(mode)
+        data = rt.for_mode(fn(stores[m].data(), *args, **kwargs), m)
     except (rt.UnknownValue, radar_data.DataError) as e:
         raise ToolError(str(e)) from e
     text = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
     return CallToolResult(content=[TextContent(type="text", text=text)], structured_content=data)
 
 
+def with_mode_doc(fn):
+    fn.__doc__ = (fn.__doc__ or "") + MODE_DOC
+    return fn
+
+
 @mcp.tool()
-def get_overview() -> dict[str, Any]:
+@with_mode_doc
+def get_overview(mode: str = "werkstudent") -> dict[str, Any]:
     """Headline numbers of the Werkstudent job market in Germany today: number of postings,
     date of the last update, median hourly pay with its 95% confidence interval, the top
     cities, fields and skills. Start here for general questions ("how many Werkstudent jobs
     are there?", "what does a Werkstudent earn?")."""
-    return answer(rt.get_overview)
+    return answer(rt.get_overview, mode=mode)
 
 
 @mcp.tool()
+@with_mode_doc
 def search_jobs(city: str | None = None, field: str | None = None, skill: str | None = None,
-                no_german: bool = False, limit: int = 10) -> dict[str, Any]:
+                no_german: bool = False, limit: int = 10, mode: str = "werkstudent") -> dict[str, Any]:
     """Find Werkstudent postings online today, newest first, with title, company, city,
     field, hourly pay if stated, German requirement and the link to the original posting.
 
@@ -72,21 +85,23 @@ def search_jobs(city: str | None = None, field: str | None = None, skill: str | 
     skill: one skill, e.g. "Python", "SQL", "Excel", "SAP".
     no_german: only postings that don't require German.
     limit: how many postings to return (1–50); `matches` gives the total."""
-    return answer(rt.search_jobs, city=city, field=field, skill=skill, no_german=no_german, limit=limit)
+    return answer(rt.search_jobs, city=city, field=field, skill=skill, no_german=no_german, limit=limit, mode=mode)
 
 
 @mcp.tool()
-def pay_stats(field: str | None = None, city: str | None = None) -> dict[str, Any]:
+@with_mode_doc
+def pay_stats(field: str | None = None, city: str | None = None, mode: str = "werkstudent") -> dict[str, Any]:
     """Hourly pay of Werkstudent postings, optionally for one field and/or city: median,
     middle half (25th–75th percentile), 95% confidence interval and how many postings state
     a rate. `reliable` is false when there are fewer than 10 stated rates (or fewer than 5
     employers, or a very wide interval); then say the numbers are only anecdotal."""
-    return answer(rt.pay_stats, field=field, city=city)
+    return answer(rt.pay_stats, field=field, city=city, mode=mode)
 
 
 @mcp.tool()
+@with_mode_doc
 def top_skills(field: str | None = None, city: str | None = None, limit: int = 10,
-               exclude_basics: bool = False) -> dict[str, Any]:
+               exclude_basics: bool = False, mode: str = "werkstudent") -> dict[str, Any]:
     """The skills most often asked for in Werkstudent postings, optionally for one field
     and/or city, with the number and share of postings that ask for each. Where the
     postings were read by an LLM, `must_have` / `nice_to_have` count how many of those
@@ -94,18 +109,19 @@ def top_skills(field: str | None = None, city: str | None = None, limit: int = 1
     `exclude_basics` leaves out skills most office jobs ask for (MS Office, Excel,
     PowerPoint, Word, Outlook, MS Teams, driving licence), so the specific skills of a field show; use it for
     "what do IT jobs really ask for?"."""
-    return answer(rt.top_skills, field=field, city=city, limit=limit, exclude_basics=exclude_basics)
+    return answer(rt.top_skills, field=field, city=city, limit=limit, exclude_basics=exclude_basics, mode=mode)
 
 
 @mcp.tool()
+@with_mode_doc
 def match_skills(skills: list[str], city: str | None = None, field: str | None = None,
-                 examples: int = 3) -> dict[str, Any]:
+                 examples: int = 3, mode: str = "werkstudent") -> dict[str, Any]:
     """How many Werkstudent postings someone with these skills qualifies for (a posting fits
     when at most a quarter of its listed skills are missing), the share of postings that list
     skills, the next 3 skills that would make the most extra postings fit, and the newest
     fitting postings with links (`examples`, 0–10). Use it for "which jobs fit my skills?" or
     "what should I learn next?". Optional city and field filters."""
-    return answer(rt.match_skills, skills, city=city, field=field, examples=examples)
+    return answer(rt.match_skills, skills, city=city, field=field, examples=examples, mode=mode)
 
 
 @mcp.tool()
@@ -127,7 +143,7 @@ def kurs_radar(academy: str | None = None, job_title: str | None = None) -> dict
 def answer_kurs(fn, **kwargs):
     """Like `answer`, on kurs.json (a separate file; missing until the Kurs-Radar ran)."""
     try:
-        data = fn(store.source.get("kurs"), **kwargs)
+        data = fn(source.get("kurs"), **kwargs)
     except (rt.UnknownValue, radar_data.DataError) as e:
         raise ToolError(str(e)) from e
     text = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
@@ -139,7 +155,7 @@ HTTP_TTL = 3600   # the data changes once a day; an hour keeps a remote server c
 
 def configure(argv=None):
     """Pick the transport and the data source from the command line."""
-    global store
+    global source, stores, store
     parser = argparse.ArgumentParser(description="Werkstudent Radar MCP server (stdio, or Streamable HTTP with --http)")
     parser.add_argument("--live", action="store_true", help=f"read the published JSON from {radar_data.LIVE_URL}")
     parser.add_argument("--data-dir", help="folder with summary.json, checker.json, postings.json (default: docs/data)")
@@ -150,7 +166,9 @@ def configure(argv=None):
     args = parser.parse_args(argv)
     live = args.live or (args.http and not args.data_dir)
     ttl = args.ttl or (HTTP_TTL if args.http else radar_data.LIVE_TTL)
-    store = radar_data.Store(radar_data.Source(data_dir=args.data_dir or radar_data.DATA_DIR, live=live, ttl=ttl))
+    source = radar_data.Source(data_dir=args.data_dir or radar_data.DATA_DIR, live=live, ttl=ttl)
+    stores = {m: radar_data.Store(source, prefix) for m, prefix in rt.MODES.items()}
+    store = stores["werkstudent"]
     return args
 
 

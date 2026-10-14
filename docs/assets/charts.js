@@ -21,6 +21,11 @@ export const fmt = {
   shortDate: (iso) => new Date(`${iso}T00:00:00`).toLocaleDateString(locale, { day: "numeric", month: "short" }),
 };
 
+// Jobs mode shows salaries per year: whole euros instead of cents everywhere pay is formatted.
+export function payPerYear() {
+  fmt.eur = fmt.eur0;
+}
+
 export function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 }
@@ -188,7 +193,7 @@ export function histogram(el, bins, { median, axisTitle } = {}) {
 // --- Dot-range rows: median dot on a p25–p75 bar, on a shared € scale --------------
 // rows: [{ key, label, sub, p25, median, p75, tip, muted, selected }]
 
-export function dotRange(el, rows, { min, max, ticks, empty = t("pay.dots_empty") } = {}) {
+export function dotRange(el, rows, { min, max, ticks, empty = t("pay.dots_empty"), tickLabel = (v) => (lang === "de" ? `${v} €` : `€${v}`) } = {}) {
   if (!rows.length) {
     el.innerHTML = `<p class="empty">${esc(empty)}</p>`;
     return;
@@ -199,7 +204,7 @@ export function dotRange(el, rows, { min, max, ticks, empty = t("pay.dots_empty"
     <div class="dots">
       <div class="dot-row dot-axis" aria-hidden="true">
         <div></div>
-        <div class="dot-track">${ticks.map((v) => `<span style="left:${x(v)}%">${lang === "de" ? `${v} €` : `€${v}`}</span>`).join("")}</div>
+        <div class="dot-track">${ticks.map((v) => `<span style="left:${x(v)}%">${tickLabel(v)}</span>`).join("")}</div>
         <div></div>
       </div>
       ${rows

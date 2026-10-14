@@ -6,6 +6,7 @@
 
 import { esc, fmt } from "./charts.js?v=dev";
 import { fieldLabel, lang, t } from "./i18n.js?v=dev";
+import { refPrefix } from "./mode.js?v=dev";
 
 const CITIES = ["Berlin", "München"];
 const CITY_PARAM = { Berlin: "berlin", München: "muenchen" };
@@ -55,7 +56,7 @@ export function initCompanies(ctx, data) {
   });
   // "+ Track" adds a job to the visitor's applications; once tracked it opens the list.
   const index = new Map(data.jobs.map((j, i) => [j, i]));
-  const jobRef = (j) => `c:${j.url}`;
+  const jobRef = (j) => `${refPrefix.company}${j.url}`;
   el.list.addEventListener("click", (e) => {
     const b = e.target.closest("[data-track]");
     if (!b || !ctx.tracker) return;

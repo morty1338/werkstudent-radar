@@ -62,11 +62,17 @@
     </div>
     <div class="filterbar" id="filterbar">
       <div class="wrap filter-row">
+        <!-- Werkstudent | Jobs: the data set (?mode=jobs). Hidden until Jobs mode is out of beta (?beta=1). -->
+        <div class="mode-switch" id="mode-switch" role="group" aria-label="Data set" data-i18n-attr="aria-label:mode.aria" hidden>
+          <button type="button" data-mode="werkstudent" aria-pressed="true" data-i18n="mode.werkstudent">Werkstudent</button><button type="button" data-mode="jobs" aria-pressed="false" data-i18n="mode.jobs">Jobs</button>
+        </div>
         <button type="button" class="filters-btn" id="f-open" aria-expanded="false" aria-controls="f-sheet" data-i18n="filter.open">Filters</button>
         <div class="filter-chips" id="f-chips"></div>
         <!-- Inline on wide screens; a bottom sheet behind the Filters button on phones. -->
         <div class="filter-controls" id="f-sheet">
           <div class="sheet-head"><strong data-i18n="filter.open">Filters</strong><button type="button" class="link-btn" id="f-close" data-i18n="filter.close">Close</button></div>
+          <label class="sr-only" for="f-academy" data-i18n="filter.academy" hidden>Academy</label>
+          <select id="f-academy" hidden><option value="" data-i18n="filter.all_academies">All academies</option></select>
           <label class="sr-only" for="f-field" data-i18n="filter.field">Field</label>
           <select id="f-field"><option value="" data-i18n="filter.all_fields">All fields</option></select>
           <label class="sr-only" for="f-city" data-i18n="filter.city">City</label>
@@ -86,6 +92,7 @@
       <div class="hero-grid">
       <div class="hero-text">
       <p class="status" id="status"></p>
+      <p class="mode-label" id="mode-label" data-i18n="mode.label" hidden>Kurs-Radar · jobs after a course</p>
       <h1 data-i18n-html="hero.title">Werkstudent jobs in Germany, in&nbsp;numbers</h1>
       <p class="lede">Every Werkstudent posting on the Bundesagentur für Arbeit job board and on company career sites.</p>
       <div class="hero-actions">
@@ -105,6 +112,7 @@
         <div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div>
       </div>
       <p class="stale" id="stale" hidden></p>
+      <p class="mode-note" id="mode-note" data-i18n="mode.sample" hidden>Bundesagentur postings only, a snapshot.</p>
     </section>
 
     <p class="wrap group-label" data-i18n="group.find">Find a job</p>
@@ -213,6 +221,15 @@
         </div>
         <aside class="card skill-detail" id="skill-detail" aria-live="polite"></aside>
       </div>
+    </section>
+
+    <!-- Jobs mode only: which job titles could be worth a new course (kurs.json, kurs-rank.js). -->
+    <section id="chancen" class="wrap section" hidden>
+      <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-trends"></use></svg></span><span data-i18n="kurs.nav_chancen">Opportunities</span></p>
+      <h2 data-i18n="chancen.title">Where could a new course make sense?</h2>
+      <p class="insight" id="k-chancen-insight"></p>
+      <ol class="k-chancen" id="k-chancen"></ol>
+      <p class="legend-line k-method" id="k-chancen-method"></p>
     </section>
 
     <section id="trends" class="wrap section">
