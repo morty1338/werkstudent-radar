@@ -87,6 +87,22 @@ def load_tables(db, history_dir=HISTORY_DIR):
                     for r in _read_csv(os.path.join(history_dir, "online.csv"))])
 
 
+def load_llm(db, history_dir=HISTORY_DIR):
+    """LLM results (written by radar/extract_llm.py, read-only here)."""
+    num = lambda v: float(v) if v not in ("", None) else None
+    rows = _read_csv(os.path.join(history_dir, "llm.csv"))
+    db.executemany("INSERT INTO llm_extractions VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", [
+        (r["refnr"], r["text_hash"], r["extracted"], r["status"], r["model"], r["prompt"],
+         r["german_level"] or None, r["german_req"] or None, r["english_level"] or None, r["english_req"] or None,
+         num(r["pay_min"]), num(r["pay_max"]), num(r["hours_min"]), num(r["hours_max"])) for r in rows])
+    skills = []
+    for r in rows:
+        for col, imp in (("must", "must_have"), ("nice", "nice_to_have")):
+            skills += [(r["refnr"], s, imp, None) for s in r[col].split("|") if s]
+            skills += [(r["refnr"], "other", imp, t) for t in r[f"other_{col}"].split(";") if t]
+    db.executemany("INSERT INTO llm_skills VALUES (?, ?, ?, ?)", skills)
+
+
 def dump_tables(db, history_dir=HISTORY_DIR):
     """Write the text tables in a stable order, so unchanged rows give no diff."""
     _write_csv(os.path.join(history_dir, "scans.csv"), SCAN_COLUMNS,
@@ -245,6 +261,7 @@ def run(jobs, history_dir=HISTORY_DIR, db_path=DB_PATH, timeline_path=TIMELINE_J
         stats = {"backfilled_days": db.execute("SELECT COUNT(DISTINCT date) FROM scans").fetchone()[0]}
     else:
         load_tables(db, history_dir)
+        load_llm(db, history_dir)
         day = max(r["last_seen"] for r in jobs)
         stats = record_scan(db, day, seen_on(jobs, day))
     upsert_postings(db, jobs)

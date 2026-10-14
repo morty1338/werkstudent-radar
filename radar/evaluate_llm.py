@@ -196,7 +196,7 @@ def build(sample, strata, labels, extra, results, batch_results, others=()):
 
     # German
     g = [r for r in rnd if labels[r]["german"] in GERMAN_LEVELS]
-    lg = {r: llm.german_label(results[r]["result"]) for r in refs_all}
+    lg = {r: llm.german_label(results[r]["result"], rules[r]["lang"]) for r in refs_all}
     open_ = lambda v: v in ("none", "plus")
     L += ["## German requirement (random 70)", "",
           "| Check | Rules | LLM |", "|---|---|---|",

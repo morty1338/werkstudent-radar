@@ -44,6 +44,35 @@ CREATE TABLE posting_skills (
     PRIMARY KEY (refnr, skill)
 );
 
+-- Skills and requirements extracted by Claude Haiku (radar/extract_llm.py), loaded from
+-- data/history/llm.csv: one row per posting, for the text with this hash. status
+-- no_sections: the posting had no task/requirement section and wasn't sent (rules only).
+CREATE TABLE llm_extractions (
+    refnr         TEXT PRIMARY KEY,
+    text_hash     TEXT NOT NULL,
+    extracted     TEXT NOT NULL,      -- run date
+    status        TEXT NOT NULL,      -- ok | no_sections
+    model         TEXT,
+    prompt        TEXT,               -- id of instructions + skill list + schema
+    german_level  TEXT,               -- none | basic | fluent | c1_plus | native | unknown
+    german_req    TEXT,               -- must_have | nice_to_have | not_needed | not_stated
+    english_level TEXT,
+    english_req   TEXT,
+    pay_min       REAL,               -- €/h, only when an hourly rate is stated
+    pay_max       REAL,
+    hours_min     REAL,               -- per week
+    hours_max     REAL
+);
+
+-- One row per extracted skill: an id from radar/skills.py, or 'other' with the posting's term.
+CREATE TABLE llm_skills (
+    refnr       TEXT NOT NULL,
+    skill       TEXT NOT NULL,
+    importance  TEXT NOT NULL,        -- must_have | nice_to_have
+    term        TEXT                  -- the posting's words, for 'other'
+);
+CREATE INDEX llm_skills_skill ON llm_skills (skill);
+
 -- Days between first and last sighting, and whether the posting is still online
 -- (censored, for survival analysis).
 CREATE VIEW lifetimes AS

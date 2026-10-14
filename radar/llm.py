@@ -285,9 +285,11 @@ def clean(raw, check_ids=True):
 GERMAN_TO_RULES = {"must_have": "required", "nice_to_have": "plus", "not_needed": "none", "not_stated": "implicit"}
 
 
-def german_label(result):
-    """The rules' German categories (required / plus / none / implicit) for a result."""
-    return GERMAN_TO_RULES[result["german_requirement"]]
+def german_label(result, lang=None):
+    """The rules' German categories (required / plus / none / implicit) for a result. As in
+    the rules, a posting in English that never mentions German counts as "none"."""
+    label = GERMAN_TO_RULES[result["german_requirement"]]
+    return "none" if label == "implicit" and lang == "en" else label
 
 
 # --- Cost ---------------------------------------------------------------------------------

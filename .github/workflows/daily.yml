@@ -84,6 +84,21 @@ jobs:
       - name: Extract features from new postings
         run: python -m radar.enrich 2>&1 | tee -a "$LOG"
 
+      # Skills and requirements of new or changed postings by Claude Haiku, as one
+      # Message Batch (half price); results in data/history/llm*.csv, keyed by a hash
+      # of the text so nothing is sent twice. Without the secret, on API errors or a
+      # batch that isn't done in time, the rules' results stand (a late batch is
+      # collected by the next run); this step never fails the run.
+      - name: Extract skills with Claude Haiku (new postings only)
+        continue-on-error: true
+        timeout-minutes: 25
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_MAX_POSTINGS: "1000"   # per run, newest first; the rest waits for later runs
+          LLM_MAX_USD: "1.00"        # estimated cost a run may not exceed
+          LLM_WAIT_MINUTES: "20"
+        run: python -m radar.extract_llm 2>&1 | tee -a "$LOG"
+
       # Which postings were online today, as stretches in data/history/*.csv;
       # also writes docs/data/timeline.json and data/history.sqlite (not committed).
       - name: Update posting history

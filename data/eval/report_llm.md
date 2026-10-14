@@ -106,7 +106,7 @@ Only the task and requirement sections (plus single lines about pay or hours) go
 |---|---|---|
 | Same category as the label (required / plus / none / implicit) | 99% | 96% |
 | Needs German: yes / no | 100% | 100% |
-| Shown as “open without German” and really are (all strata) | 15/15 | 7/7 |
+| Shown as “open without German” and really are (all strata) | 15/15 | 15/17 |
 
 German level found by the LLM (all 100): unknown 59, fluent 21, c1_plus 16, native 2, basic 1, none 1
 
