@@ -26,7 +26,8 @@ MAX_TOKENS = 1500
 # (platform.claude.com/docs/en/models/haiku-5-5/overview, checked 2026-10-14).
 PRICE = {"input": 0.10, "output": 0.50, "cache_write_5m": 0.125, "cache_write_1h": 0.20, "cache_read": 0.01}
 BATCH_DISCOUNT = 0.5          # Message Batches API: half price on all of the above
-MAX_INPUT_CHARS = 8000        # a fallback posting without headings is cut here
+MAX_INPUT_CHARS = 8000        # one section is cut here
+EFFORT = "low"                # adaptive thinking at low effort: +2 points F1 for +25% cost in the pilot
 
 LEVELS = ["none", "basic", "fluent", "c1_plus", "native", "unknown"]
 NEED = ["must_have", "nice_to_have", "not_needed", "not_stated"]
@@ -118,32 +119,23 @@ def text_hash(posting):
 # --- Prompt and schema --------------------------------------------------------------------
 
 def system_prompt():
-    skills = "\n".join(f"{sid}: {label} ({group})" for sid, label, group, _ in SKILLS)
-    return f"""You extract structured facts from German and English Werkstudent (working student) job postings.
+    skills = "\n".join(f"{sid}: {label}" for sid, label, _, _ in SKILLS)
+    return f"""Extract facts from a German or English Werkstudent (working student) job posting: its title, task and requirement sections, sometimes lines about pay or hours. Use only this text.
 
-You get the posting's title and the parts that describe the tasks and the requirements, sometimes also single lines about pay or hours. Answer only from this text.
+SKILLS: hard skills, tools, software, programming languages and licences the posting asks for (required or nice to have) or names as tools for the tasks.
+- Not: soft skills, fields of study, spoken languages, the employer's own products or clients.
+- Only what the text names; never infer a tool from a task ("Bestellanfragen bearbeiten" names no CRM, "Datenanalyse" no Excel). But skill areas on the list count when the job involves them: reports/dashboards/KPIs = controlling, creditor or booking work = accounting, social media content = social_media.
+- term: the posting's own words, at most 5 words. Then id: the one id from the list that means exactly that term, else "other".
+- "MS Office (Excel, PowerPoint)" = ms_office + each named program. Plain "MS Office", "Office-Anwendungen", "M365" = ms_office only. Products of a listed tool count as it (SAP SuccessFactors = sap). "EDV-Kenntnisse" is no skill.
+- importance: "nice_to_have" if marked optional (von Vorteil, wünschenswert, idealerweise, gerne, ein Plus, nice to have, a plus, preferred), else "must_have".
+- Each id once; each "other" term once.
 
-SKILLS
-- List the hard skills, tools, software, programming languages and licences the posting asks for (required or nice to have), or names as tools the student will work with in the tasks.
-- Not: soft skills (team spirit, reliability), fields of study, spoken languages (they have their own fields), the employer's own products or clients, or tools only the company uses without the student touching them.
-- Only what the text names. Never infer a tool from a task: "Bearbeitung von Bestellanfragen" names no CRM system, "Datenanalyse" names no Excel.
-- Write the term first (the posting's own words for the skill), then pick the one id below that means exactly that term. If none does, the id is "other".
-- Map each one to exactly one id from the list below when it means the same thing. "MS Office (Excel, PowerPoint)" or "Office-Anwendungen, insbesondere Excel" gives ms_office and each named program. Plain "MS Office", "Office-Anwendungen" or "Microsoft 365"/"M365" is ms_office only, without Excel, Word, PowerPoint or Outlook unless they are named. Generic "EDV-Kenntnisse" or "IT-Affinität" is not a skill.
-- Products and modules of a listed tool count as that tool (SAP SuccessFactors or S/4HANA is sap).
-- Skill areas on the list count when the job involves them, also when they appear only in the tasks: creating reports, dashboards or KPIs is controlling; creditor or booking work is accounting; creating social media content is social_media. This is different from tools, which must be named.
-- If a skill is not on the list, use id "other" and put the term as written in the posting into "term". For listed ids, "term" is the posting's wording too.
-- importance: "nice_to_have" when the posting marks it as optional (von Vorteil, wünschenswert, idealerweise, gerne, ein Plus, nice to have, is a plus, preferred, bonus), otherwise "must_have". Tools named only in the tasks are "must_have".
-- Each id at most once (for "other": each term once).
+LANGUAGES (German, English): level "basic" (Grundkenntnisse, A1–B1), "fluent" (gut, fließend, B2), "c1_plus" (sehr gut, verhandlungssicher, C1, C2, business fluent), "native" (Muttersprache), "none" (not needed), "unknown" (no level). requirement "must_have", "nice_to_have", "not_needed" (explicitly), "not_stated" (not mentioned).
 
-LANGUAGES (German and English, separately)
-- level: "basic" (Grundkenntnisse, A1–B1, basic), "fluent" (gut, fließend, B2, good, fluent), "c1_plus" (sehr gut, verhandlungssicher, exzellent, C1, C2, very good, excellent, business fluent), "native" (Muttersprache, muttersprachlich, native), "none" (the posting says the language is not needed), "unknown" (no level given).
-- requirement: "must_have", "nice_to_have" (von Vorteil, wünschenswert, a plus), "not_needed" (explicitly not required), "not_stated" (not mentioned; a posting written in German that never asks for German is "not_stated").
+PAY: pay_hour_min/max only for a stated hourly rate in euros (one rate: both equal); null for monthly or yearly pay or "Mindestlohn" without a number.
+HOURS: hours_week_min/max only when stated per week during the semester ("bis zu 20 Std./Woche" = null, 20); null if only per month or year.
 
-PAY AND HOURS
-- pay_hour_min / pay_hour_max: hourly pay in euros only when the posting states an hourly rate (a single rate: both the same). null for monthly or yearly amounts, "Mindestlohn" without a number, or nothing stated.
-- hours_week_min / hours_week_max: working hours per week during the semester when stated per week ("bis zu 20 Std./Woche" gives null and 20; "16–20 Stunden pro Woche" gives 16 and 20). null when not stated, or when stated only per month or per year (do not convert).
-
-SKILL LIST (id: label (group))
+SKILL LIST (id: label)
 {skills}
 """
 
@@ -180,10 +172,10 @@ SCHEMA = {
 }
 
 
-def request_params(user_text, *, cache_ttl=None, effort=None):
+def request_params(user_text, *, cache_ttl=None, effort=EFFORT):
     """Messages API parameters for one posting. cache_ttl "1h" for batches (they can run
-    longer than the default 5 minutes). Without effort, thinking is off (its tokens are
-    billed as output); with effort ("low", …) the model may think first."""
+    longer than the default 5 minutes). effort None turns thinking off (its tokens are
+    billed as output); with an effort ("low", …) the model may think first."""
     cache = {"type": "ephemeral", **({"ttl": cache_ttl} if cache_ttl else {})}
     output = {"format": {"type": "json_schema", "schema": SCHEMA}}
     if effort:
@@ -248,10 +240,14 @@ def clean(raw, check_ids=True):
         return None, ["no skills list"]
     skills, seen = [], {}
     for s in raw["skills"]:
-        if not isinstance(s, dict) or s.get("id") not in SKILL_IDS + ["other"]:
-            problems.append(f"unknown skill {s!r:.60}")
+        if not isinstance(s, dict) or not isinstance(s.get("id"), str):
+            problems.append(f"no skill {s!r:.60}")
             continue
         term = str(s.get("term") or "").strip()[:80]
+        if s["id"] not in SKILL_IDS and s["id"] != "other":
+            problems.append(f"unknown id {s['id']!r:.30}")
+            fits = [o for o, rx in _SKILL_RX.items() if term and rx.search(term)]
+            s = {**s, "id": fits[0] if len(fits) == 1 else "other"}
         imp = s.get("importance") if s.get("importance") in IMPORTANCE else "must_have"
         if s["id"] != "other" and check_ids:
             sid = check_id(s["id"], term)
@@ -332,7 +328,7 @@ def _answer(message):
     return text, message.stop_reason
 
 
-def extract_sync(api, postings, workers=4, on_done=None, effort=None):
+def extract_sync(api, postings, workers=4, on_done=None, effort=EFFORT):
     """One request per posting with the Messages API. The first runs alone so it writes
     the prompt cache; the rest read it. Returns {refnr: record}."""
     from concurrent.futures import ThreadPoolExecutor
@@ -368,7 +364,7 @@ def batch_custom_id(refnr):
     return f"{cid}-{hashlib.sha1(refnr.encode()).hexdigest()[:8]}"
 
 
-def submit_batch(api, postings, effort=None):
+def submit_batch(api, postings, effort=EFFORT):
     """Create a Message Batch (half price, 1-hour prompt cache). Returns (batch id, {custom_id: refnr})."""
     postings = [p for p in postings if model_input(p)[1]]
     ids = {batch_custom_id(p["refnr"]): p["refnr"] for p in postings}

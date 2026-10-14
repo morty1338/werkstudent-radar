@@ -12433,5 +12433,2575 @@
    },
    "raw": "{\"skills\":[{\"term\":\"Presales\",\"id\":\"sales_skills\",\"importance\":\"must_have\"},{\"term\":\"Mailings\",\"id\":\"email_marketing\",\"importance\":\"must_have\"},{\"term\":\"LinkedIn\",\"id\":\"social_media\",\"importance\":\"must_have\"},{\"term\":\"Text\",\"id\":\"content\",\"importance\":\"must_have\"},{\"term\":\"KI-Tools\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"recherchieren\",\"id\":\"market_research\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":16,\"pay_hour_max\":16,\"hours_week_min\":20,\"hours_week_max\":20}"
   }
+ },
+ "v5": {
+  "10000-1199172370-S": {
+   "hash": "106da87fa69fbfe6",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 213,
+    "output": 93,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10000-1204208432-S": {
+   "hash": "bbea0b726ad24a63",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 652,
+    "output": 245,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"CRM-System\",\"id\":\"crm\",\"importance\":\"must_have\"},{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Statistiken und Auswertungen\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"Vertriebsaktionen\",\"id\":\"sales_skills\",\"importance\":\"must_have\"},{\"term\":\"Recherche zu Markttrends\",\"id\":\"market_research\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10000-1206188723-S": {
+   "hash": "8dc04d7f6b77b894",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1138,
+    "output": 477,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Statiksoftware\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10000-1207596106-S": {
+   "hash": "ce94a1f3918e4065",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 823,
+    "output": 684,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Recruiting-Prozessen\",\"id\":\"recruiting\",\"importance\":\"must_have\"},{\"term\":\"MS-Office Programmen\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Auswertungen und kleinere Analysen\",\"id\":\"controlling\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":16,\"hours_week_max\":20}"
+  },
+  "10001-1000331270-S": {
+   "hash": "93f9ad905913fc7c",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 799,
+    "output": 185,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Betriebliches Gesundheitsmanagement\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Reportings\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":20}"
+  },
+  "10001-1000655028-S": {
+   "hash": "c8a7124ff546449b",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 888,
+    "output": 269,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"SAP Rollout-Projekt\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"ERP-System\",\"id\":\"other_erp\",\"importance\":\"must_have\"},{\"term\":\"Fit & Gap – Analyse\",\"id\":\"process_mgmt\",\"importance\":\"must_have\"},{\"term\":\"Fertigungsprozesse\",\"id\":\"production\",\"importance\":\"must_have\"},{\"term\":\"CAD/CAM\",\"id\":\"cad\",\"importance\":\"must_have\"},{\"term\":\"MES\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1001016003-S": {
+   "hash": "116601e72f17223f",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 172,
+    "output": 564,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"SFC report\",\"id\":\"controlling\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1001115203-S": {
+   "hash": "68dd7cb1bd0790f9",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 297,
+    "output": 171,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Programming\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Project management\",\"id\":\"project_mgmt\",\"importance\":\"must_have\"},{\"term\":\"BMS & Scada\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":15,\"hours_week_max\":20}"
+  },
+  "10001-1001258244-S": {
+   "hash": "067bf160f9b1f0c8",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 350,
+    "output": 688,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Video editing\",\"id\":\"video\",\"importance\":\"must_have\"},{\"term\":\"Generate global software business reports and dashboards\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"study our target markets and help prepare analyses of the competition landscape\",\"id\":\"market_research\",\"importance\":\"must_have\"},{\"term\":\"monthly newsletter\",\"id\":\"email_marketing\",\"importance\":\"must_have\"},{\"term\":\"commercial presentation\",\"id\":\"content\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":20,\"hours_week_max\":20}"
+  },
+  "10001-1001730735-S": {
+   "hash": "a7437445aba6e956",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 523,
+    "output": 91,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1001791138-S": {
+   "hash": "44286f74cb809c34",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1287,
+    "output": 176,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Umsatzsteuer\",\"id\":\"tax\",\"importance\":\"must_have\"},{\"term\":\"MS-Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"ERP\",\"id\":\"other_erp\",\"importance\":\"nice_to_have\"}],\"german_level\":\"native\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1002514712-S": {
+   "hash": "2ba146d278a389ca",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 365,
+    "output": 728,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"CRM\",\"id\":\"crm\",\"importance\":\"must_have\"},{\"term\":\"reports and dashboard\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"SharePoint pages\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":13.9,\"pay_hour_max\":13.9,\"hours_week_min\":20,\"hours_week_max\":40}"
+  },
+  "10001-1002531030-S": {
+   "hash": "bb84e555855193f3",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 429,
+    "output": 148,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"MS-Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1002864857-S": {
+   "hash": "cf15664d7c314279",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 317,
+    "output": 811,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Content Creation\",\"id\":\"content\",\"importance\":\"must_have\"},{\"term\":\"Social Media\",\"id\":\"social_media\",\"importance\":\"must_have\"},{\"term\":\"Foto\",\"id\":\"photography\",\"importance\":\"must_have\"},{\"term\":\"Video\",\"id\":\"video\",\"importance\":\"must_have\"},{\"term\":\"Canva\",\"id\":\"canva\",\"importance\":\"must_have\"},{\"term\":\"Adobe\",\"id\":\"adobe_cc\",\"importance\":\"must_have\"},{\"term\":\"CapCut\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1002980097-S": {
+   "hash": "787a0cb8472f2af5",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 800,
+    "output": 960,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Azure AI Services\",\"id\":\"azure\",\"importance\":\"must_have\"},{\"term\":\"Microsoft Copilot\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Copilot Studio\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Custom Copilots\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"M365\",\"id\":\"ms_office\",\"importance\":\"nice_to_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":15,\"pay_hour_max\":16,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003057521-S": {
+   "hash": "ed911c2d1f65fd03",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 691,
+    "output": 392,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"IT-Sicherheitsrichtlinien\",\"id\":\"it_security\",\"importance\":\"must_have\"},{\"term\":\"Hard- und Softwaremanagement\",\"id\":\"it_support\",\"importance\":\"must_have\"},{\"term\":\"IT-Systeme planen, installieren, konfigurieren\",\"id\":\"it_support\",\"importance\":\"must_have\"},{\"term\":\"Netzwerke\",\"id\":\"networking\",\"importance\":\"must_have\"},{\"term\":\"Vlans und Server\",\"id\":\"networking\",\"importance\":\"must_have\"},{\"term\":\"IT-Hardware Architektur\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"App- und Desktop-Anwendungen Programmierung\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Cloud-Plattformen\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"linuxmuster.net\",\"id\":\"linux\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003167615-S": {
+   "hash": "c0ff83b0d392a50a",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 964,
+    "output": 225,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Projektverantwortung\",\"id\":\"project_mgmt\",\"importance\":\"must_have\"},{\"term\":\"Reporting\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"Outlook\",\"id\":\"outlook\",\"importance\":\"must_have\"},{\"term\":\"Word\",\"id\":\"word\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":14,\"pay_hour_max\":14,\"hours_week_min\":null,\"hours_week_max\":20}"
+  },
+  "10001-1003237091-S": {
+   "hash": "401498ed12dae11e",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 913,
+    "output": 704,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Keyword-Recherchen\",\"id\":\"seo\",\"importance\":\"must_have\"},{\"term\":\"Photoshop Kenntnisse\",\"id\":\"photoshop\",\"importance\":\"nice_to_have\"},{\"term\":\"MS Office-Anwendungen\",\"id\":\"ms_office\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":14,\"pay_hour_max\":16,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003352753-S": {
+   "hash": "abd4edd6d0c5984f",
+   "mode": "rules",
+   "skipped": true
+  },
+  "10001-1003447038-S": {
+   "hash": "a0b7c6279cc05270",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 325,
+    "output": 119,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003484964-S": {
+   "hash": "178d037cbd65f7fa",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1565,
+    "output": 1038,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Power Automate\",\"id\":\"power_platform\",\"importance\":\"must_have\"},{\"term\":\"n8n\",\"id\":\"zapier\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"VBA\",\"id\":\"vba\",\"importance\":\"must_have\"},{\"term\":\"KI-Tools wie Copilot und Claude\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Office-Anwendungen\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Berichte und Auswertungen\",\"id\":\"controlling\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":18.39,\"pay_hour_max\":19.99,\"hours_week_min\":15,\"hours_week_max\":20}"
+  },
+  "10001-1003646375-S": {
+   "hash": "a9128ee294b5822e",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1195,
+    "output": 240,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Kundenberatung\",\"id\":\"customer_service\",\"importance\":\"must_have\"},{\"term\":\"Verkauf von Fitnessgeräten\",\"id\":\"sales_skills\",\"importance\":\"must_have\"},{\"term\":\"Bearbeitung von Kundenaufträgen\",\"id\":\"customer_service\",\"importance\":\"must_have\"},{\"term\":\"Erstellen von Angeboten\",\"id\":\"sales_skills\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":14.5,\"pay_hour_max\":16.0,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003733612-S": {
+   "hash": "9fcf2c63a11b3431",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 350,
+    "output": 257,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Maschinensteuerungen\",\"id\":\"plc\",\"importance\":\"must_have\"},{\"term\":\"PLC basierter Maschinensteuerungen\",\"id\":\"plc\",\"importance\":\"must_have\"},{\"term\":\"Schaltschrankbau\",\"id\":\"electrical\",\"importance\":\"must_have\"},{\"term\":\"elektrische Antriebstechnik\",\"id\":\"electrical\",\"importance\":\"must_have\"},{\"term\":\"branchenübliche Software\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003762543-S": {
+   "hash": "d5b387c584c98254",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 590,
+    "output": 162,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Führerschein Klasse B\",\"id\":\"driving_licence\",\"importance\":\"must_have\"},{\"term\":\"EDV-Kenntnisse\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":21.11,\"pay_hour_max\":39.61,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003765437-S": {
+   "hash": "a6c82c75c1a7e637",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 813,
+    "output": 458,
+    "cache_read": 0,
+    "cache_write_5m": 3804,
+    "cache_write_1h": 0,
+    "cache_write": 3804
+   },
+   "raw": "{\"skills\":[{\"term\":\"Officeanwendungen\",\"id\":\"ms_office\",\"importance\":\"nice_to_have\"},{\"term\":\"Akustik\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Akustische Messtechnik\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"basic\",\"german_requirement\":\"must_have\",\"english_level\":\"basic\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003773774-S": {
+   "hash": "60905caaf411683a",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 807,
+    "output": 254,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"SAP\",\"id\":\"sap\",\"importance\":\"nice_to_have\"},{\"term\":\"Microsoft Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"AI tools\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"accounting\",\"id\":\"accounting\",\"importance\":\"must_have\"},{\"term\":\"controlling\",\"id\":\"controlling\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003780997-S": {
+   "hash": "86c772c4a39c4099",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1093,
+    "output": 223,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office-Kenntnisse\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"HR-Systemen\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Entgeltabrechnung\",\"id\":\"payroll\",\"importance\":\"must_have\"},{\"term\":\"Arbeitsrecht\",\"id\":\"labour_law\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"nice_to_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":20,\"hours_week_max\":20}"
+  },
+  "10001-1003783349-S": {
+   "hash": "e8258f44fb027ce4",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 936,
+    "output": 91,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":20,\"hours_week_max\":20}"
+  },
+  "10001-1003794666-S": {
+   "hash": "305253c5bae6acd7",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 329,
+    "output": 367,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"CRM-System\",\"id\":\"crm\",\"importance\":\"must_have\"},{\"term\":\"Event Management\",\"id\":\"event\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003806520-S": {
+   "hash": "294f47697aa3cbcb",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1230,
+    "output": 91,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003825213-S": {
+   "hash": "9a0d270044e34ec4",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 571,
+    "output": 126,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Verkauf\",\"id\":\"sales_skills\",\"importance\":\"nice_to_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1531149-2-S": {
+   "hash": "edec51063b06f1ee",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 709,
+    "output": 526,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Datenanalysen\",\"id\":\"data_analysis\",\"importance\":\"must_have\"},{\"term\":\"Statistiken\",\"id\":\"statistics\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1608471-1-S": {
+   "hash": "e910619f1d3c050f",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 635,
+    "output": 409,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"project management\",\"id\":\"project_mgmt\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"Figma\",\"id\":\"figma\",\"importance\":\"must_have\"},{\"term\":\"Adobe Photoshop\",\"id\":\"photoshop\",\"importance\":\"must_have\"},{\"term\":\"Adobe Premiere\",\"id\":\"adobe_cc\",\"importance\":\"must_have\"},{\"term\":\"Camtasia\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Social media\",\"id\":\"social_media\",\"importance\":\"must_have\"},{\"term\":\"Market research\",\"id\":\"market_research\",\"importance\":\"must_have\"},{\"term\":\"Video editing\",\"id\":\"video\",\"importance\":\"must_have\"},{\"term\":\"Event management\",\"id\":\"event\",\"importance\":\"must_have\"},{\"term\":\"Content creation\",\"id\":\"content\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1623685-1-S": {
+   "hash": "219641cba0dbfefc",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 796,
+    "output": 1080,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"JavaScript\",\"id\":\"javascript\",\"importance\":\"must_have\"},{\"term\":\"UI5\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Angular\",\"id\":\"angular\",\"importance\":\"must_have\"},{\"term\":\"HTML/CSS\",\"id\":\"html_css\",\"importance\":\"must_have\"},{\"term\":\"REST/OData\",\"id\":\"rest_api\",\"importance\":\"must_have\"},{\"term\":\"SAP Business Technology Platform\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"Generative AI Hub\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"AI Core\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"presentation tools\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Adobe\",\"id\":\"adobe_cc\",\"importance\":\"must_have\"},{\"term\":\"Java\",\"id\":\"java\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1634264-1-S": {
+   "hash": "d6d423bbb3ee5975",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 409,
+    "output": 500,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"SAP Commerce Cloud\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"Java\",\"id\":\"java\",\"importance\":\"must_have\"},{\"term\":\"TypeScript\",\"id\":\"typescript\",\"importance\":\"must_have\"},{\"term\":\"Angular\",\"id\":\"angular\",\"importance\":\"must_have\"},{\"term\":\"Docker\",\"id\":\"docker\",\"importance\":\"must_have\"},{\"term\":\"Kubernetes\",\"id\":\"kubernetes\",\"importance\":\"must_have\"},{\"term\":\"AI coding agents\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"JavaScript\",\"id\":\"javascript\",\"importance\":\"must_have\"},{\"term\":\"C++\",\"id\":\"cpp\",\"importance\":\"must_have\"},{\"term\":\"React\",\"id\":\"react\",\"importance\":\"nice_to_have\"},{\"term\":\"Node.js\",\"id\":\"nodejs\",\"importance\":\"nice_to_have\"},{\"term\":\"Agile\",\"id\":\"agile\",\"importance\":\"must_have\"},{\"term\":\"Scrum\",\"id\":\"agile\",\"importance\":\"must_have\"},{\"term\":\"TDD\",\"id\":\"testing\",\"importance\":\"must_have\"},{\"term\":\"Git\",\"id\":\"git\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1640289-1-S": {
+   "hash": "6c6e44222174364a",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 713,
+    "output": 943,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"PowerBI\",\"id\":\"powerbi\",\"importance\":\"must_have\"},{\"term\":\"approved AI tools\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Microsoft Office applications\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Word\",\"id\":\"word\",\"importance\":\"must_have\"},{\"term\":\"SharePoint\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"data analysis\",\"id\":\"data_analysis\",\"importance\":\"must_have\"},{\"term\":\"reporting for stakeholders\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"SAP solutions\",\"id\":\"sap\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1641194-1-S": {
+   "hash": "d2661d65dfce6c9e",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 367,
+    "output": 200,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Java\",\"id\":\"java\",\"importance\":\"must_have\"},{\"term\":\"Spring Boot\",\"id\":\"spring\",\"importance\":\"must_have\"},{\"term\":\"Grafana\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Prometheus\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1641198-1-S": {
+   "hash": "8482c38003afe24e",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 738,
+    "output": 1191,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"SAP Discovery Center\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"SharePoint\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"SAP Work Zone\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"GenAI / LLMs\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Prompt engineering\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12280-2025-70495-0-S": {
+   "hash": "36de3d2de9e64951",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12280-2026-76455-0-S": {
+   "hash": "d1b7faa877f6b585",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12280-2026-79234-0-S": {
+   "hash": "278b397096df09d9",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12336-a26f957j0452904-S": {
+   "hash": "aef8fc49daa25702",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12462-1637725-1-S": {
+   "hash": "0ceb17c22f892099",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 604,
+    "output": 118,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12465-1600672-2-S": {
+   "hash": "5f455ebe9869439d",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 839,
+    "output": 505,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Java\",\"id\":\"java\",\"importance\":\"nice_to_have\"},{\"term\":\"Go\",\"id\":\"go\",\"importance\":\"nice_to_have\"},{\"term\":\".NET\",\"id\":\"dotnet\",\"importance\":\"nice_to_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"nice_to_have\"},{\"term\":\"TypeScript\",\"id\":\"typescript\",\"importance\":\"nice_to_have\"},{\"term\":\"Spring\",\"id\":\"spring\",\"importance\":\"nice_to_have\"},{\"term\":\"React\",\"id\":\"react\",\"importance\":\"nice_to_have\"},{\"term\":\"Kafka\",\"id\":\"kafka\",\"importance\":\"nice_to_have\"},{\"term\":\"NATS\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Docker\",\"id\":\"docker\",\"importance\":\"nice_to_have\"},{\"term\":\"GitHub Copilot\",\"id\":\"genai\",\"importance\":\"nice_to_have\"},{\"term\":\"Distributed systems\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Event-driven architectures\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"CRDTs\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Agent-based workflows\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":20,\"hours_week_max\":20}"
+  },
+  "12608-1416326-49890-1-S": {
+   "hash": "7a5f177586a14294",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 815,
+    "output": 93,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12608-1423487-28293-1-S": {
+   "hash": "8675f046e7481a80",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12608-1451386-28446-1-S": {
+   "hash": "da727740d0031b9a",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 896,
+    "output": 91,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":15,\"hours_week_max\":20}"
+  },
+  "12608-1451520-4078-1-S": {
+   "hash": "9b4546a61460a4ca",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1071,
+    "output": 850,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS Office Kenntnisse\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Datenbanken und SQL\",\"id\":\"sql\",\"importance\":\"nice_to_have\"},{\"term\":\"agilem Arbeiten\",\"id\":\"agile\",\"importance\":\"nice_to_have\"},{\"term\":\"Jira und/oder Confluence\",\"id\":\"jira\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":20}"
+  },
+  "12608-1454391-28033-1-S": {
+   "hash": "a5b21a5e9441e1a0",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 793,
+    "output": 259,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office-Produkte\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Analyse- und Ad-hoc-Fragestellungen\",\"id\":\"data_analysis\",\"importance\":\"must_have\"},{\"term\":\"Präsentationen gestalten\",\"id\":\"powerpoint\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":18,\"hours_week_max\":18}"
+  },
+  "12688-REG-44378-RJA-S": {
+   "hash": "ffb718076bdfde44",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 600,
+    "output": 630,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Outlook\",\"id\":\"outlook\",\"importance\":\"must_have\"},{\"term\":\"Word\",\"id\":\"word\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"Informationssicherheit\",\"id\":\"it_security\",\"importance\":\"must_have\"},{\"term\":\"Business Continuity Management\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"basic\",\"english_requirement\":\"must_have\",\"pay_hour_min\":15.87,\"pay_hour_max\":15.87,\"hours_week_min\":null,\"hours_week_max\":20}"
+  },
+  "12811-1790083-S": {
+   "hash": "076ae333d8477b67",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1009,
+    "output": 126,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"BIM-Methodik\",\"id\":\"bim\",\"importance\":\"nice_to_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12811-2316142-S": {
+   "hash": "4ac4c5e39cab246f",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 669,
+    "output": 942,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Power BI\",\"id\":\"powerbi\",\"importance\":\"must_have\"},{\"term\":\"Dashboards und Reports\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"Datenanalyse\",\"id\":\"data_analysis\",\"importance\":\"must_have\"},{\"term\":\"M365 Copilot\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"nice_to_have\"},{\"term\":\"SQL\",\"id\":\"sql\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12811-2317237-S": {
+   "hash": "639f32053b4a4eff",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12811-2332148-S": {
+   "hash": "3397c38f76c1ae0d",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 481,
+    "output": 354,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Fahrerlaubnis B\",\"id\":\"driving_licence\",\"importance\":\"must_have\"},{\"term\":\"Vermessungssoftware und -geräte\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12811-2333033-S": {
+   "hash": "53e2d06d505aceb4",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1211,
+    "output": 713,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Microsoft Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"Reporting\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"Abrechnung mit Krankenkassen\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12811-2336268-S": {
+   "hash": "1fbe494d107c0018",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 601,
+    "output": 184,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"ERP-System\",\"id\":\"other_erp\",\"importance\":\"must_have\"},{\"term\":\"Lieferanten Klärung\",\"id\":\"procurement\",\"importance\":\"must_have\"},{\"term\":\"Bestellvorgänge\",\"id\":\"procurement\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"must_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12811-2337853-S": {
+   "hash": "e9e728ba26358902",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12811-2344196-S": {
+   "hash": "236206726a8ee87b",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 708,
+    "output": 617,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"PCB-Layout\",\"id\":\"pcb\",\"importance\":\"must_have\"},{\"term\":\"hardwarenaher Firmware\",\"id\":\"embedded\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":20}"
+  },
+  "12846-1636457-1-S": {
+   "hash": "a7d958e3b201a6ee",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 940,
+    "output": 655,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Microsoft 365\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Projektmanagement\",\"id\":\"project_mgmt\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12951-14a58a4a-eae3-4431--S": {
+   "hash": "c22527bdfc901295",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 746,
+    "output": 156,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Führerschein Klasse B\",\"id\":\"driving_licence\",\"importance\":\"must_have\"},{\"term\":\"digitale Tools\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":13.9,\"pay_hour_max\":13.9,\"hours_week_min\":null,\"hours_week_max\":10}"
+  },
+  "12951-5e29e893-847e-412d--S": {
+   "hash": "c22527bdfc901295",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 746,
+    "output": 130,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Führerschein Klasse B\",\"id\":\"driving_licence\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":13.9,\"pay_hour_max\":13.9,\"hours_week_min\":10,\"hours_week_max\":10}"
+  },
+  "12951-609453c5-fbb9-4331--S": {
+   "hash": "3bab993d2cabb65b",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 729,
+    "output": 130,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Führerschein Klasse B\",\"id\":\"driving_licence\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":13.9,\"pay_hour_max\":13.9,\"hours_week_min\":10,\"hours_week_max\":10}"
+  },
+  "12951-6c1b2262-2c0d-492b--S": {
+   "hash": "542c2d1b546a32c5",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12951-838b5550-0864-4ed5--S": {
+   "hash": "c22527bdfc901295",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 746,
+    "output": 168,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Driving licence (B)\",\"id\":\"driving_licence\",\"importance\":\"must_have\"},{\"term\":\"Verkaufen und Verhandeln\",\"id\":\"sales_skills\",\"importance\":\"nice_to_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":13.9,\"pay_hour_max\":13.9,\"hours_week_min\":null,\"hours_week_max\":10}"
+  },
+  "12951-aa9c386e-f630-4c77--S": {
+   "hash": "6afcf25a3c2afc20",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12951-f4ebe1be-8757-4171--S": {
+   "hash": "c57e0622f7cf50cc",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12952-2026_1727254-S": {
+   "hash": "a6ad5370fe726990",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 737,
+    "output": 709,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office-Produkte\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Microsoft Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"SAP\",\"id\":\"sap\",\"importance\":\"nice_to_have\"},{\"term\":\"CRM Salesforce\",\"id\":\"salesforce\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":20}"
+  },
+  "13151-1634139-1-S": {
+   "hash": "ca9f6edc47dfa348",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1409,
+    "output": 1750,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Linux\",\"id\":\"linux\",\"importance\":\"must_have\"},{\"term\":\"Microsoft Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Cyber Security\",\"id\":\"it_security\",\"importance\":\"must_have\"},{\"term\":\"KI-basierte Werkzeuge\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Sicherheitsdaten analysieren\",\"id\":\"data_analysis\",\"importance\":\"must_have\"},{\"term\":\"Atlassian-Wiki\",\"id\":\"jira\",\"importance\":\"must_have\"},{\"term\":\"n8n\",\"id\":\"zapier\",\"importance\":\"nice_to_have\"},{\"term\":\"REST APIs\",\"id\":\"rest_api\",\"importance\":\"nice_to_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"nice_to_have\"},{\"term\":\"Bash\",\"id\":\"bash\",\"importance\":\"nice_to_have\"},{\"term\":\"JSON\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Reguläre Ausdrücke\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"SIEM\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"EDR\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Digitale Forensik\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Cloud Security\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "13151-1640446-1-S": {
+   "hash": "17e056c2e4f74ebb",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1048,
+    "output": 266,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Statistik\",\"id\":\"statistics\",\"importance\":\"nice_to_have\"},{\"term\":\"Datenanalyse\",\"id\":\"data_analysis\",\"importance\":\"nice_to_have\"},{\"term\":\"Algorithmen\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Key Performance Indicators\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "13465-00021a67ccf001-S": {
+   "hash": "d8a4f4f24925f8f9",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 607,
+    "output": 626,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office-Kenntnisse\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Telefonakquise\",\"id\":\"sales_skills\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"nice_to_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "13635-eef44b00_JB5249897-S": {
+   "hash": "1e1c13d584db3d92",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 777,
+    "output": 1396,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"spreadsheets (lookups, pivots)\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"AI for process improvement\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"DATEV\",\"id\":\"datev\",\"importance\":\"nice_to_have\"},{\"term\":\"Moss, Pleo\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"accounting/ERP system\",\"id\":\"other_erp\",\"importance\":\"nice_to_have\"},{\"term\":\"German bookkeeping basics (Belege, GoBD, USt)\",\"id\":\"accounting\",\"importance\":\"nice_to_have\"},{\"term\":\"accounting\",\"id\":\"accounting\",\"importance\":\"must_have\"},{\"term\":\"audit workstreams\",\"id\":\"audit\",\"importance\":\"must_have\"},{\"term\":\"procurement\",\"id\":\"procurement\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":15,\"pay_hour_max\":15,\"hours_week_min\":16,\"hours_week_max\":20}"
+  },
+  "13635-ff60ca13_JB5248781-S": {
+   "hash": "dc7621ccd8d807da",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 758,
+    "output": 601,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Content Management Systeme\",\"id\":\"wordpress\",\"importance\":\"must_have\"},{\"term\":\"Laravel\",\"id\":\"laravel\",\"importance\":\"must_have\"},{\"term\":\"REST API Schnittstellen\",\"id\":\"rest_api\",\"importance\":\"must_have\"},{\"term\":\"agile Entwicklungsmethoden\",\"id\":\"agile\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "13660-956960794-S": {
+   "hash": "6205da12fecd0990",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 808,
+    "output": 1123,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Adobe Photoshop\",\"id\":\"photoshop\",\"importance\":\"must_have\"},{\"term\":\"InDesign\",\"id\":\"indesign\",\"importance\":\"must_have\"},{\"term\":\"Illustrator\",\"id\":\"illustrator\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Grafikdesign\",\"id\":\"graphic_design\",\"importance\":\"must_have\"},{\"term\":\"Social Media\",\"id\":\"social_media\",\"importance\":\"must_have\"},{\"term\":\"Content-Marketing\",\"id\":\"content\",\"importance\":\"must_have\"},{\"term\":\"Adobe After Effects\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Runway\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Editorial Design\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":20,\"hours_week_max\":20}"
+  },
+  "13884-141140-S": {
+   "hash": "554438e7c086a4ff",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1030,
+    "output": 116,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Kassensystem\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"must_have\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "13884-341206-S": {
+   "hash": "438b6ae895aa77de",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 494,
+    "output": 187,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office Anwendungen\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Personalsysteme\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Personalarbeit Prozesse\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "14225-10fa587b525787e6-S": {
+   "hash": "413340a643e63f4d",
+   "mode": "rules",
+   "skipped": true
+  },
+  "14225-424474e47ddda0c5-S": {
+   "hash": "64c4fd43c7eedeee",
+   "mode": "rules",
+   "skipped": true
+  },
+  "14456-k11173.28281-S": {
+   "hash": "dbb38c4327a3e66b",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 377,
+    "output": 229,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Massenermittlung und Aufmaßprüfung\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Angebotskalkulation\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Koordination von Nachunternehmerleistungen\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Führerschein\",\"id\":\"driving_licence\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "14763-44446865-916-S": {
+   "hash": "dc5964bb0173f326",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 731,
+    "output": 129,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office-Kenntnisse\",\"id\":\"ms_office\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "14927-2pymp2ozt3b-S": {
+   "hash": "e00eef357ead44c9",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 336,
+    "output": 161,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Microsoft-Office-Anwendungen\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Kundenbetreuung\",\"id\":\"customer_service\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "14953-44459763-101-S": {
+   "hash": "1d56d1f4c313ec33",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1068,
+    "output": 192,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Google Workspace\",\"id\":\"google_workspace\",\"importance\":\"nice_to_have\"},{\"term\":\"Jira und Confluence\",\"id\":\"jira\",\"importance\":\"nice_to_have\"},{\"term\":\"E-Commerce-Prozesse\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "15120-1637106-1-S": {
+   "hash": "3630837058d1dd2b",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1637,
+    "output": 252,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Microsoft Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Word\",\"id\":\"word\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"SAP\",\"id\":\"sap\",\"importance\":\"nice_to_have\"},{\"term\":\"PLM-System\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":20,\"hours_week_max\":20}"
+  },
+  "15794-468652_48996-1-S": {
+   "hash": "a71dbc2a35e26c62",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 824,
+    "output": 135,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Industrie- und Wettbewerbsanalysen\",\"id\":\"market_research\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "15939-BB-635437-7878-3068-S": {
+   "hash": "2737922d8ce72e60",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 420,
+    "output": 251,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"CFD simulations\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"CFX\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"FLUENT\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"STAR-CCM+\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"nice_to_have\"},{\"term\":\"Rechengittergenerierung\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "16194-00003106c0b001-S": {
+   "hash": "b366b6b6f5d134e0",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1018,
+    "output": 401,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office Anwendungen\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Datenschutzrecht\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "16470-44477916-101-S": {
+   "hash": "4bfb10b1a76ee32f",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 675,
+    "output": 175,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Low-Code Cloudtechnologien\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"Skripting\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "16947-919432708-S": {
+   "hash": "db3c47e707e6e570",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1719,
+    "output": 186,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Project management experience\",\"id\":\"project_mgmt\",\"importance\":\"nice_to_have\"},{\"term\":\"Innovation management\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Airframe structure knowledge\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":18.53,\"pay_hour_max\":18.53,\"hours_week_min\":18,\"hours_week_max\":18}"
+  },
+  "16947-928317271-S": {
+   "hash": "76f51dd709bd9a6d",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1477,
+    "output": 644,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Google applications\",\"id\":\"google_workspace\",\"importance\":\"must_have\"},{\"term\":\"Compliance controls and monitoring\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":18,\"hours_week_max\":18}"
+  },
+  "16947-930349336-S": {
+   "hash": "50d67b28f0536082",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1373,
+    "output": 1622,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"Bash\",\"id\":\"bash\",\"importance\":\"must_have\"},{\"term\":\"pandas\",\"id\":\"pandas\",\"importance\":\"must_have\"},{\"term\":\"pyspark\",\"id\":\"spark\",\"importance\":\"must_have\"},{\"term\":\"Linux\",\"id\":\"linux\",\"importance\":\"must_have\"},{\"term\":\"Git\",\"id\":\"git\",\"importance\":\"must_have\"},{\"term\":\"CI/CD workflows\",\"id\":\"cicd\",\"importance\":\"must_have\"},{\"term\":\"Data Lake\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"DevOps\",\"id\":\"devops\",\"importance\":\"must_have\"},{\"term\":\"Kubernetes\",\"id\":\"kubernetes\",\"importance\":\"nice_to_have\"},{\"term\":\"Apache Spark\",\"id\":\"spark\",\"importance\":\"nice_to_have\"},{\"term\":\"Apache Flink\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Jenkins\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"ArgoCD\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"PostgreSQL\",\"id\":\"postgresql\",\"importance\":\"nice_to_have\"},{\"term\":\"Django\",\"id\":\"django\",\"importance\":\"nice_to_have\"},{\"term\":\"Angular\",\"id\":\"angular\",\"importance\":\"nice_to_have\"},{\"term\":\"pyTest\",\"id\":\"testing\",\"importance\":\"nice_to_have\"},{\"term\":\"Docker\",\"id\":\"docker\",\"importance\":\"nice_to_have\"},{\"term\":\"Airflow\",\"id\":\"airflow\",\"importance\":\"nice_to_have\"},{\"term\":\"ETL\",\"id\":\"etl\",\"importance\":\"nice_to_have\"},{\"term\":\"pylint\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":18,\"hours_week_max\":18}"
+  },
+  "16947-952476079-S": {
+   "hash": "d63e81af2359d772",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1274,
+    "output": 1584,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Google Suite\",\"id\":\"google_workspace\",\"importance\":\"must_have\"},{\"term\":\"GCP\",\"id\":\"gcp\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"Matlab\",\"id\":\"matlab\",\"importance\":\"must_have\"},{\"term\":\"C\",\"id\":\"cpp\",\"importance\":\"must_have\"},{\"term\":\"business process modeling\",\"id\":\"process_mgmt\",\"importance\":\"must_have\"},{\"term\":\"Skywise\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Celonis\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Klaxoon\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"ARIS\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"process mining\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"AI programming\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"project management\",\"id\":\"project_mgmt\",\"importance\":\"must_have\"},{\"term\":\"reports\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"testing the software\",\"id\":\"testing\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":18.53,\"pay_hour_max\":18.53,\"hours_week_min\":18,\"hours_week_max\":18}"
+  },
+  "16947-963359777-S": {
+   "hash": "b830d49fd4803319",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1382,
+    "output": 529,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"G Suite applications\",\"id\":\"google_workspace\",\"importance\":\"must_have\"},{\"term\":\"Artificial Intelligence\",\"id\":\"genai\",\"importance\":\"nice_to_have\"},{\"term\":\"Change Management\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":18,\"hours_week_max\":18}"
+  },
+  "16947-970992973-S": {
+   "hash": "bb83037b9361e92c",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 912,
+    "output": 893,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Supply chain and logistics\",\"id\":\"supply_chain\",\"importance\":\"must_have\"},{\"term\":\"Purchase operations\",\"id\":\"procurement\",\"importance\":\"must_have\"},{\"term\":\"SAP\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"MDNPro / SASPF\",\"id\":\"other_erp\",\"importance\":\"must_have\"},{\"term\":\"VBA programming\",\"id\":\"vba\",\"importance\":\"nice_to_have\"},{\"term\":\"Microsoft Office package\",\"id\":\"ms_office\",\"importance\":\"nice_to_have\"},{\"term\":\"Google Suite\",\"id\":\"google_workspace\",\"importance\":\"nice_to_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "17402-44467217-925-S": {
+   "hash": "fd4bada47e522aa3",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 297,
+    "output": 284,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MathWorks tool chain\",\"id\":\"matlab\",\"importance\":\"must_have\"},{\"term\":\"Simulink\",\"id\":\"simulink\",\"importance\":\"nice_to_have\"},{\"term\":\"Simscape\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"dSpace tool chain\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"simulation experience\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"programming experience\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"AI tools\",\"id\":\"genai\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "18247-IOUf5XBl-S": {
+   "hash": "15e1c8a0f1d4978c",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 499,
+    "output": 158,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Kassiervorgänge mit modernster Software\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Einzelhandel\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "18247-jTpJnCDD-S": {
+   "hash": "cd942f46a60d9b04",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 498,
+    "output": 246,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "18340-202419c2932cfa124e9-S": {
+   "hash": "bd5c82333bbb4590",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 572,
+    "output": 265,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Automatisierungstechnik\",\"id\":\"plc\",\"importance\":\"nice_to_have\"},{\"term\":\"NI LabVIEW\",\"id\":\"labview\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"Git\",\"id\":\"git\",\"importance\":\"must_have\"},{\"term\":\"Softwareapplikationen\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Mess- und Steuerungstechnik\",\"id\":\"embedded\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "18624-0067308355-S": {
+   "hash": "9faa72a3c5d06de4",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 437,
+    "output": 126,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office Produkte\",\"id\":\"ms_office\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":17,\"pay_hour_max\":19,\"hours_week_min\":10,\"hours_week_max\":20}"
+  },
+  "19228-000092034c1002-S": {
+   "hash": "30fe4a4272ad55f9",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 882,
+    "output": 127,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Driving licence (B)\",\"id\":\"driving_licence\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":14.45,\"pay_hour_max\":14.45,\"hours_week_min\":22,\"hours_week_max\":22}"
+  },
+  "20956-2342792-S": {
+   "hash": "76a8aeb367185ab7",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 963,
+    "output": 608,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Prozessdokumentationen\",\"id\":\"process_mgmt\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":18,\"pay_hour_max\":18,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "21070-46-S": {
+   "hash": "619dbeefcb31ee98",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 688,
+    "output": 755,
+    "cache_read": 3804,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Presales\",\"id\":\"sales_skills\",\"importance\":\"must_have\"},{\"term\":\"Mailings koordinieren\",\"id\":\"email_marketing\",\"importance\":\"must_have\"},{\"term\":\"Website und LinkedIn\",\"id\":\"social_media\",\"importance\":\"must_have\"},{\"term\":\"Agenturen für GEO/SEO\",\"id\":\"seo\",\"importance\":\"must_have\"},{\"term\":\"KI-Tools\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Recherche mit KI-Tools\",\"id\":\"market_research\",\"importance\":\"must_have\"},{\"term\":\"Texte schreiben\",\"id\":\"content\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":16,\"pay_hour_max\":16,\"hours_week_min\":20,\"hours_week_max\":20}"
+  }
+ },
+ "v5-enum": {
+  "10000-1199172370-S": {
+   "hash": "106da87fa69fbfe6",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 213,
+    "output": 185,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Kundenberatung\",\"id\":\"customer_service\",\"importance\":\"must_have\"},{\"term\":\"Angebote erstellen\",\"id\":\"sales_skills\",\"importance\":\"must_have\"},{\"term\":\"Nachtragsmanagement\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10000-1204208432-S": {
+   "hash": "bbea0b726ad24a63",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 652,
+    "output": 776,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"CRM-Systemen\",\"id\":\"crm\",\"importance\":\"nice_to_have\"},{\"term\":\"Statistiken und Auswertungen\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"Recherchetätigkeiten zu Markttrends\",\"id\":\"market_research\",\"importance\":\"must_have\"},{\"term\":\"Vertrieb\",\"id\":\"sales_skills\",\"importance\":\"must_have\"},{\"term\":\"Kundenbetreuung\",\"id\":\"customer_service\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10000-1206188723-S": {
+   "hash": "8dc04d7f6b77b894",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1138,
+    "output": 450,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS Office-Kenntnisse\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Statiksoftware\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10000-1207596106-S": {
+   "hash": "ce94a1f3918e4065",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 823,
+    "output": 597,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office Programme\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Recruiting-Prozessen\",\"id\":\"recruiting\",\"importance\":\"must_have\"},{\"term\":\"Auswertungen und kleinere Analysen\",\"id\":\"controlling\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":16,\"hours_week_max\":20}"
+  },
+  "10001-1000331270-S": {
+   "hash": "93f9ad905913fc7c",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 799,
+    "output": 150,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Reportings und Präsentationen\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":20}"
+  },
+  "10001-1000655028-S": {
+   "hash": "c8a7124ff546449b",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 888,
+    "output": 843,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"SAP Rollout-Projekt\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"SAP-Module\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"ERP-System\",\"id\":\"other_erp\",\"importance\":\"must_have\"},{\"term\":\"CAD/CAM\",\"id\":\"cad\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1001016003-S": {
+   "hash": "116601e72f17223f",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 172,
+    "output": 507,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"controlling reporting\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"financial forecast\",\"id\":\"fin_model\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1001115203-S": {
+   "hash": "68dd7cb1bd0790f9",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 297,
+    "output": 191,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"BMS\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Scada\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Project management\",\"id\":\"project_mgmt\",\"importance\":\"must_have\"},{\"term\":\"Energy management\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":15,\"hours_week_max\":20}"
+  },
+  "10001-1001258244-S": {
+   "hash": "067bf160f9b1f0c8",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 350,
+    "output": 582,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Video editing\",\"id\":\"video\",\"importance\":\"must_have\"},{\"term\":\"Software business reports and dashboards\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"Newsletter\",\"id\":\"email_marketing\",\"importance\":\"must_have\"},{\"term\":\"Study target markets, competition analyses\",\"id\":\"market_research\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":20,\"hours_week_max\":20}"
+  },
+  "10001-1001730735-S": {
+   "hash": "a7437445aba6e956",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 523,
+    "output": 117,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Computerkasse\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1001791138-S": {
+   "hash": "44286f74cb809c34",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1287,
+    "output": 180,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"ERP\",\"id\":\"other_erp\",\"importance\":\"nice_to_have\"},{\"term\":\"Digitalisierung\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1002514712-S": {
+   "hash": "2ba146d278a389ca",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 365,
+    "output": 665,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"CRM systems\",\"id\":\"crm\",\"importance\":\"must_have\"},{\"term\":\"reports and dashboard\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"SharePoint pages\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":13.9,\"pay_hour_max\":13.9,\"hours_week_min\":20,\"hours_week_max\":40}"
+  },
+  "10001-1002531030-S": {
+   "hash": "bb84e555855193f3",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 429,
+    "output": 196,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Entwicklung von Instandhaltungsunterlagen\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Kalkulationen in MS Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"MS-Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1002864857-S": {
+   "hash": "cf15664d7c314279",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 317,
+    "output": 663,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Content Creation\",\"id\":\"content\",\"importance\":\"must_have\"},{\"term\":\"Social Media\",\"id\":\"social_media\",\"importance\":\"must_have\"},{\"term\":\"Video\",\"id\":\"video\",\"importance\":\"must_have\"},{\"term\":\"Foto\",\"id\":\"photography\",\"importance\":\"must_have\"},{\"term\":\"Canva\",\"id\":\"canva\",\"importance\":\"must_have\"},{\"term\":\"Adobe\",\"id\":\"adobe_cc\",\"importance\":\"must_have\"},{\"term\":\"CapCut\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1002980097-S": {
+   "hash": "787a0cb8472f2af5",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 800,
+    "output": 974,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Azure AI Services\",\"id\":\"azure\",\"importance\":\"must_have\"},{\"term\":\"M365\",\"id\":\"ms_office\",\"importance\":\"nice_to_have\"},{\"term\":\"Microsoft Copilot\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Copilot Studio\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":15,\"pay_hour_max\":16,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003057521-S": {
+   "hash": "ed911c2d1f65fd03",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 691,
+    "output": 368,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"linuxmuster.net\",\"id\":\"linux\",\"importance\":\"must_have\"},{\"term\":\"IT-Sicherheitsrichtlinien\",\"id\":\"it_security\",\"importance\":\"must_have\"},{\"term\":\"Programmierung von App- und Desktop-Anwendungen\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Cloud-Plattformen\",\"id\":\"aws\",\"importance\":\"must_have\"},{\"term\":\"Hard- und Softwaremanagement\",\"id\":\"it_support\",\"importance\":\"must_have\"},{\"term\":\"IT-Hardware Architektur\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Netzwerkkonzeption\",\"id\":\"networking\",\"importance\":\"nice_to_have\"},{\"term\":\"VLANs und Server\",\"id\":\"virtualization\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003167615-S": {
+   "hash": "c0ff83b0d392a50a",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 964,
+    "output": 195,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Outlook\",\"id\":\"outlook\",\"importance\":\"must_have\"},{\"term\":\"Word\",\"id\":\"word\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"Reporting\",\"id\":\"controlling\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":14,\"pay_hour_max\":14,\"hours_week_min\":null,\"hours_week_max\":20}"
+  },
+  "10001-1003237091-S": {
+   "hash": "401498ed12dae11e",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 913,
+    "output": 939,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Photoshop Kenntnisse\",\"id\":\"photoshop\",\"importance\":\"nice_to_have\"},{\"term\":\"Keyword-Recherchen\",\"id\":\"seo\",\"importance\":\"must_have\"},{\"term\":\"Onlinepräsenz optimieren\",\"id\":\"online_marketing\",\"importance\":\"must_have\"},{\"term\":\"Auswertung relevanter Kennzahlen (KPIs)\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"Pflege von Website-Inhalten\",\"id\":\"content\",\"importance\":\"must_have\"},{\"term\":\"MS Office-Anwendungen\",\"id\":\"ms_office\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":14,\"pay_hour_max\":16,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003352753-S": {
+   "hash": "abd4edd6d0c5984f",
+   "mode": "rules",
+   "skipped": true
+  },
+  "10001-1003447038-S": {
+   "hash": "a0b7c6279cc05270",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 325,
+    "output": 119,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003484964-S": {
+   "hash": "178d037cbd65f7fa",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1565,
+    "output": 1082,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Power Automate\",\"id\":\"power_platform\",\"importance\":\"must_have\"},{\"term\":\"n8n\",\"id\":\"zapier\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"VBA\",\"id\":\"vba\",\"importance\":\"must_have\"},{\"term\":\"Copilot\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"ChatGPT\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Claude\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Office-Anwendungen\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Berichte und Auswertungen\",\"id\":\"controlling\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":18.39,\"pay_hour_max\":19.99,\"hours_week_min\":15,\"hours_week_max\":20}"
+  },
+  "10001-1003646375-S": {
+   "hash": "a9128ee294b5822e",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1195,
+    "output": 198,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Kundenberatung\",\"id\":\"sales_skills\",\"importance\":\"must_have\"},{\"term\":\"Verkauf von Fitnessgeräten\",\"id\":\"sales_skills\",\"importance\":\"must_have\"},{\"term\":\"Angebote erstellen\",\"id\":\"sales_skills\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":14.5,\"pay_hour_max\":16.0,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003733612-S": {
+   "hash": "9fcf2c63a11b3431",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 350,
+    "output": 260,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Maschinensteuerungen / PLC\",\"id\":\"plc\",\"importance\":\"must_have\"},{\"term\":\"Elektrotechnische Dokumentation\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Schaltschrankbau\",\"id\":\"electrical\",\"importance\":\"must_have\"},{\"term\":\"Elektrische Antriebstechnik\",\"id\":\"electrical\",\"importance\":\"must_have\"},{\"term\":\"Branchenübliche Software\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003762543-S": {
+   "hash": "d5b387c584c98254",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 590,
+    "output": 162,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Führerschein Klasse B\",\"id\":\"driving_licence\",\"importance\":\"must_have\"},{\"term\":\"EDV-Kenntnisse\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":21.11,\"pay_hour_max\":39.61,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003765437-S": {
+   "hash": "a6c82c75c1a7e637",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 813,
+    "output": 528,
+    "cache_read": 0,
+    "cache_write_5m": 5118,
+    "cache_write_1h": 0,
+    "cache_write": 5118
+   },
+   "raw": "{\"skills\":[{\"term\":\"Officeanwendungen\",\"id\":\"ms_office\",\"importance\":\"nice_to_have\"},{\"term\":\"akustische Messtechnik\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Kenntnisse in der Akustik\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"basic\",\"german_requirement\":\"must_have\",\"english_level\":\"basic\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003773774-S": {
+   "hash": "60905caaf411683a",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 807,
+    "output": 255,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"SAP\",\"id\":\"sap\",\"importance\":\"nice_to_have\"},{\"term\":\"Microsoft Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"accounting\",\"id\":\"accounting\",\"importance\":\"must_have\"},{\"term\":\"controlling\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"AI tools\",\"id\":\"genai\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003780997-S": {
+   "hash": "86c772c4a39c4099",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1093,
+    "output": 703,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office-Kenntnisse\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Entgeltabrechnung\",\"id\":\"payroll\",\"importance\":\"must_have\"},{\"term\":\"arbeitsrechtliche Fragestellungen\",\"id\":\"labour_law\",\"importance\":\"must_have\"},{\"term\":\"HR-Systeme\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"nice_to_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":20,\"hours_week_max\":20}"
+  },
+  "10001-1003783349-S": {
+   "hash": "e8258f44fb027ce4",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 936,
+    "output": 187,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Kassiervorgänge und Zahlungen\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Kundenkontakt\",\"id\":\"customer_service\",\"importance\":\"must_have\"},{\"term\":\"Verkauf\",\"id\":\"sales_skills\",\"importance\":\"must_have\"}],\"german_level\":\"native\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":20,\"hours_week_max\":20}"
+  },
+  "10001-1003794666-S": {
+   "hash": "305253c5bae6acd7",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 329,
+    "output": 392,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"CRM-System\",\"id\":\"crm\",\"importance\":\"must_have\"},{\"term\":\"Event Management\",\"id\":\"event\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003806520-S": {
+   "hash": "294f47697aa3cbcb",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1230,
+    "output": 91,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "10001-1003825213-S": {
+   "hash": "9a0d270044e34ec4",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 571,
+    "output": 169,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Erste Erfahrungen im Verkauf\",\"id\":\"sales_skills\",\"importance\":\"nice_to_have\"},{\"term\":\"Kassenvorgänge\",\"id\":\"customer_service\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1531149-2-S": {
+   "hash": "edec51063b06f1ee",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 709,
+    "output": 228,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Datenanalysen und Statistiken\",\"id\":\"statistics\",\"importance\":\"must_have\"},{\"term\":\"Präsentationsunterlagen\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"MS-Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Dokumente Gefährdungsbeurteilungen\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1608471-1-S": {
+   "hash": "e910619f1d3c050f",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 635,
+    "output": 365,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Project management\",\"id\":\"project_mgmt\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"Figma\",\"id\":\"figma\",\"importance\":\"nice_to_have\"},{\"term\":\"Adobe Photoshop\",\"id\":\"photoshop\",\"importance\":\"nice_to_have\"},{\"term\":\"Premiere\",\"id\":\"video\",\"importance\":\"nice_to_have\"},{\"term\":\"Camtasia\",\"id\":\"video\",\"importance\":\"nice_to_have\"},{\"term\":\"Social media content\",\"id\":\"social_media\",\"importance\":\"must_have\"},{\"term\":\"Events\",\"id\":\"event\",\"importance\":\"must_have\"},{\"term\":\"Market research\",\"id\":\"market_research\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1623685-1-S": {
+   "hash": "219641cba0dbfefc",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 796,
+    "output": 385,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"SAP BTP\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"AI Core / Generative AI Hub\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"JavaScript\",\"id\":\"javascript\",\"importance\":\"must_have\"},{\"term\":\"UI5\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Angular\",\"id\":\"angular\",\"importance\":\"must_have\"},{\"term\":\"HTML\",\"id\":\"html_css\",\"importance\":\"must_have\"},{\"term\":\"CSS\",\"id\":\"html_css\",\"importance\":\"must_have\"},{\"term\":\"REST/OData\",\"id\":\"rest_api\",\"importance\":\"must_have\"},{\"term\":\"presentation tools\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Adobe\",\"id\":\"adobe_cc\",\"importance\":\"must_have\"},{\"term\":\"Java\",\"id\":\"java\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1634264-1-S": {
+   "hash": "d6d423bbb3ee5975",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 409,
+    "output": 477,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"SAP Commerce Cloud\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"Java\",\"id\":\"java\",\"importance\":\"must_have\"},{\"term\":\"TypeScript\",\"id\":\"typescript\",\"importance\":\"must_have\"},{\"term\":\"Angular\",\"id\":\"angular\",\"importance\":\"must_have\"},{\"term\":\"Docker\",\"id\":\"docker\",\"importance\":\"must_have\"},{\"term\":\"Kubernetes\",\"id\":\"kubernetes\",\"importance\":\"must_have\"},{\"term\":\"AI coding agents\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Scrum\",\"id\":\"agile\",\"importance\":\"must_have\"},{\"term\":\"JavaScript\",\"id\":\"javascript\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"C++\",\"id\":\"cpp\",\"importance\":\"must_have\"},{\"term\":\"Git\",\"id\":\"git\",\"importance\":\"must_have\"},{\"term\":\"TDD\",\"id\":\"testing\",\"importance\":\"must_have\"},{\"term\":\"React\",\"id\":\"react\",\"importance\":\"nice_to_have\"},{\"term\":\"Node.js\",\"id\":\"nodejs\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1640289-1-S": {
+   "hash": "6c6e44222174364a",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 713,
+    "output": 288,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"PowerBI\",\"id\":\"powerbi\",\"importance\":\"must_have\"},{\"term\":\"Microsoft Office applications\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Word\",\"id\":\"word\",\"importance\":\"must_have\"},{\"term\":\"SAP solutions\",\"id\":\"sap\",\"importance\":\"nice_to_have\"},{\"term\":\"AI tools\",\"id\":\"genai\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1641194-1-S": {
+   "hash": "d2661d65dfce6c9e",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 367,
+    "output": 200,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Java\",\"id\":\"java\",\"importance\":\"must_have\"},{\"term\":\"Sprint boot\",\"id\":\"spring\",\"importance\":\"must_have\"},{\"term\":\"Grafana\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Prometheus\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "11070-1641198-1-S": {
+   "hash": "8482c38003afe24e",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 738,
+    "output": 455,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"SAP Discovery Center Missions\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"SAP Business One\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"SAP Business ByDesign\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"SharePoint\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"SAP Work Zone\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"AI agents\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"prompt engineering\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Large language models\",\"id\":\"genai\",\"importance\":\"nice_to_have\"},{\"term\":\"MS Office (PowerPoint, Excel)\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"SharePoint and SAP Work Zone knowledge\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12280-2025-70495-0-S": {
+   "hash": "36de3d2de9e64951",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12280-2026-76455-0-S": {
+   "hash": "d1b7faa877f6b585",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12280-2026-79234-0-S": {
+   "hash": "278b397096df09d9",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12336-a26f957j0452904-S": {
+   "hash": "aef8fc49daa25702",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12462-1637725-1-S": {
+   "hash": "0ceb17c22f892099",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 604,
+    "output": 129,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Sicherer Umgang mit MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12465-1600672-2-S": {
+   "hash": "5f455ebe9869439d",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 839,
+    "output": 435,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Java\",\"id\":\"java\",\"importance\":\"must_have\"},{\"term\":\"Go\",\"id\":\"go\",\"importance\":\"must_have\"},{\"term\":\".NET\",\"id\":\"dotnet\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"TypeScript\",\"id\":\"typescript\",\"importance\":\"must_have\"},{\"term\":\"Spring\",\"id\":\"spring\",\"importance\":\"nice_to_have\"},{\"term\":\"React\",\"id\":\"react\",\"importance\":\"nice_to_have\"},{\"term\":\"Kafka\",\"id\":\"kafka\",\"importance\":\"nice_to_have\"},{\"term\":\"NATS\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Docker\",\"id\":\"docker\",\"importance\":\"nice_to_have\"},{\"term\":\"GitHub Copilot\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"CRDTs\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"LLM-based frameworks\",\"id\":\"genai\",\"importance\":\"nice_to_have\"}],\"german_level\":\"none\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":20,\"hours_week_max\":20}"
+  },
+  "12608-1416326-49890-1-S": {
+   "hash": "7a5f177586a14294",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 815,
+    "output": 91,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12608-1423487-28293-1-S": {
+   "hash": "8675f046e7481a80",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12608-1451386-28446-1-S": {
+   "hash": "da727740d0031b9a",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 896,
+    "output": 91,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":15,\"hours_week_max\":20}"
+  },
+  "12608-1451520-4078-1-S": {
+   "hash": "9b4546a61460a4ca",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1071,
+    "output": 671,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Datenbanken und SQL\",\"id\":\"sql\",\"importance\":\"nice_to_have\"},{\"term\":\"sehr gute MS Office Kenntnisse\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"agilem Arbeiten\",\"id\":\"agile\",\"importance\":\"nice_to_have\"},{\"term\":\"Jira und/oder Confluence\",\"id\":\"jira\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":20}"
+  },
+  "12608-1454391-28033-1-S": {
+   "hash": "a5b21a5e9441e1a0",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 793,
+    "output": 801,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office-Produkte\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Analyse- und Ad-hoc-Fragestellungen\",\"id\":\"data_analysis\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":18,\"hours_week_max\":18}"
+  },
+  "12688-REG-44378-RJA-S": {
+   "hash": "ffb718076bdfde44",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 600,
+    "output": 673,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Informationssicherheit\",\"id\":\"it_security\",\"importance\":\"must_have\"},{\"term\":\"Business Continuity Management\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Outlook\",\"id\":\"outlook\",\"importance\":\"must_have\"},{\"term\":\"Word\",\"id\":\"word\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"basic\",\"english_requirement\":\"must_have\",\"pay_hour_min\":15.87,\"pay_hour_max\":15.87,\"hours_week_min\":null,\"hours_week_max\":20}"
+  },
+  "12811-1790083-S": {
+   "hash": "076ae333d8477b67",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1009,
+    "output": 126,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"BIM-Methodik\",\"id\":\"bim\",\"importance\":\"nice_to_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12811-2316142-S": {
+   "hash": "4ac4c5e39cab246f",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 669,
+    "output": 809,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Power BI\",\"id\":\"powerbi\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"nice_to_have\"},{\"term\":\"SQL\",\"id\":\"sql\",\"importance\":\"nice_to_have\"},{\"term\":\"Dashboards und Reports\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"Datenaufbereitung, Analyse\",\"id\":\"data_analysis\",\"importance\":\"must_have\"},{\"term\":\"KI-basierte Lösungen (M365 Copilot)\",\"id\":\"genai\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12811-2317237-S": {
+   "hash": "639f32053b4a4eff",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12811-2332148-S": {
+   "hash": "3397c38f76c1ae0d",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 481,
+    "output": 396,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Fahrerlaubnis B PKW/Kleinbusse\",\"id\":\"driving_licence\",\"importance\":\"must_have\"},{\"term\":\"Vermessungssoftware und -geräten\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12811-2333033-S": {
+   "hash": "53e2d06d505aceb4",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1211,
+    "output": 889,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Microsoft Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"Reporting und Auswertungen\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"Abrechnung mit Krankenkassen\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12811-2336268-S": {
+   "hash": "1fbe494d107c0018",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 601,
+    "output": 122,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"ERP-System\",\"id\":\"other_erp\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12811-2337853-S": {
+   "hash": "e9e728ba26358902",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12811-2344196-S": {
+   "hash": "236206726a8ee87b",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 708,
+    "output": 206,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Schaltungsdesign\",\"id\":\"electrical\",\"importance\":\"must_have\"},{\"term\":\"PCB-Layout\",\"id\":\"pcb\",\"importance\":\"must_have\"},{\"term\":\"hardwarenahe Firmware\",\"id\":\"embedded\",\"importance\":\"must_have\"},{\"term\":\"Software\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":20}"
+  },
+  "12846-1636457-1-S": {
+   "hash": "a7d958e3b201a6ee",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 940,
+    "output": 600,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Microsoft 365\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Projektmanagement\",\"id\":\"project_mgmt\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "12951-14a58a4a-eae3-4431--S": {
+   "hash": "c22527bdfc901295",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 746,
+    "output": 130,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Führerschein Klasse B\",\"id\":\"driving_licence\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":13.9,\"pay_hour_max\":13.9,\"hours_week_min\":10,\"hours_week_max\":10}"
+  },
+  "12951-5e29e893-847e-412d--S": {
+   "hash": "c22527bdfc901295",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 746,
+    "output": 130,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Führerschein Klasse B\",\"id\":\"driving_licence\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":13.9,\"pay_hour_max\":13.9,\"hours_week_min\":10,\"hours_week_max\":10}"
+  },
+  "12951-609453c5-fbb9-4331--S": {
+   "hash": "3bab993d2cabb65b",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 729,
+    "output": 130,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Führerschein Klasse B\",\"id\":\"driving_licence\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":13.9,\"pay_hour_max\":13.9,\"hours_week_min\":10,\"hours_week_max\":10}"
+  },
+  "12951-6c1b2262-2c0d-492b--S": {
+   "hash": "542c2d1b546a32c5",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12951-838b5550-0864-4ed5--S": {
+   "hash": "c22527bdfc901295",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 746,
+    "output": 130,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Führerschein Klasse B\",\"id\":\"driving_licence\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":13.9,\"pay_hour_max\":13.9,\"hours_week_min\":10,\"hours_week_max\":10}"
+  },
+  "12951-aa9c386e-f630-4c77--S": {
+   "hash": "6afcf25a3c2afc20",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12951-f4ebe1be-8757-4171--S": {
+   "hash": "c57e0622f7cf50cc",
+   "mode": "rules",
+   "skipped": true
+  },
+  "12952-2026_1727254-S": {
+   "hash": "a6ad5370fe726990",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 737,
+    "output": 275,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office-Produkte\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Microsoft Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"Excel Kalkulationstool\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"SAP\",\"id\":\"sap\",\"importance\":\"nice_to_have\"},{\"term\":\"CRM Salesforce\",\"id\":\"salesforce\",\"importance\":\"nice_to_have\"},{\"term\":\"Telematikdaten\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":20}"
+  },
+  "13151-1634139-1-S": {
+   "hash": "ca9f6edc47dfa348",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1409,
+    "output": 492,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"n8n\",\"id\":\"zapier\",\"importance\":\"nice_to_have\"},{\"term\":\"REST APIs\",\"id\":\"rest_api\",\"importance\":\"nice_to_have\"},{\"term\":\"SIEM\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Logging-Lösungen\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Cloud Security\",\"id\":\"it_security\",\"importance\":\"nice_to_have\"},{\"term\":\"Windows\",\"id\":\"windows_server\",\"importance\":\"must_have\"},{\"term\":\"Linux\",\"id\":\"linux\",\"importance\":\"must_have\"},{\"term\":\"Microsoft Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"JSON\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"reguläre Ausdrücke\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"nice_to_have\"},{\"term\":\"Bash\",\"id\":\"bash\",\"importance\":\"nice_to_have\"},{\"term\":\"Cloud-Technologien\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Atlassian-Wiki\",\"id\":\"jira\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "13151-1640446-1-S": {
+   "hash": "17e056c2e4f74ebb",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1048,
+    "output": 367,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Statistik und Datenanalyse\",\"id\":\"statistics\",\"importance\":\"nice_to_have\"},{\"term\":\"Datenanalyse\",\"id\":\"data_analysis\",\"importance\":\"nice_to_have\"},{\"term\":\"Algorithmen\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Key Performance Indicators (KPIs)\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Kamera-, LiDAR-, Radar- oder inertiale Sensorsysteme\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Verifikation und Validierung\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "13465-00021a67ccf001-S": {
+   "hash": "d8a4f4f24925f8f9",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 607,
+    "output": 553,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office-Kenntnisse\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"Telefonakquise\",\"id\":\"sales_skills\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"nice_to_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "13635-eef44b00_JB5249897-S": {
+   "hash": "1e1c13d584db3d92",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 777,
+    "output": 994,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"spreadsheets (lookups, pivots)\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"accounting or similar\",\"id\":\"accounting\",\"importance\":\"nice_to_have\"},{\"term\":\"German bookkeeping basics (Belege, GoBD, USt)\",\"id\":\"accounting\",\"importance\":\"nice_to_have\"},{\"term\":\"DATEV\",\"id\":\"datev\",\"importance\":\"nice_to_have\"},{\"term\":\"Moss, Pleo, ERP system\",\"id\":\"other_erp\",\"importance\":\"nice_to_have\"},{\"term\":\"Procurement with suppliers\",\"id\":\"procurement\",\"importance\":\"must_have\"},{\"term\":\"AI for process improvement\",\"id\":\"genai\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":15,\"pay_hour_max\":15,\"hours_week_min\":16,\"hours_week_max\":20}"
+  },
+  "13635-ff60ca13_JB5248781-S": {
+   "hash": "dc7621ccd8d807da",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 758,
+    "output": 611,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Redaxo\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Laravel\",\"id\":\"laravel\",\"importance\":\"must_have\"},{\"term\":\"REST API Schnittstellen\",\"id\":\"rest_api\",\"importance\":\"must_have\"},{\"term\":\"agile Entwicklungsmethoden\",\"id\":\"agile\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "13660-956960794-S": {
+   "hash": "6205da12fecd0990",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 808,
+    "output": 471,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Content-Marketing\",\"id\":\"content\",\"importance\":\"must_have\"},{\"term\":\"Content Creation\",\"id\":\"content\",\"importance\":\"must_have\"},{\"term\":\"Adobe Photoshop\",\"id\":\"photoshop\",\"importance\":\"must_have\"},{\"term\":\"InDesign\",\"id\":\"indesign\",\"importance\":\"must_have\"},{\"term\":\"Illustrator\",\"id\":\"illustrator\",\"importance\":\"must_have\"},{\"term\":\"Adobe After Effects\",\"id\":\"adobe_cc\",\"importance\":\"nice_to_have\"},{\"term\":\"Runway\",\"id\":\"genai\",\"importance\":\"nice_to_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"nice_to_have\"},{\"term\":\"Grafikdesign\",\"id\":\"graphic_design\",\"importance\":\"must_have\"},{\"term\":\"Editorial Design\",\"id\":\"graphic_design\",\"importance\":\"must_have\"},{\"term\":\"Motion Design\",\"id\":\"video\",\"importance\":\"must_have\"},{\"term\":\"Social Media\",\"id\":\"social_media\",\"importance\":\"must_have\"},{\"term\":\"Typografie und Layout\",\"id\":\"graphic_design\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":20,\"hours_week_max\":20}"
+  },
+  "13884-141140-S": {
+   "hash": "554438e7c086a4ff",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1030,
+    "output": 164,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Kassensystem\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Hygiene-, Lebensmittel- und Qualitätsstandards\",\"id\":\"quality\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "13884-341206-S": {
+   "hash": "438b6ae895aa77de",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 494,
+    "output": 397,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office Anwendungen\",\"id\":\"ms_office\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "14225-10fa587b525787e6-S": {
+   "hash": "413340a643e63f4d",
+   "mode": "rules",
+   "skipped": true
+  },
+  "14225-424474e47ddda0c5-S": {
+   "hash": "64c4fd43c7eedeee",
+   "mode": "rules",
+   "skipped": true
+  },
+  "14456-k11173.28281-S": {
+   "hash": "dbb38c4327a3e66b",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 377,
+    "output": 200,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Führerschein\",\"id\":\"driving_licence\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "14763-44446865-916-S": {
+   "hash": "dc5964bb0173f326",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 731,
+    "output": 129,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office-Kenntnisse\",\"id\":\"ms_office\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "14927-2pymp2ozt3b-S": {
+   "hash": "e00eef357ead44c9",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 336,
+    "output": 128,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Microsoft-Office-Anwendungen\",\"id\":\"ms_office\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "14953-44459763-101-S": {
+   "hash": "1d56d1f4c313ec33",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1068,
+    "output": 163,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Google Workspace\",\"id\":\"google_workspace\",\"importance\":\"nice_to_have\"},{\"term\":\"Atlassian (Jira und Confluence)\",\"id\":\"jira\",\"importance\":\"nice_to_have\"}],\"german_level\":\"native\",\"german_requirement\":\"must_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "15120-1637106-1-S": {
+   "hash": "3630837058d1dd2b",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1637,
+    "output": 564,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Microsoft Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Word\",\"id\":\"word\",\"importance\":\"must_have\"},{\"term\":\"Excel\",\"id\":\"excel\",\"importance\":\"must_have\"},{\"term\":\"PowerPoint\",\"id\":\"powerpoint\",\"importance\":\"must_have\"},{\"term\":\"SAP\",\"id\":\"sap\",\"importance\":\"nice_to_have\"},{\"term\":\"PLM-System\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":20,\"hours_week_max\":20}"
+  },
+  "15794-468652_48996-1-S": {
+   "hash": "a71dbc2a35e26c62",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 824,
+    "output": 135,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Industrie- und Wettbewerbsanalysen\",\"id\":\"market_research\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "15939-BB-635437-7878-3068-S": {
+   "hash": "2737922d8ce72e60",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 420,
+    "output": 715,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"CFD Software (CFX, FLUENT, STAR-CCM+)\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"nice_to_have\"},{\"term\":\"Rechengittergenerierung für CFD\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "16194-00003106c0b001-S": {
+   "hash": "b366b6b6f5d134e0",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1018,
+    "output": 409,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office Anwendungen\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Datenschutzrecht\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "16470-44477916-101-S": {
+   "hash": "4bfb10b1a76ee32f",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 675,
+    "output": 175,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Low-Code Cloudtechnologien\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"Skripte\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "16947-919432708-S": {
+   "hash": "db3c47e707e6e570",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1719,
+    "output": 619,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Project Management experiences\",\"id\":\"project_mgmt\",\"importance\":\"nice_to_have\"},{\"term\":\"Knowledge within Airframe Structure\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":18.53,\"pay_hour_max\":null,\"hours_week_min\":18,\"hours_week_max\":18}"
+  },
+  "16947-928317271-S": {
+   "hash": "76f51dd709bd9a6d",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1477,
+    "output": 389,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Google applications\",\"id\":\"google_workspace\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":18,\"hours_week_max\":18}"
+  },
+  "16947-930349336-S": {
+   "hash": "50d67b28f0536082",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1373,
+    "output": 1511,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"CI/CD workflows\",\"id\":\"cicd\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"Bash\",\"id\":\"bash\",\"importance\":\"must_have\"},{\"term\":\"pandas\",\"id\":\"pandas\",\"importance\":\"must_have\"},{\"term\":\"pyspark\",\"id\":\"spark\",\"importance\":\"must_have\"},{\"term\":\"Linux systems\",\"id\":\"linux\",\"importance\":\"must_have\"},{\"term\":\"Git\",\"id\":\"git\",\"importance\":\"must_have\"},{\"term\":\"Kubernetes\",\"id\":\"kubernetes\",\"importance\":\"nice_to_have\"},{\"term\":\"Apache Spark\",\"id\":\"spark\",\"importance\":\"nice_to_have\"},{\"term\":\"Apache Flink\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Jenkins / ArgoCD\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"PostgreSQL\",\"id\":\"postgresql\",\"importance\":\"nice_to_have\"},{\"term\":\"Django\",\"id\":\"django\",\"importance\":\"nice_to_have\"},{\"term\":\"Angular\",\"id\":\"angular\",\"importance\":\"nice_to_have\"},{\"term\":\"Testing (pyTest, DocTest)\",\"id\":\"testing\",\"importance\":\"nice_to_have\"},{\"term\":\"Docker\",\"id\":\"docker\",\"importance\":\"nice_to_have\"},{\"term\":\"Airflow\",\"id\":\"airflow\",\"importance\":\"nice_to_have\"},{\"term\":\"ETL\",\"id\":\"etl\",\"importance\":\"nice_to_have\"},{\"term\":\"pylint code quality\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":18,\"hours_week_max\":18}"
+  },
+  "16947-952476079-S": {
+   "hash": "d63e81af2359d772",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1274,
+    "output": 1342,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Google Suite\",\"id\":\"google_workspace\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"Matlab\",\"id\":\"matlab\",\"importance\":\"must_have\"},{\"term\":\"C\",\"id\":\"cpp\",\"importance\":\"must_have\"},{\"term\":\"business process modeling\",\"id\":\"process_mgmt\",\"importance\":\"must_have\"},{\"term\":\"process mining\",\"id\":\"process_mgmt\",\"importance\":\"must_have\"},{\"term\":\"data mining\",\"id\":\"data_analysis\",\"importance\":\"must_have\"},{\"term\":\"Google GCP\",\"id\":\"gcp\",\"importance\":\"must_have\"},{\"term\":\"project roadmaps\",\"id\":\"project_mgmt\",\"importance\":\"must_have\"},{\"term\":\"reports and decision-making bases\",\"id\":\"controlling\",\"importance\":\"must_have\"},{\"term\":\"Skywise\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Celonis\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Klaxoon\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"ARIS\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"c1_plus\",\"english_requirement\":\"must_have\",\"pay_hour_min\":18.53,\"pay_hour_max\":null,\"hours_week_min\":18,\"hours_week_max\":18}"
+  },
+  "16947-963359777-S": {
+   "hash": "b830d49fd4803319",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 1382,
+    "output": 711,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"G Suite applications\",\"id\":\"google_workspace\",\"importance\":\"must_have\"},{\"term\":\"Artificial Intelligence\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Change Management\",\"id\":\"other\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":18,\"hours_week_max\":18}"
+  },
+  "16947-970992973-S": {
+   "hash": "bb83037b9361e92c",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 912,
+    "output": 349,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"VBA\",\"id\":\"vba\",\"importance\":\"nice_to_have\"},{\"term\":\"Microsoft Office package\",\"id\":\"ms_office\",\"importance\":\"nice_to_have\"},{\"term\":\"Google Suite\",\"id\":\"google_workspace\",\"importance\":\"nice_to_have\"},{\"term\":\"SAP\",\"id\":\"sap\",\"importance\":\"must_have\"},{\"term\":\"MDNPro\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"SASPF\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Knowledge Management Tool\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Supply chain and logistics\",\"id\":\"supply_chain\",\"importance\":\"must_have\"},{\"term\":\"Procurement\",\"id\":\"procurement\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"nice_to_have\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "17402-44467217-925-S": {
+   "hash": "fd4bada47e522aa3",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 297,
+    "output": 303,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MathWorks tool chain\",\"id\":\"matlab\",\"importance\":\"must_have\"},{\"term\":\"MathWorks Simulink\",\"id\":\"simulink\",\"importance\":\"nice_to_have\"},{\"term\":\"MathWorks Simscape\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"dSpace tool chain\",\"id\":\"other\",\"importance\":\"nice_to_have\"},{\"term\":\"Simulation-driven approaches\",\"id\":\"fem\",\"importance\":\"must_have\"},{\"term\":\"AI tools\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Basic programming experience\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"fluent\",\"english_requirement\":\"must_have\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "18247-IOUf5XBl-S": {
+   "hash": "15e1c8a0f1d4978c",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 499,
+    "output": 149,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Kassiervorgänge mit Software\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Inventur\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "18247-jTpJnCDD-S": {
+   "hash": "cd942f46a60d9b04",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 498,
+    "output": 150,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Kassiervorgänge mit Software\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Inventuren\",\"id\":\"other\",\"importance\":\"must_have\"}],\"german_level\":\"fluent\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "18340-202419c2932cfa124e9-S": {
+   "hash": "bd5c82333bbb4590",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 572,
+    "output": 281,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Automatisierungstechnik\",\"id\":\"plc\",\"importance\":\"nice_to_have\"},{\"term\":\"NI LabVIEW\",\"id\":\"labview\",\"importance\":\"must_have\"},{\"term\":\"Python\",\"id\":\"python\",\"importance\":\"must_have\"},{\"term\":\"Software-Versionierung (z. B. mit Git)\",\"id\":\"git\",\"importance\":\"must_have\"},{\"term\":\"Softwareapplikationen\",\"id\":\"other\",\"importance\":\"must_have\"},{\"term\":\"Mess- und Steuerungstechnik\",\"id\":\"embedded\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":null,\"pay_hour_max\":null,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "18624-0067308355-S": {
+   "hash": "9faa72a3c5d06de4",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 437,
+    "output": 128,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"MS-Office Produkte\",\"id\":\"ms_office\",\"importance\":\"nice_to_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":17,\"pay_hour_max\":19,\"hours_week_min\":10,\"hours_week_max\":20}"
+  },
+  "19228-000092034c1002-S": {
+   "hash": "30fe4a4272ad55f9",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 882,
+    "output": 130,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Führerschein der Klasse B\",\"id\":\"driving_licence\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"none\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":14.45,\"pay_hour_max\":14.45,\"hours_week_min\":22,\"hours_week_max\":22}"
+  },
+  "20956-2342792-S": {
+   "hash": "76a8aeb367185ab7",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 963,
+    "output": 572,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"Sicherer Umgang mit MS Office\",\"id\":\"ms_office\",\"importance\":\"must_have\"},{\"term\":\"Erstellung von Prozessdokumentationen\",\"id\":\"process_mgmt\",\"importance\":\"must_have\"}],\"german_level\":\"unknown\",\"german_requirement\":\"not_stated\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":18,\"pay_hour_max\":18,\"hours_week_min\":null,\"hours_week_max\":null}"
+  },
+  "21070-46-S": {
+   "hash": "619dbeefcb31ee98",
+   "mode": "sync",
+   "stop_reason": "end_turn",
+   "usage": {
+    "input": 688,
+    "output": 611,
+    "cache_read": 5118,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0,
+    "cache_write": 0
+   },
+   "raw": "{\"skills\":[{\"term\":\"KI-Tools\",\"id\":\"genai\",\"importance\":\"must_have\"},{\"term\":\"Website und LinkedIn\",\"id\":\"social_media\",\"importance\":\"must_have\"},{\"term\":\"Mailings\",\"id\":\"email_marketing\",\"importance\":\"must_have\"},{\"term\":\"Texte für Mailings\",\"id\":\"content\",\"importance\":\"must_have\"},{\"term\":\"Agenturen für GEO/SEO\",\"id\":\"seo\",\"importance\":\"must_have\"},{\"term\":\"Presales, Neukundenakquise\",\"id\":\"sales_skills\",\"importance\":\"must_have\"}],\"german_level\":\"c1_plus\",\"german_requirement\":\"must_have\",\"english_level\":\"unknown\",\"english_requirement\":\"not_stated\",\"pay_hour_min\":16,\"pay_hour_max\":16,\"hours_week_min\":20,\"hours_week_max\":20}"
+  }
  }
 }

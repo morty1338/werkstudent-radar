@@ -149,7 +149,8 @@ def build(sample, strata, labels, extra, results, batch_results, others=()):
     skills = PANEL + EXTRA
 
     L = ["# Skill extraction: Claude Haiku 5.5 vs. the rules", "",
-         f"Model `{llm.MODEL}`, thinking off, structured JSON output, cached system prompt "
+         f"Model `{llm.MODEL}`, adaptive thinking at effort `{llm.EFFORT}` (the default; earlier runs differ, see below), "
+         f"structured JSON output, cached system prompt "
          f"({len(llm.system_prompt()):,} characters: instructions and the {len(llm.SKILL_IDS)} skills). "
          f"Labels: `labels.csv` (14 skills) and `labels_extra.csv` (Word, Outlook, MS Teams), see `LABELS.md`.", "",
          f"Answers: {len(refs_all)} of {len(postings)} postings; {len(skipped)} had no task or requirement section and "
@@ -162,7 +163,11 @@ def build(sample, strata, labels, extra, results, batch_results, others=()):
          "\"other\". v2 was tuned on these same postings, so its scores are optimistic, like the rules' (tuned in pass 3 "
          "of `LABELS.md`; their untuned baseline is in `report_baseline.md`). **v3** also sends the untitled intro "
          "(v1/v2 lost requirements that unstructured postings put there); **v3-thinking-low** is v3 with adaptive "
-         "thinking at effort `low` instead of thinking off.", ""]
+         "thinking at effort `low` instead of thinking off. **v4** sends only the task and requirement sections (not the intro, "
+         "benefits or company text); postings without them are not sent and keep the rules' answer. **v5** shortens the "
+         "prompt (skill list without groups, shorter instructions, terms of at most 5 words) and has no id list in the "
+         "schema; **v5-enum** puts the id list back (the model then thinks less). Runs without a suffix after v3 use "
+         "thinking off, `-thinking-low` and v5 use effort `low`.", ""]
 
     sent = [llm.model_input(p) for p in postings]
     n_sent = sum(ok for _, ok in sent)
@@ -299,11 +304,12 @@ def main():
     ap.add_argument("--limit", type=int, help="only the first N postings")
     ap.add_argument("--force", action="store_true", help="send again even if unchanged")
     ap.add_argument("--tag", default="main", help="name the run's answers are stored under")
-    ap.add_argument("--effort", choices=["low", "medium", "high"], help="let the model think at this effort")
+    ap.add_argument("--effort", choices=["off", "low", "medium", "high"], default=llm.EFFORT,
+                    help=f"thinking effort (default {llm.EFFORT}; off = no thinking)")
     ap.add_argument("--main", default="v3", help="the run the report's tables describe")
     args = ap.parse_args()
     if args.command == "run":
-        run(args.tag, batch=args.batch, limit=args.limit, force=args.force, effort=args.effort)
+        run(args.tag, batch=args.batch, limit=args.limit, force=args.force, effort=None if args.effort == "off" else args.effort)
     else:
         report(args.main)
 
