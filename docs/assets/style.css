@@ -560,58 +560,30 @@ body.trk-open { overflow: hidden; }
 #k-tiles { margin: 6px 0 16px; }
 #k-tiles .tile { min-height: 112px; }
 .k-grid { margin-top: 0; }
-.k-legend { margin: 0; }
-.bar-split { display: flex; height: 100%; gap: 2px; border-radius: 0 4px 4px 0; overflow: hidden; min-width: 2px; transition: width .35s ease; }
-.bar-split .f-must { background: var(--accent); height: 100%; }
-.bar-split .f-nice { background: var(--muted-bar); height: 100%; flex: 1; }
-/* Job titles of one academy: a compact table, a row selects the title. */
-.k-table { display: grid; gap: 2px; font-size: 14px; }
-.k-row { display: grid; grid-template-columns: minmax(0, 1fr) 64px 52px 40px 50px; gap: 8px; align-items: center; padding: 7px 8px; margin: 0 -8px; border-radius: 8px; }
-.k-row > span:not(.k-name) { font-family: var(--mono); font-size: 13px; text-align: right; font-variant-numeric: tabular-nums; color: var(--ink-2); }
-.k-head { font-size: 12px; color: var(--ink-3); padding-top: 0; padding-bottom: 4px; }
-.k-head > span:not(:first-child) { font-family: var(--font) !important; font-size: 12px !important; color: var(--ink-3) !important; }
-.k-row.clickable { cursor: pointer; }
-.k-row.clickable:hover { background: var(--surface-2); }
-.k-row.selected { background: var(--accent-soft); }
-.k-name { overflow-wrap: break-word; hyphens: auto; -webkit-hyphens: auto; min-width: 0; }
-.k-terms-title { margin-top: 22px; }
-.k-terms { margin-bottom: 0; }
 .k-terms .chip { white-space: normal; }
-/* Opportunities: one row per job title, mini bars per measure. */
-.ch-table { display: grid; gap: 2px; }
-.ch-row { display: grid; grid-template-columns: minmax(0, 2.2fr) repeat(3, minmax(0, 1.2fr)) 64px; gap: 14px; align-items: center; padding: 9px 8px; margin: 0 -8px; border-radius: 8px; font-size: 14px; }
-.ch-head { font-size: 12px; color: var(--ink-3); padding-bottom: 4px; }
-.ch-row.clickable { cursor: pointer; }
-.ch-row.clickable:hover { background: var(--surface-2); }
-.ch-row.top .ch-score b { background: var(--accent); color: var(--on-accent); }
-.ch-name small { display: block; color: var(--ink-3); font-size: 12px; }
-.ch-cell { display: flex; align-items: center; gap: 8px; min-width: 0; }
-.ch-cell em, .ch-score em { display: none; font-style: normal; }
-.ch-cell b, .ch-score b { font-family: var(--mono); font-weight: 600; font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
-.ch-cell b { min-width: 56px; text-align: right; color: var(--ink-2); }
-.ch-score { text-align: right; }
-.ch-score b { display: inline-block; min-width: 40px; text-align: center; padding: 3px 6px; border-radius: 6px; background: var(--surface-3); color: var(--ink); }
-.mini { flex: 1; height: 8px; background: var(--surface-2); border-radius: 99px; overflow: hidden; min-width: 24px; }
-.mini-fill { display: block; height: 100%; background: var(--accent); border-radius: 99px; }
+#k-skills-card .legend-line { display: block; line-height: 1.5; }
+#stellen .card-head { margin-bottom: 4px; }
+#k-jobs-note:empty { display: none; }
+/* Opportunities: a numbered list of plain sentences; a tap opens the job title. */
+.k-chancen { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.k-chance {
+  display: flex; align-items: flex-start; gap: 14px; width: 100%; text-align: left; cursor: pointer;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; color: var(--ink);
+}
+.k-chance:hover { border-color: var(--accent); }
+.k-rank {
+  flex: none; display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 8px;
+  font-family: var(--mono); font-weight: 700; background: var(--surface-3); color: var(--ink);
+}
+.k-chancen .top .k-rank { background: var(--accent); color: var(--on-accent); }
+.k-chance-body small { color: var(--ink-3); font-size: 13px; margin-left: 4px; }
+.k-chance-text { display: block; color: var(--ink-2); font-size: 14px; margin-top: 2px; }
 .k-method { display: block; line-height: 1.5; margin-top: 16px; }
 .hero-kurs { margin-top: 12px; font-size: 15px; }
-@media (max-width: 860px) {
-  .ch-row { grid-template-columns: minmax(0, 1fr) 64px; grid-template-areas: "name score" "a a" "b b" "c c"; gap: 6px 12px; padding: 12px 8px; border-top: 1px solid var(--line); border-radius: 0; }
-  .ch-row.clickable:hover { border-radius: 8px; }
-  .ch-head { display: none; }
-  .ch-name { grid-area: name; }
-  .ch-score { grid-area: score; align-self: start; }
-  .ch-cell:nth-of-type(2) { grid-area: a; }
-  .ch-cell:nth-of-type(3) { grid-area: b; }
-  .ch-cell:nth-of-type(4) { grid-area: c; }
-  .ch-cell em { display: block; width: 118px; flex: none; font-size: 13px; color: var(--ink-3); }
-}
 @media (max-width: 560px) {
-  .kurs-nav { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .kurs-nav { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .kurs-page .filter-count { display: none; }   /* the date is in the note under the title */
   .kurs-note { display: block; min-height: 88px; }
-  .k-row { grid-template-columns: minmax(0, 1fr) 58px 46px 34px 46px; gap: 6px; font-size: 13px; }
-  .k-row > span:not(.k-name) { font-size: 12px; }
-  .k-legend { width: 100%; }
   /* Long skill labels wrap instead of being cut off. */
   .kurs-page .bar-label { white-space: normal; line-height: 1.25; }
 }

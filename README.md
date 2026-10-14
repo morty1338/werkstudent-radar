@@ -323,9 +323,12 @@ looks at a different set of jobs: the regular jobs (full-time, part-time, minijo
 career-changer courses train for, grouped by academy (Sales, Marketing, HR, KI, Job
 Academy). Pick an academy and a job title to see how many postings there are, the
 share open to career changers, asking for AI skills and asking for the office basics,
-and the most asked-for skills split into must have and nice to have. An
-"Opportunities" view ranks the job titles by size, current demand and openness to
-career changers, as input for deciding on a new course. Only Bundesagentur postings,
+the most asked-for skills as simple bars (must have / nice to have in the tooltip),
+and the postings themselves with links to the Bundesagentur and "+ Track" (the same
+application tracker as the Werkstudent page; a filter shows only postings open to
+career changers). "Opportunities" is a numbered list of the job titles with many
+postings, many new ones and many open to career changers, as input for deciding on a
+new course. Only Bundesagentur postings,
 a snapshot of one day. Linked from the main page (hero and header); its logo and a
 back link lead back.
 
@@ -343,7 +346,8 @@ back link lead back.
   as "kein Quereinstieg" excluded) next to the employer's own BA flag, AI only in the
   task or requirement sections, and the same Claude Haiku extraction as above in one
   batch per day (collected by the next run, so the daily run doesn't wait).
-- **Numbers** ([`radar/kurs_stats.py`](radar/kurs_stats.py) → `docs/data/kurs.json`):
+- **Numbers** ([`radar/kurs_stats.py`](radar/kurs_stats.py) → `docs/data/kurs.json`, and
+  `kurs_postings.json` with title, company, city, date and the two marks per posting):
   per title and academy; week-over-week change in SQL over the daily counts once a
   week of history exists, until then the share published in the last 7 days. Shares
   are hidden below 20 postings ("Prompt Engineer" has 2 on the board).

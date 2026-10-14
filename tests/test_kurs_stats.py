@@ -154,3 +154,21 @@ def test_no_data_means_no_file(tmp_path, monkeypatch, capsys):
     monkeypatch.setattr(KS, "OUT_JSON", str(tmp_path / "kurs.json"))
     assert KS.main([]) == 0
     assert not (tmp_path / "kurs.json").exists()
+
+
+def test_postings_list_for_the_page(tmp_path):
+    (tmp_path / "kurs.yaml").write_text(YAML, encoding="utf-8")
+    kdir = tmp_path / "kurs"
+    kdir.mkdir()
+    write(kdir / "postings.csv", [
+        {**p("r1", "recruiter", published="2026-10-10", qe="1"), "title": "Recruiter (m/w/d)", "company": "Acme", "city": "Berlin"},
+        {**p("r2", "recruiter", published="2026-10-12"), "title": "Recruiter", "company": "Beta", "city": "Köln"},
+        {**p("r3", "recruiter", last_seen="2026-10-13"), "title": "Old", "company": "Gone", "city": "Bonn"},
+    ])
+    write(kdir / "features.csv", [feat("r1"), feat("r2", ai=1)])
+    write(kdir / "counts.csv", [count(DAY, "recruiter", "hr", 2)])
+    out = KS.postings_list(kurs_dir=str(kdir))
+    assert out["fields"] == KS.POSTING_FIELDS and out["url"].endswith("{refnr}")
+    assert out["rows"] == [["r2", "Recruiter", "Beta", "Köln", "2026-10-12", "recruiter", 0, 1],     # newest first
+                           ["r1", "Recruiter (m/w/d)", "Acme", "Berlin", "2026-10-10", "recruiter", 1, 0]]
+    assert "text" not in json.dumps(out)                                           # facts and links only

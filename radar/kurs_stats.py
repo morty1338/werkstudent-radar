@@ -4,7 +4,9 @@ Usage:
     python -m radar.kurs_stats            # writes docs/data/kurs.json and prints the numbers
     python -m radar.kurs_stats --print    # only print
 
-Reads data/kurs/*.csv (radar.kurs, radar.kurs_extract) and data/kurs_radar.yaml. The
+Reads data/kurs/*.csv (radar.kurs, radar.kurs_extract) and data/kurs_radar.yaml; also writes
+docs/data/kurs_postings.json (today's postings with title, company, city, date, job title and the
+Quereinsteiger / AI marks, for the page's job list; links point to the Bundesagentur). The
 sample is the postings online on the latest collection day (at most cap_per_title per
 title, the most relevant ones); "postings" is the estimate for the whole board
 (counts.csv: exact, or a lower bound for capped titles).
@@ -37,6 +39,9 @@ from .kurs_extract import AI_SKILLS, AI_TERMS
 from .skills import SKILLS
 
 OUT_JSON = os.path.join(ROOT, "docs", "data", "kurs.json")
+POSTINGS_JSON = os.path.join(ROOT, "docs", "data", "kurs_postings.json")
+JOB_URL = "https://www.arbeitsagentur.de/jobsuche/jobdetail/{refnr}"
+POSTING_FIELDS = ["refnr", "title", "company", "city", "published", "job_title", "qe", "ai"]
 SQL_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sql")
 KURS_BASICS = ["ms_office", "excel", "powerpoint", "word"]
 TOP_SKILLS = 15
@@ -178,6 +183,34 @@ def build(kurs_dir=KURS_DIR, config_path=CONFIG_PATH):
             "note": NOTE, "basics": KURS_BASICS, "skills": labels, "academies": academies}
 
 
+def postings_list(kurs_dir=KURS_DIR):
+    """The postings online on the latest day, for the page's job list: facts and the link
+    pattern only (no job texts), newest first."""
+    postings = read_csv(os.path.join(kurs_dir, "postings.csv"))
+    counts = read_csv(os.path.join(kurs_dir, "counts.csv"))
+    if not postings or not counts:
+        return None
+    day = max(r["date"] for r in counts)
+    features = {r["refnr"]: r for r in read_csv(os.path.join(kurs_dir, "features.csv"))}
+    results = {r["refnr"]: r for r in read_csv(os.path.join(kurs_dir, "llm.csv"))}
+    rows = []
+    for p in postings:
+        if p["last_seen"] != day:
+            continue
+        f = posting_facts(p, features.get(p["refnr"]), results.get(p["refnr"]), day)
+        rows.append([p["refnr"], p["title"], p["company"], p["city"], p["published"], p["job_title"],
+                     int(f["qe"]), int(bool(f.get("ai")))])
+    rows.sort(key=lambda r: (r[4], r[0]), reverse=True)
+    return {"as_of": day, "url": JOB_URL, "fields": POSTING_FIELDS, "rows": rows}
+
+
+def _write_json(path, data):
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    os.replace(tmp, path)
+
+
 def _pct(m):
     return "–" if m["share"] is None else f"{m['share']:.0%}"
 
@@ -211,10 +244,10 @@ def main(argv=None):
         return 0
     print(report(data))
     if not args.print:
-        tmp = OUT_JSON + ".tmp"
-        with open(tmp, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
-        os.replace(tmp, OUT_JSON)
+        _write_json(OUT_JSON, data)
+        jobs = postings_list()
+        if jobs:
+            _write_json(POSTINGS_JSON, jobs)
     return 0
 
 
