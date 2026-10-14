@@ -81,7 +81,7 @@ As of 13 Oct 2026 (the live site updates every morning):
 | Skill detection, 14 common skills | precision **99%**, recall **97%** on the random 70 labelled postings (before rule fixes: 99% / 96%) |
 | Skills read by Claude Haiku | F1 **96%** vs. 95% for the rules on all 100 labelled postings (17 skills), plus must have / nice to have; about **$0.22 per 1,000 postings** by Message Batch |
 | German requirement | right level in 69 of 70 random postings; "open without German" correct 15/15 |
-| Tests | 562 (pytest, incl. Node checks for the browser code, the MCP server over HTTP and the LLM step with a stand-in API) |
+| Tests | 564 (pytest, incl. Node checks for the browser code, the MCP server over HTTP and the LLM step with a stand-in API) |
 | Lighthouse (desktop) | 100 / 100 / 100 / 100 |
 
 ## Architecture
@@ -317,11 +317,10 @@ as "also on BA" when an employer name from `ba_names`, the normalised title
 Bundesagentur posting online today. Requests use the project's User-Agent,
 respect robots.txt and are spaced 1.5 s apart with retries.
 
-## Two modes: Werkstudent | Jobs (beta)
+## Two modes: Werkstudent | Jobs
 
-One page, two data sets, the same charts. A switch in the filter row (`?mode=jobs`, while
-in beta only with `?beta=1`; `JOBS_PUBLIC` in [`docs/assets/mode.js`](docs/assets/mode.js))
-reloads the page with the **Jobs** data: all working times for the job titles of the
+One page, two data sets, the same charts. A switch in the filter row (`?mode=jobs`;
+[`docs/assets/mode.js`](docs/assets/mode.js)) reloads the page with the **Jobs** data: all working times for the job titles of the
 Kurs-Radar below, built by [`radar/jobs_build.py`](radar/jobs_build.py) into
 `docs/data/jobs_*.json` in exactly the shape of the Werkstudent files, through the same SQL.
 Job titles take the place of fields, with an extra **academy** filter; pay is a **salary per
@@ -330,7 +329,8 @@ salary fields, else clear phrases, monthly × 12, ranges by their midpoint; same
 Titles with many postings are a sample ("Stichprobe"). An academy's skills weigh its job
 titles the same. Jobs mode adds an "Opportunities" section; Telegram and RSS stay
 Werkstudent only (the page says so). Strings that differ are `key@jobs` entries in `i18n.js`.
-Switching keeps the city, "no German", your skills and the language. The MCP tools take an
+Switching keeps the city, "no German", your skills and the language; the old `kurs.html`
+redirects to Jobs mode (its academy and job title become the filters). The MCP tools take an
 optional `mode` ("werkstudent" | "jobs"; pay fields become `…_eur_per_year`).
 
 ## All jobs (`kurs.html`, Kurs-Radar)

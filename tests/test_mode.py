@@ -22,13 +22,14 @@ def run(tmp_path, search, expr, module="mode.js"):
 
 @pytest.mark.parametrize("search, expected", [
     ("", "werkstudent"),
-    ("?mode=jobs", "werkstudent"),             # Jobs mode is behind the beta flag
+    ("?mode=jobs", "jobs"),                    # public: no beta flag needed any more
     ("?mode=jobs&beta=1", "jobs"),
-    ("?beta=1", "werkstudent"),
+    ("?mode=werkstudent", "werkstudent"),
+    ("?mode=nonsense", "werkstudent"),
 ])
-def test_mode_needs_the_beta_flag(tmp_path, search, expected):
-    out = run(tmp_path, search, "[m.mode, m.JOBS_PUBLIC]")
-    assert out[0] == expected and out[1] is False
+def test_mode_from_the_url(tmp_path, search, expected):
+    out = run(tmp_path, search, "[m.mode, m.JOBS_PUBLIC, m.jobsAllowed]")
+    assert out == [expected, True, True]
 
 
 def test_jobs_mode_reads_the_jobs_files_and_tracks_with_its_own_keys(tmp_path):

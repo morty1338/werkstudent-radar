@@ -1,9 +1,9 @@
 // Which data set the page shows, read from the URL like the language: "werkstudent" (default)
 // or "jobs" (?mode=jobs: all working times for the Kurs-Radar job titles, docs/data/jobs_*.json).
-// Jobs mode is in beta: until JOBS_PUBLIC is true it needs ?beta=1 as well, the switch in the
-// header only shows then, and kurs.html stays its own page. No imports (tests run it in Node).
+// JOBS_PUBLIC switches Jobs mode on for everyone: the switch shows, ?mode=jobs works and kurs.html
+// redirects here. With false it needs ?beta=1 (the beta while it was built). No imports (tests run it in Node).
 
-export const JOBS_PUBLIC = false;
+export const JOBS_PUBLIC = true;
 
 const params = new URLSearchParams(globalThis.location?.search ?? "");
 export const beta = params.get("beta") === "1";
