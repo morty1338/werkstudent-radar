@@ -68,7 +68,8 @@ SKILLS = [
     ("nlp", "NLP", "Data & AI", [r"\bnlp\b", r"natural language processing", r"sprachverarbeitung"]),
     ("genai", "GenAI / LLMs", "Data & AI", [r"\bllms?\b", r"large language model", r"generative (?:ki|ai)", r"\bgen\s?ai\b", r"chatgpt", r"\bgpt-?\d?\b", r"prompt[- ]engineering", r"\brag\b", r"langchain", r"openai"]),
     ("computer_vision", "Computer Vision", "Data & AI", [r"computer vision", r"bildverarbeitung", r"opencv", r"image processing"]),
-    ("statistics", "Statistics", "Data & AI", [r"statisti", r"regression", r"hypothes[ei]s ?test", r"ökonometrie", r"econometric"]),
+    # "Statistiken erstellen" / "Personalstatistik" are reports (controlling), not the skill.
+    ("statistics", "Statistics", "Data & AI", [r"statistisch", r"statistic", r"(?<![a-zäöüß])statistik(?!en)", r"regression", r"hypothes[ei]s ?test", r"ökonometrie", r"econometric"]),
     ("spss", "SPSS", "Data & AI", [r"\bspss\b"]),
     ("stata", "Stata", "Data & AI", [r"(?-i:\bStata\b|\bSTATA\b)"]),
     ("powerbi", "Power BI", "Data & AI", [r"power\s*bi\b", r"\bpowerbi\b", r"\bdax\b"]),
