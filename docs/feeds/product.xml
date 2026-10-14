@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 01:25:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Processes &amp; Projects (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11937-34954_59456-1-S</link>
+      <guid isPermaLink="false">11937-34954_59456-1-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Tchibo GmbH Abteilung HRO/HRO-P · Hamburg · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) Projektmanagement Hochbau</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4961411507-S</link>
@@ -15,6 +23,14 @@
       <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Drees &amp; Sommer SE · München · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent Projektmanagement Office Digitale Aktenführung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f897j0456387-S</link>
+      <guid isPermaLink="false">12336-a26f897j0456387-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>HAMBURG WASSER · Hamburg · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudent Projektassistent (w/m/d) für national &amp; international geförderte Projekte</title>

@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 01:25:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Rezeptionsmitarbeiter / Bürokraft gesucht – Aushilfe / Minijob / Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003852472-S</link>
+      <guid isPermaLink="false">10001-1003852472-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Peembeck GmbH · Trier · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Office Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-61508c21-70b3-4c47--S</link>
+      <guid isPermaLink="false">12951-61508c21-70b3-4c47--S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Ströer X GmbH · Köln · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent/in Büroorganisation &amp; Kanzleimanagement (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003843651-S</link>

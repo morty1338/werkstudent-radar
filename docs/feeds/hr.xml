@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 01:25:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent HR (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-a9e5cdfb-cbdb-47c7--S</link>
+      <guid isPermaLink="false">12951-a9e5cdfb-cbdb-47c7--S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Friedberg · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Personalentwicklung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13552-4OAR34UU8QUGELT9-S</link>
+      <guid isPermaLink="false">13552-4OAR34UU8QUGELT9-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>N.O.C Engineering GmbH · Rottweil · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent:in (m/w/d) Personalmanagement</title>
+      <link>https://www.arbeitnow.com/jobs/companies/mvz-hph/werkstudentin-personalmanagement-hamburg-476515</link>
+      <guid isPermaLink="false">an:werkstudentin-personalmanagement-hamburg-476515</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Mvz Hph · Hamburg · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent Recruiting (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003843773-S</link>

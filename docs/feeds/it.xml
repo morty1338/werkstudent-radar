@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 01:25:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent*innen (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003853312-S</link>
+      <guid isPermaLink="false">10001-1003853312-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Acquandas GmbH · Kiel · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Net-Sec-Automation &amp; Monitoring (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11937-34971_59457-1-S</link>
+      <guid isPermaLink="false">11937-34971_59457-1-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Tchibo GmbH Abteilung HRO/HRO-P · Hamburg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>mgm technology partners GmbH: Werkstudent Consulting &amp; Strategieberatung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3069301791928801-S</link>
+      <guid isPermaLink="false">11956-3069301791928801-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>mgm consulting partners Gmbh · Berlin · €17.00/h · IT &amp; Software</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) KI &amp; Automatisierung, Waltenhofen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356493-S</link>
@@ -23,6 +47,22 @@
       <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Audi Business Innovation Gmbh · München · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent:in (m/w/d) IT Enterprise Architecture &amp; System Landscape</title>
+      <link>https://www.arbeitnow.com/jobs/companies/cargobeamer/werkstudentin-it-enterprise-architecture-system-landscape-leipzig-59701</link>
+      <guid isPermaLink="false">an:werkstudentin-it-enterprise-architecture-system-landscape-leipzig-59701</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Cargobeamer · Leipzig · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent:in (m/w/d) IT Workplace Management &amp; Deployment</title>
+      <link>https://www.arbeitnow.com/jobs/companies/cargobeamer/werkstudentin-it-workplace-management-deployment-leipzig-360203</link>
+      <guid isPermaLink="false">an:werkstudentin-it-workplace-management-deployment-leipzig-360203</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Cargobeamer · Leipzig · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) IT Service Portfolio Management</title>
@@ -255,6 +295,14 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Bayerische Versorgungskammer · München · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Digitale Transformation und KI (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12952-2026_1743441-S</link>
+      <guid isPermaLink="false">12952-2026_1743441-S</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>SCHEUERLE Fahrzeugfabrik GmbH · Pfedelbach · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent Systemmodellierung (m/w/d)</title>

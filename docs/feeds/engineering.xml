@@ -6,8 +6,80 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 01:25:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent für Prozessoptimierung in der Montage (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003851958-S</link>
+      <guid isPermaLink="false">10001-1003851958-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Schnaidt GmbH · Ammerbuch · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>GlobalFoundries Management Services GmbH &amp; Co. KG: Werkstudent*in im Bereich TCAD – Prozesssimulatio</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3078551791928800-S</link>
+      <guid isPermaLink="false">11956-3078551791928800-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>GlobalFoundries Management Services GmbH &amp; Co. KG · Dresden · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent/in (m/w/d) als Assistenz der Bauleitung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4964543450-S</link>
+      <guid isPermaLink="false">12288-4964543450-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Wilhelm Knepper GmbH &amp; Co. KG · Lippstadt · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Gebäudeautomation &amp; MSR-Technik (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12513-0007658654-S</link>
+      <guid isPermaLink="false">12513-0007658654-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Ingenieurbüro Nordhorn GmbH &amp; Co. KG · Münster · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Technical Operations eMobility (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-711-1-S</link>
+      <guid isPermaLink="false">12728-711-1-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>E.ON Drive Germany GmbH · München · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Erdbau,Hamburg,Neustadt in Holstein</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356748-S</link>
+      <guid isPermaLink="false">12811-2356748-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Johann Bunte Bauunternehmung · Neustadt in Holstein · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Rohstoffkritikalität und Kreislaufwirtschaft (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-2010b2b1-83d5-4c76--S</link>
+      <guid isPermaLink="false">12951-2010b2b1-83d5-4c76--S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>MTU Aero Engines AG · München · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Kfz Fahrzeugprüfwesen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-288125-S</link>
+      <guid isPermaLink="false">13645-288125-S</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DEKRA · Worms · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Elektrotechnik / Energietechnik (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-elektrotechnik-energietechnik-bad-salzungen-65018</link>
+      <guid isPermaLink="false">an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-65018</guid>
+      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>WerraEnergie GmbH · Bad Salzungen · Engineering &amp; Production · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent in der Konstruktion (w/m/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/knick-gmbh/werkstudent-in-der-konstruktion-knick-berlin-323670</link>
@@ -129,7 +201,7 @@
       <description>Harry-Brot Group SE &amp; Co. KG · Ratingen · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent - Arbeitsvorbereitung / Industrial Engineering (m/w/d)</title>
+      <title>Werkstudent/Praxissemester/Thesis - Arbeitsvorbereitung / Industrial Engineering (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-127f33e3-a2e3-48dd--S</link>
       <guid isPermaLink="false">12951-127f33e3-a2e3-48dd--S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
@@ -137,7 +209,7 @@
       <description>Kübler Group - Fritz Kübler GmbH · Villingen-Schwenningen · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent/Praxissemester/Thesis - Arbeitsvorbereitung / Industrial Engineering (m/w/d)</title>
+      <title>Werkstudent/Praxissemester - Arbeitsvorbereitung / Industrial Engineering (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-5855c032-6077-467e--S</link>
       <guid isPermaLink="false">12951-5855c032-6077-467e--S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>

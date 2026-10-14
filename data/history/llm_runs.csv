@@ -1,3 +1,4 @@
 date,run_at,trigger,candidates,no_sections,sent,done,failed,pending,over_budget,input_tokens,cache_read_tokens,cache_write_tokens,output_tokens,cost_usd,compared,same_skills,skill_agreement,german_agreement
 2026-10-14,,workflow_dispatch,702,42,660,660,0,0,0,528175,3377880,0,412990,0.1465,660,0.252,0.764,0.9
 2026-10-14,2026-10-14T01:29:10+00:00,local,4123,760,3363,3363,0,0,0,2578537,17211834,0,1473495,0.5834,3363,0.464,0.799,0.925
+2026-10-14,2026-10-14T09:45:50+00:00,schedule,409,37,372,372,0,0,0,306677,1898778,5118,225260,0.0817,372,0.266,0.754,0.914
