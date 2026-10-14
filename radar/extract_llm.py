@@ -53,7 +53,7 @@ STORE_COLUMNS = ["refnr", "text_hash", "extracted", "status", "model", "prompt",
                  "must", "nice", "other_must", "other_nice",
                  "german_level", "german_req", "english_level", "english_req",
                  "pay_min", "pay_max", "hours_min", "hours_max"]
-RUN_COLUMNS = ["date", "candidates", "no_sections", "sent", "done", "failed", "pending", "over_budget",
+RUN_COLUMNS = ["date", "run_at", "trigger", "candidates", "no_sections", "sent", "done", "failed", "pending", "over_budget",
                "input_tokens", "cache_read_tokens", "cache_write_tokens", "output_tokens", "cost_usd",
                "compared", "same_skills", "skill_agreement", "german_agreement"]
 
@@ -204,7 +204,8 @@ def run(dry_run=False, raw_dir=None, sleep=time.sleep, api=None):
     budget_n = min(max_n, int(max_usd / EST_USD_PER_POSTING))
     over_budget = max(0, len(to_send) - budget_n)
     to_send = to_send[:budget_n]
-    stats = {"date": day, "candidates": len(todo), "no_sections": len(no_sections), "sent": 0, "done": 0, "failed": 0,
+    stats = {"date": day, "run_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+             "trigger": os.environ.get("GITHUB_EVENT_NAME") or "local", "candidates": len(todo), "no_sections": len(no_sections), "sent": 0, "done": 0, "failed": 0,
              "pending": 0, "over_budget": over_budget}
     log.info("%s: %d postings with a text today, %d without a result for their text (%d without task/requirement "
              "sections, kept with the rules), %d to send%s", day, len(postings), len(todo), len(no_sections), len(to_send),
@@ -271,8 +272,8 @@ def run(dry_run=False, raw_dir=None, sleep=time.sleep, api=None):
         "output_tokens": usage["output"], "cost_usd": round(llm.cost({**{k: 0 for k in ("input", "output", "cache_read", "cache_write_5m", "cache_write_1h", "cache_write")}, **usage}, batch=True), 4),
         **agree,
     })
-    runs = [r for r in read_csv(RUNS_CSV) if r["date"] != day] + [stats]
-    write_csv(RUNS_CSV, RUN_COLUMNS, sorted(runs, key=lambda r: r["date"]))
+    runs = read_csv(RUNS_CSV) + [stats]                         # every run is kept, also two on one day
+    write_csv(RUNS_CSV, RUN_COLUMNS, runs)
     report(stats, only_llm, only_rules)
     return stats, new_rows
 
@@ -305,7 +306,8 @@ def main(argv=None):
     ap.add_argument("--date", help="raw data folder to use (default: newest)")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
-    logging.getLogger("httpx").setLevel(logging.WARNING)       # one line per API request otherwise
+    for name in ("httpx", "httpx2"):                           # one line per API request otherwise
+        logging.getLogger(name).setLevel(logging.WARNING)
     try:
         run(dry_run=args.dry_run, raw_dir=os.path.join(RAW_DIR, args.date) if args.date else None)
     except Exception:                                            # noqa: BLE001 – the LLM step never fails the run
