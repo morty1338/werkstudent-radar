@@ -54,13 +54,17 @@ backup.
 
 ## Screenshots
 
-| Overview and map | Pay with confidence intervals |
+| Start: today's numbers and the two main actions | Check your skills and what to learn next |
 |---|---|
-| ![Overview: live status, key numbers, map of Germany with postings per place, jobs by field](media/overview.png) | ![Pay: histogram with median, typical range per field](media/pay.png) |
-| **How long postings stay online** | **Check your skills and what to learn next** |
-| ![Trends: postings online, median pay with 95% band, Kaplan–Meier curve](media/trends.png) | ![Skills check: share of jobs that fit, greedy learning plan](media/skills-check.png) |
+| ![Start: live status, key numbers, buttons to find fitting jobs and to follow the Telegram channel](media/overview.png) | ![Skills check: share of jobs that fit, greedy learning plan](media/skills-check.png) |
+| **Jobs straight from company career pages** | **Where the jobs are** |
+| ![Company career pages: Werkstudent jobs in Berlin grouped by company, field chips, track buttons](media/companies.png) | ![Map of Germany with postings per place, jobs by field](media/where.png) |
+| **Pay with confidence intervals** | **How long postings stay online** |
+| ![Pay: histogram with median, typical range per field](media/pay.png) | ![Trends: postings online, median pay with 95% band, Kaplan–Meier curve](media/trends.png) |
 
-<p align="center"><img src="media/mobile-de.png" width="300" alt="Phone view in German with bottom tab bar"></p>
+![Stay up to date: Telegram channel, RSS feeds, Claude connector](media/updates.png)
+
+<p align="center"><img src="media/mobile-de.png" width="300" alt="Phone view in German: the two main actions, key numbers and the bottom tab bar"></p>
 
 ## Key numbers
 
