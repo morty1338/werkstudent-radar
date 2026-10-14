@@ -81,7 +81,7 @@ def test_schema_is_strict():
     for obj in objects(llm.SCHEMA):
         assert obj["additionalProperties"] is False and set(obj["required"]) == set(obj["properties"])
     item = llm.SCHEMA["properties"]["skills"]["items"]["properties"]
-    assert list(item)[:2] == ["term", "id"]                               # the term is written before the id
+    assert list(item)[:3] == ["term", "evidence", "id"]                   # term and quote are written before the id
 
 
 def answer(**kw):
@@ -145,3 +145,24 @@ def test_english_postings_without_german_count_as_open():
     assert llm.german_label(not_stated, "en") == "none"          # as the rules: English text, German never asked
     assert llm.german_label(not_stated, "de") == "implicit"
     assert llm.german_label(answer(german_requirement="must_have"), "en") == "required"
+
+
+def test_evidence_is_looked_up_in_the_text():
+    text = "Das bringst du mit:\n- Sicherer Umgang mit MS-Office (Excel, PowerPoint)\n- Gute Deutschkenntnisse"
+    assert llm.evidence_found("sicherer Umgang mit MS Office", text)            # case, hyphen and spaces ignored
+    assert llm.evidence_found("Sicherer Umgang mit … Excel", text)               # a gap marked with …
+    assert not llm.evidence_found("Wir stellen dir MS Office zur Verfügung", text)
+    assert llm.evidence_found("Sicherer Umgang mit MS Office", "- Sicherer Umgang mit**&#160;MS Office**")   # HTML entity
+    raw = answer(skills=[{"term": "MS Office", "evidence": "Umgang mit MS-Office", "id": "ms_office", "importance": "must_have"},
+                         {"term": "SAP", "evidence": "SAP-Kenntnisse", "id": "sap", "importance": "must_have"}])
+    out, problems = llm.clean(raw, text=text)
+    assert [s["evidence_found"] for s in out["skills"]] == [True, False]
+    assert problems == ["evidence not in the text for sap"]
+    assert "evidence_found" not in llm.clean(raw)[0]["skills"][0]               # no text given: no check
+
+
+def test_full_text_only_on_request():
+    flat = {"refnr": "x", "title": "T", "text": "Nur ein Absatz ohne Überschriften, Excel erwünscht."}
+    assert llm.model_input(flat) == (None, False)
+    msg, found = llm.model_input(flat, full_text=True)
+    assert found and "Excel erwünscht" in msg and msg.startswith("Title: T")

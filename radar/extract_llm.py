@@ -4,11 +4,14 @@ Usage:
     python -m radar.extract_llm             # after radar.enrich in the daily run
     python -m radar.extract_llm --dry-run   # what would be sent and what it would cost; no API call
 
-Only postings whose text is available today (new Bundesagentur postings, whose text
-radar.enrich just fetched, and all Arbeitnow postings) and that have no result for
-this exact text yet are processed: results are keyed by refnr and a hash of title and
-text, so an unchanged posting is never sent twice. Postings without task or
-requirement sections are not sent (radar/llm.py); the rules cover them.
+Only postings that have no result for their exact text yet are processed: results
+are keyed by refnr and a hash of title and text, so an unchanged posting is never
+sent twice. Texts come from today's run (new Bundesagentur postings, whose text
+radar.enrich just fetched, and all Arbeitnow postings); an active Bundesagentur
+posting without any result whose text isn't here is fetched from the API (at most
+LLM_MAX_FETCH per run, newest first), so no posting stays unread for good. Postings
+without task or requirement sections go in whole (LLM_FULL_TEXT=1, the default);
+with LLM_FULL_TEXT=0 they are stored as no_sections and left to the rules.
 
 The requests go out as one Message Batch (half price). The step waits up to
 LLM_WAIT_MINUTES for it; a batch that isn't done by then is collected by the next
@@ -41,7 +44,7 @@ from collections import Counter
 from datetime import datetime, timezone
 
 from . import arbeitnow, llm
-from .enrich import JOBS_CSV, RAW_DIR, latest_raw_dir, load_detail_cache, read_jsonl_gz
+from .enrich import JOBS_CSV, RAW_DIR, WORKERS, fetch_details, latest_raw_dir, load_detail_cache, read_jsonl_gz
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HISTORY_DIR = os.path.join(ROOT, "data", "history")
@@ -53,11 +56,12 @@ STORE_COLUMNS = ["refnr", "text_hash", "extracted", "status", "model", "prompt",
                  "must", "nice", "other_must", "other_nice",
                  "german_level", "german_req", "english_level", "english_req",
                  "pay_min", "pay_max", "hours_min", "hours_max"]
-RUN_COLUMNS = ["date", "run_at", "trigger", "candidates", "no_sections", "sent", "done", "failed", "pending", "over_budget",
+RUN_COLUMNS = ["date", "run_at", "trigger", "fetched_texts", "candidates", "no_sections", "sent", "done", "failed", "pending", "over_budget",
                "input_tokens", "cache_read_tokens", "cache_write_tokens", "output_tokens", "cost_usd",
                "compared", "same_skills", "skill_agreement", "german_agreement"]
 
-DEFAULTS = {"LLM_MAX_POSTINGS": 1000, "LLM_MAX_USD": 1.0, "LLM_WAIT_MINUTES": 20, "LLM_POLL_SECONDS": 30}
+DEFAULTS = {"LLM_MAX_POSTINGS": 1000, "LLM_MAX_USD": 1.0, "LLM_WAIT_MINUTES": 20, "LLM_POLL_SECONDS": 30,
+            "LLM_MAX_FETCH": 300, "LLM_FULL_TEXT": 1}
 # Per posting at batch prices, from the pilot (data/eval/report_llm.md): about $0.15 per 1,000.
 # Used only to stop a run before it gets expensive; the real cost comes from the API's usage.
 EST_USD_PER_POSTING = 0.0002
@@ -119,11 +123,27 @@ def todays_texts(jobs, raw_dir):
     return day, active, {ref: {"refnr": ref, "title": active[ref]["title"], "text": t} for ref, t in texts.items()}
 
 
-def candidates(active, postings, store, pending_refs=()):
+def needs_result(row, full_text):
+    """No result yet, or only a no_sections row that full-text mode now sends."""
+    return not row or (full_text and row.get("status") == "no_sections")
+
+
+def candidates(active, postings, store, pending_refs=(), full_text=True):
     """Postings with a text that have no result for this text yet, newest first."""
     out = [p for ref, p in postings.items()
-           if ref not in pending_refs and (store.get(ref) or {}).get("text_hash") != llm.text_hash(p)]
+           if ref not in pending_refs and (store.get(ref) or {}).get("text_hash") != llm.text_hash(p)
+           or ref not in pending_refs and needs_result(store.get(ref), full_text)]
     return sorted(out, key=lambda p: (active[p["refnr"]].get("first_seen", ""), p["refnr"]), reverse=True)
+
+
+def missing_texts(active, postings, store, pending_refs, full_text, limit):
+    """Active Bundesagentur postings without a result whose text isn't here (fetched in an
+    earlier run elsewhere), newest first, at most `limit`."""
+    refs = [ref for ref, r in active.items()
+            if ref not in postings and ref not in pending_refs and r.get("source", "ba") == "ba"
+            and needs_result(store.get(ref), full_text)]
+    refs.sort(key=lambda ref: (active[ref].get("first_seen", ""), ref), reverse=True)
+    return refs[:limit]
 
 
 # --- Results -----------------------------------------------------------------------------
@@ -191,24 +211,42 @@ def run(dry_run=False, raw_dir=None, sleep=time.sleep, api=None):
     max_usd = setting("LLM_MAX_USD", float)
     wait_s = setting("LLM_WAIT_MINUTES", float) * 60
     poll_s = setting("LLM_POLL_SECONDS", float)
+    max_fetch = setting("LLM_MAX_FETCH", int)
+    full_text = bool(setting("LLM_FULL_TEXT", int))
 
     jobs = {r["refnr"]: r for r in read_csv(JOBS_CSV)}
-    day, active, postings = todays_texts(jobs, raw_dir or latest_raw_dir())
+    raw_dir = raw_dir or latest_raw_dir()
+    day, active, postings = todays_texts(jobs, raw_dir)
     store = {r["refnr"]: r for r in read_csv(STORE_CSV)}
     pending = json.load(open(PENDING_JSON)) if os.path.exists(PENDING_JSON) else None
     pending_refs = {v["refnr"] for v in (pending or {}).get("requests", {}).values()}
 
-    todo = candidates(active, postings, store, pending_refs)
-    no_sections = [p for p in todo if not llm.model_input(p)[1]]
-    to_send = [p for p in todo if llm.model_input(p)[1]]
+    # Texts fetched in earlier runs elsewhere aren't here: fetch them once, or they'd never be read.
+    fetched = 0
+    missing = missing_texts(active, postings, store, pending_refs, full_text, max_fetch)
+    if missing and not dry_run:
+        try:
+            got, _ = fetch_details(missing, os.path.join(raw_dir, "details.jsonl.gz"), WORKERS)
+        except Exception as e:                               # noqa: BLE001 – the BA API failing must not stop the step
+            log.warning("fetching %d texts failed (%s); they wait for the next run", len(missing), type(e).__name__)
+            got = {}
+        for ref, rec in got.items():
+            if rec and rec.get("stellenangebotsBeschreibung"):
+                postings[ref] = {"refnr": ref, "title": active[ref]["title"], "text": rec["stellenangebotsBeschreibung"]}
+                fetched += 1
+
+    todo = candidates(active, postings, store, pending_refs, full_text)
+    no_sections = [p for p in todo if not llm.model_input(p, full_text)[1]]
+    to_send = [p for p in todo if llm.model_input(p, full_text)[1]]
     budget_n = min(max_n, int(max_usd / EST_USD_PER_POSTING))
     over_budget = max(0, len(to_send) - budget_n)
     to_send = to_send[:budget_n]
     stats = {"date": day, "run_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-             "trigger": os.environ.get("GITHUB_EVENT_NAME") or "local", "candidates": len(todo), "no_sections": len(no_sections), "sent": 0, "done": 0, "failed": 0,
+             "trigger": os.environ.get("GITHUB_EVENT_NAME") or "local", "fetched_texts": fetched, "candidates": len(todo), "no_sections": len(no_sections), "sent": 0, "done": 0, "failed": 0,
              "pending": 0, "over_budget": over_budget}
-    log.info("%s: %d postings with a text today, %d without a result for their text (%d without task/requirement "
-             "sections, kept with the rules), %d to send%s", day, len(postings), len(todo), len(no_sections), len(to_send),
+    log.info("%s: %d postings with a text today (%d fetched now%s), %d without a result for their text (%d without "
+             "task/requirement sections, kept with the rules), %d to send%s", day, len(postings), fetched,
+             f", {len(missing)} would be fetched" if dry_run and missing else "", len(todo), len(no_sections), len(to_send),
              f", {over_budget} left for later runs (budget)" if over_budget else "")
     if dry_run:
         log.info("dry run: about $%.3f at batch prices; nothing sent", len(to_send) * EST_USD_PER_POSTING)
@@ -227,7 +265,7 @@ def run(dry_run=False, raw_dir=None, sleep=time.sleep, api=None):
                 records.update(got)
                 log.info("earlier batch: %s", f"{len(got)} results collected" if got else "still running" if pending else "given up")
             if to_send and not pending:
-                batch_id, ids = llm.submit_batch(api, to_send)
+                batch_id, ids = llm.submit_batch(api, to_send, full_text=full_text)
                 stats["sent"] = len(to_send)
                 log.info("batch %s: %d postings sent; waiting up to %.0f minutes", batch_id, len(to_send), wait_s / 60)
                 got = llm.collect_batch(api, batch_id, ids, to_send, poll_s=poll_s, timeout_s=wait_s, sleep=sleep)
@@ -280,7 +318,7 @@ def run(dry_run=False, raw_dir=None, sleep=time.sleep, api=None):
 
 def report(s, only_llm, only_rules):
     lines = [
-        f"{s['date']}: {s['candidates']} new or changed postings; {s['no_sections']} without sections (rules), "
+        f"{s['date']}: {s['fetched_texts']} texts fetched; {s['candidates']} new or changed postings; {s['no_sections']} without sections (rules), "
         f"{s['sent']} sent, {s['done']} results stored, {s['failed']} failed (retried next run), {s['pending']} still pending"
         + (f", {s['over_budget']} over the per-run budget (next run)" if s["over_budget"] else ""),
         f"tokens: {s['input_tokens']:,} input, {s['cache_read_tokens']:,} cached, {s['output_tokens']:,} output; "

@@ -97,6 +97,8 @@ jobs:
           LLM_MAX_POSTINGS: "1000"   # per run, newest first; the rest waits for later runs
           LLM_MAX_USD: "1.00"        # estimated cost a run may not exceed
           LLM_WAIT_MINUTES: "20"
+          LLM_MAX_FETCH: "300"       # texts of older postings without a result, fetched once per run
+          LLM_FULL_TEXT: "1"         # postings without task/requirement headings go in whole
         run: python -m radar.extract_llm 2>&1 | tee -a "$LOG"
 
       # Which postings were online today, as stretches in data/history/*.csv;

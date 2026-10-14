@@ -8,6 +8,8 @@ __pycache__/
 data/raw/
 # Job texts of the evaluation sample (labels.csv without texts is committed)
 data/eval/sample.json
+# LLM answers with evidence quotes (pieces of job texts) stay local too
+data/eval/evidence/
 
 # Local work in progress
 _drafts/

@@ -15,6 +15,7 @@ The API key comes from ANTHROPIC_API_KEY (never stored in the repository).
 """
 
 import hashlib
+import html
 import json
 import re
 
@@ -95,12 +96,15 @@ def split_sections(text):
     return {k: "\n".join(v).strip() for k, v in sections.items() if "\n".join(v).strip()}
 
 
-def model_input(posting):
+def model_input(posting, full_text=False):
     """(user message, True) for one posting, or (None, False) when it has no task or
-    requirement section: then the model isn't asked and the rules' result is used."""
+    requirement section: then the model isn't asked and the rules' result is used.
+    full_text=True sends such a posting whole instead (capped at MAX_INPUT_CHARS)."""
     sections = split_sections(posting["text"])
     if not any(s in sections for s in ("tasks", "requirements")):
-        return None, False
+        if not full_text:
+            return None, False
+        return f"Title: {posting['title']}\n\n## Posting (no task or requirement headings)\n{posting['text'][:MAX_INPUT_CHARS]}", True
     parts = [f"Title: {posting['title']}"]
     for name in SENT_SECTIONS:
         if name in sections:
@@ -125,7 +129,7 @@ def system_prompt():
 SKILLS: hard skills, tools, software, programming languages and licences the posting asks for (required or nice to have) or names as tools for the tasks.
 - Not: soft skills, fields of study, spoken languages, the employer's own products or clients.
 - Only what the text names; never infer a tool from a task ("Bestellanfragen bearbeiten" names no CRM, "Datenanalyse" no Excel). But skill areas on the list count when the job involves them: reports/dashboards/KPIs = controlling, creditor or booking work = accounting, social media content = social_media.
-- term: the posting's own words, at most 5 words. Then id: the one id from the list that means exactly that term, else "other".
+- term: the posting's own words, at most 5 words. evidence: the exact words of the text that ask for the skill or name it as a tool for the tasks, copied verbatim, at most 12 words. Then id: the one id from the list that means exactly that term, else "other".
 - "MS Office (Excel, PowerPoint)" = ms_office + each named program. Plain "MS Office", "Office-Anwendungen", "M365" = ms_office only. Products of a listed tool count as it (SAP SuccessFactors = sap). "EDV-Kenntnisse" is no skill.
 - importance: "nice_to_have" if marked optional (von Vorteil, wünschenswert, idealerweise, gerne, ein Plus, nice to have, a plus, preferred), else "must_have".
 - Each id once; each "other" term once.
@@ -152,9 +156,10 @@ SCHEMA = {
             "items": {
                 "type": "object",
                 "additionalProperties": False,
-                "required": ["term", "id", "importance"],
+                "required": ["term", "evidence", "id", "importance"],
                 "properties": {
                     "term": {"type": "string"},
+                    "evidence": {"type": "string"},    # a verbatim quote; checked against the text, never stored in git
                     "id": {"type": "string", "enum": SKILL_IDS + ["other"]},
                     "importance": {"type": "string", "enum": IMPORTANCE},
                 },
@@ -226,10 +231,23 @@ def _range(a, b, lo, hi):
     return a, b
 
 
-def clean(raw, check_ids=True):
+def _norm(text):
+    return re.sub(r"[\W_]+", " ", html.unescape(text).casefold()).strip()      # "&#160;" in BA texts
+
+
+def evidence_found(evidence, text):
+    """Whether the quote is in the text (ignoring case, punctuation, spacing, and "…" gaps)."""
+    if not evidence or not text:
+        return False
+    hay = _norm(text)
+    return all(_norm(part) in hay for part in re.split(r"…|\.\.\.", evidence) if _norm(part))
+
+
+def clean(raw, check_ids=True, text=None):
     """Check an answer against the schema and sane ranges. Returns (result, problems);
     result is None when the answer is unusable. check_ids=False keeps the model's ids
-    as they are (to measure what the check adds)."""
+    as they are (to measure what the check adds). With the text that was sent, each
+    skill's evidence quote is looked up in it (evidence_found)."""
     problems = []
     if isinstance(raw, str):
         try:
@@ -244,6 +262,7 @@ def clean(raw, check_ids=True):
             problems.append(f"no skill {s!r:.60}")
             continue
         term = str(s.get("term") or "").strip()[:80]
+        evidence = str(s.get("evidence") or "").strip()[:200]
         if s["id"] not in SKILL_IDS and s["id"] != "other":
             problems.append(f"unknown id {s['id']!r:.30}")
             fits = [o for o, rx in _SKILL_RX.items() if term and rx.search(term)]
@@ -266,7 +285,12 @@ def clean(raw, check_ids=True):
                 skills[seen[key]]["importance"] = "must_have"
             continue
         seen[key] = len(skills)
-        skills.append({"id": s["id"], "term": term, "importance": imp})
+        skill = {"id": s["id"], "term": term, "importance": imp, "evidence": evidence}
+        if text is not None:
+            skill["evidence_found"] = evidence_found(evidence, text)
+            if not skill["evidence_found"]:
+                problems.append(f"evidence not in the text for {s['id']}")
+        skills.append(skill)
     out = {"skills": skills}
     for lang in ("german", "english"):
         level, need = raw.get(f"{lang}_level"), raw.get(f"{lang}_requirement")
@@ -366,11 +390,11 @@ def batch_custom_id(refnr):
     return f"{cid}-{hashlib.sha1(refnr.encode()).hexdigest()[:8]}"
 
 
-def submit_batch(api, postings, effort=EFFORT):
+def submit_batch(api, postings, effort=EFFORT, full_text=False):
     """Create a Message Batch (half price, 1-hour prompt cache). Returns (batch id, {custom_id: refnr})."""
-    postings = [p for p in postings if model_input(p)[1]]
+    postings = [p for p in postings if model_input(p, full_text)[1]]
     ids = {batch_custom_id(p["refnr"]): p["refnr"] for p in postings}
-    requests = [{"custom_id": batch_custom_id(p["refnr"]), "params": request_params(model_input(p)[0], cache_ttl="1h", effort=effort)}
+    requests = [{"custom_id": batch_custom_id(p["refnr"]), "params": request_params(model_input(p, full_text)[0], cache_ttl="1h", effort=effort)}
                 for p in postings]
     batch = api.messages.batches.create(requests=requests)
     return batch.id, ids

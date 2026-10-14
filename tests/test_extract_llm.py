@@ -79,8 +79,10 @@ def world(tmp_path, monkeypatch):
     monkeypatch.setenv("ANTHROPIC_API_KEY", "test-key")
     monkeypatch.setenv("LLM_POLL_SECONDS", "1")
     monkeypatch.setenv("LLM_WAIT_MINUTES", "1")
-    for k in ("LLM_MAX_POSTINGS", "LLM_MAX_USD"):
+    for k in ("LLM_MAX_POSTINGS", "LLM_MAX_USD", "LLM_MAX_FETCH"):
         monkeypatch.delenv(k, raising=False)
+    monkeypatch.setenv("LLM_FULL_TEXT", "0")                  # the tests below check section-less postings stay with the rules
+    monkeypatch.setattr(X, "fetch_details", lambda refs, path, workers: pytest.fail("nothing should be fetched"))
     monkeypatch.delenv("GITHUB_STEP_SUMMARY", raising=False)
     state["tmp"] = tmp_path
     return state
@@ -199,3 +201,39 @@ def test_results_load_into_the_history_database(world, tmp_path):
     skills = db.execute("SELECT skill, importance, term FROM llm_skills WHERE refnr = 'r0' ORDER BY skill").fetchall()
     assert [tuple(s) for s in skills] == [("excel", "must_have", None), ("other", "nice_to_have", "Kassensystem"),
                                          ("python", "must_have", None)]
+
+
+
+def test_full_text_mode_sends_postings_without_sections(world, monkeypatch):
+    X.run(api=fake_api(), sleep=lambda s: None)                           # LLM_FULL_TEXT=0: r4 stays with the rules
+    assert stored()["r4"]["status"] == "no_sections"
+    monkeypatch.setenv("LLM_FULL_TEXT", "1")
+    api = fake_api()
+    stats, _ = X.run(api=api, sleep=lambda s: None)                       # now the no_sections row is sent, whole
+    assert [r["custom_id"] for r in api.messages.batches.created[0]] == [llm.batch_custom_id("r4")]
+    assert "no task or requirement headings" in api.messages.batches.created[0][0]["params"]["messages"][0]["content"]
+    assert stored()["r4"]["status"] == "ok" and stats["no_sections"] == 0
+
+
+def test_texts_fetched_for_active_postings_without_a_result(world, monkeypatch):
+    world["jobs"]["old"] = {"refnr": "old", "title": "Werkstudent old", "last_seen": DAY, "first_seen": "2026-10-11",
+                            "skills": "excel", "german": "required", "source": "ba"}
+    world["jobs"]["an"] = {"refnr": "an:x", "title": "x", "last_seen": DAY, "first_seen": "2026-10-11", "source": "arbeitnow"}
+    asked = []
+
+    def fetch(refs, path, workers):
+        asked.append(list(refs))
+        return {ref: {"stellenangebotsBeschreibung": TEXT} for ref in refs}, 0
+    monkeypatch.setattr(X, "fetch_details", fetch)
+    api = fake_api()
+    stats, _ = X.run(api=api, sleep=lambda s: None)
+    assert asked == [["old"]]                                             # only BA postings can be fetched
+    assert stats["fetched_texts"] == 1 and stored()["old"]["status"] == "ok"
+    asked.clear()
+    X.run(api=fake_api(), sleep=lambda s: None)                           # it has a result now: not fetched again
+    assert asked == []
+
+    monkeypatch.setenv("LLM_MAX_FETCH", "0")
+    world["jobs"]["older"] = {**world["jobs"]["old"], "refnr": "older"}
+    X.run(api=fake_api(), sleep=lambda s: None)
+    assert asked == [] and "older" not in stored()                        # the fetch budget holds
