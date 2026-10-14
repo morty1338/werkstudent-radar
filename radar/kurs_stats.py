@@ -25,6 +25,7 @@ collection day 7–10 days back exists.
 import argparse
 import json
 import os
+import re
 import sqlite3
 import sys
 from collections import Counter
@@ -72,6 +73,13 @@ def posting_facts(p, feature, result, day):
     return facts
 
 
+def term_key(term):
+    """One key for the spellings of an "other" term: case, and a plural ending on long words
+    ("Warenwirtschaftssysteme" = "Warenwirtschaftssystem")."""
+    k = " ".join(term.casefold().split())
+    return re.sub(r"(?:en|e|n|s)$", "", k) if len(k) > 6 else k
+
+
 def _share(n, base):
     return {"n": n, "base": base, "share": round(n / base, 3) if base else None}
 
@@ -81,13 +89,16 @@ def aggregate(facts):
     with_text = [f for f in facts if f["has_text"]]
     with_skills = [f for f in facts if f["source"]]
     by_llm = [f for f in facts if f["source"] == "llm"]
-    n, must, nice, terms = Counter(), Counter(), Counter(), Counter()
+    n, must, nice, terms, spelled = Counter(), Counter(), Counter(), Counter(), {}
     for f in with_skills:
         n.update(f["skills"])
     for f in by_llm:
         must.update(f["must"])
         nice.update(f["nice"])
-        terms.update({t.casefold(): t for t in f["terms"]}.keys())    # once per posting
+        forms = {term_key(t): t for t in f["terms"]}                 # once per posting
+        terms.update(forms.keys())
+        for k, t in forms.items():
+            spelled.setdefault(k, Counter())[t] += 1
 
     def row(sid):
         return {"id": sid, "n": n[sid], "share": round(n[sid] / len(with_skills), 3), "must": must[sid], "nice": nice[sid]}
@@ -106,7 +117,7 @@ def aggregate(facts):
         "basics": _share(sum(f["basics"] for f in with_skills), len(with_skills)),
         "skills": [row(s) for s in ranked if s not in KURS_BASICS][:TOP_SKILLS],
         "basics_skills": [row(s) for s in KURS_BASICS if n[s]],
-        "other_terms": [{"term": t, "n": c} for t, c in terms.most_common(TOP_TERMS) if c >= 2],
+        "other_terms": [{"term": spelled[k].most_common(1)[0][0], "n": c} for k, c in terms.most_common(TOP_TERMS) if c >= 2],
     }
 
 

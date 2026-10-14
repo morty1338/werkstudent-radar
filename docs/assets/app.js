@@ -30,6 +30,7 @@ async function main() {
   applyStatic();
   initLangSwitch();
   initTooltip();
+  if (lang === "de") document.getElementById("kurs-link").href = "kurs.html?lang=de";
   // The tracker works without the job data, so it starts before it loads.
   const tracker = initTracker();
   let S, D, H, L, C, CO;

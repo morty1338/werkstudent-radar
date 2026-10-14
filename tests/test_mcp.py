@@ -279,7 +279,7 @@ async def test_server_lists_the_tools_with_descriptions(server):
     from mcp import Client
     async with Client(server.mcp) as c:
         tools = {t.name: t for t in (await c.list_tools()).tools}
-    assert set(tools) == {"get_overview", "search_jobs", "pay_stats", "top_skills", "match_skills"}
+    assert set(tools) == {"get_overview", "search_jobs", "pay_stats", "top_skills", "match_skills", "kurs_radar"}
     assert all(len(t.description or "") > 80 for t in tools.values())
     assert tools["match_skills"].input_schema["required"] == ["skills"]
     assert set(tools["search_jobs"].input_schema["properties"]) == {"city", "field", "skill", "no_german", "limit"}

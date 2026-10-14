@@ -32,7 +32,8 @@ Germany, collected every morning from the Bundesagentur für Arbeit job board an
 company career sites. Use these tools for questions about Werkstudent jobs in Germany:
 how many there are, where, what they pay, which skills are asked for, and which jobs fit
 a set of skills. Numbers describe the postings online on the date in `as_of`. Job texts
-aren't available; each posting links to its original."""
+aren't available; each posting links to its original. kurs_radar covers a different set:
+regular jobs (all working times) for the titles career-changer courses train for."""
 
 mcp = MCPServer("Werkstudent Radar", instructions=INSTRUCTIONS)
 store = radar_data.Store(radar_data.Source())
@@ -105,6 +106,30 @@ def match_skills(skills: list[str], city: str | None = None, field: str | None =
     fitting postings with links (`examples`, 0–10). Use it for "which jobs fit my skills?" or
     "what should I learn next?". Optional city and field filters."""
     return answer(rt.match_skills, skills, city=city, field=field, examples=examples)
+
+
+@mcp.tool()
+def kurs_radar(academy: str | None = None, job_title: str | None = None) -> dict[str, Any]:
+    """Kurs-Radar: postings and skill demand for the job titles that career-changer courses
+    train for (all working times, not only Werkstudent jobs), from the Bundesagentur für Arbeit
+    only, as a one-day snapshot. Academies: Sales, Marketing, HR, KI, Job Academy.
+
+    Without arguments: every academy with postings, Quereinsteiger / AI / basics shares, top
+    skills and an "opportunities" ranking (many postings, current demand, open to career
+    changers) as input for deciding on a new course. academy: one academy with its job titles.
+    job_title: one title, e.g. "Recruiter", "SEO", "Personalreferent", with the top 15 skills
+    (must have / nice to have), basics and other terms. Shares are null below 20 postings."""
+    return answer_kurs(rt.kurs_radar, academy=academy, job_title=job_title)
+
+
+def answer_kurs(fn, **kwargs):
+    """Like `answer`, on kurs.json (a separate file; missing until the Kurs-Radar ran)."""
+    try:
+        data = fn(store.source.get("kurs"), **kwargs)
+    except (rt.UnknownValue, radar_data.DataError) as e:
+        raise ToolError(str(e)) from e
+    text = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    return CallToolResult(content=[TextContent(type="text", text=text)], structured_content=data)
 
 
 HTTP_TTL = 3600   # the data changes once a day; an hour keeps a remote server close to it

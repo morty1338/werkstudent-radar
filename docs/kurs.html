@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Kurs-Radar · Werkstudent Radar</title>
+  <meta name="description" content="Which skills do employers ask for in the jobs that career-changer courses train for? Postings of the Bundesagentur für Arbeit by job title, updated daily.">
+  <meta property="og:title" content="Kurs-Radar">
+  <meta property="og:description" content="Skill demand for the job titles career changers are trained for: postings, Quereinsteiger share, AI and basics, by academy.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://morty1338.github.io/werkstudent-radar/kurs.html">
+  <meta name="theme-color" content="#0B0B0C">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="favicon.svg?v=dev" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=dev">
+  <link rel="stylesheet" href="assets/style.css?v=dev">
+  <script type="module" src="assets/kurs.js?v=dev"></script>
+</head>
+<body class="kurs-page">
+  <!-- Icons for the section labels and the phone tab bar (stroke = currentColor). -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-skills" viewBox="0 0 24 24"><path d="M12 3.5l2.5 5.4 5.9.7-4.4 4 1.2 5.8L12 16.5l-5.2 2.9L8 13.6l-4.4-4 5.9-.7z"/></symbol>
+    <symbol id="i-trends" viewBox="0 0 24 24"><path d="M3.5 17.5l5.5-5.5 4 3 7.5-8"/><path d="M15.5 7h5v5"/></symbol>
+    <symbol id="i-course" viewBox="0 0 24 24"><path d="M2.5 9 12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v4.5c1.5 1.6 3.4 2.4 5.5 2.4s4-.8 5.5-2.4V11"/><path d="M21.5 9v5"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M10 6l-6 6 6 6"/><path d="M4.5 12h15"/></symbol>
+  </svg>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#top" aria-label="Kurs-Radar, back to top" data-i18n-attr="aria-label:kurs.brand_aria">
+        <img src="favicon.svg?v=dev" alt="" width="24" height="24">
+        <span>Kurs-Radar</span>
+      </a>
+      <nav class="nav kurs-nav" aria-label="Sections" data-i18n-attr="aria-label:nav.aria">
+        <a href="#jobs"><svg class="ico" aria-hidden="true"><use href="#i-skills"></use></svg><span data-i18n="kurs.nav_jobs">Job titles</span></a>
+        <a href="#chancen"><svg class="ico" aria-hidden="true"><use href="#i-trends"></use></svg><span data-i18n="kurs.nav_chancen">Opportunities</span></a>
+        <a href="index.html" id="k-home" class="nav-home"><svg class="ico" aria-hidden="true"><use href="#i-back"></use></svg><span class="nav-full" data-i18n="kurs.nav_home">Werkstudent Radar</span><span class="nav-short" data-i18n="kurs.nav_home_short">Werkstudent</span></a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Language" data-i18n-attr="aria-label:lang.aria">
+        <button type="button" data-lang="en" lang="en" aria-pressed="true">EN</button><button type="button" data-lang="de" lang="de" aria-pressed="false">DE</button>
+      </div>
+    </div>
+    <div class="filterbar" id="filterbar">
+      <div class="wrap filter-row">
+        <button type="button" class="filters-btn" id="f-open" aria-expanded="false" aria-controls="f-sheet" data-i18n="kurs.choose">Academy</button>
+        <div class="filter-chips" id="f-chips"></div>
+        <!-- Inline on wide screens; a bottom sheet behind the button on phones. -->
+        <div class="filter-controls" id="f-sheet">
+          <div class="sheet-head"><strong data-i18n="kurs.choose">Academy</strong><button type="button" class="link-btn" id="f-close" data-i18n="filter.close">Close</button></div>
+          <label class="sr-only" for="k-academy" data-i18n="kurs.academy">Academy</label>
+          <select id="k-academy"></select>
+          <label class="sr-only" for="k-title" data-i18n="kurs.job_title">Job title</label>
+          <select id="k-title"></select>
+          <button type="button" class="btn sheet-done" id="f-done" data-i18n="kurs.show">Show</button>
+        </div>
+        <span class="filter-count" id="f-count"></span>
+      </div>
+    </div>
+    <div class="sheet-backdrop" id="f-backdrop" hidden></div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap kurs-hero">
+      <p class="status" id="status"></p>
+      <h1 data-i18n-html="kurs.title">Kurs-Radar: what the jobs after a course ask&nbsp;for</h1>
+      <p class="lede" data-i18n="kurs.lede">The job titles that career-changer courses train for, across all working times: how many postings there are, which skills they ask for, and how open they are to career changers.</p>
+      <p class="kurs-note" id="k-note">&nbsp;</p>
+    </section>
+
+    <section id="jobs" class="wrap section">
+      <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-course"></use></svg></span><span data-i18n="kurs.nav_jobs">Job titles</span></p>
+      <div class="chips-row k-academies" id="k-academies" role="group" aria-label="Academy" data-i18n-attr="aria-label:kurs.academy"></div>
+      <div class="chips-row k-titles" id="k-titles" role="group" aria-label="Job title" data-i18n-attr="aria-label:kurs.job_title"></div>
+      <h2 id="k-heading">&nbsp;</h2>
+      <p class="insight" id="k-insight"></p>
+      <div class="tiles" id="k-tiles">
+        <div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div>
+      </div>
+      <div class="grid-skills k-grid">
+        <div class="card">
+          <div class="card-head">
+            <h3 data-i18n="kurs.skills_title">Most asked-for skills</h3>
+            <p class="imp-legend k-legend"><span class="lg-must"></span><span data-i18n="kurs.legend_must">must have</span> <span class="lg-nice"></span><span data-i18n="kurs.legend_nice">nice to have</span></p>
+          </div>
+          <div id="k-skills" class="chart"></div>
+          <div class="basics" id="k-basics"></div>
+          <p class="legend-line" id="k-skills-note"></p>
+        </div>
+        <aside class="card">
+          <h3 id="k-side-title" data-i18n="kurs.compare">Job titles in this academy</h3>
+          <div id="k-compare"></div>
+          <h3 class="k-terms-title" data-i18n="kurs.terms_title">Also asked for, in the postings' words</h3>
+          <div class="chips-row k-terms" id="k-terms"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="chancen" class="wrap section">
+      <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-trends"></use></svg></span><span data-i18n="kurs.nav_chancen">Opportunities</span></p>
+      <h2 data-i18n="kurs.chancen_title">Where could a new course make sense?</h2>
+      <p class="insight" id="k-chancen-insight"></p>
+      <div class="card">
+        <div id="k-chancen"></div>
+        <p class="legend-line k-method" id="k-chancen-method"></p>
+      </div>
+    </section>
+
+    <section class="wrap section about">
+      <details>
+        <summary data-i18n="about.summary">About the data</summary>
+        <div class="about-body" data-i18n-html="kurs.about">
+          <p>About the data.</p>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap" data-i18n-html="kurs.footer">Kurs-Radar · data: Bundesagentur für Arbeit · <a href="index.html">Werkstudent Radar</a> · <a href="https://github.com/morty1338/werkstudent-radar">source code</a></div>
+  </footer>
+
+  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+  <noscript><p class="wrap">This page needs JavaScript to load the data. Diese Seite braucht JavaScript, um die Daten zu laden.</p></noscript>
+</body>
+</html>

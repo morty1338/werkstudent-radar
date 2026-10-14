@@ -80,7 +80,7 @@ As of 13 Oct 2026 (the live site updates every morning):
 | Skill detection, 14 common skills | precision **99%**, recall **97%** on the random 70 labelled postings (before rule fixes: 99% / 96%) |
 | Skills read by Claude Haiku | F1 **96%** vs. 95% for the rules on all 100 labelled postings (17 skills), plus must have / nice to have; about **$0.22 per 1,000 postings** by Message Batch |
 | German requirement | right level in 69 of 70 random postings; "open without German" correct 15/15 |
-| Tests | 372 (pytest, incl. Node checks for the browser code, the MCP server over HTTP and the LLM step with a stand-in API) |
+| Tests | 506 (pytest, incl. Node checks for the browser code, the MCP server over HTTP and the LLM step with a stand-in API) |
 | Lighthouse (desktop) | 100 / 100 / 100 / 100 |
 
 ## Architecture
@@ -316,6 +316,39 @@ as "also on BA" when an employer name from `ba_names`, the normalised title
 Bundesagentur posting online today. Requests use the project's User-Agent,
 respect robots.txt and are spaced 1.5 s apart with retries.
 
+## Kurs-Radar (`kurs.html`)
+
+**[Kurs-Radar](https://morty1338.github.io/werkstudent-radar/kurs.html)** looks at a
+different set of jobs: the regular jobs (full-time, part-time, minijob) that
+career-changer courses train for, grouped by academy (Sales, Marketing, HR, KI, Job
+Academy). Pick an academy and a job title to see how many postings there are, the
+share open to career changers, asking for AI skills and asking for the office basics,
+and the most asked-for skills split into must have and nice to have. An
+"Opportunities" view ranks the job titles by size, current demand and openness to
+career changers, as input for deciding on a new course. Only Bundesagentur postings,
+a snapshot of one day.
+
+- **Config, not code.** [`data/kurs_radar.yaml`](data/kurs_radar.yaml) lists the
+  academies, their job titles, the search terms and title patterns; a posting counts
+  for the first title whose pattern matches (specific titles first) and is stored once.
+- **Collection** ([`radar/kurs.py`](radar/kurs.py)): about 110 search requests (0.5 s
+  apart, at most 300), all working times, no apprenticeships, internships, Werkstudent
+  jobs or leadership roles. Each title keeps at most its 500 most relevant postings;
+  above that the count is a lower bound estimated from the search totals. All or
+  nothing: a failed request or an implausible drop writes nothing.
+- **Reading** ([`radar/kurs_extract.py`](radar/kurs_extract.py)): texts of new postings
+  (kept on the runner), phrases that welcome career changers ("Quereinsteiger
+  willkommen", "keine Vorerfahrung nötig", "auch ohne Ausbildung", with negations such
+  as "kein Quereinstieg" excluded) next to the employer's own BA flag, AI only in the
+  task or requirement sections, and the same Claude Haiku extraction as above in one
+  batch per day (collected by the next run, so the daily run doesn't wait).
+- **Numbers** ([`radar/kurs_stats.py`](radar/kurs_stats.py) → `docs/data/kurs.json`):
+  per title and academy; week-over-week change in SQL over the daily counts once a
+  week of history exists, until then the share published in the last 7 days. Shares
+  are hidden below 20 postings ("Prompt Engineer" has 2 on the board).
+- **Claude:** the MCP tool `kurs_radar(academy?, job_title?)` returns the same numbers
+  and the same ranking (a test compares it with the page's code in Node).
+
 ## Automation
 
 [`daily.yml`](.github/workflows/daily.yml) runs every morning (04:23 UTC) and
@@ -445,6 +478,7 @@ Example questions:
 | `pay_stats` | median hourly pay, middle half and 95% CI for a field and/or city; says when there are fewer than 10 rates |
 | `top_skills` | the most requested skills for a field and/or city, with their share of postings |
 | `match_skills` | how many postings a set of skills fits, the 3 skills that would open the most more, and example postings |
+| `kurs_radar` | Kurs-Radar: postings, career-changer / AI / basics shares and top skills per academy or job title, and the opportunities ranking |
 
 Unknown names come back with the closest ones in the data ("Did you mean:
 Berlin?"); English and umlaut-free spellings (Munich, Koeln) work. Answers are
@@ -627,6 +661,9 @@ radar/evaluate.py  accuracy check against labelled postings
 radar/llm.py       Claude Haiku extraction: sections, cached prompt, JSON schema, answer checks, batches
 radar/extract_llm.py daily step: new or changed postings in one Message Batch -> data/history/llm.csv
 radar/evaluate_llm.py the LLM pilot on the labelled postings -> data/eval/report_llm.md
+radar/kurs.py      Kurs-Radar: BA postings for the job titles in data/kurs_radar.yaml -> data/kurs/
+radar/kurs_extract.py Kurs-Radar texts: career-changer phrases, AI, skills (rules + Claude Haiku batch)
+radar/kurs_stats.py Kurs-Radar numbers per academy and job title -> docs/data/kurs.json
 mcp/               MCP server for Claude: radar_server.py (tools, stdio or --http), radar_tools.py
                    (answers), radar_data.py (reads docs/data or the live site), radar_http.py
                    (limits, /health), Dockerfile, vercel/ (deploy), DEPLOY.md (hosting)
@@ -637,12 +674,15 @@ data/jobs.csv      extracted features (committed)
 data/history.csv   daily metric snapshots (committed)
 data/history/      scans and online stretches per posting (committed; source of history.sqlite)
 data/companies.yaml companies with careers page, ATS and slug (Berlin and München)
+data/kurs_radar.yaml Kurs-Radar academies, job titles, search terms and title patterns
+data/kurs/         Kurs-Radar postings, daily counts, text facts and LLM results (committed, no texts)
 data/eval/         evaluation labels and reports (job texts stay local)
 docs/              the website: index.html, assets/app.js (filters, sections), charts.js
                    (charts, map, tooltip), match.js (skills check, job list), gap.js
                    (learning plan), cv.js (CV reading), stats.js (bootstrap CI),
                    companies.js (company career pages), tracker.js + tracker-store.js
-                   (application tracker), i18n.js (German/English strings)
+                   (application tracker), i18n.js (German/English strings); kurs.html +
+                   assets/kurs.js, kurs-rank.js (Kurs-Radar page and its ranking)
 docs/data/         JSON consumed by the website
 docs/feeds/        RSS feeds (all and per field), rebuilt daily
 data/raw/          local raw dumps, one folder per day (not committed)

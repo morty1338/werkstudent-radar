@@ -356,3 +356,109 @@ def match_skills(d, skills, city=None, field=None, examples=3):
     if unknown:
         out["unknown_skills"] = unknown
     return out
+
+
+# --- Kurs-Radar (kurs.json): job titles that career-changer courses train for ------------------
+
+KURS_SITE = SITE + "kurs.html"
+KURS_MIN_BASE = 20      # fewer postings behind a share: null, as on the page (kurs.js MIN_BASE)
+
+
+def _kurs_share(m):
+    return m["share"] if m and m.get("base", 0) >= KURS_MIN_BASE else None
+
+
+def _kurs_wow(w):
+    return round((w["now"] - w["before"]) / w["before"], 4) if w and w.get("before") else None
+
+
+def _kurs_resolve(items, name, kind):
+    key = fold(name)
+    for x in items:
+        if key in (fold(x["id"]), fold(x["name"])):
+            return x
+    # a word of the name: "Recruiter", "Personalreferent", "SEO"
+    hits = [x for x in items if any(fold(w) == key for w in re.split(r"[ /()-]+", x["name"]) if w)]
+    if len(hits) == 1:
+        return hits[0]
+    hits = [x for x in items if len(key) >= 3 and key in fold(x["name"])]
+    if len(hits) == 1:
+        return hits[0]
+    raise UnknownValue(kind, name, suggest(name, [x["name"] for x in items]),
+                       f"{kind.capitalize()}s are: " + ", ".join(x["name"] for x in items))
+
+
+def _kurs_metrics(k, x, detail):
+    out = {
+        "postings": x["postings"],
+        "postings_is_lower_bound": not x["postings_exact"],
+        "sample": x["sample"],
+        "quereinsteiger_share": _kurs_share(x["quereinsteiger"]),
+        "ai_share": _kurs_share(x["ai"]),
+        "basics_share": _kurs_share(x["basics"]),
+        "new_in_7_days_share": x["new_7d"]["share"],
+        "week_over_week_change": _kurs_wow(x.get("wow")),
+    }
+    if x["sample"] < KURS_MIN_BASE:
+        out["too_few_postings"] = True
+    label = lambda sid: k["skills"].get(sid, {}).get("label", sid)  # noqa: E731
+    n = 15 if detail else 5
+    out["top_skills"] = [
+        {"skill": label(s["id"]), "share": s["share"], "postings": s["n"],
+         **({"must_have": s["must"], "nice_to_have": s["nice"]} if s["must"] or s["nice"] else {})}
+        for s in x["skills"][:n]
+    ]
+    if detail:
+        out["basics"] = [{"skill": label(s["id"]), "share": s["share"]} for s in x["basics_skills"]]
+        out["other_terms"] = x.get("other_terms", [])
+        out["counts"] = {"quereinsteiger": x["quereinsteiger"], "ai": x["ai"], "basics": x["basics"],
+                         "read_by_llm": x["read_by_llm"], "with_text": x["with_text"]}
+    return out
+
+
+def _ranks(values):
+    s = sorted(values)
+    if len(values) < 2:
+        return [0.5] * len(values)
+    return [(s.index(v) + (len(s) - 1 - s[::-1].index(v))) / 2 / (len(values) - 1) for v in values]
+
+
+def kurs_opportunities(k):
+    """Same ranking as the page (kurs.js `opportunities`): average percentile rank of postings,
+    momentum (week-over-week change once every title has one, else the share published in the
+    last 7 days) and Quereinsteiger share, among job titles with enough postings."""
+    titles = [dict(x, academy=a["name"]) for a in k["academies"] for x in a["titles"]]
+    rated = [x for x in titles if x["sample"] >= KURS_MIN_BASE and _kurs_share(x["quereinsteiger"]) is not None]
+    use_wow = bool(rated) and all(_kurs_wow(x.get("wow")) is not None for x in rated)
+    momentum = [(_kurs_wow(x.get("wow")) if use_wow else (x["new_7d"]["share"] or 0)) for x in rated]
+    r = list(zip(_ranks([x["postings"] for x in rated]), _ranks(momentum), _ranks([x["quereinsteiger"]["share"] for x in rated])))
+    rows = [{"job_title": x["name"], "academy": x["academy"], "score": round(sum(rk) / 3 * 100),
+             "postings": x["postings"], "momentum": m, "quereinsteiger_share": x["quereinsteiger"]["share"]}
+            for x, m, rk in zip(rated, momentum, r)]
+    rows.sort(key=lambda y: (-y["score"], -y["postings"]))
+    return {"momentum": "week_over_week_change" if use_wow else "new_in_7_days_share", "ranking": rows,
+            "not_rated": [x["name"] for x in titles if x not in rated]}
+
+
+def kurs_radar(k, academy=None, job_title=None):
+    """Kurs-Radar numbers: all academies, one academy with its job titles, or one job title."""
+    base = {"as_of": k["as_of"], "note": k["note"]["en"], "page": KURS_SITE,
+            "definitions": {
+                "postings": "postings on the Bundesagentur's board for this title (a lower bound when capped)",
+                "quereinsteiger_share": "open to career changers: text phrase or the employer's BA flag; base = postings with text",
+                "ai_share": "AI asked for in the tasks or requirements",
+                "basics_share": "MS Office, Excel, PowerPoint or Word asked for",
+                "shares": f"null when fewer than {KURS_MIN_BASE} postings"}}
+    academies = k["academies"]
+    a = _kurs_resolve(academies, academy, "academy") if academy else None
+    if job_title:
+        pool_ = a["titles"] if a else [dict(x, _a=y) for y in academies for x in y["titles"]]
+        t = _kurs_resolve(pool_, job_title, "job title")
+        owner = a or t["_a"]
+        return {**base, "academy": owner["name"], "job_title": t["name"], **_kurs_metrics(k, t, detail=True)}
+    if a:
+        return {**base, "academy": a["name"], **_kurs_metrics(k, a, detail=True),
+                "job_titles": [{"job_title": x["name"], **_kurs_metrics(k, x, detail=False)} for x in a["titles"]]}
+    return {**base, "academies": [{"academy": x["name"], **_kurs_metrics(k, x, detail=False),
+                                   "job_titles": [t["name"] for t in x["titles"]]} for x in academies],
+            "opportunities": kurs_opportunities(k)}

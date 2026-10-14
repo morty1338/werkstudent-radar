@@ -36,7 +36,7 @@ def test_every_entry_has_both_languages(dictionary):
 
 def test_every_key_used_by_the_page_exists(dictionary):
     keys = set(dictionary["keys"])
-    html = (DOCS / "index.html").read_text()
+    html = (DOCS / "index.html").read_text() + (DOCS / "kurs.html").read_text()
     used = set(re.findall(r'data-i18n(?:-html)?="([^"]+)"', html))
     used |= {pair.split(":")[1] for attrs in re.findall(r'data-i18n-attr="([^"]+)"', html) for pair in attrs.split(";")}
     for js in (DOCS / "assets").glob("*.js"):

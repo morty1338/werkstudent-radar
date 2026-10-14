@@ -92,7 +92,7 @@ async def test_tools_over_http(base_url):
         names = {t.name for t in (await c.list_tools()).tools}
         r = await c.call_tool("get_overview", {})
         typo = await c.call_tool("pay_stats", {"city": "Berln"})
-    assert names == {"get_overview", "search_jobs", "pay_stats", "top_skills", "match_skills"}
+    assert names == {"get_overview", "search_jobs", "pay_stats", "top_skills", "match_skills", "kurs_radar"}
     assert r.structured_content["postings"] > 0
     assert typo.is_error and "Did you mean: Berlin?" in typo.content[0].text
     assert get(base_url + "/health")[1]["data_as_of"] == r.structured_content["as_of"]
