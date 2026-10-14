@@ -615,7 +615,9 @@ async function main() {
     { rootMargin: "-40% 0px -55% 0px" },
   );
   navLinks.filter((a) => !a.hidden).forEach((a) => spy.observe(document.querySelector(a.hash)));
+  // Sections without a nav link clear the mark.
   spy.observe(document.querySelector(".hero"));
+  spy.observe(document.getElementById("updates"));
 
   // Sections get their height only now, so jump to #anchor again.
   const target = location.hash && document.getElementById(location.hash.slice(1));

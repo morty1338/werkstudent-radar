@@ -35,6 +35,11 @@ const STRINGS = {
 
   // --- Hero ------------------------------------------------------------------------------------------
   "hero.title": { en: "Werkstudent jobs in Germany, in&nbsp;numbers", de: "Werkstudentenjobs in Deutschland, in&nbsp;Zahlen" },
+  "hero.cta_check": { en: "Find jobs that fit my skills", de: "Jobs passend zu meinen Skills" },
+  "hero.cta_tg": { en: "New jobs on Telegram", de: "Neue Jobs auf Telegram" },
+  "group.find": { en: "Find a job", de: "Job finden" },
+  "group.market": { en: "Understand the market", de: "Den Markt verstehen" },
+  "group.updates": { en: "Stay up to date", de: "Auf dem Laufenden bleiben" },
   "hero.lede": {
     en: ({ plus }) => `Every Werkstudent posting on the Bundesagentur für Arbeit job board${plus ? `, plus ${plus} from company career sites` : ""}.`,
     de: ({ plus }) => `Jede Werkstudentenstelle in der Jobbörse der Bundesagentur für Arbeit${plus ? `, dazu ${plus} von Karriereseiten der Unternehmen` : ""}.`,
@@ -245,11 +250,21 @@ const STRINGS = {
   "cv.too_big": { en: "the file is larger than 10 MB", de: "die Datei ist größer als 10 MB" },
   "cv.format": { en: "please use a PDF, DOCX or TXT file", de: "bitte eine PDF-, DOCX- oder TXT-Datei verwenden" },
 
-  // Telegram channel (posted by the n8n workflow in integrations/n8n)
-  "alerts.telegram": { en: "Get alerts on Telegram", de: "Benachrichtigungen auf Telegram" },
-  "alerts.telegram_hint": { en: "new Berlin jobs every morning", de: "neue Berliner Jobs jeden Morgen" },
+  // Stay up to date: Telegram channel (posted by the n8n workflow in integrations/n8n), RSS, Claude
+  "nav.updates": { en: "Updates", de: "Updates" },
+  "updates.title": { en: "Never miss a new posting", de: "Keine neue Stelle mehr verpassen" },
+  "updates.insight": {
+    en: "New Werkstudent jobs every morning in Telegram or your feed reader, or ask Claude about today's data.",
+    de: "Neue Werkstudentenjobs jeden Morgen in Telegram oder im Feedreader – oder frag Claude nach den Daten von heute.",
+  },
+  "tg.title": { en: "Telegram channel", de: "Telegram-Kanal" },
+  "tg.text": {
+    en: "Every morning the new Werkstudent jobs in Berlin: title, company, pay and a link to the posting.",
+    de: "Jeden Morgen die neuen Werkstudentenjobs in Berlin: Titel, Unternehmen, Gehalt und Link zur Anzeige.",
+  },
+  "tg.open": { en: "Open @werkstudentradar", de: "@werkstudentradar öffnen" },
+  "rss.title": { en: "RSS feeds", de: "RSS-Feeds" },
   // Subscribe
-  "subscribe.summary": { en: "Subscribe to new jobs", de: "Neue Jobs abonnieren" },
   "subscribe.text": {
     en: "RSS feeds of postings that are new on the market, updated every morning. Paste a link into a feed reader (Feedly, Inoreader, NetNewsWire…); each item links to the original posting.",
     de: "RSS-Feeds mit Stellen, die neu am Markt sind, jeden Morgen aktualisiert. Füge einen Link in einen Feedreader ein (Feedly, Inoreader, NetNewsWire …); jeder Eintrag verlinkt die Originalanzeige.",
@@ -363,12 +378,12 @@ const STRINGS = {
   // --- About, footer -------------------------------------------------------------------------------------------------
   "about.summary": { en: "About the data", de: "Über die Daten" },
   "about.body": {
-    en: `<p><strong>Sources.</strong> Every morning a script collects all postings with “Werkstudent”, “Working Student” or “Werkstudierende” in the title from the public job search of the <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, plus Werkstudent postings from companies' own career sites through the free <a href="https://www.arbeitnow.com/">Arbeitnow</a> job API. A posting found in both counts once. LinkedIn, StepStone and Indeed don't allow automated collection and aren't used; many of their postings come from the same company career sites. <strong>Company career pages</strong> (section 06) are read directly from the public job boards of a list of companies in Berlin and München (Greenhouse, Lever, Ashby, Personio).</p>
+    en: `<p><strong>Sources.</strong> Every morning a script collects all postings with “Werkstudent”, “Working Student” or “Werkstudierende” in the title from the public job search of the <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, plus Werkstudent postings from companies' own career sites through the free <a href="https://www.arbeitnow.com/">Arbeitnow</a> job API. A posting found in both counts once. LinkedIn, StepStone and Indeed don't allow automated collection and aren't used; many of their postings come from the same company career sites. <strong>Company career pages</strong> (the Companies section) are read directly from the public job boards of a list of companies in Berlin and München (Greenhouse, Lever, Ashby, Personio).</p>
 <p><strong>Pay</strong> comes from the posting's salary fields or phrases like “17,50 € pro Stunde”. Each role counts once; a median needs at least 10 roles and is shown with its 95% confidence interval.</p>
 <p><strong>Skills and German</strong> are found by rules with German and English synonyms, checked against 100 labelled postings. <a href="https://github.com/morty1338/werkstudent-radar#accuracy">How accurate they are</a>.</p>
 <p><strong>Your CV</strong> is read and analysed in your browser with the same rules. It is never uploaded or stored.</p>
 <p>Job texts belong to the employers and aren't published here; links lead to the originals. Code and data: <a href="https://github.com/morty1338/werkstudent-radar">github.com/morty1338/werkstudent-radar</a>.</p>`,
-    de: `<p><strong>Quellen.</strong> Jeden Morgen sammelt ein Skript alle Anzeigen mit „Werkstudent“, „Working Student“ oder „Werkstudierende“ im Titel aus der öffentlichen Jobsuche der <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, dazu Werkstudentenstellen von Karriereseiten der Unternehmen über die kostenlose Job-API von <a href="https://www.arbeitnow.com/">Arbeitnow</a>. Eine Anzeige, die in beiden vorkommt, zählt einmal. LinkedIn, StepStone und Indeed erlauben kein automatisches Sammeln und werden nicht genutzt; viele ihrer Anzeigen stammen von denselben Karriereseiten. <strong>Karriereseiten</strong> (Abschnitt 06) werden direkt aus den öffentlichen Jobbörsen ausgewählter Unternehmen in Berlin und München gelesen (Greenhouse, Lever, Ashby, Personio).</p>
+    de: `<p><strong>Quellen.</strong> Jeden Morgen sammelt ein Skript alle Anzeigen mit „Werkstudent“, „Working Student“ oder „Werkstudierende“ im Titel aus der öffentlichen Jobsuche der <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a>, dazu Werkstudentenstellen von Karriereseiten der Unternehmen über die kostenlose Job-API von <a href="https://www.arbeitnow.com/">Arbeitnow</a>. Eine Anzeige, die in beiden vorkommt, zählt einmal. LinkedIn, StepStone und Indeed erlauben kein automatisches Sammeln und werden nicht genutzt; viele ihrer Anzeigen stammen von denselben Karriereseiten. <strong>Karriereseiten</strong> (Bereich Unternehmen) werden direkt aus den öffentlichen Jobbörsen ausgewählter Unternehmen in Berlin und München gelesen (Greenhouse, Lever, Ashby, Personio).</p>
 <p><strong>Löhne</strong> stammen aus den Gehaltsfeldern der Anzeige oder aus Formulierungen wie „17,50 € pro Stunde“. Jede Rolle zählt einmal; ein Median braucht mindestens 10 Rollen und wird mit seinem 95%-Konfidenzintervall gezeigt.</p>
 <p><strong>Skills und Deutsch</strong> werden mit Regeln mit deutschen und englischen Synonymen erkannt und an 100 annotierten Anzeigen geprüft. <a href="https://github.com/morty1338/werkstudent-radar#accuracy">Wie genau sie sind</a>.</p>
 <p><strong>Dein Lebenslauf</strong> wird in deinem Browser mit denselben Regeln gelesen und ausgewertet. Er wird nie hochgeladen oder gespeichert.</p>

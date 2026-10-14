@@ -34,6 +34,8 @@
     <symbol id="i-trends" viewBox="0 0 24 24"><path d="M3.5 17.5l5.5-5.5 4 3 7.5-8"/><path d="M15.5 7h5v5"/></symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.4l2.6 2.6 4.8-5.2"/></symbol>
     <symbol id="i-apps" viewBox="0 0 24 24"><rect x="5" y="4.5" width="14" height="16.5" rx="2"/><path d="M9 4.5V3h6v1.5"/><path d="M8.5 11.5l2 2 4-4.5M8.5 17h7"/></symbol>
+    <symbol id="i-updates" viewBox="0 0 24 24"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></symbol>
+    <symbol id="i-telegram" viewBox="0 0 24 24"><path d="M21 3.5 2.8 10.7l6.6 2.4 2.5 7.4 3.4-4.4 4.9 3.6z"/><path d="M21 3.5 9.4 13.1"/></symbol>
     <symbol id="i-companies" viewBox="0 0 24 24"><path d="M3 20.5h18M5 20.5V5.5l7-2v17M12 20.5v-11l7 2.5v8.5"/><path d="M8 8.5h1.5M8 12h1.5M8 15.5h1.5M15 14h1.5M15 17h1.5"/></symbol>
   </svg>
   <header class="site-header">
@@ -43,12 +45,12 @@
         <span>Werkstudent Radar</span>
       </a>
       <nav class="nav" aria-label="Sections" data-i18n-attr="aria-label:nav.aria">
+        <a href="#check" aria-label="Your skills" data-i18n-attr="aria-label:nav.check"><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg><span class="nav-full" data-i18n="nav.check">Your skills</span><span class="nav-short" data-i18n="nav.check_short">Match</span></a>
+        <a href="#companies"><svg class="ico" aria-hidden="true"><use href="#i-companies"></use></svg><span class="nav-full" data-i18n="nav.companies">Companies</span><span class="nav-short" data-i18n="nav.companies_short">Firms</span></a>
         <a href="#where"><svg class="ico" aria-hidden="true"><use href="#i-where"></use></svg><span data-i18n="nav.where">Jobs</span></a>
         <a href="#pay"><svg class="ico" aria-hidden="true"><use href="#i-pay"></use></svg><span data-i18n="nav.pay">Pay</span></a>
         <a href="#skills"><svg class="ico" aria-hidden="true"><use href="#i-skills"></use></svg><span data-i18n="nav.skills">Skills</span></a>
         <a href="#trends"><svg class="ico" aria-hidden="true"><use href="#i-trends"></use></svg><span data-i18n="nav.trends">Trends</span></a>
-        <a href="#check" aria-label="Your skills" data-i18n-attr="aria-label:nav.check"><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg><span class="nav-full" data-i18n="nav.check">Your skills</span><span class="nav-short" data-i18n="nav.check_short">Match</span></a>
-        <a href="#companies"><svg class="ico" aria-hidden="true"><use href="#i-companies"></use></svg><span class="nav-full" data-i18n="nav.companies">Companies</span><span class="nav-short" data-i18n="nav.companies_short">Firms</span></a>
       </nav>
       <button type="button" class="trk-btn" id="trk-open" aria-haspopup="dialog" aria-controls="trk" aria-expanded="false" aria-label="Applications" data-i18n-attr="aria-label:trk.title">
         <svg class="ico" aria-hidden="true"><use href="#i-apps"></use></svg><span class="trk-btn-label" data-i18n="trk.title">Applications</span><span class="trk-count" id="trk-count" hidden></span>
@@ -83,12 +85,76 @@
       <p class="status" id="status"></p>
       <h1 data-i18n-html="hero.title">Werkstudent jobs in Germany, in&nbsp;numbers</h1>
       <p class="lede">Every Werkstudent posting on the Bundesagentur für Arbeit job board and on company career sites.</p>
+      <div class="hero-actions">
+        <a class="btn btn-lg" href="#check"><span data-i18n="hero.cta_check">Find jobs that fit my skills</span><span aria-hidden="true">↓</span></a>
+        <a class="btn btn-lg btn-ghost" href="https://t.me/werkstudentradar" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-telegram"></use></svg><span data-i18n="hero.cta_tg">New jobs on Telegram</span></a>
+      </div>
       <div class="tiles" id="tiles">
         <div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div>
       </div>
       <p class="stale" id="stale" hidden></p>
     </section>
 
+    <p class="wrap group-label" data-i18n="group.find">Find a job</p>
+    <section id="check" class="wrap section">
+      <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg></span><span data-i18n="nav.check">Your skills</span></p>
+      <h2 data-i18n="check.title">Check your skills</h2>
+      <p class="insight" data-i18n="check.insight">Tick what you can do, or let your CV fill it in, to see the share of these jobs you qualify for.</p>
+      <div class="card check-card">
+        <div class="check-grid">
+          <div>
+            <div class="card-head">
+              <h3 data-i18n="check.your_skills">Your skills</h3>
+              <div class="check-actions">
+                <label class="btn-small" title="Your CV is read in your browser and never uploaded" data-i18n-attr="title:cv.title">
+                  <input type="file" id="cv-file" accept=".pdf,.docx,.txt,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain">
+                  <span data-i18n="cv.upload">Upload CV</span>
+                </label>
+                <button type="button" class="link-btn" id="my-clear" hidden data-i18n="check.clear">Clear</button>
+              </div>
+            </div>
+            <p class="cv-note" id="cv-result" aria-live="polite"></p>
+            <label class="sr-only" for="my-search" data-i18n="check.search">Find a skill</label>
+            <input id="my-search" type="search" placeholder="Find a skill: SQL, SAP, Figma…" data-i18n-attr="placeholder:check.search_ph">
+            <div id="my-chips" class="chip-groups"></div>
+            <button type="button" class="link-btn" id="my-all"></button>
+          </div>
+          <div class="match-summary" id="match-summary" aria-live="polite"></div>
+        </div>
+        <div id="jobs-panel" class="jobs-panel" hidden>
+          <div class="card-head">
+            <div class="tabs" id="job-tabs" role="tablist"></div>
+            <label class="sr-only" for="job-sort" data-i18n="sort.label">Sort</label>
+            <select id="job-sort">
+              <option value="best" data-i18n="sort.best">Best fit first</option>
+              <option value="newest" data-i18n="sort.newest">Newest first</option>
+              <option value="pay" data-i18n="sort.pay">Highest pay first</option>
+            </select>
+          </div>
+          <div id="job-filter-chip"></div>
+          <div id="job-list" class="job-list" aria-live="polite"></div>
+          <button class="btn btn-quiet" id="job-more" type="button" hidden data-i18n="check.show_more">Show more</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="companies" class="wrap section">
+      <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-companies"></use></svg></span><span data-i18n="nav.companies">Companies</span></p>
+      <h2 data-i18n="co.title">Straight from company career pages</h2>
+      <p class="insight" id="co-insight"></p>
+      <div class="card">
+        <div class="card-head">
+          <div class="seg" id="co-city" role="tablist" aria-label="City" data-i18n-attr="aria-label:co.city_aria"></div>
+          <label class="sr-only" for="co-search" data-i18n="co.search">Filter by keyword</label>
+          <input id="co-search" type="search" placeholder="Keyword: data, marketing, SAP…" data-i18n-attr="placeholder:co.search_ph">
+        </div>
+        <div class="chips-row" id="co-fields"></div>
+        <div id="co-list" aria-live="polite"></div>
+        <p class="legend-line co-note" id="co-note"></p>
+      </div>
+    </section>
+
+    <p class="wrap group-label" data-i18n="group.market">Understand the market</p>
     <section id="where" class="wrap section">
       <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-where"></use></svg></span><span data-i18n="nav.where">Jobs</span></p>
       <h2 data-i18n="where.title">Where are the jobs?</h2>
@@ -156,85 +222,35 @@
       </div>
     </section>
 
-    <section id="check" class="wrap section">
-      <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg></span><span data-i18n="nav.check">Your skills</span></p>
-      <h2 data-i18n="check.title">Check your skills</h2>
-      <p class="insight" data-i18n="check.insight">Tick what you can do, or let your CV fill it in, to see the share of these jobs you qualify for.</p>
-      <div class="follow">
-        <a class="tg-link" href="https://t.me/werkstudentradar" target="_blank" rel="noopener"><span data-i18n="alerts.telegram">Get alerts on Telegram</span> <span class="tg-hint" data-i18n="alerts.telegram_hint">new Berlin jobs every morning</span></a>
-        <details class="subscribe">
-          <summary data-i18n="subscribe.summary">Subscribe to new jobs</summary>
+    <p class="wrap group-label" data-i18n="group.updates">Stay up to date</p>
+    <section id="updates" class="wrap section">
+      <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-updates"></use></svg></span><span data-i18n="nav.updates">Updates</span></p>
+      <h2 data-i18n="updates.title">Never miss a new posting</h2>
+      <p class="insight" data-i18n="updates.insight">New Werkstudent jobs every morning in Telegram or your feed reader, or ask Claude about today's data.</p>
+      <div class="updates-grid">
+        <div class="card tg-card">
+          <h3><svg class="ico" aria-hidden="true"><use href="#i-telegram"></use></svg><span data-i18n="tg.title">Telegram channel</span></h3>
+          <p data-i18n="tg.text">Every morning the new Werkstudent jobs in Berlin: title, company, pay and a link to the posting.</p>
+          <a class="btn" href="https://t.me/werkstudentradar" target="_blank" rel="noopener"><span data-i18n="tg.open">Open @werkstudentradar</span></a>
+        </div>
+        <div class="card">
+          <h3 data-i18n="rss.title">RSS feeds</h3>
           <div class="subscribe-body" id="subscribe" aria-live="polite"></div>
-        </details>
-      </div>
-      <div class="card check-card">
-        <div class="check-grid">
-          <div>
-            <div class="card-head">
-              <h3 data-i18n="check.your_skills">Your skills</h3>
-              <div class="check-actions">
-                <label class="btn-small" title="Your CV is read in your browser and never uploaded" data-i18n-attr="title:cv.title">
-                  <input type="file" id="cv-file" accept=".pdf,.docx,.txt,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain">
-                  <span data-i18n="cv.upload">Upload CV</span>
-                </label>
-                <button type="button" class="link-btn" id="my-clear" hidden data-i18n="check.clear">Clear</button>
-              </div>
-            </div>
-            <p class="cv-note" id="cv-result" aria-live="polite"></p>
-            <label class="sr-only" for="my-search" data-i18n="check.search">Find a skill</label>
-            <input id="my-search" type="search" placeholder="Find a skill: SQL, SAP, Figma…" data-i18n-attr="placeholder:check.search_ph">
-            <div id="my-chips" class="chip-groups"></div>
-            <button type="button" class="link-btn" id="my-all"></button>
+        </div>
+        <div class="card connect-card" id="claude">
+          <h3 data-i18n="claude.title">Ask Claude about these jobs</h3>
+          <p data-i18n-html="claude.lede">The radar is also an MCP server: add it to Claude as a connector and ask in plain words, for example “What does a Werkstudent in IT earn in Berlin?”. Claude answers with today's data and links to the postings.</p>
+          <div class="connect-url">
+            <code id="mcp-url">https://radar-mcp.vercel.app/mcp</code>
+            <button type="button" class="btn" id="mcp-copy" data-i18n="claude.copy">Copy URL</button>
+            <span class="connect-copied" id="mcp-copied" aria-live="polite"></span>
           </div>
-          <div class="match-summary" id="match-summary" aria-live="polite"></div>
+          <ol class="connect-steps" data-i18n-html="claude.steps">
+            <li><strong>claude.ai or Claude Desktop:</strong> Settings → Connectors → Add custom connector, paste the URL, then turn it on in a chat under “+” → Connectors.</li>
+            <li><strong>Claude Code:</strong> <code>claude mcp add --transport http werkstudent-radar https://radar-mcp.vercel.app/mcp</code></li>
+          </ol>
+          <p class="connect-note" data-i18n-html="claude.note">Free, read-only and without login; job texts are never sent, only links. <a href="https://github.com/morty1338/werkstudent-radar#use-radar-in-claude">How it works</a></p>
         </div>
-        <div id="jobs-panel" class="jobs-panel" hidden>
-          <div class="card-head">
-            <div class="tabs" id="job-tabs" role="tablist"></div>
-            <label class="sr-only" for="job-sort" data-i18n="sort.label">Sort</label>
-            <select id="job-sort">
-              <option value="best" data-i18n="sort.best">Best fit first</option>
-              <option value="newest" data-i18n="sort.newest">Newest first</option>
-              <option value="pay" data-i18n="sort.pay">Highest pay first</option>
-            </select>
-          </div>
-          <div id="job-filter-chip"></div>
-          <div id="job-list" class="job-list" aria-live="polite"></div>
-          <button class="btn btn-quiet" id="job-more" type="button" hidden data-i18n="check.show_more">Show more</button>
-        </div>
-      </div>
-    </section>
-
-    <section id="companies" class="wrap section">
-      <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-companies"></use></svg></span><span data-i18n="nav.companies">Companies</span></p>
-      <h2 data-i18n="co.title">Straight from company career pages</h2>
-      <p class="insight" id="co-insight"></p>
-      <div class="card">
-        <div class="card-head">
-          <div class="seg" id="co-city" role="tablist" aria-label="City" data-i18n-attr="aria-label:co.city_aria"></div>
-          <label class="sr-only" for="co-search" data-i18n="co.search">Filter by keyword</label>
-          <input id="co-search" type="search" placeholder="Keyword: data, marketing, SAP…" data-i18n-attr="placeholder:co.search_ph">
-        </div>
-        <div class="chips-row" id="co-fields"></div>
-        <div id="co-list" aria-live="polite"></div>
-        <p class="legend-line co-note" id="co-note"></p>
-      </div>
-    </section>
-
-    <section id="claude" class="wrap section connect">
-      <div class="card connect-card">
-        <h2 data-i18n="claude.title">Ask Claude about these jobs</h2>
-        <p data-i18n-html="claude.lede">The radar is also an MCP server: add it to Claude as a connector and ask in plain words, for example “What does a Werkstudent in IT earn in Berlin?”. Claude answers with today's data and links to the postings.</p>
-        <div class="connect-url">
-          <code id="mcp-url">https://radar-mcp.vercel.app/mcp</code>
-          <button type="button" class="btn" id="mcp-copy" data-i18n="claude.copy">Copy URL</button>
-          <span class="connect-copied" id="mcp-copied" aria-live="polite"></span>
-        </div>
-        <ol class="connect-steps" data-i18n-html="claude.steps">
-          <li><strong>claude.ai or Claude Desktop:</strong> Settings → Connectors → Add custom connector, paste the URL, then turn it on in a chat under “+” → Connectors.</li>
-          <li><strong>Claude Code:</strong> <code>claude mcp add --transport http werkstudent-radar https://radar-mcp.vercel.app/mcp</code></li>
-        </ol>
-        <p class="connect-note" data-i18n-html="claude.note">Free, read-only and without login; job texts are never sent, only links. <a href="https://github.com/morty1338/werkstudent-radar#use-radar-in-claude">How it works</a></p>
       </div>
     </section>
 

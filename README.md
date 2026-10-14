@@ -346,7 +346,8 @@ for 10 minutes, so the deploy stamps its commit into the asset URLs
   day, and published at most 7 days before. Items carry title, employer, city,
   pay, field and the link to the original posting, never the job text. Feed URLs
   have no version suffix so subscriptions keep working. Linked from the page
-  ("Subscribe to new jobs") and announced with `<link rel="alternate">`.
+  ("Never miss a new posting", next to the Telegram channel) and announced with
+  `<link rel="alternate">`.
 - **Application tracker** ([`tracker.js`](docs/assets/tracker.js), rules in
   [`tracker-store.js`](docs/assets/tracker-store.js)): a dialog that slides in from
   the right. Everything is stored in the browser's `localStorage` (and kept in memory
