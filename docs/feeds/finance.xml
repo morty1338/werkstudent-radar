@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudenten (m/w/d) im kaufmännischen Controlling</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208289766-S</link>
+      <guid isPermaLink="false">10000-1208289766-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>GEBO GESUNDHEITSEINRICHTUNGEN BEZIRKS OBERFRANKEN · Bayreuth · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent / Pflichtpraktikum Finance &amp; Controlling (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/the-verse-ventures-gmbh/werkstudent-pflichtpraktikum-finance-controlling-berlin-145864</link>
+      <guid isPermaLink="false">an:werkstudent-pflichtpraktikum-finance-controlling-berlin-145864</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>THE VERSE Ventures GmbH · Berlin · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Buchhaltung / Accounting (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/doccheck-ag/werkstudentin-buchhaltung-accounting-koln-392250</link>
+      <guid isPermaLink="false">an:werkstudentin-buchhaltung-accounting-koln-392250</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>DocCheck AG · Köln · Finance &amp; Controlling</description>
+    </item>
     <item>
       <title>Werkstudent Finance (m/f/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/buena/werkstudent-finance-berlin-99820</link>
@@ -31,14 +55,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>REWE Group · Köln · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Buchhaltung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-c5f5ab34-177a-4cf0--S</link>
-      <guid isPermaLink="false">12951-c5f5ab34-177a-4cf0--S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Weber Unternehmensgruppe · Pulheim · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent Controlling International (m/w/d)</title>
@@ -71,14 +87,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>LESORA GmbH · Freiburg · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent in der Wirtschaftsprüfung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-252386-S</link>
-      <guid isPermaLink="false">13884-252386-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Göken, Pollak &amp; Partner Treuhandgesellschaft mbH · Bremen · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent im Kundenkontakt (m/w/d)</title>
@@ -185,22 +193,6 @@
       <description>Kelvion Holding GmbH · Herne · Finance &amp; Controlling</description>
     </item>
     <item>
-      <title>Werkstudent Controlling (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/aer-group/werkstudent-controlling-berlin-boppstr-299123</link>
-      <guid isPermaLink="false">an:werkstudent-controlling-berlin-boppstr-299123</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Aer Group · Berlin · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Group Accounting (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/aer-group/werkstudent-group-accounting-berlin-boppstr-241357</link>
-      <guid isPermaLink="false">an:werkstudent-group-accounting-berlin-boppstr-241357</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Aer Group · Berlin · Finance &amp; Controlling</description>
-    </item>
-    <item>
       <title>Werkstudent Projektmanagement – Finance, Einkauf &amp; Vertrieb (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/es-group/werkstudent-projektmanagement-finance-einkauf-vertrieb-berlin-448400</link>
       <guid isPermaLink="false">an:werkstudent-projektmanagement-finance-einkauf-vertrieb-berlin-448400</guid>
@@ -223,30 +215,6 @@
       <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>MRH Trowe Insurance Brokers GmbH · Frankfurt am Main · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent im Kundenkontakt (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001B08-S</link>
-      <guid isPermaLink="false">18024-10Q4800001B08-S</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Sparkasse Hohenlohekreis · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent in internen Bereichen (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001C08-S</link>
-      <guid isPermaLink="false">18024-10Q4800001C08-S</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Sparkasse Hohenlohekreis · Künzelsau · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Controlling (w/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/opentas/werkstudent-controlling-hamburg-48627</link>
-      <guid isPermaLink="false">an:werkstudent-controlling-hamburg-48627</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Opentas · Hamburg · Finance &amp; Controlling</description>
     </item>
   </channel>
 </rss>

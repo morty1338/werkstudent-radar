@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Marketing - Design (M/W/D)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003856469-S</link>
+      <guid isPermaLink="false">10001-1003856469-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>RIE-TECH GmbH · Orsingen-Nenzingen · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>move elevator GmbH: Werkstudent:in | Content &amp; Video Creation (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3057511792015201-S</link>
+      <guid isPermaLink="false">11956-3057511792015201-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>move elevator GmbH · Oberhausen · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) - Marketing / Grafikdesign  bei NOBIX Group GmbH, NOBIX Group GmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357154-S</link>
+      <guid isPermaLink="false">12811-2357154-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>NOBIX Group GmbH · Gundelfingen an der Donau · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent Marketing Schwerpunkt: Graphikdesign (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-a12af571_JB5272893-S</link>
+      <guid isPermaLink="false">13635-a12af571_JB5272893-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>1000 Satellites GmbH · Karlsruhe · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Praktikant/Werkstudent (m/w/d) Social Media &amp; Videoschnitt</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13649-13382442AB-S</link>
+      <guid isPermaLink="false">13649-13382442AB-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>LIEPA Real Estate UG (haftungsbeschränkt) · Berlin · Design &amp; UX</description>
+    </item>
     <item>
       <title>Werkstudent für  Content-Produktion, Grafik &amp; Video (m/w/d) In Teilzeit (18,00 Wochenstunden)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003853261-S</link>
@@ -103,30 +143,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>42Watt · München · Design &amp; UX · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Presentation Design &amp; Content (d/w/m)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/mawave-marketing-gmbh/werkstudent-presentation-design-content-munchen-25170</link>
-      <guid isPermaLink="false">an:werkstudent-presentation-design-content-munchen-25170</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Mawave Marketing GmbH · München · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (w/m/d) Visual Design</title>
-      <link>https://www.arbeitnow.com/jobs/companies/leonine-holding-gmbh/werkstudentin-visual-design-koln-250653</link>
-      <guid isPermaLink="false">an:werkstudentin-visual-design-koln-250653</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>LEONINE Holding GmbH · Köln · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Working Student – Graphic Design E-Commerce (all genders)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/niboline-gmbh/working-student-graphic-design-e-commerce-all-genders-berlin-189027</link>
-      <guid isPermaLink="false">an:working-student-graphic-design-e-commerce-all-genders-berlin-189027</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Niboline Gmbh · Berlin · Design &amp; UX</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,72 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Working Student – Management Consulting &amp; Energy Analytics (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003854921-S</link>
+      <guid isPermaLink="false">10001-1003854921-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Crescenti Pohl Advisory GmbH · Berlin · Data &amp; Analytics · no German needed</description>
+    </item>
+    <item>
+      <title>accompio GmbH: Werkstudent (m/w/d) Data Analytics / Business Intelligence - Wuppertal</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3069421792015201-S</link>
+      <guid isPermaLink="false">11956-3069421792015201-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>accompio GmbH · Wuppertal · €17.00/h · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student (f/m/d) Advanced Analytics and Artificial Intelligence</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1633057-2-S</link>
+      <guid isPermaLink="false">12465-1633057-2-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · München · Data &amp; Analytics · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Data Engineering</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1643618-1-S</link>
+      <guid isPermaLink="false">12465-1643618-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · Erlangen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Datenanalyse &amp; Visualisierung für EU-Konformitäten</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1643621-1-S</link>
+      <guid isPermaLink="false">12465-1643621-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · Braunschweig · €17.27/h · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudierende (w/m/d) Reporting &amp; Business Intelligence, Trier</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357120-S</link>
+      <guid isPermaLink="false">12811-2357120-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>moccamedia GmbH · Trier · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) - Managementberatung - Schwerpunkt Artificial Intelligence, Böblingen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357229-S</link>
+      <guid isPermaLink="false">12811-2357229-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>STAR Cooperation GmbH · Böblingen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudierende:r Data Annotation Hospital (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/voize/werkstudierender-data-annotation-hospital-berlin-268524</link>
+      <guid isPermaLink="false">an:werkstudierender-data-annotation-hospital-berlin-268524</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Voize · Berlin · €16.00/h · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent Business Intelligence &amp; Data Analytics - BI Reporting maxingvest (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11937-35011_59546-1-S</link>
@@ -161,14 +225,6 @@
       <description>proLogistik Group · Dortmund · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Data Engineer Working Student (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/data-engineer-working-student-koln-482150</link>
-      <guid isPermaLink="false">an:data-engineer-working-student-koln-482150</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Trusteq Gmbh · Köln · Data &amp; Analytics</description>
-    </item>
-    <item>
       <title>Werkstudent:in Data Analytics (Controlling Focus) (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/1komma5grad/remote-werkstudentin-data-analytics-controlling-focus-hamburg-271791</link>
       <guid isPermaLink="false">an:remote-werkstudentin-data-analytics-controlling-focus-hamburg-271791</guid>
@@ -199,14 +255,6 @@
       <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Klim · Berlin · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Working Student - Data &amp; Financial Research eCommerce (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/ecdb-gmbh-latest/working-student-data-financial-research-ecommerce-hamburg-475894</link>
-      <guid isPermaLink="false">an:working-student-data-financial-research-ecommerce-hamburg-475894</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Ecdb Gmbh Latest · Hamburg · Data &amp; Analytics · no German needed</description>
     </item>
   </channel>
 </rss>

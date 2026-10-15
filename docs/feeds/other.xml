@@ -6,8 +6,80 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Call &amp; Service Center Agent / Telefonagent/in (m/w/d) für Arbeitssuchende / Rentner / Werkstudent</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003856236-S</link>
+      <guid isPermaLink="false">10001-1003856236-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>INCOVA System GmbH · Kassel · €17.00/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Order Center (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003856948-S</link>
+      <guid isPermaLink="false">10001-1003856948-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>HUMMEL AG · Denzlingen · €15.50/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) – Inkasso &amp; Outbound</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003856979-S</link>
+      <guid isPermaLink="false">10001-1003856979-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>HMCS Gesellschaft für Forderungsmanagement mbH · Hannover · €16.00/h · Other</description>
+    </item>
+    <item>
+      <title>Fundraiser / Promoter (w/m/d) Vollzeit / Teilzeit / Aushilfe / Werkstudent / Nebejobs</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12688-28908110-RJA-S</link>
+      <guid isPermaLink="false">12688-28908110-RJA-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>GREENPEACE E.V. · Leipzig · €15.19/h · Other</description>
+    </item>
+    <item>
+      <title>Mitarbeiter*in oder Werkstudent*in (m/w/d) im Hausnotruf, Caritas Hausnotruf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357106-S</link>
+      <guid isPermaLink="false">12811-2357106-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Caritasverband Paderborn e.V. · Paderborn · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) für das thyssenkrupp Corporate Archives / Central File Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-973740-008-S</link>
+      <guid isPermaLink="false">16604-973740-008-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>thyssenkrupp Services GmbH · Duisburg · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Radverkehr und Mobilität (m/w/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18995-S3248-S</link>
+      <guid isPermaLink="false">18995-S3248-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Sweco GmbH · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Marketplace Manager – 100 % Remote, Teilzeit (20 Std./Woche)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tretmann/werkstudent-marketplace-manager-100-remote-teilzeit-20-std-woche-aachen-179592</link>
+      <guid isPermaLink="false">an:werkstudent-marketplace-manager-100-remote-teilzeit-20-std-woche-aachen-179592</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Tretmann · Aachen · Other</description>
+    </item>
+    <item>
+      <title>Working Student - LLM Quantization &amp; Inference Performance</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tensordyne/working-student-llm-quantization-inference-performance-munich-124483</link>
+      <guid isPermaLink="false">an:working-student-llm-quantization-inference-performance-munich-124483</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Tensordyne · München · Other · no German needed</description>
+    </item>
     <item>
       <title>Praktikum/Werkstudententätigkeit Teilezerlegung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4964543373-S</link>
@@ -153,28 +225,12 @@
       <description>Cyrus Digital GmbH · München · Other</description>
     </item>
     <item>
-      <title>Werkstudent Partnermanagement AWS (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/skaylink/werkstudent-partnermanagement-aws-stuttgart-baden-wurttemberg-338129</link>
-      <guid isPermaLink="false">an:werkstudent-partnermanagement-aws-stuttgart-baden-wurttemberg-338129</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Skaylink · Stuttgart · Other</description>
-    </item>
-    <item>
       <title>Werkstudent Sustainability/Nachhaltigkeit/ESG (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/lindalgroup/werkstudent-sustainability-nachhaltigkeit-esg-germany-hamburg-287685</link>
       <guid isPermaLink="false">an:werkstudent-sustainability-nachhaltigkeit-esg-germany-hamburg-287685</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>Lindalgroup · Hamburg · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Unternehmensentwicklung</title>
-      <link>https://www.arbeitnow.com/jobs/companies/cyrus-digital-gmbh/werkstudent-unternehmensentwicklung-munich-116562</link>
-      <guid isPermaLink="false">an:werkstudent-unternehmensentwicklung-munich-116562</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Cyrus Digital GmbH · München · Other</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Verkehrsplanung</title>
@@ -287,62 +343,6 @@
       <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>DEAXO GmbH · Dresden · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Go-To-Market &amp; Partner Management (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/bees-bears-gmbh/werkstudent-go-to-market-partner-management-berlin-95939</link>
-      <guid isPermaLink="false">an:werkstudent-go-to-market-partner-management-berlin-95939</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Bees &amp; Bears GmbH · Berlin · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Logopädie - Nürnberg</title>
-      <link>https://www.arbeitnow.com/jobs/companies/palabra/werkstudent-logopadie-nurnberg-453445</link>
-      <guid isPermaLink="false">an:werkstudent-logopadie-nurnberg-453445</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Palabra · Nürnberg · Other</description>
-    </item>
-    <item>
-      <title>Werkstudenten (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/valeara/werkstudenten-berlin-tegel-249626</link>
-      <guid isPermaLink="false">an:werkstudenten-berlin-tegel-249626</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Valeara · Berlin-Tegel · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Art Direction (w/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/hirschen-group-gmbh/werkstudentin-art-direction-berlin-schlesische-strasse-26-406821</link>
-      <guid isPermaLink="false">an:werkstudentin-art-direction-berlin-schlesische-strasse-26-406821</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Hirschen Group GmbH · Berlin · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Klimafreundliche Schifffahrt und Häfen</title>
-      <link>https://www.arbeitnow.com/jobs/companies/now-gmbh-nationale-organisation-fur-den-wandel-in-der/werkstudentin-klimafreundliche-schifffahrt-und-hafen-berlin-fasanenstrasse-432542</link>
-      <guid isPermaLink="false">an:werkstudentin-klimafreundliche-schifffahrt-und-hafen-berlin-fasanenstrasse-432542</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>NOW GmbH Nationale Organisation für den Wandel in der ... · Berlin · €15.00/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Partnermanagement (All Genders)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/seniovo-gmbh-ein-unternehmen-der-hornbach-gruppe/werkstudentin-partnermanagement-all-genders-berlin-295881</link>
-      <guid isPermaLink="false">an:werkstudentin-partnermanagement-all-genders-berlin-295881</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Seniovo GmbH - Ein Unternehmen der HORNBACH-Gruppe · Berlin · Other</description>
-    </item>
-    <item>
-      <title>Working Student (m/f/d) Maintenance Development</title>
-      <link>https://www.arbeitnow.com/jobs/companies/nexrail/working-student-maintenance-development-office-dortmund-495249</link>
-      <guid isPermaLink="false">an:working-student-maintenance-development-office-dortmund-495249</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Nexrail · Dortmund · Other</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) Intelligence &amp; Foresight</title>

@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/i) QK Packmittellabor</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208289361-S</link>
+      <guid isPermaLink="false">10000-1208289361-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Research &amp; Science</category>
+      <description>MEDICE Arzneimittel Pütter GmbH &amp; Co. KG · Iserlohn · Research &amp; Science</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) in der Anwendungsforschung</title>
       <link>https://www.arbeitnow.com/jobs/companies/arcus-planung-beratung-bauplanungsgesellschaft-mbh/werkstudent-in-der-anwendungsforschung-berlin-68360</link>
@@ -55,14 +63,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Research &amp; Science</category>
       <description>Robert Bosch GmbH · Gunzenhausen am Altmühlsee · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent Forschung/Laser Research (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/dornier-medtech-gmbh/werkstudent-forschung-laser-research-dmt-germany-wessling-95614</link>
-      <guid isPermaLink="false">an:werkstudent-forschung-laser-research-dmt-germany-wessling-95614</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Dornier MedTech GmbH · DMT-Germany · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

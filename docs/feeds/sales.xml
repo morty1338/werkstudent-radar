@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Vertrieb - Telefonakquise</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4965997053-S</link>
+      <guid isPermaLink="false">12288-4965997053-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Bertrandt AG · Karlsruhe · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Sales, Haldensleben</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357326-S</link>
+      <guid isPermaLink="false">12811-2357326-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>IFA Group · Haldensleben · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) im Brereich Sales</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-0d3cc04e_JB5272272-S</link>
+      <guid isPermaLink="false">13635-0d3cc04e_JB5272272-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>360Volt GmbH · Bochum · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent im Vertrieb (m/w/d) Recklinghausen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14385-482-3050P-26-S</link>
+      <guid isPermaLink="false">14385-482-3050P-26-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>ARWA Personaldienstleistungen GmbH · Recklinghausen · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent Vertrieb B2B (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1460107-28033-1-S</link>
@@ -47,22 +79,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Auxmoney Gmbh · Düsseldorf · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) B2B-Telefonvertrieb</title>
-      <link>https://www.arbeitnow.com/jobs/companies/econ-tel-gmbh/werkstudent-b2b-telefonvertrieb-munster-77992</link>
-      <guid isPermaLink="false">an:werkstudent-b2b-telefonvertrieb-munster-77992</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>ECON TEL GmbH · Münster · €15.00/h · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Kundenservice (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/montredo-gmbh/werkstudent-kundenservice-berlin-446869</link>
-      <guid isPermaLink="false">an:werkstudent-kundenservice-berlin-446869</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Montredo GmbH · Berlin · Sales &amp; Business Development</description>
     </item>
     <item>
       <title>Working Student Customer Success (m/w/d)</title>
@@ -119,14 +135,6 @@
       <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>DEKA Kleben &amp; Dichten GmbH · Winterhof · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im Vertrieb</title>
-      <link>https://www.arbeitnow.com/jobs/companies/kloepfel-consulting-gmbh/werkstudent-im-vertrieb-dusseldorf-240001</link>
-      <guid isPermaLink="false">an:werkstudent-im-vertrieb-dusseldorf-240001</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Kloepfel Consulting Gmbh · Düsseldorf · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>

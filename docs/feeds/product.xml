@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Projektmanagement Aviation</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-312758_JB5269830-S</link>
+      <guid isPermaLink="false">12265-312758_JB5269830-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>FERCHAU GmbH GB Aviation München · Garching bei München · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Unterstützung der kaufmännischen Leitung des Projektmanagements</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1643613-1-S</link>
+      <guid isPermaLink="false">12465-1643613-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Siemens AG · Braunschweig · €15.00/h · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent für eine Projektunterstützung in der Technologieentwicklung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18121-0068096941-S</link>
+      <guid isPermaLink="false">18121-0068096941-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>RENK GmbH · Augsburg · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent Processes &amp; Projects (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11937-34954_59456-1-S</link>
@@ -175,30 +199,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Es Group · Berlin · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent - Product Management / Health (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/ottonova/werkstudent-product-management-health-munchen-309486</link>
-      <guid isPermaLink="false">an:werkstudent-product-management-health-munchen-309486</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Ottonova · München · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent*in für Studien- &amp; Projektkoordination</title>
-      <link>https://www.arbeitnow.com/jobs/companies/now-gmbh-nationale-organisation-fur-den-wandel-in-der/werkstudentin-fur-studien-projektkoordination-berlin-fasanenstrasse-410655</link>
-      <guid isPermaLink="false">an:werkstudentin-fur-studien-projektkoordination-berlin-fasanenstrasse-410655</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>NOW GmbH Nationale Organisation für den Wandel in der ... · Berlin · €15.00/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Working Student Product Management (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/oniq/working-student-product-management-cologne-494903</link>
-      <guid isPermaLink="false">an:working-student-product-management-cologne-494903</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Oniq · Köln · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

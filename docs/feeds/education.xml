@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) im Zulassungsausschuss, München</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357052-S</link>
+      <guid isPermaLink="false">12811-2357052-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Kassenärztliche Vereinigung Bayerns · München · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (m/w/d) (20,0 Std./Woche) CAJ, Bistum Osnabrück</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100PJ000WXr06-S</link>
+      <guid isPermaLink="false">18024-100PJ000WXr06-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Bischöfliches Generalvikariat · Osnabrück · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudenten (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20342-489-1792044093-S</link>
+      <guid isPermaLink="false">20342-489-1792044093-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Education &amp; Social</category>
+      <description>DRK-Region Hannover e.V. · Wennigsen (Deister) · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208281001-S</link>
@@ -15,14 +39,6 @@
       <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
       <category>Education &amp; Social</category>
       <description>HWK für Mittelfranken · Nürnberg · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) (20,0 Std./Woche) CAJ, Bistum Osnabrück</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100PJ000WXr05-S</link>
-      <guid isPermaLink="false">18024-100PJ000WXr05-S</guid>
-      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Bischöfliches Generalvikariat · Osnabrück · Education &amp; Social</description>
     </item>
     <item>
       <title>Werkstudent (m/f/d)</title>
@@ -71,30 +87,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Education &amp; Social</category>
       <description>BG Klinikum Hamburg gGmbH · Hamburg · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudenten (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20342-489-1791806649-S</link>
-      <guid isPermaLink="false">20342-489-1791806649-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>DRK-Region Hannover e.V. · Pattensen bei Hannover · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) als Sprachdozent Deutsch/ Englisch</title>
-      <link>https://www.arbeitnow.com/jobs/companies/education-partners/remote-werkstudent-als-sprachdozent-deutsch-englisch-hessen-bbi-381642</link>
-      <guid isPermaLink="false">an:remote-werkstudent-als-sprachdozent-deutsch-englisch-hessen-bbi-381642</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Education Partners · Hessen BBI · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) als Sprachdozent Deutsch</title>
-      <link>https://www.arbeitnow.com/jobs/companies/education-partners/werkstudent-als-sprachdozent-deutsch-hessen-bbi-349024</link>
-      <guid isPermaLink="false">an:werkstudent-als-sprachdozent-deutsch-hessen-bbi-349024</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Education Partners · Hessen BBI · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

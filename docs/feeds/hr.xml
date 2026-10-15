@@ -6,8 +6,80 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:54:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent HRM (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003856963-S</link>
+      <guid isPermaLink="false">10001-1003856963-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>HUMMEL AG · Denzlingen · €15.50/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Bildungs- &amp; Personalprojekte, Marketing &amp; Administration</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003857034-S</link>
+      <guid isPermaLink="false">10001-1003857034-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>IMB GmbH &amp; Co. KG · Grevenbroich · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) HR</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003857088-S</link>
+      <guid isPermaLink="false">10001-1003857088-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Müller Medien GmbH &amp;Co.KG · Nürnberg · €14.50/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Recruiting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-524158_JB5272786-S</link>
+      <guid isPermaLink="false">12265-524158_JB5272786-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>FERCHAU GmbH Niederlassung Darmstadt · Darmstadt · €15.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Human Resources, Haldensleben</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357350-S</link>
+      <guid isPermaLink="false">12811-2357350-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>IFA Group · Haldensleben · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Talent Acquisition (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-3bf82e65-3ec0-4865--S</link>
+      <guid isPermaLink="false">12951-3bf82e65-3ec0-4865--S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Thermondo · Berlin · €15.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent People Operations &amp; Automation (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-b6a37be4-2779-4555--S</link>
+      <guid isPermaLink="false">12951-b6a37be4-2779-4555--S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Thermondo · Berlin · €15.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Personalentwicklung (w/m/div)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13649-13382218AB-S</link>
+      <guid isPermaLink="false">13649-13382218AB-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Sparda-Bank Berlin eG · Berlin · €16.80/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Human Resources (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635600-7878-8322-S</link>
+      <guid isPermaLink="false">15939-BB-635600-7878-8322-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Rheinmetall AG · Lohmar · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent HR (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-a9e5cdfb-cbdb-47c7--S</link>
@@ -49,14 +121,6 @@
       <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Friedberg · HR &amp; Recruiting</description>
     </item>
     <item>
-      <title>Werkstudent im Recruiting (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-362407_JB5270769-S</link>
-      <guid isPermaLink="false">12265-362407_JB5270769-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>FERCHAU GmbH Niederlassung Darmstadt · Darmstadt · €15.00/h · HR &amp; Recruiting</description>
-    </item>
-    <item>
       <title>Werkstudent Recruiting (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-476236_JB5271267-S</link>
       <guid isPermaLink="false">12265-476236_JB5271267-S</guid>
@@ -78,7 +142,7 @@
       <guid isPermaLink="false">12288-4963185882-S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
-      <description>avitea GmbH · Erwitte · HR &amp; Recruiting</description>
+      <description>avitea Industrieservice GmbH · Erwitte · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Human Resources</title>
@@ -226,14 +290,6 @@
     </item>
     <item>
       <title>Working Student / Internship  HR Business Partner (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-internship-hr-business-partner-gilching-300929</link>
-      <guid isPermaLink="false">an:working-student-internship-hr-business-partner-gilching-300929</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Quantum-Systems GmbH · Gilching · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Working Student / Internship  HR Business Partner (m/f/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-internship-hr-business-partner-gilching-94020</link>
       <guid isPermaLink="false">an:working-student-internship-hr-business-partner-gilching-94020</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
@@ -263,14 +319,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>FERCHAU GmbH GB Aviation München · Garching bei München · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>HR Management Intern / Working Student (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/hr-management-intern-working-student-munchen-388793</link>
-      <guid isPermaLink="false">an:hr-management-intern-working-student-munchen-388793</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Trusteq Gmbh · München · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>RoX Student Talent Pool: Werkstudent/in oder Praktikant/in (m/w/d) für Digital Health Projekt (Remote/Berlin)</title>
