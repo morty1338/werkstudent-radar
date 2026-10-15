@@ -5,8 +5,15 @@ name: Telegram alerts
 #           doesn't count the day as sent; for checking the n8n workflow and the bot
 #   resend  the latest day for real, e.g. when n8n was offline during the daily run
 #           (n8n skips it if that day was already posted)
-# Unlike the daily step, this run fails when nothing could be sent.
+# Unlike the daily step, a manual run fails when nothing could be sent.
+#
+# Scheduled retry: n8n runs on a Mac behind an ngrok tunnel, and when the Mac sleeps through
+# the daily run's send, ngrok answers 404 and the day isn't posted. Every 2 hours the latest
+# day goes out again ("retry", like resend); n8n answers "already sent" for a day it posted, so
+# nothing is sent twice. A retry never fails, or every sleeping hour would send a failure e-mail.
 on:
+  schedule:
+    - cron: "41 6-20/2 * * *"     # 08:41 … 22:41 in Berlin (summer time; an hour earlier in winter)
   workflow_dispatch:
     inputs:
       mode:
@@ -41,8 +48,9 @@ jobs:
         env:
           N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
           WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
-          MODE: ${{ inputs.mode }}
+          MODE: ${{ inputs.mode || 'retry' }}
         run: |
-          args=(--strict)
-          if [ "$MODE" != "resend" ]; then args+=(--test); fi
+          args=()
+          if [ "$MODE" != "retry" ]; then args+=(--strict); fi
+          if [ "$MODE" = "test" ]; then args+=(--test); fi
           .github/scripts/run_logged.sh "Telegram alerts" python -m radar.notify "${args[@]}"
