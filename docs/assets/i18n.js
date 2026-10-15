@@ -369,6 +369,17 @@ const STRINGS = {
   "trk.gone_title": { en: "This posting isn't in today's data any more; it may have been filled or taken down.", de: "Diese Anzeige ist nicht mehr in den heutigen Daten; sie wurde vielleicht besetzt oder entfernt." },
   "trk.empty_filter": { en: "No application with this status.", de: "Keine Bewerbung mit diesem Status." },
   "trk.export": { en: "Export file", de: "Datei exportieren" },
+  "trk.link": { en: "Backup link", de: "Link zum Sichern" },
+  "trk.link_copied": {
+    en: "Link copied: save it as a bookmark, or open it on another device to bring the list there.",
+    de: "Link kopiert: als Lesezeichen speichern oder auf einem anderen Gerät öffnen, um die Liste dorthin zu holen.",
+  },
+  "trk.link_prompt": { en: "Copy this link and save it as a bookmark:", de: "Diesen Link kopieren und als Lesezeichen speichern:" },
+  "trk.link_failed": { en: "This browser can't make the link; export a file instead.", de: "Dieser Browser kann den Link nicht erstellen; exportiere stattdessen eine Datei." },
+  "trk.backup_due": {
+    en: "Saved only in this browser, and browsers sometimes clear site data (Safari after 7 days without a visit). Keep a copy: “Backup link” as a bookmark, or export a file.",
+    de: "Nur in diesem Browser gespeichert, und Browser löschen Website-Daten manchmal (Safari nach 7 Tagen ohne Besuch). Sichere eine Kopie: „Link zum Sichern“ als Lesezeichen oder Datei exportieren.",
+  },
   "trk.import": { en: "Import file", de: "Datei importieren" },
   "trk.imported": { en: "Imported: {added} new, {updated} updated", de: "Importiert: {added} neu, {updated} aktualisiert" },
   "trk.import_failed": { en: "Couldn't import: {msg}", de: "Import fehlgeschlagen: {msg}" },

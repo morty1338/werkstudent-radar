@@ -7,6 +7,8 @@
 // note, followUp ("YYYY-MM-DD" or null), added }. Dates are local calendar days.
 
 export const KEY = "werkstudent-radar.applications";
+export const BACKUP_KEY = `${KEY}.backup`;   // the day of the last export or backup link
+export const BACKUP_EVERY_DAYS = 14;         // remind after this many days without a backup
 export const VERSION = 1;
 export const STATUSES = ["saved", "applied", "interview", "offer", "rejected"];
 const OPEN = new Set(["saved", "applied", "interview"]);   // still waiting for something
@@ -125,7 +127,8 @@ export function createStore(storage, { onChange = () => {} } = {}) {
       save();
     },
 
-    update(id, fields) {
+    // { quiet: true } saves without onChange (typing a note: no redraw that would move the cursor).
+    update(id, fields, { quiet = false } = {}) {
       const a = items.find((x) => x.id === id);
       if (!a) return;
       if ("note" in fields) a.note = text(fields.note, MAX_TEXT.note);
@@ -134,6 +137,14 @@ export function createStore(storage, { onChange = () => {} } = {}) {
         if (k in fields && text(fields[k], MAX_TEXT[k])) a[k] = text(fields[k], MAX_TEXT[k]);
       }
       if ("url" in fields) a.url = safeUrl(fields.url);
+      if (quiet && persistent) {
+        try {
+          storage.setItem(KEY, JSON.stringify({ version: VERSION, items }));
+        } catch {
+          persistent = false;
+        }
+        return;
+      }
       save();
     },
 
@@ -175,3 +186,47 @@ export function createStore(storage, { onChange = () => {} } = {}) {
     },
   };
 }
+
+// --- Backup link -------------------------------------------------------------------------------
+// The whole list in a link (…#trk=<data>): compressed JSON in base64url. Saved as a bookmark it
+// survives a browser that clears site data, and opened on another device it imports the list
+// (importJson: merge by id, the newer copy wins). The part after # never reaches the server.
+
+const b64url = (binary) => btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+const unb64url = (s) => Uint8Array.from(atob(s.replace(/-/g, "+").replace(/_/g, "/")), (c) => c.charCodeAt(0));
+
+async function pipe(bytes, stream) {
+  const out = new Response(new Blob([bytes]).stream().pipeThrough(stream));
+  return new Uint8Array(await out.arrayBuffer());
+}
+
+export async function toLinkData(exportJson) {
+  const packed = await pipe(new TextEncoder().encode(exportJson), new CompressionStream("deflate-raw"));
+  let binary = "";
+  for (let i = 0; i < packed.length; i += 0x8000) binary += String.fromCharCode(...packed.subarray(i, i + 0x8000));
+  return b64url(binary);
+}
+
+export async function fromLinkData(data) {
+  const raw = await pipe(unb64url(data), new DecompressionStream("deflate-raw"));
+  return new TextDecoder().decode(raw);
+}
+
+// Days since the last backup (export file or link); null when there was none.
+export function daysSinceBackup(storage, day = today()) {
+  try {
+    const last = storage?.getItem(BACKUP_KEY);
+    return isDay(last) ? Math.round((new Date(day) - new Date(last)) / 864e5) : null;
+  } catch {
+    return null;
+  }
+}
+
+export function markBackup(storage, day = today()) {
+  try {
+    storage?.setItem(BACKUP_KEY, day);
+  } catch {
+    // no storage: nothing to remember
+  }
+}
+

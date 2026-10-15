@@ -454,7 +454,11 @@ for 10 minutes, so the deploy stamps its commit into the asset URLs
   the right. Everything is stored in the browser's `localStorage` (and kept in memory
   when a private window blocks it), so there is no account and no server that could
   leak anyone's job search. Export/import is a JSON file; an import merges by id, the
-  more recently changed copy wins, and every field of an imported file is checked
+  more recently changed copy wins. A **backup link** carries the whole list after `#`
+  (compressed, never sent to the server): kept as a bookmark it survives a browser that clears
+  site data (Safari after 7 days without a visit), opened elsewhere it brings the list to
+  another device; the panel asks for a backup every 14 days. Notes are saved while typing.
+  Every field of an imported file is checked
   again (unknown statuses, bad dates and non-http links are dropped). Tests run the
   store in Node with a stand-in for `localStorage`.
 - **No section numbers.** Each section starts with an icon on a split-flap tile and

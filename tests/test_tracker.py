@@ -181,3 +181,57 @@ def test_today_is_a_local_calendar_day(tmp_path):
 out.day = T.today(new Date(2026, 9, 13, 23, 30));
 """)
     assert out["day"] == "2026-10-13"
+
+
+def test_backup_link_round_trip_merges_into_another_browser(tmp_path):
+    """The link carries the whole list (compressed, base64url) and imports into a second browser."""
+    out = run(tmp_path, """
+const a = T.createStore(new Memory());
+a.add({ title: "Recruiter (m/w/d)", company: "Acme", city: "Berlin", url: "https://x.test/1", note: "Grüße, ä ö ü ß €" }, "2026-10-01");
+a.add({ title: "Sachbearbeiter", ref: "k:123", source: "radar" }, "2026-10-02");
+const data = await T.toLinkData(a.exportJson());
+out.urlSafe = /^[A-Za-z0-9_-]+$/.test(data);
+out.length = data.length;
+const b = T.createStore(new Memory());
+b.add({ title: "Already here" }, "2026-10-03");
+out.result = b.importJson(await T.fromLinkData(data));
+out.titles = b.all().map((x) => x.title).sort();
+out.note = b.all().find((x) => x.company === "Acme").note;
+out.again = b.importJson(await T.fromLinkData(data));          // opening the link twice adds nothing
+""")
+    assert out["urlSafe"] and out["length"] < 1000
+    assert out["result"] == {"added": 2, "updated": 0} and out["again"] == {"added": 0, "updated": 0}
+    assert out["titles"] == ["Already here", "Recruiter (m/w/d)", "Sachbearbeiter"]
+    assert out["note"] == "Grüße, ä ö ü ß €"
+
+
+def test_a_bad_link_is_an_error_not_a_crash(tmp_path):
+    out = run(tmp_path, """
+try { await T.fromLinkData("not-a-real-link"); out.ok = true; } catch (e) { out.error = true; }
+""")
+    assert out == {"error": True}
+
+
+def test_quiet_update_saves_without_redrawing(tmp_path):
+    out = run(tmp_path, """
+const mem = new Memory();
+let redraws = 0;
+const s = T.createStore(mem, { onChange: () => redraws++ });
+const a = s.add({ title: "Recruiter" });
+const before = redraws;
+s.update(a.id, { note: "typed, tab closed right after" }, { quiet: true });
+out.redraws = redraws - before;
+out.saved = JSON.parse(mem.getItem(T.KEY)).items[0].note;
+""")
+    assert out == {"redraws": 0, "saved": "typed, tab closed right after"}
+
+
+def test_days_since_backup(tmp_path):
+    out = run(tmp_path, """
+const mem = new Memory();
+out.none = T.daysSinceBackup(mem, "2026-10-15");
+T.markBackup(mem, "2026-10-01");
+out.days = T.daysSinceBackup(mem, "2026-10-15");
+out.blocked = T.daysSinceBackup(new Blocked(), "2026-10-15");
+""")
+    assert out == {"none": None, "days": 14, "blocked": None}

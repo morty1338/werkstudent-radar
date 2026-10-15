@@ -5,8 +5,10 @@
 // panel mark tracked postings that are no longer in today's data.
 
 import { esc, fmt } from "./charts.js?v=dev";
-import { t } from "./i18n.js?v=dev";
-import { KEY, STATUSES, counts, createStore, isOverdue, sorted, today } from "./tracker-store.js?v=dev";
+import { lang, t } from "./i18n.js?v=dev";
+import {
+  BACKUP_EVERY_DAYS, KEY, STATUSES, counts, createStore, daysSinceBackup, fromLinkData, isOverdue, markBackup, sorted, toLinkData, today,
+} from "./tracker-store.js?v=dev";
 
 function storage() {
   try {
@@ -30,6 +32,7 @@ export function initTracker() {
     filter: document.getElementById("trk-filter"),
     list: document.getElementById("trk-list"),
     exportBtn: document.getElementById("trk-export"),
+    linkBtn: document.getElementById("trk-link"),
     importInput: document.getElementById("trk-import"),
     msg: document.getElementById("trk-msg"),
   };
@@ -138,6 +141,11 @@ export function initTracker() {
     if (act === "follow") store.update(id, { followUp: e.target.value });
     if (act === "note") store.update(id, { note: e.target.value });
   });
+  // A note is saved while typing (closing the tab right after keeps it), without a redraw.
+  el.list.addEventListener("input", (e) => {
+    if (e.target.dataset.act !== "note") return;
+    store.update(e.target.closest("[data-id]").dataset.id, { note: e.target.value }, { quiet: true });
+  });
   el.list.addEventListener("click", (e) => {
     const button = e.target.closest("[data-act='delete']");
     if (!button) return;
@@ -174,7 +182,53 @@ export function initTracker() {
     a.click();
     a.remove();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    markBackup(storage());
+    render();
   });
+
+  // Backup link: the list in the link itself (after #, never sent to the server). As a bookmark it
+  // survives a browser that clears site data (Safari after 7 days without a visit); opened on
+  // another device it imports the list.
+  el.linkBtn?.addEventListener("click", async () => {
+    let url;
+    try {
+      url = `${location.origin}${location.pathname}${lang === "de" ? "?lang=de" : ""}#trk=${await toLinkData(store.exportJson())}`;
+    } catch {
+      say(t("trk.link_failed"));
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      say(t("trk.link_copied"));
+    } catch {
+      window.prompt(t("trk.link_prompt"), url);           // no clipboard access: copy by hand
+    }
+    markBackup(storage());
+    render();
+  });
+  async function importFromLink() {
+    if (!location.hash.startsWith("#trk=")) return;
+    const data = location.hash.slice(5);
+    history.replaceState(null, "", location.pathname + location.search);   // the link isn't kept in the address
+    try {
+      const { added, updated } = store.importJson(await fromLinkData(data));
+      markBackup(storage());
+      open();
+      say(t("trk.imported", { added, updated }));
+    } catch (err) {
+      open();
+      say(t("trk.import_failed", { msg: err.message }));
+    }
+  }
+
+  // Ask the browser to keep the list even when disk space runs low (Chrome, Firefox, Safari 17+
+  // decide themselves; nothing is shown to the visitor).
+  let persistAsked = false;
+  function keepStorage() {
+    if (persistAsked || !store.all().length) return;
+    persistAsked = true;
+    navigator.storage?.persist?.().catch(() => {});
+  }
   el.importInput.addEventListener("change", async () => {
     const file = el.importInput.files[0];
     if (!file) return;
@@ -211,8 +265,12 @@ export function initTracker() {
     el.count.hidden = c.all === 0;
     el.open.classList.toggle("overdue", c.overdue > 0);
     el.open.setAttribute("aria-label", t("trk.button_aria", { n: c.all, overdue: c.overdue }));
-    el.local.textContent = store.persistent ? t("trk.local") : t("trk.memory");
-    el.local.classList.toggle("warn", !store.persistent);
+    // Browsers may clear site data (Safari after 7 days without a visit): ask for a backup now and then.
+    const since = daysSinceBackup(storage(), day);
+    const due = store.persistent && c.all > 0 && (since == null || since >= BACKUP_EVERY_DAYS);
+    el.local.textContent = !store.persistent ? t("trk.memory") : due ? t("trk.backup_due") : t("trk.local");
+    el.local.classList.toggle("warn", !store.persistent || due);
+    keepStorage();
     if (!el.panel.classList.contains("open")) return;
 
     const filters = [["all", t("trk.all"), c.all], ...STATUSES.map((s) => [s, label(s), c[s]])];
@@ -255,6 +313,7 @@ export function initTracker() {
   }
 
   render();
+  importFromLink();
   return {
     open,
     isTracked: (ref) => Boolean(store.findByRef(ref)),
