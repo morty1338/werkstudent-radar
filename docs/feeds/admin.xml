@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Minijob / Werkstudententätigkeit – Studienassistenz (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003865138-S</link>
+      <guid isPermaLink="false">10001-1003865138-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Pro Assistenz GmbH · Bonn · €14.00/h · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Studentische Aushilfe / Werkstudent als persönliche Assistenz für Menschen mit Behinderungen (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-49703-YF-S</link>

@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudentin / Werkstudent (w/m/d) Fachbereich Immobilienmanagement</title>
@@ -41,6 +41,14 @@
       <description>MöllerGroup GmbH · Bielefeld · Operations &amp; Logistics</description>
     </item>
     <item>
+      <title>Werkstudent*in Supply Chain Produkt Owner AmSupply</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1642993-1-S</link>
+      <guid isPermaLink="false">13151-1642993-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Mercedes-Benz Group AG · Böblingen · Operations &amp; Logistics</description>
+    </item>
+    <item>
       <title>Werkstudent*in Logistik Ladungsträgerplanung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1643208-1-S</link>
       <guid isPermaLink="false">13151-1643208-1-S</guid>
@@ -49,12 +57,36 @@
       <description>Mercedes-Benz Group AG · Rastatt · Operations &amp; Logistics</description>
     </item>
     <item>
+      <title>Werkstudent*n im Stab der Leitungen "Supply Chain Management" und "Parts Logistics Operations"</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1643771-1-S</link>
+      <guid isPermaLink="false">13151-1643771-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Mercedes-Benz Group AG · Germersheim · Operations &amp; Logistics</description>
+    </item>
+    <item>
       <title>Werkstudent / Studentische Aushilfe Service und Logistik (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14011-44508386-1014-S</link>
       <guid isPermaLink="false">14011-44508386-1014-S</guid>
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Bauhaus AG · Hamburg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent  Immobilienverwaltung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14373-k36443.4273-S</link>
+      <guid isPermaLink="false">14373-k36443.4273-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>KB Container GmbH · Langenlonsheim · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent Vertragsmanagement im Einkauf (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635608-7878-3824-S</link>
+      <guid isPermaLink="false">15939-BB-635608-7878-3824-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Rheinmetall AG · Kiel · €17.50/h · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent Lager (m/w/d)</title>
@@ -206,7 +238,7 @@
       <guid isPermaLink="false">an:werkstudent-in-sustainability-supply-chain-administration-wurzburg-434799</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
-      <description>Leadership Advantage GmbH / Leadership &amp; Sustainability Karin Ekberg GmbH · Würzburg · Operations &amp; Logistics</description>
+      <description>Leadership Advantage GmbH / Leadership &amp; Sustainability Karin Ekberg GmbH · Berlin · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Working Student – AI &amp; Operations</title>
@@ -247,6 +279,14 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Talentspring Academy · Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent: in im Einkauf / Materialbeschaffung (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/technica-engineering-gmbh/werkstudent-in-im-einkauf-materialbeschaffung-munchen-129850</link>
+      <guid isPermaLink="false">an:werkstudent-in-im-einkauf-materialbeschaffung-munchen-129850</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Technica Engineering GmbH · München · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent*in Operations</title>

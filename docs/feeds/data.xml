@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Working Student – Management Consulting &amp; Energy Analytics (m/w/d)</title>
@@ -15,6 +15,14 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Crescenti Pohl Advisory GmbH · Berlin · Data &amp; Analytics · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent Data Science (x|w|m)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003862618-S</link>
+      <guid isPermaLink="false">10001-1003862618-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Sartorius Corporate Administration GmbH · Göttingen · Data &amp; Analytics · no German needed</description>
     </item>
     <item>
       <title>accompio GmbH: Werkstudent (m/w/d) Data Analytics / Business Intelligence - Wuppertal</title>
@@ -63,6 +71,14 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>STAR Cooperation GmbH · Böblingen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Supply Chain und Künstliche Intelligenz</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1643226-1-S</link>
+      <guid isPermaLink="false">13151-1643226-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Mercedes-Benz Group AG · Böblingen · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudierende:r Data Annotation Hospital (m/w/d)</title>
@@ -223,6 +239,14 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>proLogistik Group · Dortmund · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Data Engineer Working Student (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/data-engineer-working-student-koln-482150</link>
+      <guid isPermaLink="false">an:data-engineer-working-student-koln-482150</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Trusteq Gmbh · Köln · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent:in Data Analytics (Controlling Focus) (m/w/d)</title>

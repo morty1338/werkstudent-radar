@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Projektmanagement Aviation</title>
@@ -17,12 +17,28 @@
       <description>FERCHAU GmbH GB Aviation München · Garching bei München · Product &amp; Project Mgmt</description>
     </item>
     <item>
+      <title>Werkstudent Anlaufmanagement Fahrzeugprojekte (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1643507-1-S</link>
+      <guid isPermaLink="false">12462-1643507-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>BMW AG · München · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
       <title>Werkstudent (w/m/d) Unterstützung der kaufmännischen Leitung des Projektmanagements</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1643613-1-S</link>
       <guid isPermaLink="false">12465-1643613-1-S</guid>
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Siemens AG · Braunschweig · €15.00/h · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Projektmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1644019-1-S</link>
+      <guid isPermaLink="false">12465-1644019-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Siemens AG · Erlangen · €17.27/h · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudent für eine Projektunterstützung in der Technologieentwicklung (m/w/d)</title>
@@ -199,6 +215,14 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Es Group · Berlin · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent - Product Management / Health (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/ottonova/werkstudent-product-management-health-munchen-309486</link>
+      <guid isPermaLink="false">an:werkstudent-product-management-health-munchen-309486</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Ottonova · München · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

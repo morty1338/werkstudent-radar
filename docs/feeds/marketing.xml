@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/marketing.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudierende Social Media (m/w/d)</title>
@@ -23,6 +23,14 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>CBR Service GmbH · Isernhagen · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent Performance Marketing (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003861519-S</link>
+      <guid isPermaLink="false">10001-1003861519-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Phorms Education SE · Berlin · €16.60/h · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>accompio GmbH: Werkstudent (m/w/d) Content Marketing</title>
@@ -49,12 +57,28 @@
       <description>Deutsche Bahn AG · Berlin · Marketing &amp; Communication</description>
     </item>
     <item>
+      <title>Werkstudent MINI Lifestyle Vertrieb und Kommunikation (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1643511-1-S</link>
+      <guid isPermaLink="false">12462-1643511-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>BMW AG · München · Marketing &amp; Communication</description>
+    </item>
+    <item>
       <title>WERKSTUDENT IM BEREICH MARKETING (M/W/D), BludauPartners Executive Consultants GmbH</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357091-S</link>
       <guid isPermaLink="false">12811-2357091-S</guid>
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>BludauPartners Executive Consultants GmbH · Frankfurt am Main · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudierende Social Media (m/w/d), Deutsches Hygiene-Museum Dresden</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357790-S</link>
+      <guid isPermaLink="false">12811-2357790-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Deutsches Hygiene-Museum · Dresden · €15.00/h · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Communications</title>
@@ -89,6 +113,30 @@
       <description>Weddybird · Hamburg · €16.00/h · Marketing &amp; Communication</description>
     </item>
     <item>
+      <title>SEO/SEA Werkstudent (m/w/d) mit Fokus auf Sichtbarkeit in KI-Suchen (Remote oder Würzburg)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/mainwebsolutions/seo-sea-werkstudent-mit-fokus-auf-sichtbarkeit-in-ki-suchen-remote-oder-wurzburg-166962</link>
+      <guid isPermaLink="false">an:seo-sea-werkstudent-mit-fokus-auf-sichtbarkeit-in-ki-suchen-remote-oder-wurzburg-166962</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Mainwebsolutions · Würzburg · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Social Media &amp; Content Creation (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/stadtborse-gmbh/social-media-content-creation-bonn-75357</link>
+      <guid isPermaLink="false">an:social-media-content-creation-bonn-75357</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>stadtbörse GmbH · Bonn · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Social Media Manager*in - Minijob/Werkstudent (10-20h)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/initiative-fur-wirtschaftliche-jugendbildung-iwjb/social-media-managerin-minijob-werkstudent-10-20h-frankfurt-am-main-141580</link>
+      <guid isPermaLink="false">an:social-media-managerin-minijob-werkstudent-10-20h-frankfurt-am-main-141580</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Initiative für wirtschaftliche Jugendbildung (IWJB) · Frankfurt am Main · Marketing &amp; Communication</description>
+    </item>
+    <item>
       <title>Werkstudent E-Commerce &amp; Shopmanagement (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/meromix-merocare-gmbh/werkstudent-e-commerce-shopmanagement-aachen-426507</link>
       <guid isPermaLink="false">an:werkstudent-e-commerce-shopmanagement-aachen-426507</guid>
@@ -111,6 +159,14 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>44k Digital GmbH · Königsdorf · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Kundensupport &amp; Social Media (M/W/D)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/bodyfast-gmbh/werkstudentin-kundensupport-social-media-grafelfing-212494</link>
+      <guid isPermaLink="false">an:werkstudentin-kundensupport-social-media-grafelfing-212494</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>BodyFast GmbH · Gräfelfing · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Teamassistenz mit Schwerpunkt Marketing und/oder Wirtschaft</title>
@@ -526,7 +582,7 @@
       <guid isPermaLink="false">an:werkstudent-praktikant-marketing-sales-hotel-tech-startup-munich-213982</guid>
       <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
       <category>Marketing &amp; Communication</category>
-      <description>SUITEe Spectrum GmbH · München · Marketing &amp; Communication</description>
+      <description>SUITEe Spectrum GmbH · Berlin · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Werkstudent:in Social Media und Newsletter (m/w/d), remote</title>
@@ -534,7 +590,7 @@
       <guid isPermaLink="false">an:werkstudentin-social-media-und-newsletter-remote-munchen-32254</guid>
       <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
       <category>Marketing &amp; Communication</category>
-      <description>Steuerberaterin Nadine Brandstätter · München · €16.50/h · Marketing &amp; Communication</description>
+      <description>Steuerberaterin Nadine Brandstätter · Berlin · €16.50/h · Marketing &amp; Communication</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent*in Betriebliche Gesundheit und Prävention, Profitcenter BGP</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358181-S</link>
+      <guid isPermaLink="false">12811-2358181-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Fortbildungsakademie der Wirtschaft (faw) gemeinnützige Gesellschaft mbH · Hamburg · Health &amp; Care</description>
+    </item>
     <item>
       <title>Werkstudent/Praxissemester/Ferienjob - Entwicklung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-8aad7ac4-785f-4664--S</link>

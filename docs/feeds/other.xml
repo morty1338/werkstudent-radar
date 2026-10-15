@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Call &amp; Service Center Agent / Telefonagent/in (m/w/d) für Arbeitssuchende / Rentner / Werkstudent</title>
@@ -33,6 +33,22 @@
       <description>HMCS Gesellschaft für Forderungsmanagement mbH · Hannover · €16.00/h · Other</description>
     </item>
     <item>
+      <title>Werkstudent in der Organisationsentwicklung (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003861964-S</link>
+      <guid isPermaLink="false">10001-1003861964-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Wöhler Technik GmbH · Bad Wünnenberg · €13.87/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Standortmobilität (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1643508-1-S</link>
+      <guid isPermaLink="false">12462-1643508-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>BMW AG · Dingolfing · Other</description>
+    </item>
+    <item>
       <title>Fundraiser / Promoter (w/m/d) Vollzeit / Teilzeit / Aushilfe / Werkstudent / Nebejobs</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12688-28908110-RJA-S</link>
       <guid isPermaLink="false">12688-28908110-RJA-S</guid>
@@ -47,6 +63,30 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>Caritasverband Paderborn e.V. · Paderborn · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Modelle und Methoden, PV Verbund</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357989-S</link>
+      <guid isPermaLink="false">12811-2357989-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Prüfungsverband deutscher Banken e. V. · Köln · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Business Continuity Management (m/w/divers)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1643798-1-S</link>
+      <guid isPermaLink="false">13348-1643798-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Lufthansa Technik AG · Hamburg · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Organisational Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635607-7878-2734-S</link>
+      <guid isPermaLink="false">15939-BB-635607-7878-2734-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Rheinmetall AG · Düsseldorf · Other</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) für das thyssenkrupp Corporate Archives / Central File Management</title>
@@ -71,6 +111,22 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>Tretmann · Aachen · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Prototyping - smart labeling (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/isento-gmbh/werkstudent-prototyping-smart-labeling-nuremberg-293614</link>
+      <guid isPermaLink="false">an:werkstudent-prototyping-smart-labeling-nuremberg-293614</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>isento GmbH · Nürnberg · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent:in People (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/softengine-holding-gmbh/werkstudentin-people-berlin-498358</link>
+      <guid isPermaLink="false">an:werkstudentin-people-berlin-498358</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Softengine Holding GmbH · Berlin · Other</description>
     </item>
     <item>
       <title>Working Student - LLM Quantization &amp; Inference Performance</title>
@@ -225,12 +281,28 @@
       <description>Cyrus Digital GmbH · München · Other</description>
     </item>
     <item>
+      <title>Werkstudent Partnermanagement AWS (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/skaylink/werkstudent-partnermanagement-aws-stuttgart-baden-wurttemberg-338129</link>
+      <guid isPermaLink="false">an:werkstudent-partnermanagement-aws-stuttgart-baden-wurttemberg-338129</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Skaylink · Stuttgart · Other</description>
+    </item>
+    <item>
       <title>Werkstudent Sustainability/Nachhaltigkeit/ESG (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/lindalgroup/werkstudent-sustainability-nachhaltigkeit-esg-germany-hamburg-287685</link>
       <guid isPermaLink="false">an:werkstudent-sustainability-nachhaltigkeit-esg-germany-hamburg-287685</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>Lindalgroup · Hamburg · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Unternehmensentwicklung</title>
+      <link>https://www.arbeitnow.com/jobs/companies/cyrus-digital-gmbh/werkstudent-unternehmensentwicklung-munich-116562</link>
+      <guid isPermaLink="false">an:werkstudent-unternehmensentwicklung-munich-116562</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Cyrus Digital GmbH · München · Other</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Verkehrsplanung</title>

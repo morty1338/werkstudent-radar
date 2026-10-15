@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudenten (m/w/d) im kaufmännischen Controlling</title>
@@ -15,6 +15,38 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>GEBO GESUNDHEITSEINRICHTUNGEN BEZIRKS OBERFRANKEN · Bayreuth · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Steuern</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1643868-1-S</link>
+      <guid isPermaLink="false">12456-1643868-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Deutsche Bahn AG · Frankfurt am Main · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Finanzen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12942-1643636-1-S</link>
+      <guid isPermaLink="false">12942-1643636-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Dirk Rossmann GmbH · Burgwedel · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Wettbewerbs- &amp; Fremdfahrzeuganalyse im Finance (mit KI-Bezug)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1624188-2-S</link>
+      <guid isPermaLink="false">13151-1624188-2-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Mercedes-Benz Group AG · Böblingen · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Buchhaltung / Accounting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21172-r22827-S</link>
+      <guid isPermaLink="false">21172-r22827-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>DocCheck AG · Köln · €15.00/h · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent / Pflichtpraktikum Finance &amp; Controlling (m/w/d)</title>
@@ -191,6 +223,22 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Kelvion Holding GmbH · Herne · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Controlling (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/aer-group/werkstudent-controlling-berlin-boppstr-299123</link>
+      <guid isPermaLink="false">an:werkstudent-controlling-berlin-boppstr-299123</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Aer Group · Berlin · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Group Accounting (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/aer-group/werkstudent-group-accounting-berlin-boppstr-241357</link>
+      <guid isPermaLink="false">an:werkstudent-group-accounting-berlin-boppstr-241357</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Aer Group · Berlin · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent Projektmanagement – Finance, Einkauf &amp; Vertrieb (m/w/d)</title>

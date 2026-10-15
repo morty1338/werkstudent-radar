@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 09:31:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Baurecht &amp; Versicherungen</title>
@@ -25,6 +25,14 @@
       <description>RICHTER Chemie-Technik GmbH · Kempen · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent (m/w/d) Qualitätskontrolle GMP-Dokumentation</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208307822-S</link>
+      <guid isPermaLink="false">10000-1208307822-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>MEDICE Arzneimittel Pütter GmbH &amp; Co. KG · Iserlohn · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) Bauingenieur / Tragwerksplanung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003857281-S</link>
       <guid isPermaLink="false">10001-1003857281-S</guid>
@@ -39,6 +47,30 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Peter Gross Infrastruktur GmbH &amp; Co. KG NL. Mannheim · Mannheim · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) QEHS</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003862786-S</link>
+      <guid isPermaLink="false">10001-1003862786-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>LMT Tool Systems GmbH &amp; Co. KG · Schwarzenbek · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Working Student (f/m/d) - Technical Services Manager</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1641894-1-S</link>
+      <guid isPermaLink="false">11070-1641894-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>SAP · St. Leon-Rot · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent für den Bereich Bauingenieurwesen (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1643805-1-S</link>
+      <guid isPermaLink="false">11070-1643805-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Salzgitter Flachstahl GmbH · Salzgitter · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Technischer Support 1st Level</title>
@@ -57,6 +89,14 @@
       <description>Drees &amp; Sommer SE · Frankfurt am Main · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent Technische Dokumentation (m/w/d) Maschinenbau</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12362-TR305361_626473LS-S</link>
+      <guid isPermaLink="false">12362-TR305361_626473LS-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Brunel GmbH NL Bielefeld · Bielefeld · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent Hochvoltkomponenten Entwicklung (w/m/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1643480-1-S</link>
       <guid isPermaLink="false">12462-1643480-1-S</guid>
@@ -65,12 +105,100 @@
       <description>BMW AG · München · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent Einkauf Batterieelektronik (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1643510-1-S</link>
+      <guid isPermaLink="false">12462-1643510-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>BMW AG · München · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Industrialisierung von Mess- und Prüfsystemen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1567841-4-S</link>
+      <guid isPermaLink="false">12465-1567841-4-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Siemens AG · Erlangen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Mechanical Engineering</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1644012-1-S</link>
+      <guid isPermaLink="false">12465-1644012-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Siemens AG · Lauf an der Pegnitz · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) im Bereich der digitalen Signalübertragung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1644015-1-S</link>
+      <guid isPermaLink="false">12465-1644015-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Siemens AG · Erlangen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Studentische Hilfskraft / Werkstudent für die Qualitätskontrolle (m/w/d), GTH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357789-S</link>
+      <guid isPermaLink="false">12811-2357789-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>ProBioGen AG · Berlin · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Aushilfskraft / Werkstudent , Fachgebiet Geotechnik (m/w/d), Ottobrunn</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357960-S</link>
+      <guid isPermaLink="false">12811-2357960-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Dr. Spang GmbH · Ottobrunn · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Bauleitung Umweltsanierung, Herrenberg</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357990-S</link>
+      <guid isPermaLink="false">12811-2357990-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Geiger Umwelt GmbH &amp; Co. KG · Herrenberg im Gäu · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Planung Karosserierohbau</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1643563-1-S</link>
+      <guid isPermaLink="false">13151-1643563-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Praktikanten (m/w/d) und Werkstudenten (m/w/d) in der Bauleitung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-2f875cac_JB5272273-S</link>
       <guid isPermaLink="false">13635-2f875cac_JB5272273-S</guid>
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>HEBERGER GmbH · Schifferstadt · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudenten (m/w/d) Architektur</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-2fa9ff17_JB5273298-S</link>
+      <guid isPermaLink="false">13635-2fa9ff17_JB5273298-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>ZETCON Ingenieure GmbH · Bochum · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Technik/Lean-Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-ad9151c5_JB5273141-S</link>
+      <guid isPermaLink="false">13635-ad9151c5_JB5273141-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Wollenhaupt Tee GmbH · Reinbek · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Freianlagenplanung / Landschaftsarchitektur</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-b33dc176_JB5273478-S</link>
+      <guid isPermaLink="false">13635-b33dc176_JB5273478-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>ZETCON Ingenieure GmbH · München · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Agrar Robotik</title>
