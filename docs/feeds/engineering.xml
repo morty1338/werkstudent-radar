@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Qualitätsmanagement Frische (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1460901-28033-1-S</link>
+      <guid isPermaLink="false">12608-1460901-28033-1-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>REWE Group · Köln · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Production (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-973826-008-S</link>
+      <guid isPermaLink="false">16604-973826-008-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>TKMS GmbH · Böhnhusen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudentin oder Werkstudent Konstruktiver Ingenieurbau (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17751-44510128-1015-S</link>
+      <guid isPermaLink="false">17751-44510128-1015-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Die Autobahn GmbH des Bundes Niederlassung Nordwest (Hannover) · Bad Gandersheim · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Bauingenieurwesen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19192-260615-88884032-S</link>
+      <guid isPermaLink="false">19192-260615-88884032-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Ingenieurbüro Funk · Riedlingen · Engineering &amp; Production</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Baurecht &amp; Versicherungen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208289546-S</link>
@@ -121,14 +153,6 @@
       <description>Siemens AG · Erlangen · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent (w/m/d) Mechanical Engineering</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1644012-1-S</link>
-      <guid isPermaLink="false">12465-1644012-1-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Siemens AG · Lauf an der Pegnitz · Engineering &amp; Production</description>
-    </item>
-    <item>
       <title>Werkstudent (w/m/d) im Bereich der digitalen Signalübertragung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1644015-1-S</link>
       <guid isPermaLink="false">12465-1644015-1-S</guid>
@@ -159,14 +183,6 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Geiger Umwelt GmbH &amp; Co. KG · Herrenberg im Gäu · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Planung Karosserierohbau</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1643563-1-S</link>
-      <guid isPermaLink="false">13151-1643563-1-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Praktikanten (m/w/d) und Werkstudenten (m/w/d) in der Bauleitung</title>
@@ -345,6 +361,14 @@
       <description>LichtBlick Energy as a Service GmbH · Köln · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Studentische Hilfskraft/Werkstudent  (m/w/d) Straßenbau, Tiefbau und Kanalbau - Bauingenieurwesen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003761453-S</link>
+      <guid isPermaLink="false">10001-1003761453-S</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Wezendonck Tiefbau GmbH · Hünxe · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent:in Bauleitung (m/w/d) in Rheinland-Pfalz</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003847017-S</link>
       <guid isPermaLink="false">10001-1003847017-S</guid>
@@ -521,14 +545,6 @@
       <description>Sportec Solutions AG · Gelsenkirchen · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) Architektur / Bauingenieurwesen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-f80029f2_JB5270144-S</link>
-      <guid isPermaLink="false">13635-f80029f2_JB5270144-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>ZETCON Ingenieure GmbH · Bendorf · Engineering &amp; Production</description>
-    </item>
-    <item>
       <title>Werkstudent im Hochbau (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14184-k21982.2998-S</link>
       <guid isPermaLink="false">14184-k21982.2998-S</guid>
@@ -559,14 +575,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>AMAND Bau NRW  GmbH &amp; Co. KG · Ratingen · €18.50/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Bauingenieurwesen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19192-260615-75850676-S</link>
-      <guid isPermaLink="false">19192-260615-75850676-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Ingenieurbüro Funk · Riedlingen · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent*in Statische Prüfstelle Hafen</title>

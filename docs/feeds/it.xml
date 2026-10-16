@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in Safety &amp; Sustainability / HSE (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003866725-S</link>
+      <guid isPermaLink="false">10001-1003866725-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Maxion Wheels Werke GmbH · Königswinter · €18.32/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) oder Minijobber (m/w/d) IT-Support / First-Level-Support</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003867716-S</link>
+      <guid isPermaLink="false">10001-1003867716-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Medizin Mobil Straßburger Platz GmbH &amp; Co.KG · Langenhagen · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent C# Softwareentwicklung (m/w/d), Dortmund</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358267-S</link>
+      <guid isPermaLink="false">12811-2358267-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Materna Information &amp; Communications SE · Dortmund · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Softwaretesting und Test-Automatisierung (all genders)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/starface-gmbh/werkstudent-softwaretesting-und-test-automatisierung-all-genders-karlsruhe-167007</link>
+      <guid isPermaLink="false">an:werkstudent-softwaretesting-und-test-automatisierung-all-genders-karlsruhe-167007</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Starface GmbH · Karlsruhe · IT &amp; Software</description>
+    </item>
     <item>
       <title>Werkstudent / Minijobber (m/w/d) IT &amp; Künstliche Intelligenz</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003856471-S</link>
@@ -79,14 +111,6 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>BMW AG · München · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) für Embedded Software Entwicklung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1623966-2-S</link>
-      <guid isPermaLink="false">12465-1623966-2-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Siemens AG · Erlangen · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) Digitalisierung im Controlling</title>
@@ -231,14 +255,6 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Netzfrequenz GmbH · München · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent IT (JTL) (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/knowmates-gmbh/werkstudent-it-jtl-leipzig-199027</link>
-      <guid isPermaLink="false">an:werkstudent-it-jtl-leipzig-199027</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>knowmates GmbH · Leipzig · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) - IT-Security</title>
@@ -521,14 +537,6 @@
       <description>Smartvillage · München · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent:in IT-Support</title>
-      <link>https://www.arbeitnow.com/jobs/companies/momox/werkstudentin-it-support-berlin-345647</link>
-      <guid isPermaLink="false">an:werkstudentin-it-support-berlin-345647</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>momox · Berlin · €16.00/h · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Working Student Business Applications (m/f/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/docuware/working-student-business-applications-germering-germany-28850</link>
       <guid isPermaLink="false">an:working-student-business-applications-germering-germany-28850</guid>
@@ -577,14 +585,6 @@
       <description>Rheinmetall AG · Kassel · €18.14/h · IT &amp; Software</description>
     </item>
     <item>
-      <title>IT Administrator – Working student (m/f/d) - Frankfurt am Main (hybrid)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/lissi-gmbh/it-administrator-working-student-frankfurt-am-main-hybrid-364257</link>
-      <guid isPermaLink="false">an:it-administrator-working-student-frankfurt-am-main-hybrid-364257</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Lissi GmbH · Frankfurt am Main · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
       <title>Praktikant/Werkstudent für Buy and Build IT-Plattform [ab sofort]</title>
       <link>https://www.arbeitnow.com/jobs/companies/andcompany/praktikant-werkstudent-fur-buy-and-build-it-plattform-ab-sofort-frankfurt-am-main-155330</link>
       <guid isPermaLink="false">an:praktikant-werkstudent-fur-buy-and-build-it-plattform-ab-sofort-frankfurt-am-main-155330</guid>
@@ -599,14 +599,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>TYTAN Technologies GmbH · München · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent:in AI &amp; Business Automation (m/w/ d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/talentspring-academy/werkstudentin-ai-business-automation-m-w-d-berlin-495259</link>
-      <guid isPermaLink="false">an:werkstudentin-ai-business-automation-m-w-d-berlin-495259</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Talentspring Academy · Berlin · IT &amp; Software</description>
     </item>
     <item>
       <title>Working Student – Flight Software Engineering (PX4 / Autopilot) (all genders)</title>

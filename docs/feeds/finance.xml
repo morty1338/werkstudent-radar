@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Finanzen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4967368758-S</link>
+      <guid isPermaLink="false">12288-4967368758-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Dirk Rossmann GmbH · Burgwedel · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Group Financial Reporting - Internal Controls (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1460872-28043-1-S</link>
+      <guid isPermaLink="false">12608-1460872-28043-1-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>REWE Group · Köln · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Working Student Corporate Tax (m/f/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18069-44510997-1015-S</link>
+      <guid isPermaLink="false">18069-44510997-1015-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>exyte Management GmbH · Stuttgart · Finance &amp; Controlling · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent (d/w/m) | Politik und Gremien</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20290-2358031-S</link>
+      <guid isPermaLink="false">20290-2358031-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>DEG-Deutsche Investitions- und Entwicklungsgesellschaft mbH · Köln · Finance &amp; Controlling</description>
+    </item>
     <item>
       <title>Werkstudenten (m/w/d) im kaufmännischen Controlling</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208289766-S</link>
@@ -55,14 +87,6 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>THE VERSE Ventures GmbH · Berlin · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Buchhaltung / Accounting (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/doccheck-ag/werkstudentin-buchhaltung-accounting-koln-392250</link>
-      <guid isPermaLink="false">an:werkstudentin-buchhaltung-accounting-koln-392250</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>DocCheck AG · Köln · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent Finance (m/f/d)</title>
@@ -223,30 +247,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Kelvion Holding GmbH · Herne · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Controlling (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/aer-group/werkstudent-controlling-berlin-boppstr-299123</link>
-      <guid isPermaLink="false">an:werkstudent-controlling-berlin-boppstr-299123</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Aer Group · Berlin · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Group Accounting (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/aer-group/werkstudent-group-accounting-berlin-boppstr-241357</link>
-      <guid isPermaLink="false">an:werkstudent-group-accounting-berlin-boppstr-241357</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Aer Group · Berlin · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Projektmanagement – Finance, Einkauf &amp; Vertrieb (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/es-group/werkstudent-projektmanagement-finance-einkauf-vertrieb-berlin-448400</link>
-      <guid isPermaLink="false">an:werkstudent-projektmanagement-finance-einkauf-vertrieb-berlin-448400</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Es Group · Berlin · €18.50/h · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Working Student Finance (all genders)</title>

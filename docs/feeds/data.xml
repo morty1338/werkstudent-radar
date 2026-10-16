@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Master Data Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-853f57e2-708f-46f4--S</link>
+      <guid isPermaLink="false">12951-853f57e2-708f-46f4--S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Lekkerland SE · Frechen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Business Analytics &amp; Automation (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13649-13387853AB-S</link>
+      <guid isPermaLink="false">13649-13387853AB-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>dm-drogerie markt GmbH + Co. KG · Karlsruhe · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Media Marketing &amp; Analytics (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15224-44511118-1015-S</link>
+      <guid isPermaLink="false">15224-44511118-1015-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>ProSiebenSat.1 Media SE · München · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Working Student – Management Consulting &amp; Energy Analytics (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003854921-S</link>
@@ -209,14 +233,6 @@
       <description>Kranus Health Gmbh · Berlin · Data &amp; Analytics · no German needed</description>
     </item>
     <item>
-      <title>Working Student / Intern – Control Team (Systems &amp; Data Infrastructure) (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/phlair/working-student-intern-control-team-systems-data-infrastructure-munchen-297607</link>
-      <guid isPermaLink="false">an:working-student-intern-control-team-systems-data-infrastructure-munchen-297607</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Phlair · München · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent/in (m/w/d) Künstliche Intelligenz trifft Ingenieurwesen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003840311-S</link>
       <guid isPermaLink="false">10001-1003840311-S</guid>
@@ -233,44 +249,12 @@
       <description>EUROKEY Software GmbH · Saarbrücken · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Data Analytics &amp; Digital Search Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/prologistik-group/data-analytics-digital-search-werkstudent-dortmund-87728</link>
-      <guid isPermaLink="false">an:data-analytics-digital-search-werkstudent-dortmund-87728</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>proLogistik Group · Dortmund · Data &amp; Analytics</description>
-    </item>
-    <item>
       <title>Data Engineer Working Student (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/data-engineer-working-student-koln-482150</link>
       <guid isPermaLink="false">an:data-engineer-working-student-koln-482150</guid>
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Trusteq Gmbh · Köln · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Data Analytics (Controlling Focus) (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/1komma5grad/remote-werkstudentin-data-analytics-controlling-focus-hamburg-271791</link>
-      <guid isPermaLink="false">an:remote-werkstudentin-data-analytics-controlling-focus-hamburg-271791</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>1Komma5Grad · Hamburg · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) MarTech, Data &amp; Analytics</title>
-      <link>https://www.arbeitnow.com/jobs/companies/es-group/werkstudent-martech-data-analytics-berlin-197618</link>
-      <guid isPermaLink="false">an:werkstudent-martech-data-analytics-berlin-197618</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Es Group · Berlin · €18.50/h · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Data Analytics (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/zdf-digital-medienproduktion-gmbh/werkstudentin-data-analytics-mainz-oder-berlin-42026</link>
-      <guid isPermaLink="false">an:werkstudentin-data-analytics-mainz-oder-berlin-42026</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>ZDF Digital Medienproduktion GmbH · Mainz · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent:in Landwirtschaft und betriebliche Datenprüfung (all genders) (Berlin I DE Remote möglich)</title>

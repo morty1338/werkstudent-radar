@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) - strategischer Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003868044-S</link>
+      <guid isPermaLink="false">10001-1003868044-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>BMZ Battery Solutions Germany GmbH · Karlstein am Main · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) – Founder’s Associate | Strategy, Transformation &amp; AI</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-493e369f_JB5271598-S</link>

@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 20:04:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in (m/w/d) Media Graphics</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19539-0068060652-S</link>
+      <guid isPermaLink="false">19539-0068060652-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Messe Berlin GmbH · Berlin · Design &amp; UX</description>
+    </item>
     <item>
       <title>Werkstudent Marketing - Design (M/W/D)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003856469-S</link>
@@ -119,30 +127,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>Quadriga Media Berlin GmbH · Berlin · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Technische Aufnahme für Photovoltaik &amp; Energiesysteme (m/w/d) - 1KOMMA5° Berlin</title>
-      <link>https://www.arbeitnow.com/jobs/companies/1komma5grad/werkstudentin-technische-aufnahme-fur-photovoltaik-energiesysteme-1komma5-berlin-381205</link>
-      <guid isPermaLink="false">an:werkstudentin-technische-aufnahme-fur-photovoltaik-energiesysteme-1komma5-berlin-381205</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>1Komma5Grad · Berlin · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Working Student Designer (Design System) – Heartbeat AI (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/1komma5grad/working-student-designer-design-system-heartbeat-ai-berlin-155384</link>
-      <guid isPermaLink="false">an:working-student-designer-design-system-heartbeat-ai-berlin-155384</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>1Komma5Grad · Berlin · Design &amp; UX · no German needed</description>
-    </item>
-    <item>
-      <title>Working Student – Visual Design / Communication Design(gn), starting at 12h per week, hybrid (Munich)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/42watt/working-student-visual-design-communication-designgn-starting-at-12h-per-week-hybrid-munich-munchen-58128</link>
-      <guid isPermaLink="false">an:working-student-visual-design-communication-designgn-starting-at-12h-per-week-hybrid-munich-munchen-58128</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>42Watt · München · Design &amp; UX · no German needed</description>
     </item>
   </channel>
 </rss>
