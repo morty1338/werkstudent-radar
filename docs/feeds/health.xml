@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Pflegefachkraft mit Bereitschafts- und Nachtdiensten (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003870377-S</link>
+      <guid isPermaLink="false">10001-1003870377-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Christoph-Dornier-Klinik GmbH · Münster · Health &amp; Care</description>
+    </item>
     <item>
       <title>Werkstudent*in Betriebliche Gesundheit und Prävention, Profitcenter BGP</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358181-S</link>

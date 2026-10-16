@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (w/m/d) Empfang &amp; Office Management</title>
@@ -15,6 +15,30 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Office &amp; Admin</category>
       <description>Drees &amp; Sommer SE · Berlin · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudenten im Office Management (m/w/d) - Mannheim, COMCAVE.COLLEGE® MANNHEIM</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358649-S</link>
+      <guid isPermaLink="false">12811-2358649-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>COMCAVE.GROUP® · Mannheim · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudenten im Office Management (m/w/d), COMCAVE.COLLEGE® PADERBORN</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358650-S</link>
+      <guid isPermaLink="false">12811-2358650-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>COMCAVE.GROUP® · Paderborn · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Versorgungsgenehmigungen, München</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358859-S</link>
+      <guid isPermaLink="false">12811-2358859-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Kassenärztliche Vereinigung Bayerns · München · Office &amp; Admin</description>
     </item>
     <item>
       <title>Minijob / Werkstudententätigkeit – Studienassistenz (m/w/d)</title>
@@ -65,7 +89,7 @@
       <description>LexVance PartG mbB · Berlin · Office &amp; Admin</description>
     </item>
     <item>
-      <title>Werkstudent Empfang und Office Management (m/w/d)</title>
+      <title>Werkstudent Empfang und Office Management (m/w/d) in TZ 20Std. pro Woche</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003845585-S</link>
       <guid isPermaLink="false">10001-1003845585-S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>

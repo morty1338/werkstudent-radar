@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudenten Einkauf (m/w/d)</title>
@@ -31,6 +31,22 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>E.ON SE · Essen · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (d/m/w) im Bereich Solar Array Operations</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-977240506-S</link>
+      <guid isPermaLink="false">16947-977240506-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Airbus Defence and Space GmbH · München · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Teaching Assistant Operations &amp; AI Automation - Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/digitale-leute-school/teaching-assistant-operations-ai-automation-werkstudent-cologne-291213</link>
+      <guid isPermaLink="false">an:teaching-assistant-operations-ai-automation-werkstudent-cologne-291213</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Digitale Leute School · Köln · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent Healthcare Logistics (m/w/d)</title>
@@ -303,6 +319,14 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Technica Engineering GmbH · München · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Operations</title>
+      <link>https://www.arbeitnow.com/jobs/companies/aura-health-technologies-gmbh/werkstudentin-operations-berlin-356012</link>
+      <guid isPermaLink="false">an:werkstudentin-operations-berlin-356012</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>AURA Health Technologies GmbH · Berlin · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Supply Chain Planning Working Student (all genders)</title>

@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Vertrieb (m/w/d)</title>
@@ -15,6 +15,14 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>FERCHAU GmbH Niederlassung Lübeck · Lübeck · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Vertriebsunterstützung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4968284057-S</link>
+      <guid isPermaLink="false">12288-4968284057-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>S-Management Services GmbH · Stuttgart · Sales &amp; Business Development</description>
     </item>
     <item>
       <title>Werkstudent Kundenbetreuung Nord &amp; Süd (m/w/d) befristet bis zu 20 Std./Woche, Hauptverwaltung</title>
@@ -31,6 +39,14 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>BS Kucharski GmbH · Bremen · €16.00/h · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent Kundenberatung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-7aa431c0_JB5273697-S</link>
+      <guid isPermaLink="false">13635-7aa431c0_JB5273697-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>VP Verbund Pflegehilfe GmbH · Mainz · Sales &amp; Business Development</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Vertrieb - Telefonakquise</title>

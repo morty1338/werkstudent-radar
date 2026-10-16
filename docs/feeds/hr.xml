@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) in der Personalabteilung gesucht!</title>
@@ -17,12 +17,44 @@
       <description>OPmobility Exterior Germany GmbH · Pappenheim · HR &amp; Recruiting</description>
     </item>
     <item>
+      <title>Werkstudent HR m/w/d TZ / befristet für 12 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208322278-S</link>
+      <guid isPermaLink="false">10000-1208322278-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Spraying Systems Manufacturing Europe GmbH · Lorch · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Personalverwaltung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003871038-S</link>
+      <guid isPermaLink="false">10001-1003871038-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Volkssolidarität Berlin e.V. · Berlin · €16.30/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Global Mobility / Internationale Mitarbeitereinsätze</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1644005-1-S</link>
+      <guid isPermaLink="false">12465-1644005-1-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Siemens AG · Erlangen · HR &amp; Recruiting</description>
+    </item>
+    <item>
       <title>Werkstudent HR-Management (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1460857-13024-1-S</link>
       <guid isPermaLink="false">12608-1460857-13024-1-S</guid>
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>REWE Markt GmbH ZwNL Mitte · Rosbach vor der Höhe · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Studentisches Pflichtpraktikum / Werkstudent:innentätigkeit in der Personalabteilung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12790-j127S9884-24496-S</link>
+      <guid isPermaLink="false">12790-j127S9884-24496-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>LWL-PsychiatrieVerbund · Paderborn · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Talent Acquisition Werkstudent (m/f/d)</title>
@@ -39,6 +71,14 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>sonymusicentertainment · Berlin · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Working Student Talent Acquisition</title>
+      <link>https://www.arbeitnow.nl/jobs/companies/eye-security/working-student-talent-acquisition-the-hague-29126</link>
+      <guid isPermaLink="false">an:working-student-talent-acquisition-the-hague-29126</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Eye Security · The Hague · HR &amp; Recruiting · no German needed</description>
     </item>
     <item>
       <title>Werkstudent HRM (m/w/d)</title>
@@ -87,6 +127,14 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>FERCHAU GmbH Niederlassung Darmstadt · Darmstadt · €15.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent:in HR-Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1643888-1-S</link>
+      <guid isPermaLink="false">12456-1643888-1-S</guid>
+      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Deutsche Bahn AG · Frankfurt am Main · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Human Resources, Haldensleben</title>
@@ -439,6 +487,14 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Trusteq Gmbh · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>RoX Student Talent Pool: Werkstudent/in oder Praktikant/in (m/w/d) für Digital Health Projekt (Remote/Berlin)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/rox-health/rox-student-talent-pool-werkstudent-in-oder-praktikant-in-fur-digital-health-projekt-remote-berlin-231630</link>
+      <guid isPermaLink="false">an:rox-student-talent-pool-werkstudent-in-oder-praktikant-in-fur-digital-health-projekt-remote-berlin-231630</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>RoX Health · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>People Operations Working Student</title>

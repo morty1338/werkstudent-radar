@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Projektentwicklung und Grundstücksakquise (m/w/d)</title>
@@ -17,12 +17,36 @@
       <description>PGH Planungsgesellschaft Holzbau mbH · Hamburg · Product &amp; Project Mgmt</description>
     </item>
     <item>
+      <title>Working Student Project Management (x|w|m)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003869587-S</link>
+      <guid isPermaLink="false">10001-1003869587-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Sartorius Corporate Administration GmbH · Göttingen · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Vertragsmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003872041-S</link>
+      <guid isPermaLink="false">10001-1003872041-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Wegmark51 GmbH · Würzburg · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
       <title>Werkstudent Training Management (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0456381-S</link>
       <guid isPermaLink="false">12336-a26f539j0456381-S</guid>
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>BWI GmbH · Frankfurt am Main · €16.00/h · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent:in bzw. Studentische Hilfskraft (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-c116833a_JB5273585-S</link>
+      <guid isPermaLink="false">13635-c116833a_JB5273585-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Weber-Ingenieure GmbH · Hannover · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudent Produktmanagement (m/w/d)</title>

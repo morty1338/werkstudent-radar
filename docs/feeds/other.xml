@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:26:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) zur Unterstützung der Geschäftsführung</title>
@@ -17,6 +17,14 @@
       <description>Wachschutz Security-Service GfVM GmbH · Berlin · Other</description>
     </item>
     <item>
+      <title>Customer Relationships Agent DE/EN/NL (Vollzeit/Teilzeit/Werkstudierende)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003869012-S</link>
+      <guid isPermaLink="false">10001-1003869012-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>PaulCamper GmbH · Berlin · Other</description>
+    </item>
+    <item>
       <title>Werkstudent:in für den Bereich Vertragsmanagement Industrie (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4967322177-S</link>
       <guid isPermaLink="false">12288-4967322177-S</guid>
@@ -25,12 +33,36 @@
       <description>SV SparkassenVersicherung · Stuttgart · Other</description>
     </item>
     <item>
+      <title>Werkstudent (w/m/d) Partner Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1644571-1-S</link>
+      <guid isPermaLink="false">12465-1644571-1-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Siemens AG · Erlangen · Other</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) im Bereich Abrechnung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-577f5a47-e043-4ad3--S</link>
       <guid isPermaLink="false">12951-577f5a47-e043-4ad3--S</guid>
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>Harz Energie GmbH &amp; Co. KG · Osterode am Harz · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Nachhaltigkeit im GF-Bereich Holding</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-97b20a07_JB5273408-S</link>
+      <guid isPermaLink="false">13635-97b20a07_JB5273408-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>GLOBUS Markthallen Holding GmbH &amp; Co. KG · Völklingen · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-4f0749c41fac8a4b-S</link>
+      <guid isPermaLink="false">14225-4f0749c41fac8a4b-S</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Repower Solution GmbH · Magdeburg · Other</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) als Aushilfe für Post- und Paketzustellung | 20 Std./Woche</title>
@@ -55,6 +87,62 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>Doctolib · Berlin · €15.00/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Betriebsplanung (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/flix/werkstudent-betriebsplanung-berlin-419766</link>
+      <guid isPermaLink="false">an:werkstudent-betriebsplanung-berlin-419766</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Flix · Berlin · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Operational Planning (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/flix/werkstudent-operational-planning-berlin-378635</link>
+      <guid isPermaLink="false">an:werkstudent-operational-planning-berlin-378635</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Flix · Berlin · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Tech und Automatisierung (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/belform-gmbh-co-kg/werkstudent-tech-und-automatisierung-munich-34537</link>
+      <guid isPermaLink="false">an:werkstudent-tech-und-automatisierung-munich-34537</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>BelForm GmbH &amp; Co. KG · München · €17.00/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent:in/Working Student People Experience Team (German speaking)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/oviva/werkstudentin-working-student-people-experience-team-german-speaking-potsdam-224001</link>
+      <guid isPermaLink="false">an:werkstudentin-working-student-people-experience-team-german-speaking-potsdam-224001</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Oviva · Potsdam · Other</description>
+    </item>
+    <item>
+      <title>Working student Academics (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/thinkcellsoftware/working-student-academics-165526</link>
+      <guid isPermaLink="false">an:working-student-academics-165526</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>thinkcellsoftware · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student Avionics, Spectrum</title>
+      <link>https://www.arbeitnow.com/jobs/companies/isaraerospace/working-student-avionics-spectrum-parsdorf-bavaria-428454</link>
+      <guid isPermaLink="false">an:working-student-avionics-spectrum-parsdorf-bavaria-428454</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>isaraerospace · Parsdorf · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student – Piping System, Propulsion (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/isaraerospace/working-student-piping-system-propulsion-parsdorf-bavaria-406311</link>
+      <guid isPermaLink="false">an:working-student-piping-system-propulsion-parsdorf-bavaria-406311</guid>
+      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>isaraerospace · Parsdorf · Other · no German needed</description>
     </item>
     <item>
       <title>Call &amp; Service Center Agent / Telefonagent/in (m/w/d) für Arbeitssuchende / Rentner / Werkstudent</title>
