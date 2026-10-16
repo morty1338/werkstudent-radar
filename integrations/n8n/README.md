@@ -149,7 +149,7 @@ Every run shows up in n8n under **Executions**.
 
 ## Good to know
 
-- **Answers:** 200 = accepted, or the day was already sent (`reason` says so);
+- **Answers:** 200 = accepted, or everything in it was already sent (`reason` says so);
   401 = wrong secret, changed body or a timestamp older than 10 minutes;
   500 = `WEBHOOK_SECRET` is missing in n8n. A 404 means the workflow isn't published
   or the path is wrong.
@@ -158,8 +158,11 @@ Every run shows up in n8n under **Executions**.
   "Credential with ID … does not exist" means the credential was deleted and made again.
   Give the new one another name, select it in both Telegram nodes, Save and Publish
   (with the same name n8n sees no change and keeps Publish greyed out).
-- **A day is posted once.** "Build messages" remembers the last day it sent; a
-  repeated daily run is answered with "already sent". Test payloads always go through.
+- **A posting is posted once.** "Build messages" remembers the last day it sent and the
+  ids of its postings (workflow static data). A repeated daily run posts only the postings
+  it found since ("N more new Werkstudent jobs"), or is answered with "already sent".
+  Test payloads always go through. Publishing a new version keeps this memory; a deleted
+  and re-imported workflow starts empty and would post the latest day again.
 - **Changing the code:** edit `code/*.js`, run `python integrations/n8n/build_workflow.py`
   (a test fails if the JSON is out of date), and import again. Re-importing into the
   same workflow only creates a draft: delete the old workflow first, or publish the new

@@ -125,23 +125,44 @@ def test_signed_but_not_ours(tmp_path):
 
 
 @needs_node
-def test_a_day_is_sent_once_but_tests_always(tmp_path):
-    r = check(tmp_path, state={"lastAsOf": "2026-10-14"})
+def test_a_posting_is_sent_once_but_tests_always(tmp_path):
+    sent = {"lastAsOf": "2026-10-14", "sentIds": ["r1"]}
+    r = check(tmp_path, state=sent)
     assert r["out"][0]["json"] == {"ok": False, "status": 200, "reason": "2026-10-14 was already sent"}
-    r = check(tmp_path, notify.payload("2026-10-14", [job(1)], test=True), state={"lastAsOf": "2026-10-14"})
+    r = check(tmp_path, notify.payload("2026-10-14", [job(1)], test=True), state=sent)
     assert r["out"][0]["json"]["ok"] is True
-    r = check(tmp_path, notify.payload("2026-10-15", [job(1)]), state={"lastAsOf": "2026-10-14"})
-    assert r["out"][0]["json"]["ok"] is True
+    r = check(tmp_path, notify.payload("2026-10-15", [job(1)]), state=sent)
+    assert r["out"][0]["json"] == {"ok": True, "status": 200, "payload": notify.payload("2026-10-15", [job(1)])}
+    assert r["state"] == sent                                 # only "Build messages" changes it
+
+
+@needs_node
+def test_a_repeated_run_passes_only_the_postings_found_since(tmp_path):
+    """A second collection on the same day finds postings published later that day."""
+    data = notify.payload("2026-10-14", [job(1), job(2), job(3)])
+    data["total"] = 7                                         # more than MAX_JOBS fit in the payload
+    r = check(tmp_path, data, state={"lastAsOf": "2026-10-14", "sentIds": ["r1", "r3"]})
+    assert r["out"][0]["json"] == {"ok": True, "status": 200,
+                                   "payload": {**data, "jobs": [job(2)], "total": 5, "more": True}}
+
+
+@needs_node
+def test_a_day_stored_without_ids_counts_as_sent(tmp_path):
+    """State written before the ids were stored: posting the day again could repeat everything."""
+    r = check(tmp_path, notify.payload("2026-10-14", [job(1), job(2)]), state={"lastAsOf": "2026-10-14"})
+    assert r["out"][0]["json"]["reason"] == "2026-10-14 was already sent"
 
 
 # --- Build messages ------------------------------------------------------------------------------
 
-def messages(tmp_path, jobs, targets, *, test=False, state=False):
+def messages(tmp_path, jobs, targets, *, test=False, state=False, before=None, more=False, as_of="2026-10-14"):
     code = (N8N / "code" / "build_messages.js").read_text()
     code, n = re.subn(r"const TARGETS = \[.*?\n\];", lambda _: f"const TARGETS = {json.dumps(targets)};", code, flags=re.S)
     assert n == 1
-    data = notify.payload("2026-10-14", jobs, test=test)
-    r = run_code(tmp_path, "build_messages", json_in={"ok": True, "payload": data}, code=code)
+    data = notify.payload(as_of, jobs, test=test)
+    if more:
+        data["more"] = True
+    r = run_code(tmp_path, "build_messages", json_in={"ok": True, "payload": data}, code=code, state=before)
     return (r["out"], r["state"]) if state else r["out"]
 
 
@@ -169,10 +190,22 @@ def test_filters(tmp_path):
 
 
 @needs_node
-def test_the_day_is_marked_as_sent_after_building(tmp_path):
-    assert messages(tmp_path, [job(1)], [target()], state=True)[1] == {"lastAsOf": "2026-10-14"}
-    assert messages(tmp_path, [job(1)], [target(cities=["Hamburg"])], state=True)[1] == {"lastAsOf": "2026-10-14"}
+def test_the_day_and_its_postings_are_marked_as_sent_after_building(tmp_path):
+    day = {"lastAsOf": "2026-10-14", "sentIds": ["r1"]}
+    assert messages(tmp_path, [job(1)], [target()], state=True)[1] == day
+    assert messages(tmp_path, [job(1)], [target(cities=["Hamburg"])], state=True)[1] == day   # unwanted too
     assert messages(tmp_path, [job(1)], [target()], test=True, state=True)[1] == {}       # tests don't count
+    # the same day again adds to the ids, a new day starts over
+    assert messages(tmp_path, [job(2)], [target()], state=True, before=day, more=True)[1] == {
+        "lastAsOf": "2026-10-14", "sentIds": ["r1", "r2"]}
+    assert messages(tmp_path, [job(2)], [target()], state=True, before=day, as_of="2026-10-15")[1] == {
+        "lastAsOf": "2026-10-15", "sentIds": ["r2"]}
+
+
+@needs_node
+def test_postings_found_later_that_day_say_more(tmp_path):
+    text = messages(tmp_path, [job(2), job(3)], [target(cities=["Berlin"])], more=True)[0]["json"]["text"]
+    assert text.startswith("<b>2 more new Werkstudent jobs · Berlin</b>\n14 Oct 2026\n\n")
 
 
 @needs_node

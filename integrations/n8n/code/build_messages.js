@@ -1,5 +1,6 @@
 // "Build messages": one Telegram message per target with the new jobs that pass its filter,
-// then marks the day as sent ("Check signature" skips it if the daily run is repeated).
+// then marks the day and its postings as sent ("Check signature" drops them if the daily run
+// is repeated; `more` marks a payload with only the postings found since).
 // Edit the targets here after importing. Empty lists mean "no filter".
 //   chatId         "@channel_name" for a public channel, or the numeric chat ID (see README)
 //   cities         as on the site: "Berlin", "München", "Hamburg", …
@@ -56,7 +57,7 @@ for (const t of TARGETS) {
     .sort((a, b) => (b.pay ?? -1) - (a.pay ?? -1) || String(a.title).localeCompare(String(b.title)));
   if (!jobs.length) continue;
   const where = (t.cities || []).length ? t.cities.join(', ') : 'Germany';
-  const head = `${p.test ? '🧪 Test · ' : ''}<b>${jobs.length} new Werkstudent job${jobs.length === 1 ? '' : 's'} · ${esc(where)}</b>\n${day}`;
+  const head = `${p.test ? '🧪 Test · ' : ''}<b>${jobs.length} ${p.more ? 'more ' : ''}new Werkstudent job${jobs.length === 1 ? '' : 's'} · ${esc(where)}</b>\n${day}`;
   const shown = jobs.slice(0, MAX_JOBS).map(line);
   const more = jobs.length - shown.length;
   const tail = more > 0
@@ -65,5 +66,11 @@ for (const t of TARGETS) {
   out.push({ json: { target: t.target, chatId: t.chatId, count: jobs.length, text: [head, shown.join('\n'), tail].join('\n\n') } });
 }
 // Remember the day only now, so a day whose messages couldn't be built isn't skipped later.
-if (!p.test) $getWorkflowStaticData('global').lastAsOf = p.as_of;
+// All of the payload's ids count as sent, also those no target wanted: they won't match later either.
+if (!p.test) {
+  const state = $getWorkflowStaticData('global');
+  const before = state.lastAsOf === p.as_of && Array.isArray(state.sentIds) ? state.sentIds : [];
+  state.lastAsOf = p.as_of;
+  state.sentIds = before.concat(p.jobs.map((j) => j.id));
+}
 return out;
