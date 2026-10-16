@@ -158,21 +158,21 @@ class FakeSession:
 def test_send_retries_server_errors_only():
     waits = []
     s = FakeSession(502, requests.ConnectionError("https://secret.example.org/webhook/x refused"), 200)
-    assert notify.send("https://x", "k", {"a": 1}, session=s, sleep=waits.append) == (True, "HTTP 200")
+    assert notify.send("https://x", "k", {"a": 1}, session=s, sleep=waits.append) == ("sent", "HTTP 200")
     assert len(s.calls) == 3 and waits == [2, 4]
     assert s.calls[0][1] == b'{"a":1}' and s.calls[0][2]["X-Radar-Signature"].startswith("sha256=")
 
     s = FakeSession(403)
-    assert notify.send("https://x", "k", {}, session=s, sleep=waits.append) == (False, "HTTP 403")
+    assert notify.send("https://x", "k", {}, session=s, sleep=waits.append) == ("failed", "HTTP 403")
     assert len(s.calls) == 1                                  # rejected: no retry
 
     s = FakeSession(requests.Timeout("https://secret.example.org/webhook/x"), 503, 500)
-    ok, message = notify.send("https://x", "k", {}, session=s, sleep=lambda _: None)
-    assert (ok, message) == (False, "HTTP 500")
+    status, message = notify.send("https://x", "k", {}, session=s, sleep=lambda _: None)
+    assert (status, message) == ("failed", "HTTP 500")
 
     s = FakeSession(*[requests.ConnectionError("https://secret.example.org/webhook/x")] * 3)
-    ok, message = notify.send("https://x", "k", {}, session=s, sleep=lambda _: None)
-    assert (ok, message) == (False, "no answer (ConnectionError)")   # the URL never shows in the log
+    status, message = notify.send("https://x", "k", {}, session=s, sleep=lambda _: None)
+    assert (status, message) == ("failed", "no answer (ConnectionError)")   # the URL never shows in the log
 
 
 @pytest.fixture
@@ -201,12 +201,12 @@ def test_main_skips_quietly_without_settings(today_data, monkeypatch, capsys):
 def test_main_never_fails_the_run(today_data, monkeypatch, capsys):
     monkeypatch.setenv("N8N_WEBHOOK_URL", "https://n8n.example.org/webhook/x")
     monkeypatch.setenv("WEBHOOK_SECRET", "k")
-    monkeypatch.setattr(notify, "send", lambda *a, **k: (False, "HTTP 500"))
+    monkeypatch.setattr(notify, "send", lambda *a, **k: ("failed", "HTTP 500"))
     assert notify.main([]) == 0
     out = capsys.readouterr().out
     assert "::warning::" in out and "n8n.example.org" not in out
 
-    monkeypatch.setattr(notify, "send", lambda url, secret, data: (True, "HTTP 200"))
+    monkeypatch.setattr(notify, "send", lambda url, secret, data: ("sent", "HTTP 200"))
     assert notify.main([]) == 0
     assert "sent 1 new postings for 2026-10-09 (1 ba)" in capsys.readouterr().out
 
@@ -239,16 +239,16 @@ def test_end_to_end_over_http():
     try:
         url = f"http://127.0.0.1:{server.server_port}/webhook"
         data = notify.payload(TODAY, [{"id": "a", "title": "Werkstudent Ä"}])
-        assert notify.send(url, "k", data) == (True, "HTTP 200")
+        assert notify.send(url, "k", data) == ("sent", "HTTP 200")
         assert got["valid"] and got["data"] == data
-        assert notify.send(url, "wrong", data, sleep=lambda _: None) == (False, "HTTP 401")
+        assert notify.send(url, "wrong", data, sleep=lambda _: None) == ("failed", "HTTP 401")
     finally:
         server.shutdown()
 
 
 def test_test_mode_and_strict_exit_codes(today_data, monkeypatch, capsys):
     sent = []
-    monkeypatch.setattr(notify, "send", lambda url, secret, data: sent.append(data) or (True, "HTTP 200"))
+    monkeypatch.setattr(notify, "send", lambda url, secret, data: sent.append(data) or ("sent", "HTTP 200"))
     monkeypatch.delenv("N8N_WEBHOOK_URL", raising=False)
     assert notify.main(["--strict"]) == 1                 # a manual run says when nothing was sent
     assert notify.main([]) == 0
@@ -257,7 +257,7 @@ def test_test_mode_and_strict_exit_codes(today_data, monkeypatch, capsys):
     assert notify.main(["--test", "--strict"]) == 0
     assert sent[-1]["test"] is True and sent[-1]["jobs"][0]["id"] == "a"
     assert "sent test with 1 new postings" in capsys.readouterr().out
-    monkeypatch.setattr(notify, "send", lambda *a, **k: (False, "HTTP 401"))
+    monkeypatch.setattr(notify, "send", lambda *a, **k: ("failed", "HTTP 401"))
     assert notify.main(["--strict"]) == 1
     assert notify.main([]) == 0
 
@@ -282,6 +282,20 @@ def test_send_reports_why_n8n_skipped_a_call():
             return self.answer
 
     skipped = Session(Answer({"ok": False, "reason": "2026-10-13 was already sent"}))
-    assert notify.send("https://x", "k", {}, session=skipped) == (True, "HTTP 200, n8n: 2026-10-13 was already sent")
-    assert notify.send("https://x", "k", {}, session=Session(Answer({"ok": True}))) == (True, "HTTP 200")
-    assert notify.send("https://x", "k", {}, session=Session(Answer(None))) == (True, "HTTP 200")
+    assert notify.send("https://x", "k", {}, session=skipped) == ("skipped", "HTTP 200, n8n: 2026-10-13 was already sent")
+    assert notify.send("https://x", "k", {}, session=Session(Answer({"ok": True}))) == ("sent", "HTTP 200")
+    assert notify.send("https://x", "k", {}, session=Session(Answer(None))) == ("sent", "HTTP 200")
+
+
+def test_strict_fails_when_n8n_posted_nothing(today_data, monkeypatch, capsys):
+    """A manual resend of a day n8n already posted is green otherwise, though nothing reaches Telegram."""
+    monkeypatch.setenv("N8N_WEBHOOK_URL", "https://n8n.example.org/webhook/x")
+    monkeypatch.setenv("WEBHOOK_SECRET", "k")
+    monkeypatch.setattr(notify, "send", lambda *a, **k: ("skipped", "HTTP 200, n8n: 2026-10-09 was already sent"))
+    assert notify.main(["--strict"]) == 1
+    out = capsys.readouterr().out
+    assert out.startswith("::warning::") and "2026-10-09 was already sent" in out and "Mode test" in out
+    assert "sent 1" not in out
+    assert notify.main([]) == 0                               # the daily run and the retries stay quiet
+    out = capsys.readouterr().out
+    assert "::warning::" not in out and "n8n posted nothing for 2026-10-09" in out

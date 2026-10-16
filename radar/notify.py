@@ -4,7 +4,8 @@ Usage:
     python -m radar.notify             after the daily build: one signed POST, if configured
     python -m radar.notify --dry-run   print the payload instead of sending it
     python -m radar.notify --test      send it marked as a test (n8n posts "🧪 Test" messages)
-    --strict                           exit 1 when nothing could be sent (for manual runs)
+    --strict                           exit 1 when nothing was posted (for manual runs): the call
+                                       failed, or n8n skipped it (a day already sent)
 
 New means new since the previous run: postings whose first_seen is the latest
 collection day, by the same rules as the RSS feeds (feeds.new_postings: not a
@@ -137,7 +138,9 @@ def url_ok(url):
 
 
 def send(url, secret, data, *, session=None, sleep=time.sleep):
-    """POST the payload; returns (ok, message). Never raises, never prints the URL (it's a secret)."""
+    """POST the payload; returns (status, message) with status "sent", "skipped" (n8n answered
+    but posted nothing, e.g. a day already sent) or "failed". Never raises, never prints the URL
+    (it's a secret)."""
     body = encode(data)
     http = session or requests
     message = ""
@@ -148,13 +151,16 @@ def send(url, secret, data, *, session=None, sleep=time.sleep):
             message = f"no answer ({type(e).__name__})"     # the exception text would contain the URL
         else:
             if 200 <= r.status_code < 300:
-                return True, f"HTTP {r.status_code}" + _n8n_reason(r)
+                reason = _n8n_reason(r)
+                if reason:
+                    return "skipped", f"HTTP {r.status_code}, n8n: {reason}"
+                return "sent", f"HTTP {r.status_code}"
             message = f"HTTP {r.status_code}"
             if r.status_code < 500 and r.status_code != 429:
-                return False, message                       # wrong URL or rejected: retrying won't help
+                return "failed", message                    # wrong URL or rejected: retrying won't help
         if attempt < ATTEMPTS:
             sleep(2 ** attempt)
-    return False, message
+    return "failed", message
 
 
 def _n8n_reason(response):
@@ -164,7 +170,7 @@ def _n8n_reason(response):
     except (AttributeError, ValueError):
         return ""
     if isinstance(data, dict) and data.get("ok") is False and data.get("reason"):
-        return f", n8n: {str(data['reason'])[:120]}"
+        return str(data["reason"])[:120]
     return ""
 
 
@@ -185,7 +191,7 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--dry-run", action="store_true", help="print the payload, send nothing")
     ap.add_argument("--test", action="store_true", help="mark the payload as a test")
-    ap.add_argument("--strict", action="store_true", help="exit 1 when nothing could be sent")
+    ap.add_argument("--strict", action="store_true", help="exit 1 when nothing was posted")
     args = ap.parse_args(argv)
     failed = 1 if args.strict else 0
 
@@ -203,13 +209,20 @@ def main(argv=None):
     if not url_ok(url):
         print("Telegram alerts: N8N_WEBHOOK_URL must start with https://; nothing sent.")
         return failed
-    ok, message = send(url, secret, data)
+    status, message = send(url, secret, data)
     sources = {s: sum(j["source"] == s for j in jobs) for s in ("ba", "arbeitnow", "career_page")}
     detail = ", ".join(f"{n} {s}" for s, n in sources.items() if n) or "none"
     kind = "test with " if args.test else ""
-    if ok:
+    if status == "sent":
         print(f"Telegram alerts: sent {kind}{len(data['jobs'])} new postings for {as_of} ({detail}): {message}")
         return 0
+    if status == "skipped":
+        if not args.strict:      # the daily run and the retries hit this whenever the day is already out
+            print(f"Telegram alerts: n8n posted nothing for {as_of} ({message}).")
+            return 0
+        print(f"::warning::Telegram alerts: n8n posted nothing for {as_of} ({message}); "
+              f"{len(jobs)} new postings not sent. Mode test always posts, to check the bot.")
+        return 1
     print(f"::warning::Telegram alerts: the n8n webhook failed ({message}); {len(jobs)} new postings not sent")
     return failed
 
