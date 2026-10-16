@@ -3,7 +3,7 @@
 // Everything stays in the visitor's browser (localStorage, key KEY); an export
 // file is the backup and the way to move the list to another device. An
 // application: { id, title, company, city, url, source ("radar" | "manual"),
-// ref (posting id on the radar, or null), status, history: [{ status, date }],
+// ref (posting id on the radar, or null), status, history: [{ status, date }] (days in order, editable),
 // note, followUp ("YYYY-MM-DD" or null), added }. Dates are local calendar days.
 
 export const KEY = "werkstudent-radar.applications";
@@ -92,15 +92,18 @@ export function createStore(storage, { onChange = () => {} } = {}) {
     persistent = false;
   }
 
-  function save() {
-    if (persistent) {
-      try {
-        storage.setItem(KEY, JSON.stringify({ version: VERSION, items }));
-      } catch {
-        persistent = false;
-      }
+  function write() {
+    if (!persistent) return;
+    try {
+      storage.setItem(KEY, JSON.stringify({ version: VERSION, items }));
+    } catch {
+      persistent = false;
     }
-    onChange();
+  }
+  // { quiet: true } saves without onChange (typing a note or a day: no redraw that would move the cursor).
+  function save({ quiet = false } = {}) {
+    write();
+    if (!quiet) onChange();
   }
 
   return {
@@ -127,7 +130,19 @@ export function createStore(storage, { onChange = () => {} } = {}) {
       save();
     },
 
-    // { quiet: true } saves without onChange (typing a note: no redraw that would move the cursor).
+    // Correct the day of a step in the history (the status was changed later than it happened).
+    // It stays between the steps before and after it; the first step is also the day added.
+    setDate(id, index, date, { quiet = false } = {}) {
+      const a = items.find((x) => x.id === id);
+      const h = a?.history[index];
+      if (!h || !isDay(date) || h.date === date) return false;
+      if (date < (a.history[index - 1]?.date ?? "") || date > (a.history[index + 1]?.date ?? "9999")) return false;
+      h.date = date;
+      if (index === 0) a.added = date;
+      save({ quiet });
+      return true;
+    },
+
     update(id, fields, { quiet = false } = {}) {
       const a = items.find((x) => x.id === id);
       if (!a) return;
@@ -137,15 +152,7 @@ export function createStore(storage, { onChange = () => {} } = {}) {
         if (k in fields && text(fields[k], MAX_TEXT[k])) a[k] = text(fields[k], MAX_TEXT[k]);
       }
       if ("url" in fields) a.url = safeUrl(fields.url);
-      if (quiet && persistent) {
-        try {
-          storage.setItem(KEY, JSON.stringify({ version: VERSION, items }));
-        } catch {
-          persistent = false;
-        }
-        return;
-      }
-      save();
+      save({ quiet });
     },
 
     remove(id) {

@@ -4,7 +4,7 @@
 // postings with track() (key `ref`: "p:<refnr>" or "c:<url>"); setOnlineCheck() lets the
 // panel mark tracked postings that are no longer in today's data.
 
-import { esc, fmt } from "./charts.js?v=dev";
+import { esc } from "./charts.js?v=dev";
 import { lang, t } from "./i18n.js?v=dev";
 import {
   BACKUP_EVERY_DAYS, KEY, STATUSES, counts, createStore, daysSinceBackup, fromLinkData, isOverdue, markBackup, sorted, toLinkData, today,
@@ -42,7 +42,9 @@ export function initTracker() {
     listeners.forEach((fn) => fn());
   };
   let store = createStore(storage(), { onChange: changed });
-  const st = { filter: "all", confirmDelete: null, gone: new Set(), onlineCheck: null };
+  // order: the card ids in the order shown since the panel opened. A change doesn't re-sort the list,
+  // or the edited card would jump to the top and the next change would hit the card moved under the cursor.
+  const st = { filter: "all", confirmDelete: null, gone: new Set(), onlineCheck: null, order: null };
   const label = (s) => t(`trk.s_${s}`);
 
   // --- Opening and closing ---------------------------------------------------------------------
@@ -54,6 +56,7 @@ export function initTracker() {
     document.body.classList.add("trk-open");
     const a = ref ? store.findByRef(ref) : null;
     if (a) st.filter = "all";
+    st.order = null;
     render();
     el.close.focus();
     if (a) el.list.querySelector(`[data-id="${CSS.escape(a.id)}"]`)?.scrollIntoView({ block: "center" });
@@ -137,10 +140,30 @@ export function initTracker() {
     if (!card) return;
     const id = card.dataset.id;
     const act = e.target.dataset.act;
+    if (act === "day") {
+      setDay(card, e.target);
+      return;
+    }
     if (act === "status") store.setStatus(id, e.target.value);
     if (act === "follow") store.update(id, { followUp: e.target.value });
     if (act === "note") store.update(id, { note: e.target.value });
+    // The list was drawn again: the focus goes back to the same field of the same card.
+    el.list.querySelector(`[data-id="${CSS.escape(id)}"] [data-act="${act}"]`)?.focus();
   });
+  // A step's day, saved without a redraw (typing a date fires a change per part); the days
+  // next to it get their new limits. A day outside them is put back.
+  function setDay(card, input) {
+    const i = Number(input.dataset.i);
+    const a = store.get(card.dataset.id);
+    if (!a) return;
+    if (!store.setDate(a.id, i, input.value, { quiet: true })) {
+      if (input.value !== a.history[i].date) say(t("trk.day_bad"));
+      input.value = a.history[i].date;
+      return;
+    }
+    card.querySelector(`[data-act="day"][data-i="${i - 1}"]`)?.setAttribute("max", input.value);
+    card.querySelector(`[data-act="day"][data-i="${i + 1}"]`)?.setAttribute("min", input.value);
+  }
   // A note is saved while typing (closing the tab right after keeps it), without a redraw.
   el.list.addEventListener("input", (e) => {
     if (e.target.dataset.act !== "note") return;
@@ -282,7 +305,11 @@ export function initTracker() {
           .join("")
       : "";
 
-    const shown = sorted(items, day).filter((a) =>
+    // Sorted when the panel opens; after that new cards go on top and the rest keep their places.
+    const place = new Map((st.order ?? []).map((id, i) => [id, i]));
+    const ordered = sorted(items, day).sort((x, y) => (place.get(x.id) ?? -1) - (place.get(y.id) ?? -1));
+    st.order = ordered.map((a) => a.id);
+    const shown = ordered.filter((a) =>
       st.filter === "all" || (st.filter === "overdue" ? isOverdue(a, day) : a.status === st.filter));
     el.list.innerHTML = shown.length
       ? shown.map((a) => card(a, day)).join("")
@@ -294,7 +321,12 @@ export function initTracker() {
       ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>`
       : `<strong>${esc(a.title)}</strong>`;
     const meta = [a.company, a.city, a.source === "radar" ? t("trk.from_radar") : null].filter(Boolean).map(esc).join(" · ");
-    const history = a.history.map((h) => `${esc(label(h.status))} ${esc(fmt.shortDate(h.date))}`).join(" → ");
+    // Each step with its day, which can be corrected (between the days before and after it).
+    const history = a.history.map((h, i) => {
+      const min = a.history[i - 1] ? ` min="${esc(a.history[i - 1].date)}"` : "";
+      const max = a.history[i + 1] ? ` max="${esc(a.history[i + 1].date)}"` : "";
+      return `<span class="trk-step">${esc(label(h.status))} <input type="date" class="trk-day" data-act="day" data-i="${i}" value="${esc(h.date)}"${min}${max} aria-label="${esc(t("trk.day_aria", { status: label(h.status) }))}"></span>`;
+    }).join(`<span class="trk-arrow" aria-hidden="true">→</span>`);
     const options = STATUSES.map((s) => `<option value="${s}"${s === a.status ? " selected" : ""}>${esc(label(s))}</option>`).join("");
     const overdue = isOverdue(a, day) ? `<span class="badge overdue">${esc(t("trk.overdue"))}</span>` : "";
     const gone = st.gone.has(a.ref) ? `<span class="badge gone" title="${esc(t("trk.gone_title"))}">${esc(t("trk.gone"))}</span>` : "";
@@ -306,7 +338,7 @@ export function initTracker() {
         <label><span>${esc(t("trk.f_status"))}</span><select data-act="status">${options}</select></label>
         <label><span>${esc(t("trk.f_follow"))}</span><input type="date" data-act="follow" value="${esc(a.followUp ?? "")}"></label>
       </div>
-      <div class="trk-history">${history}</div>
+      <div class="trk-history" title="${esc(t("trk.day_title"))}">${history}</div>
       <label class="trk-note"><span>${esc(t("trk.f_note"))}</span><textarea data-act="note" rows="2" maxlength="2000">${esc(a.note)}</textarea></label>
       <button type="button" class="link-btn trk-delete${confirming ? " confirm" : ""}" data-act="delete">${esc(confirming ? t("trk.delete_confirm") : t("trk.delete"))}</button>
     </article>`;

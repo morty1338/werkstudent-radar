@@ -235,3 +235,29 @@ out.days = T.daysSinceBackup(mem, "2026-10-15");
 out.blocked = T.daysSinceBackup(new Blocked(), "2026-10-15");
 """)
     assert out == {"none": None, "days": 14, "blocked": None}
+
+
+def test_a_steps_day_can_be_corrected_between_its_neighbours(tmp_path):
+    out = run(tmp_path, """
+const mem = new Memory();
+let calls = 0;
+const s = T.createStore(mem, { onChange: () => calls++ });
+const a = s.add({ title: "Job" }, "2026-10-14");
+s.setStatus(a.id, "interview", "2026-10-16");
+const other = s.add({ title: "Other" }, "2026-10-14");
+calls = 0;
+out.ok = s.setDate(a.id, 1, "2026-10-15", { quiet: true });   // the interview was on the 15th
+out.quietCalls = calls;
+out.first = s.setDate(a.id, 0, "2026-10-12");                  // the first step is also the day added
+out.tooLate = s.setDate(a.id, 0, "2026-10-20");                // not after the next step
+out.tooEarly = s.setDate(a.id, 1, "2026-10-01");               // not before the step before
+out.bad = [s.setDate(a.id, 1, "15.10.2026"), s.setDate(a.id, 5, "2026-10-15"), s.setDate("nope", 0, "2026-10-15")];
+const saved = JSON.parse(mem.getItem(T.KEY)).items;
+out.saved = saved.find((x) => x.id === a.id);
+out.other = saved.find((x) => x.id === other.id).history;
+""")
+    assert out["ok"] is True and out["quietCalls"] == 0
+    assert (out["first"], out["tooLate"], out["tooEarly"], out["bad"]) == (True, False, False, [False, False, False])
+    assert out["saved"]["history"] == [{"status": "saved", "date": "2026-10-12"}, {"status": "interview", "date": "2026-10-15"}]
+    assert out["saved"]["added"] == "2026-10-12"
+    assert out["other"] == [{"status": "saved", "date": "2026-10-14"}]   # other applications untouched
