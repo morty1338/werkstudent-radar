@@ -359,6 +359,8 @@ const STRINGS = {
   "trk.day_aria": { en: "Day of “{status}”", de: "Tag von „{status}“" },
   "trk.day_title": { en: "Changed the status later? Correct the day here.", de: "Status später geändert? Den Tag hier korrigieren." },
   "trk.day_bad": { en: "The day must lie between the steps before and after it.", de: "Der Tag muss zwischen dem Schritt davor und danach liegen." },
+  "trk.step_remove": { en: "Remove “{status}”", de: "„{status}“ entfernen" },
+  "trk.step_removed": { en: "Removed: {status}", de: "Entfernt: {status}" },
   "trk.from_radar": { en: "from the radar", de: "vom Radar" },
   "trk.delete": { en: "Delete", de: "Löschen" },
   "trk.delete_confirm": { en: "Click again to delete", de: "Zum Löschen nochmal klicken" },

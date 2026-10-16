@@ -143,6 +143,20 @@ export function createStore(storage, { onChange = () => {} } = {}) {
       return true;
     },
 
+    // Remove a step from the history (set by mistake). The last step left can't go: an application
+    // always has a status. Removing the newest step sets the status back to the one before it;
+    // two equal steps that meet are merged (the earlier day stays).
+    removeStep(id, index) {
+      const a = items.find((x) => x.id === id);
+      if (!a || a.history.length < 2 || !a.history[index]) return false;
+      a.history.splice(index, 1);
+      a.history = a.history.filter((h, i, all) => i === 0 || h.status !== all[i - 1].status);
+      a.status = a.history[a.history.length - 1].status;
+      a.added = a.history[0].date;
+      save();
+      return true;
+    },
+
     update(id, fields, { quiet = false } = {}) {
       const a = items.find((x) => x.id === id);
       if (!a) return;

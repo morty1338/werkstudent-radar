@@ -261,3 +261,29 @@ out.other = saved.find((x) => x.id === other.id).history;
     assert out["saved"]["history"] == [{"status": "saved", "date": "2026-10-12"}, {"status": "interview", "date": "2026-10-15"}]
     assert out["saved"]["added"] == "2026-10-12"
     assert out["other"] == [{"status": "saved", "date": "2026-10-14"}]   # other applications untouched
+
+
+def test_a_step_can_be_removed_but_never_the_last(tmp_path):
+    out = run(tmp_path, """
+const s = T.createStore(new Memory());
+const a = s.add({ title: "Job" }, "2026-10-10");
+s.setStatus(a.id, "applied", "2026-10-12");
+s.setStatus(a.id, "interview", "2026-10-14");
+s.setStatus(a.id, "saved", "2026-10-15");
+out.newest = s.removeStep(a.id, 3);                 // the last change was a mistake: back to interview
+out.afterNewest = [s.get(a.id).status, s.get(a.id).history.map((h) => h.status)];
+s.setStatus(a.id, "applied", "2026-10-16");
+out.middle = s.removeStep(a.id, 2);                 // applied → (interview) → applied: merged, earlier day kept
+out.afterMiddle = JSON.parse(JSON.stringify([s.get(a.id).status, s.get(a.id).history]));
+out.first = s.removeStep(a.id, 0);                  // the first step: the day added follows
+out.added = s.get(a.id).added;
+out.last = s.removeStep(a.id, 0);                   // only one step left: kept
+out.bad = s.removeStep(a.id, 7);
+out.final = s.get(a.id).history;
+""")
+    assert out["newest"] is True and out["afterNewest"] == ["interview", ["saved", "applied", "interview"]]
+    assert out["middle"] is True
+    assert out["afterMiddle"] == ["applied", [{"status": "saved", "date": "2026-10-10"}, {"status": "applied", "date": "2026-10-12"}]]
+    assert out["first"] is True and out["added"] == "2026-10-12"
+    assert (out["last"], out["bad"]) == (False, False)
+    assert out["final"] == [{"status": "applied", "date": "2026-10-12"}]

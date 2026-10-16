@@ -170,6 +170,16 @@ export function initTracker() {
     store.update(e.target.closest("[data-id]").dataset.id, { note: e.target.value }, { quiet: true });
   });
   el.list.addEventListener("click", (e) => {
+    const step = e.target.closest("[data-act='unstep']");
+    if (step) {
+      const id = step.closest("[data-id]").dataset.id;
+      const removed = store.get(id)?.history[Number(step.dataset.i)]?.status;
+      if (store.removeStep(id, Number(step.dataset.i))) {
+        say(t("trk.step_removed", { status: label(removed) }));
+        el.list.querySelector(`[data-id="${CSS.escape(id)}"] [data-act="status"]`)?.focus();
+      }
+      return;
+    }
     const button = e.target.closest("[data-act='delete']");
     if (!button) return;
     const id = button.closest("[data-id]").dataset.id;
@@ -325,7 +335,10 @@ export function initTracker() {
     const history = a.history.map((h, i) => {
       const min = a.history[i - 1] ? ` min="${esc(a.history[i - 1].date)}"` : "";
       const max = a.history[i + 1] ? ` max="${esc(a.history[i + 1].date)}"` : "";
-      return `<span class="trk-step">${esc(label(h.status))} <input type="date" class="trk-day" data-act="day" data-i="${i}" value="${esc(h.date)}"${min}${max} aria-label="${esc(t("trk.day_aria", { status: label(h.status) }))}"></span>`;
+      const remove = a.history.length > 1
+        ? `<button type="button" class="trk-unstep" data-act="unstep" data-i="${i}" aria-label="${esc(t("trk.step_remove", { status: label(h.status) }))}" title="${esc(t("trk.step_remove", { status: label(h.status) }))}">×</button>`
+        : "";
+      return `<span class="trk-step">${esc(label(h.status))} <input type="date" class="trk-day" data-act="day" data-i="${i}" value="${esc(h.date)}"${min}${max} aria-label="${esc(t("trk.day_aria", { status: label(h.status) }))}">${remove}</span>`;
     }).join(`<span class="trk-arrow" aria-hidden="true">→</span>`);
     const options = STATUSES.map((s) => `<option value="${s}"${s === a.status ? " selected" : ""}>${esc(label(s))}</option>`).join("");
     const overdue = isOverdue(a, day) ? `<span class="badge overdue">${esc(t("trk.overdue"))}</span>` : "";

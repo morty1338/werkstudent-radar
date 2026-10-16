@@ -421,6 +421,8 @@ body.trk-open { overflow: hidden; }
 .trk-history { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; font-family: var(--mono); font-size: 12px; color: var(--ink-3); }
 .trk-step { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; }
 .trk-item .trk-day { width: auto; min-height: 28px; padding: 2px 6px; font: inherit; color: var(--ink-2); }
+.trk-unstep { min-width: 28px; min-height: 28px; border: 0; border-radius: 8px; background: none; color: var(--ink-3); font-size: 16px; line-height: 1; cursor: pointer; }
+.trk-unstep:hover, .trk-unstep:focus-visible { color: var(--warn-ink); background: var(--surface-2); }
 .badge.overdue { background: var(--warn-bg); color: var(--warn-ink); flex: none; }
 .trk-delete { justify-self: start; font-size: 13px; color: var(--ink-3); }
 .trk-delete.confirm { color: var(--warn-ink); }
