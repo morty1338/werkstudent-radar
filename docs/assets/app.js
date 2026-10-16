@@ -38,6 +38,9 @@ async function main() {
   initTooltip();
   if (lang === "de" && !jobsAllowed) for (const id of ["kurs-link", "kurs-nav"]) document.getElementById(id).href = "kurs.html?lang=de";
   initModeSwitch();
+  // The map's outline and radar sweep right away: the sweep keeps turning while the data loads
+  // (after switching Werkstudent | Jobs too); the places are added when it's there.
+  bubbleMap(document.getElementById("map"), []);
   // The tracker works without the job data, so it starts before it loads.
   const tracker = initTracker();
   let S, D, H, L, C, CO;

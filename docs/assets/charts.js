@@ -243,6 +243,23 @@ const DE_OUTLINE = [
   [[11.28,54.42],[11.13,54.42],[11.01,54.47],[11.04,54.52],[11.23,54.5]],
 ];
 
+// One turn of the radar sweep, in seconds. The sweep's angle follows the clock (Date.now()), so a
+// redraw (a click on a place, a filter) or a reload (switching Werkstudent | Jobs) continues it
+// where it was instead of starting at 12 o'clock again. A CSS animation (style.css .map-sweep)
+// whose start time is set from the clock (alignSweep); the inline negative delay is the fallback
+// for browsers without Web Animations. SMIL's clock would only start once the page has loaded.
+const SWEEP_S = 12;
+
+// The animation's start in the document timeline (same origin as performance.now()), so its angle
+// is the clock's even when the first frame comes late (a busy page load).
+function alignSweep(el) {
+  const sweep = el.querySelector(".map-sweep");
+  if (!sweep?.getAnimations) return;
+  sweep.style.animationDelay = "0s";
+  const anim = sweep.getAnimations()[0];
+  if (anim) anim.startTime = performance.now() - (Date.now() % (SWEEP_S * 1000));
+}
+
 export function bubbleMap(el, points) {
   const W = 420;
   const H = Math.round((W * (GEO.latMax - GEO.latMin)) / ((GEO.lonMax - GEO.lonMin) * KX));
@@ -277,9 +294,7 @@ export function bubbleMap(el, points) {
     <path class="map-land" d="${land}"/>
     <g class="map-radar" clip-path="url(#map-land)" aria-hidden="true">
       ${[0.25, 0.5, 0.75].map((f) => `<circle class="map-ring" cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${(reach * f).toFixed(1)}"/>`).join("")}
-      <g class="map-sweep">${fan}<line x1="${cx.toFixed(1)}" y1="${cy.toFixed(1)}" x2="${cx.toFixed(1)}" y2="${(cy - reach).toFixed(1)}"/>
-        <animateTransform attributeName="transform" type="rotate" from="0 ${cx.toFixed(1)} ${cy.toFixed(1)}" to="360 ${cx.toFixed(1)} ${cy.toFixed(1)}" dur="12s" repeatCount="indefinite"/>
-      </g>
+      <g class="map-sweep" style="transform-origin:${cx.toFixed(1)}px ${cy.toFixed(1)}px;animation-duration:${SWEEP_S}s;animation-delay:-${((Date.now() / 1000) % SWEEP_S).toFixed(2)}s">${fan}<line x1="${cx.toFixed(1)}" y1="${cy.toFixed(1)}" x2="${cx.toFixed(1)}" y2="${(cy - reach).toFixed(1)}"/></g>
     </g>
     ${sorted
       .map(
@@ -295,6 +310,7 @@ export function bubbleMap(el, points) {
       )
       .join("")}
   </svg>`;
+  alignSweep(el);
 }
 
 // --- Line chart -----------------------------------------------------------------------
