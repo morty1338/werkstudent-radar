@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>ZIGPOS GmbH: Werkstudent (m/w/d) für Testautomation</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2664921792188001-S</link>
+      <guid isPermaLink="false">11956-2664921792188001-S</guid>
+      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>ZIGPOS GmbH · Dresden · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Praktikanten* und Werkstudenten* bei Horn &amp; Bauer</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f1048j0455629-S</link>
+      <guid isPermaLink="false">12336-a26f1048j0455629-S</guid>
+      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Horn &amp; Bauer GmbH &amp; Co. KG · Schwalmstadt · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Working Student — AI Engineering &amp; Document Intelligence</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tracium-gmbh/working-student-ai-engineering-document-intelligence-berlin-357203</link>
+      <guid isPermaLink="false">an:working-student-ai-engineering-document-intelligence-berlin-357203</guid>
+      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Tracium GmbH · Berlin · Engineering &amp; Production · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent im Bereich Informationstechnik (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208323400-S</link>
@@ -215,14 +239,6 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>BMW AG · München · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Industrialisierung von Mess- und Prüfsystemen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1567841-4-S</link>
-      <guid isPermaLink="false">12465-1567841-4-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Siemens AG · Erlangen · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) Mechanical Engineering</title>
@@ -601,28 +617,12 @@
       <description>Sportec Solutions AG · Köln · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) Architektur / Bauingenieurwesen- Bauen im Bestand</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-21dc7f7b_JB5270142-S</link>
-      <guid isPermaLink="false">13635-21dc7f7b_JB5270142-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>ZETCON Ingenieure GmbH · Hamburg · Engineering &amp; Production</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) für die Bauüberwachung im Straßen- und Brückenbau</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-26e561e5_JB5270140-S</link>
       <guid isPermaLink="false">13635-26e561e5_JB5270140-S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>ZETCON Ingenieure GmbH · Köln · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Netzmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-28dcf449_JB5270286-S</link>
-      <guid isPermaLink="false">13635-28dcf449_JB5270286-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Vilor GmbH · Köln · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) - Team Coordinator im Bereich VAR &amp; TLT vor Ort bei Bundesligaproduktionen</title>
@@ -673,30 +673,6 @@
       <description>Hamburg Port Authority AÖR · Hamburg · €19.11/h · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent Energietechnik (m|w|d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/dr-ermel-gmbh-dr-born/werkstudent-energietechnik-mwd-munchen-365931</link>
-      <guid isPermaLink="false">an:werkstudent-energietechnik-mwd-munchen-365931</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Dr. Ermel GmbH: Dr. Born · München · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) mit Schwerpunkt Konstruktiver Ingenieurbau (797)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/voessing/werkstudent-mit-schwerpunkt-konstruktiver-ingenieurbau-797-hannover-292338</link>
-      <guid isPermaLink="false">an:werkstudent-mit-schwerpunkt-konstruktiver-ingenieurbau-797-hannover-292338</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Voessing · Hannover · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) mit Schwerpunkt Verkehrsanlagenplanung Straße / Schiene (798)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/voessing/werkstudent-mit-schwerpunkt-verkehrsanlagenplanung-strasse-schiene-798-dusseldorf-346584</link>
-      <guid isPermaLink="false">an:werkstudent-mit-schwerpunkt-verkehrsanlagenplanung-strasse-schiene-798-dusseldorf-346584</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Voessing · Düsseldorf · Engineering &amp; Production</description>
-    </item>
-    <item>
       <title>Werkstudent Prozessmanagement &amp; Technischer Service (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/deutsche-giganetz-gmbh/werkstudent-prozessmanagement-technischer-service-hamburg-107091</link>
       <guid isPermaLink="false">an:werkstudent-prozessmanagement-technischer-service-hamburg-107091</guid>
@@ -705,28 +681,12 @@
       <description>Deutsche GigaNetz GmbH · Hamburg · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent:in Produkt &amp; Qualitätssicherung (M/W/D)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/rausgegangen-gmbh/werkstudentin-produkt-qualitatssicherung-koln-315019</link>
-      <guid isPermaLink="false">an:werkstudentin-produkt-qualitatssicherung-koln-315019</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Rausgegangen GmbH · Köln · Engineering &amp; Production</description>
-    </item>
-    <item>
       <title>Werkstudent*in Simulation</title>
       <link>https://www.arbeitnow.com/jobs/companies/miebach-consulting-gmbh/werkstudentin-simulation-frankfurt-am-main-277128</link>
       <guid isPermaLink="false">an:werkstudentin-simulation-frankfurt-am-main-277128</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Miebach Consulting GmbH · Frankfurt am Main · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Working Student / Intern (m/f/d) Process &amp; Sustainability Engineering</title>
-      <link>https://www.arbeitnow.com/jobs/companies/ineratec-gmbh-1/working-student-intern-process-sustainability-engineering-karlsruhe-9401</link>
-      <guid isPermaLink="false">an:working-student-intern-process-sustainability-engineering-karlsruhe-9401</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Ineratec Gmbh 1 · Karlsruhe · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Working Student International Energy Advisory (m/w/d)</title>
@@ -807,6 +767,22 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Harry-Brot Group SE &amp; Co. KG · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Working Student - Electrical Engineering (All Genders)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/skdse/working-student-electrical-engineering-all-genders-477174</link>
+      <guid isPermaLink="false">an:working-student-electrical-engineering-all-genders-477174</guid>
+      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Skdse · Engineering &amp; Production · no German needed</description>
+    </item>
+    <item>
+      <title>Menarini - Von Heyden GmH: Werkstudent Supply Chain – Produktionsplanung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3076741791583200-S</link>
+      <guid isPermaLink="false">11956-3076741791583200-S</guid>
+      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Menarini - Von Heyden GmH · Dresden · Engineering &amp; Production</description>
     </item>
   </channel>
 </rss>

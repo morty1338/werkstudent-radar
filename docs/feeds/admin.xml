@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Nebenjob/ Werkstudent/ Studentische Aushilfe (m/w/d) am Empfang</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-CS4648-9QR-S</link>
+      <guid isPermaLink="false">12518-CS4648-9QR-S</guid>
+      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>The Cloud One München-Hauptbahnhof · München · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent in der WEG-Verwaltung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14763-44514072-1016-S</link>
+      <guid isPermaLink="false">14763-44514072-1016-S</guid>
+      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Vonovia SE · Kassel · €15.00/h · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) kaufmännische Sachbearbeitung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17560-67ee199d0ab44b7-S</link>
+      <guid isPermaLink="false">17560-67ee199d0ab44b7-S</guid>
+      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>AlphaConsult Premium KG · Bitterfeld-Wolfen · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) Empfang &amp; Office Management</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4967316483-S</link>
@@ -151,14 +175,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Office &amp; Admin</category>
       <description>42watt · München · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Legal Assistant (m/w/d) - Werkstudent</title>
-      <link>https://www.arbeitnow.com/jobs/companies/bergmanclinics/legal-assistant-werkstudent-holdco-hamburg-206378</link>
-      <guid isPermaLink="false">an:legal-assistant-werkstudent-holdco-hamburg-206378</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Bergmanclinics · Hamburg · Office &amp; Admin</description>
     </item>
     <item>
       <title>Werkstudent Office Management (all genders)</title>

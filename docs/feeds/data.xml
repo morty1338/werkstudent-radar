@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Datenpflege &amp; Datenmanagement (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15992-2359080-S</link>
+      <guid isPermaLink="false">15992-2359080-S</guid>
+      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Mission Leben gGmbH · Darmstadt · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Datenerfassung (15 h) befr. bis zum 31.03.2027</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003871583-S</link>
@@ -31,14 +39,6 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Lekkerland SE · Frechen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Business Analytics &amp; Automation (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13649-13387853AB-S</link>
-      <guid isPermaLink="false">13649-13387853AB-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>dm-drogerie markt GmbH + Co. KG · Karlsruhe · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent Media Marketing &amp; Analytics (m/w/d)</title>
@@ -79,14 +79,6 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Siemens AG · München · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Data Engineering</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1643618-1-S</link>
-      <guid isPermaLink="false">12465-1643618-1-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Siemens AG · Erlangen · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) Datenanalyse &amp; Visualisierung für EU-Konformitäten</title>
@@ -177,28 +169,12 @@
       <description>Siemens AG · Erlangen · €15.00/h · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Werkstudent Innovation, Data Science &amp; Automation (all genders), H World International</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2355864-S</link>
-      <guid isPermaLink="false">12811-2355864-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>H World International - Team Center · Frankfurt am Main · Data &amp; Analytics</description>
-    </item>
-    <item>
       <title>Werkstudent Datenmanagement &amp; Anwendungsbetreuung (m/w/d), Hörmann KG Verkaufsgesellschaft</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356299-S</link>
       <guid isPermaLink="false">12811-2356299-S</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Hörmann KG Verkaufsgesellschaft · Steinhagen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Innovation, Data Science &amp; Automation (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-9766a5a3-7d95-41e1--S</link>
-      <guid isPermaLink="false">12951-9766a5a3-7d95-41e1--S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>H World International Germany · Frankfurt am Main · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Erneuerbare Energien - Marktstammdaten</title>
@@ -225,28 +201,12 @@
       <description>Teampicnic · Düsseldorf · €15.12/h · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Werkstudent*In (M/W/D) Market Research &amp; Data Insights</title>
-      <link>https://www.arbeitnow.com/jobs/companies/ramp106-gmbh/werkstudentin-market-research-data-insights-hamburg-486711</link>
-      <guid isPermaLink="false">an:werkstudentin-market-research-data-insights-hamburg-486711</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Ramp106 Gmbh · Hamburg · Data &amp; Analytics</description>
-    </item>
-    <item>
       <title>Working Student Analytics Engineering (f/m/x)</title>
       <link>https://www.arbeitnow.com/jobs/companies/thermondo/working-student-analytics-engineering-berlin-zentrale-381296</link>
       <guid isPermaLink="false">an:working-student-analytics-engineering-berlin-zentrale-381296</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Thermondo · Berlin · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
-      <title>Working Student CRM &amp; Data Operations (all gender)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/kranus-health-gmbh/working-student-crm-data-operations-all-gender-berlin-317215</link>
-      <guid isPermaLink="false">an:working-student-crm-data-operations-all-gender-berlin-317215</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Kranus Health Gmbh · Berlin · Data &amp; Analytics · no German needed</description>
     </item>
     <item>
       <title>Working Student / Intern – Control Team (Systems &amp; Data Infrastructure) (f/m/d)</title>
@@ -271,14 +231,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>EUROKEY Software GmbH · Saarbrücken · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Data Engineer Working Student (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/trusteq-gmbh/data-engineer-working-student-koln-482150</link>
-      <guid isPermaLink="false">an:data-engineer-working-student-koln-482150</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Trusteq Gmbh · Köln · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent:in Landwirtschaft und betriebliche Datenprüfung (all genders) (Berlin I DE Remote möglich)</title>

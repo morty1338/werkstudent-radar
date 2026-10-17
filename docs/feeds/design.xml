@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent:in (m/w/d) Media Graphics</title>
@@ -135,22 +135,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>CISPA - Helmholtz-Zentrum für Informationssicherheit gGmbH · Saarbrücken · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Product Design (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/mobimeo-gmbh/werkstudent-product-design-berlin-caroline-michaelis-str-5-11-10115-80926</link>
-      <guid isPermaLink="false">an:werkstudent-product-design-berlin-caroline-michaelis-str-5-11-10115-80926</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Mobimeo GmbH · Berlin · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Mediengestaltung - Digital &amp; Print (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/quadriga-media-berlin-gmbh/werkstudentin-mediengestaltung-digital-print-quadriga-media-berlin-gmbh-212585</link>
-      <guid isPermaLink="false">an:werkstudentin-mediengestaltung-digital-print-quadriga-media-berlin-gmbh-212585</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Quadriga Media Berlin GmbH · Berlin · Design &amp; UX</description>
     </item>
   </channel>
 </rss>

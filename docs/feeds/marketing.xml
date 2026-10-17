@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/marketing.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>G &amp; B Automatisierungstechnik GmbH &amp; Co.KG: Werkstudent (m/w/d) Content Marketing</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2465011792188001-S</link>
+      <guid isPermaLink="false">11956-2465011792188001-S</guid>
+      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>G &amp; B Automatisierungstechnik GmbH &amp; Co.KG · Elsterwerda · Marketing &amp; Communication</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Digital Marketing &amp; AI</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208307983-S</link>
@@ -23,14 +31,6 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>Sanitätshaus Kaphingst GmbH · Marburg · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Marketing Outbound / Kommunikation</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003867152-S</link>
-      <guid isPermaLink="false">10001-1003867152-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Wilhelm Julius Teufel GmbH · Wangen · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) E-Commerce / Online-Shop /Forchheim</title>
@@ -585,28 +585,12 @@
       <description>Oviva · Marketing &amp; Communication</description>
     </item>
     <item>
-      <title>Werkstudent Content Creation TikTok (Mensch*)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/goodlife/werkstudent-content-creation-tiktok-mensch-hamburg-316718</link>
-      <guid isPermaLink="false">an:werkstudent-content-creation-tiktok-mensch-hamburg-316718</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Goodlife · Hamburg · Marketing &amp; Communication</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) Digital Experience – Growth, Brand &amp; New Business</title>
       <link>https://www.arbeitnow.com/jobs/companies/lemundo/werkstudent-digital-experience-growth-brand-new-business-hamburg-390727</link>
       <guid isPermaLink="false">an:werkstudent-digital-experience-growth-brand-new-business-hamburg-390727</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>Lemundo · Hamburg · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Marketing</title>
-      <link>https://www.arbeitnow.com/jobs/companies/lautsprecherteufel/werkstudent-marketing-berlin-434023</link>
-      <guid isPermaLink="false">an:werkstudent-marketing-berlin-434023</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Lautsprecherteufel · Berlin · €16.00/h · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Marketing</title>
@@ -631,14 +615,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>Uplane · €20.00/h · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Working Student - Field &amp; Event Marketing (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/unitelabs/working-student-field-event-marketing-munchen-407822</link>
-      <guid isPermaLink="false">an:working-student-field-event-marketing-munchen-407822</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Unitelabs · München · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Working Student Marketing - Content Creation</title>

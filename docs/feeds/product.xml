@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 20:34:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Projektentwicklung und Grundstücksakquise (m/w/d)</title>
@@ -193,22 +193,6 @@
       <description>BWI GmbH · €16.00/h · Product &amp; Project Mgmt</description>
     </item>
     <item>
-      <title>Werkstudent Geschäftsführung, Support &amp; Special Projects (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/ucmagency/werkstudent-geschaftsfuhrung-support-special-projects-berlin-235547</link>
-      <guid isPermaLink="false">an:werkstudent-geschaftsfuhrung-support-special-projects-berlin-235547</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>ucm.agency · Berlin · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Projektmanagement für Industrieprojekte (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/newboxes/werkstudent-projektmanagement-fur-industrieprojekte-munchen-48636</link>
-      <guid isPermaLink="false">an:werkstudent-projektmanagement-fur-industrieprojekte-munchen-48636</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Newboxes · München · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) Projektmanagement</title>
       <link>https://www.arbeitnow.com/jobs/companies/nexmart-gmbh-co-kg/werkstudent-projektmanagement-stuttgart-349020</link>
       <guid isPermaLink="false">an:werkstudent-projektmanagement-stuttgart-349020</guid>
@@ -247,14 +231,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Deutsche Telekom MMS GmbH · Leipzig · €16.00/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent - Product Management / Health (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/ottonova/werkstudent-product-management-health-munchen-309486</link>
-      <guid isPermaLink="false">an:werkstudent-product-management-health-munchen-309486</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Ottonova · München · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>
