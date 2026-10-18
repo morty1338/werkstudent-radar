@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in (m/w/d) – Operations &amp; Office Management</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tide/werkstudentin-operations-office-management-berlin-369297</link>
+      <guid isPermaLink="false">an:werkstudentin-operations-office-management-berlin-369297</guid>
+      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>tide · Berlin · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudenten Einkauf (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003866708-S</link>
@@ -265,14 +273,6 @@
       <description>Stadtwerke Augsburg Holding GmbH · Augsburg · €18.00/h · Operations &amp; Logistics</description>
     </item>
     <item>
-      <title>Werkstudent Einkauf (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/deutsche-giganetz-gmbh/werkstudent-einkauf-hamburg-21942</link>
-      <guid isPermaLink="false">an:werkstudent-einkauf-hamburg-21942</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Deutsche GigaNetz GmbH · Hamburg · Operations &amp; Logistics</description>
-    </item>
-    <item>
       <title>Werkstudent/in (W/M/D) Sustainability Supply Chain Administration</title>
       <link>https://www.arbeitnow.com/jobs/companies/leadership-advantage-gmbh-leadership-sustainability-karin-ekberg-gmbh/werkstudent-in-sustainability-supply-chain-administration-wurzburg-434799</link>
       <guid isPermaLink="false">an:werkstudent-in-sustainability-supply-chain-administration-wurzburg-434799</guid>
@@ -287,14 +287,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Oviva · Berlin · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Working Student (m/f/x) - Business Operations</title>
-      <link>https://www.arbeitnow.com/jobs/companies/cofinity-x-gmbh/working-student-business-operations-koln-268281</link>
-      <guid isPermaLink="false">an:working-student-business-operations-koln-268281</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Cofinity-X GmbH · Köln · Operations &amp; Logistics · no German needed</description>
     </item>
     <item>
       <title>Working Student – Legal Operations &amp; AI Automation</title>
@@ -327,14 +319,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>AURA Health Technologies GmbH · Berlin · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Supply Chain Planning Working Student (all genders)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/hellofresh/supply-chain-planning-working-student-all-genders-berlin-berlin-64817</link>
-      <guid isPermaLink="false">an:supply-chain-planning-working-student-all-genders-berlin-berlin-64817</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>hellofresh · Berlin · Operations &amp; Logistics · no German needed</description>
     </item>
   </channel>
 </rss>

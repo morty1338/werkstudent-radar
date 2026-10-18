@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/marketing.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) gesucht als Marketingassistent:in</title>
+      <link>https://www.arbeitnow.com/jobs/companies/klickrendite-ug/marketingassistentin-leipzig-410947</link>
+      <guid isPermaLink="false">an:marketingassistentin-leipzig-410947</guid>
+      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Klickrendite UG · Leipzig · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent Social Media (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/leonine-holding-gmbh/werkstudent-social-media-berlin-162633</link>
+      <guid isPermaLink="false">an:werkstudent-social-media-berlin-162633</guid>
+      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>LEONINE Holding GmbH · Berlin · Marketing &amp; Communication</description>
+    </item>
     <item>
       <title>G &amp; B Automatisierungstechnik GmbH &amp; Co.KG: Werkstudent (m/w/d) Content Marketing</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2465011792188001-S</link>
@@ -385,14 +401,6 @@
       <description>Ritter von Gral GmbH · Cottbus · Marketing &amp; Communication</description>
     </item>
     <item>
-      <title>Werkstudent Social Media | Marketing (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-social-media-marketing-bad-salzungen-82299</link>
-      <guid isPermaLink="false">an:werkstudent-social-media-marketing-bad-salzungen-82299</guid>
-      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>WerraEnergie GmbH · Bad Salzungen · Marketing &amp; Communication · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent Digital Marketing &amp; E-Commerce (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208269090-S</link>
       <guid isPermaLink="false">10000-1208269090-S</guid>
@@ -585,14 +593,6 @@
       <description>Oviva · Marketing &amp; Communication</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) Digital Experience – Growth, Brand &amp; New Business</title>
-      <link>https://www.arbeitnow.com/jobs/companies/lemundo/werkstudent-digital-experience-growth-brand-new-business-hamburg-390727</link>
-      <guid isPermaLink="false">an:werkstudent-digital-experience-growth-brand-new-business-hamburg-390727</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Lemundo · Hamburg · Marketing &amp; Communication</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) Marketing</title>
       <link>https://www.arbeitnow.com/jobs/companies/kebos-group-gmbh/werkstudent-marketing-munchen-milbertshofen-239681</link>
       <guid isPermaLink="false">an:werkstudent-marketing-munchen-milbertshofen-239681</guid>
@@ -601,28 +601,12 @@
       <description>KEBOS Group GmbH · München · Marketing &amp; Communication</description>
     </item>
     <item>
-      <title>Werkstudent PR &amp; Marketing (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/legalhero/werkstudent-pr-marketing-berlin-86066</link>
-      <guid isPermaLink="false">an:werkstudent-pr-marketing-berlin-86066</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Legalhero · Berlin · Marketing &amp; Communication</description>
-    </item>
-    <item>
       <title>Working Student Content Creation - Remote / Berlin (German Speaking)</title>
       <link>https://www.arbeitnow.nl/jobs/companies/uplane/working-student-content-creation-remote-berlin-german-speaking-255273</link>
       <guid isPermaLink="false">an:working-student-content-creation-remote-berlin-german-speaking-255273</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>Uplane · €20.00/h · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Working Student Marketing - Content Creation</title>
-      <link>https://www.arbeitnow.com/jobs/companies/deeploi-this-is-it/working-student-marketing-content-creation-berlin-153309</link>
-      <guid isPermaLink="false">an:working-student-marketing-content-creation-berlin-153309</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>deeploi - This is IT · Berlin · Marketing &amp; Communication · no German needed</description>
     </item>
     <item>
       <title>Werkstudent Content &amp; Social Media Marketing</title>
@@ -655,30 +639,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>Brezzels GmbH · Seligenstadt · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent/in Digital Marketing, Content &amp; KI</title>
-      <link>https://www.arbeitnow.com/jobs/companies/martinis-gmbh/werkstudent-in-digital-marketing-content-ki-quierschied-331498</link>
-      <guid isPermaLink="false">an:werkstudent-in-digital-marketing-content-ki-quierschied-331498</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Martinis GmbH · Quierschied · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent / Praktikant (m/w/d) Marketing &amp; Sales – Hotel-Tech-Startup</title>
-      <link>https://www.arbeitnow.com/jobs/companies/suitee-spectrum-gmbh/werkstudent-praktikant-marketing-sales-hotel-tech-startup-munich-213982</link>
-      <guid isPermaLink="false">an:werkstudent-praktikant-marketing-sales-hotel-tech-startup-munich-213982</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>SUITEe Spectrum GmbH · Berlin · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Social Media und Newsletter (m/w/d), remote</title>
-      <link>https://www.arbeitnow.com/jobs/companies/steuerberaterin-nadine-brandstatter/werkstudentin-social-media-und-newsletter-remote-munchen-32254</link>
-      <guid isPermaLink="false">an:werkstudentin-social-media-und-newsletter-remote-munchen-32254</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Steuerberaterin Nadine Brandstätter · Berlin · €16.50/h · Marketing &amp; Communication</description>
     </item>
   </channel>
 </rss>

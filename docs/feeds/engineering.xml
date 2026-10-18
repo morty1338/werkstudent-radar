@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Gebäudetechnik / TGA</title>
+      <link>https://www.arbeitnow.com/jobs/companies/arcus-planung-beratung-bauplanungsgesellschaft-mbh/werkstudent-gebaudetechnik-tga-cottbus-4010</link>
+      <guid isPermaLink="false">an:werkstudent-gebaudetechnik-tga-cottbus-4010</guid>
+      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>ARCUS Planung + Beratung Bauplanungsgesellschaft mbH · Cottbus · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) - im Bereich Elektro-, Automations- und Leittechnik</title>
+      <link>https://www.arbeitnow.com/jobs/companies/arcus-planung-beratung-bauplanungsgesellschaft-mbh/werkstudent-im-bereich-elektro-automations-und-leittechnik-berlin-440853</link>
+      <guid isPermaLink="false">an:werkstudent-im-bereich-elektro-automations-und-leittechnik-berlin-440853</guid>
+      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>ARCUS Planung + Beratung Bauplanungsgesellschaft mbH · Berlin · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Working Student - Privacy Engineering &amp; Compliance Automation (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tytan-technologies-gmbh/working-student-privacy-engineering-compliance-automation-munich-296867</link>
+      <guid isPermaLink="false">an:working-student-privacy-engineering-compliance-automation-munich-296867</guid>
+      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>TYTAN Technologies GmbH · München · Engineering &amp; Production · no German needed</description>
+    </item>
     <item>
       <title>ZIGPOS GmbH: Werkstudent (m/w/d) für Testautomation</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2664921792188001-S</link>
@@ -441,30 +465,6 @@
       <description>DEKRA · Worms · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent Elektrotechnik / Energietechnik (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-elektrotechnik-energietechnik-bad-salzungen-65018</link>
-      <guid isPermaLink="false">an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-65018</guid>
-      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>WerraEnergie GmbH · Bad Salzungen · Engineering &amp; Production · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent in der Konstruktion (w/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/knick-gmbh/werkstudent-in-der-konstruktion-knick-berlin-323670</link>
-      <guid isPermaLink="false">an:werkstudent-in-der-konstruktion-knick-berlin-323670</guid>
-      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Knick Gmbh · Berlin · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Schulungskonzepte &amp; Erneuerbare Energien</title>
-      <link>https://www.arbeitnow.com/jobs/companies/lichtblick-energy-as-a-service-gmbh/werkstudent-schulungskonzepte-erneuerbare-energien-koln-zentrale-349620</link>
-      <guid isPermaLink="false">an:werkstudent-schulungskonzepte-erneuerbare-energien-koln-zentrale-349620</guid>
-      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>LichtBlick Energy as a Service GmbH · Köln · Engineering &amp; Production</description>
-    </item>
-    <item>
       <title>Studentische Hilfskraft/Werkstudent  (m/w/d) Straßenbau, Tiefbau und Kanalbau - Bauingenieurwesen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003761453-S</link>
       <guid isPermaLink="false">10001-1003761453-S</guid>
@@ -673,28 +673,12 @@
       <description>Hamburg Port Authority AÖR · Hamburg · €19.11/h · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent Prozessmanagement &amp; Technischer Service (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/deutsche-giganetz-gmbh/werkstudent-prozessmanagement-technischer-service-hamburg-107091</link>
-      <guid isPermaLink="false">an:werkstudent-prozessmanagement-technischer-service-hamburg-107091</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Deutsche GigaNetz GmbH · Hamburg · Engineering &amp; Production</description>
-    </item>
-    <item>
       <title>Werkstudent*in Simulation</title>
       <link>https://www.arbeitnow.com/jobs/companies/miebach-consulting-gmbh/werkstudentin-simulation-frankfurt-am-main-277128</link>
       <guid isPermaLink="false">an:werkstudentin-simulation-frankfurt-am-main-277128</guid>
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Miebach Consulting GmbH · Frankfurt am Main · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Working Student International Energy Advisory (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/westbridge-gruppe/working-student-international-energy-advisory-frankfurt-am-main-241659</link>
-      <guid isPermaLink="false">an:working-student-international-energy-advisory-frankfurt-am-main-241659</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Westbridge Gruppe · Frankfurt am Main · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent CAE Simulation (x|w|m)</title>
@@ -767,22 +751,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Harry-Brot Group SE &amp; Co. KG · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Working Student - Electrical Engineering (All Genders)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/skdse/working-student-electrical-engineering-all-genders-477174</link>
-      <guid isPermaLink="false">an:working-student-electrical-engineering-all-genders-477174</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Skdse · Engineering &amp; Production · no German needed</description>
-    </item>
-    <item>
-      <title>Menarini - Von Heyden GmH: Werkstudent Supply Chain – Produktionsplanung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3076741791583200-S</link>
-      <guid isPermaLink="false">11956-3076741791583200-S</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Menarini - Von Heyden GmH · Dresden · Engineering &amp; Production</description>
     </item>
   </channel>
 </rss>

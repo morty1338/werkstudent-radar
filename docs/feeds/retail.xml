@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Verkäufer / Kassierer (m/w/d)</title>
@@ -193,14 +193,6 @@
       <description>KULT | OLYMP &amp; HADES · Berlin · Retail &amp; Hospitality</description>
     </item>
     <item>
-      <title>Working Student &amp; Minijob Retail Store (all genders) // Werkstudium</title>
-      <link>https://www.arbeitnow.com/jobs/companies/armedangels/working-student-minijob-retail-store-all-genders-werkstudium-store-koln-448291</link>
-      <guid isPermaLink="false">an:working-student-minijob-retail-store-all-genders-werkstudium-store-koln-448291</guid>
-      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Armedangels · Köln · Retail &amp; Hospitality</description>
-    </item>
-    <item>
       <title>Werkstudent / Studentische Aushilfe 14:00 - 21:30 (Mo, Mi, Do)(m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1459305-39553-1-S</link>
       <guid isPermaLink="false">12608-1459305-39553-1-S</guid>
@@ -359,22 +351,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>budni · Hamburg · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudentin im Verkauf - Karlsruhe Ettlinger Tor (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003837818-S</link>
-      <guid isPermaLink="false">10001-1003837818-S</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Hunkemöller Deutschland B.V. &amp; Co. KG · Karlsruhe · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudentin im Verkauf - Konstanz</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003837820-S</link>
-      <guid isPermaLink="false">10001-1003837820-S</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Hunkemöller Deutschland B.V. &amp; Co. KG · Konstanz · Retail &amp; Hospitality</description>
     </item>
   </channel>
 </rss>

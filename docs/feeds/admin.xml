@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Nebenjob/ Werkstudent/ Studentische Aushilfe (m/w/d) am Empfang</title>
@@ -177,28 +177,12 @@
       <description>42watt · München · Office &amp; Admin</description>
     </item>
     <item>
-      <title>Werkstudent Office Management (all genders)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/aroundhome/werkstudent-office-management-all-genders-berlin-296711</link>
-      <guid isPermaLink="false">an:werkstudent-office-management-all-genders-berlin-296711</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Aroundhome · Berlin · Office &amp; Admin</description>
-    </item>
-    <item>
       <title>Werkstudent/innen (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839565-S</link>
       <guid isPermaLink="false">10001-1003839565-S</guid>
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Office &amp; Admin</category>
       <description>Kanzlei Voigt Rechtsanwalts GmbH · Koblenz am Rhein · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Office &amp; Team Management (F/M/*)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/amber/werkstudent-office-team-management-f-m-aachen-491481</link>
-      <guid isPermaLink="false">an:werkstudent-office-team-management-f-m-aachen-491481</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Amber · Aachen · €15.50/h · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

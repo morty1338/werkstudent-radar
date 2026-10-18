@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent - Agiles Projektmanagement im Bereich E-Invoicing (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/cbs-corporate-business-solutions-gmbh/werkstudent-agiles-projektmanagement-im-bereich-e-invoicing-dortmund-287094</link>
+      <guid isPermaLink="false">an:werkstudent-agiles-projektmanagement-im-bereich-e-invoicing-dortmund-287094</guid>
+      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>cbs Corporate Business Solutions GmbH · Dortmund · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent im Bereich Projektakquise und Vertragsmanagement</title>
+      <link>https://www.arbeitnow.com/jobs/companies/arcus-planung-beratung-bauplanungsgesellschaft-mbh/werkstudent-im-bereich-projektakquise-und-vertragsmanagement-cottbus-59594</link>
+      <guid isPermaLink="false">an:werkstudent-im-bereich-projektakquise-und-vertragsmanagement-cottbus-59594</guid>
+      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>ARCUS Planung + Beratung Bauplanungsgesellschaft mbH · Cottbus · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent Projektentwicklung und Grundstücksakquise (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003867425-S</link>
@@ -191,14 +207,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>BWI GmbH · €16.00/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Projektmanagement</title>
-      <link>https://www.arbeitnow.com/jobs/companies/nexmart-gmbh-co-kg/werkstudent-projektmanagement-stuttgart-349020</link>
-      <guid isPermaLink="false">an:werkstudent-projektmanagement-stuttgart-349020</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>nexMart GmbH &amp; Co. KG · Stuttgart · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudent Projektmanagement (m/w/d) | 16-18 € / Std. | 20 Std. / Woche</title>

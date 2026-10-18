@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>GISA GmbH: Werkstudent:in Business Intelligence, Analytics und AI (m/w/d)*</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2985001792274401-S</link>
+      <guid isPermaLink="false">11956-2985001792274401-S</guid>
+      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>GISA GmbH · Halle · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student - Data &amp; Financial Research eCommerce (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/ecdb-gmbh-latest/working-student-data-financial-research-ecommerce-hamburg-359904</link>
+      <guid isPermaLink="false">an:working-student-data-financial-research-ecommerce-hamburg-359904</guid>
+      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Ecdb Gmbh Latest · Hamburg · Data &amp; Analytics · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent Datenpflege &amp; Datenmanagement (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15992-2359080-S</link>
@@ -201,14 +217,6 @@
       <description>Teampicnic · Düsseldorf · €15.12/h · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Working Student Analytics Engineering (f/m/x)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/thermondo/working-student-analytics-engineering-berlin-zentrale-381296</link>
-      <guid isPermaLink="false">an:working-student-analytics-engineering-berlin-zentrale-381296</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Thermondo · Berlin · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
       <title>Working Student / Intern – Control Team (Systems &amp; Data Infrastructure) (f/m/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/phlair/working-student-intern-control-team-systems-data-infrastructure-munchen-297607</link>
       <guid isPermaLink="false">an:working-student-intern-control-team-systems-data-infrastructure-munchen-297607</guid>
@@ -231,14 +239,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>EUROKEY Software GmbH · Saarbrücken · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Landwirtschaft und betriebliche Datenprüfung (all genders) (Berlin I DE Remote möglich)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/klim/werkstudentin-landwirtschaft-und-betriebliche-datenprufung-all-genders-berlin-i-de-remote-moglich-235990</link>
-      <guid isPermaLink="false">an:werkstudentin-landwirtschaft-und-betriebliche-datenprufung-all-genders-berlin-i-de-remote-moglich-235990</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Klim · Berlin · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

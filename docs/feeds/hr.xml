@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 08:48:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (w/m/d) Recruiting &amp;  Projekte</title>
@@ -257,14 +257,6 @@
       <description>N.O.C Engineering GmbH · Rottweil · HR &amp; Recruiting</description>
     </item>
     <item>
-      <title>Werkstudent:in (m/w/d) Personalmanagement</title>
-      <link>https://www.arbeitnow.com/jobs/companies/mvz-hph/werkstudentin-personalmanagement-hamburg-476515</link>
-      <guid isPermaLink="false">an:werkstudentin-personalmanagement-hamburg-476515</guid>
-      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Mvz Hph · Hamburg · HR &amp; Recruiting</description>
-    </item>
-    <item>
       <title>Werkstudent Recruiting (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003843773-S</link>
       <guid isPermaLink="false">10001-1003843773-S</guid>
@@ -401,30 +393,6 @@
       <description>KEBOS Group GmbH · München · HR &amp; Recruiting</description>
     </item>
     <item>
-      <title>Werkstudent*in (m/w/d) People &amp; Culture – Schwerpunkt Recruiting</title>
-      <link>https://www.arbeitnow.com/jobs/companies/oxg-glasfaser-gmbh/werkstudentin-people-culture-schwerpunkt-recruiting-dusseldorf-278710</link>
-      <guid isPermaLink="false">an:werkstudentin-people-culture-schwerpunkt-recruiting-dusseldorf-278710</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>OXG Glasfaser GmbH · Düsseldorf · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Working student (all genders) - Talent Development</title>
-      <link>https://www.arbeitnow.com/jobs/companies/xitaso/working-student-all-genders-talent-development-augsburg-292909</link>
-      <guid isPermaLink="false">an:working-student-all-genders-talent-development-augsburg-292909</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Xitaso · Augsburg · €17.50/h · HR &amp; Recruiting · no German needed</description>
-    </item>
-    <item>
-      <title>Working Student (m/f/x) - HR &amp; Finance</title>
-      <link>https://www.arbeitnow.com/jobs/companies/cofinity-x-gmbh/working-student-hr-finance-koln-102386</link>
-      <guid isPermaLink="false">an:working-student-hr-finance-koln-102386</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Cofinity-X GmbH · Köln · HR &amp; Recruiting · no German needed</description>
-    </item>
-    <item>
       <title>Working Student / Internship  HR Business Partner (m/f/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-internship-hr-business-partner-gilching-300929</link>
       <guid isPermaLink="false">an:working-student-internship-hr-business-partner-gilching-300929</guid>
@@ -463,22 +431,6 @@
       <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>RoX Health · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>People Operations Working Student</title>
-      <link>https://www.arbeitnow.com/jobs/companies/gympass/people-operations-working-student-476920</link>
-      <guid isPermaLink="false">an:people-operations-working-student-476920</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>gympass · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Working Student - Executive Talent Sourcing</title>
-      <link>https://www.arbeitnow.com/jobs/companies/sumup/working-student-executive-talent-sourcing-berlin-326490</link>
-      <guid isPermaLink="false">an:working-student-executive-talent-sourcing-berlin-326490</guid>
-      <pubDate>Sun, 11 Oct 2026 06:30:00 +0200</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>sumup · Berlin · HR &amp; Recruiting · no German needed</description>
     </item>
   </channel>
 </rss>
