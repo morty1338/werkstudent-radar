@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent im Bereich Finanz-, Kassen- und Rechnungswesen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003873982-S</link>
+      <guid isPermaLink="false">10001-1003873982-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Deutsche Rentenversicherung Oldenburg-Bremen · Oldenburg (Oldb) · €14.25/h · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent/-in Vertriebssteuerung NeoPrivatbank (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003875368-S</link>
+      <guid isPermaLink="false">10001-1003875368-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Fürstlich Castell'sche Bank Credit-Casse AG · Würzburg · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent - Tax (m/w/d) (Kassel Hybrid, DE)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15537-JOB-866470-S</link>
+      <guid isPermaLink="false">15537-JOB-866470-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>SMA Solar Technology AG · Niestetal · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-171872</link>
+      <guid isPermaLink="false">an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-171872</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Kevin Kehr · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-382532</link>
+      <guid isPermaLink="false">an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-382532</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Kevin Kehr · Hamburg · Finance &amp; Controlling</description>
+    </item>
     <item>
       <title>Werkstudent/in Finance (m/w/d) Liquiditätsmanagement, Erfurt, Polyklinik</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2359097-S</link>
@@ -303,30 +343,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Smart Systems Hub GmbH · Dresden · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Working Student Tax Operations - Withholding Tax</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003842540-S</link>
-      <guid isPermaLink="false">10001-1003842540-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Universal-Investment-GmbH · Frankfurt am Main · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Controlling (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1459339-28033-1-S</link>
-      <guid isPermaLink="false">12608-1459339-28033-1-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>REWE Group · Köln · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Bereich Controlling – EMEA Region</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19663-0068030267-S</link>
-      <guid isPermaLink="false">19663-0068030267-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Kelvion Holding GmbH · Herne · Finance &amp; Controlling</description>
     </item>
   </channel>
 </rss>

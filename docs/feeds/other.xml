@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Hochschulkooperationen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-784-1-S</link>
+      <guid isPermaLink="false">12728-784-1-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>E.DIS AG · Fürstenwalde/Spree · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-bad-salzungen-463201</link>
+      <guid isPermaLink="false">an:werkstudent-bad-salzungen-463201</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>WerraEnergie GmbH · Bad Salzungen · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Bar &amp; Service (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/limehome/werkstudentin-bar-service-munchen-54586</link>
+      <guid isPermaLink="false">an:werkstudentin-bar-service-munchen-54586</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>limehome · München · Other</description>
+    </item>
     <item>
       <title>Driver / Cleaner Carsharing (f/m/x/d) - Working student</title>
       <link>https://www.arbeitnow.com/jobs/companies/miles-mobility-gmbh/driver-cleaner-carsharing-d-working-student-berlin-192279</link>
@@ -185,14 +209,6 @@
       <description>Doctolib · Berlin · €15.00/h · Other</description>
     </item>
     <item>
-      <title>Werkstudent Betriebsplanung (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/flix/werkstudent-betriebsplanung-berlin-419766</link>
-      <guid isPermaLink="false">an:werkstudent-betriebsplanung-berlin-419766</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Flix · Berlin · Other</description>
-    </item>
-    <item>
       <title>Werkstudent Operational Planning (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/flix/werkstudent-operational-planning-berlin-378635</link>
       <guid isPermaLink="false">an:werkstudent-operational-planning-berlin-378635</guid>
@@ -361,14 +377,6 @@
       <description>Softengine Holding GmbH · Berlin · Other</description>
     </item>
     <item>
-      <title>Working Student - LLM Quantization &amp; Inference Performance</title>
-      <link>https://www.arbeitnow.com/jobs/companies/tensordyne/working-student-llm-quantization-inference-performance-munich-124483</link>
-      <guid isPermaLink="false">an:working-student-llm-quantization-inference-performance-munich-124483</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Tensordyne · München · Other · no German needed</description>
-    </item>
-    <item>
       <title>Praktikum/Werkstudententätigkeit Teilezerlegung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4964543373-S</link>
       <guid isPermaLink="false">12288-4964543373-S</guid>
@@ -487,22 +495,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>Quantum-Systems GmbH · Gilching · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Fuhrparkmanagement (m/w/d/ohne Angabe)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003817073-S</link>
-      <guid isPermaLink="false">10001-1003817073-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Ostdeutscher Sparkassenverband · Berlin · €15.00/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent zur Unterstützung der Geschäftsführung (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/debitos-gmbh/werkstudent-zur-unterstutzung-der-geschaftsfuhrung-frankfurt-am-main-257565</link>
-      <guid isPermaLink="false">an:werkstudent-zur-unterstutzung-der-geschaftsfuhrung-frankfurt-am-main-257565</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Debitos GmbH · Frankfurt am Main · Other</description>
     </item>
   </channel>
 </rss>

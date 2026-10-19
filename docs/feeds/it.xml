@@ -6,8 +6,72 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent IT Business Engineer (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1460902-4078-1-S</link>
+      <guid isPermaLink="false">12608-1460902-4078-1-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>REWE digital GmbH · Köln · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Working Student IT Support &amp; Operations (m/f/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-03be7d44-f5ee-49a1--S</link>
+      <guid isPermaLink="false">12951-03be7d44-f5ee-49a1--S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Zenjob SE · Berlin · IT &amp; Software · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) – Assembly and Transportation Technology</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-973935-008-S</link>
+      <guid isPermaLink="false">16604-973935-008-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>thyssenkrupp AG Entgeltabrechnung · Dortmund · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Working Student (all genders welcome) - Product gH2</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-973938-008-S</link>
+      <guid isPermaLink="false">16604-973938-008-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>thyssenkrupp AG Entgeltabrechnung · Dortmund · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>AI Builder — Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/eggai/ai-builder-working-student-tubingen-189697</link>
+      <guid isPermaLink="false">an:ai-builder-working-student-tubingen-189697</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Eggai · Tübingen · IT &amp; Software · no German needed</description>
+    </item>
+    <item>
+      <title>Informatik Student/in als IT-Allrounder/in | im Stundenlohn, ca. 20-30%</title>
+      <link>https://www.arbeitnow.ch/jobs/companies/schmid-group-ag/informatik-student-in-als-it-allrounder-in-im-stundenlohn-ca-20-30-lengnau-75473</link>
+      <guid isPermaLink="false">an:informatik-student-in-als-it-allrounder-in-im-stundenlohn-ca-20-30-lengnau-75473</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>SCHMID GROUP AG · Lengnau · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Product, AI &amp; Venture Building</title>
+      <link>https://www.arbeitnow.com/jobs/companies/vt-netzwelt-gmbh/werkstudentin-product-ai-venture-building-berlin-383594</link>
+      <guid isPermaLink="false">an:werkstudentin-product-ai-venture-building-berlin-383594</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>VT Netzwelt GmbH · Berlin · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Wirtschaftsinformatiker Werkstudent (m/w/d) - 20 Stunden/ Woche</title>
+      <link>https://www.arbeitnow.com/jobs/companies/sammer-malereibetrieb-gmbh/wirtschaftsinformatiker-werkstudent-20-stunden-woche-munchen-294021</link>
+      <guid isPermaLink="false">an:wirtschaftsinformatiker-werkstudent-20-stunden-woche-munchen-294021</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Sammer Malereibetrieb GmbH · München · IT &amp; Software</description>
+    </item>
     <item>
       <title>ITARICON: Werkstudent IT Consulting &amp; Cloud Integration - SAP CI Umfeld (Mensch*)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3022631792274401-S</link>
@@ -95,14 +159,6 @@
       <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>GISA GmbH · Leipzig · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Safety &amp; Sustainability / HSE (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003866725-S</link>
-      <guid isPermaLink="false">10001-1003866725-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Maxion Wheels Werke GmbH · Königswinter · €18.32/h · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) oder Minijobber (m/w/d) IT-Support / First-Level-Support</title>
@@ -257,14 +313,6 @@
       <description>Siemens AG · München · €15.00/h · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent DevOps und IT Service Management (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-693-1-S</link>
-      <guid isPermaLink="false">12728-693-1-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>E.ON Digital Technology GmbH · Essen · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Werkstudent IT Support &amp; Betrieb (m/w/d), Bochum</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357331-S</link>
       <guid isPermaLink="false">12811-2357331-S</guid>
@@ -383,14 +431,6 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Netzfrequenz GmbH · München · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) - IT-Security</title>
-      <link>https://www.arbeitnow.com/jobs/companies/advitos-gmbh/werkstudent-it-security-munich-477690</link>
-      <guid isPermaLink="false">an:werkstudent-it-security-munich-477690</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>ADVITOS GmbH · München · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent*in WordPress / Webentwicklung ( Hybrid, MacBook)</title>
@@ -569,14 +609,6 @@
       <description>Berliner Verkehrsbetriebe (BVG) · Berlin · €18.03/h · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent IT Projektmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15224-44502303-1012-S</link>
-      <guid isPermaLink="false">15224-44502303-1012-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>ProSiebenSat.1 Media SE · München · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Werkstudent Safety, Quality, Cybersecurity Management (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635566-7878-9694-S</link>
       <guid isPermaLink="false">15939-BB-635566-7878-9694-S</guid>
@@ -615,62 +647,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>ENQT GmbH · Hamburg · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent/Minijob Sales Specialist (m/w/d) – Cloud &amp; KI-Lösungen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003838201-S</link>
-      <guid isPermaLink="false">10001-1003838201-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Optiop GmbH · Frankfurt am Main · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent für Digitalisierung (m/w/d), München</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2355497-S</link>
-      <guid isPermaLink="false">12811-2355497-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Bayerische Versorgungskammer · München · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Digitale Transformation und KI (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12952-2026_1743441-S</link>
-      <guid isPermaLink="false">12952-2026_1743441-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>SCHEUERLE Fahrzeugfabrik GmbH · Pfedelbach · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Systemmodellierung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635556-7878-6464-S</link>
-      <guid isPermaLink="false">15939-BB-635556-7878-6464-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Rheinmetall AG · Unterlüß · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Arbeitssicherheit-, Gesundheit- und Umweltschutz (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635559-7878-7279-S</link>
-      <guid isPermaLink="false">15939-BB-635559-7878-7279-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Rheinmetall AG · Kassel · €18.14/h · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Praktikant/Werkstudent für Buy and Build IT-Plattform [ab sofort]</title>
-      <link>https://www.arbeitnow.com/jobs/companies/andcompany/praktikant-werkstudent-fur-buy-and-build-it-plattform-ab-sofort-frankfurt-am-main-155330</link>
-      <guid isPermaLink="false">an:praktikant-werkstudent-fur-buy-and-build-it-plattform-ab-sofort-frankfurt-am-main-155330</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>AndCompany · Frankfurt am Main · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Unsolicited Application: Working Student - Software Engineering (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/tytan-technologies-gmbh/unsolicited-application-working-student-software-engineering-munich-322796</link>
-      <guid isPermaLink="false">an:unsolicited-application-working-student-software-engineering-munich-322796</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>TYTAN Technologies GmbH · München · IT &amp; Software · no German needed</description>
     </item>
   </channel>
 </rss>

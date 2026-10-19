@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Mediengestaltung &amp; Webdesign (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003875637-S</link>
+      <guid isPermaLink="false">10001-1003875637-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>MHC Holding GmbH · Germersheim · Design &amp; UX</description>
+    </item>
     <item>
       <title>Werkstudent*in (w/m/d) Visual Design</title>
       <link>https://www.arbeitnow.com/jobs/companies/leonine-holding-gmbh/werkstudentin-visual-design-koln-449096</link>
@@ -127,22 +135,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>Sportec Solutions AG · Unterföhring · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Working Student - CAD design</title>
-      <link>https://www.arbeitnow.com/jobs/companies/kyrall/working-student-cad-design-munich-164638</link>
-      <guid isPermaLink="false">an:working-student-cad-design-munich-164638</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Kyrall · München · Design &amp; UX · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent:in im Bereich Grafik- und Mediendesign (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003840330-S</link>
-      <guid isPermaLink="false">10001-1003840330-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>CISPA - Helmholtz-Zentrum für Informationssicherheit gGmbH · Saarbrücken · Design &amp; UX</description>
     </item>
   </channel>
 </rss>

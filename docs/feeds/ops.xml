@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Sustainability &amp; Supply Chain im Einkauf (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635635-7878-5511-S</link>
+      <guid isPermaLink="false">15939-BB-635635-7878-5511-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Rheinmetall AG · Bonn · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent:in (m/w/d) – Operations &amp; Office Management</title>
       <link>https://www.arbeitnow.com/jobs/companies/tide/werkstudentin-operations-office-management-berlin-369297</link>
@@ -193,14 +201,6 @@
       <description>MEG Neuensalz GmbH · Neuensalz · Operations &amp; Logistics</description>
     </item>
     <item>
-      <title>Werkstudentin/Werkstudent Lager/Logistik (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003844665-S</link>
-      <guid isPermaLink="false">10001-1003844665-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>W + R GmbH · Metzingen · €15.00/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) Immobilienwirtschaft</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003851101-S</link>
       <guid isPermaLink="false">10001-1003851101-S</guid>
@@ -295,30 +295,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Lovehoney Group · Berlin · Operations &amp; Logistics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Einkauf (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12489-44499300-1011-S</link>
-      <guid isPermaLink="false">12489-44499300-1011-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Fressnapf Holding SE · Krefeld · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent: in im Einkauf / Materialbeschaffung (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/technica-engineering-gmbh/werkstudent-in-im-einkauf-materialbeschaffung-munchen-129850</link>
-      <guid isPermaLink="false">an:werkstudent-in-im-einkauf-materialbeschaffung-munchen-129850</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Technica Engineering GmbH · München · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Operations</title>
-      <link>https://www.arbeitnow.com/jobs/companies/aura-health-technologies-gmbh/werkstudentin-operations-berlin-356012</link>
-      <guid isPermaLink="false">an:werkstudentin-operations-berlin-356012</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>AURA Health Technologies GmbH · Berlin · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

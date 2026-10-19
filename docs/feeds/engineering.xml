@@ -6,8 +6,56 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Architektur / Bauingenieurwesen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003876478-S</link>
+      <guid isPermaLink="false">10001-1003876478-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Thüringer Landgesellschaft mbH · Erfurt · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Wasserstofftankstelle (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-492529_JB5275986-S</link>
+      <guid isPermaLink="false">12265-492529_JB5275986-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Ferchau GmbH Karlsruhe Mobility · Wörth am Rhein · €14.50/h · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Qualitätsmanagement (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4970277468-S</link>
+      <guid isPermaLink="false">12288-4970277468-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Optipack GmbH · Fischach · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Erneuerbare Energien</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-257e1a7c-4d00-4e88--S</link>
+      <guid isPermaLink="false">12951-257e1a7c-4d00-4e88--S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Aira Home Germany GmbH · Berlin · €15.00/h · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (all genders) Facility Management - Technical Operations &amp; Compliance</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-6944f0cf-3539-45a2--S</link>
+      <guid isPermaLink="false">12951-6944f0cf-3539-45a2--S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>H World International Germany · Frankfurt am Main · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Elektrotechnik / Energietechnik (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-elektrotechnik-energietechnik-bad-salzungen-140375</link>
+      <guid isPermaLink="false">an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-140375</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>WerraEnergie GmbH · Bad Salzungen · Engineering &amp; Production · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) Gebäudetechnik / TGA</title>
       <link>https://www.arbeitnow.com/jobs/companies/arcus-planung-beratung-bauplanungsgesellschaft-mbh/werkstudent-gebaudetechnik-tga-cottbus-4010</link>
@@ -41,14 +89,6 @@
       <description>ZIGPOS GmbH · Dresden · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Praktikanten* und Werkstudenten* bei Horn &amp; Bauer</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f1048j0455629-S</link>
-      <guid isPermaLink="false">12336-a26f1048j0455629-S</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Horn &amp; Bauer GmbH &amp; Co. KG · Schwalmstadt · Engineering &amp; Production</description>
-    </item>
-    <item>
       <title>Working Student — AI Engineering &amp; Document Intelligence</title>
       <link>https://www.arbeitnow.com/jobs/companies/tracium-gmbh/working-student-ai-engineering-document-intelligence-berlin-357203</link>
       <guid isPermaLink="false">an:working-student-ai-engineering-document-intelligence-berlin-357203</guid>
@@ -63,14 +103,6 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Handwerkskammer Aachen · Aachen · €13.98/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent für KI-Automatisierung und technische Lösungen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003870080-S</link>
-      <guid isPermaLink="false">10001-1003870080-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Die KMU-Berater e.V. · Köln · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent / Praktikant (m/w/d) - im Bereich der Entwicklung</title>
@@ -679,78 +711,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Miebach Consulting GmbH · Frankfurt am Main · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent CAE Simulation (x|w|m)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839954-S</link>
-      <guid isPermaLink="false">10001-1003839954-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Sartorius Corporate Administration GmbH · Göttingen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Industrial Engineering - Working Student</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003842213-S</link>
-      <guid isPermaLink="false">10001-1003842213-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Nexperia Germany GmbH · Hamburg · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent/in (m/w/d)– Technik, Produktion und Prozesse</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003842620-S</link>
-      <guid isPermaLink="false">10001-1003842620-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>platzmann federn gmbh &amp; co. kg · Hagen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Baumanagement in Coburg</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4961405463-S</link>
-      <guid isPermaLink="false">12288-4961405463-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Drees &amp; Sommer SE · Nürnberg · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Material Management (m/w/d), Hattersheim am Main</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2355402-S</link>
-      <guid isPermaLink="false">12811-2355402-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Kuraray Europe GmbH · Hattersheim am Main · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Prozesssimulation und -optimierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12942-1641985-1-S</link>
-      <guid isPermaLink="false">12942-1641985-1-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Dirk Rossmann GmbH · Burgwedel · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Cost Engineering (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-js_bc_88_JB5268956-S</link>
-      <guid isPermaLink="false">13635-js_bc_88_JB5268956-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Uhlmann Pac-Systeme GmbH &amp; Co. KG · Laupheim · €16.00/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Technische Dienste (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635553-7878-6083-S</link>
-      <guid isPermaLink="false">15939-BB-635553-7878-6083-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Rheinmetall AG · Neuenburg am Rhein · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Elektrotechnik / Energietechnik / Automatisierungstechnik (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19108-976196882-S</link>
-      <guid isPermaLink="false">19108-976196882-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Harry-Brot Group SE &amp; Co. KG · Engineering &amp; Production</description>
     </item>
   </channel>
 </rss>

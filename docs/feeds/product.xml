@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent - Agiles Projektmanagement im Bereich E-Invoicing (m/w/d)</title>
@@ -207,38 +207,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>BWI GmbH · €16.00/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Projektmanagement (m/w/d) | 16-18 € / Std. | 20 Std. / Woche</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-52501-YF-S</link>
-      <guid isPermaLink="false">12117-YF-52501-YF-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>D&amp;TS GmbH · Schwelm · €17.00/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Produktmanagement / Back Office (m/w/d), Jena</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2355405-S</link>
-      <guid isPermaLink="false">12811-2355405-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>DAKO GmbH · Jena · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Projektportfoliomanagement (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-461e17c7-76a0-4f7a--S</link>
-      <guid isPermaLink="false">12951-461e17c7-76a0-4f7a--S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>MTU Aero Engines AG · München · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Praktikant/ Werkstudent Projektleitung Digital Health Solutions (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20478-2355557-S</link>
-      <guid isPermaLink="false">20478-2355557-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Deutsche Telekom MMS GmbH · Leipzig · €16.00/h · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

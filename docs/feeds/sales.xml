@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent im Vertrieb (m/w/d) Zwickau</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14385-422-3060P-26-S</link>
+      <guid isPermaLink="false">14385-422-3060P-26-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>ARWA Personaldienstleistungen GmbH · Zwickau · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent B2B-Vertrieb (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/gusti-leder-gmbh/werkstudent-b2b-vertrieb-rostock-227752</link>
+      <guid isPermaLink="false">an:werkstudent-b2b-vertrieb-rostock-227752</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Gusti Leder GmbH · Rostock · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent Business Development (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/nomios/werkstudent-business-development-frankfurt-am-main-403041</link>
+      <guid isPermaLink="false">an:werkstudent-business-development-frankfurt-am-main-403041</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Nomios · Frankfurt am Main · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent Sales – apeiron (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/ginmon-gmbh/werkstudent-sales-apeiron-frankfurt-379221</link>
+      <guid isPermaLink="false">an:werkstudent-sales-apeiron-frankfurt-379221</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Ginmon GmbH · Frankfurt am Main · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Sales Operations &amp; Kundenbetreuung</title>
       <link>https://www.arbeitnow.com/jobs/companies/inclusys/werkstudent-sales-operations-kundenbetreuung-heilbronn-17931</link>
@@ -97,14 +129,6 @@
       <description>360Volt GmbH · Bochum · Sales &amp; Business Development</description>
     </item>
     <item>
-      <title>Werkstudent/in (m/w/d) Sales Operations &amp; Business Support</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-3990f276_JB5273288-S</link>
-      <guid isPermaLink="false">13635-3990f276_JB5273288-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>finetech · Berlin · Sales &amp; Business Development · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent im Vertrieb (m/w/d) Recklinghausen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14385-482-3050P-26-S</link>
       <guid isPermaLink="false">14385-482-3050P-26-S</guid>
@@ -151,22 +175,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>LichtBlick SE · Hamburg · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent / Sales Assistant (m/w/d) - CECIL und Street One im Leo-Center in Leonberg</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839383-S</link>
-      <guid isPermaLink="false">10001-1003839383-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>CBR Service GmbH · Leonberg · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent / Praktikant Business Development &amp; Sales (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/brezzels-gmbh/werkstudent-praktikant-business-development-sales-seligenstadt-208928</link>
-      <guid isPermaLink="false">an:werkstudent-praktikant-business-development-sales-seligenstadt-208928</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Brezzels GmbH · Seligenstadt · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>

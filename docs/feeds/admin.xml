@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudentin (m/w/d) – Kaufmännische Betriebsführung &amp; Verwaltung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003874597-S</link>
+      <guid isPermaLink="false">10001-1003874597-S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>SUNLIFE-Service GmbH · Stuttgart · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent in der WEG-Verwaltung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-1958e8ec-b761-4151--S</link>
+      <guid isPermaLink="false">12951-1958e8ec-b761-4151--S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Vonovia Recruiting DE · Kassel · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudentin (m/w/d) im Sekretariat / Office Management</title>
+      <link>https://www.arbeitnow.com/jobs/companies/gusti-leder-gmbh/werkstudentin-im-sekretariat-office-management-rostock-315860</link>
+      <guid isPermaLink="false">an:werkstudentin-im-sekretariat-office-management-rostock-315860</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Gusti Leder GmbH · Rostock · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Nebenjob/ Werkstudent/ Studentische Aushilfe (m/w/d) am Empfang</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-CS4648-9QR-S</link>
@@ -15,14 +39,6 @@
       <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
       <category>Office &amp; Admin</category>
       <description>The Cloud One München-Hauptbahnhof · München · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent in der WEG-Verwaltung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14763-44514072-1016-S</link>
-      <guid isPermaLink="false">14763-44514072-1016-S</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Vonovia SE · Kassel · €15.00/h · Office &amp; Admin</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) kaufmännische Sachbearbeitung</title>
@@ -81,7 +97,7 @@
       <description>Vereinigung Integrations-Förderung e. V. · München · €15.69/h · Office &amp; Admin</description>
     </item>
     <item>
-      <title>Werkstudent Empfangsmitarbeiter (m/w/d)</title>
+      <title>Werkstudent am Empfang (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-ee47e34a-0931-4eef--S</link>
       <guid isPermaLink="false">12951-ee47e34a-0931-4eef--S</guid>
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
@@ -175,14 +191,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Office &amp; Admin</category>
       <description>42watt · München · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent/innen (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003839565-S</link>
-      <guid isPermaLink="false">10001-1003839565-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Kanzlei Voigt Rechtsanwalts GmbH · Koblenz am Rhein · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

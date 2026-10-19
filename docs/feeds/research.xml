@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Betriebsplanung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-bd9a818b-b6de-473f--S</link>
+      <guid isPermaLink="false">12951-bd9a818b-b6de-473f--S</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Flix · Berlin · Research &amp; Science</description>
+    </item>
+    <item>
+      <title>Werkstudent Forschung &amp; Entwicklung (m/w/d)</title>
+      <link>https://www.arbeitnow.ch/jobs/companies/fenx-ag/werkstudent-forschung-entwicklung-turgi-80009</link>
+      <guid isPermaLink="false">an:werkstudent-forschung-entwicklung-turgi-80009</guid>
+      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Research &amp; Science</category>
+      <description>FenX AG · Turgi · Research &amp; Science</description>
+    </item>
     <item>
       <title>Werkstudent/-in (m/w/d) Psychologie, Erziehungswissenschaften, Sozialwissenschaften, Recht</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003869169-S</link>
@@ -71,22 +87,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Research &amp; Science</category>
       <description>Lehmann&amp;Voss&amp;Co. KG · Hamburg · €18.00/h · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) mineralisches Labor</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-52506-YF-S</link>
-      <guid isPermaLink="false">12117-YF-52506-YF-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>MC-Bauchemie Müller GmbH &amp; Co. KG · Bottrop · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent im Bereich Market Research (w/m/div.)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF298252H-e41248d-S</link>
-      <guid isPermaLink="false">15986-REF298252H-e41248d-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Robert Bosch GmbH · Gunzenhausen am Altmühlsee · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

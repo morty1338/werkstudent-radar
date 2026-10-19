@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent:in Strategieentwicklung</title>
@@ -79,14 +79,6 @@
       <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Van der Valk Deutschland · Moers · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent Strategic Projects People und Culture (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-973455-008-S</link>
-      <guid isPermaLink="false">16604-973455-008-S</guid>
-      <pubDate>Mon, 12 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>TKMS GmbH · Kiel · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>
