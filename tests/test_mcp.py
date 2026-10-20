@@ -323,15 +323,16 @@ def test_match_score_matches_score_js_on_the_real_data(tmp_path):
     d = rd.load(rd.Source())
     rows = [[j[rd.SKILLS], j[rd.NICE] if len(j) > rd.NICE else []] for j in d.jobs]
     have_sets = [[], [0], [0, 1, 2, 3, 4], list(range(0, len(d.skills), 3))]
+    basic = [i for i, s in enumerate(d.skills) if s["id"] in rt.basic_skill_ids(d)]
     script = tmp_path / "score.mjs"
     script.write_text(
         f"import {{ scoreJob }} from {json.dumps((ROOT / 'docs' / 'assets' / 'score.js').as_uri())};\n"
-        f"const rows = {json.dumps(rows)};\n"
-        f"console.log(JSON.stringify({json.dumps(have_sets)}.map((h) => rows.map(([s, n]) => scoreJob(s, n, new Set(h))))));\n")
+        f"const rows = {json.dumps(rows)}, basic = new Set({json.dumps(basic)});\n"
+        f"console.log(JSON.stringify({json.dumps(have_sets)}.map((h) => rows.map(([s, n]) => scoreJob(s, n, new Set(h), basic)))));\n")
     js = json.loads(subprocess.run(["node", str(script)], capture_output=True, text=True, check=True).stdout)
     for h, scored in zip(have_sets, js):
         for (skills, nice), j in zip(rows, scored):
-            py = rt.match_score(skills, nice, set(h))
+            py = rt.match_score(skills, nice, set(h), set(basic))
             assert (py["few"], py["have"], py["missing_must"], py["missing_nice"]) == (j["few"], j["have"], j["missingMust"], j["missingNice"])
             assert py["score"] == pytest.approx(j["score"]) if j["score"] is not None else py["score"] is None
 

@@ -120,7 +120,7 @@ def match_skills(skills: list[str], city: str | None = None, field: str | None =
     when at most a quarter of its listed skills are missing), the share of postings that list
     skills, the next 3 skills that would make the most extra postings fit, and the newest
     fitting postings with links (`examples`, 0–10), each with its match score (required skills
-    80 %, nice to have 20 %) and the skills it has, misses or lists as a plus. Use it for "which jobs fit my skills?" or
+    80 %, nice to have 20 %, basic skills like MS Office a quarter) and the skills it has, misses or lists as a plus. Use it for "which jobs fit my skills?" or
     "what should I learn next?". Optional city and field filters."""
     return answer(rt.match_skills, skills, city=city, field=field, examples=examples, mode=mode)
 

@@ -246,8 +246,8 @@ const STRINGS = {
   "check.per_hour": { en: "/h", de: "/Std." },
   "check.score": { en: "{pct} match", de: "{pct} Match" },
   "check.score_tip": {
-    en: "Required skills you have count 80 %, nice-to-have skills 20 %.",
-    de: "Pflicht-Skills, die du hast, zählen 80 %, Plus-Skills 20 %.",
+    en: "Required skills you have count 80 %, nice-to-have skills 20 %. Basic skills like MS Office or Excel count only a quarter.",
+    de: "Pflicht-Skills, die du hast, zählen 80 %, Plus-Skills 20 %. Basis-Skills wie MS Office oder Excel zählen nur ein Viertel.",
   },
   "check.score_tip_rules": {
     en: "This posting doesn't say which skills are only a plus, so every skill counts as required.",
@@ -255,8 +255,8 @@ const STRINGS = {
   },
   "check.few_data": { en: "Little data", de: "Wenig Daten" },
   "check.few_data_tip": {
-    en: "Fewer than 2 skills found in this posting: too little for a score.",
-    de: "In dieser Anzeige wurden weniger als 2 Skills gefunden: zu wenig für einen Score.",
+    en: "Fewer than 2 skills, or only basic skills like MS Office, found in this posting: too little for a score.",
+    de: "In dieser Anzeige wurden weniger als 2 Skills oder nur Basis-Skills wie MS Office gefunden: zu wenig für einen Score.",
   },
   "check.why_have": { en: "Have:", de: "Vorhanden:" },
   "check.why_missing_must": { en: "Missing (required):", de: "Fehlt (Pflicht):" },

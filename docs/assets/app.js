@@ -126,7 +126,7 @@ async function main() {
   // "95% CI €15.40–17.60" / "95%-KI 15,40–17,60 €"
   const ciText = (lo, hi) => (lo == null ? "" : t("ci", { lo: JOBS ? fmt.int(lo) : fmt.num2(lo), hi: JOBS ? fmt.int(hi) : fmt.num2(hi) }));
 
-  const ctx = { D, S, J, state, pool, payStats, catLabel, skillLabel, tracker, render: () => render(), syncUrl: () => syncUrl() };
+  const ctx = { D, S, J, BASICS, state, pool, payStats, catLabel, skillLabel, tracker, render: () => render(), syncUrl: () => syncUrl() };
 
   // --- Filter bar -------------------------------------------------------------------
   const fField = document.getElementById("f-field");

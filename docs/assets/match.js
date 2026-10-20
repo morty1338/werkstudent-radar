@@ -21,6 +21,8 @@ export function initMatch(ctx, initialIds) {
   const { D, J } = ctx;
   const idxById = new Map(D.skills.map((s, i) => [s.id, i]));
   const byDemand = D.skills.map((_, i) => i).sort((a, b) => D.skills[b].jobs - D.skills[a].jobs);
+  // Basic skills (MS Office, Excel, …) weigh less in the match score.
+  const basic = new Set(D.skills.flatMap((s, i) => (ctx.BASICS?.has(s.id) ? [i] : [])));
   const selected = new Set(initialIds.filter((id) => idxById.has(id)).map((id) => idxById.get(id)));
   const st = { tab: null, sort: "best", shown: PAGE, search: "", showAll: false, mustSkill: null, cvFound: new Set(), open: false };
   let postings = null;
@@ -244,7 +246,7 @@ export function initMatch(ctx, initialIds) {
     // asking for Python, SQL and Power BI says more about you than one asking for MS Office).
     const scores = new Map();
     const score = (i) => {
-      if (!scores.has(i)) scores.set(i, scoreJob(D.jobs[i][J.SKILLS], D.jobs[i][J.NICE], selected));
+      if (!scores.has(i)) scores.set(i, scoreJob(D.jobs[i][J.SKILLS], D.jobs[i][J.NICE], selected, basic));
       return scores.get(i);
     };
     const rank = (i) => score(i).score ?? -1;
@@ -292,7 +294,7 @@ export function initMatch(ctx, initialIds) {
     </div>`;
   }
 
-  // "82 % match", or "Little data" when the posting lists fewer than 2 skills.
+  // "82 % match", or "Little data" when the posting lists fewer than 2 skills or only basic ones.
   function scoreBadge(sc, llm) {
     if (sc.score == null) return `<span class="badge few" data-tip="${esc(t("check.few_data_tip"))}">${esc(t("check.few_data"))}</span>`;
     const tip = esc(t("check.score_tip")) + (llm ? "" : `<br>${esc(t("check.score_tip_rules"))}`);
@@ -303,7 +305,8 @@ export function initMatch(ctx, initialIds) {
   // LLM's reading, the posting doesn't say what is required: the line is just "Missing".
   function explain(sc, llm) {
     const MAX = 5;
-    const names = (idxs) => idxs.slice(0, MAX).map((s) => esc(D.skills[s].label)).join(" · ")
+    // Specific skills first: "SAP · Controlling · Excel" says more than "Excel · SAP · Controlling".
+    const names = (idxs) => [...idxs].sort((a, b) => basic.has(a) - basic.has(b)).slice(0, MAX).map((s) => esc(D.skills[s].label)).join(" · ")
       + (idxs.length > MAX ? ` <span class="why-more">${esc(t("check.why_more", { n: idxs.length - MAX }))}</span>` : "");
     const line = (cls, key, idxs) => idxs.length
       ? `<div class="why ${cls}"><span class="why-k">${esc(t(key))}</span> ${names(idxs)}</div>` : "";
