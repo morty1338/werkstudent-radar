@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 09:35:11 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent - Security Analyst (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208340480-S</link>
+      <guid isPermaLink="false">10000-1208340480-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Trovent Security GmbH · Bochum · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>NTT DATA Business Solutions Global Managed Services GmbH: Werkstudent:in Social Media Creator 1</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3050711792447201-S</link>
+      <guid isPermaLink="false">11956-3050711792447201-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>NTT DATA Business Solutions Global Managed Services GmbH · Bielefeld · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Data Analytics und Business Intelligence (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-826-1-S</link>
+      <guid isPermaLink="false">12728-826-1-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Schleswig-Holstein Netz GmbH · Quickborn · €16.92/h · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Datenanalyse (m/w/d) / 45911</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-45911-1-S</link>
+      <guid isPermaLink="false">15986-45911-1-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>BSH Hausgeräte GmbH · Berlin · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student (m/f/d) -  Data Engineer &amp; Software Developer (Research Analytics)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/agilerobotsse/working-student-data-engineer-software-developer-research-analytics-munich-bavaria-406891</link>
+      <guid isPermaLink="false">an:working-student-data-engineer-software-developer-research-analytics-munich-bavaria-406891</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Agilerobotsse · München · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>NTT DATA Business Solutions Global Managed Services GmbH: Werkstudent:in Social Media Creator</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2964721792360801-S</link>
@@ -137,14 +177,6 @@
       <description>accompio GmbH · Wuppertal · €17.00/h · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Working Student (f/m/d) Advanced Analytics and Artificial Intelligence</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1633057-2-S</link>
-      <guid isPermaLink="false">12465-1633057-2-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Siemens AG · München · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent (w/m/d) Datenanalyse &amp; Visualisierung für EU-Konformitäten</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1643621-1-S</link>
       <guid isPermaLink="false">12465-1643621-1-S</guid>
@@ -223,46 +255,6 @@
       <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Holzland Becker · Offenbach · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d)  KI-Prozessintegration &amp; Datenmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1635998-2-S</link>
-      <guid isPermaLink="false">12465-1635998-2-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Siemens AG · Erlangen · €15.00/h · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Datenmanagement &amp; Anwendungsbetreuung (m/w/d), Hörmann KG Verkaufsgesellschaft</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2356299-S</link>
-      <guid isPermaLink="false">12811-2356299-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Hörmann KG Verkaufsgesellschaft · Steinhagen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Erneuerbare Energien - Marktstammdaten</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-288041-S</link>
-      <guid isPermaLink="false">13645-288041-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>EAM I Energie aus der Mitte · Gladenbach · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Erneuerbare Energien - Marktstammdaten</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-288042-S</link>
-      <guid isPermaLink="false">13645-288042-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>EAM I Energie aus der Mitte · Hardegsen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Working Student / Intern – Control Team (Systems &amp; Data Infrastructure) (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/phlair/working-student-intern-control-team-systems-data-infrastructure-munchen-297607</link>
-      <guid isPermaLink="false">an:working-student-intern-control-team-systems-data-infrastructure-munchen-297607</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Phlair · München · Data &amp; Analytics · no German needed</description>
     </item>
   </channel>
 </rss>

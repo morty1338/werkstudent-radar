@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 09:35:11 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Rechtsschutz Schadenregulierung (w|m|d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18349-47489_17_JB5277202-S</link>
+      <guid isPermaLink="false">18349-47489_17_JB5277202-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Legal</category>
+      <description>ADAC RSR GmbH · München · Legal</description>
+    </item>
     <item>
       <title>Werkstudent:in Legal - Document and Process Management (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16852-44507063-1014-S</link>
@@ -23,22 +31,6 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Legal</category>
       <description>Lemon Markets · Berlin · €16.00/h · Legal · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Forderungsmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-9b8d5d2f_JB5270687-S</link>
-      <guid isPermaLink="false">13635-9b8d5d2f_JB5270687-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Legal</category>
-      <description>LESORA GmbH · Freiburg · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudententätigkeit Datenschutz (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14820-0068053712-S</link>
-      <guid isPermaLink="false">14820-0068053712-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Legal</category>
-      <description>MERKUR.COM AG · Espelkamp · Legal</description>
     </item>
   </channel>
 </rss>

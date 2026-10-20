@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 09:35:11 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent im Bereich Photovoltaik, Windkraft und E-Mobility (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003876973-S</link>
+      <guid isPermaLink="false">10001-1003876973-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Stadtwerke Fürstenfeldbruck GmbH · Fürstenfeldbruck · €18.25/h · Design &amp; UX</description>
+    </item>
     <item>
       <title>Werkstudent Mediengestaltung &amp; Webdesign (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003875637-S</link>
@@ -47,14 +55,6 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>First B2B Service GmbH · Stuttgart · €16.00/h · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Videograf (m/w/d) - 12 bis 20 Std/Woche</title>
-      <link>https://www.arbeitnow.com/jobs/companies/bts-network-gmbh/werkstudent-videograf-12-bis-20-std-woche-erftstadt-103249</link>
-      <guid isPermaLink="false">an:werkstudent-videograf-12-bis-20-std-woche-erftstadt-103249</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>BTS NETWORK GmbH · Erftstadt · Design &amp; UX</description>
     </item>
     <item>
       <title>Werkstudent Marketing - Design (M/W/D)</title>
@@ -111,30 +111,6 @@
       <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>Favela Clothing GmbH · Ratingen · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) - Video-Techniker im Bereich VAR &amp; TLT vor Ort bei Bundesligaproduktionen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-1f25bf81_JB5269458-S</link>
-      <guid isPermaLink="false">13635-1f25bf81_JB5269458-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Sportec Solutions AG · Augsburg · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Auftragsmanagement / Projektkoordination / Disposition (m/w/d) - Photovoltaik, Wärmep</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-b1d12a11_JB5271561-S</link>
-      <guid isPermaLink="false">13635-b1d12a11_JB5271561-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>1Komma5° GmbH · Berlin · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) – Graphics Operator</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-f2e3eca3_JB5269462-S</link>
-      <guid isPermaLink="false">13635-f2e3eca3_JB5269462-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Sportec Solutions AG · Unterföhring · Design &amp; UX</description>
     </item>
   </channel>
 </rss>

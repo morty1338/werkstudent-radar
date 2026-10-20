@@ -6,8 +6,72 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 09:35:11 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Logistikreklamationen/Claims</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1644573-1-S</link>
+      <guid isPermaLink="false">12465-1644573-1-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Siemens AG · Stuttgart · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent / Werkstudentin (w|m|d) im Bereich Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14108-0000460acf4001-S</link>
+      <guid isPermaLink="false">14108-0000460acf4001-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>München Klinik · München · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Lager</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15112-44517230-1019-S</link>
+      <guid isPermaLink="false">15112-44517230-1019-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Dachser SE Head Office · Eschbach · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Umschlaglager</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15112-44517315-1019-S</link>
+      <guid isPermaLink="false">15112-44517315-1019-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Dachser SE Head Office · Malsch · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Logistik</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15112-44517847-1019-S</link>
+      <guid isPermaLink="false">15112-44517847-1019-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Dachser SE Head Office · Kornwestheim · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent Logistik (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635645-7878-4351-S</link>
+      <guid isPermaLink="false">15939-BB-635645-7878-4351-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Rheinmetall AG · Kassel · €18.14/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>AI Operations &amp; Business Support (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/greenstein-designagentur/ai-operations-business-support-hildesheim-336248</link>
+      <guid isPermaLink="false">an:ai-operations-business-support-hildesheim-336248</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Greenstein Designagentur · Hildesheim · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student Billing &amp; Receivable Operations (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/statista/working-student-billing-receivable-operations-hamburg-100838</link>
+      <guid isPermaLink="false">an:working-student-billing-receivable-operations-hamburg-100838</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Statista · Hamburg · Operations &amp; Logistics · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent Sustainability &amp; Supply Chain im Einkauf (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635635-7878-5511-S</link>
@@ -55,14 +119,6 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Airbus Defence and Space GmbH · München · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Teaching Assistant Operations &amp; AI Automation - Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/digitale-leute-school/teaching-assistant-operations-ai-automation-werkstudent-cologne-291213</link>
-      <guid isPermaLink="false">an:teaching-assistant-operations-ai-automation-werkstudent-cologne-291213</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Digitale Leute School · Köln · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent Healthcare Logistics (m/w/d)</title>
@@ -199,102 +255,6 @@
       <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>MEG Neuensalz GmbH · Neuensalz · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Immobilienwirtschaft</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003851101-S</link>
-      <guid isPermaLink="false">10001-1003851101-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Oliver Kilb · Neu-Isenburg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent im Bereich Seriendisposition Antriebsstrang (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1288557-3-S</link>
-      <guid isPermaLink="false">11070-1288557-3-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>MAN Truck &amp; Bus · München · €18.00/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Logistik (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11119-4964486997-S</link>
-      <guid isPermaLink="false">11119-4964486997-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Herrmann Personaldienste GmbH · Leverkusen · €17.50/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent*in im Bereich Digitale Intralogistik und Automatisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1641342-1-S</link>
-      <guid isPermaLink="false">13151-1641342-1-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Einkauf High Computing &amp; Connectivity Systems</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1642547-1-S</link>
-      <guid isPermaLink="false">13151-1642547-1-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent im operativen Einkauf ab Februar 2027 (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1369177-3-S</link>
-      <guid isPermaLink="false">13348-1369177-3-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Deutsche Lufthansa AG · Hamburg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Lager</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-f4e42acb_JB5270750-S</link>
-      <guid isPermaLink="false">13635-f4e42acb_JB5270750-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Vilor GmbH · Unna · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Working Student – Supply Chain und Procurement (m/f/d) / 45565</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-44516-2-S</link>
-      <guid isPermaLink="false">15986-44516-2-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>BSH Hausgeräte GmbH · Berlin · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) Zentrale Disposition - Messstellen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18624-0068040632-S</link>
-      <guid isPermaLink="false">18624-0068040632-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Stadtwerke Augsburg Holding GmbH · Augsburg · €18.00/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent/in (W/M/D) Sustainability Supply Chain Administration</title>
-      <link>https://www.arbeitnow.com/jobs/companies/leadership-advantage-gmbh-leadership-sustainability-karin-ekberg-gmbh/werkstudent-in-sustainability-supply-chain-administration-wurzburg-434799</link>
-      <guid isPermaLink="false">an:werkstudent-in-sustainability-supply-chain-administration-wurzburg-434799</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Leadership Advantage GmbH / Leadership &amp; Sustainability Karin Ekberg GmbH · Berlin · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Working Student – AI &amp; Operations</title>
-      <link>https://www.arbeitnow.com/jobs/companies/oviva/working-student-ai-operations-berlin-484363</link>
-      <guid isPermaLink="false">an:working-student-ai-operations-berlin-484363</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Oviva · Berlin · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Working Student – Legal Operations &amp; AI Automation</title>
-      <link>https://www.arbeitnow.com/jobs/companies/lovehoney-group/working-student-legal-operations-ai-automation-berlin-312671</link>
-      <guid isPermaLink="false">an:working-student-legal-operations-ai-automation-berlin-312671</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Lovehoney Group · Berlin · Operations &amp; Logistics · no German needed</description>
     </item>
   </channel>
 </rss>

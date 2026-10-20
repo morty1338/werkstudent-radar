@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 10:08:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 09:35:11 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Physiotherapeut (m/w/d) Vollzeit · Teilzeit · Werkstudent · Aushilfe</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003879820-S</link>
+      <guid isPermaLink="false">10001-1003879820-S</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Physiotherapie Sonnemann · Lübeck · €21.00/h · Health &amp; Care</description>
+    </item>
     <item>
       <title>Werkstudent*in - Patient*innen-Portal</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208328884-S</link>
@@ -39,14 +47,6 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Health &amp; Care</category>
       <description>Kübler Group - Fritz Kübler GmbH · Berlin · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent/Aushilfe (m/w/d) in der Aufbereitungseinheit für M...</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19692-0p5vfwimii-S</link>
-      <guid isPermaLink="false">19692-0p5vfwimii-S</guid>
-      <pubDate>Tue, 13 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Health &amp; Care</category>
-      <description>BG Klinikum Hamburg gGmbH · Hamburg · Health &amp; Care</description>
     </item>
   </channel>
 </rss>
