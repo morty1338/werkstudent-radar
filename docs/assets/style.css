@@ -334,11 +334,18 @@ a.tile:hover { transform: translateY(-2px); border-color: var(--accent); }
 .job a { font-weight: 600; text-decoration: none; color: var(--ink); overflow-wrap: anywhere; }
 .job a:hover { color: var(--accent-ink); text-decoration: underline; }
 .job .meta { color: var(--ink-2); font-size: 14px; }
-.job .why { color: var(--good); font-size: 13px; }
+.job .why-box { grid-column: 1; display: grid; gap: 2px; }
+.job.scored .side { grid-row: 1 / span 3; }
+.job .why { color: var(--ink); font-size: 13px; }
+.job .why.have { color: var(--good); }
+.job .why.plus { color: var(--ink-2); }
+.why-k { color: var(--ink-2); font-weight: 600; }
+.why-more { color: var(--ink-3); white-space: nowrap; }
+.score { font-family: var(--mono); font-variant-numeric: tabular-nums; font-weight: 650; font-size: 15px; color: var(--accent-ink); white-space: nowrap; cursor: help; }
 .job .side { grid-column: 2; grid-row: 1 / span 2; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
 .pay { font-family: var(--mono); font-variant-numeric: tabular-nums; font-weight: 650; font-size: 15px; }
 .badge { display: inline-block; font-size: 12px; padding: 2px 9px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); white-space: nowrap; }
-.badge.need { background: transparent; border: 1px solid var(--accent); color: var(--accent-ink); }
+.badge.few { background: transparent; border: 1px dashed var(--muted-bar); cursor: help; }
 .badge.en { background: var(--accent-soft); color: var(--ink); }
 .filter-chip { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; background: var(--accent-soft); border-radius: 999px; padding: 4px 6px 4px 12px; margin-bottom: 8px; }
 .filter-chip button { border: 0; background: none; cursor: pointer; font-size: 16px; line-height: 1; padding: 0 6px; }
@@ -539,7 +546,7 @@ body.trk-open { overflow: hidden; }
   .insight { font-size: 17px; }
   .match-big { font-size: 44px; }
   .job { grid-template-columns: minmax(0, 1fr); }
-  .job .side { grid-column: 1; grid-row: auto; flex-direction: row; align-items: center; flex-wrap: wrap; }
+  .job .side, .job.scored .side { grid-column: 1; grid-row: auto; flex-direction: row; align-items: center; flex-wrap: wrap; }
   .dot-row { grid-template-columns: minmax(90px, 34%) 1fr 56px; }
   #co-search { width: 100%; }
   .connect-url code { font-size: 13px; }

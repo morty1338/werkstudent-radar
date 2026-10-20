@@ -11,6 +11,8 @@ match the page:
 - Skills fit a posting when you lack at most a quarter (rounded down) of the
   skills it lists; the next skills to learn are picked greedily, each one making
   the most extra postings fit.
+- Match score of a posting (score.js): required skills you have count 80 %,
+  nice-to-have skills 20 %; fewer than 2 skills: no score.
 
 Every function returns a small JSON-ready dict. No job texts exist in the data.
 """
@@ -203,6 +205,39 @@ def gap_plan(jobs, have, steps=3, demand=None):
     return plan
 
 
+MUST_WEIGHT, NICE_WEIGHT, MIN_SKILLS = 0.8, 0.2, 2
+
+
+def match_score(skills, nice, have):
+    """Match score 0..1 (None below MIN_SKILLS skills) and the skills behind it (score.js).
+
+    A posting without required or without nice-to-have skills gives the whole weight to the other kind."""
+    nice = set(nice or [])
+    out = {"score": None, "few": len(skills) < MIN_SKILLS, "have": [s for s in skills if s in have],
+           "missing_must": [s for s in skills if s not in have and s not in nice],
+           "missing_nice": [s for s in skills if s not in have and s in nice]}
+    if out["few"]:
+        return out
+    must = [s for s in skills if s not in nice]
+    plus = [s for s in skills if s in nice]
+    w_must, w_nice = (MUST_WEIGHT if must else 0), (NICE_WEIGHT if plus else 0)
+    part = lambda xs, w: w * sum(1 for s in xs if s in have) / len(xs) if xs else 0  # noqa: E731
+    out["score"] = (part(must, w_must) + part(plus, w_nice)) / (w_must + w_nice)
+    return out
+
+
+def score_out(d, i, have):
+    j = d.jobs[i]
+    sc = match_score(j[rd.SKILLS], j[rd.NICE] if len(j) > rd.NICE else [], have)
+    label = lambda xs: [d.skills[s]["label"] for s in xs]  # noqa: E731
+    out = {"match_score": None if sc["score"] is None else round(sc["score"], 2),
+           "have": label(sc["have"]), "missing_required": label(sc["missing_must"]),
+           "missing_nice_to_have": label(sc["missing_nice"])}
+    if sc["few"]:
+        out["too_few_skills"] = True
+    return out
+
+
 def posting_out(d, i):
     j = d.jobs[i]
     p = d.posting(i) or {}
@@ -351,8 +386,11 @@ def match_skills(d, skills, city=None, field=None, examples=3):
         "fit_share": round(fit / len(listed), 4) if listed else 0,
         "one_skill_short": near,
         "learn_next": [{"skill": d.skills[p["skill"]]["label"], "extra_postings": p["gain"], "extra_total": p["total"]} for p in plan],
-        "examples": [posting_out(d, i) for i in newest_first(d, fitting)[:max(0, min(int(examples or 0), 10))]],
+        "examples": [posting_out(d, i) | score_out(d, i, have)
+                     for i in newest_first(d, fitting)[:max(0, min(int(examples or 0), 10))]],
         "rule": "A posting fits when you lack at most a quarter (rounded down) of the skills it lists.",
+        "score_rule": "match_score: required skills you have count 80 %, nice-to-have skills 20 % (a posting with "
+                      "only one kind is scored by that kind); fewer than 2 skills in a posting: no score.",
     }
     if unknown:
         out["unknown_skills"] = unknown

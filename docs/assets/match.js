@@ -4,10 +4,14 @@
 // A posting is a match when you have nearly all the skills it lists: you may
 // miss one in four (rounded down), so 1–3 listed skills need all of them,
 // 4–7 allow one gap, 8+ allow two.
+//
+// Each posting in the list also shows a match score (score.js: required skills
+// 80 %, nice to have 20 %) and which of its skills you have, miss, or would be a plus.
 
 import { esc, fmt } from "./charts.js?v=dev";
 import { gapPlan } from "./gap.js?v=dev";
 import { t } from "./i18n.js?v=dev";
+import { scoreJob } from "./score.js?v=dev";
 import { dataUrl, refPrefix } from "./mode.js?v=dev";
 
 const POPULAR = 24;
@@ -235,19 +239,26 @@ export function initMatch(ctx, initialIds) {
     let items = st.tab === "match" ? r.matched.map((i) => [i, null]) : st.tab === "near" ? r.near : r.pool.map((i) => [i, null]);
     if (st.mustSkill != null) items = items.filter(([i]) => D.jobs[i][J.SKILLS].includes(st.mustSkill));
     const date = (i) => postings.rows[i][4] || "";
-    // Best fit: postings that ask for more of your skills first (a job asking for
-    // Python, SQL and Power BI says more about you than one asking for MS Office).
-    const fit = (i) => D.jobs[i][J.SKILLS].reduce((n, s) => n + selected.has(s), 0);
+    // Best fit: the highest match score first; postings with too few skills for a
+    // score after them. Ties: postings that ask for more of your skills first (a job
+    // asking for Python, SQL and Power BI says more about you than one asking for MS Office).
+    const scores = new Map();
+    const score = (i) => {
+      if (!scores.has(i)) scores.set(i, scoreJob(D.jobs[i][J.SKILLS], D.jobs[i][J.NICE], selected));
+      return scores.get(i);
+    };
+    const rank = (i) => score(i).score ?? -1;
+    const fit = (i) => score(i).have.length;
     const byDate = (a, b) => date(b).localeCompare(date(a));
     const byPay = (a, b) => (D.jobs[b][J.PAY] ?? -1) - (D.jobs[a][J.PAY] ?? -1);
     const sort = st.sort === "best" && !selected.size ? "newest" : st.sort;
     items.sort(([a], [b]) =>
       sort === "pay" ? byPay(a, b) || byDate(a, b)
-        : sort === "best" ? fit(b) - fit(a) || byPay(a, b) || byDate(a, b)
+        : sort === "best" ? rank(b) - rank(a) || fit(b) - fit(a) || byPay(a, b) || byDate(a, b)
           : byDate(a, b),
     );
     el.list.innerHTML = items.length
-      ? items.slice(0, st.shown).map(([i, missing]) => row(i, missing)).join("")
+      ? items.slice(0, st.shown).map(([i]) => row(i, selected.size ? score(i) : null)).join("")
       : `<p class="empty">${esc(t(st.tab === "match" ? "check.no_matches" : "check.no_jobs"))}</p>`;
     el.more.hidden = items.length <= st.shown;
     el.more.textContent = t("check.more", { n: fmt.int(items.length - st.shown) });
@@ -267,19 +278,38 @@ export function initMatch(ctx, initialIds) {
       title="${esc(t(tracked ? "trk.tracked_title" : "trk.track_title"))}">${esc(t(tracked ? "trk.tracked" : "trk.track"))}</button>`;
   }
 
-  function row(i, missing) {
+  // sc: scoreJob() of the posting against your skills, or null when none are picked.
+  function row(i, sc) {
     const [, title, company, city, published] = postings.rows[i];
     const { ref, url } = posting(i);
     const j = D.jobs[i];
-    const need = missing ? `<span class="badge need">+ ${missing.map((s) => esc(D.skills[s].label)).join(t("or"))}</span>` : "";
     const en = j[J.DE] <= 1 ? `<span class="badge en">${esc(t(j[J.DE] === 0 ? "check.no_german" : "check.german_plus"))}</span>` : "";
-    const yours = j[J.SKILLS].filter((s) => selected.has(s)).slice(0, 4).map((s) => esc(D.skills[s].label));
-    return `<div class="job">
+    return `<div class="job${sc ? " scored" : ""}">
       <a href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a>
       <div class="meta">${esc(company)} · ${esc(city || "—")}${published ? ` · ${esc(fmt.shortDate(published))}` : ""}</div>
-      ${yours.length ? `<div class="why">✓ ${yours.join(" · ")}</div>` : ""}
-      <div class="side">${j[J.PAY] != null ? `<span class="pay">${fmt.eur(j[J.PAY])}${t("check.per_hour")}</span>` : ""}${need}${en}${trackButton(ref, i)}</div>
+      ${sc ? `<div class="why-box">${explain(sc, j[J.LLM])}</div>` : ""}
+      <div class="side">${sc ? scoreBadge(sc, j[J.LLM]) : ""}${j[J.PAY] != null ? `<span class="pay">${fmt.eur(j[J.PAY])}${t("check.per_hour")}</span>` : ""}${en}${trackButton(ref, i)}</div>
     </div>`;
+  }
+
+  // "82 % match", or "Little data" when the posting lists fewer than 2 skills.
+  function scoreBadge(sc, llm) {
+    if (sc.score == null) return `<span class="badge few" data-tip="${esc(t("check.few_data_tip"))}">${esc(t("check.few_data"))}</span>`;
+    const tip = esc(t("check.score_tip")) + (llm ? "" : `<br>${esc(t("check.score_tip_rules"))}`);
+    return `<span class="score" data-tip="${esc(tip)}">${esc(t("check.score", { pct: fmt.pct(sc.score, 0) }))}</span>`;
+  }
+
+  // Have / Missing (required) / Plus, each line only when it has skills. Without the
+  // LLM's reading, the posting doesn't say what is required: the line is just "Missing".
+  function explain(sc, llm) {
+    const MAX = 5;
+    const names = (idxs) => idxs.slice(0, MAX).map((s) => esc(D.skills[s].label)).join(" · ")
+      + (idxs.length > MAX ? ` <span class="why-more">${esc(t("check.why_more", { n: idxs.length - MAX }))}</span>` : "");
+    const line = (cls, key, idxs) => idxs.length
+      ? `<div class="why ${cls}"><span class="why-k">${esc(t(key))}</span> ${names(idxs)}</div>` : "";
+    return line("have", "check.why_have", sc.have)
+      + line("miss", llm ? "check.why_missing_must" : "check.why_missing", sc.missingMust)
+      + line("plus", "check.why_plus", sc.missingNice);
   }
 
   function update() {

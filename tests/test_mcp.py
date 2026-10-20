@@ -157,6 +157,9 @@ def test_match_skills_counts_fits_and_plans_what_to_learn(d):
     assert [j["title"] for j in r["examples"]] == ["Werkstudent 11"]          # the one fitting posting
     assert len(rt.match_skills(d, ["sql", "python", "power bi"], examples=2)["examples"]) == 2
     assert rt.match_skills(d, ["sql"], examples=0)["examples"] == []
+    ex = r["examples"][0]
+    assert (ex["match_score"], ex["have"], ex["missing_required"], ex["missing_nice_to_have"]) == (None, ["SQL"], [], [])
+    assert ex["too_few_skills"] is True                                       # [SQL] alone: too little for a score
 
 
 def test_match_skills_reports_unknown_skills_with_suggestions(d):
@@ -313,6 +316,24 @@ def test_gap_plan_matches_gap_js_on_the_real_data(tmp_path):
         f"console.log(JSON.stringify({json.dumps(have_sets)}.map((h) => gapPlan(jobs, new Set(h), {{ steps: 3, demand }}))));\n")
     js = json.loads(subprocess.run(["node", str(script)], capture_output=True, text=True, check=True).stdout)
     assert js == [rt.gap_plan(jobs, set(h), steps=3, demand=demand) for h in have_sets]
+
+
+@pytest.mark.skipif(shutil.which("node") is None, reason="node not installed")
+def test_match_score_matches_score_js_on_the_real_data(tmp_path):
+    d = rd.load(rd.Source())
+    rows = [[j[rd.SKILLS], j[rd.NICE] if len(j) > rd.NICE else []] for j in d.jobs]
+    have_sets = [[], [0], [0, 1, 2, 3, 4], list(range(0, len(d.skills), 3))]
+    script = tmp_path / "score.mjs"
+    script.write_text(
+        f"import {{ scoreJob }} from {json.dumps((ROOT / 'docs' / 'assets' / 'score.js').as_uri())};\n"
+        f"const rows = {json.dumps(rows)};\n"
+        f"console.log(JSON.stringify({json.dumps(have_sets)}.map((h) => rows.map(([s, n]) => scoreJob(s, n, new Set(h))))));\n")
+    js = json.loads(subprocess.run(["node", str(script)], capture_output=True, text=True, check=True).stdout)
+    for h, scored in zip(have_sets, js):
+        for (skills, nice), j in zip(rows, scored):
+            py = rt.match_score(skills, nice, set(h))
+            assert (py["few"], py["have"], py["missing_must"], py["missing_nice"]) == (j["few"], j["have"], j["missingMust"], j["missingNice"])
+            assert py["score"] == pytest.approx(j["score"]) if j["score"] is not None else py["score"] is None
 
 
 def test_pay_figures_match_summary_json():

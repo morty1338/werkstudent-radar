@@ -95,7 +95,6 @@ const STRINGS = {
   },
   "where.biggest": { en: " The biggest field is <strong>{field}</strong>.", de: " Der größte Bereich ist <strong>{field}</strong>." },
   "and": { en: " and ", de: " und " },
-  "or": { en: " or ", de: " oder " },
 
   // --- 02 Pay --------------------------------------------------------------------------------------------------
   "pay.title": { en: "What does it pay?", de: "Was wird bezahlt?" },
@@ -245,6 +244,25 @@ const STRINGS = {
   "check.no_german": { en: "No German needed", de: "Ohne Deutsch" },
   "check.german_plus": { en: "German a plus", de: "Deutsch ein Plus" },
   "check.per_hour": { en: "/h", de: "/Std." },
+  "check.score": { en: "{pct} match", de: "{pct} Match" },
+  "check.score_tip": {
+    en: "Required skills you have count 80 %, nice-to-have skills 20 %.",
+    de: "Pflicht-Skills, die du hast, zählen 80 %, Plus-Skills 20 %.",
+  },
+  "check.score_tip_rules": {
+    en: "This posting doesn't say which skills are only a plus, so every skill counts as required.",
+    de: "Die Anzeige sagt nicht, welche Skills nur ein Plus sind, also zählt jeder Skill als Pflicht.",
+  },
+  "check.few_data": { en: "Little data", de: "Wenig Daten" },
+  "check.few_data_tip": {
+    en: "Fewer than 2 skills found in this posting: too little for a score.",
+    de: "In dieser Anzeige wurden weniger als 2 Skills gefunden: zu wenig für einen Score.",
+  },
+  "check.why_have": { en: "Have:", de: "Vorhanden:" },
+  "check.why_missing_must": { en: "Missing (required):", de: "Fehlt (Pflicht):" },
+  "check.why_missing": { en: "Missing:", de: "Fehlt:" },
+  "check.why_plus": { en: "Plus:", de: "Plus:" },
+  "check.why_more": { en: "+{n} more", de: "+{n} weitere" },
   "check.headline": { en: "{n} jobs fit your {k} skills →", de: "{n} Jobs passen zu deinen {k} Skills →" },
   "sort.label": { en: "Sort", de: "Sortieren" },
   "sort.best": { en: "Best fit first", de: "Beste Passung zuerst" },
