@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 09:35:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 09:40:06 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent/in Produktentwicklung (m/w/d)</title>
@@ -15,14 +15,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Research &amp; Science</category>
       <description>M. Braun Inertgas-Systeme GmbH · Garching bei München · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent Betriebsplanung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-bd9a818b-b6de-473f--S</link>
-      <guid isPermaLink="false">12951-bd9a818b-b6de-473f--S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Flix · Berlin · Research &amp; Science</description>
     </item>
     <item>
       <title>Werkstudent Forschung &amp; Entwicklung (m/w/d)</title>
@@ -71,14 +63,6 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Research &amp; Science</category>
       <description>Waldemar Link GmbH &amp; Co. KG · Norderstedt · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) in der Anwendungsforschung</title>
-      <link>https://www.arbeitnow.com/jobs/companies/arcus-planung-beratung-bauplanungsgesellschaft-mbh/werkstudent-in-der-anwendungsforschung-berlin-68360</link>
-      <guid isPermaLink="false">an:werkstudent-in-der-anwendungsforschung-berlin-68360</guid>
-      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>ARCUS Planung + Beratung Bauplanungsgesellschaft mbH · Berlin · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

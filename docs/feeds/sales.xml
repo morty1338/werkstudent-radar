@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 09:35:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 09:40:06 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Working Student - B2B Sales (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/finn/working-student-b2b-sales-munich-356296</link>
+      <guid isPermaLink="false">an:working-student-b2b-sales-munich-356296</guid>
+      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>FINN · München · €16.00/h · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent/-in Vertrieb &amp; Business Development (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208347564-S</link>
@@ -207,22 +215,6 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>ARWA Personaldienstleistungen GmbH · Recklinghausen · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Customer Success &amp; Business Development (d/w/m)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/termios/werkstudent-customer-success-business-development-dusseldorf-149377</link>
-      <guid isPermaLink="false">an:werkstudent-customer-success-business-development-dusseldorf-149377</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>termios · Düsseldorf · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Vertrieb B2B (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1460107-28033-1-S</link>
-      <guid isPermaLink="false">12608-1460107-28033-1-S</guid>
-      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>REWE Wein Online GmbH · Köln · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>

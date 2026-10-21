@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 09:35:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 09:40:06 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent  (d/m/w) Strategischer Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-978004315-S</link>
+      <guid isPermaLink="false">16947-978004315-S</guid>
+      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Airbus Defence and Space GmbH · Donauwörth · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent oder Praxissemester Energieberatung &amp; Gebäudetechnik</title>
       <link>https://www.arbeitnow.com/jobs/companies/ingenieurburo-schmon/werkstudent-oder-praxissemester-energieberatung-gebaudetechnik-messkirch-257973</link>

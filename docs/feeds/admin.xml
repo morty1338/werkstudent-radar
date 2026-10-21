@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 09:35:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 09:40:06 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) – Founders Associate / Allrounder</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003885948-S</link>
+      <guid isPermaLink="false">10001-1003885948-S</guid>
+      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Auto Zitzmann GmbH · Nürnberg · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) für die Abteilung Gebäudemanagement und Umweltschutz</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12646-VO2026-016091-S</link>
+      <guid isPermaLink="false">12646-VO2026-016091-S</guid>
+      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>S&amp;G Automobil AG · Karlsruhe · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Rezeption (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-348375-S</link>
+      <guid isPermaLink="false">13884-348375-S</guid>
+      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Vabali Spa Berlin GmbH &amp; Co. KG · Berlin · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Rezeption (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18765-0068232166-S</link>
+      <guid isPermaLink="false">18765-0068232166-S</guid>
+      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>JUFA Hotels Deutschland GmbH · Kempten (Allgäu) · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Empfang/Rezeptionskraft gesucht (Teilzeit, oder Werkstudent) m/w/d</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003879273-S</link>
@@ -151,22 +183,6 @@
       <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
       <category>Office &amp; Admin</category>
       <description>U-Need GmbH · Hamburg · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Rezeptionsmitarbeiter / Bürokraft gesucht – Aushilfe / Minijob / Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003852472-S</link>
-      <guid isPermaLink="false">10001-1003852472-S</guid>
-      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Peembeck GmbH · Trier · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Office Management (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-61508c21-70b3-4c47--S</link>
-      <guid isPermaLink="false">12951-61508c21-70b3-4c47--S</guid>
-      <pubDate>Wed, 14 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Ströer X GmbH · Köln · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>
