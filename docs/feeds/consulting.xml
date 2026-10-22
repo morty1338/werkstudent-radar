@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:40:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in (m/w/d) Chat-Beratung | Abends + Samstag | 100% Remote | Tierversicherung-Startup</title>
+      <link>https://www.arbeitnow.com/jobs/companies/lwb-group/werkstudentin-chat-beratung-abends-samstag-100-remote-tierversicherung-startup-berlin-263644</link>
+      <guid isPermaLink="false">an:werkstudentin-chat-beratung-abends-samstag-100-remote-tierversicherung-startup-berlin-263644</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>LWB Group · Berlin · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent  (d/m/w) Strategischer Einkauf</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-978004315-S</link>
@@ -47,14 +55,6 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Immo-Marketer · Bochum · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) – Founder’s Associate | Strategy, Transformation &amp; AI</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-493e369f_JB5271598-S</link>
-      <guid isPermaLink="false">13635-493e369f_JB5271598-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Reifenhäuser NEXT · Köln · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

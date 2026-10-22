@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:40:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Working Student PD Chromatography Membranes (x|w|m)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003890588-S</link>
+      <guid isPermaLink="false">10001-1003890588-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Sartorius Corporate Administration GmbH · Göttingen · Research &amp; Science</description>
+    </item>
+    <item>
+      <title>Werkstudent User Research (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12781-16425422-KAL-S</link>
+      <guid isPermaLink="false">12781-16425422-KAL-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Research &amp; Science</category>
+      <description>NOZ Digital GmbH · Osnabrück · Research &amp; Science</description>
+    </item>
+    <item>
+      <title>Werkstudent AI Research Engineer for SLM Optimization (m/w/d/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1645814-1-S</link>
+      <guid isPermaLink="false">13151-1645814-1-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Mercedes-Benz Group AG · Karlsruhe · Research &amp; Science</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-f9dffa0c86f61cd1-S</link>
+      <guid isPermaLink="false">14225-f9dffa0c86f61cd1-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Implenia Deutschland · Raunheim · Research &amp; Science</description>
+    </item>
     <item>
       <title>Werkstudent/in Produktentwicklung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003877974-S</link>
@@ -39,30 +71,6 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Research &amp; Science</category>
       <description>Lovion GmbH · Dortmund · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/i) QK Packmittellabor</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208289361-S</link>
-      <guid isPermaLink="false">10000-1208289361-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>MEDICE Arzneimittel Pütter GmbH &amp; Co. KG · Iserlohn · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Sozialpädagogik / Erziehungswissenschaften</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-445A84-S</link>
-      <guid isPermaLink="false">14751-445A84-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>WUTOW Professional GmbH · Frankfurt am Main · €22.00/h · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent Materialwissenschaften (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/waldemar-link-gmbh-co-kg/werkstudent-bereich-qualitatsmanagement-norderstedt-225538</link>
-      <guid isPermaLink="false">an:werkstudent-bereich-qualitatsmanagement-norderstedt-225538</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Waldemar Link GmbH &amp; Co. KG · Norderstedt · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

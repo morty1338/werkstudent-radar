@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:40:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Legal (m/w/d) – Schwerpunkt Compliance bis zu 20 Stunden/Woche</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003892461-S</link>
+      <guid isPermaLink="false">10001-1003892461-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Legal</category>
+      <description>ecotel communication ag · Düsseldorf · Legal</description>
+    </item>
+    <item>
+      <title>Werkstudent Legal (m/w/d) – Schwerpunkt Vertragsrecht bis zu 20 Stunden/Woche</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003892488-S</link>
+      <guid isPermaLink="false">10001-1003892488-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Legal</category>
+      <description>ecotel communication ag · Düsseldorf · Legal</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Verteidigung und Resilienz (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-53856d32_JB5277594-S</link>
+      <guid isPermaLink="false">13635-53856d32_JB5277594-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Legal</category>
+      <description>]init[ AG · Berlin · Legal</description>
+    </item>
     <item>
       <title>Werkstudent Rechtsschutz Schadenregulierung (w|m|d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18349-47489_17_JB5277202-S</link>
@@ -15,22 +39,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Legal</category>
       <description>ADAC RSR GmbH · München · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Legal - Document and Process Management (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16852-44507063-1014-S</link>
-      <guid isPermaLink="false">16852-44507063-1014-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Legal</category>
-      <description>BASF SE · Limburgerhof · Legal</description>
-    </item>
-    <item>
-      <title>Working Student Compliance (f/m/x)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/lemon-markets/working-student-compliance-berlin-242411</link>
-      <guid isPermaLink="false">an:working-student-compliance-berlin-242411</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Legal</category>
-      <description>Lemon Markets · Berlin · €16.00/h · Legal · no German needed</description>
     </item>
   </channel>
 </rss>

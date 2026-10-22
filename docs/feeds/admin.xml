@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:40:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) in der Objektverwaltung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-97effe96-ad48-4f37--S</link>
+      <guid isPermaLink="false">12951-97effe96-ad48-4f37--S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Thomas Philipps GmbH &amp; Co. KG · Bissendorf · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Clients &amp; Industries Office | Governance &amp; Reporting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15794-471728_50522-1-S</link>
+      <guid isPermaLink="false">15794-471728_50522-1-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Deloitte GmbH · Berlin · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) – Founders Associate / Allrounder</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003885948-S</link>
@@ -159,30 +175,6 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Office &amp; Admin</category>
       <description>Kassenärztliche Vereinigung Bayerns · München · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Minijob / Werkstudententätigkeit – Studienassistenz (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003865138-S</link>
-      <guid isPermaLink="false">10001-1003865138-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Pro Assistenz GmbH · Bonn · €14.00/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Studentische Aushilfe / Werkstudent als persönliche Assistenz für Menschen mit Behinderungen (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-49703-YF-S</link>
-      <guid isPermaLink="false">12117-YF-49703-YF-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Vereinigung Integrations-Förderung e. V. · München · €15.69/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent am Empfang (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-ee47e34a-0931-4eef--S</link>
-      <guid isPermaLink="false">12951-ee47e34a-0931-4eef--S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>U-Need GmbH · Hamburg · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

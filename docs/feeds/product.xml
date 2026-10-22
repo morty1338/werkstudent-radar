@@ -6,8 +6,56 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:40:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Digitale Prozesse &amp; Projekte</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003891078-S</link>
+      <guid isPermaLink="false">10001-1003891078-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>MST GmbH · Neumünster · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Projektmanagement – Infrastruktur &amp; Städtebau</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4973712097-S</link>
+      <guid isPermaLink="false">12288-4973712097-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Drees &amp; Sommer SE · Düsseldorf · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent Projektmanagement (gn)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12513-0007659788-S</link>
+      <guid isPermaLink="false">12513-0007659788-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Elettronica GmbH · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent Projektmanagement Smart Stores (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-72f506d7-7a96-4b83--S</link>
+      <guid isPermaLink="false">12951-72f506d7-7a96-4b83--S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Lekkerland SE · Frechen · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) zur Unterstützung eines Prüfstandprojekts</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18121-0068236856-S</link>
+      <guid isPermaLink="false">18121-0068236856-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>RENK GmbH · Augsburg · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Projektmanagment</title>
+      <link>https://www.arbeitnow.com/jobs/companies/neasol-gmbh/werkstudent-projektmanagment-dormagen-189708</link>
+      <guid isPermaLink="false">an:werkstudent-projektmanagment-dormagen-189708</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>neaSOL GmbH · Dormagen · €15.00/h · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent– Customer Business Competences (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0456656-S</link>
@@ -97,22 +145,6 @@
       <description>Deutsche Bahn AG · München · Product &amp; Project Mgmt</description>
     </item>
     <item>
-      <title>Werkstudent (w/m/d) Projektmanagement – Manufacturing Transformation</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1628602-2-S</link>
-      <guid isPermaLink="false">12465-1628602-2-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Siemens AG · Frankfurt am Main · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Produktmanagement Motoren für Motion Control</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1645219-1-S</link>
-      <guid isPermaLink="false">12465-1645219-1-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Siemens AG · Erlangen · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
       <title>Werkstudent Technische Projektabteilung (m/w/d), Hörmann KG Amshausen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2360022-S</link>
       <guid isPermaLink="false">12811-2360022-S</guid>
@@ -137,12 +169,12 @@
       <description>e-mobilio · München · Product &amp; Project Mgmt</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) Robotik-Projektmanagement &amp; Implementierung</title>
-      <link>https://www.arbeitnow.com/jobs/companies/dr-sasse-gruppe/werkstudent-robotik-projektmanagement-implementierung-munich-10580</link>
-      <guid isPermaLink="false">an:werkstudent-robotik-projektmanagement-implementierung-munich-10580</guid>
+      <title>Werkstudent:in/Praktikant:in (m/w/d) Produktmanagement</title>
+      <link>https://www.arbeitnow.com/jobs/companies/greenpocket/werkstudentin-praktikantin-produktmanagement-cologne-465666</link>
+      <guid isPermaLink="false">an:werkstudentin-praktikantin-produktmanagement-cologne-465666</guid>
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
-      <description>Dr. Sasse Gruppe · München · Product &amp; Project Mgmt</description>
+      <description>Greenpocket · Köln · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudent - Agiles Projektmanagement im Bereich E-Invoicing (m/w/d)</title>
@@ -207,38 +239,6 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Rheinmetall AG · Kiel · €17.50/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Projektmanagement Aviation</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-312758_JB5269830-S</link>
-      <guid isPermaLink="false">12265-312758_JB5269830-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>FERCHAU GmbH GB Aviation München · Garching bei München · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Anlaufmanagement Fahrzeugprojekte (w/m/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1643507-1-S</link>
-      <guid isPermaLink="false">12462-1643507-1-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>BMW AG · München · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Unterstützung der kaufmännischen Leitung des Projektmanagements</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1643613-1-S</link>
-      <guid isPermaLink="false">12465-1643613-1-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Siemens AG · Braunschweig · €15.00/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent für eine Projektunterstützung in der Technologieentwicklung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18121-0068096941-S</link>
-      <guid isPermaLink="false">18121-0068096941-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>RENK GmbH · Augsburg · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

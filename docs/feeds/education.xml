@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:40:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4973709728-S</link>
+      <guid isPermaLink="false">12288-4973709728-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Education &amp; Social</category>
+      <description>PERMACON GmbH Frankfurt · Frankfurt am Main · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (m/w/d) (20,0 Std./Woche) CAJ, Bistum Osnabrück</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100PJ000WXr0D-S</link>
+      <guid isPermaLink="false">18024-100PJ000WXr0D-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Bischöfliches Generalvikariat · Osnabrück · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudenten (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20342-489-1792648873-S</link>
+      <guid isPermaLink="false">20342-489-1792648873-S</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Education &amp; Social</category>
+      <description>DRK-Region Hannover e.V. · Wunstorf · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudent*in (m/w/d) im Bereich Soziales und Familie</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-e59efa45-7461-4ec2--S</link>
@@ -15,22 +39,6 @@
       <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
       <category>Education &amp; Social</category>
       <description>Caritasverband Region Mönchengladbach e.V. · Mönchengladbach · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) (20,0 Std./Woche) CAJ, Bistum Osnabrück</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100PJ000WXr0C-S</link>
-      <guid isPermaLink="false">18024-100PJ000WXr0C-S</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Bischöfliches Generalvikariat · Osnabrück · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudenten (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20342-489-1792411452-S</link>
-      <guid isPermaLink="false">20342-489-1792411452-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>DRK-Region Hannover e.V. · Garbsen · Education &amp; Social</description>
     </item>
     <item>
       <title>Werkstudent:in (m/w/d) - Schulungen, Webinare und CSM</title>
@@ -55,30 +63,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>Education &amp; Social</category>
       <description>Munk GmbH Schaltanlagen und Gleichrichter · Hamm · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Zulassungsausschuss, München</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2357052-S</link>
-      <guid isPermaLink="false">12811-2357052-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Kassenärztliche Vereinigung Bayerns · München · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudenten (w/m/d) für die Klinik für Kinder- und Jugendpsychiatrie, PIA Finsterwalde</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20456-2357861-S</link>
-      <guid isPermaLink="false">20456-2357861-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Asklepios Fachkliniken Brandenburg GmbH · Finsterwalde · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Erzieher (m/w/d) Kita Werkstudent</title>
-      <link>https://www.arbeitnow.com/jobs/companies/pilgrim-personal/erzieher-kita-werkstudent-grevenbroich-76354</link>
-      <guid isPermaLink="false">an:erzieher-kita-werkstudent-grevenbroich-76354</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>PILGRIM Personal · Grevenbroich · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

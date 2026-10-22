@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:40:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Customer &amp; Partner Care (m/f/x)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/konfetti-gmbh/werkstudent-customer-partner-care-berlin-179361</link>
+      <guid isPermaLink="false">an:werkstudent-customer-partner-care-berlin-179361</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Konfetti GmbH · Berlin · Health &amp; Care</description>
+    </item>
     <item>
       <title>Physiotherapeut (m/w/d) Vollzeit · Teilzeit · Werkstudent · Aushilfe</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003879820-S</link>
@@ -31,22 +39,6 @@
       <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
       <category>Health &amp; Care</category>
       <description>Christoph-Dornier-Klinik GmbH · Münster · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Betriebliche Gesundheit und Prävention, Profitcenter BGP</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358181-S</link>
-      <guid isPermaLink="false">12811-2358181-S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Fortbildungsakademie der Wirtschaft (faw) gemeinnützige Gesellschaft mbH · Hamburg · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent/Praxissemester/Ferienjob - Entwicklung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-8aad7ac4-785f-4664--S</link>
-      <guid isPermaLink="false">12951-8aad7ac4-785f-4664--S</guid>
-      <pubDate>Thu, 15 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Kübler Group - Fritz Kübler GmbH · Berlin · Health &amp; Care</description>
     </item>
   </channel>
 </rss>
