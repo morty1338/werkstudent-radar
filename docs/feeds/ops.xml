@@ -6,8 +6,64 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:31:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) im Bereich Wareneingangskontrolle</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208398140-S</link>
+      <guid isPermaLink="false">10000-1208398140-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Queisser Pharma GmbH &amp; Co. KG · Flensburg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003899040-S</link>
+      <guid isPermaLink="false">10001-1003899040-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Chemische Werke Kluthe GmbH · Heidelberg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Verstärkung für unser Lager in Gießen gesucht (Aushilfen/Werkstudentinnen)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003901588-S</link>
+      <guid isPermaLink="false">10001-1003901588-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Intos Electronic AG · Gießen · €14.00/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent KI &amp; Prozessautomatisierung Einkauf (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-53146-YF-S</link>
+      <guid isPermaLink="false">12117-YF-53146-YF-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Friedberg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent KI &amp; Prozessautomatisierung Einkauf (m/w/d), Zentralverwaltung Friedberg</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2362675-S</link>
+      <guid isPermaLink="false">12811-2362675-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Friedberg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y01-S</link>
+      <guid isPermaLink="false">18024-10Q6L00001Y01-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Facility &amp; Mobility Management (m/w/d) - befristet für 1 Jahr</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21146-2362480-S</link>
+      <guid isPermaLink="false">21146-2362480-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>JobRad GmbH · Freiburg · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent Supply Chain Management (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f583j0417579-S</link>
@@ -31,14 +87,6 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Apleona GmbH · Düsseldorf · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y00-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001Y00-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Operations Intern / Working Student (Supply Chain &amp; Procurement) (f/m/d)</title>
@@ -105,14 +153,6 @@
       <description>Rheinmetall AG · Kassel · €18.14/h · Operations &amp; Logistics</description>
     </item>
     <item>
-      <title>AI Operations &amp; Business Support (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/greenstein-designagentur/ai-operations-business-support-hildesheim-336248</link>
-      <guid isPermaLink="false">an:ai-operations-business-support-hildesheim-336248</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Greenstein Designagentur · Hildesheim · Operations &amp; Logistics</description>
-    </item>
-    <item>
       <title>Working Student Billing &amp; Receivable Operations (m/f/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/statista/working-student-billing-receivable-operations-hamburg-100838</link>
       <guid isPermaLink="false">an:working-student-billing-receivable-operations-hamburg-100838</guid>
@@ -127,62 +167,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Rheinmetall AG · Bonn · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in (m/w/d) – Operations &amp; Office Management</title>
-      <link>https://www.arbeitnow.com/jobs/companies/tide/werkstudentin-operations-office-management-berlin-369297</link>
-      <guid isPermaLink="false">an:werkstudentin-operations-office-management-berlin-369297</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>tide · Berlin · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudenten Einkauf (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003866708-S</link>
-      <guid isPermaLink="false">10001-1003866708-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Maxion Wheels Werke GmbH · Königswinter · €18.32/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Einkauf (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-636-1-S</link>
-      <guid isPermaLink="false">12728-636-1-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>E.ON SE · Essen · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Supply Chain Excellence (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-761-1-S</link>
-      <guid isPermaLink="false">12728-761-1-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>E.ON SE · Essen · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (d/m/w) im Bereich Solar Array Operations</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-977240506-S</link>
-      <guid isPermaLink="false">16947-977240506-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Airbus Defence and Space GmbH · München · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Teaching Assistant Operations &amp; AI Automation - Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/digitale-leute-school/teaching-assistant-operations-ai-automation-werkstudent-cologne-291213</link>
-      <guid isPermaLink="false">an:teaching-assistant-operations-ai-automation-werkstudent-cologne-291213</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Digitale Leute School · Köln · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Healthcare Logistics (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/audibene/werkstudent-healthcare-logistics-berlin-222757</link>
-      <guid isPermaLink="false">an:werkstudent-healthcare-logistics-berlin-222757</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>audibene · Berlin · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

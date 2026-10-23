@@ -6,8 +6,96 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:31:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudenten (m/w/d)  in der Medizintechnik</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003902896-S</link>
+      <guid isPermaLink="false">10001-1003902896-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Gesundheitszentrum Wetterau gGmbH · Bad Nauheim · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Praktikant/Werkstudent (w/m/d) Baumanagement Objektüberwachung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4975102682-S</link>
+      <guid isPermaLink="false">12288-4975102682-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Drees &amp; Sommer SE · Mannheim · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Baumanagement TGA/HLSK</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4975146538-S</link>
+      <guid isPermaLink="false">12288-4975146538-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Drees &amp; Sommer SE · Frankfurt am Main · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) AI-Entwicklungen im Bereich Technische Dokumentation</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1617471-2-S</link>
+      <guid isPermaLink="false">12465-1617471-2-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Siemens AG · Erlangen · €15.00/h · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Automation (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-a78fd432-23f9-4b0a--S</link>
+      <guid isPermaLink="false">12951-a78fd432-23f9-4b0a--S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Blackwave · Taufkirchen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Leitungssatzentwicklung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1646559-1-S</link>
+      <guid isPermaLink="false">13151-1646559-1-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudenten / Praktikanten (m/w/d)  Bauingenieurwesen oder Architektur</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-0b1ad656_JB5279724-S</link>
+      <guid isPermaLink="false">13635-0b1ad656_JB5279724-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>ZETCON Ingenieure GmbH · Bochum · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Bauingenieurwesen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-3cfaac59_JB5280267-S</link>
+      <guid isPermaLink="false">13635-3cfaac59_JB5280267-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Leipfinger Bader · Buch am Erlbach · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Architektur</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-4a4e2e09_JB5279802-S</link>
+      <guid isPermaLink="false">13635-4a4e2e09_JB5279802-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>ZETCON Ingenieure GmbH · Berlin · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Testautomatisierung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16818-100910931-S</link>
+      <guid isPermaLink="false">16818-100910931-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Knorr-Bremse Systeme für Schienenfahrzeuge GmbH · München · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Unsolicited - Hardware Engineering Working Student (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tytan-technologies-gmbh/unsolicited-hardware-engineering-working-student-munich-405128</link>
+      <guid isPermaLink="false">an:unsolicited-hardware-engineering-working-student-munich-405128</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>TYTAN Technologies GmbH · München · Engineering &amp; Production · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Engineering &amp; Arbeitsvorbereitung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003889617-S</link>
@@ -577,14 +665,6 @@
       <description>H World International Germany · Frankfurt am Main · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent Elektrotechnik / Energietechnik (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-elektrotechnik-energietechnik-bad-salzungen-140375</link>
-      <guid isPermaLink="false">an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-140375</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>WerraEnergie GmbH · Bad Salzungen · Engineering &amp; Production · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent (w/m/d) Gebäudetechnik / TGA</title>
       <link>https://www.arbeitnow.com/jobs/companies/arcus-planung-beratung-bauplanungsgesellschaft-mbh/werkstudent-gebaudetechnik-tga-cottbus-4010</link>
       <guid isPermaLink="false">an:werkstudent-gebaudetechnik-tga-cottbus-4010</guid>
@@ -615,94 +695,6 @@
       <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Tracium GmbH · Berlin · Engineering &amp; Production · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent im Bereich Informationstechnik (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208323400-S</link>
-      <guid isPermaLink="false">10000-1208323400-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Handwerkskammer Aachen · Aachen · €13.98/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent / Praktikant (m/w/d) - im Bereich der Entwicklung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003871527-S</link>
-      <guid isPermaLink="false">10001-1003871527-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Wilhelm Julius Teufel GmbH · Wangen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Bauingenieurwesen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1644256-1-S</link>
-      <guid isPermaLink="false">12456-1644256-1-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Deutsche Bahn AG · Duisburg · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Bauingenieurwesen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1644258-1-S</link>
-      <guid isPermaLink="false">12456-1644258-1-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Deutsche Bahn AG · Duisburg · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Qualitätsmanagement Frische (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1460901-28033-1-S</link>
-      <guid isPermaLink="false">12608-1460901-28033-1-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>REWE Group · Köln · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (all genders) Facility Management - Technical Operations &amp; Com..., H World International</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358781-S</link>
-      <guid isPermaLink="false">12811-2358781-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>H World International - Team Center · Frankfurt am Main · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Netzmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-b36531b9_JB5274664-S</link>
-      <guid isPermaLink="false">13635-b36531b9_JB5274664-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Vilor GmbH · Köln · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Production (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-973826-008-S</link>
-      <guid isPermaLink="false">16604-973826-008-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>TKMS GmbH · Böhnhusen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (d/m/w) im Bereich H135 &amp; H145 Products</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-977300694-S</link>
-      <guid isPermaLink="false">16947-977300694-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Airbus Defence and Space GmbH · Donauwörth · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudentin oder Werkstudent Konstruktiver Ingenieurbau (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17751-44510128-1015-S</link>
-      <guid isPermaLink="false">17751-44510128-1015-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Die Autobahn GmbH des Bundes Niederlassung Nordwest (Hannover) · Bad Gandersheim · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Working Student Robotics Hardware &amp; Electronics (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/batch-robotics-gmbh/working-student-robotics-hardware-electronics-munich-441543</link>
-      <guid isPermaLink="false">an:working-student-robotics-hardware-electronics-munich-441543</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Batch Robotics GmbH · München · €17.00/h · Engineering &amp; Production · no German needed</description>
     </item>
   </channel>
 </rss>

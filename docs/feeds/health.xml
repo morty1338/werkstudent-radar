@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:31:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent/in Hebamme (m/w/d) für Hebammenpraxis ab Nov/Dez. 2026 gesucht</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003901985-S</link>
+      <guid isPermaLink="false">10001-1003901985-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Angela Schubert · Augsburg · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Occupational Health Management</title>
+      <link>https://www.arbeitnow.com/jobs/companies/ionos-se/werkstudent-occupational-health-management-berlin-18602</link>
+      <guid isPermaLink="false">an:werkstudent-occupational-health-management-berlin-18602</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Health &amp; Care</category>
+      <description>IONOS SE · Berlin · Health &amp; Care</description>
+    </item>
     <item>
       <title>Werkstudent Customer &amp; Partner Care (m/f/x)</title>
       <link>https://www.arbeitnow.com/jobs/companies/konfetti-gmbh/werkstudent-customer-partner-care-berlin-179361</link>
@@ -31,14 +47,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>Health &amp; Care</category>
       <description>Vivantes Netzwerk für Gesundheit GmbH · Berlin · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent Pflegefachkraft mit Bereitschafts- und Nachtdiensten (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003870377-S</link>
-      <guid isPermaLink="false">10001-1003870377-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Christoph-Dornier-Klinik GmbH · Münster · Health &amp; Care</description>
     </item>
   </channel>
 </rss>

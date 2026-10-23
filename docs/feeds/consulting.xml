@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:31:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>WERKSTUDENT*/ STUDENTISCHE AUSHILFE* IM STRATEGISCHEN EINKAUF, HS48 Zentrale</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2362474-S</link>
+      <guid isPermaLink="false">12811-2362474-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>NEW YORKER · Braunschweig · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent Podcast-Team: Strategy &amp; Ad Tech (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15224-44525641-1022-S</link>
+      <guid isPermaLink="false">15224-44525641-1022-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>ProSiebenSat.1 Media SE · München · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent Consulting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16818-100912482-S</link>
+      <guid isPermaLink="false">16818-100912482-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>SozialBank · Köln · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent:in (m/w/d) Chat-Beratung | Abends + Samstag | 100% Remote | Tierversicherung-Startup</title>
       <link>https://www.arbeitnow.com/jobs/companies/lwb-group/werkstudentin-chat-beratung-abends-samstag-100-remote-tierversicherung-startup-berlin-263644</link>
@@ -39,22 +63,6 @@
       <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>HDI AG · Hilden · €17.50/h · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) - strategischer Einkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003868044-S</link>
-      <guid isPermaLink="false">10001-1003868044-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>BMZ Battery Solutions Germany GmbH · Karlstein am Main · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent/-in (m/w/d) in der telefonischen Immobilienberatung (20 Stunden / Woche)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/immo-marketer/werkstudent-in-in-der-telefonischen-immobilienberatung-20-stunden-woche-bochum-66981</link>
-      <guid isPermaLink="false">an:werkstudent-in-in-der-telefonischen-immobilienberatung-20-stunden-woche-bochum-66981</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Immo-Marketer · Bochum · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

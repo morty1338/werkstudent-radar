@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:31:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Wissenschaftlicher Mitarbeiter/ Werkstudent Legal Managed Services (w/m/d) 10462</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17890-44525506-1022-S</link>
+      <guid isPermaLink="false">17890-44525506-1022-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Research &amp; Science</category>
+      <description>KPMG Law Rechtsanwaltsgesellschaft mbH · Bremen · €17.00/h · Research &amp; Science</description>
+    </item>
+    <item>
+      <title>ALD Lab - Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/black-semiconductor-gmbh/ald-lab-working-student-aachen-448257</link>
+      <guid isPermaLink="false">an:ald-lab-working-student-aachen-448257</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Black Semiconductor GmbH · Aachen · Research &amp; Science · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student Lab Engineer - Berlin (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/1komma50/working-student-lab-engineer-berlin-236608</link>
+      <guid isPermaLink="false">an:working-student-lab-engineer-berlin-236608</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Research &amp; Science</category>
+      <description>1KOMMA5˚ · Berlin · Research &amp; Science · no German needed</description>
+    </item>
     <item>
       <title>Working Student PD Chromatography Membranes (x|w|m)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003890588-S</link>
@@ -55,22 +79,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>Research &amp; Science</category>
       <description>FenX AG · Turgi · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent/-in (m/w/d) Psychologie, Erziehungswissenschaften, Sozialwissenschaften, Recht</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003869169-S</link>
-      <guid isPermaLink="false">10001-1003869169-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Physikalisch-Technische Bundesanstalt · Braunschweig · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) Erforschung KI-Anwendungen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003871563-S</link>
-      <guid isPermaLink="false">10001-1003871563-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Lovion GmbH · Dortmund · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

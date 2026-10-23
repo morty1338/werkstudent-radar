@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:31:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Reklamations- und Retourenmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1646608-1-S</link>
+      <guid isPermaLink="false">12465-1646608-1-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Siemens AG · Fürth · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Lean Promotion Assistant (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-js_bc_88_JB5281080-S</link>
+      <guid isPermaLink="false">13635-js_bc_88_JB5281080-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Uhlmann Pac-Systeme GmbH &amp; Co. KG · Laupheim · €16.00/h · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Auftragssachbearbeitung (m/w/d) - Fokus Frankreich / Niederlande</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15675-0068285248-S</link>
+      <guid isPermaLink="false">15675-0068285248-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>SPRINTIS Schenk GmbH &amp; Co. KG · Würzburg · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) in der Objektverwaltung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-97effe96-ad48-4f37--S</link>
@@ -143,38 +167,6 @@
       <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
       <category>Office &amp; Admin</category>
       <description>AlphaConsult Premium KG · Bitterfeld-Wolfen · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Empfang &amp; Office Management</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4967316483-S</link>
-      <guid isPermaLink="false">12288-4967316483-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Drees &amp; Sommer SE · Berlin · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudenten im Office Management (m/w/d) - Mannheim, COMCAVE.COLLEGE® MANNHEIM</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358649-S</link>
-      <guid isPermaLink="false">12811-2358649-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>COMCAVE.GROUP® · Mannheim · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudenten im Office Management (m/w/d), COMCAVE.COLLEGE® PADERBORN</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358650-S</link>
-      <guid isPermaLink="false">12811-2358650-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>COMCAVE.GROUP® · Paderborn · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Versorgungsgenehmigungen, München</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358859-S</link>
-      <guid isPermaLink="false">12811-2358859-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Kassenärztliche Vereinigung Bayerns · München · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

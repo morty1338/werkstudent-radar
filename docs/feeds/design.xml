@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 09:40:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:31:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Online Marketing &amp; Grafik</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208384839-S</link>
+      <guid isPermaLink="false">10000-1208384839-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>ZAPF GmbH · Bayreuth · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent Content Creation &amp; Brand Design (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208390219-S</link>
+      <guid isPermaLink="false">10000-1208390219-S</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Holley Feinkost GmbH · Leinfelden-Echterdingen · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (w/m/d) in der Redaktion von Design Perspectives</title>
+      <link>https://www.arbeitnow.com/jobs/companies/german-design-council-rat-fur-formgebung/werkstudentin-in-der-redaktion-von-design-perspectives-frankfurt-am-main-477086</link>
+      <guid isPermaLink="false">an:werkstudentin-in-der-redaktion-von-design-perspectives-frankfurt-am-main-477086</guid>
+      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description>German Design Council - Rat für Formgebung · Frankfurt am Main · Design &amp; UX</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Schwerpunkt Foto, Video und Content Creation</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003892222-S</link>
@@ -31,14 +55,6 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>Digitale Offensive GmbH · Bielefeld · €20.00/h · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Grafikdesign &amp; KI-Content</title>
-      <link>https://www.arbeitnow.com/jobs/companies/zuitable-gmbh/werkstudent-grafikdesign-ki-content-dusseldorf-352252</link>
-      <guid isPermaLink="false">an:werkstudent-grafikdesign-ki-content-dusseldorf-352252</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>ZUITABLE GmbH · Düsseldorf · Design &amp; UX</description>
     </item>
     <item>
       <title>Werkstudent Marketing &amp; Design – Corporate Design und Produktgestaltung(m/w/d)</title>
@@ -79,38 +95,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>MHC Holding GmbH · Germersheim · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent:in (m/w/d) Media Graphics</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19539-0068060652-S</link>
-      <guid isPermaLink="false">19539-0068060652-S</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Messe Berlin GmbH · Berlin · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Creative Design (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/ondevi-gmbh/werkstudent-creative-design-munich-253933</link>
-      <guid isPermaLink="false">an:werkstudent-creative-design-munich-253933</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>ondevi GmbH · München · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Media &amp; Content (m/w/d) - Videoschnitt, Social Media, Podcast</title>
-      <link>https://www.arbeitnow.com/jobs/companies/first-b2b-service-gmbh/werkstudent-media-content-videoschnitt-social-media-podcast-stuttgart-193338</link>
-      <guid isPermaLink="false">an:werkstudent-media-content-videoschnitt-social-media-podcast-stuttgart-193338</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>First B2B Service GmbH · Stuttgart · €16.00/h · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Videograf (m/w/d) - 12 bis 20 Std/Woche</title>
-      <link>https://www.arbeitnow.com/jobs/companies/bts-network-gmbh/werkstudent-videograf-12-bis-20-std-woche-erftstadt-103249</link>
-      <guid isPermaLink="false">an:werkstudent-videograf-12-bis-20-std-woche-erftstadt-103249</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>BTS NETWORK GmbH · Erftstadt · Design &amp; UX</description>
     </item>
   </channel>
 </rss>
