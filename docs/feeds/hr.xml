@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 09:31:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Human Resources (d/w/m)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15356-44528296-1023-S</link>
+      <guid isPermaLink="false">15356-44528296-1023-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Ottobock SE &amp; Co. KGaA · Duderstadt · €14.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) KI-Agenten &amp; Multi-Agenten-Systeme im HR</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16470-44528903-1023-S</link>
+      <guid isPermaLink="false">16470-44528903-1023-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Telefónica Germany GmbH &amp; Co. OHG · Hamburg · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent - HR Services &amp; Operations (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/envalior/werkstudent-hr-services-operations-dormagen-396987</link>
+      <guid isPermaLink="false">an:werkstudent-hr-services-operations-dormagen-396987</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Envalior · Dormagen · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Praktikant / Werkstudent Recruiting (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003903279-S</link>
@@ -15,14 +39,6 @@
       <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>technotrans SE · Sassenberg · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Recruiting &amp; Talent Acquisition</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11119-4976385214-S</link>
-      <guid isPermaLink="false">11119-4976385214-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Amano GmbH - Koblenz · Koblenz am Rhein · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent:in (m/w/d) im Bereich People &amp; Culture</title>
@@ -103,6 +119,22 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>WISAG Job &amp; Karriere GmbH &amp; Co. KG · Leipzig · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Recruiting</title>
+      <link>https://www.arbeitnow.com/jobs/companies/gn-gruppe/werkstudent-recruiting-langenfeld-370735</link>
+      <guid isPermaLink="false">an:werkstudent-recruiting-langenfeld-370735</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>G&amp;N Gruppe · Langenfeld · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Office &amp; Recruiting (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/beilmann-marketing-gmbh/werkstudentin-office-recruiting-mannheim-412417</link>
+      <guid isPermaLink="false">an:werkstudentin-office-recruiting-mannheim-412417</guid>
+      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Beilmann Marketing GmbH · Mannheim · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent Personalentwicklung w/m/d</title>
@@ -281,6 +313,14 @@
       <description>SAW-Group · Hamburg · HR &amp; Recruiting</description>
     </item>
     <item>
+      <title>Working Student Talent Development &amp; Learning (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-talent-development-learning-gilching-255334</link>
+      <guid isPermaLink="false">an:working-student-talent-development-learning-gilching-255334</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Quantum-Systems GmbH · Gilching · HR &amp; Recruiting</description>
+    </item>
+    <item>
       <title>Werkstudent Recruiting (m/w/d) | DIS AG Kiel</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4970278254-S</link>
       <guid isPermaLink="false">12288-4970278254-S</guid>
@@ -311,14 +351,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Sanacorp Pharmahandel GmbH · Planegg · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Recruiting &amp;  Projekte</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20569-2359092-S</link>
-      <guid isPermaLink="false">20569-2359092-S</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>ZIEMANN CASHSERVICE GmbH · Freiburg · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>

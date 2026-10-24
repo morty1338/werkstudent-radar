@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 09:31:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Data Domain Enablement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1584567-2-S</link>
+      <guid isPermaLink="false">12465-1584567-2-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · Nürnberg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Digitale Montageplanung, Automatisierung und Künstliche Intelligenz</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1646538-1-S</link>
+      <guid isPermaLink="false">13151-1646538-1-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Mercedes-Benz Group AG · Rastatt · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Data &amp; Analytics - Advertising &amp; Consumer Research (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15224-44529506-1023-S</link>
+      <guid isPermaLink="false">15224-44529506-1023-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>ProSiebenSat.1 Media SE · München · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent Schwerpunkt Datenbank- und Webentwicklung m/w/d</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19053-BB-634747-7878-3580-S</link>
@@ -167,14 +191,6 @@
       <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>GISA GmbH · Halle · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Datenpflege &amp; Datenmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15992-2359080-S</link>
-      <guid isPermaLink="false">15992-2359080-S</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Mission Leben gGmbH · Darmstadt · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

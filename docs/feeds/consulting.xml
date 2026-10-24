@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 09:31:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Founders Associate - Strategic Projects | CEO Office (m/w/d) - Internship/Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/boost-startup-ecosystem-ggmbh/founders-associate-strategic-projects-ceo-office-internship-working-student-leipzig-117107</link>
+      <guid isPermaLink="false">an:founders-associate-strategic-projects-ceo-office-internship-working-student-leipzig-117107</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>boOst Startup Ecosystem gGmbH · Leipzig · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent/-in (m/w/d) in der telefonischen Immobilienberatung (20 Stunden / Woche)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/immo-marketer/werkstudent-in-in-der-telefonischen-immobilienberatung-20-stunden-woche-bochum-368475</link>
+      <guid isPermaLink="false">an:werkstudent-in-in-der-telefonischen-immobilienberatung-20-stunden-woche-bochum-368475</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Immo-Marketer · Bochum · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>WERKSTUDENT*/ STUDENTISCHE AUSHILFE* IM STRATEGISCHEN EINKAUF, HS48 Zentrale</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2362474-S</link>
@@ -55,14 +71,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Ingenieurbüro Schmon · Messkirch · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Strategieentwicklung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19376-44512678-1016-S</link>
-      <guid isPermaLink="false">19376-44512678-1016-S</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>HDI AG · Hilden · €17.50/h · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

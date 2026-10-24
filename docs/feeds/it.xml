@@ -6,8 +6,80 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 09:31:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>GISA GmbH: Werkstudent:in SAP Entwicklung (m/w/d)*</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3051401792792801-S</link>
+      <guid isPermaLink="false">11956-3051401792792801-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>GISA GmbH · Halle · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) – Digitalization &amp; Finance</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1636421-2-S</link>
+      <guid isPermaLink="false">12465-1636421-2-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · München · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) KI-gestützte Software- und Plattformentwicklung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1646595-1-S</link>
+      <guid isPermaLink="false">12465-1646595-1-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · Berlin · €15.00/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Testunterstützung für ein Funksystem</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1646604-1-S</link>
+      <guid isPermaLink="false">12465-1646604-1-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · Braunschweig · €15.00/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Working Student (f/m/d) Distributed Computing</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1646972-1-S</link>
+      <guid isPermaLink="false">12465-1646972-1-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · Garching an der Alz · IT &amp; Software · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent*in IT internationale Logistik</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1646587-1-S</link>
+      <guid isPermaLink="false">13151-1646587-1-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Mercedes-Benz Group AG · Böblingen · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Managed Charging</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1646902-1-S</link>
+      <guid isPermaLink="false">13151-1646902-1-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Mercedes-Benz Group AG · Stuttgart · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Softwareentwicklung &amp; Support im Busi...</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15537-JOB-868067-S</link>
+      <guid isPermaLink="false">15537-JOB-868067-S</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>SIKA Dr. Siebert &amp; Kühn GmbH &amp; Co. KG · Kaufungen · €17.00/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Working Student - IT Asset &amp; Stock Management (x/f/m)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/doctolib/working-student-it-asset-stock-management-berlin-berlin-203973</link>
+      <guid isPermaLink="false">an:working-student-it-asset-stock-management-berlin-berlin-203973</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Doctolib · Berlin · €15.00/h · IT &amp; Software</description>
+    </item>
     <item>
       <title>Werkstudent*in SAP Services</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12846-1646505-1-S</link>
@@ -393,6 +465,22 @@
       <description>MOUTH Propaganda GmbH · Köln · IT &amp; Software</description>
     </item>
     <item>
+      <title>Werkstudent* Software Engineering</title>
+      <link>https://www.arbeitnow.com/jobs/companies/accso-accelerated-solutions-gmbh/werkstudent-software-engineering-darmstadt-314415</link>
+      <guid isPermaLink="false">an:werkstudent-software-engineering-darmstadt-314415</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Accso – Accelerated Solutions GmbH · Darmstadt · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Working Student - Software Engineering (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-software-engineering-gilching-227201</link>
+      <guid isPermaLink="false">an:working-student-software-engineering-gilching-227201</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Quantum-Systems GmbH · Gilching · IT &amp; Software · no German needed</description>
+    </item>
+    <item>
       <title>Working Student / Werkstudent — Applied AI - Software Engineering</title>
       <link>https://www.arbeitnow.com/jobs/companies/aifano-gmbh/working-student-werkstudent-applied-ai-software-engineering-herford-51530</link>
       <guid isPermaLink="false">an:working-student-werkstudent-applied-ai-software-engineering-herford-51530</guid>
@@ -487,62 +575,6 @@
       <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Holzland Becker · Offenbach · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>webit! Gesellschaft für neue Medien mbH: Werkstudent (m/w/d) für Softwareentwicklung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-1234981792188001-S</link>
-      <guid isPermaLink="false">11956-1234981792188001-S</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>webit! Gesellschaft für neue Medien mbH · Dresden · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>webit! Gesellschaft für neue Medien mbH: Werkstudent (m/w/d) für TYPO3-Entwicklung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-1235021792188001-S</link>
-      <guid isPermaLink="false">11956-1235021792188001-S</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>webit! Gesellschaft für neue Medien mbH · Dresden · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>webit! Gesellschaft für neue Medien mbH: Werkstudent für Frontend-Webentwicklung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-1600631792188001-S</link>
-      <guid isPermaLink="false">11956-1600631792188001-S</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>webit! Gesellschaft für neue Medien mbH · Dresden · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Soloplan GmbH: Werkstudententätigkeit (m/w/d) in der IT-Branche</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2342531792188001-S</link>
-      <guid isPermaLink="false">11956-2342531792188001-S</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Soloplan GmbH · Dresden · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>G &amp; B Automatisierungstechnik GmbH &amp; Co.KG: Werkstudent*in (m/w/d) SPS-Programmierung &amp; Mobile Robot</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2769361792188001-S</link>
-      <guid isPermaLink="false">11956-2769361792188001-S</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>G &amp; B Automatisierungstechnik GmbH &amp; Co.KG · Elsterwerda · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>GISA GmbH: Werkstudent:in Enterprise Information Management (m/w/d)*</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2940811792188001-S</link>
-      <guid isPermaLink="false">11956-2940811792188001-S</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>GISA GmbH · Halle · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>GISA GmbH: Werkstudent:in (m/w/d)* - IT-Beratung SAP HCM</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3040871792188001-S</link>
-      <guid isPermaLink="false">11956-3040871792188001-S</guid>
-      <pubDate>Sat, 17 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>GISA GmbH · Leipzig · IT &amp; Software</description>
     </item>
   </channel>
 </rss>
