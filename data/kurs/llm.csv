@@ -472,6 +472,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 10001-1000362253-S,56225ea0ea773b45,2026-10-14,ok,claude-haiku-5-5,b51c75bb,accounting,,,,unknown,not_stated,unknown,not_stated,,,,
 10001-1000389427-S,505206958e015621,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 10001-1000398558-S,8e2bdccba6b13fd8,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Zeiterfassungssysteme;Arbeitszeit-Reports und Analysen,,fluent,must_have,unknown,not_stated,,,,
+10001-1000403155-S,88cbeeeb615d1826,2026-10-25,ok,claude-haiku-5-5,c5b58efa,content|sea|seo|social_media,online_marketing,"KI, Promptaufbau (Claude)",,unknown,not_stated,unknown,not_stated,,,25,
 10001-1000406977-S,2e26029657eaaf45,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Personalrekrutierung;Bewerbermanagementsystem,,unknown,not_stated,unknown,not_stated,,,38.5,38.5
 10001-1000409065-S,2f907662a1c9971b,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|controlling|google_analytics|seo|wordpress,,Search Console;Ahrefs;SEMrush;Keyword-Recherche,,unknown,not_stated,unknown,not_stated,,,,
 10001-1000445478-S,e5a56640869f2419,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law|other_erp|payroll,datev|dynamics,Auswertungen und Statistiken,,unknown,not_stated,unknown,not_stated,,,,
@@ -1997,6 +1998,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 10001-1003893890-S,0c3f245cb225411a,2026-10-23,ok,claude-haiku-5-5,c5b58efa,controlling|excel|online_marketing,,Marketingbudgets,"Planungs-, Reporting-, ERP-, BI- oder Marketing-Systemen",c1_plus,must_have,fluent,must_have,,,,
 10001-1003894086-S,6dd0cab494f24f62,2026-10-23,ok,claude-haiku-5-5,c5b58efa,content|crm|sales_skills|social_media,customer_service|driving_licence,,,c1_plus,must_have,unknown,not_stated,,,,
 10001-1003894090-S,de5fd5d719f699f6,2026-10-23,ok,claude-haiku-5-5,c5b58efa,content|online_marketing|paid_social|social_media|video,,Auswertungen;Trends und Wettbewerber recherchieren,,c1_plus,must_have,unknown,not_stated,,,,
+10001-1003894248-S,db43a19af4a40cbf,2026-10-25,ok,claude-haiku-5-5,c5b58efa,driving_licence,,,Lageführungssoftware (Metropoly-BOS);Risikoanalyse,c1_plus,must_have,unknown,not_stated,,,,
 10001-1003894259-S,e1d82833d28501be,2026-10-23,ok,claude-haiku-5-5,c5b58efa,excel|labour_law|ms_office|powerpoint|sap_hcm|word,,"Berichten, Vorlagen und Statistiken;Tarifrecht des Öffentlichen Dienstes",Bewerbermanagementsysteme;Wissenschaftszeitvertragsgesetz (WissZeitVG),fluent,must_have,fluent,must_have,,,19.25,19.25
 10001-1003894350-S,4311319c18a52aa5,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office|supply_chain,sap,Zollvorschriften;Export/Import,,c1_plus,must_have,c1_plus,must_have,,,30,40
 10001-1003894755-S,c301aede82da37ca,2026-10-23,ok,claude-haiku-5-5,c5b58efa,azure|genai|javascript|python|rest_api|typescript|zapier,,Conversational AI / Voicebots;Cloud-native architectures,TTS/STT oder Voice-AI-Plattformen,c1_plus,must_have,fluent,must_have,,,,
@@ -2049,6 +2051,27 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 10001-1003904094-S,6a37f4205a0046c2,2026-10-24,ok,claude-haiku-5-5,c5b58efa,recruiting|teams,,,,fluent,must_have,fluent,must_have,,,,
 10001-1003904236-S,c667986f53d38392,2026-10-24,ok,claude-haiku-5-5,c5b58efa,controlling|recruiting,,,,unknown,must_have,unknown,must_have,,,,
 10001-1003904240-S,c81e1f302fcf2c35,2026-10-24,ok,claude-haiku-5-5,c5b58efa,excel|ms_office,dynamics|sap,Auswertungen,,unknown,not_stated,unknown,not_stated,,,,
+10001-1003904475-S,2305802e2117ba2f,2026-10-25,ok,claude-haiku-5-5,c5b58efa,social_media,,Kampagnen;Performance-Kennzahlen;E-Commerce-Prozess,Kreatives Marketing mit kaufmännischem Denken,unknown,not_stated,unknown,not_stated,,,,
+10001-1003904631-S,0ce8d38f3e3d065d,2026-10-25,ok,claude-haiku-5-5,c5b58efa,seo|wordpress,sap|shopify,Marktplatz-Management;Amazon und eBay;Landingpages und Kategorien,Bildbearbeitung,unknown,not_stated,unknown,not_stated,,,,
+10001-1003904637-S,6bf6ca9e74f87fe4,2026-10-25,ok,claude-haiku-5-5,c5b58efa,controlling|market_research|ms_office|online_marketing|project_mgmt|sea|seo,,Budgetverwaltung;Tracking- und Kampagnentools;Performance-Analysen,,unknown,not_stated,unknown,not_stated,,,,
+10001-1003904749-S,e6e93627ba538d37,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,,Präsentationen;Reisekostenabrechnung;Fuhrparkmanagement,,fluent,must_have,fluent,must_have,,,,
+10001-1003904763-S,86b76e23aee9bb6b,2026-10-25,ok,claude-haiku-5-5,c5b58efa,windows_server,,Systemadministration;KI-Lösungen;Automatisierungen,"Programmier-, Skript- oder Projekterfahrung",unknown,not_stated,unknown,not_stated,,,,
+10001-1003904860-S,3eb7eed854cc7dfd,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm,,Projektsteuerung;Erfahrung in der Steuerung von Projekten,,unknown,not_stated,unknown,not_stated,,,,
+10001-1003904971-S,8467fd8c33cfd8bb,2026-10-25,ok,claude-haiku-5-5,c5b58efa,procurement,,,,unknown,not_stated,unknown,not_stated,,,,
+10001-1003905373-S,634cef610497f707,2026-10-25,ok,claude-haiku-5-5,c5b58efa,event|labour_law|ms_office,,Zeiterfassungssystem;Stellenausschreibungen erstellen,,unknown,not_stated,unknown,not_stated,,,,20
+10001-1003905487-S,3c603e05142c04a7,2026-10-25,ok,claude-haiku-5-5,c5b58efa,dynamics|ms_office|other_erp|sap,,,,unknown,must_have,unknown,nice_to_have,,,,
+10001-1003905492-S,7f7bfee692f5c7ec,2026-10-25,ok,claude-haiku-5-5,c5b58efa,content|controlling|social_media|teams,,Bewegtbild Konzeption,Meta Business Suite;Apple-Geräte;KI-gestützte Tools;Energiethemen Interesse,native,must_have,unknown,not_stated,,,30,
+10001-1003905749-S,3a04b25aeb1fa2fb,2026-10-25,ok,claude-haiku-5-5,c5b58efa,canva|content|photoshop|seo|social_media|video,email_marketing|illustrator,,CMS experience,unknown,not_stated,unknown,not_stated,,,40,40
+10001-1003906249-S,547cac4c72c1c2c9,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|google_analytics|online_marketing|paid_social|sea,email_marketing,,Affiliate,native,must_have,fluent,must_have,,,,
+10001-1003906499-S,a70ca68601a36124,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
+10001-1003906762-S,0cb51c5eb27283e7,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,,,GRC systems;AI governance knowledge,c1_plus,must_have,c1_plus,must_have,,,,
+10001-1003907060-S,70a38147502dda89,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,,,Personio,c1_plus,must_have,unknown,not_stated,,,,
+10001-1003907080-S,218ade5bdd2ce2d9,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,,,Fachkenntnisse im Druckbereich,unknown,not_stated,unknown,not_stated,,,,
+10001-1003907230-S,40a91f050cca46ef,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office|procurement|sap_mm_sd,,,,unknown,not_stated,fluent,must_have,,,,
+10001-1003907437-S,e5dacada5680c8f2,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,payroll,"Arbeits-, Lohnsteuer- und Sozialversicherungsrecht;Statistiken und Reports",moderner HR-Software,unknown,not_stated,unknown,not_stated,,,30,30
+10001-1003907483-S,aea81c2afd9ba3cb,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|other_erp,,Zollabwicklung;Exportabwicklung,Akkreditivgeschäfte,fluent,must_have,fluent,must_have,,,,
+10001-1003907561-S,be8f941b0112820f,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|other_erp|sales_skills,,,,fluent,must_have,fluent,must_have,,,,
+10001-1003907706-S,8fbf96fda3e7ab42,2026-10-25,ok,claude-haiku-5-5,c5b58efa,recruiting|social_media,sap_hcm,,,c1_plus,must_have,fluent,must_have,,,,
 11070-1532773-1-S,ce6ed2087f3a59a2,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling,,,,unknown,not_stated,fluent,must_have,,,,
 11070-1605348-1-S,6a53ffa138134576,2026-10-14,ok,claude-haiku-5-5,b51c75bb,procurement|sap,,,,c1_plus,must_have,c1_plus,must_have,,,,
 11070-1630147-1-S,70a237ed12800406,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,"AI & agents accelerate software development;scalable, secure, enterprise-grade cloud and AI solutions",,unknown,not_stated,unknown,not_stated,,,,
@@ -2057,6 +2080,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 11081-5TQTG7NJ2M9S0LSH-S,0e4c8638f7b0765d,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|powerpoint|word,,Präsentationen und Tabellen,,native,must_have,c1_plus,must_have,,,,
 11081-6JWUDKCYLSBOWMRS-S,9e7f4e28d149531a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|outlook|powerpoint|word,sap,Statusberichte;Bestellvorgängen,,c1_plus,must_have,fluent,must_have,29.12,29.12,20,20
 11081-7Y64Z013ZWOM20N3-S,898c7d6e937b958d,2026-10-17,ok,claude-haiku-5-5,c5b58efa,supply_chain,,Lagerverwaltungssystem,,unknown,not_stated,unknown,not_stated,,,38,38
+11081-8JCSPQE5OD2VIWA0-S,81af9724e4b4d000,2026-10-25,ok,claude-haiku-5-5,c5b58efa,google_workspace|ms_office,crm|wordpress,KPIs,,unknown,not_stated,c1_plus,must_have,,,40,40
 11081-CEBO4E1G64BPDEVD-S,2eeacd923fb0bcb8,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|payroll,sap_hcm,,,fluent,must_have,unknown,not_stated,,,15,20
 11081-DXIR3J8OGHP2SF4Z-S,a73ac9132f8802f0,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm|ms_office|other_erp,,,,native,must_have,fluent,must_have,,,,
 11081-FWJYZ0PRR4MU0QYS-S,58af6eb3238399cd,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office|powerpoint,,,,unknown,not_stated,fluent,must_have,24.46,32.64,35,35
@@ -2163,6 +2187,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 11119-4974770361-S,62d8b0ec94257014,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office|sap|supply_chain,,,,c1_plus,must_have,c1_plus,must_have,,,,
 11119-4974890250-S,4021696c7456bbb1,2026-10-24,ok,claude-haiku-5-5,c5b58efa,excel|labour_law|outlook|payroll|word,,Statistiken und Kennzahlen,,unknown,not_stated,unknown,not_stated,,,,
 11119-4976405443-S,1904784dc7217cb8,2026-10-24,ok,claude-haiku-5-5,c5b58efa,,,Arbeits- und Betriebsverfassungsrecht,,unknown,not_stated,fluent,must_have,,,,
+11289-196769077-S,c8ca05d138a125d0,2026-10-25,ok,claude-haiku-5-5,c5b58efa,data_analysis|driving_licence|labour_law|recruiting,,Kaufmännische Ausbildung,,fluent,must_have,fluent,must_have,,,,
 11289-196845890-S,c8ca05d138a125d0,2026-10-16,ok,claude-haiku-5-5,c5b58efa,driving_licence|labour_law|recruiting,,Kennzahlen (HR-Kennzahlen);Kaufmännische Ausbildung,,fluent,must_have,fluent,must_have,,,,
 11289-205669151-S,3d7b5016a46f0d16,2026-10-22,ok,claude-haiku-5-5,c5b58efa,ms_office,other_erp|salesforce|sap,"Stammdaten pflegen;EDV-Eingabe von Bestellungen;Erstellung interner Analysen, Berichte, Statistiken",,unknown,not_stated,unknown,not_stated,,,,
 11289-214603413-S,bc7b1c2a2f6ede5b,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office|payroll,,,,unknown,not_stated,unknown,not_stated,,,20,20
@@ -2296,6 +2321,8 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 11868-13901781-S,8022cd7b96806233,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office,it_support,,logistische Prozesse,native,must_have,unknown,not_stated,,,,
 11868-13903049-S,f590287eac380f19,2026-10-24,ok,claude-haiku-5-5,c5b58efa,,ms_office|other_erp|sap_s4,,,native,must_have,unknown,nice_to_have,,,,
 11868-13903135-S,604784889b486047,2026-10-24,ok,claude-haiku-5-5,c5b58efa,controlling|ms_office|sap_s4,,Allgemeine Auswertungen,KI-basierte Werkzeuge (Microsoft Copilot),unknown,not_stated,fluent,must_have,,,,
+11868-13905712-S,93951caef8e76c72,2026-10-25,ok,claude-haiku-5-5,c5b58efa,payroll,,Abgeschlossene kaufmännische Ausbildung,,unknown,not_stated,unknown,not_stated,,,,
+11868-13905768-S,cd3b112be277c16d,2026-10-25,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|supply_chain,,"Warenwirtschaftssysteme;Auswertungen, Statistiken und Reports;Rechnungen bearbeiten",,unknown,not_stated,unknown,not_stated,,,,
 11937-34294_59116-1-S,8fdf9534dc6e49db,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|crm|email_marketing,,Marketing Automation,Emarsys;Exactag,unknown,not_stated,unknown,not_stated,,,,
 11937-34855_59496-1-S,228b91c2307a0d42,2026-10-14,ok,claude-haiku-5-5,b51c75bb,data_analysis|dataviz|online_marketing|paid_social|project_mgmt,consulting,Campaign tracking set-up,Cross-channel digital advertising,unknown,nice_to_have,fluent,must_have,,,,
 11937-34966_59579-1-S,a6e4dd9ad9d46d8f,2026-10-14,ok,claude-haiku-5-5,b51c75bb,online_marketing|sea,,Reports zu Kampagnenperformance;Analysen;Tracking-Strukturen;Merchant Center,,c1_plus,must_have,c1_plus,must_have,,,,
@@ -2514,6 +2541,10 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12117-YF-52907-YF-S,ec2bba968ae906fb,2026-10-22,ok,claude-haiku-5-5,c5b58efa,labour_law|ms_office|payroll,,,rexx systems;ATOSS,unknown,not_stated,unknown,not_stated,,,20,20
 12117-YF-53056-YF-S,7423a16872d5fbcb,2026-10-24,ok,claude-haiku-5-5,c5b58efa,,,Buchführung,,unknown,not_stated,unknown,not_stated,,,19.5,19.5
 12117-YF-53061-YF-S,faebfc16d09905c8,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting|sap,,Recruiting-Prozess,,unknown,not_stated,unknown,not_stated,,,,
+12117-YF-53111-YF-S,3691938b0eb3edfc,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|hubspot|it_support|itil|market_research|sales_skills|salesforce,,Prozessautomatisierung;LinkedIn Sales Navigator;Outreach;ZoomInfo,OTRS,c1_plus,must_have,c1_plus,must_have,,,,
+12117-YF-53112-YF-S,467e1b6c60890599,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,crm|sap,,,fluent,must_have,fluent,must_have,,,,
+12117-YF-53138-YF-S,c6ecafe45719e6b9,2026-10-25,ok,claude-haiku-5-5,c5b58efa,pm_tools|social_media|teams,,MOCO;Präsentationstools;Suchmaschinen optimieren;Budgets der Textproduktion,,native,must_have,fluent,must_have,,,,
+12117-YF-53205-YF-S,2a570916e3c35330,2026-10-25,ok,claude-haiku-5-5,c5b58efa,payroll|tax,,Zeitwirtschaft,,unknown,not_stated,unknown,not_stated,,,25,25
 12122-1004355-1767762-0-S,d15b491f411b75d5,2026-10-14,ok,claude-haiku-5-5,b51c75bb,customer_service|social_media,,Personalauswahl,,fluent,must_have,unknown,not_stated,,,,
 12122-157525-1623555-0-S,f6879a23f1f2cdda,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,other_erp,Kalkulationen,,unknown,not_stated,fluent,must_have,18,20,,
 12122-159143-1622868-0-S,8b9d429cf4489c95,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,,fluent,must_have,unknown,not_stated,,,,
@@ -2666,6 +2697,9 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12122-978664677-S,cd6fcf17e4e7f1cd,2026-10-24,ok,claude-haiku-5-5,c5b58efa,accounting|ms_office,controlling|procurement,Warenwirtschaftssystem,,fluent,must_have,unknown,not_stated,,,,
 12122-978673565-S,23e5d49787541262,2026-10-24,ok,claude-haiku-5-5,c5b58efa,,,,,fluent,must_have,unknown,not_stated,,,,
 12122-978697212-S,f6345127de0abbb2,2026-10-24,ok,claude-haiku-5-5,c5b58efa,sap,,,,c1_plus,must_have,unknown,not_stated,,,,
+12122-978785467-S,f859681d32b31287,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office|other_erp|procurement,,Rechnungen sichten;Liefertermine,,fluent,must_have,unknown,not_stated,,,,
+12122-978804479-S,29465de3d375ec94,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office|sap_hcm,excel,Arbeits- und Sozialversicherungsrecht,,unknown,not_stated,fluent,must_have,,,,
+12122-978814160-S,5c41951272f81518,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,procurement,"Berichte, Statistiken;Angebote einholen;Stammdaten im System",,fluent,must_have,unknown,not_stated,,,,
 12124-DQ5X6IKG9W9KC669-S,bfbd6132eb67767d,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|payroll,labour_law,,HR-Systeme,unknown,not_stated,unknown,not_stated,,,35,40
 12147-20260930225932-S,3dfe015f66135970,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office,,Reisekosten;Kreditkartenabrechnungen,Reisekostenabrechnung,fluent,must_have,fluent,must_have,,,,
 12147-20261007226297-S,66023c640fb8d499,2026-10-14,ok,claude-haiku-5-5,b51c75bb,accounting|excel|ms_office|payroll,other_erp|sap,Monats- und Jahresabschlüssen;Personalakten;Personaladministration,,unknown,not_stated,unknown,not_stated,,,,
@@ -2684,6 +2718,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12160-13890717-S,886002787be7364a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,Strukturierte Interviews;Eignungsdiagnostik;Pharmaindustrie Kenntnisse;Verhandlungsgeschick,,unknown,must_have,basic,must_have,,,37.5,37.5
 12160-13893046-S,181246b6794e8db9,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|other_erp,,Auswertungen und Statistiken;Rechnungsprüfung;Bestellungen bei Lieferanten,,unknown,not_stated,fluent,must_have,,,,
 12160-13895198-S,b3dc466c345d7bf6,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,,,unknown,not_stated,c1_plus,must_have,,,,
+12160-13904788-S,957de072329ac88f,2026-10-25,ok,claude-haiku-5-5,c5b58efa,sales_skills,,Kaufmännische Ausbildung;Redegewandtheit und Spaß am telefonieren;Pflege und Ausbau unseres Kundenstamms,,unknown,not_stated,unknown,not_stated,,,20,40
 12203-5dade8012a9840c-S,a98dcc13096f8b8d,2026-10-24,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,fluent,must_have,unknown,not_stated,,,,
 12203-7a0a08dd9fcd404-S,539400e30a708dd0,2026-10-24,ok,claude-haiku-5-5,c5b58efa,,ms_office,,Warenwirtschaftssystem,unknown,not_stated,unknown,not_stated,,,,
 12203-899906089150457-S,b7a7ac2d9710d758,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|outlook|word,,Herstellereigene Service-Portale,,fluent,must_have,unknown,not_stated,,,,
@@ -3302,6 +3337,26 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12288-4975191211-S,7b4f23e30b95df8b,2026-10-24,ok,claude-haiku-5-5,c5b58efa,payroll|sap|sap_hcm,,Tarifrecht des öffentlichen Dienstes,,unknown,not_stated,fluent,must_have,,,,
 12288-4975194862-S,a30fb6b8401c43e1,2026-10-24,ok,claude-haiku-5-5,c5b58efa,crm|ms_office|other_erp,,,,c1_plus,must_have,fluent,nice_to_have,,,,
 12288-4975202498-S,501406edd7742ade,2026-10-24,ok,claude-haiku-5-5,c5b58efa,agile|genai|jira,,Vibe-Coding-Tools;Produkt-KPIs,,unknown,not_stated,unknown,not_stated,,,,
+12288-4976614099-S,6f451e7cd76d83a7,2026-10-25,ok,claude-haiku-5-5,c5b58efa,content|google_analytics|online_marketing|social_media,,Grafiktools;Ads-Tools;Analytisches Verständnis für Performance- und Algorithmusdaten;Relevante Kennzahlen;Koordination von Marketingprojekten,,c1_plus,must_have,c1_plus,must_have,,,,
+12288-4976618457-S,b6812924f567ad21,2026-10-25,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|outlook|word,dynamics,,,unknown,not_stated,unknown,not_stated,,,,
+12288-4976619405-S,2875624b781f9e84,2026-10-25,ok,claude-haiku-5-5,c5b58efa,controlling|ms_office|recruiting,,,,c1_plus,must_have,fluent,must_have,,,,
+12288-4976620439-S,fa21d9987c55cdd2,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office|payroll|sap,recruiting,Auswertungen und Analysen,,c1_plus,must_have,c1_plus,must_have,,,,
+12288-4976627215-S,9e500c3314e311b2,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting,,Personalmarketing / Employer Branding;Digitale Recruiting-Tools,,fluent,must_have,fluent,must_have,,,,
+12288-4976632041-S,19864f60ed51de8e,2026-10-25,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|outlook|powerpoint,,Statistiken und Auswertungen,,fluent,must_have,unknown,not_stated,,,,
+12288-4976636242-S,d8650e698fbb4f67,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,fluent,nice_to_have,fluent,nice_to_have,,,,
+12288-4976640892-S,00547aa3e6b2b4c9,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,,Exportsoftware-Systeme,,fluent,must_have,fluent,must_have,,,,
+12288-4976644968-S,85fe81a8e2ac6e49,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,fluent,must_have,,,,
+12288-4976649429-S,21155659c0e2fed0,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office|procurement|sap,,,,unknown,not_stated,unknown,not_stated,,,,
+12288-4976651982-S,cb85ec279dd0c5df,2026-10-25,ok,claude-haiku-5-5,c5b58efa,controlling|crm|ms_office|sales_skills,salesforce,,,unknown,not_stated,unknown,not_stated,,,,
+12288-4976653667-S,33caafd9510a1afe,2026-10-25,ok,claude-haiku-5-5,c5b58efa,customer_service|ms_office|other_erp|sales_skills,,,,unknown,not_stated,unknown,not_stated,,,40,40
+12288-4976654894-S,9776787eda41089b,2026-10-25,ok,claude-haiku-5-5,c5b58efa,recruiting,customer_service,,,c1_plus,must_have,fluent,must_have,,,,
+12288-4976660418-S,e457729c11cc4c83,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
+12288-4976661072-S,70cc1c5e3515666f,2026-10-25,ok,claude-haiku-5-5,c5b58efa,customer_service|ms_office|other_erp,sap,,,fluent,must_have,fluent,must_have,,,,
+12288-4976666515-S,3a4c360dd539969c,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,fluent,must_have,c1_plus,must_have,,,,
+12288-4976675649-S,cc46b41570a50783,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,sap,,,fluent,must_have,unknown,not_stated,,,,
+12288-4976676868-S,a2dec447161c35ec,2026-10-25,ok,claude-haiku-5-5,c5b58efa,cicd|python|rest_api,,Agentic Workflows und KI-Architekturen;Vertex AI;MCP (Model Context Protocol),,unknown,must_have,unknown,must_have,,,,
+12288-4976677336-S,dc76b96f51be4511,2026-10-25,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|powerpoint,,Berichte und Auswertungen;Projektfortschritte nachverfolgen,,unknown,not_stated,unknown,not_stated,,,,
+12288-4976679159-S,c0298de822e7c550,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,ms_office,,Fachkenntnisse Führerscheinwesen;Umgang mit digitalen Anwendungen,c1_plus,must_have,unknown,not_stated,,,,
 12291-13864074-S,b4bf8704011fcdbf,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm|ms_office|other_erp,,,,c1_plus,must_have,unknown,not_stated,,,,
 12291-13869867-S,b5e6df5b2c442f21,2026-10-14,ok,claude-haiku-5-5,b51c75bb,payroll|social_media,,Auswahl zukünftiger Auszubildender;Ausbildungsmessen und Veranstaltungen,Arbeits- und Sozialversicherungsrecht;Ausbildereignung (AdA),c1_plus,must_have,unknown,not_stated,,,37.5,37.5
 12306-4ZXUUD7GXDHHC6JO-S,791113a363e61f99,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,Kundenbeziehungen aufbauen,c1_plus,must_have,unknown,not_stated,,,,
@@ -3383,6 +3438,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12384-977244388-S,0cc6d201360902b5,2026-10-17,ok,claude-haiku-5-5,c5b58efa,ms_office|sap,,Ausfuhr- und Zollabwicklung;Atlas,,unknown,not_stated,fluent,must_have,,,,
 12384-977245420-S,d0f40729820fff2e,2026-10-17,ok,claude-haiku-5-5,c5b58efa,,sap_hcm|social_media,Personalgewinnung,,fluent,must_have,fluent,must_have,26.09,26.09,,
 12384-978261436-S,89ceccbef4bff2fb,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office|other_erp,,Auslegung und Kalkulation von Filteranlagen,,fluent,must_have,fluent,must_have,,,,
+12384-978713231-S,fca04c13ace6a16c,2026-10-25,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|outlook|powerpoint|word,,,,unknown,not_stated,unknown,not_stated,,,,
 12438-13875296-S,fa38cdc659206618,2026-10-14,ok,claude-haiku-5-5,b51c75bb,customer_service|ms_office,,Verkaufsgespräche;Angebotskalkulation,,c1_plus,must_have,unknown,not_stated,,,,
 12438-13880146-S,d8bee2bc00823ae4,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|recruiting,,Indeed / StepStone;Employer Branding und Personalmarketing,,unknown,not_stated,unknown,not_stated,,,,
 12438-13884994-S,3bb99a08df9dd8d7,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,Stakeholder Management;Strukturierte Interviews,,basic,must_have,basic,must_have,,,,
@@ -3427,6 +3483,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12513-0007659703-S,20e93f69e33ea095,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office|teams,cad|gis,"Netzplanung und Netzbetrieb;Ausschreibungen und Angebotsprüfungen;Kosten- und Budgetkontrolle;VDE, DIN, HOAI, VOB/VOL",Eplan,c1_plus,must_have,unknown,not_stated,,,,
 12513-0007659784-S,56843fb1b3755ba7,2026-10-23,ok,claude-haiku-5-5,c5b58efa,labour_law|recruiting|tax,,,,c1_plus,must_have,fluent,must_have,,,,
 12513-0007659812-S,0f09a000ff8c43df,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office,,,Genehmigungssoftware,unknown,not_stated,none,not_stated,,,,
+12513-0007660061-S,5fd5b3ee53c018d6,2026-10-25,ok,claude-haiku-5-5,c5b58efa,recruiting,ms_office,,LOGA Abrechnungsprogramm,c1_plus,must_have,fluent,must_have,,,,
 12514-202607cdc0scs01-S,b41b637428051ce5,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm,sales_skills,O365-Welt,,unknown,not_stated,fluent,must_have,,,,
 12514-202608e050pps01-S,c51bde577dbe2167,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|powerpoint,,HR-Kennzahlen Analyse;Projektverantwortung HR-Projekte;Entgeltwirtschaft,,unknown,not_stated,unknown,not_stated,,,,
 12514-202608k017mvs01-S,2aab9489870725d4,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,other_erp,Kalkulation von Serienprodukten;Kundenanfragen- und Angebotsprozesses,,unknown,not_stated,fluent,must_have,,,30,
@@ -3445,6 +3502,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12518-AJA9Z6-E1M-S,67423cc676f7018c,2026-10-22,ok,claude-haiku-5-5,c5b58efa,content|event|paid_social,video|wordpress,,Website-Pflege;Fotoauswahl und Retusche;Grafikarbeiten,native,must_have,unknown,not_stated,,,,
 12518-CLRMIG-BTR-S,1bbeeb261d2f8264,2026-10-14,ok,claude-haiku-5-5,b51c75bb,accounting|controlling|crm|ms_office|other_erp|procurement|project_mgmt,,Dokumentenmanagement;Auswertungen und Präsentationen,,unknown,not_stated,unknown,not_stated,,,,
 12518-CLRMIG-E56-S,1bbeeb261d2f8264,2026-10-16,ok,claude-haiku-5-5,c5b58efa,accounting|controlling|crm|ms_office|other_erp|procurement|project_mgmt,,Dokumentenmanagement;Auswertungen und Präsentationen,,unknown,not_stated,unknown,not_stated,,,,
+12518-EVWYRR-162-S,788b1c03f9f34abb,2026-10-25,ok,claude-haiku-5-5,c5b58efa,content|email_marketing|online_marketing|sea|social_media|video,driving_licence,Kennzahlen,,c1_plus,must_have,fluent,nice_to_have,,,,
 12518-F065TR-5MY-S,fac5ac8b29bc8018,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,Personaladministration,Personalwesen,unknown,not_stated,unknown,not_stated,,,,
 12518-G6EEH7-PHE-S,3b75a58ac158c49d,2026-10-16,ok,claude-haiku-5-5,c5b58efa,controlling|event|recruiting,,Bewerbermanagementsystem,,c1_plus,must_have,c1_plus,must_have,,,,
 12518-H6FGR0-X12-S,4072fd0e04262bcc,2026-10-14,ok,claude-haiku-5-5,b51c75bb,datev|labour_law|payroll,,,Atoria,unknown,not_stated,unknown,not_stated,,,,
@@ -3874,6 +3932,9 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12811-2361717-S,07b529fb15491a92,2026-10-23,ok,claude-haiku-5-5,c5b58efa,content|graphic_design|paid_social|social_media|video,,Canva,Portfolio,unknown,not_stated,unknown,not_stated,,,,
 12811-2361732-S,833e7da66dc2779c,2026-10-23,ok,claude-haiku-5-5,c5b58efa,,recruiting,,digitalen Tools und KI,c1_plus,must_have,fluent,must_have,,,,
 12811-2361758-S,9946a1d76091172e,2026-10-23,ok,claude-haiku-5-5,c5b58efa,recruiting,,,HR-Digitalisierung,unknown,not_stated,none,not_stated,,,,
+12811-2362871-S,c5eb83fb18e49694,2026-10-25,ok,claude-haiku-5-5,c5b58efa,recruiting,payroll,sichere Kenntnisse in den rechtrelevanten Themen,Personalsoftware REXX,unknown,not_stated,unknown,not_stated,,,,
+12811-2363003-S,bfc6adb3b3443bf7,2026-10-25,ok,claude-haiku-5-5,c5b58efa,social_media,,,,unknown,not_stated,unknown,not_stated,,,2,
+12811-2363288-S,83880a3e56b40317,2026-10-25,ok,claude-haiku-5-5,c5b58efa,consulting,,Projektsteuerung,,unknown,not_stated,unknown,not_stated,,,,
 12814-13332387-S,6df207a0f54acc8f,2026-10-14,ok,claude-haiku-5-5,b51c75bb,customer_service|sales_skills,,,,unknown,must_have,unknown,must_have,,,,
 12814-13340759-S,78e23ac4871d5f57,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|market_research|online_marketing|sales_skills,,,,fluent,must_have,unknown,not_stated,,,,
 12814-13340760-S,ce9145e6a08b36fb,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|excel|google_analytics|paid_social|sea,,Conversion-Tracking;BI-Tools;Conversion Rate-Optimierung,,native,must_have,c1_plus,must_have,,,,
@@ -4024,6 +4085,8 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12967-0002_00112121-S,162a4c106e08aaea,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|recruiting,,Personalauswertungen und Statistiken,,c1_plus,must_have,unknown,not_stated,,,,
 12967-0002_00112132-S,62e5ee454d4039f7,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,HR-Software,c1_plus,must_have,none,not_stated,,,,
 12967-0002_00112162-S,674a13837f4766cf,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,,,unknown,not_stated,unknown,not_stated,,,,
+12967-0002_00112229-S,162a4c106e08aaea,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,c1_plus,must_have,unknown,not_stated,,,,
+12967-0002_00112232-S,4d57a1c486317217,2026-10-25,ok,claude-haiku-5-5,c5b58efa,customer_service|ms_office,,Elektronische Teilekataloge;Windows-Anwendungen;Verkauf / Kundenberatung;Reklamationsbearbeitung,Warenwirtschaftssysteme,fluent,must_have,unknown,not_stated,,,,
 12976-DM6EJQU7HIVBTLLP-S,b1f084df32c66073,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|recruiting|social_media,,Rekrutingprozess,,native,must_have,unknown,must_have,,,,
 12982-BS-SAM41116275-S,fdb347089fed12b6,2026-10-22,ok,claude-haiku-5-5,c5b58efa,labour_law|ms_office|payroll|recruiting|social_media,datev,,Coveto;Digitale Zeiterfassung,unknown,not_stated,unknown,not_stated,,,,
 12982-JS-SAM28553880-S,860179ef9fe7a07d,2026-10-22,ok,claude-haiku-5-5,c5b58efa,labour_law|ms_office|payroll|recruiting,datev,,Coveto;Digitale Zeiterfassung,c1_plus,must_have,unknown,not_stated,,,,
@@ -4044,6 +4107,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13153-13873118-S,d59d2e93315bc26a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,accounting|dataviz|ms_office|payroll,controlling|sap_hcm,"Kennzahlen, Reports, Statistiken;KI-Anwendungen",,c1_plus,must_have,fluent,must_have,22,23,,
 13185-506671-1787814-0-S,8fe22671ea51e731,2026-10-14,ok,claude-haiku-5-5,b51c75bb,genai,power_platform,AI Agents;Corporate Training;KPIs,,native,must_have,fluent,must_have,,,,
 13185-507171-1799871-0-S,19844500a1888ff1,2026-10-14,ok,claude-haiku-5-5,b51c75bb,cad|ms_office|sap,,Materialstammdatenmanagement;IXOS,,fluent,must_have,fluent,must_have,,,,
+13185-507257-1801071-0-S,d7d6bc20675877bc,2026-10-25,ok,claude-haiku-5-5,c5b58efa,autocad|bim|dotnet|rest_api,azure,Revit;Navisworks;C programming;WPF and MVVM;Revit API;Autodesk Platform Services,,unknown,not_stated,fluent,must_have,,,,
 13191-0067975272-S,b1b6a5da5591b39d,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|other_erp|outlook|payroll,,,,c1_plus,must_have,unknown,not_stated,,,,
 13192-BB-628767-7878-1281-S,88c54518e755186d,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|controlling|online_marketing|social_media|video,,"KPIs;Performance-Analyse;Grafikproduktion;Foto- und Videoerstellung;Gängige Social-Media-, Content- und Analyse-Tools",,unknown,not_stated,unknown,not_stated,,,,
 13208-12419-1800318-0-S,e02f6ef993a54465,2026-10-17,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|outlook|powerpoint|teams|word,,,,c1_plus,must_have,c1_plus,must_have,,,,
@@ -4172,10 +4236,14 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13410-k13572.3951-S,8bfb03cabbb2ca05,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,recruiting,,,c1_plus,must_have,c1_plus,must_have,,,,
 13414-TVYN5HWACJNZ4738-S,628647524fcc9395,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Learning Management System (LMS),,unknown,not_stated,unknown,not_stated,,,,
 13421-5W8BC9G6KVIE312Z-S,c95b4608ca26f96f,2026-10-17,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|recruiting,teams,,HR-Systeme,unknown,not_stated,unknown,not_stated,,,,
+13421-7OP6M5XWYSSX9K4E-S,c95b4608ca26f96f,2026-10-25,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|recruiting,teams,,HR-Systeme,unknown,not_stated,unknown,not_stated,,,,
+13421-FVG4BTX3GMA2AEFF-S,31d205b449f3291f,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|driving_licence|recruiting|sales_skills,,,,unknown,not_stated,unknown,not_stated,,,,
 13421-GU1CNDAOO7VT7KKR-S,d5453e791104c3ef,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm|driving_licence|recruiting,,Aufbau und Pflege eines eigenen Kandidatenpools;Neukundengewinnung,,unknown,not_stated,unknown,not_stated,,,,
 13421-H22XT3VP4R0O31OQ-S,dad10385e391eee5,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm|driving_licence|sales_skills,,Direktansprache von Kandidaten,,unknown,not_stated,unknown,not_stated,,,,
+13421-I9AJBD3CVPLSJVCA-S,f019af46e2cb1a48,2026-10-25,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|outlook|word,,,,unknown,not_stated,unknown,not_stated,20,20,,
 13421-MZL6ZX665WO668KH-S,c95b4608ca26f96f,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|recruiting,,,MS Teams;HR-Systeme,unknown,not_stated,unknown,not_stated,,,,
 13421-THQ7H80J272TDZZ2-S,f019af46e2cb1a48,2026-10-17,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|outlook|word,,,,unknown,not_stated,unknown,not_stated,20,20,,
+13421-VPU7ATF3ZE3QBGEN-S,dad10385e391eee5,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|driving_licence,,,,unknown,not_stated,unknown,not_stated,,,,
 13424-40E1A79IB09BDP0T-S,301bbd7444110f19,2026-10-24,ok,claude-haiku-5-5,c5b58efa,,supply_chain,,,unknown,not_stated,unknown,not_stated,,,40,40
 13424-432DENY8W2VXJX4E-S,259dc53411530ee4,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Präsentationen,,fluent,must_have,fluent,must_have,,,,
 13424-HFPGYJ9IO0NDXWT8-S,73f9d2b43d7cd889,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling,project_mgmt,,Konzeption und Umsetzung von HR-Prozessen;Erfahrung in der Produktion,unknown,not_stated,unknown,not_stated,,,20,30
@@ -4212,6 +4280,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13586-13893327-S,5053ba1ba4c9bd03,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm|ms_office|other_erp,,Warenwirtschaftssystem,,c1_plus,must_have,unknown,not_stated,,,,
 13586-13898017-S,5053ba1ba4c9bd03,2026-10-17,ok,claude-haiku-5-5,c5b58efa,crm|ms_office|other_erp,,Warenwirtschaftssystem,,c1_plus,must_have,unknown,not_stated,,,,
 13586-13899960-S,5053ba1ba4c9bd03,2026-10-22,ok,claude-haiku-5-5,c5b58efa,crm|ms_office|other_erp,,Warenwirtschaftssystem,,native,must_have,unknown,not_stated,,,,
+13586-13904917-S,5053ba1ba4c9bd03,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|ms_office|other_erp,,,,c1_plus,must_have,unknown,not_stated,,,,
 13607-2PLQUPZC7HOQ2MQV-S,7ef016c1b7992af0,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office,,IT-Affinität;GVP-Tarifvertrag,,native,must_have,fluent,must_have,,,,
 13607-7ZE6ZHRSCHUTGEBQ-S,5fbabc088ed48485,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office,hubspot,,Bewerbermanagement-Software,unknown,not_stated,unknown,not_stated,,,,
 13607-G3NIHWEFJFASEKDE-S,5fbabc088ed48485,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,hubspot,,Bewerbermanagement-Software,unknown,not_stated,unknown,not_stated,,,,
@@ -4223,6 +4292,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13611-RLQPZXWFDSMFYZD7-S,0ed2d2f34f92d2d9,2026-10-23,ok,claude-haiku-5-5,c5b58efa,supply_chain,sap,,,unknown,not_stated,unknown,not_stated,,,,
 13611-TUQWJB3357LHQR3S-S,41fa5808263aacfa,2026-10-23,ok,claude-haiku-5-5,c5b58efa,cad|excel|ms_office|powerpoint|word,,Auslegung von Sicherheitstechnik;Konzeptionierung von Steuerungssystemen,,unknown,not_stated,unknown,not_stated,,,,
 13611-UGFORMCKV6RDLKIG-S,0ed2d2f34f92d2d9,2026-10-16,ok,claude-haiku-5-5,c5b58efa,sap,supply_chain,,,unknown,not_stated,unknown,not_stated,,,,
+13611-YDN3ARV2Y5ZZXZPJ-S,473f595cc204c566,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,sap,,Organisationstalent,unknown,not_stated,unknown,not_stated,,,,
 13621-11633-1797503-0-S,aed3c8be5db5a055,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|excel|labour_law|sap_hcm,,,,unknown,not_stated,fluent,must_have,,,,
 13633-JP4305653-S,3eb660e22f8bf9d5,2026-10-14,ok,claude-haiku-5-5,b51c75bb,accounting|ms_office|payroll,,Meldeverfahren;Standardberichte;Lohnsteuer- und Sozialversicherungsrecht,Tarifrecht des öffentlichen Dienstes (TVD),unknown,not_stated,none,not_stated,,,,
 13635-00606765_JB5249928-S,4c2af7663592af93,2026-10-14,ok,claude-haiku-5-5,b51c75bb,event|ms_office|online_marketing|outlook|powerpoint|word,content|social_media,Terminplanung und -koordination;Präsentationen und Auswertungen,Grafik-Tools,native,must_have,unknown,nice_to_have,,,,
@@ -4238,6 +4308,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-0c7f2b83_JB5271736-S,0745e5e790ab5ea1,2026-10-15,ok,claude-haiku-5-5,c5b58efa,controlling|crm|hubspot|zapier,salesforce,Marketing Automation;Lead-Scoring-Modelle;KI-Tools,,fluent,must_have,fluent,must_have,,,,
 13635-0d06f138_JB5280000-S,59e94427f043d603,2026-10-24,ok,claude-haiku-5-5,c5b58efa,content|data_analysis|social_media,event|google_analytics|seo,ORM or social listening platforms;Competitor positioning,"Vendor management (ORM agency);Cloud, hosting, SaaS industry experience",unknown,nice_to_have,c1_plus,must_have,,,,
 13635-0f07ad78_JB5249480-S,ffcd26a2bb17593f,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|social_media|video,,CapCut,,unknown,not_stated,unknown,not_stated,,,,
+13635-10d9fed8_JB5281731-S,139c5ffa22c03c7e,2026-10-25,ok,claude-haiku-5-5,c5b58efa,content|controlling|email_marketing|ms_office|online_marketing|paid_social|sea|social_media,,Kampagnen-Anzeigenmanagement;Grafik- und Bildbearbeitung;Zielgruppenanalyse;Online-Fundraising,,fluent,must_have,unknown,not_stated,,,40,40
 13635-12abba23_JB5249051-S,ce923b5f7a66ae96,2026-10-14,ok,claude-haiku-5-5,b51c75bb,paid_social|sea|social_media,,Creative Briefings;Creative Strategy;KPI-Analyse,AI-Tools;Hands-on-Erfahrung mit den Tools,unknown,not_stated,unknown,nice_to_have,,,,
 13635-133a4c5b_JB5268660-S,46521c7678132250,2026-10-14,ok,claude-haiku-5-5,b51c75bb,seo|wordpress,,Webflow;Claude Code;Ahrefs;Google Search Console;Schreiben auf Fachniveau;Monatlicher Status,,unknown,not_stated,unknown,not_stated,,,,
 13635-14db395a_JB5248142-S,76ec246370e0cbc1,2026-10-14,ok,claude-haiku-5-5,b51c75bb,sales_skills,,Neukunden gewinnen,,c1_plus,must_have,unknown,not_stated,,,,
@@ -4265,6 +4336,8 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-3ca19e89_JB5255114-S,8ad7fc9537e8d633,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,salesforce,,SaaS background,fluent,must_have,fluent,must_have,,,,
 13635-3cb0adea_JB5255997-S,fc94203fa842e2ef,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm,,,,c1_plus,must_have,c1_plus,must_have,,,,
 13635-42d87a67_JB5277489-S,b7ae3b8f147c86ba,2026-10-22,ok,claude-haiku-5-5,c5b58efa,hubspot|ms_office,crm,,,c1_plus,must_have,unknown,not_stated,,,,
+13635-45eaf55d_JB5280438-S,4c826ee87f104d35,2026-10-25,ok,claude-haiku-5-5,c5b58efa,content|dataviz|email_marketing|google_analytics|hubspot|online_marketing|sea|seo|social_media|wordpress,,Digital Asset Management;KI-Tools,,unknown,not_stated,unknown,not_stated,,,,
+13635-4771467f_JB5280498-S,f2990c9ee5aa404f,2026-10-25,ok,claude-haiku-5-5,c5b58efa,content|paid_social|recruiting|social_media,sea,LinkedIn;KPIs analysieren,,unknown,not_stated,unknown,not_stated,,,,
 13635-48ecd678_JB5258240-S,9a46b783295e3b67,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,pr,Personio Recruiting-Modul,,fluent,must_have,fluent,must_have,,,,
 13635-4a1c97bf_JB5274632-S,7e3c30d5c061cf55,2026-10-17,ok,claude-haiku-5-5,c5b58efa,cicd|genai|git|python|testing,,,,unknown,nice_to_have,c1_plus,must_have,,,,
 13635-4b39f29c_JB5279445-S,1240a9b24b26aed3,2026-10-24,ok,claude-haiku-5-5,c5b58efa,ms_office,,kaufmännische Ausbildung,,fluent,must_have,unknown,not_stated,,,,
@@ -4285,6 +4358,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-5d9b6a01_JB5263515-S,b4089c570d6afc65,2026-10-14,ok,claude-haiku-5-5,b51c75bb,adobe_cc|canva|dataviz|event|excel|ms_office|social_media|video,,Video-KI-Tools;Script writing for video;Wartung von AV-Technik,Routing und Switching von Video- und Tonsignalen,c1_plus,must_have,c1_plus,must_have,,,,
 13635-5dc04a11_JB5265704-S,98ae6c877e5df23a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,adobe_cc|canva|controlling|figma|hubspot|paid_social|sea|seo|social_media,,GEO;Landingpages;Lead-Nurturing;Growth-Maßnahmen A/B-Tests,,c1_plus,must_have,fluent,must_have,,,,
 13635-62e73700_JB5270394-S,f6f98871f039b727,2026-10-14,ok,claude-haiku-5-5,b51c75bb,hubspot,crm,,,c1_plus,must_have,fluent,nice_to_have,,,,
+13635-6333577c_JB5280490-S,be25c0b34777ed40,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm,sales_skills,Live-Präsentationen;Vertragsabschluss / Verhandlung;Neukundengewinnung;Ausschreibungen begleiten,,unknown,not_stated,unknown,not_stated,,,,
 13635-63999aac_JB5270127-S,90daefdef29dbf51,2026-10-14,ok,claude-haiku-5-5,b51c75bb,driving_licence,,rechtliche Kenntnisse,,fluent,must_have,unknown,not_stated,,,,
 13635-6464eac5_JB5274737-S,a7fa1a99b0cf7480,2026-10-17,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting|social_media,,,,unknown,not_stated,unknown,not_stated,,,20,20
 13635-6493675a_JB5267811-S,faa5f492def74d81,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|sap_hcm,,,Kenntnis des Arbeits- und Tarifrechts;Lohnsteuer- und Sozialversicherungsrecht,unknown,not_stated,unknown,nice_to_have,,,,
@@ -4301,6 +4375,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-71c3fb8f_JB5277212-S,a8b305377b68a044,2026-10-22,ok,claude-haiku-5-5,c5b58efa,ms_office,customer_service,Warenwirtschaftssystem;Umsatzvorgaben,,c1_plus,must_have,c1_plus,must_have,,,,
 13635-73a5ea13_JB5249273-S,3b262215689c93fa,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,recruiting,,,c1_plus,must_have,unknown,not_stated,,,,
 13635-741c3a71_JB5279593-S,ee717e2fc300a7ff,2026-10-24,ok,claude-haiku-5-5,c5b58efa,crm|sales_skills,pm_tools,,SaaS / consultative selling,unknown,not_stated,fluent,must_have,,,,
+13635-7588f33e_JB5281398-S,793ac3995a029757,2026-10-25,ok,claude-haiku-5-5,c5b58efa,labour_law,,Stellenbesetzungsverfahren,,unknown,not_stated,unknown,not_stated,,,,
 13635-79ebdf71_JB5271601-S,d34215faea9f575f,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|paid_social|sea,,Programmatic Advertising;AI-Tools;Performance-Daten analysieren,Marketing Automation Tools,c1_plus,must_have,c1_plus,must_have,,,,
 13635-7c4ee2fa_JB5260327-S,6891ee44a1305f1b,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Zahlungsverkehr / Mahnwesen;Mengenauswertungen und Soll-Ist-Vergleiche,Projektabwicklung,native,must_have,unknown,not_stated,,,,
 13635-7c62d2e4_JB5269205-S,510f3df96141988c,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|other_erp|supply_chain,,EDI / Web-EDI,,c1_plus,must_have,unknown,not_stated,,,,
@@ -4336,6 +4411,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-a37ae4e6_JB5263130-S,19ecff4163fc3170,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,Kunden betreuen,,unknown,not_stated,unknown,not_stated,,,20,30
 13635-a5395eb5_JB5261882-S,b716b6b3e7dad178,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|payroll,,Projektarbeit,HR-Systems Einführung,native,must_have,unknown,not_stated,,,,
 13635-abae8806_JB5278616-S,851bd89ba4521b57,2026-10-23,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|outlook|powerpoint|teams|word,,Reports und Managementunterlagen,,c1_plus,must_have,c1_plus,must_have,,,,
+13635-ad72bc69_JB5281603-S,8215f98ea5077ee4,2026-10-25,ok,claude-haiku-5-5,c5b58efa,controlling|excel|ms_office|powerpoint|recruiting|teams|word,,,Personio,fluent,must_have,basic,nice_to_have,,,,
 13635-ae4d498a_JB5256824-S,1de5b7938195f474,2026-10-14,ok,claude-haiku-5-5,b51c75bb,online_marketing|paid_social|sea,,"KPIs wie CAC, ROAS;analytisch und zahlengetrieben;KI-Tools wie Claude",,c1_plus,must_have,fluent,must_have,,,,
 13635-aebc376d_JB5259306-S,bd7bf7b9a6809684,2026-10-14,ok,claude-haiku-5-5,b51c75bb,cicd|genai|git|python|testing,,"LangGraph, LangChain;Tool Calling, strukturierte Outputs, Streaming;Evals, Golden Datasets und Guardrails",Agile Produktentwicklung,c1_plus,must_have,c1_plus,must_have,,,,
 13635-b16ec76c_JB5263115-S,8ab1955a9da3f7de,2026-10-14,ok,claude-haiku-5-5,b51c75bb,driving_licence,,Kunden betreuen,,unknown,not_stated,unknown,not_stated,,,26,26
@@ -4352,6 +4428,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-c13a3128_JB5258506-S,ebdebcaba07148bf,2026-10-14,ok,claude-haiku-5-5,b51c75bb,google_analytics|looker|online_marketing|paid_social|sea|seo|shopify,,"Google Merchant Center;KPIs wie ROAS, POAS, CAC, MER, Deckungsbeitrag;Moderne AI-Tools",,c1_plus,must_have,fluent,must_have,,,,
 13635-c2a5aca3_JB5275002-S,abe438b90d7fb0d0,2026-10-17,ok,claude-haiku-5-5,c5b58efa,recruiting|sales_skills|social_media,,Personalberatung;Kandidatenprofile;Mitarbeiterführung,,unknown,not_stated,unknown,not_stated,,,,
 13635-c3ca8fbc_JB5251574-S,6b7b6fa25182f363,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,"KI-Technologien;Copilot-, Agent- oder Automatisierungslösungen;EU AI Act / Datenschutz",,unknown,not_stated,unknown,not_stated,,,,
+13635-c45f8247_JB5281573-S,27487815d447d0d3,2026-10-25,ok,claude-haiku-5-5,c5b58efa,labour_law|payroll,,,Personio,c1_plus,must_have,fluent,must_have,,,32,
 13635-c4b2c55b_JB5265920-S,91db177e05d65785,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|google_workspace|notion|online_marketing|pm_tools|seo|wordpress,,Keyword research;Shop development;Budget- und Erfolgsmetriken;Produkt- und Stammdatenpflege;Employer Branding,Botanik / Taxonomie,unknown,not_stated,unknown,not_stated,,,,
 13635-c7c5a3fc_JB5263881-S,8b2538ed54738883,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law|recruiting,sap,,ZEUS,unknown,not_stated,unknown,not_stated,,,,
 13635-c88ba00b_JB5266830-S,44c4cbbd5aa61082,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,KI-Anwendungen;Marketingtechnologien;Mediaplanung;Zahlenaffinität,,c1_plus,must_have,c1_plus,must_have,,,,
@@ -4359,6 +4436,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-cebd9cea_JB5265297-S,fbf9ee8f5ce3c8e0,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm|sales_skills,hubspot,Winning by Design (G2M),,c1_plus,must_have,c1_plus,must_have,,,,
 13635-d06494f0_JB5266237-S,74229448d3011e94,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|controlling|crm|email_marketing|google_analytics|online_marketing|wordpress,,Newsletter-/Kampagnenmanagementtools (wie Active Campaign);Marketingautomatisierung,,c1_plus,must_have,unknown,not_stated,,,,
 13635-d0e128b9_JB5267266-S,1ab0f97275516362,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm|paid_social|social_media|video|wordpress,,Erstellung eigener Inhalte;Analyse relevanter KPIs;Meta Business Suite;YouTube Studio;Community Management,,c1_plus,must_have,c1_plus,must_have,,,,
+13635-d1757eb0_JB5281721-S,0e3c34654fa20183,2026-10-25,ok,claude-haiku-5-5,c5b58efa,controlling|labour_law,,Personio;Gehaltszahlungen,,unknown,not_stated,unknown,not_stated,,,,
 13635-d20845e0_JB5256658-S,37b7e0ea5122a3ba,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|genai|seo,,GEO / AI Search;Webanalyse-Tools,,c1_plus,must_have,fluent,must_have,,,,
 13635-d2b427fd_JB5278552-S,b707889e58d4ef47,2026-10-23,ok,claude-haiku-5-5,c5b58efa,sales_skills,,Neukundengewinnung,Informations- und Datensicherheit,c1_plus,must_have,fluent,must_have,,,,
 13635-d85f8568_JB5263821-S,54a1881586d0fb40,2026-10-14,ok,claude-haiku-5-5,b51c75bb,sales_skills,energy,Prospecting,SaaS-Produkte Vertrieb,unknown,nice_to_have,c1_plus,must_have,,,,
@@ -4443,9 +4521,11 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13669-PMG89JS4LF38KJQ3-S,e21aec56de5f6086,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting|sales_skills,,soziale Medien;Xing- und LinkedIn-Accounts,,c1_plus,must_have,unknown,nice_to_have,,,,
 13669-R3W3NYDZ7QYVTACH-S,1a7fd427ab8227e9,2026-10-23,ok,claude-haiku-5-5,c5b58efa,,,Finanzübersichten und Liquiditätsauswertungen;Präsentationen;Dokumentenmanagementsystems,,unknown,not_stated,unknown,not_stated,,,,
 13669-Y3JWSLM4TVNZ613Z-S,1a7fd427ab8227e9,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,Finanzübersichten und Liquiditätsauswertungen;Dokumentenmanagementsystem,,unknown,not_stated,unknown,not_stated,,,,
+13717-13905728-S,5e04efc6c74df0ce,2026-10-25,ok,claude-haiku-5-5,c5b58efa,datev|payroll,,Zvoove,,c1_plus,must_have,unknown,nice_to_have,,,20,20
 13800-68Y4FUO9LTYF02B1-S,ee45e53d537c9136,2026-10-24,ok,claude-haiku-5-5,c5b58efa,,driving_licence,Bewerbungsprozesse,Kaufmännische Ausbildung;Erfahrung im Büro- und Verwaltungswesen;Erste Erfahrung im Personalwesen,unknown,not_stated,unknown,not_stated,,,20,25
 13808-0002c5037bf001-S,7f39bf4b93ab3772,2026-10-14,ok,claude-haiku-5-5,b51c75bb,driving_licence|ms_office,,Verkehrsrechtliche Anordnungen,Technisches Verständnis,unknown,not_stated,unknown,not_stated,,,,
 13814-44462025-923-S,2e41ca9c3f6c3b66,2026-10-14,ok,claude-haiku-5-5,b51c75bb,audit|project_mgmt|quality,it_security,,ISO/IEC 42001;AI Act der EU;Datenschutz (DSGVO),unknown,not_stated,unknown,not_stated,,,38.5,38.5
+13814-44529159-1023-S,e9f6a6153a161074,2026-10-25,ok,claude-haiku-5-5,c5b58efa,audit|project_mgmt|quality,it_security,AI-Governance,ISO/IEC 42001;AI Act der EU;Datenschutz (DSGVO),unknown,not_stated,unknown,not_stated,,,38.5,38.5
 13836-4039987050-S,ec5f30c456c66dde,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law|ms_office|payroll,,,,unknown,not_stated,c1_plus,must_have,,,,
 13836-4951099467-S,ebbdf2ef651015b8,2026-10-14,ok,claude-haiku-5-5,b51c75bb,other_erp,ms_office,elektrotechnische Grundkenntnisse;Kalkulationsmodellen;Kennzahlen und Auswertungen;WireMind;Produktionsaufträgen;Materialverfügbarkeit;Ansprechperson für Kunden,,unknown,not_stated,fluent,nice_to_have,,,,
 13869-13886083-S,8194dca5483afd3f,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,Recruiting,,fluent,must_have,basic,nice_to_have,,,,
@@ -4459,6 +4539,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13884-312501-S,26cd9726bc502707,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,Auswertungen erstellen,,unknown,not_stated,unknown,not_stated,,,,
 13884-334165-S,2999969ea112b8ee,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|figma|jira|project_mgmt|ux,agile,"Produktmanagement digitaler Produkte;Mobile Commerce;Rechtliche Anforderungen (DSGVO, Barrierefreiheit)",,unknown,not_stated,unknown,not_stated,,,,
 13884-339022-S,dd511496705c20e2,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|online_marketing|paid_social|sea,,"Kennzahlen CAC, CLV, MER",,unknown,not_stated,unknown,not_stated,,,,
+13884-340394-S,427b952daf766c94,2026-10-25,ok,claude-haiku-5-5,c5b58efa,data_analysis|dataviz|google_analytics|seo,,SEO/GSO;Generative Search Optimization;Technical SEO;Generative Search Optimization (GSO);SEMrush;Ahrefs;Screaming Frog;Structured data and hreflang;Core Web Vitals;Competitive analysis,Social media,unknown,not_stated,unknown,not_stated,,,,
 13884-342597-S,b1a5a24978a67f22,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Bestellwesen und Bestandsüberwachung;Abrechnung,,unknown,not_stated,none,not_stated,,,,
 13884-343643-S,3c6c5ab65955137e,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|driving_licence|event|social_media,,Eventmanagement;Online-Seminare,,native,must_have,c1_plus,must_have,,,,
 13884-344128-S,3c33e7d74f48e995,2026-10-14,ok,claude-haiku-5-5,b51c75bb,datev|labour_law|ms_office|payroll,,HR-Prozesse optimieren,Zeiterfassungssysteme;GeoCapture,unknown,not_stated,unknown,not_stated,,,,
@@ -4514,6 +4595,9 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13999-k53401.33961-S,db4c74c4fadcc153,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,Bestellungen bearbeiten;Eingangsrechnungen prüfen;gängigen Büroanwendungen;Warenwirtschafts- oder Unternehmenssystem;Künstliche Intelligenz,,fluent,must_have,basic,must_have,,,,
 13999-k53401.34004-S,3685264fbf71c958,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,,Büro- und Projekttools,,unknown,not_stated,unknown,not_stated,,,,
 13999-k53401.34122-S,221550034118e7b8,2026-10-22,ok,claude-haiku-5-5,c5b58efa,recruiting,,Bewerbermanagementsysteme;Anwendungen auf Basis Künstlicher Intelligenz,,c1_plus,must_have,fluent,must_have,,,,
+13999-k53401.34187-S,26fbebcc519e2b41,2026-10-25,ok,claude-haiku-5-5,c5b58efa,content|event|graphic_design|ms_office|online_marketing,,Grafikprogrammen;Unternehmenswebsite;Employer Branding;Werbemittel für Print- und Online-Medien;Texte verfassen,,unknown,must_have,none,not_stated,,,,
+13999-k53401.34202-S,2e12caed909a7625,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,,Warenwirtschaftssystemen;Kundenmanagementsystemen,,fluent,must_have,unknown,not_stated,,,,
+13999-k53401.34212-S,08b987d738520fde,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,,Auswertungen erstellen,,c1_plus,must_have,unknown,not_stated,,,,
 14001-7658-1622883-0-S,9ba39374c0ccc7b0,2026-10-14,ok,claude-haiku-5-5,b51c75bb,sales_skills,,Netzwerkausbau;Personalberatung / Headhunting;Vertragsverhandlung,,unknown,not_stated,unknown,not_stated,,,,
 14001-7733-1633047-0-S,59aa1a7b9db9913c,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,Kandidatenmanagement,,unknown,not_stated,unknown,not_stated,,,,
 14001-9322-1799944-0-S,0825a045cdee555c,2026-10-14,ok,claude-haiku-5-5,b51c75bb,customer_service|recruiting,,Active Sourcing;Recruiting-Tools,,fluent,must_have,unknown,not_stated,,,,
@@ -4533,10 +4617,12 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14014-13893615-S,5ff08340cbb6bd64,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|other_erp,,Auswertungen und Statistiken,,unknown,not_stated,unknown,not_stated,,,,
 14014-13902589-S,aec49e8809a644d5,2026-10-23,ok,claude-haiku-5-5,c5b58efa,,ms_office|sap,Kommunikation mit Kunden;Frachtbriefe und Transportdokumente,,c1_plus,must_have,fluent,must_have,,,40,40
 14014-13902650-S,de6ac0ef50723d92,2026-10-23,ok,claude-haiku-5-5,c5b58efa,recruiting,,,,unknown,not_stated,fluent,must_have,,,,
+14014-13904987-S,8d3cc4b83a2adeb4,2026-10-25,ok,claude-haiku-5-5,c5b58efa,process_mgmt|recruiting,,Employer Branding;KI-Anwendungen;Candidate Experience,,unknown,not_stated,unknown,not_stated,,,39,39
 14018-3DUQ4MN7KD6YFWTQ-S,d0aa3f1feb36c046,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,Eignungsdiagnostische Methoden,,fluent,must_have,fluent,must_have,,,,
 14018-7FBUKWVQ5NJMB6ZS-S,c69e1c20a255a646,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,,unknown,not_stated,fluent,must_have,,,,
 14029-1322-1765414-0-S,2d838e46bfe9bf96,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting|social_media,,,,unknown,not_stated,unknown,not_stated,,,,
 14029-1345-1784893-0-S,57b1cc7e876777f4,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
+14036-0005680fd07001-S,7c6ef307c1ae272e,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,sap,,,unknown,not_stated,unknown,not_stated,,,,
 14040-7ID0Q9TV5PM8HWKR-S,b6961460e9425678,2026-10-14,ok,claude-haiku-5-5,b51c75bb,social_media,ms_office|recruiting,,,unknown,not_stated,unknown,not_stated,,,,
 14040-GZPZ9B10085HYN68-S,b6961460e9425678,2026-10-16,ok,claude-haiku-5-5,c5b58efa,recruiting|social_media,ms_office,,,unknown,not_stated,unknown,not_stated,,,,
 14040-OWCN9DMGP6GDJPD2-S,824d97189fcdc61a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting|social_media,ms_office,,Recruiting-Tools,unknown,not_stated,unknown,not_stated,,,,
@@ -4563,6 +4649,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14087-JN3608B0TTD35M8V-S,b1d4e43ea38572e0,2026-10-14,ok,claude-haiku-5-5,b51c75bb,social_media,recruiting,,,native,must_have,unknown,not_stated,,,20,40
 14087-KP76SMLLKPXJY59X-S,24b4cb014dd5c441,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,Aufbau neuer Kundenbeziehungen,,c1_plus,must_have,unknown,not_stated,,,,
 14087-MA3L6MQZLGSQ6JZP-S,e130ea7f0d07b484,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,Talent-Datenbanken / LinkedIn / XING;Stellenausschreibungen erstellen;Kundenbeziehungen aufbauen,,c1_plus,must_have,unknown,not_stated,,,,
+14087-NMCBOMQNXVTIGPNY-S,a9bac46944fc49b1,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|ms_office|sap,,Telefonmarketing;Kundendatenbank,,unknown,not_stated,unknown,not_stated,,,,
 14087-OPJU4HWOOPU5D2Z3-S,d725151bc8044151,2026-10-14,ok,claude-haiku-5-5,b51c75bb,accounting,,"zvoove;Rechnungen erstellen, prüfen;rechtliche Vorschriften Melde- und Bescheinigungswesen;Tarif- und Branchenzuschlagsregelungen",,unknown,not_stated,unknown,not_stated,,,,
 14087-ORCDUHF6AVTJDXG3-S,f41bb97f89e8f7b8,2026-10-14,ok,claude-haiku-5-5,b51c75bb,accounting,,"Stundennachweise erfassen;zvoove;Tarif- und Branchenzuschlagsregelungen;Melde- und Bescheinigungswesen;Rechnungen erstellen, prüfen",,unknown,not_stated,unknown,not_stated,,,,
 14087-OS39Z6RGX4W5Q27I-S,e922037b3702a5fc,2026-10-14,ok,claude-haiku-5-5,b51c75bb,accounting,,"Abrechnung;zvoove;Rechnungen erstellen, prüfen;Melde- und Bescheinigungswesen;Tarif- und Branchenzuschlagsregelungen",,native,not_stated,unknown,not_stated,,,,
@@ -4580,6 +4667,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14089-01503840-S,613aab71e14c169e,2026-10-22,ok,claude-haiku-5-5,c5b58efa,,,Personalsachbearbeitung;IT-Affinität,,native,must_have,c1_plus,must_have,,,,
 14089-01504040-S,a9bf50d14e6ac71c,2026-10-22,ok,claude-haiku-5-5,c5b58efa,crm|ms_office,,Windows 11;Dokumentenmanagement;Sollprozessanalysen,Umgang mit Datenbanken,unknown,not_stated,unknown,not_stated,,,39,39
 14089-01504511-S,23035ce0d77cf033,2026-10-23,ok,claude-haiku-5-5,c5b58efa,labour_law|ms_office,payroll,,P&I Loga HR,unknown,not_stated,unknown,not_stated,,,20,39
+14089-01505143-S,7e4cf7974a25402d,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,,Loga;TVöD;Personalverwaltung,,unknown,not_stated,none,not_stated,,,19.5,19.5
 14089-01505314-S,01acd7dde5b06760,2026-10-24,ok,claude-haiku-5-5,c5b58efa,,agile,Arbeit in Projekten;digitale Kompetenzen,,native,not_stated,fluent,must_have,,,,
 14094-20261008237113-S,5dec0bec750de7ee,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|controlling|online_marketing|social_media,video,,,native,must_have,unknown,not_stated,,,,
 14133-k32921.6351-S,29327be1f15ff0e1,2026-10-14,ok,claude-haiku-5-5,b51c75bb,online_marketing|sales_skills|social_media,,Performance Marketing;Vertragsverhandlungen,,c1_plus,must_have,unknown,not_stated,,,36,36
@@ -4588,6 +4676,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14177-44520721-1020-S,28a25ac7f8bbacba,2026-10-22,ok,claude-haiku-5-5,c5b58efa,sap|sap_fico|sap_hcm,,Bundesreisekostengesetz,,unknown,not_stated,unknown,not_stated,,,25,25
 14225-051330f51f16b4a4-S,54d741845f5fcd94,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|email_marketing|graphic_design|online_marketing|sea|seo|social_media|video,,Strategische Marketingplanung,,unknown,not_stated,unknown,not_stated,,,,
 14225-1d1caf42b96d2c5e-S,af823cc10f1696ae,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office,,Employee Life Cycle,,c1_plus,must_have,fluent,nice_to_have,,,,
+14225-624be7eeaa17d597-S,50a031961d5aa586,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 14225-713e1a2d95fe459c-S,a695a93514c6e881,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law|ms_office|payroll|recruiting,datev,"Arbeitsverträgen, Bescheinigungen;KPI-Analyse;Personalentwicklung und Schulungsorganisation",,unknown,not_stated,unknown,not_stated,,,,
 14225-a78a126af8d5bdcd-S,87b4c663deaf3f90,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,project_mgmt,,,unknown,not_stated,unknown,not_stated,,,,20
 14225-b42c4ac56dad746b-S,1beba3d4728369fe,2026-10-14,ok,claude-haiku-5-5,b51c75bb,azure|gcp|ml|python,nextjs|react,,,unknown,not_stated,unknown,not_stated,,,,
@@ -4615,6 +4704,8 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14343-2253584-S,0b660b190f47f709,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,ms_office|sales_skills,Angebote kalkulieren;Kundendatenbank pflegen,,unknown,not_stated,unknown,not_stated,,,,
 14343-2289729-S,96ee62b1e178943f,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|quality|word,,"Berichten (Wochen-, Monats-, Quartals-, Jahresberichte);Bestellwesen;Onlinedatenbanken",,unknown,not_stated,unknown,not_stated,,,,
 14343-2352036-S,fac3409e8ae75384,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office,datev,,HR-Systeme,unknown,not_stated,none,not_needed,,,,
+14343-2363299-S,a029d75747dfd00a,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
+14343-2363369-S,7e53259c1a8908d1,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 14368-13830227-S,3ebb9f4fb6f47e7a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,,c1_plus,must_have,unknown,not_stated,,,,
 14368-13843029-S,4c0b7057f4eebcea,2026-10-14,ok,claude-haiku-5-5,b51c75bb,accounting|ms_office,,,,unknown,not_stated,unknown,not_stated,18.09,20,,
 14368-13887218-S,4fa375423a794c49,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Personalaktenführung,Kaufmännische Abläufe,native,must_have,unknown,not_stated,,,,
@@ -4632,6 +4723,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14385-449-2645494-26-S,275e2303ccc7385d,2026-10-22,ok,claude-haiku-5-5,c5b58efa,recruiting,,tariflicher und gesetzlicher Regelungen,,unknown,must_have,unknown,must_have,18.09,18.09,,
 14385-457-2640227-26-S,591136e6532175af,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,driving_licence,,,c1_plus,must_have,unknown,not_stated,18.09,18.09,,
 14385-464-2643431-26-S,9cb8a59595e4311b,2026-10-17,ok,claude-haiku-5-5,c5b58efa,,,Beratung und Betreuung von Kunden;Projektabwicklung,,unknown,not_stated,unknown,not_stated,18.09,18.09,,
+14385-498-2646783-26-S,dd35d6a1a039a2bb,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,driving_licence,Belege erstellen,,unknown,not_stated,none,not_stated,15.33,16.08,,
 14385-601-2637486-26-S,03a7299fd2b253e9,2026-10-14,ok,claude-haiku-5-5,b51c75bb,procurement,,,,unknown,not_stated,unknown,not_stated,15.67,18.09,,
 14385-611-2976P-26-S,6e784acea8620313,2026-10-14,ok,claude-haiku-5-5,b51c75bb,social_media,driving_licence,Expertise in der Personalrekrutierung;Kenntnisse im Talentmanagement;Bewerbermanagementsysteme,,c1_plus,must_have,unknown,not_stated,,,,
 14385-611-3036P-26-S,c2182f80148b6c60,2026-10-14,ok,claude-haiku-5-5,b51c75bb,social_media,,Personalberatung;Personalrekrutierung;Talentmanagement;Bewerbermanagementsystem,,unknown,not_stated,none,not_stated,,,,
@@ -4660,6 +4752,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14418-48480-1800449-0-S,981277a5f234e09d,2026-10-22,ok,claude-haiku-5-5,c5b58efa,content|email_marketing|seo|social_media,,KPIs Content-Performance,,fluent,must_have,c1_plus,must_have,,,,
 14418-48512-1800567-0-S,19ede5122e5610f5,2026-10-22,ok,claude-haiku-5-5,c5b58efa,excel|labour_law|ms_office|payroll,,Zeitwirtschaftssystem,,c1_plus,must_have,unknown,not_stated,,,,
 14418-48591-1801028-0-S,63ada0f835faa929,2026-10-24,ok,claude-haiku-5-5,c5b58efa,genai,python,"Machine-Translation-Engines;CAT-Tools (Across, SDL Studio);Terminologie-Management-Systeme (MultiTerm);Translation-Management-Systeme;Translation Memorys",XML / XLIFF,c1_plus,must_have,c1_plus,must_have,,,,
+14418-48616-1801154-0-S,264a28d33f812b46,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 14421-0003c9045a8001-S,bf94cb51ba20bbf9,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law|ms_office,sap,,,unknown,not_stated,unknown,not_stated,,,38.5,38.5
 14421-00076d1d29c001-S,eee0a880058c25bf,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|online_marketing|social_media|video,,Beiträge erstellen;Bildmaterial shooten,,unknown,not_stated,unknown,not_stated,,,,
 14428-k28355.3147-S,3522834438ee37af,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,,,unknown,not_stated,none,not_stated,,,,
@@ -4688,6 +4781,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14565-13856727-S,9fcc15ff7c1be791,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|recruiting,,Arbeits- und Sozialversicherungsrecht,,unknown,not_stated,unknown,not_stated,,,35,40
 14565-13857984-S,9eb1967f5ad88fcf,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law|ms_office|payroll,accounting|datev,Zeiterfassungssystem,,unknown,not_stated,none,not_stated,18.09,18.09,20,
 14565-13869729-S,95570f34d7dba1da,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law|ms_office|recruiting,payroll,HR-Systeme,Abrechnungssystemen;Steuerberatern,fluent,must_have,unknown,not_stated,,,,
+14565-13904811-S,8a512c0f8f90aad9,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office|sap,,Materialfluss Systeme,,c1_plus,must_have,unknown,not_stated,19.39,19.39,,
 14599-KDL74QT1OIM042BL-S,e70a9474224a959c,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|other_erp|project_mgmt,,,,c1_plus,must_have,fluent,must_have,,,,
 14599-NZCGDU8LDY6H8R1G-S,07c7443d53048110,2026-10-14,ok,claude-haiku-5-5,b51c75bb,driving_licence|recruiting|social_media,,,,c1_plus,must_have,unknown,not_stated,,,35,
 14614-13885296-S,e7b75483d4f98b0c,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|payroll,datev,Access-Datenbank;Personaleinsatzplanungssystem;Reports,,c1_plus,must_have,unknown,not_stated,,,,
@@ -4805,6 +4899,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14751-373A137845-S,58eec80eae976034,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|recruiting,,,Personalwesen,unknown,not_stated,none,not_stated,,,20,
 14751-373A137858-S,413dd56df4a9a3c7,2026-10-15,ok,claude-haiku-5-5,c5b58efa,ms_office,,Personaladministration,Vivendi,unknown,must_have,none,not_stated,,,,
 14751-373A138010-S,7410c25e04a3e92c,2026-10-23,ok,claude-haiku-5-5,c5b58efa,procurement,,Rechnungsprüfung;WWS,,fluent,must_have,unknown,not_stated,,,36,36
+14751-373A138045-S,46f3c1774e278d7c,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,,EDV-Anwendungen,,unknown,not_stated,unknown,not_stated,18.09,18.09,,
 14751-386A315-S,684048ae4a281a74,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law|ms_office|payroll|recruiting,,Abrechnung Mitarbeiterzeiterfassung,,unknown,not_stated,unknown,not_stated,,,,
 14751-395A619-S,5debf8fb86f36bbd,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|sap,,Erstellung von Auswertungen;Qualitätsabweichungen (NCR),,fluent,must_have,fluent,must_have,,,,
 14751-401A811-S,362f7310875785a6,2026-10-14,ok,claude-haiku-5-5,b51c75bb,customer_service|ms_office|sap_mm_sd,,Edelmetallprozesse,,c1_plus,must_have,fluent,must_have,,,,
@@ -4891,6 +4986,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14922-144673-S,40a12ea3bccdb6ea,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,,,unknown,not_stated,unknown,not_stated,,,20,20
 14922-146027-S,852f70caac16dd4c,2026-10-22,ok,claude-haiku-5-5,c5b58efa,it_security|project_mgmt,,KI-Systeme;KI-Lösungen Administration;Kennzahlenauswertung,Legal Tech,native,must_have,fluent,must_have,,,,
 14922-146107-S,a23ded9e5680d1ad,2026-10-24,ok,claude-haiku-5-5,c5b58efa,content|online_marketing|paid_social|sea|social_media,email_marketing|seo|video,Analytics und Performance-KPIs;KPIs analysieren;KI und Automatisierung,Marketing-Automatisierung;Grafikproduktion,c1_plus,must_have,fluent,must_have,,,,
+14922-146331-S,b627fa3eb97a3393,2026-10-25,ok,claude-haiku-5-5,c5b58efa,payroll|recruiting,,,,unknown,not_stated,unknown,not_stated,,,,
 14922-22319-S,11425e198b409b11,2026-10-14,ok,claude-haiku-5-5,b51c75bb,customer_service|mechanical|ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 14922-24578335-S,e9ef331ef9886420,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting,labour_law,Bewerbermanagementsysteme;Berichte und Analysen,,fluent,must_have,fluent,must_have,,,,
 14922-46446708-S,a5e27bf56aa72f83,2026-10-14,ok,claude-haiku-5-5,b51c75bb,market_research|online_marketing|paid_social|sea|social_media,,KPI-Monitoring,,unknown,not_stated,unknown,not_stated,,,,
@@ -4906,6 +5002,8 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 15015-20370-1800290-0-S,eb6c7cc471bb6144,2026-10-17,ok,claude-haiku-5-5,c5b58efa,customer_service|sales_skills,,Kalkulationen;Auftragsabwicklung,,unknown,not_stated,unknown,not_stated,,,,
 15015-20383-1800327-0-S,0547d06005f028e3,2026-10-17,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting,,,,unknown,not_stated,fluent,must_have,,,,
 15015-20384-1800328-0-S,8377763fd6623f96,2026-10-17,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting|social_media,,,,unknown,not_stated,fluent,must_have,,,,
+15015-20413-1801129-0-S,50cc3f9ef767363e,2026-10-25,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|outlook,,Auswertungen und Übersichten,,unknown,not_stated,unknown,not_stated,,,,
+15039-44529056-1023-S,8bc30f8711ee376f,2026-10-25,ok,claude-haiku-5-5,c5b58efa,payroll|sap_hcm,sap,,,fluent,must_have,unknown,not_stated,,,,
 15054-0012480:05-S,7393da570e761aea,2026-10-14,ok,claude-haiku-5-5,b51c75bb,payroll|sap,,Lohnsteuer- und Sozialversicherungsrecht;Personalstammdaten,Tarifrecht (AVR-Caritas),native,not_stated,unknown,not_stated,,,,39
 15054-0013400:01-S,403532f69faf3d8d,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|market_research|photography|social_media|video,,,LinkedIn,unknown,not_stated,unknown,not_stated,,,,20
 15054-0014937:01-S,20cefb9f2f07dff2,2026-10-22,ok,claude-haiku-5-5,c5b58efa,,,Terminmanagement,,unknown,not_stated,unknown,not_stated,,,30,
@@ -4975,6 +5073,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 15284-k44754.64343-S,5c25f4a97eae88d6,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law|payroll,,Gastromatic Zeiterfassungssystem,,c1_plus,must_have,fluent,must_have,,,,
 15284-k44754.64552-S,eaba4714873e41b3,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|payroll|word,,Lohnsteuer;Sozialversicherungsrecht,,unknown,not_stated,unknown,not_stated,,,,
 15284-k44754.65465-S,5c25f4a97eae88d6,2026-10-22,ok,claude-haiku-5-5,c5b58efa,labour_law|payroll,,Gastromatic,,c1_plus,must_have,fluent,must_have,,,,
+15284-k44754.65783-S,eaba4714873e41b3,2026-10-25,ok,claude-haiku-5-5,c5b58efa,excel|labour_law|ms_office|payroll|tax|word,,,,unknown,not_stated,unknown,not_stated,,,,
 15305-k46723.1831-S,2112bc4abf14e84b,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,sales_skills,,,c1_plus,must_have,unknown,not_stated,,,,
 15305-k46723.1835-S,8d62257f94229a89,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm|hubspot|sales_skills|salesforce,,Pipedrive,,c1_plus,must_have,unknown,not_stated,,,,
 15307-1567-1798507-0-S,8490f7cb52d86e39,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,Personalakten digital;Kaufmännische Ausbildung,,unknown,not_stated,unknown,not_stated,,,,
@@ -5050,6 +5149,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 15939-BB-635425-7878-6183-S,698927c52f83ca95,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|sap,,,,unknown,not_stated,fluent,must_have,,,,
 15939-BB-635454-7878-3551-S,69f026730b9968e5,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,sap_mm_sd,Gefahrgut-Dokumente;Kenntnisse im Bereich Gefahrgut,,fluent,must_have,fluent,must_have,,,,
 15939-BB-635684-7878-9423-S,5d1cd9b64675b06a,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office|sap_mm_sd,,,,c1_plus,must_have,c1_plus,must_have,,,,
+15939-BB-635737-7878-9377-S,f7f893b298cdaf9b,2026-10-25,ok,claude-haiku-5-5,c5b58efa,audit|ms_office|project_mgmt|sap,,Dokumentenmanagementsystem (DMS);Prozessdokumentationen,CE-Kennzeichnung,c1_plus,must_have,fluent,must_have,,,,
 15986-REF281522H-2-S,d1a36db2b16b3015,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|fin_model|sales_skills,,Challenger Sales,,fluent,must_have,fluent,must_have,,,,
 16055-4C167EDBACFA5E785B0-S,2ce79330f715d007,2026-10-14,ok,claude-haiku-5-5,b51c75bb,sales_skills,,Berätst Kunden;Netzwerkarchitektur;Cloudbasierte Lösungen,Elektro- und Gebäudetechnik,unknown,not_stated,unknown,not_stated,,,,
 16067-JR-0095551-S,547849e17de55ad4,2026-10-22,ok,claude-haiku-5-5,c5b58efa,excel|outlook|powerpoint|sap|teams,,AMEX GBT;ADP,Microsoft Copilot;Zeiterfassungssysteme,native,must_have,fluent,must_have,,,,
@@ -5070,6 +5170,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 16134-k57824.45091-S,5f2b76e2ba0b1efa,2026-10-24,ok,claude-haiku-5-5,c5b58efa,customer_service,sales_skills,Zoll- und Exportabwicklung,,fluent,must_have,fluent,must_have,,,,
 16154-k57827.11733-S,6020939e85ffc0af,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,driving_licence|sap,Eucon,,c1_plus,must_have,unknown,not_stated,,,,
 16163-JOB-866893-S,f65c51ecfe4b3433,2026-10-22,ok,claude-haiku-5-5,c5b58efa,,,Personalentwicklung;Sicherer Umgang mit M...,,unknown,must_have,c1_plus,must_have,,,37.5,37.5
+16163-JOB-867957-S,e5ebeee34979fec1,2026-10-25,ok,claude-haiku-5-5,c5b58efa,content|email_marketing|event|online_marketing|seo|social_media,video,GEO (generative search optimisation);Paid-Media-Kampagnen;Bildmaterial gestalten und bearbeiten,,unknown,not_stated,unknown,not_stated,,,,
 16173-k11192.448-S,fea33abf9885442a,2026-10-22,ok,claude-haiku-5-5,c5b58efa,ms_office,,Budgets überwachen,,unknown,not_stated,unknown,not_stated,,,40,40
 16185-4E7UEFRFLAGBOICR-S,2fcf468c78eb1bf4,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm|ms_office,,Telefonmarketing,,unknown,not_stated,none,not_stated,,,,
 16185-9YP073AEOOISGFNL-S,e9a1a3774d3d0001,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|other_erp,,Onlineshops,,native,must_have,unknown,not_stated,,,,
@@ -5088,6 +5189,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 16330-8418H7SX5S6GNT1Z-S,2e4e52528392207e,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling,sap,Bewerberauswahl und Bewerbungsgespräche;Pay-Roll-Team;Tarifliche und gesetzliche Regelungen,PAISY;Interflex,unknown,not_stated,unknown,nice_to_have,,,30,40
 16330-U9N57QCKKQ1RQAID-S,e89b7d5fffc20335,2026-10-14,ok,claude-haiku-5-5,b51c75bb,customer_service|ms_office|sales_skills,,Bearbeitung von Eingangs- und Ausgangsrechnungen;Einholung und Auswertung von Frachtangeboten;Koordination von Sendungen bei Speditionen,Import/Export und Zollabwicklung,fluent,must_have,fluent,must_have,,,38,40
 16330-VBHO1T7LS6CYTPMN-S,c816b9f0b5d339cc,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law,dynamics|ms_office|sap_hcm,,,unknown,not_stated,unknown,not_stated,,,40,40
+16334-n6ddg9gw51zg6snhwf-S,8ba6e4fea64b6274,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,none,not_stated,,,,
 16339-JS-BAX28553880-S,a1b753db71a05314,2026-10-22,ok,claude-haiku-5-5,c5b58efa,labour_law|ms_office|payroll|recruiting|social_media,datev,,Coveto,c1_plus,must_have,unknown,not_stated,,,,
 16341-3124131_4041813-S,1977aa9442c650ac,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|social_media,,Budgetverantwortung;Teamleitung,,unknown,not_stated,fluent,must_have,,,38.5,38.5
 16371-44458879-922-S,9bd2a1eaa47d2ef3,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,python,Einsatz von KI-Technologien;Datenbanksysteme,,unknown,not_stated,unknown,not_stated,,,,
@@ -5191,11 +5293,13 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 17010-000970002df001-S,f059044f7aa4a5cb,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|labour_law|paid_social|project_mgmt|recruiting|social_media|video,,Kennzahlen,,unknown,not_stated,unknown,not_stated,,,,
 17010-000970002eb001-S,c6fe2a145197b325,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,none,not_stated,,,,
 17020-0068149236-S,0d402fb2cba7c87c,2026-10-17,ok,claude-haiku-5-5,c5b58efa,social_media|video,adobe_cc|canva|content,Kennzahlen auswerten;Kreative Inhalte entwickeln;Grafische Gestaltung,,c1_plus,must_have,fluent,must_have,,,,
+17021-01505113-S,2122ae93a0e0c611,2026-10-25,ok,claude-haiku-5-5,c5b58efa,adobe_cc|content|pr|social_media,,,,unknown,not_stated,unknown,not_stated,,,,
 17039-k58956.4196-S,593cf9bb5cc09538,2026-10-14,ok,claude-haiku-5-5,b51c75bb,accounting|excel|ms_office|outlook|powerpoint|word,,,,native,must_have,unknown,not_stated,,,,
 17069-0067678882-S,d1bf1cc8184a2545,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|outlook|powerpoint|word,,Warenwirtschaft und Lagerhaltung;Buchungsvorgänge;Bestellung von Arzneimitteln,Warenwirtschaftsprogramm AMOR,unknown,not_stated,unknown,not_stated,,,,
 17096-k26601.61020-S,b2120f177894be33,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|labour_law|payroll|recruiting,,,,c1_plus,must_have,fluent,nice_to_have,,,,
 17096-k26601.61033-S,58740257619aacfc,2026-10-14,ok,claude-haiku-5-5,b51c75bb,sea|seo|social_media,,Performance-orientierte Kampagnen,,fluent,must_have,basic,nice_to_have,,,,
 17102-44178734-514-S,41d7277d37956958,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|online_marketing|sales_skills,project_mgmt,KPI-Tracking;Telekommunikationsmarkt B2C Breitband,,fluent,must_have,fluent,must_have,,,30,
+17147-FQVPA5HABQN1N8IJ-S,3fbf18b5acce6f00,2026-10-25,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|other_erp,,Warenwirtschaftssystem;Stammdatenpflege,,unknown,not_stated,unknown,not_stated,,,35,40
 17169-64EIYKHW1E719X6R-S,15aeeba0facafb9f,2026-10-14,ok,claude-haiku-5-5,b51c75bb,customer_service|ms_office|other_erp|supply_chain,crm|salesforce,,,fluent,must_have,fluent,must_have,,,35,35
 17201-5E22319069726E66CB7-S,416d550338f2a3a1,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|crm|online_marketing|shopify,salesforce,Kampagnen,,unknown,not_stated,unknown,not_stated,,,,
 17236-k58736.1395-S,4e6fcee828139a35,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|genai|ms_office|outlook|powerpoint|word,,Microsoft Teams;Veranstaltungen organisieren,,c1_plus,must_have,c1_plus,must_have,,,,
@@ -5262,6 +5366,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 17724-Q9KRY10OTNDC966A-S,cd407306fd9baafc,2026-10-17,ok,claude-haiku-5-5,c5b58efa,ms_office|sap,,,,unknown,not_stated,c1_plus,must_have,,,,
 17724-RWMA0PSGIEQGFGX3-S,85070db759e0a8d9,2026-10-22,ok,claude-haiku-5-5,c5b58efa,,,,"Personal-, Arbeits- und Tarifrecht",unknown,not_stated,unknown,not_stated,,,39.2,39.2
 17724-XU05LZJFWF40I3WF-S,85070db759e0a8d9,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,,,"Kenntnisse im Personal-, Arbeits- und Tarifrecht",unknown,not_stated,none,not_stated,,,39.2,39.2
+17751-44520648-1023-S,ade13e9dc3be93f6,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,sap,"Schadenssachbearbeitung;Bundesfernstraßengesetz, Straßenverkehrsgesetz, Straßenverkehrsordnung;BGB",,fluent,must_have,unknown,not_stated,,,,
 17790-44517989-1019-S,dbabef0d80cf35fd,2026-10-22,ok,claude-haiku-5-5,c5b58efa,jira|ms_office,,,E-Akte/DMS,unknown,not_stated,none,not_stated,,,,
 17815-0002dd0217c001-S,22088062675d0616,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|data_analysis|email_marketing|hubspot|salesforce,,Marketo;Marketing Automation Plattform;Predictive-Modelle;KI-Anwendungen,,c1_plus,must_have,c1_plus,must_have,,,,
 17815-0002dd02252001-S,0a249a2c74f2f43b,2026-10-14,ok,claude-haiku-5-5,b51c75bb,adobe_cc|canva|google_analytics|paid_social|social_media|video,,Brandwatch;LinkedIn Campaign Manager;KPIs tracken,,c1_plus,must_have,c1_plus,must_have,,,,
@@ -5282,6 +5387,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 18024-1008y000b8709-S,180315aa3b84ea17,2026-10-22,ok,claude-haiku-5-5,c5b58efa,crm|ms_office,,Auswertungen;KI-gestützte Arbeitsweisen,,c1_plus,must_have,unknown,not_stated,,,39,39
 18024-1008y000b870A-S,180315aa3b84ea17,2026-10-23,ok,claude-haiku-5-5,c5b58efa,crm|ms_office|online_marketing,,Kalkulationen;Auswertungen;Zahlenverständnis,"Digitale Tools, KI-gestützte Arbeitsweisen;Kaufmännische Ausbildung",c1_plus,must_have,unknown,not_stated,,,39,39
 18024-1008y000b870B-S,180315aa3b84ea17,2026-10-24,ok,claude-haiku-5-5,c5b58efa,crm|ms_office|sales_skills,,KI-gestützte Arbeitsweisen,,c1_plus,must_have,unknown,not_stated,,,39,39
+18024-1008y000b870C-S,180315aa3b84ea17,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|ms_office,,Auswertungen;KI-gestützte Arbeitsweisen,,c1_plus,must_have,unknown,not_stated,,,39,39
 18024-10Q1i00007O00-S,971d777ba0295e6f,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office|payroll|recruiting|sap_hcm|social_media,labour_law,,Bewerbermanagementsysteme,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q1i00007O01-S,971d777ba0295e6f,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office|payroll|recruiting|sap|social_media,labour_law|sap_hcm,,TVöD / LPVG NW,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q6L00001X02-S,80d8c66369b6e101,2026-10-14,ok,claude-haiku-5-5,b51c75bb,project_mgmt,,KI-Chatbots;Optimierung von Prozessen,,unknown,not_stated,unknown,not_stated,,,,
@@ -5291,11 +5397,13 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 18024-10Q6L00001X09-S,80d8c66369b6e101,2026-10-22,ok,claude-haiku-5-5,c5b58efa,project_mgmt,,KI-Chatbots;Optimierung von Prozessen;Digitalisierungsprojekte,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q6L00001X0A-S,80d8c66369b6e101,2026-10-23,ok,claude-haiku-5-5,c5b58efa,project_mgmt,,KI-Chatbots;Optimierung von Prozessen,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q6L00001X0B-S,80d8c66369b6e101,2026-10-24,ok,claude-haiku-5-5,c5b58efa,process_mgmt,,Digitalisierung;KI-Chatbots;Workshops moderieren,,fluent,must_have,unknown,not_stated,,,,
+18024-10Q6L00001X0C-S,80d8c66369b6e101,2026-10-25,ok,claude-haiku-5-5,c5b58efa,process_mgmt|project_mgmt,,KI-Chatbots,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q7K00002600-S,cb678f263cb84417,2026-10-17,ok,claude-haiku-5-5,c5b58efa,agile|controlling|genai|it_security|project_mgmt,,Change-Prozesse,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q7K00002601-S,cb678f263cb84417,2026-10-18,ok,claude-haiku-5-5,c5b58efa,agile|controlling|genai|it_security|project_mgmt,,IT-Compliance,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q7K00002605-S,cb678f263cb84417,2026-10-22,ok,claude-haiku-5-5,c5b58efa,agile|controlling|genai|it_security|project_mgmt,,KI-Strategie und Use-Case-Management,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q7K00002606-S,cb678f263cb84417,2026-10-23,ok,claude-haiku-5-5,c5b58efa,agile|controlling|genai|it_security|project_mgmt,,KI-Governance und Use-Case-Management,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q7K00002607-S,cb678f263cb84417,2026-10-24,ok,claude-haiku-5-5,c5b58efa,agile|controlling|genai|it_security|process_mgmt|project_mgmt,,Datenschutz / IT-Compliance;KI-Governance,,unknown,not_stated,unknown,not_stated,,,,
+18024-10Q7K00002608-S,cb678f263cb84417,2026-10-25,ok,claude-haiku-5-5,c5b58efa,agile|controlling|genai|it_security|project_mgmt,,KI-Governance,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q7q00000V01-S,b709519fb042e72a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law|ms_office|payroll|tax,,"Bewerbermanagementsystem;Zeiterfassungssystem;HR-Kennzahlen, Statistiken und Auswertungen;Personalkostenplanung",moderne HR-Systeme,fluent,must_have,unknown,not_stated,,,,
 18024-10Q7q00000V02-S,b709519fb042e72a,2026-10-15,ok,claude-haiku-5-5,c5b58efa,labour_law|ms_office|payroll,,Bewerbermanagementsystem;Zeiterfassungssystem;HR-Kennzahlen;Personalkostenplanung,HR-Systeme,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q7q00000V03-S,b709519fb042e72a,2026-10-16,ok,claude-haiku-5-5,c5b58efa,labour_law|ms_office|payroll|tax,,Bewerbermanagementsystem;Zeiterfassungssystem;HR-Kennzahlen und Auswertungen,moderne HR-Systeme,unknown,not_stated,none,not_stated,,,,
@@ -5303,6 +5411,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 18024-10Q7q00000V08-S,b709519fb042e72a,2026-10-22,ok,claude-haiku-5-5,c5b58efa,labour_law|ms_office|payroll,,HR-Kennzahlen und Auswertungen,HR-Systeme,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q7q00000V09-S,b709519fb042e72a,2026-10-23,ok,claude-haiku-5-5,c5b58efa,labour_law|ms_office|payroll|recruiting,,Bewerbermanagementsystem;Zeiterfassungssystem;HR-Kennzahlen und Auswertungen;Personalkostenplanung,HR-Systeme,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q7q00000V0A-S,b709519fb042e72a,2026-10-24,ok,claude-haiku-5-5,c5b58efa,labour_law|ms_office|payroll,,Zeiterfassungssystem;Bewerbermanagementsystem;HR-Kennzahlen und Statistiken;Personalkostenplanung,HR-Systeme,unknown,not_stated,none,not_stated,,,,
+18024-10Q7q00000V0B-S,b709519fb042e72a,2026-10-25,ok,claude-haiku-5-5,c5b58efa,labour_law|ms_office|payroll,,Bewerbermanagementsystem;Zeiterfassungssystem;HR-Kennzahlen und Auswertungen,HR-Systeme,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q9A00000R02-S,581239caf5121321,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q9A00000R03-S,581239caf5121321,2026-10-15,ok,claude-haiku-5-5,c5b58efa,ms_office,,,Kreditgeschäft,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q9A00000R04-S,581239caf5121321,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office,,,Kreditgeschäft,unknown,not_stated,unknown,not_stated,,,,
@@ -5310,10 +5419,12 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 18024-10Q9A00000R09-S,581239caf5121321,2026-10-22,ok,claude-haiku-5-5,c5b58efa,ms_office,,,Kreditgeschäft / Forderungsmanagement,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q9A00000R0A-S,581239caf5121321,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q9A00000R0B-S,581239caf5121321,2026-10-24,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
+18024-10Q9A00000R0C-S,581239caf5121321,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q9A00000Y01-S,a7390233d803baeb,2026-10-18,ok,claude-haiku-5-5,c5b58efa,,,Bilanzielle Themen;Bonitätsanalyse und Risikoabschätzung;Prüfung von Kreditanträgen,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q9A00000Y05-S,a7390233d803baeb,2026-10-22,ok,claude-haiku-5-5,c5b58efa,,,Bonitätsanalyse;bilanziellen Themen;rechtlichen Themen,Bankausbildung,unknown,not_stated,none,not_stated,,,,
 18024-10Q9A00000Y06-S,869825efb552748b,2026-10-23,ok,claude-haiku-5-5,c5b58efa,,,Bilanzielle Themen;Bonitätsanalyse und Risikoabschätzung;Firmenkreditgeschäft,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q9A00000Y07-S,869825efb552748b,2026-10-24,ok,claude-haiku-5-5,c5b58efa,,,bilanziellen Themen;Bonitätsanalyse,,unknown,not_stated,unknown,not_stated,,,,
+18024-10Q9A00000Y08-S,869825efb552748b,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,,Bilanzielle Themen;Firmenkreditgeschäft,,unknown,not_stated,unknown,not_stated,,,,
 18026-0067848282-S,3d82c0caebb3e3ad,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm|dynamics,,Umgang mit Kennzahlen,,unknown,not_stated,unknown,not_stated,,,,
 18041-0068097831-S,9efd75310eef8533,2026-10-15,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|outlook|powerpoint|word,,Auswertungen und Berichte,,unknown,not_stated,unknown,not_stated,,,,
 18049-0066749130-S,5b59ec0c8e08251c,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|excel|labour_law|ms_office|payroll|recruiting|tax,,Personalkostenplanung,,c1_plus,must_have,fluent,must_have,,,,
@@ -5326,9 +5437,11 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 18213-4x9308fj4x-S,4e471b7f8d87e8c5,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Kasse und Kontoauszüge,,unknown,not_stated,unknown,not_stated,,,20,25
 18213-5km0wj1vfy-S,c185e16035d25e6c,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Kontoauszüge kontrollieren,,unknown,not_stated,unknown,not_stated,,,20,25
 18213-ax7nmaoeo5-S,ad0ab446c2b262e0,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting|social_media,,Organisation von Karrieremessen und Bewerberveranstaltungen,,unknown,not_stated,unknown,not_stated,,,,
+18223-60LL4BLNW12ACEZY-S,345fa757b42041b0,2026-10-25,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|other_erp|sales_skills|word,,Kenntnisse im Zollwesen;Bearbeitung von Kundenanfragen,,unknown,not_stated,unknown,must_have,,,39,40
 18223-JFPSE0O888BM9J3X-S,345fa757b42041b0,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|other_erp|word,,Kenntnisse im Zollwesen,,unknown,not_stated,unknown,must_have,,,39,40
 18251-33896-S,c3b809a9264ad1ed,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|email_marketing|google_analytics|salesforce|social_media|wordpress,,Landing page setups;Performance reports,,unknown,not_stated,unknown,not_stated,,,,
 18251-33960-S,b387252e6160c65c,2026-10-22,ok,claude-haiku-5-5,c5b58efa,content|data_analysis|online_marketing|project_mgmt|social_media,,,,unknown,not_stated,fluent,must_have,,,,
+18251-33963-S,a7c32c375f662c1f,2026-10-25,ok,claude-haiku-5-5,c5b58efa,content|controlling|social_media,,,,unknown,not_stated,unknown,not_stated,,,,
 18268-44322604-719-S,d7452cb9c8994fa5,2026-10-14,ok,claude-haiku-5-5,b51c75bb,online_marketing|project_mgmt|seo,,SEM;Webshops,,c1_plus,must_have,c1_plus,must_have,,,,
 18273-2197013-S,ca582b31dedaf750,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|excel|procurement,supply_chain,,,unknown,not_stated,c1_plus,must_have,,,,
 18279-1477-4217-344b6-S,52d9a7170f03ffb2,2026-10-15,ok,claude-haiku-5-5,c5b58efa,crm,,Budget- und Ergebnisverantwortung;Kampagnenmanagement;KI-gestützte Prozesse,,unknown,not_stated,unknown,not_stated,,,,
@@ -5449,6 +5562,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 18974-01496042-S,ffd20eba57ebfff2,2026-10-14,ok,claude-haiku-5-5,b51c75bb,driving_licence|ms_office|recruiting,sap_hcm|social_media,Personalgewinnung;Arbeits- und tarifrechtliche Kenntnisse,,unknown,not_stated,unknown,not_stated,,,,
 18977-44501045-1012-S,97052eea96c6de2d,2026-10-14,ok,claude-haiku-5-5,b51c75bb,genai,agile|jira|ms_office,Conversational AI-Technologien,,unknown,not_stated,unknown,not_stated,,,,
 19000-yngknn9uw0-S,76284e0162a9b1d2,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office,payroll,,,unknown,not_stated,unknown,not_stated,,,,
+19049-cy2la7ewvq-S,53cf4f9f8d83988a,2026-10-25,ok,claude-haiku-5-5,c5b58efa,email_marketing|online_marketing,,Kampagnenergebnisse auswerten;Marketing-Automation,,c1_plus,must_have,unknown,not_stated,,,,
 19049-om8gfw7brc-S,79ce53590b34e1c6,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|social_media|video,,,,unknown,not_stated,unknown,not_stated,,,,8
 19105-44473252-929-S,9f5b31e589db458a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law|recruiting,,,,native,must_have,fluent,must_have,,,,
 19121-44249126-616-S,30d139f33599d28d,2026-10-15,ok,claude-haiku-5-5,c5b58efa,labour_law|project_mgmt,sap_hcm,,,c1_plus,must_have,fluent,must_have,,,,
@@ -5482,6 +5596,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 19155-76622e3f_JB5063435-S,983102f9f43d2788,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm|customer_service|excel|ms_office|sales_skills|word,other_erp|sap,Rechnungslegung und -prüfung,,unknown,not_stated,fluent,must_have,,,,
 19155-8831748a_JB4699276-S,1958c673e4478b53,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,,unknown,not_stated,fluent,must_have,,,,
 19155-b8690680_JB5063438-S,f172d6434b966d5b,2026-10-14,ok,claude-haiku-5-5,b51c75bb,crm|customer_service|excel|ms_office|sales_skills|word,other_erp|sap,Rechnungslegung und -prüfung,,unknown,not_stated,fluent,must_have,,,,
+19155-c5fbf385_JB5281642-S,902ba4ad58f0bbb8,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|ms_office|other_erp,,Rechnungslegung und -prüfung,,unknown,not_stated,c1_plus,must_have,,,25,
 19155-ccfb1502_JB4699264-S,226fd26da9b76816,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,,unknown,not_stated,c1_plus,must_have,,,,
 19155-cf6aa02f_JB5049554-S,81bb16a5d8111854,2026-10-14,ok,claude-haiku-5-5,b51c75bb,labour_law|ms_office|payroll,,Kontenabstimmung;Veranstaltungen organisieren,,unknown,not_stated,unknown,not_stated,,,,
 19155-e6b87b41_JB4700205-S,75635fe0a21ec1c4,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|recruiting,,Personalstatistiken,,unknown,not_stated,unknown,not_stated,,,,
@@ -5505,6 +5620,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 19329-fpjepye5p0-S,57cc65434c410715,2026-10-14,ok,claude-haiku-5-5,b51c75bb,process_mgmt,project_mgmt,LOGA Personalsoftware;Anwendungsbetreuung von HR-Systemen;Fachanwendung BITE,"Dokumentenmanagementsystem enaio;Datenschutz, Arbeits- und Tarifrecht",unknown,not_stated,unknown,not_stated,,,,
 19344-0068205476-S,30d8f78aa99ebe27,2026-10-22,ok,claude-haiku-5-5,c5b58efa,controlling|dataviz|market_research,,"KPI-Systeme;KI-Tools;Markt-, Marken- und Kommunikationsanalysen",,fluent,must_have,fluent,must_have,,,,
 19376-44493177-108-S,91d4a2e9fcae4d1e,2026-10-14,ok,claude-haiku-5-5,b51c75bb,it_security|testing,,AI risk management;Application development;Understanding of AI,,unknown,not_stated,unknown,not_stated,,,,
+19376-44528995-1023-S,192a50a66c06b8dd,2026-10-25,ok,claude-haiku-5-5,c5b58efa,controlling|genai|ml|python|sql,,"Cloud-/Data-Plattformen;Entwicklung von Software, Tools und Datenarchitekturen",,unknown,not_stated,unknown,not_stated,,,,
 19407-2026_89-S,257c0af992a503df,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|payroll|recruiting|tax,,Arbeits- und Betriebsverfassungsrecht,Sage HR Suite,unknown,not_stated,unknown,not_stated,,,,
 19414-k61315.1227-S,6931c66e1a8fd08b,2026-10-14,ok,claude-haiku-5-5,b51c75bb,canva|content|controlling|ms_office|paid_social|social_media|video,,Filmora;Werbeanzeigen entwickeln,,c1_plus,must_have,unknown,not_stated,,,,20
 19453-k60478.1280-S,c404a5245f012f26,2026-10-14,ok,claude-haiku-5-5,b51c75bb,agile|consulting|fin_model|project_mgmt,,Proposal preparation;Quantitative analyses,AI concepts and frameworks,fluent,must_have,fluent,must_have,,,,
@@ -5632,6 +5748,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 20649-15855620-S,fb5edaa3a8f40047,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office,,,,unknown,not_stated,fluent,must_have,,,,
 20658-k62499.1032-S,a676ed345249aa2a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|outlook|payroll|recruiting|word,labour_law,SharePoint,Datenschutz,c1_plus,must_have,unknown,nice_to_have,,,,
 20670-0067132130-S,24c591a9af6cd264,2026-10-14,ok,claude-haiku-5-5,b51c75bb,adobe_cc|content|event|graphic_design|indesign|online_marketing|photoshop|social_media|wordpress,figma|sketch_xd,Kampagnen,,fluent,must_have,c1_plus,must_have,,,,
+20698-f600ec63fef4ab25-S,5e86d348b7c8bf7a,2026-10-25,ok,claude-haiku-5-5,c5b58efa,accounting|driving_licence|labour_law|recruiting,,Bewerbermanagementsystems,,c1_plus,must_have,unknown,not_stated,,,,
 20713-44435407-101-S,11a1033326681eb9,2026-10-14,ok,claude-haiku-5-5,b51c75bb,data_analysis|project_mgmt|social_media,,Social commerce;Vendor management,,unknown,nice_to_have,c1_plus,must_have,,,,
 20734-000a95002ff001-S,924b6ae285d8070d,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|controlling|social_media|video,adobe_cc|online_marketing|pr,,Community-Management;Kamera- und Dreherfahrung,c1_plus,must_have,fluent,must_have,,,,
 20762-2358614-S,f0f469b839218317,2026-10-17,ok,claude-haiku-5-5,c5b58efa,content|online_marketing|powerpoint|social_media,,Marketing Analytics;KI-Anwendungen und Automatisierungslösungen;Steuerung bereichsübergreifender Projekte,,unknown,not_stated,fluent,must_have,,,,
@@ -5642,11 +5759,13 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 20801-k62854.1056-S,f9ce13a4dd53e536,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|market_research|online_marketing,,Messen und Veranstaltungen,,unknown,not_stated,unknown,not_stated,,,40,40
 20806-44475514-930-S,4671820ae970fe32,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Vertrags- und Urheberrecht,"RVT, RUKAS, COMPHAS, Doxis",unknown,not_stated,fluent,must_have,,,,
 20806-44504406-1013-S,8314f490bce50a1c,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|outlook|word,,RVT;Doxis,RUKAS-VT,unknown,not_stated,unknown,not_stated,,,,
+20806-44529609-1023-S,e4fc486885c1ca73,2026-10-25,ok,claude-haiku-5-5,c5b58efa,labour_law|ms_office|sap_mm_sd,,,,unknown,not_stated,unknown,not_stated,,,,
 20837-6270-TKQPQJ-S,c4bd9546e1ae5089,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|recruiting,customer_service,,,unknown,not_stated,none,not_stated,,,,
 20855-9CVKC029GF8RU6PE-S,cef9b93ab8f227f8,2026-10-14,ok,claude-haiku-5-5,b51c75bb,datev|ms_office|payroll,,,,unknown,not_stated,fluent,must_have,,,,
 20855-JUSZTO1U9NAB40JZ-S,b6d744b3bd903bad,2026-10-14,ok,claude-haiku-5-5,b51c75bb,datev|labour_law|ms_office|payroll,,LODAS,,fluent,must_have,unknown,not_stated,,,30,39
 20856-r18876-S,eeb2e9d7eada4676,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|social_media,,AI,,c1_plus,must_have,unknown,must_have,,,,
 20874-joblocal_166d7ce7-S,c55113c569e48e56,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|payroll|pr|recruiting|social_media,,Organisation und Begleitung von Karrieremessen;Employer Branding,,unknown,not_stated,unknown,not_stated,,,,
+20874-joblocal_63ee6b4d-S,2cc6919c35b8196e,2026-10-25,ok,claude-haiku-5-5,c5b58efa,social_media|video,,Texte verfassen,,unknown,not_stated,unknown,not_stated,,,,
 20874-joblocal_f03b023f-S,3728c41e48a88df4,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|customer_service|procurement,,,,c1_plus,must_have,c1_plus,must_have,,,,
 20924-B9GFHDHDKH6W6I2M-S,96c039a34e972794,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|other_erp|procurement,,Rechnungen bearbeiten,,fluent,must_have,unknown,nice_to_have,,,,
 20924-IL05B0F388Y8O4P0-S,bb2c6e7eea4f6700,2026-10-18,ok,claude-haiku-5-5,c5b58efa,accounting|customer_service|dynamics|excel|ms_office|other_erp|outlook|sap,,Kundenaufträge Auftragsabwicklung,,c1_plus,must_have,unknown,nice_to_have,,,,

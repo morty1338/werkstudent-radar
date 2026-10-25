@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in AI &amp; Automation - Energy (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/1komma50/werkstudentin-ai-automation-energy-berlin-339347</link>
+      <guid isPermaLink="false">an:werkstudentin-ai-automation-energy-berlin-339347</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>1KOMMA5˚ · Berlin · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Working Student — AI Engineering &amp; Document Intelligence</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tracium-gmbh/working-student-ai-engineering-document-intelligence-berlin-378393</link>
+      <guid isPermaLink="false">an:working-student-ai-engineering-document-intelligence-berlin-378393</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Tracium GmbH · Berlin · Engineering &amp; Production · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Pharmalogistik – Qualitätsmanagement &amp; technische Qualifizierung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003904850-S</link>
@@ -751,22 +767,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>Engineering &amp; Production</category>
       <description>H World International Germany · Frankfurt am Main · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Gebäudetechnik / TGA</title>
-      <link>https://www.arbeitnow.com/jobs/companies/arcus-planung-beratung-bauplanungsgesellschaft-mbh/werkstudent-gebaudetechnik-tga-cottbus-4010</link>
-      <guid isPermaLink="false">an:werkstudent-gebaudetechnik-tga-cottbus-4010</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>ARCUS Planung + Beratung Bauplanungsgesellschaft mbH · Cottbus · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) - im Bereich Elektro-, Automations- und Leittechnik</title>
-      <link>https://www.arbeitnow.com/jobs/companies/arcus-planung-beratung-bauplanungsgesellschaft-mbh/werkstudent-im-bereich-elektro-automations-und-leittechnik-berlin-440853</link>
-      <guid isPermaLink="false">an:werkstudent-im-bereich-elektro-automations-und-leittechnik-berlin-440853</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>ARCUS Planung + Beratung Bauplanungsgesellschaft mbH · Berlin · Engineering &amp; Production</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,88 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/all.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Service (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-342332-S</link>
+      <guid isPermaLink="false">13884-342332-S</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Vabali Spa Düsseldorf GmbH &amp; Co. KG · Düsseldorf · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (m/w/d) (20,0 Std./Woche) CAJ, Bistum Osnabrück</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100PJ000WXr0G-S</link>
+      <guid isPermaLink="false">18024-100PJ000WXr0G-S</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Bischöfliches Generalvikariat · Osnabrück · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y03-S</link>
+      <guid isPermaLink="false">18024-10Q6L00001Y03-S</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Fleet Reliability and Maintenance Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/qwelloeu/fleet-reliability-and-maintenance-working-student-munich-bavaria-195497</link>
+      <guid isPermaLink="false">an:fleet-reliability-and-maintenance-working-student-munich-bavaria-195497</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Qwello.eu · München · €20.00/h · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Intern/ Working Student Influencer &amp; Performance Marketing – Dutch Market (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/everdrop-gmbh/intern-working-student-influencer-performance-marketing-dutch-market-munchen-385099</link>
+      <guid isPermaLink="false">an:intern-working-student-influencer-performance-marketing-dutch-market-munchen-385099</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>everdrop GmbH · München · Marketing &amp; Communication · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent Projektmanagement &amp; Backoffice  (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/60-seconds-to-napoli-holding-gmbh/werkstudent-projektmanagement-backoffice-dortmund-282314</link>
+      <guid isPermaLink="false">an:werkstudent-projektmanagement-backoffice-dortmund-282314</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>60 seconds to napoli Holding GmbH · Dortmund · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent:in AI &amp; Automation - Energy (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/1komma50/werkstudentin-ai-automation-energy-berlin-339347</link>
+      <guid isPermaLink="false">an:werkstudentin-ai-automation-energy-berlin-339347</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>1KOMMA5˚ · Berlin · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Social Media &amp; Content Creator Marketing - Traumhausverlosung (w/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/zeal-network/werkstudentin-social-media-content-creator-marketing-traumhausverlosung-hamburg-214257</link>
+      <guid isPermaLink="false">an:werkstudentin-social-media-content-creator-marketing-traumhausverlosung-hamburg-214257</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Zeal Network · Hamburg · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Working Student — AI Engineering &amp; Document Intelligence</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tracium-gmbh/working-student-ai-engineering-document-intelligence-berlin-378393</link>
+      <guid isPermaLink="false">an:working-student-ai-engineering-document-intelligence-berlin-378393</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Tracium GmbH · Berlin · Engineering &amp; Production · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student - Launch Vehicle Design (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/isaraerospace/working-student-launch-vehicle-design-parsdorf-bavaria-192325</link>
+      <guid isPermaLink="false">an:working-student-launch-vehicle-design-parsdorf-bavaria-192325</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>isaraerospace · Parsdorf · Design &amp; UX · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Wareneingangsprüfung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208399662-S</link>
@@ -495,22 +575,6 @@
       <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · Dachau · €16.00/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) (20,0 Std./Woche) CAJ, Bistum Osnabrück</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100PJ000WXr0F-S</link>
-      <guid isPermaLink="false">18024-100PJ000WXr0F-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Bischöfliches Generalvikariat · Osnabrück · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y02-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001Y02-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent:in Sponsoring</title>
@@ -2343,70 +2407,6 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>RENK GmbH · Augsburg · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) Architektur / Bauwesen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18624-0068242876-S</link>
-      <guid isPermaLink="false">18624-0068242876-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Stadtwerke Augsburg Holding GmbH · Augsburg · €18.00/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Menükurier in Teilzeit (18 Std. /Woche) - Aushilfe, Werkstudent, Quereinsteiger (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19228-000092036e0001-S</link>
-      <guid isPermaLink="false">19228-000092036e0001-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>MENÜLOGISTIK GmbH · Augsburg · €15.45/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent (m|w|d) Social Media</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19450-ROyOiuVy-S</link>
-      <guid isPermaLink="false">19450-ROyOiuVy-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>DV Immobilien Management GmbH · Regensburg · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudierende im Bereich Infrastruktur (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20221-daee43d2_JB5277604-S</link>
-      <guid isPermaLink="false">20221-daee43d2_JB5277604-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Hitzler Ingenieure GmbH &amp; Co. KG · München · €16.00/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudenten (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20342-489-1792648873-S</link>
-      <guid isPermaLink="false">20342-489-1792648873-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>DRK-Region Hannover e.V. · Wunstorf · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent Operatives Controlling (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20456-2361544-S</link>
-      <guid isPermaLink="false">20456-2361544-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Asklepios Kliniken Hamburg GmbH Unternehmenszentrale · Hamburg · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent/in (m/w/d) Technik &amp; Administration</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21299-r22891-S</link>
-      <guid isPermaLink="false">21299-r22891-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>TREUREAL Property Management GmbH · Frankfurt am Main · €14.00/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>A/B-Tester E-Commerce (m/w/d) – Product Listings &amp; Conversion, hybrid oder remote</title>
-      <link>https://www.arbeitnow.com/jobs/companies/nipsild-hamburg-gmbh/a-b-tester-e-commerce-product-listings-conversion-hybrid-oder-remote-hamburg-442753</link>
-      <guid isPermaLink="false">an:a-b-tester-e-commerce-product-listings-conversion-hybrid-oder-remote-hamburg-442753</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>NIPSILD Hamburg GmbH · Hamburg · Marketing &amp; Communication</description>
     </item>
   </channel>
 </rss>

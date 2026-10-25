@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (w/m/d) Data Domain Enablement</title>
@@ -129,14 +129,6 @@
       <description>BSH Hausgeräte GmbH · Berlin · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Working Student (m/f/d) -  Data Engineer &amp; Software Developer (Research Analytics)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/agilerobotsse/working-student-data-engineer-software-developer-research-analytics-munich-bavaria-406891</link>
-      <guid isPermaLink="false">an:working-student-data-engineer-software-developer-research-analytics-munich-bavaria-406891</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Agilerobotsse · München · Data &amp; Analytics</description>
-    </item>
-    <item>
       <title>NTT DATA Business Solutions Global Managed Services GmbH: Werkstudent:in Social Media Creator</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2964721792360801-S</link>
       <guid isPermaLink="false">11956-2964721792360801-S</guid>
@@ -183,14 +175,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Quantum-Systems GmbH · Gilching · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>GISA GmbH: Werkstudent:in Business Intelligence, Analytics und AI (m/w/d)*</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2985001792274401-S</link>
-      <guid isPermaLink="false">11956-2985001792274401-S</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>GISA GmbH · Halle · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Kundenberatung Krankenversicherung, CHECK24 Versicherungen Gesundheit</title>
@@ -239,14 +239,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Ginmon GmbH · Frankfurt am Main · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Sales Operations &amp; Kundenbetreuung</title>
-      <link>https://www.arbeitnow.com/jobs/companies/inclusys/werkstudent-sales-operations-kundenbetreuung-heilbronn-17931</link>
-      <guid isPermaLink="false">an:werkstudent-sales-operations-kundenbetreuung-heilbronn-17931</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>INCLUSYS · Heilbronn · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>

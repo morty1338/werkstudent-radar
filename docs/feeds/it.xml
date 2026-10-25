@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>GISA GmbH: Werkstudent:in SAP Entwicklung (m/w/d)*</title>
@@ -551,30 +551,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Sammer Malereibetrieb GmbH · München · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>ITARICON: Werkstudent IT Consulting &amp; Cloud Integration - SAP CI Umfeld (Mensch*)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3022631792274401-S</link>
-      <guid isPermaLink="false">11956-3022631792274401-S</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>ITARICON · Dresden · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Unsolicited Application: Working Student - Flight Testing (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/tytan-technologies-gmbh/unsolicited-application-working-student-flight-testing-munich-464361</link>
-      <guid isPermaLink="false">an:unsolicited-application-working-student-flight-testing-munich-464361</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>TYTAN Technologies GmbH · München · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Software Development</title>
-      <link>https://www.arbeitnow.com/jobs/companies/holzland-becker/werkstudent-software-development-offenbach-am-main-264973</link>
-      <guid isPermaLink="false">an:werkstudent-software-development-offenbach-am-main-264973</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Holzland Becker · Offenbach · IT &amp; Software</description>
     </item>
   </channel>
 </rss>

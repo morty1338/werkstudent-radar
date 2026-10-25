@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y03-S</link>
+      <guid isPermaLink="false">18024-10Q6L00001Y03-S</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) im Development &amp; Transaction Team der Siemens Real Estate</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1646600-1-S</link>
@@ -31,14 +39,6 @@
       <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Amprion GmbH · Dortmund · €18.00/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y02-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001Y02-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Wareneingangskontrolle</title>
@@ -191,14 +191,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Rheinmetall AG · Bonn · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in (m/w/d) – Operations &amp; Office Management</title>
-      <link>https://www.arbeitnow.com/jobs/companies/tide/werkstudentin-operations-office-management-berlin-369297</link>
-      <guid isPermaLink="false">an:werkstudentin-operations-office-management-berlin-369297</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>tide · Berlin · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

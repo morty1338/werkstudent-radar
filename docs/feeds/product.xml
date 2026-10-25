@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Projektmanagement &amp; Backoffice  (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/60-seconds-to-napoli-holding-gmbh/werkstudent-projektmanagement-backoffice-dortmund-282314</link>
+      <guid isPermaLink="false">an:werkstudent-projektmanagement-backoffice-dortmund-282314</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>60 seconds to napoli Holding GmbH · Dortmund · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent:in / Praktikum Bauprojektmanagement (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1646721-1-S</link>
@@ -169,6 +177,14 @@
       <description>neaSOL GmbH · Dormagen · €15.00/h · Product &amp; Project Mgmt</description>
     </item>
     <item>
+      <title>Werkstudent– Customer Business Competences (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0456656-S</link>
+      <guid isPermaLink="false">12336-a26f539j0456656-S</guid>
+      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>BWI GmbH · Bonn · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
       <title>Werkstudent (w/m/d) Projektmanagement</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1645669-1-S</link>
       <guid isPermaLink="false">12465-1645669-1-S</guid>
@@ -183,14 +199,6 @@
       <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>REWE Group · Köln · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Projektleitung Qualität und Technik</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1645645-1-S</link>
-      <guid isPermaLink="false">13151-1645645-1-S</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudent– Customer Business Competences (m/w/d)</title>
@@ -287,22 +295,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Greenpocket · Köln · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent - Agiles Projektmanagement im Bereich E-Invoicing (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/cbs-corporate-business-solutions-gmbh/werkstudent-agiles-projektmanagement-im-bereich-e-invoicing-dortmund-287094</link>
-      <guid isPermaLink="false">an:werkstudent-agiles-projektmanagement-im-bereich-e-invoicing-dortmund-287094</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>cbs Corporate Business Solutions GmbH · Dortmund · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent im Bereich Projektakquise und Vertragsmanagement</title>
-      <link>https://www.arbeitnow.com/jobs/companies/arcus-planung-beratung-bauplanungsgesellschaft-mbh/werkstudent-im-bereich-projektakquise-und-vertragsmanagement-cottbus-59594</link>
-      <guid isPermaLink="false">an:werkstudent-im-bereich-projektakquise-und-vertragsmanagement-cottbus-59594</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>ARCUS Planung + Beratung Bauplanungsgesellschaft mbH · Cottbus · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

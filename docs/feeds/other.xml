@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Fleet Reliability and Maintenance Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/qwelloeu/fleet-reliability-and-maintenance-working-student-munich-bavaria-195497</link>
+      <guid isPermaLink="false">an:fleet-reliability-and-maintenance-working-student-munich-bavaria-195497</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Qwello.eu · München · €20.00/h · Other · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent/Studentische Hilfskraft (m/w/d) - Reinigungshilfe Weihnachtsmarkt Velbert</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003905803-S</link>
@@ -233,6 +241,14 @@
       <description>BuildlinX · Hamburg · Other</description>
     </item>
     <item>
+      <title>WerkstudentInnen (w/m/d) in Teilzeit (15 bis 20h/Woche)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/gemeinsam-leben-frankfurt-ev/werkstudentinnen-in-teilzeit-15-bis-20h-woche-frankfurt-am-main-275829</link>
+      <guid isPermaLink="false">an:werkstudentinnen-in-teilzeit-15-bis-20h-woche-frankfurt-am-main-275829</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Other</category>
+      <description>Gemeinsam leben Frankfurt e.V. · Frankfurt am Main · Other</description>
+    </item>
+    <item>
       <title>Werkstudent Hochschulkooperationen (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-784-1-S</link>
       <guid isPermaLink="false">12728-784-1-S</guid>
@@ -247,46 +263,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>limehome · München · Other</description>
-    </item>
-    <item>
-      <title>Manufacturing (UAV/Drone) Working Student (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/tytan-technologies-gmbh/manufacturing-uav-drone-working-student-munich-322107</link>
-      <guid isPermaLink="false">an:manufacturing-uav-drone-working-student-munich-322107</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>TYTAN Technologies GmbH · München · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Creator Management (TikTok Shop) - all genders</title>
-      <link>https://www.arbeitnow.com/jobs/companies/adbaker/werkstudent-creator-management-tiktok-shop-all-genders-cologne-406167</link>
-      <guid isPermaLink="false">an:werkstudent-creator-management-tiktok-shop-all-genders-cologne-406167</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>ADBAKER · Köln · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent kommunale Wärmeplanung (m/w/q)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/frequentum/werkstudent-kommunale-warmeplanung-munich-224996</link>
-      <guid isPermaLink="false">an:werkstudent-kommunale-warmeplanung-munich-224996</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>FREQUENTUM · München · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Oberhausen Centro (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/my-jewellery/werkstudent-oberhausen-centro-367615</link>
-      <guid isPermaLink="false">an:werkstudent-oberhausen-centro-367615</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>My Jewellery · Oberhausen · Other</description>
-    </item>
-    <item>
-      <title>Working student Academics (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/think-cell/working-student-academics-104947</link>
-      <guid isPermaLink="false">an:working-student-academics-104947</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Think Cell · Other · no German needed</description>
     </item>
   </channel>
 </rss>

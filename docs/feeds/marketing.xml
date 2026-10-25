@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/marketing.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:08:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Intern/ Working Student Influencer &amp; Performance Marketing – Dutch Market (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/everdrop-gmbh/intern-working-student-influencer-performance-marketing-dutch-market-munchen-385099</link>
+      <guid isPermaLink="false">an:intern-working-student-influencer-performance-marketing-dutch-market-munchen-385099</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>everdrop GmbH · München · Marketing &amp; Communication · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Social Media &amp; Content Creator Marketing - Traumhausverlosung (w/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/zeal-network/werkstudentin-social-media-content-creator-marketing-traumhausverlosung-hamburg-214257</link>
+      <guid isPermaLink="false">an:werkstudentin-social-media-content-creator-marketing-traumhausverlosung-hamburg-214257</guid>
+      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Zeal Network · Hamburg · Marketing &amp; Communication</description>
+    </item>
     <item>
       <title>Praktikant/Werkstudent Social Media &amp; Digital Marketing (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4976682868-S</link>
@@ -449,6 +465,14 @@
       <description>Sparkasse Hildesheim Goslar Peine · Hildesheim · Marketing &amp; Communication</description>
     </item>
     <item>
+      <title>Werkstudent (m/w/d) Storytelling &amp; Executive Communication</title>
+      <link>https://www.arbeitnow.com/jobs/companies/zcg-ug-haftungsbeschrankt/werkstudent-storytelling-executive-communication-hamburg-83483</link>
+      <guid isPermaLink="false">an:werkstudent-storytelling-executive-communication-hamburg-83483</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>ZCG UG (haftungsbeschränkt) · Hamburg · Marketing &amp; Communication</description>
+    </item>
+    <item>
       <title>Werkstudent im Online Marketing (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003873986-S</link>
       <guid isPermaLink="false">10001-1003873986-S</guid>
@@ -519,14 +543,6 @@
       <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>vly · Berlin · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) gesucht als Marketingassistent:in</title>
-      <link>https://www.arbeitnow.com/jobs/companies/klickrendite-ug/marketingassistentin-leipzig-410947</link>
-      <guid isPermaLink="false">an:marketingassistentin-leipzig-410947</guid>
-      <pubDate>Sun, 18 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Klickrendite UG · Leipzig · Marketing &amp; Communication</description>
     </item>
   </channel>
 </rss>
