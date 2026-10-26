@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Digital Health, Berlin</title>
@@ -63,14 +63,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Health &amp; Care</category>
       <description>Physiotherapie Sonnemann · Lübeck · €21.00/h · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent*in - Patient*innen-Portal</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208328884-S</link>
-      <guid isPermaLink="false">10000-1208328884-S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Vivantes Netzwerk für Gesundheit GmbH · Berlin · Health &amp; Care</description>
     </item>
   </channel>
 </rss>

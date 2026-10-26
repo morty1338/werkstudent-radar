@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent / Sales Assistant (m/w/d) - CECIL und Street One im Designer Outlet Ochtrup</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003911066-S</link>
+      <guid isPermaLink="false">10001-1003911066-S</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>CBR Service GmbH · Ochtrup · Design &amp; UX</description>
+    </item>
     <item>
       <title>Working Student - Launch Vehicle Design (m/f/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/isaraerospace/working-student-launch-vehicle-design-parsdorf-bavaria-192325</link>
@@ -127,14 +135,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>Stadtwerke Fürstenfeldbruck GmbH · Fürstenfeldbruck · €18.25/h · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Mediengestaltung &amp; Webdesign (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003875637-S</link>
-      <guid isPermaLink="false">10001-1003875637-S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>MHC Holding GmbH · Germersheim · Design &amp; UX</description>
     </item>
   </channel>
 </rss>

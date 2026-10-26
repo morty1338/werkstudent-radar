@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Softwareentwicklung &amp; Support im Business Process Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11959-108767-S</link>
+      <guid isPermaLink="false">11959-108767-S</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>SIKA Dr. Siebert &amp; Kühn GmbH &amp; Co. KG · Kaufungen · €17.00/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Working Student IT Operations (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/spread-gmbh/working-student-it-operations-berlin-282027</link>
+      <guid isPermaLink="false">an:working-student-it-operations-berlin-282027</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>SPREAD GmbH · Berlin · IT &amp; Software</description>
+    </item>
     <item>
       <title>GISA GmbH: Werkstudent:in SAP Entwicklung (m/w/d)*</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3051401792792801-S</link>
@@ -129,14 +145,6 @@
       <description>Pierburg GmbH · Neuss · IT &amp; Software</description>
     </item>
     <item>
-      <title>Fixed Assets Working Student (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18251-33923-S</link>
-      <guid isPermaLink="false">18251-33923-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Zalando SE · Berlin · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) IT-Support &amp; Logistik</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20263-2362657-S</link>
       <guid isPermaLink="false">20263-2362657-S</guid>
@@ -159,14 +167,6 @@
       <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Gusti Leder GmbH · Rostock · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) | Stadt Fürth</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208374614-S</link>
-      <guid isPermaLink="false">10000-1208374614-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Stadt Fürth · Fürth · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent Digitalisierung &amp; KI-Prozessoptimierung (m/w/d)</title>
@@ -231,14 +231,6 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Siemens AG · Krefeld · €15.00/h · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Softwareentwicklung mit Schwerpunkt Azure (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-745-1-S</link>
-      <guid isPermaLink="false">12728-745-1-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>E.ON Grid Solutions GmbH · Landshut · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent DevOps (m/w/d), Frankfurt</title>
@@ -487,70 +479,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>aifano GmbH · Herford · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent IT Business Engineer (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1460902-4078-1-S</link>
-      <guid isPermaLink="false">12608-1460902-4078-1-S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>REWE digital GmbH · Köln · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Working Student IT Support &amp; Operations (m/f/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-03be7d44-f5ee-49a1--S</link>
-      <guid isPermaLink="false">12951-03be7d44-f5ee-49a1--S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Zenjob SE · Berlin · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) – Assembly and Transportation Technology</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-973935-008-S</link>
-      <guid isPermaLink="false">16604-973935-008-S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>thyssenkrupp AG Entgeltabrechnung · Dortmund · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Working Student (all genders welcome) - Product gH2</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-973938-008-S</link>
-      <guid isPermaLink="false">16604-973938-008-S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>thyssenkrupp AG Entgeltabrechnung · Dortmund · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>AI Builder — Working Student</title>
-      <link>https://www.arbeitnow.com/jobs/companies/eggai/ai-builder-working-student-tubingen-189697</link>
-      <guid isPermaLink="false">an:ai-builder-working-student-tubingen-189697</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Eggai · Tübingen · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
-      <title>Informatik Student/in als IT-Allrounder/in | im Stundenlohn, ca. 20-30%</title>
-      <link>https://www.arbeitnow.ch/jobs/companies/schmid-group-ag/informatik-student-in-als-it-allrounder-in-im-stundenlohn-ca-20-30-lengnau-75473</link>
-      <guid isPermaLink="false">an:informatik-student-in-als-it-allrounder-in-im-stundenlohn-ca-20-30-lengnau-75473</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>SCHMID GROUP AG · Lengnau · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Product, AI &amp; Venture Building</title>
-      <link>https://www.arbeitnow.com/jobs/companies/vt-netzwelt-gmbh/werkstudentin-product-ai-venture-building-berlin-383594</link>
-      <guid isPermaLink="false">an:werkstudentin-product-ai-venture-building-berlin-383594</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>VT Netzwelt GmbH · Berlin · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Wirtschaftsinformatiker Werkstudent (m/w/d) - 20 Stunden/ Woche</title>
-      <link>https://www.arbeitnow.com/jobs/companies/sammer-malereibetrieb-gmbh/wirtschaftsinformatiker-werkstudent-20-stunden-woche-munchen-294021</link>
-      <guid isPermaLink="false">an:wirtschaftsinformatiker-werkstudent-20-stunden-woche-munchen-294021</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Sammer Malereibetrieb GmbH · München · IT &amp; Software</description>
     </item>
   </channel>
 </rss>

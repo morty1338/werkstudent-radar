@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Kundenberatung Krankenversicherung, CHECK24 Versicherungen Gesundheit</title>
@@ -65,7 +65,7 @@
       <description>Klimahaus Management GmbH · Bremerhaven · €14.87/h · Sales &amp; Business Development</description>
     </item>
     <item>
-      <title>Werkstudent/Minijob: Mitarbeiter Vertriebsassistenz Neukundenakquise (m/w/d)</title>
+      <title>Werkstudent oder Minijob: Mitarbeiter Vertriebsassistenz Neukundenakquise (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003900971-S</link>
       <guid isPermaLink="false">10001-1003900971-S</guid>
       <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
@@ -207,38 +207,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Greenpocket · Köln · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent im Vertrieb (m/w/d) Zwickau</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14385-422-3060P-26-S</link>
-      <guid isPermaLink="false">14385-422-3060P-26-S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>ARWA Personaldienstleistungen GmbH · Zwickau · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent B2B-Vertrieb (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/gusti-leder-gmbh/werkstudent-b2b-vertrieb-rostock-227752</link>
-      <guid isPermaLink="false">an:werkstudent-b2b-vertrieb-rostock-227752</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Gusti Leder GmbH · Rostock · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Business Development (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/nomios/werkstudent-business-development-frankfurt-am-main-403041</link>
-      <guid isPermaLink="false">an:werkstudent-business-development-frankfurt-am-main-403041</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Nomios · Frankfurt am Main · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Sales – apeiron (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/ginmon-gmbh/werkstudent-sales-apeiron-frankfurt-379221</link>
-      <guid isPermaLink="false">an:werkstudent-sales-apeiron-frankfurt-379221</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Ginmon GmbH · Frankfurt am Main · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>

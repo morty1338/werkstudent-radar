@@ -6,23 +6,31 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
-      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y03-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001Y03-S</guid>
-      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <title>Werkstudent Logistik (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003911269-S</link>
+      <guid isPermaLink="false">10001-1003911269-S</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
-      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
+      <description>BÜFA GmbH &amp; Co. KG · Oldenburg (Oldb) · €17.25/h · Operations &amp; Logistics</description>
     </item>
     <item>
-      <title>Werkstudent (w/m/d) im Development &amp; Transaction Team der Siemens Real Estate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1646600-1-S</link>
-      <guid isPermaLink="false">12465-1646600-1-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <title>Werkstudent KI &amp; Prozessautomatisierung Einkauf (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-266dd1bb-f9c0-47fb--S</link>
+      <guid isPermaLink="false">12951-266dd1bb-f9c0-47fb--S</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
-      <description>Siemens AG · München · Operations &amp; Logistics</description>
+      <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Friedberg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y04-S</link>
+      <guid isPermaLink="false">18024-10Q6L00001Y04-S</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent*in - Logistik &amp; Wareneingang - Werkzeugversand</title>
@@ -175,22 +183,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Rheinmetall AG · Kassel · €18.14/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Working Student Billing &amp; Receivable Operations (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/statista/working-student-billing-receivable-operations-hamburg-100838</link>
-      <guid isPermaLink="false">an:working-student-billing-receivable-operations-hamburg-100838</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Statista · Hamburg · Operations &amp; Logistics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Sustainability &amp; Supply Chain im Einkauf (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635635-7878-5511-S</link>
-      <guid isPermaLink="false">15939-BB-635635-7878-5511-S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Rheinmetall AG · Bonn · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

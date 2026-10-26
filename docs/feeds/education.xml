@@ -6,13 +6,21 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
+      <title>Werkstudentin als Vertretungskraft gesucht / Zufluchtsstätte</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1190120086-S</link>
+      <guid isPermaLink="false">10000-1190120086-S</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Lotta e.V. · Kiel · €15.50/h · Education &amp; Social</description>
+    </item>
+    <item>
       <title>Werkstudent*in (m/w/d) (20,0 Std./Woche) CAJ, Bistum Osnabrück</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100PJ000WXr0G-S</link>
-      <guid isPermaLink="false">18024-100PJ000WXr0G-S</guid>
-      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100PJ000WXr0H-S</link>
+      <guid isPermaLink="false">18024-100PJ000WXr0H-S</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Education &amp; Social</category>
       <description>Bischöfliches Generalvikariat · Osnabrück · Education &amp; Social</description>
     </item>
@@ -33,14 +41,6 @@
       <description>PERMACON GmbH Frankfurt · Frankfurt am Main · Education &amp; Social</description>
     </item>
     <item>
-      <title>Werkstudenten (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20342-489-1792648873-S</link>
-      <guid isPermaLink="false">20342-489-1792648873-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>DRK-Region Hannover e.V. · Wunstorf · Education &amp; Social</description>
-    </item>
-    <item>
       <title>Werkstudent*in (m/w/d) im Bereich Soziales und Familie</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-e59efa45-7461-4ec2--S</link>
       <guid isPermaLink="false">12951-e59efa45-7461-4ec2--S</guid>
@@ -55,22 +55,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Education &amp; Social</category>
       <description>Greenpocket · Köln · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudierende*n (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208330746-S</link>
-      <guid isPermaLink="false">10000-1208330746-S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Stadtverwaltung Herne FB12 · Herne · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) – Digitale Ausbildung &amp; E-Learning (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17371-ae445b90992528ba8d9-S</link>
-      <guid isPermaLink="false">17371-ae445b90992528ba8d9-S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Munk GmbH Schaltanlagen und Gleichrichter · Hamm · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

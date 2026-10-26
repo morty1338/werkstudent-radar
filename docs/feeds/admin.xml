@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Management &amp; Media Assistant (m/w/d) Werkstudent</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003909273-S</link>
+      <guid isPermaLink="false">10001-1003909273-S</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Ekol Invest GmbH · Halle (Westfalen) · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11119-4955347146-S</link>
+      <guid isPermaLink="false">11119-4955347146-S</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Randstad Deutschland · München · €15.55/h · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Rezeptionist / Empfangsmitarbeiter (m/w/d)  Minijob oder Werkstudententätigkeit</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003905103-S</link>
@@ -127,30 +143,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Office &amp; Admin</category>
       <description>thyssenkrupp AG · Ennigerloh · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudentin (m/w/d) – Kaufmännische Betriebsführung &amp; Verwaltung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003874597-S</link>
-      <guid isPermaLink="false">10001-1003874597-S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>SUNLIFE-Service GmbH · Stuttgart · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent in der WEG-Verwaltung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-1958e8ec-b761-4151--S</link>
-      <guid isPermaLink="false">12951-1958e8ec-b761-4151--S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Vonovia Recruiting DE · Kassel · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudentin (m/w/d) im Sekretariat / Office Management</title>
-      <link>https://www.arbeitnow.com/jobs/companies/gusti-leder-gmbh/werkstudentin-im-sekretariat-office-management-rostock-315860</link>
-      <guid isPermaLink="false">an:werkstudentin-im-sekretariat-office-management-rostock-315860</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Gusti Leder GmbH · Rostock · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

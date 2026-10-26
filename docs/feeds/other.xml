@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Support Konfigurationsmanagement (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974526-008-S</link>
+      <guid isPermaLink="false">16604-974526-008-S</guid>
+      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>TKMS GmbH · Böhnhusen · Other</description>
+    </item>
     <item>
       <title>Fleet Reliability and Maintenance Working Student</title>
       <link>https://www.arbeitnow.com/jobs/companies/qwelloeu/fleet-reliability-and-maintenance-working-student-munich-bavaria-195497</link>
@@ -47,14 +55,6 @@
       <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>Amprion GmbH · Dortmund · €18.00/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-bad-salzungen-384623</link>
-      <guid isPermaLink="false">an:werkstudent-bad-salzungen-384623</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>WerraEnergie GmbH · Bad Salzungen · Other · no German needed</description>
     </item>
     <item>
       <title>Working Student Sustainability Reporting (m/f/d)</title>
@@ -201,14 +201,6 @@
       <description>FINN · München · €16.00/h · Other</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) Digitale Kundenreisen &amp; Onsite-Suche</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-127270-STA-S</link>
-      <guid isPermaLink="false">11858-SDE-127270-STA-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Sparkasse Hildesheim Goslar Peine · Hildesheim · Other</description>
-    </item>
-    <item>
       <title>Werkstudent Business Process &amp; Skill Management (m/w/d), Dortmund</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2360420-S</link>
       <guid isPermaLink="false">12811-2360420-S</guid>
@@ -247,22 +239,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Other</category>
       <description>Gemeinsam leben Frankfurt e.V. · Frankfurt am Main · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Hochschulkooperationen (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-784-1-S</link>
-      <guid isPermaLink="false">12728-784-1-S</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>E.DIS AG · Fürstenwalde/Spree · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Bar &amp; Service (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/limehome/werkstudentin-bar-service-munchen-54586</link>
-      <guid isPermaLink="false">an:werkstudentin-bar-service-munchen-54586</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>limehome · München · Other</description>
     </item>
   </channel>
 </rss>

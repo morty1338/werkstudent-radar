@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 09:21:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Forschung &amp; Entwicklung für 20 Std./Woche</title>
@@ -79,14 +79,6 @@
       <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
       <category>Research &amp; Science</category>
       <description>M. Braun Inertgas-Systeme GmbH · Garching bei München · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent Forschung &amp; Entwicklung (m/w/d)</title>
-      <link>https://www.arbeitnow.ch/jobs/companies/fenx-ag/werkstudent-forschung-entwicklung-turgi-80009</link>
-      <guid isPermaLink="false">an:werkstudent-forschung-entwicklung-turgi-80009</guid>
-      <pubDate>Mon, 19 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>FenX AG · Turgi · Research &amp; Science</description>
     </item>
   </channel>
 </rss>
