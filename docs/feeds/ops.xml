@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:06:38 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) im Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1647589-1-S</link>
+      <guid isPermaLink="false">12465-1647589-1-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Siemens AG · Frankfurt am Main · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Beschaffungslogistik</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-01405698_JB5281586-S</link>
+      <guid isPermaLink="false">13635-01405698_JB5281586-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Friedrich Zufall GmbH &amp; Co. KG · Göttingen · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y05-S</link>
+      <guid isPermaLink="false">18024-10Q6L00001Y05-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent Logistik (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003911269-S</link>
@@ -23,14 +47,6 @@
       <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Friedberg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y04-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001Y04-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent*in - Logistik &amp; Wareneingang - Werkzeugversand</title>
@@ -121,68 +137,12 @@
       <description>Apleona GmbH · Düsseldorf · Operations &amp; Logistics</description>
     </item>
     <item>
-      <title>Operations Intern / Working Student (Supply Chain &amp; Procurement) (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/quantumdiamonds/operations-intern-working-student-supply-chain-procurement-munich-306835</link>
-      <guid isPermaLink="false">an:operations-intern-working-student-supply-chain-procurement-munich-306835</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Quantumdiamonds · München · Operations &amp; Logistics</description>
-    </item>
-    <item>
       <title>Werkstudent (w/m/d) Einkauf / Procurement</title>
       <link>https://www.arbeitnow.com/jobs/companies/holzland-becker/werkstudent-einkauf-procurement-offenbach-am-main-79566</link>
       <guid isPermaLink="false">an:werkstudent-einkauf-procurement-offenbach-am-main-79566</guid>
       <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Holzland Becker · Offenbach · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Logistikreklamationen/Claims</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1644573-1-S</link>
-      <guid isPermaLink="false">12465-1644573-1-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Siemens AG · Stuttgart · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent / Werkstudentin (w|m|d) im Bereich Einkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14108-0000460acf4001-S</link>
-      <guid isPermaLink="false">14108-0000460acf4001-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>München Klinik · München · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Lager</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15112-44517230-1019-S</link>
-      <guid isPermaLink="false">15112-44517230-1019-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Dachser SE Head Office · Eschbach · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Umschlaglager</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15112-44517315-1019-S</link>
-      <guid isPermaLink="false">15112-44517315-1019-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Dachser SE Head Office · Malsch · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Logistik</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15112-44517847-1019-S</link>
-      <guid isPermaLink="false">15112-44517847-1019-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Dachser SE Head Office · Kornwestheim · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Logistik (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635645-7878-4351-S</link>
-      <guid isPermaLink="false">15939-BB-635645-7878-4351-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Rheinmetall AG · Kassel · €18.14/h · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:06:38 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent/in (m/w/d) Ernährungsberatung und Gesundheitsmanagement</title>
@@ -15,6 +15,14 @@
       <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>CG Ernährungs UG (haftungsbeschränkt) · Sulzbach (Taunus) · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Founders Associate - Strategic Projects | CEO Office (m/w/d) - Internship/Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/boost-startup-ecosystem-ggmbh/founders-associate-strategic-projects-ceo-office-internship-working-student-leipzig-117107</link>
+      <guid isPermaLink="false">an:founders-associate-strategic-projects-ceo-office-internship-working-student-leipzig-117107</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>boOst Startup Ecosystem gGmbH · Leipzig · Consulting &amp; Strategy</description>
     </item>
     <item>
       <title>Werkstudent/-in (m/w/d) in der telefonischen Immobilienberatung (20 Stunden / Woche)</title>
@@ -63,14 +71,6 @@
       <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Airbus Defence and Space GmbH · Donauwörth · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent oder Praxissemester Energieberatung &amp; Gebäudetechnik</title>
-      <link>https://www.arbeitnow.com/jobs/companies/ingenieurburo-schmon/werkstudent-oder-praxissemester-energieberatung-gebaudetechnik-messkirch-257973</link>
-      <guid isPermaLink="false">an:werkstudent-oder-praxissemester-energieberatung-gebaudetechnik-messkirch-257973</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Ingenieurbüro Schmon · Messkirch · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

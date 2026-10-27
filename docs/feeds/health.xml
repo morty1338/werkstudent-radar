@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:06:38 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent oder Minijob Pflegeassistenz(m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208428342-S</link>
+      <guid isPermaLink="false">10000-1208428342-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Jan Ritschel · Halle · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Werkstudent in der Hochschulambulanz (m/w/d) im Fachbere ...</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-348776-S</link>
+      <guid isPermaLink="false">13884-348776-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Charlotte Fresenius Hochschule · Wiesbaden · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Pflegeversicherung  ab 16,00 EUR Std.</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13999-k53401.34240-S</link>
+      <guid isPermaLink="false">13999-k53401.34240-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>jobtimum GmbH · Bremen · €16.50/h · Health &amp; Care</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Digital Health, Berlin</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2363130-S</link>
@@ -55,14 +79,6 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
       <category>Health &amp; Care</category>
       <description>Konfetti GmbH · Berlin · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Physiotherapeut (m/w/d) Vollzeit · Teilzeit · Werkstudent · Aushilfe</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003879820-S</link>
-      <guid isPermaLink="false">10001-1003879820-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Physiotherapie Sonnemann · Lübeck · €21.00/h · Health &amp; Care</description>
     </item>
   </channel>
 </rss>

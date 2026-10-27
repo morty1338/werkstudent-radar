@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:06:38 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Forschung &amp; Entwicklung für 20 Std./Woche</title>
@@ -71,14 +71,6 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
       <category>Research &amp; Science</category>
       <description>Implenia Deutschland · Raunheim · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent/in Produktentwicklung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003877974-S</link>
-      <guid isPermaLink="false">10001-1003877974-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>M. Braun Inertgas-Systeme GmbH · Garching bei München · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

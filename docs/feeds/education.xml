@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:06:38 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) GBS Nachmittagsbetreuung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13339-72BV55WHQOJN3G4H-S</link>
+      <guid isPermaLink="false">13339-72BV55WHQOJN3G4H-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Hanseaten Zeitarbeit Nord GmbH · Hamburg · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (m/w/d) (20,0 Std./Woche) CAJ, Bistum Osnabrück</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100PJ000WXr0I-S</link>
+      <guid isPermaLink="false">18024-100PJ000WXr0I-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Bischöfliches Generalvikariat · Osnabrück · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudenten (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20342-489-1793019853-S</link>
+      <guid isPermaLink="false">20342-489-1793019853-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>DRK-Region Hannover e.V. · Springe · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudentin als Vertretungskraft gesucht / Zufluchtsstätte</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1190120086-S</link>
@@ -15,14 +39,6 @@
       <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Education &amp; Social</category>
       <description>Lotta e.V. · Kiel · €15.50/h · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) (20,0 Std./Woche) CAJ, Bistum Osnabrück</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100PJ000WXr0H-S</link>
-      <guid isPermaLink="false">18024-100PJ000WXr0H-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Bischöfliches Generalvikariat · Osnabrück · Education &amp; Social</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) für den fördernden offenen Ganztag an der Richard-Schirrmann-Schule in Hennef au</title>
@@ -47,14 +63,6 @@
       <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
       <category>Education &amp; Social</category>
       <description>Caritasverband Region Mönchengladbach e.V. · Mönchengladbach · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent:in (m/w/d) - Schulungen, Webinare und CSM</title>
-      <link>https://www.arbeitnow.com/jobs/companies/greenpocket/werkstudentin-schulungen-webinare-und-csm-cologne-275954</link>
-      <guid isPermaLink="false">an:werkstudentin-schulungen-webinare-und-csm-cologne-275954</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Greenpocket · Köln · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

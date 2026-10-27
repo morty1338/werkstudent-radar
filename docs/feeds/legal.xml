@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 10:29:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 10:06:38 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudentin / Werkstudent Legal, Compliance &amp; Corporate GovernanceLegal, Compliance &amp; Corporate Go</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-3f9b94f6_JB5281581-S</link>
+      <guid isPermaLink="false">13635-3f9b94f6_JB5281581-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Lucke EDV GmbH · Wuppertal · Legal</description>
+    </item>
+    <item>
+      <title>Werkstudent Datenschutz (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18896-8653565-S</link>
+      <guid isPermaLink="false">18896-8653565-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Messe Düsseldorf GmbH · Düsseldorf · Legal</description>
+    </item>
     <item>
       <title>Werkstudent / Praktikant Legal &amp; Business Affairs (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/sonymusicentertainment/werkstudent-praktikant-legal-business-affairs-europe-berlin-27749</link>
@@ -47,14 +63,6 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
       <category>Legal</category>
       <description>]init[ AG · Berlin · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent Rechtsschutz Schadenregulierung (w|m|d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18349-47489_17_JB5277202-S</link>
-      <guid isPermaLink="false">18349-47489_17_JB5277202-S</guid>
-      <pubDate>Tue, 20 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Legal</category>
-      <description>ADAC RSR GmbH · München · Legal</description>
     </item>
   </channel>
 </rss>
