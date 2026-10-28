@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 10:06:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 10:46:13 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent*in (m/w/d) (20,0 Std./Woche) CAJ, Bistum Osnabrück</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100PJ000WXr0J-S</link>
+      <guid isPermaLink="false">18024-100PJ000WXr0J-S</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Bischöfliches Generalvikariat · Osnabrück · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) GBS Nachmittagsbetreuung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13339-72BV55WHQOJN3G4H-S</link>
@@ -15,14 +23,6 @@
       <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
       <category>Education &amp; Social</category>
       <description>Hanseaten Zeitarbeit Nord GmbH · Hamburg · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) (20,0 Std./Woche) CAJ, Bistum Osnabrück</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100PJ000WXr0I-S</link>
-      <guid isPermaLink="false">18024-100PJ000WXr0I-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Bischöfliches Generalvikariat · Osnabrück · Education &amp; Social</description>
     </item>
     <item>
       <title>Werkstudenten (m/w/d)</title>
@@ -41,7 +41,7 @@
       <description>Lotta e.V. · Kiel · €15.50/h · Education &amp; Social</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) für den fördernden offenen Ganztag an der Richard-Schirrmann-Schule in Hennef au</title>
+      <title>Werkstudent (m/w/d) für den fördernden offenen Ganztag</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-e1f2d0b4_JB5281557-S</link>
       <guid isPermaLink="false">13635-e1f2d0b4_JB5281557-S</guid>
       <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
@@ -55,14 +55,6 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
       <category>Education &amp; Social</category>
       <description>PERMACON GmbH Frankfurt · Frankfurt am Main · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) im Bereich Soziales und Familie</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-e59efa45-7461-4ec2--S</link>
-      <guid isPermaLink="false">12951-e59efa45-7461-4ec2--S</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Caritasverband Region Mönchengladbach e.V. · Mönchengladbach · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

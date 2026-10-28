@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 10:06:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 10:46:13 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent/in UX/UI Design (15-20 Std./Woche - 100% Remote)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/blicksolutions-gmbh/werkstudent-in-ux-ui-design-15-20-std-woche-100-remote-berlin-243797</link>
+      <guid isPermaLink="false">an:werkstudent-in-ux-ui-design-15-20-std-woche-100-remote-berlin-243797</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>BlickSolutions GmbH · Berlin · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent Videoschnitt und Content Marketing (m/w/d) mit Übernahmeperspektive</title>
+      <link>https://www.arbeitnow.com/jobs/companies/ready-to-rock-marketing-gmbh/werkstudent-videoschnitt-und-content-marketing-mit-ubernahmeperspektive-hamburg-265886</link>
+      <guid isPermaLink="false">an:werkstudent-videoschnitt-und-content-marketing-mit-ubernahmeperspektive-hamburg-265886</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Ready to Rock Marketing GmbH · Hamburg · Design &amp; UX</description>
+    </item>
     <item>
       <title>Werkstudent / Sales Assistant (m/w/d) - CECIL und Street One im Designer Outlet Ochtrup</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003911066-S</link>
@@ -95,38 +111,6 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>Digitale Offensive GmbH · Bielefeld · €20.00/h · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Grafikdesign &amp; KI-Content</title>
-      <link>https://www.arbeitnow.com/jobs/companies/zuitable-gmbh/werkstudent-grafikdesign-ki-content-dusseldorf-352252</link>
-      <guid isPermaLink="false">an:werkstudent-grafikdesign-ki-content-dusseldorf-352252</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>ZUITABLE GmbH · Düsseldorf · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Marketing &amp; Design – Corporate Design und Produktgestaltung(m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11959-108687-S</link>
-      <guid isPermaLink="false">11959-108687-S</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Bimmerle KG · Sasbach bei Achern · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Kommunikationsdesign (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/german-design-council-rat-fur-formgebung/werkstudent-kommunikationsdesign-frankfurt-am-main-98865</link>
-      <guid isPermaLink="false">an:werkstudent-kommunikationsdesign-frankfurt-am-main-98865</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>German Design Council - Rat für Formgebung · Frankfurt am Main · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) Design, Visuelle Gestaltung &amp; Marketing</title>
-      <link>https://www.arbeitnow.com/jobs/companies/convercus/werkstudentin-design-visuelle-gestaltung-marketing-munich-338246</link>
-      <guid isPermaLink="false">an:werkstudentin-design-visuelle-gestaltung-marketing-munich-338246</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Convercus · München · Design &amp; UX</description>
     </item>
   </channel>
 </rss>

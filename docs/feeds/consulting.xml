@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 10:06:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 10:46:13 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent*in Modulstrategie Mercedes-Benz Cars</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647984-1-S</link>
+      <guid isPermaLink="false">13151-1647984-1-S</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Mercedes-Benz Group AG · Sindelfingen · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent/in (m/w/d) Ernährungsberatung und Gesundheitsmanagement</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003909805-S</link>
@@ -63,14 +71,6 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>LWB Group · Berlin · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent  (d/m/w) Strategischer Einkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-978004315-S</link>
-      <guid isPermaLink="false">16947-978004315-S</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Airbus Defence and Space GmbH · Donauwörth · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

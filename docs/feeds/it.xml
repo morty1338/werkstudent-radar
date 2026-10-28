@@ -6,8 +6,88 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 10:06:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 10:46:13 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in für KI und Digitalisierung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003924367-S</link>
+      <guid isPermaLink="false">10001-1003924367-S</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Oliver Klein - cherrypicker · Hamburg · €18.00/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>SoftwareOne Deutschland GmbH: Werkstudent (gn) Eventmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3054301793142001-S</link>
+      <guid isPermaLink="false">11956-3054301793142001-S</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>SoftwareOne Deutschland GmbH · Leipzig · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Requirements Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1631724-2-S</link>
+      <guid isPermaLink="false">12465-1631724-2-S</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · München · €17.27/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent KI-Unterstützung Domain Plan (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-855-1-S</link>
+      <guid isPermaLink="false">12728-855-1-S</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>E.ON Grid Solutions GmbH · Essen · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent / Praktikant (m/w/d) - Frontend-Entwicklung, Töging a. Inn</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2358698-S</link>
+      <guid isPermaLink="false">12811-2358698-S</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>ViscoTec Pumpen- u. Dosiertechnik GmbH · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Industrielle Bildverarbeitung &amp; Prozessautomatisierung (m/w/x/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647717-1-S</link>
+      <guid isPermaLink="false">13151-1647717-1-S</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Mercedes-Benz Group AG · Stuttgart · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) - IT-Support / IT-Systemadministration</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-3158ba0d_JB5282924-S</link>
+      <guid isPermaLink="false">13635-3158ba0d_JB5282924-S</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>hiko systems · Darmstadt · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) – IT-Rollout</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-3894674c_JB5282901-S</link>
+      <guid isPermaLink="false">13635-3894674c_JB5282901-S</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>hiko systems · Fulda · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Software Development Frontend (m/w/d) TS24</title>
+      <link>https://www.arbeitnow.com/jobs/companies/truckscout24/werkstudent-software-development-frontend-ts24-essen-102456</link>
+      <guid isPermaLink="false">an:werkstudent-software-development-frontend-ts24-essen-102456</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>TruckScout24 · Essen · €18.00/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Working Student AI Software Engineer, LangChain (all genders)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/thorit/working-student-ai-software-engineer-langchain-all-genders-boblingen-394512</link>
+      <guid isPermaLink="false">an:working-student-ai-software-engineer-langchain-all-genders-boblingen-394512</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Thorit · Böblingen · IT &amp; Software · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent IT-Service (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003913939-S</link>
@@ -111,14 +191,6 @@
       <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>GISA GmbH · Halle · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) – Digitalization &amp; Finance</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1636421-2-S</link>
-      <guid isPermaLink="false">12465-1636421-2-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Siemens AG · München · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) KI-gestützte Software- und Plattformentwicklung</title>
@@ -297,14 +369,6 @@
       <description>Siemens AG · Krefeld · €15.00/h · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent DevOps (m/w/d), Frankfurt</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2361904-S</link>
-      <guid isPermaLink="false">12811-2361904-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>LORENZ  Life Sciences Group · Frankfurt am Main · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Working Student Process Automation &amp; Digitalization – Life Sciences BU</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1628312-2-S</link>
       <guid isPermaLink="false">13348-1628312-2-S</guid>
@@ -367,46 +431,6 @@
       <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
       <category>IT &amp; Software</category>
       <description>Rheinmetall AG · Düsseldorf · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent IT Governance, Risk &amp; Compliance (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1462327-4078-1-S</link>
-      <guid isPermaLink="false">12608-1462327-4078-1-S</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>REWE Group · Köln · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) IT-Accountant Rechnungswesen, Konzernzentrale Leipzig</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2360952-S</link>
-      <guid isPermaLink="false">12811-2360952-S</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>VNG AG · Leipzig · €15.50/h · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudenten für den Bereich Gemeinsame IT (m/w/d), Geschäftsstelle</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2361144-S</link>
-      <guid isPermaLink="false">12811-2361144-S</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Landesärztekammer Baden-Württemberg · Stuttgart · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent IT-Solutions &amp; Knowledge (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13509-00002110876002-S</link>
-      <guid isPermaLink="false">13509-00002110876002-S</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>BWI GmbH · €16.00/h · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent IT &amp; KI (m/w/d) - Hands-on im Job, flexibel im Studium! | 20 Std./Woche</title>
-      <link>https://www.arbeitnow.com/jobs/companies/prokuras-beteiligungs-gmbh/werkstudent-it-ki-hands-on-im-job-flexibel-im-studium-20-std-woche-hamburg-56551</link>
-      <guid isPermaLink="false">an:werkstudent-it-ki-hands-on-im-job-flexibel-im-studium-20-std-woche-hamburg-56551</guid>
-      <pubDate>Wed, 21 Oct 2026 06:30:00 +0200</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Prokuras Beteiligungs GmbH · Hamburg · IT &amp; Software</description>
     </item>
   </channel>
 </rss>
