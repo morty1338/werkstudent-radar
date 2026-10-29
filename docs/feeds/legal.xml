@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 10:46:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 11:04:39 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Recht &amp; Compliance</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003927254-S</link>
+      <guid isPermaLink="false">10001-1003927254-S</guid>
+      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Caldic Deutschland GmbH · Düsseldorf · €16.00/h · Legal</description>
+    </item>
+    <item>
+      <title>Telefonzentrale Ingolstadt - VZ, TZ, Werkstudent oder Minijob (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-bc705ff1_JB5283717-S</link>
+      <guid isPermaLink="false">13635-bc705ff1_JB5283717-S</guid>
+      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>2-Sigma-GmbH · Gaimersheim · €15.00/h · Legal</description>
+    </item>
     <item>
       <title>Werkstudent Compliance Management (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f897j0456964-S</link>
@@ -39,30 +55,6 @@
       <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
       <category>Legal</category>
       <description>Motel One Head Office · München · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent Legal (m/w/d) – Schwerpunkt Compliance bis zu 20 Stunden/Woche</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003892461-S</link>
-      <guid isPermaLink="false">10001-1003892461-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Legal</category>
-      <description>ecotel communication ag · Düsseldorf · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent Legal (m/w/d) – Schwerpunkt Vertragsrecht bis zu 20 Stunden/Woche</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003892488-S</link>
-      <guid isPermaLink="false">10001-1003892488-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Legal</category>
-      <description>ecotel communication ag · Düsseldorf · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Verteidigung und Resilienz (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-53856d32_JB5277594-S</link>
-      <guid isPermaLink="false">13635-53856d32_JB5277594-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Legal</category>
-      <description>]init[ AG · Berlin · Legal</description>
     </item>
   </channel>
 </rss>

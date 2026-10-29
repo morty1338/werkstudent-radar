@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 10:46:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 11:04:39 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Kommunikationsdesign, AI &amp; Automation (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15794-471796_50539-1-S</link>
+      <guid isPermaLink="false">15794-471796_50539-1-S</guid>
+      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Deloitte GmbH · Frankfurt am Main · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent Videoschnitt und Content Marketing (m/w/d) mit Übernahmeperspektive</title>
+      <link>https://www.arbeitnow.com/jobs/companies/ready-to-rock-marketing-gmbh/werkstudent-videoschnitt-und-content-marketing-mit-ubernahmeperspektive-hamburg-379989</link>
+      <guid isPermaLink="false">an:werkstudent-videoschnitt-und-content-marketing-mit-ubernahmeperspektive-hamburg-379989</guid>
+      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Ready to Rock Marketing GmbH · Hamburg · Design &amp; UX</description>
+    </item>
     <item>
       <title>Werkstudent/in UX/UI Design (15-20 Std./Woche - 100% Remote)</title>
       <link>https://www.arbeitnow.com/jobs/companies/blicksolutions-gmbh/werkstudent-in-ux-ui-design-15-20-std-woche-100-remote-berlin-243797</link>
@@ -79,38 +95,6 @@
       <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>Holley Feinkost GmbH · Leinfelden-Echterdingen · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (w/m/d) in der Redaktion von Design Perspectives</title>
-      <link>https://www.arbeitnow.com/jobs/companies/german-design-council-rat-fur-formgebung/werkstudentin-in-der-redaktion-von-design-perspectives-frankfurt-am-main-477086</link>
-      <guid isPermaLink="false">an:werkstudentin-in-der-redaktion-von-design-perspectives-frankfurt-am-main-477086</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>German Design Council - Rat für Formgebung · Frankfurt am Main · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Schwerpunkt Foto, Video und Content Creation</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003892222-S</link>
-      <guid isPermaLink="false">10001-1003892222-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>ATROTECH Automation and Roboti cs GmbH · Bamberg · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Video &amp; Social Media</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003894194-S</link>
-      <guid isPermaLink="false">10001-1003894194-S</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Marc Künker · Düsseldorf · €16.00/h · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Digital Design / UI-Design</title>
-      <link>https://www.arbeitnow.com/jobs/companies/digitale-offensive-gmbh/werkstudent-digital-design-ui-design-bielefeld-166483</link>
-      <guid isPermaLink="false">an:werkstudent-digital-design-ui-design-bielefeld-166483</guid>
-      <pubDate>Thu, 22 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Digitale Offensive GmbH · Bielefeld · €20.00/h · Design &amp; UX</description>
     </item>
   </channel>
 </rss>
