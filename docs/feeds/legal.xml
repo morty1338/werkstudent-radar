@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 11:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 11:07:24 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) im Bereich Legal</title>
+      <link>https://www.arbeitnow.com/jobs/companies/wortmann-kg-internationale-schuhproduktionen/werkstudent-im-bereich-legal-detmold-26255</link>
+      <guid isPermaLink="false">an:werkstudent-im-bereich-legal-detmold-26255</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Wortmann KG Internationale Schuhproduktionen · Detmold · Legal</description>
+    </item>
     <item>
       <title>Werkstudent Recht &amp; Compliance</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003927254-S</link>
@@ -47,14 +55,6 @@
       <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
       <category>Legal</category>
       <description>Messe Düsseldorf GmbH · Düsseldorf · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Legal, Datenschutz &amp; Compliance</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-0RG79U-8BJ-S</link>
-      <guid isPermaLink="false">12518-0RG79U-8BJ-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Legal</category>
-      <description>Motel One Head Office · München · Legal</description>
     </item>
   </channel>
 </rss>

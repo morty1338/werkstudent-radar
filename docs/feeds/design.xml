@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 11:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 11:07:24 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Design - Grafik- &amp; Kommunikation(m/w/d), MC Center</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2366476-S</link>
+      <guid isPermaLink="false">12811-2366476-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Mercedes-Benz Consulting GmbH · Leinfelden-Echterdingen · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent Process Design &amp; Transformation (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-7795cf85-8f89-40c4--S</link>
+      <guid isPermaLink="false">12951-7795cf85-8f89-40c4--S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>MTU Maintenance Hannover GmbH · Langenhagen · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Working Student – Python Development for Aircraft Design Optimisation (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-a3f92df6_JB5284505-S</link>
+      <guid isPermaLink="false">13635-a3f92df6_JB5284505-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>eRC System · Ottobrunn · Design &amp; UX · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Kommunikations- &amp; Grafikdesign</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-344072-S</link>
+      <guid isPermaLink="false">13884-344072-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>iT Engineering Software Innovations GmbH · Pliezhausen · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Working Student Graphic / 3D Design (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/everdrop-gmbh/working-student-graphic-3d-design-munchen-238512</link>
+      <guid isPermaLink="false">an:working-student-graphic-3d-design-munchen-238512</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>everdrop GmbH · München · Design &amp; UX</description>
+    </item>
     <item>
       <title>Werkstudent Kommunikationsdesign, AI &amp; Automation (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15794-471796_50539-1-S</link>
@@ -79,22 +119,6 @@
       <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
       <category>Design &amp; UX</category>
       <description>Jamorie Consulting GmbH · Berlin · €20.00/h · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Online Marketing &amp; Grafik</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208384839-S</link>
-      <guid isPermaLink="false">10000-1208384839-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>ZAPF GmbH · Bayreuth · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Content Creation &amp; Brand Design (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208390219-S</link>
-      <guid isPermaLink="false">10000-1208390219-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Holley Feinkost GmbH · Leinfelden-Echterdingen · Design &amp; UX</description>
     </item>
   </channel>
 </rss>

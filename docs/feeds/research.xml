@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 11:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 11:07:24 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent/in Prozessmanagement (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003936796-S</link>
+      <guid isPermaLink="false">10001-1003936796-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Landratsamt Konstanz Amt für Personal und Innovation · Konstanz · Research &amp; Science</description>
+    </item>
+    <item>
+      <title>Praktikant / Werkstudent (m/w/d) – Research &amp; Treatment Innovation</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-1de9ca33_JB5284566-S</link>
+      <guid isPermaLink="false">13635-1de9ca33_JB5284566-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>meinphysio+ GmbH · Berlin · Research &amp; Science</description>
+    </item>
     <item>
       <title>Working Student Future Technologies Research (f/m/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1647917-1-S</link>
@@ -31,30 +47,6 @@
       <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
       <category>Research &amp; Science</category>
       <description>apt GmbH · Nufringen · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Wissenschaftlicher Mitarbeiter/ Werkstudent Legal Managed Services (w/m/d) 10462</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17890-44525506-1022-S</link>
-      <guid isPermaLink="false">17890-44525506-1022-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>KPMG Law Rechtsanwaltsgesellschaft mbH · Bremen · €17.00/h · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>ALD Lab - Working Student</title>
-      <link>https://www.arbeitnow.com/jobs/companies/black-semiconductor-gmbh/ald-lab-working-student-aachen-448257</link>
-      <guid isPermaLink="false">an:ald-lab-working-student-aachen-448257</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Black Semiconductor GmbH · Aachen · Research &amp; Science · no German needed</description>
-    </item>
-    <item>
-      <title>Working Student Lab Engineer - Berlin (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/1komma50/working-student-lab-engineer-berlin-236608</link>
-      <guid isPermaLink="false">an:working-student-lab-engineer-berlin-236608</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>1KOMMA5˚ · Berlin · Research &amp; Science · no German needed</description>
     </item>
   </channel>
 </rss>

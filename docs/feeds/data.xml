@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 11:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 11:07:24 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Data &amp; Process Mining</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003934954-S</link>
+      <guid isPermaLink="false">10001-1003934954-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>BayWa AG HR Services · München · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Künstliche Intelligenz (KI), Data Engineering &amp; Digitalisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003935940-S</link>
+      <guid isPermaLink="false">10001-1003935940-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>EURO-LOCKS GMBH · Sulzbach · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Datenanalyse Automatisiertes Fahren (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1647884-1-S</link>
+      <guid isPermaLink="false">12462-1647884-1-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>BMW AG · München · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Sales Data Architecture &amp; Agentic AI (m/w/d/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1648124-1-S</link>
+      <guid isPermaLink="false">13151-1648124-1-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Mercedes-Benz Group AG · Ulm · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student (d/f/m) Data Engineering, AI &amp; Digital Dashboards</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-979990298-S</link>
+      <guid isPermaLink="false">16947-979990298-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Airbus Operations GmbH Werk Bremen · Hamburg · €18.53/h · Data &amp; Analytics · no German needed</description>
+    </item>
     <item>
       <title>GlobalFoundries Management Services GmbH &amp; Co. KG: Werkstudent*in im Bereich Machine Learning &amp; Virt</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3086681793228400-S</link>
@@ -175,14 +215,6 @@
       <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
       <category>Data &amp; Analytics</category>
       <description>ProSiebenSat.1 Media SE · München · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Schwerpunkt Datenbank- und Webentwicklung m/w/d</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19053-BB-634747-7878-3580-S</link>
-      <guid isPermaLink="false">19053-BB-634747-7878-3580-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>VYGON Germany GmbH · Aachen · €19.51/h · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 11:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 11:07:24 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Büro Leichte Sprache</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003934880-S</link>
+      <guid isPermaLink="false">10001-1003934880-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Salus Altmark Holding gGmbH · Magdeburg · €16.00/h · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Werkstudent Natur- und Landschaftspflege (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003938757-S</link>
+      <guid isPermaLink="false">10001-1003938757-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Die Autobahn GmbH des Bundes Niederlassung Ost (Halle/Saale) · Erfurt · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Working Student - Customer Care (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/instagrid/working-student-customer-care-ludwigsburg-471612</link>
+      <guid isPermaLink="false">an:working-student-customer-care-ludwigsburg-471612</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Instagrid · Ludwigsburg · Health &amp; Care · no German needed</description>
+    </item>
     <item>
       <title>Working Student - Customer Care (f/m/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/instagrid/working-student-customer-care-ludwigsburg-142623</link>
@@ -57,28 +81,12 @@
       <description>DEMECAN · Berlin · Health &amp; Care</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) Digital Health, Berlin</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2363425-S</link>
-      <guid isPermaLink="false">12811-2363425-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Health &amp; Care</category>
-      <description>DEMECAN · Berlin · Health &amp; Care</description>
-    </item>
-    <item>
       <title>Werkstudent Customer Care (all genders) - 100% Remote</title>
       <link>https://www.arbeitnow.com/jobs/companies/wemolo/werkstudent-customer-care-all-genders-100-remote-207162</link>
       <guid isPermaLink="false">an:werkstudent-customer-care-all-genders-100-remote-207162</guid>
       <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
       <category>Health &amp; Care</category>
       <description>Wemolo · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent/in Hebamme (m/w/d) für Hebammenpraxis ab Nov/Dez. 2026 gesucht</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003901985-S</link>
-      <guid isPermaLink="false">10001-1003901985-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Angela Schubert · Augsburg · Health &amp; Care</description>
     </item>
   </channel>
 </rss>

@@ -6,15 +6,95 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 11:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 11:07:24 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
-      <title>Werkstudent (w/m/d) Supply Chain Logistics</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1609197-2-S</link>
-      <guid isPermaLink="false">12465-1609197-2-S</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
+      <title>Werkstudent:in im Bereich Einkauf/Vergabestelle (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003934298-S</link>
+      <guid isPermaLink="false">10001-1003934298-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
-      <description>Siemens AG · Erlangen · Operations &amp; Logistics</description>
+      <description>gematik GmbH · Berlin · €17.00/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent / Praktikant Einkauf Instandhaltungsmaterialien (m|w|d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f697j0456992-S</link>
+      <guid isPermaLink="false">12336-a26f697j0456992-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>K+S Aktiengesellschaft · Kassel · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Facility Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1648939-1-S</link>
+      <guid isPermaLink="false">13151-1648939-1-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Mercedes-Benz Group AG · Bremen · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (gn) Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-b5ef65a2_JB5284881-S</link>
+      <guid isPermaLink="false">13635-b5ef65a2_JB5284881-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Vercore · Fulda · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13999-k53401.34295-S</link>
+      <guid isPermaLink="false">13999-k53401.34295-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>jobtimum GmbH · Bremen · €16.50/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent  Logistik und Materialwirtschaft (m/w/d) Lufthansa</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15625-AC2WMK6EO24SP481-S</link>
+      <guid isPermaLink="false">15625-AC2WMK6EO24SP481-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>HITO High Professionals GmbH Norderstedt · Hamburg · €16.30/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent / Pflichtpraktikant (m/w/d) im Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974942-008-S</link>
+      <guid isPermaLink="false">16604-974942-008-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>thyssenkrupp Gerlach GmbH · Homburg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y08-S</link>
+      <guid isPermaLink="false">18024-10Q6L00001Y08-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Einkauf Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/einkauf-werkstudent-hamburg-hamburg-286136</link>
+      <guid isPermaLink="false">an:einkauf-werkstudent-hamburg-hamburg-286136</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Teampicnic · Hamburg · €15.12/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student – Procurement, Land Domain (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-procurement-land-domain-gilching-61847</link>
+      <guid isPermaLink="false">an:working-student-procurement-land-domain-gilching-61847</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Quantum-Systems GmbH · Gilching · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student Product Operations (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/appinio/working-student-product-operations-hamburg-hamburg-374820</link>
+      <guid isPermaLink="false">an:working-student-product-operations-hamburg-hamburg-374820</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>appinio · Hamburg · Operations &amp; Logistics · no German needed</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) im Einkauf</title>
@@ -39,14 +119,6 @@
       <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Knorr-Bremse Systeme für Schienenfahrzeuge GmbH · Aldersbach · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y07-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001Y07-S</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent Backoffice Operations (m/w/d) - deutschlandweit im Homeoffice</title>
@@ -175,54 +247,6 @@
       <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Amprion GmbH · Dortmund · €18.00/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Bereich Wareneingangskontrolle</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208398140-S</link>
-      <guid isPermaLink="false">10000-1208398140-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Queisser Pharma GmbH &amp; Co. KG · Flensburg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Einkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003899040-S</link>
-      <guid isPermaLink="false">10001-1003899040-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Chemische Werke Kluthe GmbH · Heidelberg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Verstärkung für unser Lager in Gießen gesucht (Aushilfen/Werkstudentinnen)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003901588-S</link>
-      <guid isPermaLink="false">10001-1003901588-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Intos Electronic AG · Gießen · €14.00/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent KI &amp; Prozessautomatisierung Einkauf (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-53146-YF-S</link>
-      <guid isPermaLink="false">12117-YF-53146-YF-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Friedberg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent KI &amp; Prozessautomatisierung Einkauf (m/w/d), Zentralverwaltung Friedberg</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2362675-S</link>
-      <guid isPermaLink="false">12811-2362675-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Friedberg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Facility &amp; Mobility Management (m/w/d) - befristet für 1 Jahr</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21146-2362480-S</link>
-      <guid isPermaLink="false">21146-2362480-S</guid>
-      <pubDate>Fri, 23 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>JobRad GmbH · Freiburg · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>
