@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 11:07:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent/in Prozessmanagement (w/m/d)</title>
@@ -39,14 +39,6 @@
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>Research &amp; Science</category>
       <description>TYTAN Technologies GmbH · München · Research &amp; Science · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Forschung &amp; Entwicklung für 20 Std./Woche</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-9b66b38e_JB5280116-S</link>
-      <guid isPermaLink="false">13635-9b66b38e_JB5280116-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Research &amp; Science</category>
-      <description>apt GmbH · Nufringen · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

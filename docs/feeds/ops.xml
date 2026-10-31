@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 11:07:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Einkauf (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13334-00005f68597001-S</link>
+      <guid isPermaLink="false">13334-00005f68597001-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>EDEKA Nordbayern- Sachsen-Thüringen Stiftung &amp; Co.KG · Rottendorf · €16.50/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y09-S</link>
+      <guid isPermaLink="false">18024-10Q6L00001Y09-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent:in im Bereich Einkauf/Vergabestelle (all genders)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003934298-S</link>
@@ -63,14 +79,6 @@
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>thyssenkrupp Gerlach GmbH · Homburg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y08-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001Y08-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Einkauf Werkstudent (m/w/d)</title>
@@ -223,30 +231,6 @@
       <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Friedberg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im Development &amp; Transaction Team der Siemens Real Estate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1646600-1-S</link>
-      <guid isPermaLink="false">12465-1646600-1-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Siemens AG · München · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent*in - Logistik &amp; Wareneingang - Werkzeugversand</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-4Q8BY1-OPK-S</link>
-      <guid isPermaLink="false">12518-4Q8BY1-OPK-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>STUDENTpartout GmbH - Standort Nürnberg · Nürnberg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent im Bereich Standort- und Facility Management (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12706-44529683-1023-S</link>
-      <guid isPermaLink="false">12706-44529683-1023-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Amprion GmbH · Dortmund · €18.00/h · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

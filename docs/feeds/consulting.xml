@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 11:07:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent - HORBACH Wirtschaftsberatung Chemnitz, Horbach Wirtschaftsberatung Chemnitz</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2367418-S</link>
+      <guid isPermaLink="false">12811-2367418-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Horbach Wirtschaftsberatung Chemnitz · Chemnitz · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent:in Public Sector Consulting / Projektmanagement</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-bc930c07_JB5284363-S</link>
@@ -63,22 +71,6 @@
       <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>CG Ernährungs UG (haftungsbeschränkt) · Sulzbach (Taunus) · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Founders Associate - Strategic Projects | CEO Office (m/w/d) - Internship/Working Student</title>
-      <link>https://www.arbeitnow.com/jobs/companies/boost-startup-ecosystem-ggmbh/founders-associate-strategic-projects-ceo-office-internship-working-student-leipzig-117107</link>
-      <guid isPermaLink="false">an:founders-associate-strategic-projects-ceo-office-internship-working-student-leipzig-117107</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>boOst Startup Ecosystem gGmbH · Leipzig · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent/-in (m/w/d) in der telefonischen Immobilienberatung (20 Stunden / Woche)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/immo-marketer/werkstudent-in-in-der-telefonischen-immobilienberatung-20-stunden-woche-bochum-368475</link>
-      <guid isPermaLink="false">an:werkstudent-in-in-der-telefonischen-immobilienberatung-20-stunden-woche-bochum-368475</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Immo-Marketer · Bochum · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

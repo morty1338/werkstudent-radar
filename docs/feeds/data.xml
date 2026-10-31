@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 11:07:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Digitalization &amp; Data-Driven Business Applications</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1631719-1-S</link>
+      <guid isPermaLink="false">12465-1631719-1-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · Erlangen · €15.00/h · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) im Bereich Pricing Schwerpunkt Data Analytics und Automatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1646969-1-S</link>
+      <guid isPermaLink="false">12465-1646969-1-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · Erlangen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Signalverarbeitung &amp; Datenanalyse (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12513-0007660724-S</link>
+      <guid isPermaLink="false">12513-0007660724-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Korsch AG · Berlin · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student AI Solutions Architect – Generative AI &amp; Data Platforms</title>
+      <link>https://www.arbeitnow.com/jobs/companies/agentixlake-gmbh/working-student-ai-solutions-architect-generative-ai-data-platforms-berlin-283450</link>
+      <guid isPermaLink="false">an:working-student-ai-solutions-architect-generative-ai-data-platforms-berlin-283450</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>AgentixLake GmbH · Berlin · Data &amp; Analytics · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student Data Engineer – Python, SQL &amp; Cloud Platforms</title>
+      <link>https://www.arbeitnow.com/jobs/companies/agentixlake-gmbh/working-student-data-engineer-python-sql-cloud-platforms-berlin-407856</link>
+      <guid isPermaLink="false">an:working-student-data-engineer-python-sql-cloud-platforms-berlin-407856</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>AgentixLake GmbH · Berlin · Data &amp; Analytics · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Data &amp; Process Mining</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003934954-S</link>
@@ -55,14 +95,6 @@
       <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>GlobalFoundries Management Services GmbH &amp; Co. KG · Dresden · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Business Intelligence ETCS-Diagnose</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1648340-1-S</link>
-      <guid isPermaLink="false">12456-1648340-1-S</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Deutsche Bahn AG · Frankfurt am Main · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Technical Sales &amp; Service Analytics</title>
@@ -199,22 +231,6 @@
       <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Holzland Becker · Offenbach · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Digitale Montageplanung, Automatisierung und Künstliche Intelligenz</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1646538-1-S</link>
-      <guid isPermaLink="false">13151-1646538-1-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Mercedes-Benz Group AG · Rastatt · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Data &amp; Analytics - Advertising &amp; Consumer Research (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15224-44529506-1023-S</link>
-      <guid isPermaLink="false">15224-44529506-1023-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>ProSiebenSat.1 Media SE · München · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

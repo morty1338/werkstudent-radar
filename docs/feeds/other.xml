@@ -6,8 +6,88 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 11:07:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>DEAXO GmbH: Werkstudent Vertrags- und Claim-Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3076991793401201-S</link>
+      <guid isPermaLink="false">11956-3076991793401201-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>DEAXO GmbH · Dresden · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Compensation &amp; Benefits (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4985165998-S</link>
+      <guid isPermaLink="false">12288-4985165998-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Liebherr-International Deutschland GmbH · Biberach an der Riß · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) AML, Fraud &amp; Collections</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1649003-1-S</link>
+      <guid isPermaLink="false">12465-1649003-1-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Siemens AG · München · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) in der Geschäftsführung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12513-0007658712-S</link>
+      <guid isPermaLink="false">12513-0007658712-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Evangelisches Krankenhaus Wesel GmbH · Wesel am Rhein · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent - Barmitarbeiter ? (w/m/d) ? Seminar- &amp; Tagungszentrum</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-6O5FYB-3WP-S</link>
+      <guid isPermaLink="false">12518-6O5FYB-3WP-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>BUHL Personal GmbH - Niederlassung Essen · Ratingen · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Dokumentenmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13999-k53401.34332-S</link>
+      <guid isPermaLink="false">13999-k53401.34332-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>jobtimum GmbH · Bremen · €16.50/h · Other</description>
+    </item>
+    <item>
+      <title>Notfallsanitäter*innen in geringfügiger Beschäftigung bzw. als Werkstudent*in (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19959-01507638-S</link>
+      <guid isPermaLink="false">19959-01507638-S</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Kreisstadt Unna Der Bürgermeister · Unna · Other</description>
+    </item>
+    <item>
+      <title>LCA Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/emidat-gmbh/lca-working-student-munich-288026</link>
+      <guid isPermaLink="false">an:lca-working-student-munich-288026</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Emidat GmbH · München · €22.00/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Business Analyse</title>
+      <link>https://www.arbeitnow.com/jobs/companies/pentadoc-gruppe/werkstudent-business-analyse-wurzburg-46362</link>
+      <guid isPermaLink="false">an:werkstudent-business-analyse-wurzburg-46362</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Pentadoc Gruppe · Würzburg · Other</description>
+    </item>
+    <item>
+      <title>Working Student Client Experience (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/upvest/working-student-client-experience-berlin-94565</link>
+      <guid isPermaLink="false">an:working-student-client-experience-berlin-94565</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Upvest · Berlin · Other</description>
+    </item>
     <item>
       <title>Werkstudent im Bereich Training (w/m/div.)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF299808X-9b89e92-S</link>
@@ -273,22 +353,6 @@
       <description>Eberspächer Gruppe GmbH &amp; Co. KG · Neunkirchen bei Mosbach · Other</description>
     </item>
     <item>
-      <title>Werkstudententätigkeit (m/w/d) im Bereich Supplier Manageme</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-2k391tun9zc-S</link>
-      <guid isPermaLink="false">14927-2k391tun9zc-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Eberspächer Gruppe GmbH &amp; Co. KG · Neunkirchen bei Mosbach · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) in der Zentralen Leistungsabrechnung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-hwn36jmo4q-S</link>
-      <guid isPermaLink="false">14927-hwn36jmo4q-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>advita Pflegedienst GmbH · Leipzig · €17.00/h · Other</description>
-    </item>
-    <item>
       <title>Werkstudent TikTok Shop Live Management &amp; Operator - all genders</title>
       <link>https://www.arbeitnow.com/jobs/companies/adbaker/werkstudent-tiktok-shop-live-management-operator-all-genders-cologne-311703</link>
       <guid isPermaLink="false">an:werkstudent-tiktok-shop-live-management-operator-all-genders-cologne-311703</guid>
@@ -327,38 +391,6 @@
       <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Qwello.eu · München · €20.00/h · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent/Studentische Hilfskraft (m/w/d) - Reinigungshilfe Weihnachtsmarkt Velbert</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003905803-S</link>
-      <guid isPermaLink="false">10001-1003905803-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>AS Glas- und Gebäudereinigungs - Service GmbH · Velbert · €15.00/h · Other</description>
-    </item>
-    <item>
-      <title>Kurierfahrer / Werkstudent (m/w/d) in Dresden – ab sofort</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003906757-S</link>
-      <guid isPermaLink="false">10001-1003906757-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Dentallabor Lexmann GmbH · Dresden · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Wissensmanagement DC-Landtrassen (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12706-44529337-1023-S</link>
-      <guid isPermaLink="false">12706-44529337-1023-S</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>Amprion GmbH · Dortmund · €18.00/h · Other</description>
-    </item>
-    <item>
-      <title>Working Student Sustainability Reporting (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/limehome/working-student-sustainability-reporting-munchen-380646</link>
-      <guid isPermaLink="false">an:working-student-sustainability-reporting-munchen-380646</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:00 +0200</pubDate>
-      <category>Other</category>
-      <description>limehome · München · €16.00/h · Other · no German needed</description>
     </item>
   </channel>
 </rss>
