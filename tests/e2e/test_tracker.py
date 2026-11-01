@@ -33,6 +33,23 @@ def test_a_tracked_posting_keeps_its_status_after_a_reload(open_site):
     expect(open_panel(page).first.locator("[data-act=status]")).to_have_value("applied")
 
 
+def test_typing_a_note_then_picking_a_status_keeps_both(open_site):
+    # Leaving the note fires its change event; a redraw there replaced the status select being
+    # picked (in Chrome: "Failed to set the 'innerHTML' property" in the console).
+    page = open_site("?skills=python")
+    track_postings(page)
+    card = open_panel(page).first
+    card.locator("[data-act=note]").fill("Ask about remote days")
+    card.locator("[data-act=status]").select_option("applied")
+    expect(page.locator("#trk-list [data-act=status]").first).to_have_value("applied")
+
+    page.reload()
+    wait_for_data(page)
+    card = open_panel(page).first
+    expect(card.locator("[data-act=note]")).to_have_value("Ask about remote days")
+    expect(card.locator("[data-act=status]")).to_have_value("applied")
+
+
 def test_the_backup_link_brings_the_list_to_another_browser(open_site):
     page = open_site("?skills=python", permissions=["clipboard-read", "clipboard-write"])
     track_postings(page, 2)
