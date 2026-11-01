@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) HR/Personal</title>
@@ -265,6 +265,14 @@
       <description>Yalwa GmbH · Wiesbaden · HR &amp; Recruiting</description>
     </item>
     <item>
+      <title>Working Student (Werkstudent) HR Operations (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/verve/working-student-werkstudent-hr-operations-272535</link>
+      <guid isPermaLink="false">an:working-student-werkstudent-hr-operations-272535</guid>
+      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Verve · HR &amp; Recruiting</description>
+    </item>
+    <item>
       <title>Werkstudent:in Personalwesen / Human Relations (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003918530-S</link>
       <guid isPermaLink="false">10001-1003918530-S</guid>
@@ -319,14 +327,6 @@
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Kraftverkehr Gesellschaft mit beschränkter Haftung -KVG GmbH · Stade · €14.50/h · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Working Student Talent Acquisition (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/isaraerospace/working-student-talent-acquisition-parsdorf-bavaria-403086</link>
-      <guid isPermaLink="false">an:working-student-talent-acquisition-parsdorf-bavaria-403086</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>isaraerospace · Parsdorf · HR &amp; Recruiting · no German needed</description>
     </item>
     <item>
       <title>Werkstudent People &amp; Culture Processes &amp; Systems (w/m/d)</title>

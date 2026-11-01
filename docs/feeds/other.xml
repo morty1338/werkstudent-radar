@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>DEAXO GmbH: Werkstudent Vertrags- und Claim-Management (m/w/d)</title>
@@ -209,14 +209,6 @@
       <description>Limatica · München · Other · no German needed</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-bad-salzungen-197542</link>
-      <guid isPermaLink="false">an:werkstudent-bad-salzungen-197542</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>WerraEnergie GmbH · Bad Salzungen · Other · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent GTM (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/arvana/werkstudent-gtm-berlin-158467</link>
       <guid isPermaLink="false">an:werkstudent-gtm-berlin-158467</guid>
@@ -345,14 +337,6 @@
       <description>SI &amp; Usaneers · Stuttgart · Other</description>
     </item>
     <item>
-      <title>Werkstudententätigkeit (m/w/d) im Bereich Nachhaltigkeit</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-1c592fny2z3-S</link>
-      <guid isPermaLink="false">14927-1c592fny2z3-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Eberspächer Gruppe GmbH &amp; Co. KG · Neunkirchen bei Mosbach · Other</description>
-    </item>
-    <item>
       <title>Werkstudent TikTok Shop Live Management &amp; Operator - all genders</title>
       <link>https://www.arbeitnow.com/jobs/companies/adbaker/werkstudent-tiktok-shop-live-management-operator-all-genders-cologne-311703</link>
       <guid isPermaLink="false">an:werkstudent-tiktok-shop-live-management-operator-all-genders-cologne-311703</guid>
@@ -383,14 +367,6 @@
       <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>TKMS GmbH · Böhnhusen · Other</description>
-    </item>
-    <item>
-      <title>Fleet Reliability and Maintenance Working Student</title>
-      <link>https://www.arbeitnow.com/jobs/companies/qwelloeu/fleet-reliability-and-maintenance-working-student-munich-bavaria-195497</link>
-      <guid isPermaLink="false">an:fleet-reliability-and-maintenance-working-student-munich-bavaria-195497</guid>
-      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Qwello.eu · München · €20.00/h · Other · no German needed</description>
     </item>
   </channel>
 </rss>

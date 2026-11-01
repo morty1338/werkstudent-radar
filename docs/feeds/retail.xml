@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudenten (m/w/d) im Verkauf – Uhren &amp; Schmuck</title>
@@ -335,14 +335,6 @@
       <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>DEKRA Arbeit GmbH · Bremen · €16.00/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent Service (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-342332-S</link>
-      <guid isPermaLink="false">13884-342332-S</guid>
-      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Vabali Spa Düsseldorf GmbH &amp; Co. KG · Düsseldorf · Retail &amp; Hospitality</description>
     </item>
   </channel>
 </rss>

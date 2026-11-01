@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (w/m/d) Digitalization &amp; Data-Driven Business Applications</title>
@@ -223,14 +223,6 @@
       <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Bültel Fashion Group · Salzbergen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Data Science</title>
-      <link>https://www.arbeitnow.com/jobs/companies/holzland-becker/werkstudent-data-science-offenbach-am-main-410864</link>
-      <guid isPermaLink="false">an:werkstudent-data-science-offenbach-am-main-410864</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Holzland Becker · Offenbach · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

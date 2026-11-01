@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent | Praktikant Sales (F/M/*)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/amber/werkstudent-praktikant-sales-f-m-koln-27828</link>
+      <guid isPermaLink="false">an:werkstudent-praktikant-sales-f-m-koln-27828</guid>
+      <pubDate>Sun, 01 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Amber · Köln · €16.00/h · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) - Commercial and Sales</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-a51ab649_JB5285120-S</link>
@@ -479,6 +487,14 @@
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Lidl Dienstleistung GmbH &amp; Co. KG · Kerpen · €15.00/h · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Business Development Representative (BDR) (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/helix/business-development-representative-bdr-munich-34180</link>
+      <guid isPermaLink="false">an:business-development-representative-bdr-munich-34180</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Helix · München · Sales &amp; Business Development</description>
     </item>
     <item>
       <title>Werkstudent*in im Sales Development</title>

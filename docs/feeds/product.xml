@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent - Projektassistenz Instandhaltung Gas &amp; Strom (m/w/d)</title>
@@ -183,14 +183,6 @@
       <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Airbus Operations GmbH Werk Bremen · Bremen · €19.10/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Projektmanagement &amp; Backoffice  (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/60-seconds-to-napoli-holding-gmbh/werkstudent-projektmanagement-backoffice-dortmund-282314</link>
-      <guid isPermaLink="false">an:werkstudent-projektmanagement-backoffice-dortmund-282314</guid>
-      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>60 seconds to napoli Holding GmbH · Dortmund · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

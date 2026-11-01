@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent:in in der Baubetriebsplanung</title>
@@ -95,14 +95,6 @@
       <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Bezirksamt Lichtenberg von Berlin · Berlin · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Testautomatisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q00001605-S</link>
-      <guid isPermaLink="false">18024-10Q7q00001605-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent Qualitätssicherung (m/w/d)</title>
@@ -236,6 +228,14 @@
       <title>Werkstudent*in Prozesse &amp; Systeme Lieferantenkapazitätsmanagement / Industrialisierungsmanagement</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1648434-1-S</link>
       <guid isPermaLink="false">13151-1648434-1-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Virtuelle SW-Entwicklung für Antriebssysteme</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1648523-1-S</link>
+      <guid isPermaLink="false">13151-1648523-1-S</guid>
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
@@ -441,14 +441,6 @@
       <description>Scanlab GmbH · Puchheim · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent Elektrotechnik / Energietechnik (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-elektrotechnik-energietechnik-bad-salzungen-150534</link>
-      <guid isPermaLink="false">an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-150534</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>WerraEnergie GmbH · Bad Salzungen · Engineering &amp; Production · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent Technik &amp; Operations (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/wahtari-nscan-gmbh/werkstudent-technik-operations-haar-485734</link>
       <guid isPermaLink="false">an:werkstudent-technik-operations-haar-485734</guid>
@@ -633,6 +625,14 @@
       <description>DyeMansion GmbH · Barbing · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent (m/w/d) für Service &amp; Wartung – Raum Osnabrück</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13892-3148349_4092004-S</link>
+      <guid isPermaLink="false">13892-3148349_4092004-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Freudenberg Filtration Technologies GmbH &amp; Co. KG · Osnabrück · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent QHSE (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003909486-S</link>
       <guid isPermaLink="false">10001-1003909486-S</guid>
@@ -647,14 +647,6 @@
       <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>NextPharma GmbH · Berlin · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent:in AI &amp; Automation - Energy (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/1komma50/werkstudentin-ai-automation-energy-berlin-339347</link>
-      <guid isPermaLink="false">an:werkstudentin-ai-automation-energy-berlin-339347</guid>
-      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>1KOMMA5˚ · Berlin · Engineering &amp; Production</description>
     </item>
   </channel>
 </rss>

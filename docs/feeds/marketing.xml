@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/marketing.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 10:34:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Eventmanagement</title>
@@ -201,6 +201,14 @@
       <description>Evolve Digital GmbH · Marketing &amp; Communication</description>
     </item>
     <item>
+      <title>Werkstudent Marketing (m/w/d)  · Remote</title>
+      <link>https://www.arbeitnow.com/jobs/companies/evolve-digital-gmbh/werkstudent-marketing-remote-419659</link>
+      <guid isPermaLink="false">an:werkstudent-marketing-remote-419659</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Evolve Digital GmbH · Marketing &amp; Communication</description>
+    </item>
+    <item>
       <title>Werkstudent:in Community Management (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/we-are-social-1/werkstudentin-community-management-berlin-191997</link>
       <guid isPermaLink="false">an:werkstudentin-community-management-berlin-191997</guid>
@@ -263,14 +271,6 @@
       <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>A&amp;V Nutri Pharm GmbH · Karben · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent Social Media | Marketing (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-social-media-marketing-bad-salzungen-295242</link>
-      <guid isPermaLink="false">an:werkstudent-social-media-marketing-bad-salzungen-295242</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>WerraEnergie GmbH · Bad Salzungen · Marketing &amp; Communication · no German needed</description>
     </item>
     <item>
       <title>Augenlaserteam München sucht Social Media Manager*in/Werkstudent (m/w/d) auf Mini- o. Midijob-Basis</title>
@@ -375,6 +375,14 @@
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>Assecor GmbH · Berlin · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Influencer- &amp; UGC-Marketing – Purēcha</title>
+      <link>https://www.arbeitnow.com/jobs/companies/pure-beverage-gmbh/werkstudentin-influencer-ugc-marketing-purecha-kiel-85629</link>
+      <guid isPermaLink="false">an:werkstudentin-influencer-ugc-marketing-purecha-kiel-85629</guid>
+      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Pure Beverage GmbH · Kiel · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Werkstudent*in (m/w/d) Kommunikation &amp; Projekte</title>
@@ -487,30 +495,6 @@
       <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>7NXT GmbH · Berlin · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent Office &amp; Event Assistant (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/gamigo/werkstudent-office-event-assistant-hamburg-866</link>
-      <guid isPermaLink="false">an:werkstudent-office-event-assistant-hamburg-866</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Gamigo · Hamburg · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Intern/ Working Student Influencer &amp; Performance Marketing – Dutch Market (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/everdrop-gmbh/intern-working-student-influencer-performance-marketing-dutch-market-munchen-385099</link>
-      <guid isPermaLink="false">an:intern-working-student-influencer-performance-marketing-dutch-market-munchen-385099</guid>
-      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>everdrop GmbH · München · Marketing &amp; Communication · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Social Media &amp; Content Creator Marketing - Traumhausverlosung (w/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/zeal-network/werkstudentin-social-media-content-creator-marketing-traumhausverlosung-hamburg-214257</link>
-      <guid isPermaLink="false">an:werkstudentin-social-media-content-creator-marketing-traumhausverlosung-hamburg-214257</guid>
-      <pubDate>Sun, 25 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Zeal Network · Hamburg · Marketing &amp; Communication</description>
     </item>
   </channel>
 </rss>
