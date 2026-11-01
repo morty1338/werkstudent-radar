@@ -1,8 +1,8 @@
 # Bugs
 
-Each bug that reached a commit, how it was found, the test that guards it now, and the fix. In the rows below the
-regression test came in the fix's own commit. From now on a bug gets a failing test in its own commit first, then
-the fix in the next one; the row names both commits.
+Each bug that reached a commit, how it was found, the test that guards it now, and the fix. In rows 1–8 the
+regression test came in the fix's own commit. From row 9 on, a bug gets a failing test in its own commit first
+(named in "Test now"), then the fix in the next one; rows 11 and 12 were caught by the same test commit.
 
 | # | Bug | Found by | Test now | Fix |
 |---|---|---|---|---|
@@ -14,3 +14,8 @@ the fix in the next one; the row names both commits.
 | 6 | A manual `resend` run was green although n8n posted nothing (HTTP 200 with a reason for a day already sent). | Manual run on 2026-10-16 | `test_notify.py`: `test_strict_fails_when_n8n_posted_nothing` | `496b125` |
 | 7 | A second run of the same day got "already sent", so postings published later that day never reached Telegram. | Manual run on 2026-10-16 (139 new instead of 53) | `test_n8n.py`: `test_a_repeated_run_passes_only_the_postings_found_since`, `test_a_day_stored_without_ids_counts_as_sent` | `6237838` |
 | 8 | Basic skills alone (MS Office, Excel, …) gave many postings a 100 % match. | Seen in use | `test_score.py`: `test_basic_skills_weigh_a_quarter`, `test_basic_skills_only_get_a_flag_instead_of_a_score` | `f0249b3` |
+| 9 | Typing a tracker note and then picking a status: leaving the note redrew the list, which replaced the select being picked (an exception in Chrome's console). | Browser tests (`tests/e2e/`) | `test_tracker.py`: `test_typing_a_note_then_picking_a_status_keeps_both` (`b5443ae`) | `cfe59b7` |
+| 10 | A change in another tab redrew the tracker and ended the note being typed: the next keystrokes were lost. | Browser tests | `test_tracker.py`: `test_typing_a_note_survives_a_change_in_another_tab` (`f331143`) | `df3f0be` |
+| 11 | At 375 px the job count in the filter row was cut off. | Browser tests | `test_phone.py`: `test_the_page_fits_375_px` (`7b18d9c`) | `82ff40e` |
+| 12 | On phones, once a posting was tracked, the count on the tracker button made the header 6 px too wide and the page scrolled sideways. | Browser tests | `test_phone.py`: `test_the_filter_sheet_and_the_tracker_fit_375_px` (`7b18d9c`) | `31ae9b4` |
+| 13 | At 375 px the yearly pay histogram in Jobs mode ran past the screen (18 axis labels that could not shrink). | Browser tests | `test_phone.py`: `test_the_page_fits_375_px[?mode=jobs]` (`7c7bc19`) | `d785e4e` |
