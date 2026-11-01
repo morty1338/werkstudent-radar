@@ -522,6 +522,8 @@ body.trk-open { overflow: hidden; }
   }
   .filter-pill span { color: var(--accent-ink); }
   .filter-row > #f-reset { display: none; }
+  .filter-chips:empty { display: none; }      /* no gap for an empty chip row */
+  .filter-count-unit { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }   /* read, not shown */
   .filter-controls {
     display: flex; flex-direction: column; gap: 12px; position: fixed; left: 0; right: 0; bottom: 0; z-index: 40;
     max-height: 85vh; overflow-y: auto; background: var(--surface); border-top: 1px solid var(--surface-3); border-radius: 16px 16px 0 0;

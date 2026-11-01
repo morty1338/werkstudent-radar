@@ -211,7 +211,11 @@ async function main() {
     fField.classList.toggle("active", state.field >= 0);
     fCity.classList.toggle("active", state.city >= 0);
     fReset.hidden = state.field < 0 && state.city < 0 && !state.noGerman && state.academy < 0;
-    document.getElementById("f-count").textContent = t("filter.count", { n: fmt.int(all.length) });
+    // The unit ("jobs") is its own span: phones show the number only, or the row overflows at 375 px.
+    const n = fmt.int(all.length), count = t("filter.count", { n });
+    const fCount = document.getElementById("f-count");
+    fCount.innerHTML = `${esc(n)}<span class="filter-count-unit">${esc(count.replace(n, ""))}</span>`;
+    fCount.title = count;
     document.getElementById("f-done").textContent = t("filter.show", { n: fmt.int(all.length) });
     renderSubscribe();
     const chips = [
