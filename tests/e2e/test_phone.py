@@ -27,7 +27,7 @@ def assert_fits(page):
     assert layout == {"scroll": 0, "wide": [], "small": []}, layout
 
 
-@pytest.mark.parametrize("path", ["", "?lang=de"])
+@pytest.mark.parametrize("path", ["", "?lang=de", "?mode=jobs"])
 def test_the_page_fits_375_px(open_site, path):
     page = open_site(path, device=PHONE)
     page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
