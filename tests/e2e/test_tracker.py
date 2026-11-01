@@ -65,6 +65,20 @@ def test_the_backup_link_brings_the_list_to_another_browser(open_site):
     assert "#trk=" not in other.url                         # the link isn't kept in the address
 
 
+def test_typing_a_note_survives_a_change_in_another_tab(open_site):
+    tab = open_site("?skills=python")
+    track_postings(tab, 2)
+    other = open_site("?skills=python", context=tab.context)   # same browser, same localStorage
+
+    note = open_panel(tab).first.locator("[data-act=note]")
+    note.click()
+    tab.keyboard.type("Call on ")
+    open_panel(other).nth(1).locator("[data-act=status]").select_option("applied")   # the other tab saves
+    expect(tab.locator("#trk-list [data-act=status]").nth(1)).to_have_value("applied")   # this tab redrew
+    tab.keyboard.type("Monday")
+    expect(tab.locator("#trk-list [data-act=note]").first).to_have_value("Call on Monday")
+
+
 def test_a_half_typed_new_application_survives_a_change_in_another_tab(open_site):
     tab = open_site("?skills=python")
     track_postings(tab)
