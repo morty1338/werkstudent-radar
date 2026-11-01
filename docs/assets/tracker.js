@@ -144,9 +144,11 @@ export function initTracker() {
       setDay(card, e.target);
       return;
     }
+    // A note is saved while typing (below). Its change fires when it loses the focus, often by a
+    // click on the status: a redraw then would replace the select being picked.
+    if (act === "note") return;
     if (act === "status") store.setStatus(id, e.target.value);
     if (act === "follow") store.update(id, { followUp: e.target.value });
-    if (act === "note") store.update(id, { note: e.target.value });
     // The list was drawn again: the focus goes back to the same field of the same card.
     el.list.querySelector(`[data-id="${CSS.escape(id)}"] [data-act="${act}"]`)?.focus();
   });
