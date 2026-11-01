@@ -323,9 +323,30 @@ export function initTracker() {
     st.order = ordered.map((a) => a.id);
     const shown = ordered.filter((a) =>
       st.filter === "all" || (st.filter === "overdue" ? isOverdue(a, day) : a.status === st.filter));
+    const typing = focusedField();
     el.list.innerHTML = shown.length
       ? shown.map((a) => card(a, day)).join("")
       : `<p class="trk-empty">${esc(items.length ? t("trk.empty_filter") : t("trk.empty"))}</p>`;
+    refocus(typing);
+  }
+
+  // A redraw (e.g. another tab changed the list) keeps the field being edited: its focus, the
+  // cursor and, for a note, the typed text (the stored one is trimmed).
+  function focusedField() {
+    const f = document.activeElement;
+    const id = f?.closest("[data-id]")?.dataset.id;
+    if (!id || !el.list.contains(f) || !f.dataset.act) return null;
+    const caret = f.tagName === "TEXTAREA" ? [f.selectionStart, f.selectionEnd] : null;
+    return { id, act: f.dataset.act, i: f.dataset.i, value: f.value, caret };
+  }
+  function refocus(field) {
+    if (!field) return;
+    const i = field.i == null ? "" : `[data-i="${field.i}"]`;
+    const f = el.list.querySelector(`[data-id="${CSS.escape(field.id)}"] [data-act="${field.act}"]${i}`);
+    if (!f) return;
+    if (field.act === "note") f.value = field.value;
+    f.focus();
+    if (field.caret) f.setSelectionRange(...field.caret);
   }
 
   function card(a, day) {
