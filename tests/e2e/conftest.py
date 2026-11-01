@@ -4,10 +4,12 @@ The site is served from the checkout by a local static server on a free port, wi
 repository's data. Every request to another host is blocked (pdf.js from cdnjs is never
 needed here), and a console error or an uncaught exception fails the test. Each test gets a
 fresh browser context, so localStorage (the tracker) starts empty.
-Without Chrome or pytest-playwright the tests are skipped.
+Without Chrome or pytest-playwright the tests are skipped, except on CI (CI is set), where a missing
+Chrome fails them.
 """
 
 import functools
+import os
 import re
 import shutil
 import threading
@@ -22,6 +24,12 @@ DOCS = Path(__file__).resolve().parents[2] / "docs"
 DESKTOP = {"viewport": {"width": 1366, "height": 860}}
 PHONE = {"viewport": {"width": 375, "height": 812}, "is_mobile": True, "has_touch": True}
 CHROME = ("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", "google-chrome", "google-chrome-stable")
+
+
+def pytest_collection_modifyitems(items):
+    """Browser tests run last: Playwright's sync API keeps an event loop running in the main thread
+    until the session ends, and the MCP tests' asyncio.run() fails next to it."""
+    items.sort(key=lambda item: DOCS.parent / "tests" / "e2e" in item.path.parents)
 
 
 class QuietHandler(SimpleHTTPRequestHandler):
@@ -41,7 +49,7 @@ def site():
 @pytest.fixture(scope="session")
 def browser_type_launch_args(browser_type_launch_args):
     if not any(Path(c).exists() or shutil.which(c) for c in CHROME):
-        pytest.skip("Google Chrome is not installed")
+        (pytest.fail if os.environ.get("CI") else pytest.skip)("Google Chrome is not installed")
     return {**browser_type_launch_args, "channel": "chrome"}
 
 

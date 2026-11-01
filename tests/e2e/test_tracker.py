@@ -54,9 +54,11 @@ def test_the_backup_link_brings_the_list_to_another_browser(open_site):
     page = open_site("?skills=python", permissions=["clipboard-read", "clipboard-write"])
     track_postings(page, 2)
     open_panel(page)
+    prompted = []                                          # without clipboard access the page shows the link in a prompt
+    page.on("dialog", lambda d: (prompted.append(d.default_value), d.dismiss()))
     page.click("#trk-link")
-    expect(page.locator("#trk-msg")).to_contain_text("Link copied")
-    link = page.evaluate("navigator.clipboard.readText()")
+    expect(page.locator("#trk-msg")).to_contain_text("Link" if prompted else "Link copied")
+    link = prompted[0] if prompted else page.evaluate("navigator.clipboard.readText()")
     assert "#trk=" in link
 
     other = open_site(link.split("/", 3)[3])               # a fresh browser: empty localStorage
