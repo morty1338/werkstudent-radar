@@ -13,7 +13,7 @@
       const p = new URLSearchParams(location.search);
       const to = new URLSearchParams({ mode: "jobs" });
       for (const [from, key] of [["a", "academy"], ["t", "field"], ["lang", "lang"]]) if (p.get(from)) to.set(key, p.get(from));
-      location.replace(`index.html?${to}`);
+      location.replace(`index.html?${to}${location.hash}`);
     })();
   </script>
   <noscript><meta http-equiv="refresh" content="0; url=index.html?mode=jobs"></noscript>

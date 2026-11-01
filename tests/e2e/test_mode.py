@@ -39,4 +39,3 @@ def test_old_all_jobs_links_keep_their_academy_title_and_language(open_site):
     assert page.evaluate("document.documentElement.lang") == "de"
     assert page.evaluate("document.querySelector('#f-field').selectedOptions[0].textContent").startswith("Personalreferent")
     assert page.input_value("#f-academy") != ""
-
