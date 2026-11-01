@@ -31,3 +31,12 @@ def test_the_old_all_jobs_page_leads_to_jobs_mode(open_site):
     page = open_site("kurs.html")
     assert "index.html?mode=jobs" in page.url
     expect(page.locator("#mode-switch [data-mode=jobs]")).to_have_attribute("aria-pressed", "true")
+
+
+def test_old_all_jobs_links_keep_their_academy_title_and_language(open_site):
+    page = open_site("kurs.html?a=hr&t=personalreferent&lang=de")
+    assert "mode=jobs" in page.url and "academy=hr" in page.url and "field=personalreferent" in page.url
+    assert page.evaluate("document.documentElement.lang") == "de"
+    assert page.evaluate("document.querySelector('#f-field').selectedOptions[0].textContent").startswith("Personalreferent")
+    assert page.input_value("#f-academy") != ""
+
