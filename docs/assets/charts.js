@@ -186,7 +186,7 @@ export function histogram(el, bins, { median, axisTitle } = {}) {
         )
         .join("")}</div>
     </div>
-    <div class="col-axis">${bins.map((b) => `<span>${esc(b.label)}</span>`).join("")}</div>
+    <div class="col-axis${bins.length > 12 ? " dense" : ""}">${bins.map((b) => `<span>${esc(b.label)}</span>`).join("")}</div>
     ${axisTitle ? `<div class="axis-title">${esc(axisTitle)}</div>` : ""}`;
 }
 
