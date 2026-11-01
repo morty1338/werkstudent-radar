@@ -539,7 +539,10 @@ body.trk-open { overflow: hidden; }
   .sheet-done { display: block; min-height: 44px; width: 100%; font-size: 16px; }
   .sheet-backdrop { display: block; position: fixed; inset: 0; z-index: 35; background: var(--scrim); }
 
-  .header-row { gap: 14px; justify-content: space-between; }
+  .header-row { gap: 10px; justify-content: space-between; }
+  /* The tracker's count makes its button wider: the name gives way instead of the page scrolling sideways. */
+  .brand { min-width: 0; gap: 7px; font-size: 14px; }
+  .brand span { overflow: hidden; text-overflow: ellipsis; }
   .status { letter-spacing: .04em; }
   .lang-switch button { min-height: 36px; min-width: 42px; }
   .tile { min-height: 112px; padding: 14px; }
