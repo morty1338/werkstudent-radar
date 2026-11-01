@@ -333,24 +333,19 @@ Switching keeps the city, "no German", your skills and the language; the old `ku
 redirects to Jobs mode (its academy and job title become the filters). The MCP tools take an
 optional `mode` ("werkstudent" | "jobs"; pay fields become `…_eur_per_year`).
 
-## All jobs (`kurs.html`, Kurs-Radar)
+## The Jobs data set (Kurs-Radar)
 
-**[All jobs](https://morty1338.github.io/werkstudent-radar/kurs.html)** (internally Kurs-Radar)
+**[Jobs mode](https://morty1338.github.io/werkstudent-radar/?mode=jobs)** (internally Kurs-Radar)
 looks at a different set of jobs: the regular jobs (full-time, part-time, minijob) that
 career-changer courses train for, grouped by academy (Sales, Marketing, HR, KI, Job
-Academy). Pick an academy and a job title to see how many postings there are, the
-share open to career changers, asking for AI skills and asking for the office basics,
-the most asked-for skills as simple bars (must have / nice to have in the tooltip),
-and the postings themselves with links to the Bundesagentur and "+ Track" (the same
-application tracker as the Werkstudent page; a filter shows only postings open to
-career changers). "Opportunities" ranks the job titles as input for deciding on a new
+Academy). The page shows them with the same sections as the Werkstudent jobs, an academy
+filter and "Opportunities", which ranks the job titles as input for deciding on a new
 course: a score 0–100, the mean of three parts shown next to each title, each scaled
 among the titles: volume (postings, log scale), the share of postings new in the last 7
 days and the share open to career changers. An academy's shares weigh each of its job
 titles with 20+ postings the same (otherwise Sales would be 80% one title), with the
 per-title values in the tooltip and in the MCP tool. Only Bundesagentur postings,
-a snapshot of one day. Linked from the main page (hero and header); its logo and a
-back link lead back.
+a snapshot of one day. The former "All jobs" page (`kurs.html`) only redirects here.
 
 - **Config, not code.** [`data/kurs_radar.yaml`](data/kurs_radar.yaml) lists the
   academies, their job titles, the search terms and title patterns; a posting counts
@@ -712,8 +707,8 @@ docs/              the website: index.html, assets/app.js (filters, sections), c
                    (charts, map, tooltip), match.js (skills check, job list), gap.js
                    (learning plan), cv.js (CV reading), stats.js (bootstrap CI),
                    companies.js (company career pages), tracker.js + tracker-store.js
-                   (application tracker), i18n.js (German/English strings); kurs.html +
-                   assets/kurs.js, kurs-rank.js (Kurs-Radar page and its ranking)
+                   (application tracker), i18n.js (German/English strings), mode.js
+                   (Werkstudent | Jobs), kurs-rank.js (Opportunities); kurs.html redirects
 docs/data/         JSON consumed by the website
 docs/feeds/        RSS feeds (all and per field), rebuilt daily
 data/raw/          local raw dumps, one folder per day (not committed)

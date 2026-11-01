@@ -1,7 +1,8 @@
 // Which data set the page shows, read from the URL like the language: "werkstudent" (default)
 // or "jobs" (?mode=jobs: all working times for the Kurs-Radar job titles, docs/data/jobs_*.json).
-// JOBS_PUBLIC switches Jobs mode on for everyone: the switch shows, ?mode=jobs works and kurs.html
-// redirects here. With false it needs ?beta=1 (the beta while it was built). No imports (tests run it in Node).
+// JOBS_PUBLIC switches Jobs mode on for everyone: the switch shows and ?mode=jobs works. With false it
+// needs ?beta=1 (the beta while it was built). kurs.html (the former page) always redirects here.
+// No imports (tests run it in Node).
 
 export const JOBS_PUBLIC = true;
 
@@ -15,7 +16,7 @@ const JOBS_FILES = new Set(["summary", "checker", "postings", "history", "lifeti
 export const dataUrl = (name) => `data/${mode === "jobs" && JOBS_FILES.has(name) ? "jobs_" : ""}${name}.json`;
 
 // Tracker keys of the postings on the page: the Werkstudent page checks "p:"/"c:" against its
-// data, Jobs mode (and the old kurs.html) uses "k:" and "kc:", so neither marks the other's as gone.
+// data, Jobs mode (and the former kurs.html) uses "k:" and "kc:", so neither marks the other's as gone.
 export const refPrefix = mode === "jobs" ? { posting: "k:", company: "kc:" } : { posting: "p:", company: "c:" };
 
 // The page in the other mode: the city, "no German", skills, language and beta carry over;

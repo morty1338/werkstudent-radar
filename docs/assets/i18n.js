@@ -528,96 +528,13 @@ const STRINGS = {
 <p><strong>Skills</strong> liest Claude Haiku wie bei den Werkstudentenjobs; Basics (MS Office, Excel, PowerPoint, Word, Outlook, MS Teams, Führerschein) stehen getrennt. Stellentexte gehören den Arbeitgebern und werden hier nicht veröffentlicht. Code und Daten: <a href="https://github.com/morty1338/werkstudent-radar">github.com/morty1338/werkstudent-radar</a>.</p>`,
   },
 
-  // --- Kurs-Radar (kurs.html) ----------------------------------------------------------------------------------------
-  "kurs.brand_aria": { en: "Werkstudent Radar, back to the Werkstudent jobs", de: "Werkstudent Radar, zurück zu den Werkstudentenjobs" },
-  "kurs.back": { en: "Back to the Werkstudent jobs", de: "Zurück zu den Werkstudentenjobs" },
+  // --- Jobs mode: the link to it and Opportunities (#chancen) ----------------------------------------------------
   "kurs.nav_all": { en: "All jobs", de: "Alle Jobs" },
-  "kurs.doc_title": { en: "All jobs · Werkstudent Radar", de: "Alle Jobs · Werkstudent Radar" },
-  "kurs.nav_jobs": { en: "Job titles", de: "Berufe" },
   "kurs.nav_chancen": { en: "Opportunities", de: "Chancen" },
-  "kurs.nav_stellen": { en: "Jobs", de: "Stellen" },
-  "kurs.nav_home": { en: "Werkstudent Radar", de: "Werkstudent Radar" },
-  "kurs.nav_home_short": { en: "Werkstudent", de: "Werkstudent" },
   "kurs.link": { en: "All jobs, not only Werkstudent: what employers ask for after a course", de: "Alle Jobs, nicht nur Werkstudent: was Arbeitgeber nach dem Kurs verlangen" },
-  "kurs.choose": { en: "Academy", de: "Akademie" },
-  "kurs.academy": { en: "Academy", de: "Akademie" },
-  "kurs.job_title": { en: "Job title", de: "Berufsbild" },
-  "kurs.show": { en: "Show", de: "Anzeigen" },
-  "kurs.all_titles": { en: "All job titles", de: "Alle Berufsbilder" },
-  "kurs.as_of_short": { en: "as of {date}", de: "Stand {date}" },
-  "kurs.title": { en: "All jobs: what employers ask for after a&nbsp;course", de: "Alle Jobs: was Arbeitgeber nach dem Kurs&nbsp;verlangen" },
-  "kurs.lede": {
-    en: "The job titles that career-changer courses train for, across all working times: how many postings there are, which skills they ask for, and how open they are to career changers.",
-    de: "Die Berufe, auf die Kurse für Quereinsteiger vorbereiten, in Voll- und Teilzeit: wie viele Stellen es gibt, welche Skills verlangt werden und wie offen sie für Quereinsteiger sind.",
-  },
-  "kurs.status": { en: "As of {date}", de: "Stand {date}" },
-  "kurs.note": {
-    en: "As of <strong>{date}</strong> · <strong>{n}</strong> postings analysed · <strong>{note}</strong>",
-    de: "Stand <strong>{date}</strong> · <strong>{n}</strong> Stellen ausgewertet · <strong>{note}</strong>",
-  },
-  "kurs.academy_heading": { en: "{name} academy: all job titles", de: "Akademie {name}: alle Berufsbilder" },
-  "kurs.insight_top": { en: "The most asked-for specific skill is <strong>{skill}</strong> ({pct} of postings).", de: "Der meistgefragte Fach-Skill ist <strong>{skill}</strong> ({pct} der Stellen)." },
-  "kurs.insight_qe": { en: "<strong>{pct}</strong> are open to career changers.", de: "<strong>{pct}</strong> sind offen für Quereinsteiger." },
-  "kurs.insight_ai": { en: "<strong>{pct}</strong> ask for AI skills.", de: "<strong>{pct}</strong> verlangen KI-Kenntnisse." },
-  "kurs.insight_few": {
-    en: "Only {n} postings with this title on the board: too few for shares. The skills may be asked for under other titles.",
-    de: "Nur {n} Stellen mit diesem Titel in der Jobbörse: zu wenige für Anteile. Die Skills werden eher unter anderen Titeln gesucht.",
-  },
-  "kurs.tile_postings": { en: "Postings on the board", de: "Stellen in der Jobbörse" },
-  "kurs.tile_wow": { en: "{pct} vs. {date}", de: "{pct} ggü. {date}" },
-  "kurs.tile_new7": { en: "{pct} published in the last 7 days", de: "{pct} in den letzten 7 Tagen veröffentlicht" },
-  "kurs.tile_qe": { en: "Open to career changers", de: "Offen für Quereinsteiger" },
-  "kurs.tile_ai": { en: "Ask for AI skills", de: "Verlangen KI-Kenntnisse" },
-  "kurs.tile_basics": { en: "Ask for the basics", de: "Verlangen die Basics" },
-  "kurs.tile_basics_sub": { en: "MS Office, Excel, PowerPoint, Word, Outlook or Teams", de: "MS Office, Excel, PowerPoint, Word, Outlook oder Teams" },
-  "kurs.tile_of": { en: "{n} of {base} postings", de: "{n} von {base} Stellen" },
-  "kurs.too_few": { en: "too few postings ({n})", de: "zu wenige Stellen ({n})" },
-  "kurs.tip_exact": { en: "Every posting the job search found for this title.", de: "Alle Stellen, die die Jobsuche für diesen Titel findet." },
-  "kurs.tip_estimate": {
-    en: "At least this many: estimated from the search totals. Skills and shares come from the {sample} most relevant postings.",
-    de: "Mindestens so viele: geschätzt aus den Trefferzahlen der Suche. Skills und Anteile stammen aus den {sample} relevantesten Stellen.",
-  },
-  "kurs.tip_qe": {
-    en: "The text welcomes career changers (“Quereinsteiger willkommen”, “keine Vorerfahrung nötig”, “auch ohne Ausbildung”; {text} postings) or the employer ticked “suitable for career changers” at the Bundesagentur ({ba}).",
-    de: "Der Text lädt Quereinsteiger ein („Quereinsteiger willkommen“, „keine Vorerfahrung nötig“, „auch ohne Ausbildung“; {text} Stellen) oder der Arbeitgeber hat bei der Bundesagentur „für Quereinsteiger geeignet“ angekreuzt ({ba}).",
-  },
-  "kurs.tip_ai": {
-    en: "AI in the tasks or requirements: AI tools, ChatGPT, Copilot, prompting, machine learning. An AI company's “about us” doesn't count.",
-    de: "KI in Aufgaben oder Anforderungen: KI-Tools, ChatGPT, Copilot, Prompting, Machine Learning. Ein „Über uns“ einer KI-Firma zählt nicht.",
-  },
-  "kurs.tip_basics": { en: "At least one of MS Office, Excel, PowerPoint, Word, Outlook or MS Teams.", de: "Mindestens eins von MS Office, Excel, PowerPoint, Word, Outlook oder MS Teams." },
-  "kurs.skills_title": { en: "What employers ask for most", de: "Was Arbeitgeber am häufigsten verlangen" },
-  "kurs.bar_tip": { en: "in {n} of {base} postings", de: "in {n} von {base} Stellen" },
-  "kurs.bar_tip_imp": { en: "must have {must} · nice to have {nice}", de: "Muss {must} · Plus {nice}" },
-  "kurs.basics_tip": {
-    en: "Office basics most jobs ask for, shown apart so the specific skills stand out.",
-    de: "Office-Grundlagen, die die meisten Jobs verlangen, getrennt gezeigt, damit die Fach-Skills sichtbar bleiben.",
-  },
-  "kurs.skills_few": { en: "Too few postings to rank skills ({n}).", de: "Zu wenige Stellen für eine Rangliste ({n})." },
-  "kurs.skills_note": {
-    en: "Share of the {n} postings whose text was read. Hover or tap a bar: how many require it and how many only call it a plus.",
-    de: "Anteil der {n} Stellen, deren Text gelesen wurde. Balken antippen: wie viele es verlangen und wie viele es nur als Plus nennen.",
-  },
-  "kurs.terms_title": { en: "Also often named", de: "Auch oft genannt" },
-  "kurs.terms_none": { en: "No other terms in two or more postings.", de: "Keine weiteren Begriffe in zwei oder mehr Stellen." },
-  "kurs.only_qe": { en: "Only open to career changers", de: "Nur für Quereinsteiger" },
-  "kurs.jobs_title": { en: "Jobs: {name}", de: "Stellen: {name}" },
-  "kurs.jobs_count": { en: "{n} jobs", de: "{n} Stellen" },
-  "kurs.jobs_none": { en: "No jobs with this choice.", de: "Keine Stellen mit dieser Auswahl." },
-  "kurs.jobs_error": { en: "The job list couldn't be loaded. Please try again later.", de: "Die Stellenliste konnte nicht geladen werden. Bitte später erneut versuchen." },
-  "kurs.jobs_sample": {
-    en: "Shown: the {n} most relevant of {total} jobs on the board. Links open the posting at the Bundesagentur für Arbeit.",
-    de: "Angezeigt: die {n} relevantesten von {total} Stellen in der Jobbörse. Links öffnen die Stelle bei der Bundesagentur für Arbeit.",
-  },
-  "kurs.badge_qe": { en: "Career changers welcome", de: "Quereinsteiger willkommen" },
-  "kurs.badge_ai": { en: "AI skills", de: "KI-Kenntnisse" },
   "kurs.chance_new7": {
     en: "{n} jobs · {m} of postings new in the last 7 days · {qe} open to career changers",
     de: "{n} Stellen · {m} der Stellen in den letzten 7 Tagen neu · {qe} offen für Quereinsteiger",
-  },
-  "kurs.equal_weight": {
-    en: "Every job title with 20+ postings counts the same:",
-    de: "Jedes Berufsbild mit 20+ Stellen zählt gleich viel:",
   },
   "kurs.chance_parts": {
     en: "Points: volume {v} · new postings {m} · career changers {o}",
@@ -628,27 +545,11 @@ const STRINGS = {
     en: "How the score works: each job title gets 0–100 points for volume (postings, on a log scale), for the share of postings new in the last 7 days and for the share open to career changers, compared with the other titles; the score is their mean. Only job titles with at least {min} postings. Tap one to see its skills and jobs.",
     de: "So entsteht der Score: Jedes Berufsbild bekommt 0–100 Punkte für die Menge (Stellenzahl, logarithmisch), für den Anteil der in den letzten 7 Tagen neuen Stellen und für den Quereinsteiger-Anteil, jeweils im Vergleich zu den anderen; der Score ist ihr Mittelwert. Nur Berufsbilder mit mindestens {min} Stellen. Antippen zeigt Skills und Stellen.",
   },
-  "kurs.chancen_title": { en: "Where could a new course make sense?", de: "Wo könnte ein neuer Kurs sinnvoll sein?" },
   "kurs.chancen_insight": {
     en: "Many postings, many of them new this week, and open to career changers: {top} lead today. Input for a decision, not a forecast.",
     de: "Viele Stellen, viele davon diese Woche neu, und offen für Quereinsteiger: heute vorn sind {top}. Eine Entscheidungshilfe, keine Prognose.",
   },
   "kurs.method_skipped": { en: "Not rated (too few postings): {list}.", de: "Nicht bewertet (zu wenige Stellen): {list}." },
-  "kurs.about": {
-    en: `<p><strong>Source.</strong> Every morning the public job search of the <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a> is searched for each job title (all working times, no apprenticeships, internships or Werkstudent jobs, no leadership roles). Only these postings: other job boards are not included, and the numbers are a snapshot of one day.</p>
-<p><strong>Postings</strong> is the number on the board: exact when every search result was read, otherwise a lower bound estimated from the search totals. Skills and shares come from the postings read, at most the 500 most relevant per job title. A posting that fits several titles counts once.</p>
-<p><strong>Skills</strong> are read by Claude Haiku from each posting's text, which also says whether a skill is a must or a plus; postings it hasn't read yet use rules. <strong>Career changers</strong>: phrases like “Quereinsteiger willkommen” in the text, or the employer's own “suitable for career changers” mark. <strong>AI</strong>: AI in the tasks or requirements.</p>
-<p>Job texts belong to the employers and aren't published here. Code and data: <a href="https://github.com/morty1338/werkstudent-radar">github.com/morty1338/werkstudent-radar</a>.</p>`,
-    de: `<p><strong>Quelle.</strong> Jeden Morgen wird die öffentliche Jobsuche der <a href="https://www.arbeitsagentur.de/jobsuche/">Bundesagentur für Arbeit</a> für jedes Berufsbild durchsucht (alle Arbeitszeiten, ohne Ausbildung, Praktika, Werkstudentenjobs und Leitungsstellen). Nur diese Stellen: andere Jobbörsen fehlen, und die Zahlen sind eine Momentaufnahme eines Tages.</p>
-<p><strong>Stellen</strong> ist die Zahl in der Jobbörse: genau, wenn alle Treffer gelesen wurden, sonst eine Untergrenze, geschätzt aus den Trefferzahlen. Skills und Anteile stammen aus den gelesenen Stellen, höchstens den 500 relevantesten je Berufsbild. Eine Stelle, die zu mehreren Titeln passt, zählt einmal.</p>
-<p><strong>Skills</strong> liest Claude Haiku aus dem Text jeder Stelle und erkennt dabei auch, ob ein Skill Muss oder Plus ist; noch nicht gelesene Stellen nutzen Regeln. <strong>Quereinsteiger</strong>: Formulierungen wie „Quereinsteiger willkommen“ im Text oder die Angabe „für Quereinsteiger geeignet“ des Arbeitgebers. <strong>KI</strong>: KI in Aufgaben oder Anforderungen.</p>
-<p>Stellentexte gehören den Arbeitgebern und werden hier nicht veröffentlicht. Code und Daten: <a href="https://github.com/morty1338/werkstudent-radar">github.com/morty1338/werkstudent-radar</a>.</p>`,
-  },
-  "kurs.footer": {
-    en: 'All jobs · data: Bundesagentur für Arbeit · <a href="index.html">Werkstudent Radar</a> · <a href="https://github.com/morty1338/werkstudent-radar">source code</a>',
-    de: 'Alle Jobs · Daten: Bundesagentur für Arbeit · <a href="index.html?lang=de">Werkstudent Radar</a> · <a href="https://github.com/morty1338/werkstudent-radar">Quellcode</a>',
-  },
-
   // --- Data labels (fields, skill groups, a few skills) ---------------------------------------------------------------
   "field.admin": { en: "Office & Admin", de: "Büro & Verwaltung" },
   "field.consulting": { en: "Consulting & Strategy", de: "Beratung & Strategie" },

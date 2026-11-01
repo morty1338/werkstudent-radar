@@ -2,179 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>All jobs · Werkstudent Radar</title>
-  <meta name="description" content="Which skills do employers ask for in the jobs that career-changer courses train for? Postings of the Bundesagentur für Arbeit by job title, updated daily.">
-  <meta property="og:title" content="All jobs · Werkstudent Radar">
-  <meta property="og:description" content="Skill demand for the job titles career changers are trained for: postings, Quereinsteiger share, AI and basics, by academy.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://morty1338.github.io/werkstudent-radar/kurs.html">
-  <meta name="theme-color" content="#0B0B0C">
-  <meta name="color-scheme" content="dark">
-  <link rel="icon" href="favicon.svg?v=dev" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=dev">
-  <link rel="stylesheet" href="assets/style.css?v=dev">
-  <script type="module" src="assets/kurs.js?v=dev"></script>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://morty1338.github.io/werkstudent-radar/?mode=jobs">
+  <!-- The old "All jobs" page is now the main page in Jobs mode. Old links keep working:
+       ?a=<academy>&t=<job title>&lang= become its filters. -->
+  <script>
+    (() => {
+      const p = new URLSearchParams(location.search);
+      const to = new URLSearchParams({ mode: "jobs" });
+      for (const [from, key] of [["a", "academy"], ["t", "field"], ["lang", "lang"]]) if (p.get(from)) to.set(key, p.get(from));
+      location.replace(`index.html?${to}`);
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=index.html?mode=jobs"></noscript>
+  <style>body { background: #0B0B0C; color: #F2F0EA; font: 16px system-ui, sans-serif; } a { color: #FFC247; }</style>
 </head>
-<body class="kurs-page">
-  <!-- Icons for the section labels and the phone tab bar (stroke = currentColor). -->
-  <svg class="sprite" aria-hidden="true" focusable="false">
-    <symbol id="i-skills" viewBox="0 0 24 24"><path d="M12 3.5l2.5 5.4 5.9.7-4.4 4 1.2 5.8L12 16.5l-5.2 2.9L8 13.6l-4.4-4 5.9-.7z"/></symbol>
-    <symbol id="i-trends" viewBox="0 0 24 24"><path d="M3.5 17.5l5.5-5.5 4 3 7.5-8"/><path d="M15.5 7h5v5"/></symbol>
-    <symbol id="i-course" viewBox="0 0 24 24"><path d="M2.5 9 12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v4.5c1.5 1.6 3.4 2.4 5.5 2.4s4-.8 5.5-2.4V11"/><path d="M21.5 9v5"/></symbol>
-    <symbol id="i-apps" viewBox="0 0 24 24"><rect x="5" y="4.5" width="14" height="16.5" rx="2"/><path d="M9 4.5V3h6v1.5"/><path d="M8.5 11.5l2 2 4-4.5M8.5 17h7"/></symbol>
-    <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.4l2.6 2.6 4.8-5.2"/></symbol>
-    <symbol id="i-back" viewBox="0 0 24 24"><path d="M10 6l-6 6 6 6"/><path d="M4.5 12h15"/></symbol>
-  </svg>
-  <header class="site-header">
-    <div class="wrap header-row">
-      <!-- The logo leads back to the Werkstudent page, as on most sites. -->
-      <a class="brand k-home-link" href="index.html" aria-label="Werkstudent Radar, back to the Werkstudent jobs" data-i18n-attr="aria-label:kurs.brand_aria">
-        <img src="favicon.svg?v=dev" alt="" width="24" height="24">
-        <span>Werkstudent Radar</span>
-      </a>
-      <nav class="nav kurs-nav" aria-label="Sections" data-i18n-attr="aria-label:nav.aria">
-        <a href="#jobs"><svg class="ico" aria-hidden="true"><use href="#i-skills"></use></svg><span data-i18n="kurs.nav_jobs">Job titles</span></a>
-        <a href="#stellen"><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg><span data-i18n="kurs.nav_stellen">Jobs</span></a>
-        <a href="#chancen"><svg class="ico" aria-hidden="true"><use href="#i-trends"></use></svg><span data-i18n="kurs.nav_chancen">Opportunities</span></a>
-        <a href="index.html" class="nav-home k-home-link"><svg class="ico" aria-hidden="true"><use href="#i-back"></use></svg><span class="nav-full" data-i18n="kurs.nav_home">Werkstudent Radar</span><span class="nav-short" data-i18n="kurs.nav_home_short">Werkstudent</span></a>
-      </nav>
-      <button type="button" class="trk-btn" id="trk-open" aria-haspopup="dialog" aria-controls="trk" aria-expanded="false" aria-label="Applications" data-i18n-attr="aria-label:trk.title">
-        <svg class="ico" aria-hidden="true"><use href="#i-apps"></use></svg><span class="trk-btn-label" data-i18n="trk.title">Applications</span><span class="trk-count" id="trk-count" hidden></span>
-      </button>
-      <div class="lang-switch" role="group" aria-label="Language" data-i18n-attr="aria-label:lang.aria">
-        <button type="button" data-lang="en" lang="en" aria-pressed="true">EN</button><button type="button" data-lang="de" lang="de" aria-pressed="false">DE</button>
-      </div>
-    </div>
-    <div class="filterbar" id="filterbar">
-      <div class="wrap filter-row">
-        <button type="button" class="filters-btn" id="f-open" aria-expanded="false" aria-controls="f-sheet" data-i18n="kurs.choose">Academy</button>
-        <div class="filter-chips" id="f-chips"></div>
-        <!-- Inline on wide screens; a bottom sheet behind the button on phones. -->
-        <div class="filter-controls" id="f-sheet">
-          <div class="sheet-head"><strong data-i18n="kurs.choose">Academy</strong><button type="button" class="link-btn" id="f-close" data-i18n="filter.close">Close</button></div>
-          <label class="sr-only" for="k-academy" data-i18n="kurs.academy">Academy</label>
-          <select id="k-academy"></select>
-          <label class="sr-only" for="k-title" data-i18n="kurs.job_title">Job title</label>
-          <select id="k-title"></select>
-          <button type="button" class="btn sheet-done" id="f-done" data-i18n="kurs.show">Show</button>
-        </div>
-        <span class="filter-count" id="f-count"></span>
-      </div>
-    </div>
-    <div class="sheet-backdrop" id="f-backdrop" hidden></div>
-  </header>
-
-  <main id="top">
-    <section class="hero wrap kurs-hero">
-      <p class="k-back"><a href="index.html" class="k-home-link"><span aria-hidden="true">←</span> <span data-i18n="kurs.back">Back to the Werkstudent jobs</span></a></p>
-      <p class="status" id="status"></p>
-      <h1 data-i18n-html="kurs.title">All jobs: what employers ask for after a&nbsp;course</h1>
-      <p class="lede" data-i18n="kurs.lede">The job titles that career-changer courses train for, across all working times: how many postings there are, which skills they ask for, and how open they are to career changers.</p>
-      <p class="kurs-note" id="k-note">&nbsp;</p>
-    </section>
-
-    <section id="jobs" class="wrap section">
-      <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-course"></use></svg></span><span data-i18n="kurs.nav_jobs">Job titles</span></p>
-      <div class="chips-row k-academies" id="k-academies" role="group" aria-label="Academy" data-i18n-attr="aria-label:kurs.academy"></div>
-      <div class="chips-row k-titles" id="k-titles" role="group" aria-label="Job title" data-i18n-attr="aria-label:kurs.job_title"></div>
-      <h2 id="k-heading">&nbsp;</h2>
-      <p class="insight" id="k-insight"></p>
-      <div class="tiles" id="k-tiles">
-        <div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div>
-      </div>
-      <div class="grid-skills k-grid">
-        <div class="card" id="k-skills-card">
-          <h3 data-i18n="kurs.skills_title">What employers ask for most</h3>
-          <div id="k-skills" class="chart"></div>
-          <div class="basics" id="k-basics"></div>
-          <p class="legend-line" id="k-skills-note"></p>
-        </div>
-        <aside class="card">
-          <h3 data-i18n="kurs.terms_title">Also often named</h3>
-          <div class="chips-row k-terms" id="k-terms"></div>
-        </aside>
-      </div>
-    </section>
-
-    <section id="stellen" class="wrap section">
-      <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-check"></use></svg></span><span data-i18n="kurs.nav_stellen">Jobs</span></p>
-      <h2 id="k-jobs-title">&nbsp;</h2>
-      <div class="card">
-        <div class="card-head">
-          <label class="switch"><input type="checkbox" id="k-only-qe"><span data-i18n="kurs.only_qe">Only open to career changers</span></label>
-          <span class="filter-count" id="k-jobs-count"></span>
-        </div>
-        <div class="job-list" id="k-jobs" aria-live="polite"><p class="empty" data-i18n="check.loading">Loading…</p></div>
-        <button type="button" class="btn btn-quiet" id="k-more" hidden></button>
-        <p class="legend-line" id="k-jobs-note"></p>
-      </div>
-    </section>
-
-    <section id="chancen" class="wrap section">
-      <p class="eyebrow"><span class="eyebrow-ico"><svg class="ico" aria-hidden="true"><use href="#i-trends"></use></svg></span><span data-i18n="kurs.nav_chancen">Opportunities</span></p>
-      <h2 data-i18n="kurs.chancen_title">Where could a new course make sense?</h2>
-      <p class="insight" id="k-chancen-insight"></p>
-      <ol class="k-chancen" id="k-chancen"></ol>
-      <p class="legend-line k-method" id="k-chancen-method"></p>
-    </section>
-
-    <section class="wrap section about">
-      <details>
-        <summary data-i18n="about.summary">About the data</summary>
-        <div class="about-body" data-i18n-html="kurs.about">
-          <p>About the data.</p>
-        </div>
-      </details>
-    </section>
-  </main>
-
-  <!-- The visitor's application tracker (tracker.js): stored only in this browser. -->
-  <div class="trk-backdrop" id="trk-backdrop" hidden></div>
-  <aside class="tracker" id="trk" role="dialog" aria-modal="true" aria-labelledby="trk-title">
-    <div class="trk-head">
-      <h2 id="trk-title" data-i18n="trk.title">Applications</h2>
-      <button type="button" class="link-btn" id="trk-close" data-i18n="trk.close">Close</button>
-    </div>
-    <div class="trk-body">
-      <p class="trk-local" id="trk-local"></p>
-      <button type="button" class="btn" id="trk-new" aria-expanded="false" aria-controls="trk-form" data-i18n="trk.new">+ New application</button>
-      <form class="trk-form" id="trk-form" hidden>
-        <label><span data-i18n="trk.f_title">Job title</span><input type="text" name="title" required maxlength="200" autocomplete="off"></label>
-        <label><span data-i18n="trk.f_company">Company</span><input type="text" name="company" maxlength="120" autocomplete="off"></label>
-        <label><span data-i18n="trk.f_city">City</span><input type="text" name="city" maxlength="80" autocomplete="off"></label>
-        <label><span data-i18n="trk.f_url">Link to the posting</span><input type="url" name="url" maxlength="500" placeholder="https://" autocomplete="off"></label>
-        <label><span data-i18n="trk.f_status">Status</span>
-          <select name="status">
-            <option value="saved" data-i18n="trk.s_saved">Saved</option>
-            <option value="applied" data-i18n="trk.s_applied">Applied</option>
-            <option value="interview" data-i18n="trk.s_interview">Interview</option>
-            <option value="offer" data-i18n="trk.s_offer">Offer</option>
-            <option value="rejected" data-i18n="trk.s_rejected">Rejected</option>
-          </select>
-        </label>
-        <label><span data-i18n="trk.f_note">Note</span><textarea name="note" rows="2" maxlength="2000"></textarea></label>
-        <div class="trk-form-buttons">
-          <button type="submit" class="btn" data-i18n="trk.save">Save</button>
-          <button type="button" class="link-btn" id="trk-cancel" data-i18n="trk.cancel">Cancel</button>
-        </div>
-      </form>
-      <div class="chips-row trk-filter" id="trk-filter"></div>
-      <div class="trk-list" id="trk-list"></div>
-    </div>
-    <div class="trk-foot">
-      <button type="button" class="link-btn" id="trk-link" data-i18n="trk.link">Backup link</button>
-      <button type="button" class="link-btn" id="trk-export" data-i18n="trk.export">Export file</button>
-      <label class="link-btn trk-import"><input type="file" id="trk-import" accept=".json,application/json"><span data-i18n="trk.import">Import file</span></label>
-      <span class="trk-msg" id="trk-msg" aria-live="polite"></span>
-    </div>
-  </aside>
-
-  <footer class="site-footer">
-    <div class="wrap" data-i18n-html="kurs.footer">All jobs · data: Bundesagentur für Arbeit · <a href="index.html">Werkstudent Radar</a> · <a href="https://github.com/morty1338/werkstudent-radar">source code</a></div>
-  </footer>
-
-  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
-  <noscript><p class="wrap">This page needs JavaScript to load the data. Diese Seite braucht JavaScript, um die Daten zu laden.</p></noscript>
+<body>
+  <p><a href="index.html?mode=jobs">All jobs: Werkstudent Radar in Jobs mode</a></p>
 </body>
 </html>

@@ -1,4 +1,4 @@
-// Kurs-Radar numbers for the page (kurs.js), without the DOM: shares with enough postings,
+// Kurs-Radar numbers for the page (Jobs mode in app.js), without the DOM: shares with enough postings,
 // week-over-week change, must/nice split and the "Opportunities" score. No imports, so
 // tests run it in Node; mcp/radar_tools.py kurs_opportunities ranks the same way.
 

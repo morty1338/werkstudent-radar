@@ -36,7 +36,6 @@ async function main() {
   applyStatic();
   initLangSwitch();
   initTooltip();
-  if (lang === "de" && !jobsAllowed) for (const id of ["kurs-link", "kurs-nav"]) document.getElementById(id).href = "kurs.html?lang=de";
   initModeSwitch();
   // The map's outline and radar sweep right away: the sweep keeps turning while the data loads
   // (after switching Werkstudent | Jobs too); the places are added when it's there.
@@ -807,7 +806,7 @@ function initModeSwitch() {
       if (b.dataset.mode !== mode) location.assign(modeUrl(b.dataset.mode));
     });
   }
-  // The links to the old Jobs page switch the mode instead; in Jobs mode they aren't needed.
+  // The links to Jobs mode carry the filters over (modeUrl); in Jobs mode they aren't needed.
   for (const id of ["kurs-link", "kurs-nav"]) {
     const a = document.getElementById(id);
     if (mode === "jobs") (id === "kurs-link" ? a.closest(".hero-kurs") : a).hidden = true;

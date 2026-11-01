@@ -409,8 +409,8 @@ def match_skills(d, skills, city=None, field=None, examples=3):
 
 # --- Kurs-Radar (kurs.json): job titles that career-changer courses train for ------------------
 
-KURS_SITE = SITE + "kurs.html"
-KURS_MIN_BASE = 20      # fewer postings behind a share: null, as on the page (kurs.js MIN_BASE)
+KURS_SITE = SITE + "?mode=jobs"
+KURS_MIN_BASE = 20      # fewer postings behind a share: null, as on the page (kurs-rank.js MIN_BASE)
 
 
 def _kurs_share(m):
