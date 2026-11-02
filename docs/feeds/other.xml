@@ -6,8 +6,88 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent/-in (w/m/d) im Jobcenter Vogtland  - Teilzeit max. 20 Std. (befristet für 6  Monate)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208497926-S</link>
+      <guid isPermaLink="false">10000-1208497926-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Bundesagentur für Arbeit Agentur für Arbeit Plauen · Plauen · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent / Freier Redakteur (m/w/d) für das Magazin von teilzeit.net</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003944342-S</link>
+      <guid isPermaLink="false">10001-1003944342-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Ideenkraftwerk GmbH · Bielefeld · €18.00/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent:in für den Bereich Vertragsmanagement Industrie (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4986632640-S</link>
+      <guid isPermaLink="false">12288-4986632640-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>SV SparkassenVersicherung · Stuttgart · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent im kaufmännischen Bereich m/w/d 15,29 EUR/Std.</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-414A253-S</link>
+      <guid isPermaLink="false">14751-414A253-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>3raum PersonalManagement KG · Würzburg · €15.67/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Telefon-Support m/w/d 15,29 EUR/Std.</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-414A263-S</link>
+      <guid isPermaLink="false">14751-414A263-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>3raum PersonalManagement KG · Würzburg · €17.23/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent im kaufmännischen Bereich m/w/d</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-414A265-S</link>
+      <guid isPermaLink="false">14751-414A265-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>3raum PersonalManagement KG · Schweinfurt · €15.67/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-bad-salzungen-121764</link>
+      <guid isPermaLink="false">an:werkstudent-bad-salzungen-121764</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>WerraEnergie GmbH · Bad Salzungen · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent Bewerbermanagement (mind. 15h/Woche)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/taxit-consulting-gmbh/werkstudent-bewerbermanagement-mind-15h-woche-stuttgart-14565</link>
+      <guid isPermaLink="false">an:werkstudent-bewerbermanagement-mind-15h-woche-stuttgart-14565</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>TaxIt Consulting GmbH · Stuttgart · €15.00/h · Other</description>
+    </item>
+    <item>
+      <title>Working Student - LLM Inference Performance</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tensordyne/working-student-llm-inference-performance-munich-161026</link>
+      <guid isPermaLink="false">an:working-student-llm-inference-performance-munich-161026</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>tensordyne · München · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student - LLM Inference Performance</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tensordyne/working-student-llm-inference-performance-munich-225245</link>
+      <guid isPermaLink="false">an:working-student-llm-inference-performance-munich-225245</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Tensordyne · München · Other · no German needed</description>
+    </item>
     <item>
       <title>DEAXO GmbH: Werkstudent Vertrags- und Claim-Management (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3076991793401201-S</link>
@@ -121,22 +201,6 @@
       <description>Skdse · Ohrdruf · Other · no German needed</description>
     </item>
     <item>
-      <title>Werkstudent - Hoppe Academy (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/hoppe-marine-gmbh/werkstudent-hoppe-academy-hamburg-30690</link>
-      <guid isPermaLink="false">an:werkstudent-hoppe-academy-hamburg-30690</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Hoppe Marine Gmbh · Hamburg · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Group Transformation Team</title>
-      <link>https://www.arbeitnow.com/jobs/companies/neuplaner/werkstudent-im-group-transformation-team-berlin-233535</link>
-      <guid isPermaLink="false">an:werkstudent-im-group-transformation-team-berlin-233535</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Neuplaner · Berlin · Other</description>
-    </item>
-    <item>
       <title>Working Student Captains Management at Meet5 USA (f/m/x)</title>
       <link>https://www.arbeitnow.com/jobs/companies/meet5-gmbh/working-student-captains-management-at-meet5-usa-frankfurt-am-main-458985</link>
       <guid isPermaLink="false">an:working-student-captains-management-at-meet5-usa-frankfurt-am-main-458985</guid>
@@ -209,14 +273,6 @@
       <description>Limatica · München · Other · no German needed</description>
     </item>
     <item>
-      <title>Werkstudent GTM (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/arvana/werkstudent-gtm-berlin-158467</link>
-      <guid isPermaLink="false">an:werkstudent-gtm-berlin-158467</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Arvana · Berlin · €20.00/h · Other</description>
-    </item>
-    <item>
       <title>Werkstudent Marketplace Manager (m/w/d) – Amazon, TikTok Shop &amp; Temu</title>
       <link>https://www.arbeitnow.com/jobs/companies/amalock/werkstudent-marketplace-manager-amazon-tiktok-shop-temu-berlin-83989</link>
       <guid isPermaLink="false">an:werkstudent-marketplace-manager-amazon-tiktok-shop-temu-berlin-83989</guid>
@@ -231,14 +287,6 @@
       <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>tensordyne · München · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Working Student People Business Partner (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/deltavision/working-student-people-business-partner-munchen-395622</link>
-      <guid isPermaLink="false">an:working-student-people-business-partner-munchen-395622</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Deltavision · München · Other</description>
     </item>
     <item>
       <title>Werkstudent im Privatkundengeschäft (m/w/d)</title>
@@ -337,6 +385,22 @@
       <description>SI &amp; Usaneers · Stuttgart · Other</description>
     </item>
     <item>
+      <title>Werkstudententätigkeit (m/w/d) im Bereich Nachhaltigkeit</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-1c592fny2z3-S</link>
+      <guid isPermaLink="false">14927-1c592fny2z3-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Eberspächer Gruppe GmbH &amp; Co. KG · Neunkirchen bei Mosbach · Other</description>
+    </item>
+    <item>
+      <title>Werkstudententätigkeit (m/w/d) im Bereich Supplier Manageme</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-2k391tun9zc-S</link>
+      <guid isPermaLink="false">14927-2k391tun9zc-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Eberspächer Gruppe GmbH &amp; Co. KG · Neunkirchen bei Mosbach · Other</description>
+    </item>
+    <item>
       <title>Werkstudent TikTok Shop Live Management &amp; Operator - all genders</title>
       <link>https://www.arbeitnow.com/jobs/companies/adbaker/werkstudent-tiktok-shop-live-management-operator-all-genders-cologne-311703</link>
       <guid isPermaLink="false">an:werkstudent-tiktok-shop-live-management-operator-all-genders-cologne-311703</guid>
@@ -359,14 +423,6 @@
       <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Tensordyne · München · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Support Konfigurationsmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974526-008-S</link>
-      <guid isPermaLink="false">16604-974526-008-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>TKMS GmbH · Böhnhusen · Other</description>
     </item>
   </channel>
 </rss>

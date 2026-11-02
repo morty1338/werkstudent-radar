@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudenten (m/w/d) Pflegepädagogik</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20176-67jwfii50d-S</link>
+      <guid isPermaLink="false">20176-67jwfii50d-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>DICV Augsburg e.V. Caritasverband für die Diözese Augsburg · Augsburg · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudenten (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-c0128840_JB5285088-S</link>
@@ -23,14 +31,6 @@
       <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
       <category>Education &amp; Social</category>
       <description>Hanseaten Zeitarbeit Nord GmbH · Hamburg · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudentin als Vertretungskraft gesucht / Zufluchtsstätte</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1190120086-S</link>
-      <guid isPermaLink="false">10000-1190120086-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Lotta e.V. · Kiel · €15.50/h · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

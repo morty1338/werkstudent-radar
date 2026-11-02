@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in Digital Transformation und Data Engineering (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-885-1-S</link>
+      <guid isPermaLink="false">12728-885-1-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>E.ON SE · Essen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student – Quality &amp; Data (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/jawbuddy/working-student-quality-data-berlin-77350</link>
+      <guid isPermaLink="false">an:working-student-quality-data-berlin-77350</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>JawBuddy · Berlin · Data &amp; Analytics · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) Digitalization &amp; Data-Driven Business Applications</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1631719-1-S</link>
@@ -199,30 +215,6 @@
       <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Robert Bosch GmbH · Lohr am Main · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent CRM und Datenmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-876-1-S</link>
-      <guid isPermaLink="false">12728-876-1-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>E.DIS AG · Fürstenwalde/Spree · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Datenerfassung und Textilmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-d1289aae_JB5281797-S</link>
-      <guid isPermaLink="false">13635-d1289aae_JB5281797-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Elis Deutschland · Kaiserslautern · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Product Data Manager E-Commerce (m/w/d) –  Teilzeit oder Werkstudententätigkeit</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-eba6998a_JB5281859-S</link>
-      <guid isPermaLink="false">13635-eba6998a_JB5281859-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Bültel Fashion Group · Salzbergen · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

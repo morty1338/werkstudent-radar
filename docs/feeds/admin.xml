@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) kaufmännische Sachbearbeitung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17560-bc615c40dcb8416-S</link>
+      <guid isPermaLink="false">17560-bc615c40dcb8416-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>AlphaConsult Premium KG · Bitterfeld-Wolfen · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent Portfolioanalyse Renewables und Flexibilität (m/w/d),Cottbus,Berlin</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2367937-S</link>
@@ -65,28 +73,12 @@
       <description>Gebr. Westhoff GmbH &amp; Co. KG · Bremen · Office &amp; Admin</description>
     </item>
     <item>
-      <title>Werkstudent*in Office Management (w/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/hirschen-group-gmbh/werkstudentin-office-management-berlin-schlesische-strasse-26-212323</link>
-      <guid isPermaLink="false">an:werkstudentin-office-management-berlin-schlesische-strasse-26-212323</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Hirschen Group GmbH · Berlin · Office &amp; Admin</description>
-    </item>
-    <item>
       <title>Werkstudentin / Werkstudent (m/w/d) im Bereich Kanalunterhaltung (Backoffice), Stadtwerke Löhne</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2365118-S</link>
       <guid isPermaLink="false">12811-2365118-S</guid>
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>Stadtwerke Löhne · Löhne · €17.42/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Office &amp; Location Management (m/w/d/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1647718-1-S</link>
-      <guid isPermaLink="false">13151-1647718-1-S</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Mercedes-Benz Group AG · Berlin · Office &amp; Admin</description>
     </item>
     <item>
       <title>Working Student CEO Office (m/f/d)</title>
@@ -135,22 +127,6 @@
       <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>Livora Holding GmbH · Haren (Ems) · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Management &amp; Media Assistant (m/w/d) Werkstudent</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003909273-S</link>
-      <guid isPermaLink="false">10001-1003909273-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Ekol Invest GmbH · Halle (Westfalen) · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11119-4955347146-S</link>
-      <guid isPermaLink="false">11119-4955347146-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Randstad Deutschland · München · €15.55/h · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

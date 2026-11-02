@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent - HORBACH Wirtschaftsberatung Chemnitz, Horbach Wirtschaftsberatung Chemnitz</title>
@@ -33,14 +33,6 @@
       <description>Uhlmann Pac-Systeme GmbH &amp; Co. KG · Laupheim · €16.00/h · Consulting &amp; Strategy</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) im Backoffice in der Rechtsberatung im Fachbereich Arbeitsrecht</title>
-      <link>https://www.arbeitnow.com/jobs/companies/becker-buttner-held-partgmbb/werkstudent-im-backoffice-in-der-rechtsberatung-im-fachbereich-arbeitsrecht-munchen-290141</link>
-      <guid isPermaLink="false">an:werkstudent-im-backoffice-in-der-rechtsberatung-im-fachbereich-arbeitsrecht-munchen-290141</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Becker Büttner Held PartGmbB · München · €18.00/h · Consulting &amp; Strategy</description>
-    </item>
-    <item>
       <title>Werkstudent (m|w|d) - Transformation Office/ Corporate Strategy</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f816j0457011-S</link>
       <guid isPermaLink="false">12336-a26f816j0457011-S</guid>
@@ -63,14 +55,6 @@
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Mercedes-Benz Group AG · Sindelfingen · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent/in (m/w/d) Ernährungsberatung und Gesundheitsmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003909805-S</link>
-      <guid isPermaLink="false">10001-1003909805-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>CG Ernährungs UG (haftungsbeschränkt) · Sulzbach (Taunus) · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

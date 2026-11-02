@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) – Drohnenentwicklung und Prototypenbau</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208499275-S</link>
+      <guid isPermaLink="false">10000-1208499275-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Vectorbirds Airborne Systems GmbH &amp;Co. KG · Bilshausen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>GlobalFoundries Management Services GmbH &amp; Co. KG: Werkstudent*in im Bereich Global Repair Shop</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3007321793574001-S</link>
+      <guid isPermaLink="false">11956-3007321793574001-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>GlobalFoundries Management Services GmbH &amp; Co. KG · Dresden · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (d/m/w) im Bereich Instandhaltung von industriellen Anlagen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-980785752-S</link>
+      <guid isPermaLink="false">16947-980785752-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Airbus Operations GmbH Werk Bremen · Bremen · €19.10/h · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Testautomatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q00001607-S</link>
+      <guid isPermaLink="false">18024-10Q7q00001607-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Elektrotechnik / Energietechnik (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-elektrotechnik-energietechnik-bad-salzungen-416233</link>
+      <guid isPermaLink="false">an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-416233</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>WerraEnergie GmbH · Bad Salzungen · Engineering &amp; Production · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent:in in der Baubetriebsplanung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1649114-1-S</link>
@@ -433,7 +473,7 @@
       <description>Airbus Operations GmbH Werk Bremen · Hamburg · €18.53/h · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent oder Praktikant für eine Abschlussararbeit Motion Planning (m/w/d)</title>
+      <title>Werkstudent oder Praktikant für eine Abschlussarbeit Motion Planning (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18254-RWAMms5N-S</link>
       <guid isPermaLink="false">18254-RWAMms5N-S</guid>
       <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
@@ -609,14 +649,6 @@
       <description>DEKRA Automobil GmbH · Ludwigshafen · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Working Student (m/f/d) Hardware Architecture for Automotive Electronics, Stuttgart-Weilimdorf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2364830-S</link>
-      <guid isPermaLink="false">12811-2364830-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>SEG Automotive Germany GmbH · Engineering &amp; Production · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent R&amp;D (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-224b7fc2_JB5281599-S</link>
       <guid isPermaLink="false">13635-224b7fc2_JB5281599-S</guid>
@@ -633,20 +665,12 @@
       <description>Freudenberg Filtration Technologies GmbH &amp; Co. KG · Osnabrück · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent QHSE (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003909486-S</link>
-      <guid isPermaLink="false">10001-1003909486-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
+      <title>Werkstudent (m/w/i) für Abteilung Bau - Immobilienmanagemen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-1fbm2j6fpmk-S</link>
+      <guid isPermaLink="false">14927-1fbm2j6fpmk-S</guid>
+      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
-      <description>GOFA Gocher Fahrzeugbau GmbH · Goch · €15.00/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent für Arbeitsvorbereitung Produktion (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20393-44531453-1025-S</link>
-      <guid isPermaLink="false">20393-44531453-1025-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>NextPharma GmbH · Berlin · Engineering &amp; Production</description>
+      <description>CURA Seniorenwohn- und Pflegeheime Dienstleistungs GmbH · Berlin · Engineering &amp; Production</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,64 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent KI-Anwendungen (15-20 Wochenstunden) (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003946149-S</link>
+      <guid isPermaLink="false">10001-1003946149-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Rechenzentrum Hartmann GmbH &amp; Co. KG · Mönchengladbach · €17.50/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>accompio GmbH: Werkstudent (m/w/d) IT-Services - Wedemark/Hannover</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3066981793574001-S</link>
+      <guid isPermaLink="false">11956-3066981793574001-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>accompio GmbH · Wedemark · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Bachelorand / Werkstudent / Praktikant (w/m/d) Generative KI und Digitalisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1001-1-S</link>
+      <guid isPermaLink="false">12728-1001-1-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>PreussenElektra GmbH Zentrale · Hannover · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent System Tester (m/w/d), corpuls Kaufering (Hauswiesenstraße)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2368753-S</link>
+      <guid isPermaLink="false">12811-2368753-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Corpuls · Kaufering · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent IT-Helpdesk m/w/d 15,29 EUR/Std.</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-414A254-S</link>
+      <guid isPermaLink="false">14751-414A254-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>3raum PersonalManagement KG · Würzburg · €15.67/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Working Student AI Automation &amp; Support (d/f/m)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/bettermile/working-student-ai-automation-support-berlin-19369</link>
+      <guid isPermaLink="false">an:working-student-ai-automation-support-berlin-19369</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Bettermile · Berlin · IT &amp; Software · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student QA in Mobile App Development (m|f|d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/idealo-internet-gmbh/working-student-qa-in-mobile-app-development-mfd-berlin-110910</link>
+      <guid isPermaLink="false">an:working-student-qa-in-mobile-app-development-mfd-berlin-110910</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>idealo internet GmbH · Berlin · IT &amp; Software · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) Business Excellence &amp; Transformation</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003943695-S</link>
@@ -183,14 +239,6 @@
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Hamburger Energienetze GmbH · Hamburg · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Qualitätsmanagement für Innovation und Digitalisierung (w/m/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1647897-1-S</link>
-      <guid isPermaLink="false">12462-1647897-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>BMW AG · Regensburg · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent Entwicklung und Industrialisierung von Hochvoltspeichern (w/m/x)</title>
@@ -377,14 +425,6 @@
       <description>N3eos · Arnstadt · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent Cybersecurity  (m/w/d)*</title>
-      <link>https://www.arbeitnow.com/jobs/companies/scalian-germany/werkstudent-cybersecurity-hannover-290302</link>
-      <guid isPermaLink="false">an:werkstudent-cybersecurity-hannover-290302</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Scalian Germany · Hannover · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Werkstudent:in für KI und Digitalisierung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003924367-S</link>
       <guid isPermaLink="false">10001-1003924367-S</guid>
@@ -399,14 +439,6 @@
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Siemens AG · München · €17.27/h · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent KI-Unterstützung Domain Plan (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-855-1-S</link>
-      <guid isPermaLink="false">12728-855-1-S</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>E.ON Grid Solutions GmbH · Essen · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent / Praktikant (m/w/d) - Frontend-Entwicklung, Töging a. Inn</title>
@@ -505,14 +537,6 @@
       <description>Deag Deutsche Entertainment AG · Berlin · €16.00/h · IT &amp; Software</description>
     </item>
     <item>
-      <title>Working Student IT Operations (f/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-7acfd4d1_JB5281808-S</link>
-      <guid isPermaLink="false">13635-7acfd4d1_JB5281808-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>SPREAD GmbH · Berlin · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Werkstudent AI &amp; Bahnprozesse (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-ab89c051_JB5281585-S</link>
       <guid isPermaLink="false">13635-ab89c051_JB5281585-S</guid>
@@ -535,14 +559,6 @@
       <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Bechtle AG · Kaiserslautern · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Softwareentwicklung &amp; Support im Business Process Management</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11959-108767-S</link>
-      <guid isPermaLink="false">11959-108767-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>SIKA Dr. Siebert &amp; Kühn GmbH &amp; Co. KG · Kaufungen · €17.00/h · IT &amp; Software</description>
     </item>
   </channel>
 </rss>

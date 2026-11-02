@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 11:33:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent im Einkauf (m/w/d), Cottbus</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2368942-S</link>
+      <guid isPermaLink="false">12811-2368942-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Lausitz Energie Kraftwerke AG · Cottbus · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent Immobilien (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16818-100914659-S</link>
+      <guid isPermaLink="false">16818-100914659-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>SozialBank · Köln · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (in) im Vertragsmanagement (d/m/w)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100fe00003T00-S</link>
+      <guid isPermaLink="false">18024-100fe00003T00-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Berliner Stadtgüter GmbH · Berlin · €15.92/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y0B-S</link>
+      <guid isPermaLink="false">18024-10Q6L00001Y0B-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent Einkauf (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13334-00005f68597001-S</link>
@@ -73,14 +105,6 @@
       <description>thyssenkrupp Gerlach GmbH · Homburg · Operations &amp; Logistics</description>
     </item>
     <item>
-      <title>Einkauf Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/einkauf-werkstudent-hamburg-hamburg-286136</link>
-      <guid isPermaLink="false">an:einkauf-werkstudent-hamburg-hamburg-286136</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Teampicnic · Hamburg · €15.12/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
       <title>Working Student – Procurement, Land Domain (m/f/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-procurement-land-domain-gilching-61847</link>
       <guid isPermaLink="false">an:working-student-procurement-land-domain-gilching-61847</guid>
@@ -127,14 +151,6 @@
       <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Hrmony GmbH · Berlin · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in im Bereich Einkauf/Vergabestelle (all genders)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/gematik/werkstudentin-im-bereich-einkauf-vergabestelle-all-genders-berlin-331168</link>
-      <guid isPermaLink="false">an:werkstudentin-im-bereich-einkauf-vergabestelle-all-genders-berlin-331168</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Gematik · Berlin · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent im kaufmännischen Bereich</title>
@@ -207,22 +223,6 @@
       <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Friedrich Zufall GmbH &amp; Co. KG · Göttingen · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Logistik (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003911269-S</link>
-      <guid isPermaLink="false">10001-1003911269-S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>BÜFA GmbH &amp; Co. KG · Oldenburg (Oldb) · €17.25/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent KI &amp; Prozessautomatisierung Einkauf (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-266dd1bb-f9c0-47fb--S</link>
-      <guid isPermaLink="false">12951-266dd1bb-f9c0-47fb--S</guid>
-      <pubDate>Mon, 26 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Friedberg · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>
