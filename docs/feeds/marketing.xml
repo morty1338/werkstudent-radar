@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/marketing.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) – Social Media &amp; Content Creation</title>
@@ -39,6 +39,14 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>Sellmore GmbH · Dresden · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Marketing Manager</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1649724-1-S</link>
+      <guid isPermaLink="false">13348-1649724-1-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Deutsche Lufthansa AG · Köln · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Werkstudent:in (m/w/d) Podcast &amp; Content Support – IN ARBEIT</title>
@@ -236,6 +244,14 @@
       <title>E-Commerce Werkstudent (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/teampicnic/e-commerce-werkstudent-hamburg-hamburg-130</link>
       <guid isPermaLink="false">an:e-commerce-werkstudent-hamburg-hamburg-130</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Teampicnic · Hamburg · €15.12/h · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Marketing Einkauf Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/marketing-einkauf-werkstudent-hamburg-hamburg-467670</link>
+      <guid isPermaLink="false">an:marketing-einkauf-werkstudent-hamburg-hamburg-467670</guid>
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>Teampicnic · Hamburg · €15.12/h · Marketing &amp; Communication</description>

@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/all.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent/-in (w/m/d) im Jobcenter Vogtland  - Teilzeit max. 20 Std. (befristet für 6  Monate)</title>
@@ -97,6 +97,14 @@
       <description>Ostseecamp Glücksburg-Holnis e.K. · Glücksburg (Ostsee) · Retail &amp; Hospitality</description>
     </item>
     <item>
+      <title>Working Student (f/m/d) - SAP Cloud ALM Operations Team</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1649668-1-S</link>
+      <guid isPermaLink="false">11070-1649668-1-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>SAP · St. Leon-Rot · IT &amp; Software · no German needed</description>
+    </item>
+    <item>
       <title>Sellmore GmbH: Werkstudent Online-Marketing – SEO und SEA (gn)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2771101793574001-S</link>
       <guid isPermaLink="false">11956-2771101793574001-S</guid>
@@ -183,6 +191,22 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>REWE · Mainz · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent – UX &amp; DesignOps (m/w/divers)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1631098-2-S</link>
+      <guid isPermaLink="false">13348-1631098-2-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Lufthansa Technik AG · Hamburg · Design &amp; UX · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Marketing Manager</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1649724-1-S</link>
+      <guid isPermaLink="false">13348-1649724-1-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Deutsche Lufthansa AG · Köln · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Werkstudent Rechtswissenschaften m/w/d 15,29 EUR/Std.</title>
@@ -287,6 +311,14 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Sparkasse Hohenlohekreis · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent in internen Bereichen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001C0E-S</link>
+      <guid isPermaLink="false">18024-10Q4800001C0E-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Sparkasse Hohenlohekreis · Künzelsau · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
@@ -1601,6 +1633,14 @@
       <description>BMW AG · München · Data &amp; Analytics</description>
     </item>
     <item>
+      <title>Werkstudent Qualitätsmanagement für Innovation und Digitalisierung (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1647897-1-S</link>
+      <guid isPermaLink="false">12462-1647897-1-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>BMW AG · Regensburg · IT &amp; Software</description>
+    </item>
+    <item>
       <title>Werkstudent Entwicklung und Industrialisierung von Hochvoltspeichern (w/m/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1647916-1-S</link>
       <guid isPermaLink="false">12462-1647916-1-S</guid>
@@ -2161,12 +2201,28 @@
       <description>Teampicnic · Hamburg · €15.12/h · Marketing &amp; Communication</description>
     </item>
     <item>
+      <title>Einkauf Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/einkauf-werkstudent-hamburg-hamburg-286136</link>
+      <guid isPermaLink="false">an:einkauf-werkstudent-hamburg-hamburg-286136</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Teampicnic · Hamburg · €15.12/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
       <title>Founder's Associate (Werkstudent*in, m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/earthbound-gmbh/founders-associate-werkstudentin-berlin-47287</link>
       <guid isPermaLink="false">an:founders-associate-werkstudentin-berlin-47287</guid>
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Earthbound GmbH · Berlin · Other</description>
+    </item>
+    <item>
+      <title>Marketing Einkauf Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/marketing-einkauf-werkstudent-hamburg-hamburg-467670</link>
+      <guid isPermaLink="false">an:marketing-einkauf-werkstudent-hamburg-hamburg-467670</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Teampicnic · Hamburg · €15.12/h · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>People &amp; Culture - Working Student (all genders)</title>
@@ -2351,62 +2407,6 @@
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>SGB-SMIT Group · Regensburg · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Working Student, SpaceOps</title>
-      <link>https://www.arbeitnow.com/jobs/companies/planetlabs/working-student-spaceops-berlin-364417</link>
-      <guid isPermaLink="false">an:working-student-spaceops-berlin-364417</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>planetlabs · Berlin · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Recht &amp; Compliance</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003927254-S</link>
-      <guid isPermaLink="false">10001-1003927254-S</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Caldic Deutschland GmbH · Düsseldorf · €16.00/h · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Bereich Risk &amp; Compliance Ref.-Nr.: 2026-0607</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003927712-S</link>
-      <guid isPermaLink="false">10001-1003927712-S</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Northrop Grumman LITEF GmbH · Freiburg · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent in der Produktentwicklung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003927769-S</link>
-      <guid isPermaLink="false">10001-1003927769-S</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Emsland Frischgeflügel GmbH · Haren (Ems) · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudentin / Werkstudent (m/w/d) Physik, Maschinenbau, Elektrotechnik (26-180-7A)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003928585-S</link>
-      <guid isPermaLink="false">10001-1003928585-S</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Physikalisch-Technische Bundesanstalt · Berlin · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent/in (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003928891-S</link>
-      <guid isPermaLink="false">10001-1003928891-S</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Verbandsgemeindeverwaltung Vallendar · Vallendar · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Architektur / Planung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003929708-S</link>
-      <guid isPermaLink="false">10001-1003929708-S</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Saller Dienstleistungs GmbH · Weimar · Engineering &amp; Production</description>
     </item>
   </channel>
 </rss>

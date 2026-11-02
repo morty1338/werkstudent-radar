@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent – UX &amp; DesignOps (m/w/divers)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1631098-2-S</link>
+      <guid isPermaLink="false">13348-1631098-2-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Lufthansa Technik AG · Hamburg · Design &amp; UX · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent Design - Grafik- &amp; Kommunikation (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1648912-1-S</link>

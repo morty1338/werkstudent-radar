@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent im Kundenkontakt (m/w/d)</title>
@@ -15,6 +15,14 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Sparkasse Hohenlohekreis · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent in internen Bereichen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001C0E-S</link>
+      <guid isPermaLink="false">18024-10Q4800001C0E-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Sparkasse Hohenlohekreis · Künzelsau · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent Finance (m/w/d)</title>

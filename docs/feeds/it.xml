@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent KI-Anwendungen (15-20 Wochenstunden) (m/w/d)</title>
@@ -15,6 +15,14 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Rechenzentrum Hartmann GmbH &amp; Co. KG · Mönchengladbach · €17.50/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Working Student (f/m/d) - SAP Cloud ALM Operations Team</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1649668-1-S</link>
+      <guid isPermaLink="false">11070-1649668-1-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>SAP · St. Leon-Rot · IT &amp; Software · no German needed</description>
     </item>
     <item>
       <title>accompio GmbH: Werkstudent (m/w/d) IT-Services - Wedemark/Hannover</title>
@@ -239,6 +247,14 @@
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Hamburger Energienetze GmbH · Hamburg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Qualitätsmanagement für Innovation und Digitalisierung (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1647897-1-S</link>
+      <guid isPermaLink="false">12462-1647897-1-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>BMW AG · Regensburg · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent Entwicklung und Industrialisierung von Hochvoltspeichern (w/m/x)</title>

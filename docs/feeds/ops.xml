@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent im Einkauf (m/w/d), Cottbus</title>
@@ -103,6 +103,14 @@
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>thyssenkrupp Gerlach GmbH · Homburg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Einkauf Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/einkauf-werkstudent-hamburg-hamburg-286136</link>
+      <guid isPermaLink="false">an:einkauf-werkstudent-hamburg-hamburg-286136</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Teampicnic · Hamburg · €15.12/h · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Working Student – Procurement, Land Domain (m/f/d)</title>
