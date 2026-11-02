@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Data &amp; AI - Group Procurement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003949221-S</link>
+      <guid isPermaLink="false">10001-1003949221-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Heraeus Business Solutions GmbH HRdirekt · Hanau · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student - Business Analyst (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/working-student-business-analyst-dusseldorf-north-rhine-westphalia-109744</link>
+      <guid isPermaLink="false">an:working-student-business-analyst-dusseldorf-north-rhine-westphalia-109744</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Teampicnic · Düsseldorf · €15.50/h · Data &amp; Analytics · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent:in Digital Transformation und Data Engineering (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-885-1-S</link>
@@ -15,14 +31,6 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>E.ON SE · Essen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Working Student – Quality &amp; Data (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/jawbuddy/working-student-quality-data-berlin-77350</link>
-      <guid isPermaLink="false">an:working-student-quality-data-berlin-77350</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>JawBuddy · Berlin · Data &amp; Analytics · no German needed</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) Digitalization &amp; Data-Driven Business Applications</title>
@@ -183,38 +191,6 @@
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>TYTAN Technologies GmbH · München · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) AI &amp; Analytics - AI Business Analyst</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f1156j0456897-S</link>
-      <guid isPermaLink="false">12336-a26f1156j0456897-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Speira GmbH · Grevenbroich · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) AI &amp; Analytics</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f1156j0456906-S</link>
-      <guid isPermaLink="false">12336-a26f1156j0456906-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Speira GmbH · Grevenbroich · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent interne Datenpflege &amp; Assetmanagement (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44532742-1026-S</link>
-      <guid isPermaLink="false">15086-44532742-1026-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Bechtle AG · Bonn · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent im Sales Pricing – Stammdatenmanagement (w/m/div.)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF299430B-d0c8f2e-S</link>
-      <guid isPermaLink="false">15986-REF299430B-d0c8f2e-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Robert Bosch GmbH · Lohr am Main · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

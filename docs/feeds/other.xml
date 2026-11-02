@@ -6,8 +6,56 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent/in im Bereich Kundendienst Oberhausen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4988272291-S</link>
+      <guid isPermaLink="false">12288-4988272291-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Liebherr-Werk Ehingen GmbH · Oberhausen · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Forderungsmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13999-k53401.34360-S</link>
+      <guid isPermaLink="false">13999-k53401.34360-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>jobtimum GmbH · Bremen · €16.50/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Bereich Ausbildung (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20956-2369466-S</link>
+      <guid isPermaLink="false">20956-2369466-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>DATAPORT AdöR · Hamburg · €18.00/h · Other</description>
+    </item>
+    <item>
+      <title>Founder's Associate Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/inca/founders-associate-working-student-berlin-327142</link>
+      <guid isPermaLink="false">an:founders-associate-working-student-berlin-327142</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>inca · Berlin · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent:in growth engineer (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/relokate-hr-gmbh/werkstudentin-growth-engineer-berlin-127979</link>
+      <guid isPermaLink="false">an:werkstudentin-growth-engineer-berlin-127979</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>relokate HR GmbH · Berlin · €17.00/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Guest Service (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/limehome/werkstudentin-guest-service-munich-167567</link>
+      <guid isPermaLink="false">an:werkstudentin-guest-service-munich-167567</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>limehome · München · Other</description>
+    </item>
     <item>
       <title>Werkstudent/-in (w/m/d) im Jobcenter Vogtland  - Teilzeit max. 20 Std. (befristet für 6  Monate)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208497926-S</link>
@@ -265,14 +313,6 @@
       <description>Bezirksamt Spandau von Berlin Abt. PersFinWiFö - PS II Abr.- · Berlin · Other</description>
     </item>
     <item>
-      <title>Founder's Associate (Working Student)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/limatica/founders-associate-working-student-munich-446007</link>
-      <guid isPermaLink="false">an:founders-associate-working-student-munich-446007</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Limatica · München · Other · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent Marketplace Manager (m/w/d) – Amazon, TikTok Shop &amp; Temu</title>
       <link>https://www.arbeitnow.com/jobs/companies/amalock/werkstudent-marketplace-manager-amazon-tiktok-shop-temu-berlin-83989</link>
       <guid isPermaLink="false">an:werkstudent-marketplace-manager-amazon-tiktok-shop-temu-berlin-83989</guid>
@@ -321,14 +361,6 @@
       <description>Wilsonart Europe | Resopal GmbH · Groß-Umstadt · Other</description>
     </item>
     <item>
-      <title>Customer Support NL/ENG - Working Student</title>
-      <link>https://www.arbeitnow.com/jobs/companies/moss/customer-support-nl-eng-working-student-berlin-1051</link>
-      <guid isPermaLink="false">an:customer-support-nl-eng-working-student-berlin-1051</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Moss · Berlin · Other · no German needed</description>
-    </item>
-    <item>
       <title>Working Student - LLM Quantization &amp; Inference Performance</title>
       <link>https://www.arbeitnow.com/jobs/companies/tensordyne/working-student-llm-quantization-inference-performance-munich-213802</link>
       <guid isPermaLink="false">an:working-student-llm-quantization-inference-performance-munich-213802</guid>
@@ -341,86 +373,6 @@
       <link>https://www.arbeitnow.com/jobs/companies/tensordyne/working-student-ml-compiler-munich-381116</link>
       <guid isPermaLink="false">an:working-student-ml-compiler-munich-381116</guid>
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Tensordyne · München · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Praktikant / Werkstudent Additive Manufacturing 3D-Druck (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003916651-S</link>
-      <guid isPermaLink="false">10001-1003916651-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>technotrans SE · Sassenberg · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Investor Management</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4979402582-S</link>
-      <guid isPermaLink="false">12288-4979402582-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>HANSAINVEST · Hamburg · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent (all gender) im Housekeeping oder Service</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-K74POJ-WIU-S</link>
-      <guid isPermaLink="false">12518-K74POJ-WIU-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Maritim Hotel Ulm · Ulm · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Fuhrparkmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-a1150a49-846d-46e1--S</link>
-      <guid isPermaLink="false">12951-a1150a49-846d-46e1--S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Vonovia Recruiting DE · Bochum · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Textmanagement Schwerpunkt asiatische Sprache</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-df6f464c_JB5281503-S</link>
-      <guid isPermaLink="false">13635-df6f464c_JB5281503-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>SI &amp; Usaneers · Stuttgart · Other</description>
-    </item>
-    <item>
-      <title>Werkstudententätigkeit (m/w/d) im Bereich Nachhaltigkeit</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-1c592fny2z3-S</link>
-      <guid isPermaLink="false">14927-1c592fny2z3-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Eberspächer Gruppe GmbH &amp; Co. KG · Neunkirchen bei Mosbach · Other</description>
-    </item>
-    <item>
-      <title>Werkstudententätigkeit (m/w/d) im Bereich Supplier Manageme</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-2k391tun9zc-S</link>
-      <guid isPermaLink="false">14927-2k391tun9zc-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Eberspächer Gruppe GmbH &amp; Co. KG · Neunkirchen bei Mosbach · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent TikTok Shop Live Management &amp; Operator - all genders</title>
-      <link>https://www.arbeitnow.com/jobs/companies/adbaker/werkstudent-tiktok-shop-live-management-operator-all-genders-cologne-311703</link>
-      <guid isPermaLink="false">an:werkstudent-tiktok-shop-live-management-operator-all-genders-cologne-311703</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>ADBAKER · Köln · Other</description>
-    </item>
-    <item>
-      <title>Working Student Go-to-Market (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/bifrost-defence/working-student-go-to-market-munich-33437</link>
-      <guid isPermaLink="false">an:working-student-go-to-market-munich-33437</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Bifrost Defence · München · €17.00/h · Other</description>
-    </item>
-    <item>
-      <title>Working Student - LLM Quantization &amp; Inference Performance</title>
-      <link>https://www.arbeitnow.com/jobs/companies/tensordyne/working-student-llm-quantization-inference-performance-munich-206903</link>
-      <guid isPermaLink="false">an:working-student-llm-quantization-inference-performance-munich-206903</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Tensordyne · München · Other · no German needed</description>
     </item>

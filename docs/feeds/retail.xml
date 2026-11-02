@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) im Verkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14543-25775-1802358-0-S</link>
+      <guid isPermaLink="false">14543-25775-1802358-0-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>NKD Deutschland GmbH · Westhausen · Retail &amp; Hospitality</description>
+    </item>
     <item>
       <title>Werkstudentin im Verkauf Weiterstadt</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003947304-S</link>
@@ -162,22 +170,6 @@
     </item>
     <item>
       <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12942-1648368-1-S</link>
-      <guid isPermaLink="false">12942-1648368-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Dirk Rossmann GmbH · Bielefeld · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12942-1648374-1-S</link>
-      <guid isPermaLink="false">12942-1648374-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Dirk Rossmann GmbH · Neuss · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12942-1648808-1-S</link>
       <guid isPermaLink="false">12942-1648808-1-S</guid>
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
@@ -271,110 +263,6 @@
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>Rent Awesome People GmbH c/o Klessig Immobilien · Kiel · €15.50/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent SHOP im Schloss Henkell (w/m/d) - max. 20 Stunden/Woche</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003914008-S</link>
-      <guid isPermaLink="false">10001-1003914008-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Henkell &amp; Co. Sektkellerei KG · Wiesbaden · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent:in als Restaurant-Mitarbeiter:in - TZ</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12280-2026-79763-0-S</link>
-      <guid isPermaLink="false">12280-2026-79763-0-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Gier GmbH &amp; Co.KG McDonald's Franchise · Wiesbaden · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent:in als Restaurant-Mitarbeiter:in - TZ</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12280-2026-79764-0-S</link>
-      <guid isPermaLink="false">12280-2026-79764-0-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>AXG GmbH &amp; Co. KG McDonald's Franchise · Wiesbaden · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent:in als Restaurant-Mitarbeiter:in - TZ</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12280-2026-79765-0-S</link>
-      <guid isPermaLink="false">12280-2026-79765-0-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Gier GmbH &amp; Co.KG McDonald's Franchise · Wiesbaden · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>studentische Aushilfe / Werkstudent (m/w/d) WMF Mannheim</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-555239cc-390c-40b6--S</link>
-      <guid isPermaLink="false">12951-555239cc-390c-40b6--S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>GROUPE SEB WMF Retail GmbH · Mannheim · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent / Studentische Aushilfe Verkauf Holzzuschnitt (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14011-44532905-1026-S</link>
-      <guid isPermaLink="false">14011-44532905-1026-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Bauhaus AG · Karlsruhe · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Verkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14543-25698-1801523-0-S</link>
-      <guid isPermaLink="false">14543-25698-1801523-0-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>NKD Deutschland GmbH · Volkach · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Verkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14543-25712-1801583-0-S</link>
-      <guid isPermaLink="false">14543-25712-1801583-0-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>NKD Deutschland GmbH · Ansbach · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) / Aushilfe (m/w/d) Verkauf - Hamburg-Kie</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-1kls2xe2sw1-S</link>
-      <guid isPermaLink="false">14927-1kls2xe2sw1-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>dennree GmbH · Hamburg · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) - Grünwald</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-2dzi0nn81pz-S</link>
-      <guid isPermaLink="false">14927-2dzi0nn81pz-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>dennree GmbH · Grünwald · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) / Aushilfe (m/w/d) Verkauf - Hamburg-Heu</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-2m3vngjwgml-S</link>
-      <guid isPermaLink="false">14927-2m3vngjwgml-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>dennree GmbH · Hamburg · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) - Initiativ</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-2n5f8vbpk2t-S</link>
-      <guid isPermaLink="false">14927-2n5f8vbpk2t-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>dennree GmbH · Töpen · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) - München-Grünwalder Straße</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-nghae47bq5-S</link>
-      <guid isPermaLink="false">14927-nghae47bq5-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>dennree GmbH · München · Retail &amp; Hospitality</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Kaufmännische Projektabwicklung für Hochgeschwindigkeitszüge</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1649394-1-S</link>
+      <guid isPermaLink="false">12465-1649394-1-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Siemens AG · Erlangen · €15.00/h · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent im Produktmanagement Transformer / Wireless Power (m/w/d), PLZ 80-81</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2369530-S</link>
+      <guid isPermaLink="false">12811-2369530-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Wurth Electronics Midcom Inc., German Branch · München · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent - Projektassistenz Instandhaltung Gas &amp; Strom (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4985162227-S</link>
@@ -81,14 +97,6 @@
       <description>Landkreis München · München · Product &amp; Project Mgmt</description>
     </item>
     <item>
-      <title>Werkstudent (d/m/w) Projektmanagement Flügelausrüstung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-979971875-S</link>
-      <guid isPermaLink="false">16947-979971875-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Airbus Operations GmbH Werk Bremen · Bremen · €19.10/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
       <title>Working Student - Product &amp; Project Management (all genders)</title>
       <link>https://www.arbeitnow.com/jobs/companies/getolo/working-student-product-project-management-all-genders-berlin-367855</link>
       <guid isPermaLink="false">an:working-student-product-project-management-all-genders-berlin-367855</guid>
@@ -151,30 +159,6 @@
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Rheinmetall AG · Düsseldorf · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Customer Enablement Learning &amp; Development (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13509-0000211168b001-S</link>
-      <guid isPermaLink="false">13509-0000211168b001-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>BWI GmbH · €16.00/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent - Energie &amp; Infrastruktur Projekte (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-94659292_JB5282627-S</link>
-      <guid isPermaLink="false">13635-94659292_JB5282627-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Dr. van de Sandt und Stollner · Berlin · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (d/m/w) im Projektmanagement Flügelausrüstung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-979266098-S</link>
-      <guid isPermaLink="false">16947-979266098-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Airbus Operations GmbH Werk Bremen · Bremen · €19.10/h · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Kundenbetreuung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-10c0d355_JB5286616-S</link>
+      <guid isPermaLink="false">13635-10c0d355_JB5286616-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Redion · Rostock · €16.00/h · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent:in / Praktikant:in Customer Success &amp; Operations (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/decari-gmbh/praktikant-operations-growth-berlin-482406</link>
+      <guid isPermaLink="false">an:praktikant-operations-growth-berlin-482406</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Decari GmbH · Berlin · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent | Praktikant Sales (F/M/*)</title>
       <link>https://www.arbeitnow.com/jobs/companies/amber/werkstudent-praktikant-sales-f-m-koln-27828</link>
@@ -489,22 +505,6 @@
       <description>Lidl Dienstleistung GmbH &amp; Co. KG · Kerpen · €15.00/h · Sales &amp; Business Development</description>
     </item>
     <item>
-      <title>Business Development Representative (BDR) (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/helix/business-development-representative-bdr-munich-34180</link>
-      <guid isPermaLink="false">an:business-development-representative-bdr-munich-34180</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Helix · München · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent*in im Sales Development</title>
-      <link>https://www.arbeitnow.com/jobs/companies/yes-technology-gmbh/werkstudentin-im-sales-development-berlin-28183</link>
-      <guid isPermaLink="false">an:werkstudentin-im-sales-development-berlin-28183</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Yes Technology GmbH · Berlin · Sales &amp; Business Development</description>
-    </item>
-    <item>
       <title>Working Student / Intern (f/m/d) Business Development in MedTech</title>
       <link>https://www.arbeitnow.com/jobs/companies/btt-health-gmbh/working-student-intern-business-development-in-medtech-kissing-82298</link>
       <guid isPermaLink="false">an:working-student-intern-business-development-in-medtech-kissing-82298</guid>
@@ -519,30 +519,6 @@
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Imtf · Bensheim · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Inside Sales (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44532713-1026-S</link>
-      <guid isPermaLink="false">15086-44532713-1026-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Bechtle AG · Leipzig · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent im Vertriebsinnendienst (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18894-0068323093-S</link>
-      <guid isPermaLink="false">18894-0068323093-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>PRO URBAN AG · Meppen · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Sales Assistant, Werkstudent (m/w/d), Hamburg Europa Passage</title>
-      <link>https://www.arbeitnow.com/jobs/companies/lakrids-by-bulow/sales-assistant-werkstudent-hamburg-europa-passage-401401</link>
-      <guid isPermaLink="false">an:sales-assistant-werkstudent-hamburg-europa-passage-401401</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>LAKRIDS BY BÜLOW · Hamburg · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>

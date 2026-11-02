@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Working Student (m/w/d) im Bereich Contract Services</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003948831-S</link>
+      <guid isPermaLink="false">10001-1003948831-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>DIEHL Informatik GmbH · Nürnberg · Legal</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) im Bereich Devices – PPWR-Konformitätserklärungen &amp; Verpackungs-Compliance</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-bb05811f_JB5288107-S</link>
+      <guid isPermaLink="false">13635-bb05811f_JB5288107-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Testo SE &amp; Co. KGaA · Titisee-Neustadt · Legal</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Legal</title>
       <link>https://www.arbeitnow.com/jobs/companies/wortmann-kg-internationale-schuhproduktionen/werkstudent-im-bereich-legal-detmold-26255</link>
@@ -39,22 +55,6 @@
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>Legal</category>
       <description>HAMBURG WASSER · Hamburg · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudentin / Werkstudent Legal, Compliance &amp; Corporate GovernanceLegal, Compliance &amp; Corporate Go</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-3f9b94f6_JB5281581-S</link>
-      <guid isPermaLink="false">13635-3f9b94f6_JB5281581-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Lucke EDV GmbH · Wuppertal · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent Datenschutz (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18896-8653565-S</link>
-      <guid isPermaLink="false">18896-8653565-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Messe Düsseldorf GmbH · Düsseldorf · Legal</description>
     </item>
   </channel>
 </rss>

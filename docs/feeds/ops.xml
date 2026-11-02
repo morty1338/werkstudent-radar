@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 12:50:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Customer Operations</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003949636-S</link>
+      <guid isPermaLink="false">10001-1003949636-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Heraeus Site Operations GmbH &amp; Co. KG HRdirekt · Hanau · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) operativer Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1649957-1-S</link>
+      <guid isPermaLink="false">12465-1649957-1-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Siemens AG · Berlin · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent im Einkauf (m/w/d), Cottbus</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2368942-S</link>
@@ -89,14 +105,6 @@
       <description>jobtimum GmbH · Bremen · €16.50/h · Operations &amp; Logistics</description>
     </item>
     <item>
-      <title>Werkstudent  Logistik und Materialwirtschaft (m/w/d) Lufthansa</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15625-AC2WMK6EO24SP481-S</link>
-      <guid isPermaLink="false">15625-AC2WMK6EO24SP481-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>HITO High Professionals GmbH Norderstedt · Hamburg · €16.30/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
       <title>Werkstudent / Pflichtpraktikant (m/w/d) im Einkauf</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-974942-008-S</link>
       <guid isPermaLink="false">16604-974942-008-S</guid>
@@ -119,14 +127,6 @@
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Quantum-Systems GmbH · Gilching · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Working Student Product Operations (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/appinio/working-student-product-operations-hamburg-hamburg-374820</link>
-      <guid isPermaLink="false">an:working-student-product-operations-hamburg-hamburg-374820</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>appinio · Hamburg · Operations &amp; Logistics · no German needed</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) im Einkauf</title>
@@ -215,22 +215,6 @@
       <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>JUMO GmbH &amp; Co. KG · Fulda · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im Einkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1647589-1-S</link>
-      <guid isPermaLink="false">12465-1647589-1-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Siemens AG · Frankfurt am Main · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Beschaffungslogistik</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-01405698_JB5281586-S</link>
-      <guid isPermaLink="false">13635-01405698_JB5281586-S</guid>
-      <pubDate>Tue, 27 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Friedrich Zufall GmbH &amp; Co. KG · Göttingen · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>
