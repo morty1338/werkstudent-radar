@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (w/m/d) Kaufmännische Projektabwicklung für Hochgeschwindigkeitszüge</title>
@@ -95,6 +95,14 @@
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Landkreis München · München · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (d/m/w) Projektmanagement Flügelausrüstung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-979971875-S</link>
+      <guid isPermaLink="false">16947-979971875-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Airbus Operations GmbH Werk Bremen · Bremen · €19.10/h · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Working Student - Product &amp; Project Management (all genders)</title>

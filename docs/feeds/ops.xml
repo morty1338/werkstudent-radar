@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Customer Operations</title>
@@ -23,6 +23,22 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Siemens AG · Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent Fuhrparkmanagement (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14763-44546946-112-S</link>
+      <guid isPermaLink="false">14763-44546946-112-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Vonovia SE · Bochum · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) im Bereich Kontraktlogistik - Value Added Services</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15112-44546492-112-S</link>
+      <guid isPermaLink="false">15112-44546492-112-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Dachser SE Head Office · Schönefeld bei Berlin · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent im Einkauf (m/w/d), Cottbus</title>

@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Innovation &amp; Strategie (m/w/d/x)</title>
@@ -15,6 +15,14 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Mercedes-Benz Group AG · Stuttgart · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Security Consulting | Sicherheitsberatung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13465-00021a699fb001-S</link>
+      <guid isPermaLink="false">13465-00021a699fb001-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>WISAG Job &amp; Karriere GmbH &amp; Co. KG · Frankfurt am Main · Consulting &amp; Strategy</description>
     </item>
     <item>
       <title>Werkstudent - HORBACH Wirtschaftsberatung Chemnitz, Horbach Wirtschaftsberatung Chemnitz</title>

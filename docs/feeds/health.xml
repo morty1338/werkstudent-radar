@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Natur- und Landschaftspflege (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-288906-S</link>
+      <guid isPermaLink="false">13645-288906-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Die Autobahn GmbH des Bundes · Erfurt · Health &amp; Care</description>
+    </item>
     <item>
       <title>Werkstudent Bäderbetrieb m/w/d ab 16 EUR/Std.</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-414A252-S</link>

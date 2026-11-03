@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Data &amp; AI - Group Procurement</title>
@@ -15,6 +15,22 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Heraeus Business Solutions GmbH HRdirekt · Hanau · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>GlobalFoundries Management Services GmbH &amp; Co. KG: Werkstudent*in im Bereich TCAD – Machine Learning</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3078511793660401-S</link>
+      <guid isPermaLink="false">11956-3078511793660401-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>GlobalFoundries Management Services GmbH &amp; Co. KG · Dresden · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Entwicklung einer Engineering- und Datenintegrationsplattform (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-fb2aec0d-9672-430b--S</link>
+      <guid isPermaLink="false">12951-fb2aec0d-9672-430b--S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>MTU Aero Engines AG · München · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Working Student - Business Analyst (m/w/d)</title>

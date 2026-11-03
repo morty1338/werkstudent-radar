@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Produktion</title>
@@ -17,12 +17,52 @@
       <description>Heraeus Amloy Technologies GmbH HRdirekt · Karlstein am Main · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>GlobalFoundries Management Services GmbH &amp; Co. KG: Werkstudent*in im Bereich TCAD – Prozesssimulatio</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3078551793660401-S</link>
+      <guid isPermaLink="false">11956-3078551793660401-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>GlobalFoundries Management Services GmbH &amp; Co. KG · Dresden · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent (w/m/d) in der R&amp;D Um- und Aufbau von Testanlagen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1649948-1-S</link>
       <guid isPermaLink="false">12465-1649948-1-S</guid>
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Siemens AG · Berlin · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Wirtschaftsingenieurwesen (m/w/d), TEAM Baumanagement GmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2369763-S</link>
+      <guid isPermaLink="false">12811-2369763-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>TEAM Baumanagement GmbH · Köln · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Bauingenieurwesen (m/w/d), TEAM Baumanagement GmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2369764-S</link>
+      <guid isPermaLink="false">12811-2369764-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>TEAM Baumanagement GmbH · Köln · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Architektur (m/w/d), TEAM Baumanagement GmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2369765-S</link>
+      <guid isPermaLink="false">12811-2369765-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>TEAM Baumanagement GmbH · Köln · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Abweichungsmangement (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-f5939058-cb2a-40ec--S</link>
+      <guid isPermaLink="false">12951-f5939058-cb2a-40ec--S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>MTU Aero Engines AG · München · Engineering &amp; Production</description>
     </item>
     <item>
       <title>AMG Praktikanten/Werkstudenten Kompetenzteam-Koordination Rohbau &amp; Montageteile ab Nov. 2026 (m/w/d)</title>
@@ -57,12 +97,36 @@
       <description>Pon.Bike · Emstek · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent Technische Dokumentation (m/w/d) Maschinenbau</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-288239-S</link>
+      <guid isPermaLink="false">13645-288239-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Brunel · Bielefeld · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Grunderwerb und Liegenschaften (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-288905-S</link>
+      <guid isPermaLink="false">13645-288905-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Die Autobahn GmbH des Bundes · Erfurt · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent thermische Klärschlammverwertung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16166-k54172.1386-S</link>
       <guid isPermaLink="false">16166-k54172.1386-S</guid>
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>enercity Contracting GmbH · Hannover · €17.00/h · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Testautomatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q00001608-S</link>
+      <guid isPermaLink="false">18024-10Q7q00001608-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) für den Bereich Engineering</title>

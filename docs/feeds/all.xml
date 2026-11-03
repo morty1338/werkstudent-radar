@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/all.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 23:45:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudentin/Werkstudent für den Bereich Mietrückstandsbearbeitung/Wohnberechtigungsscheine (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003944488-S</link>
+      <guid isPermaLink="false">10001-1003944488-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Stadtverwaltung Trier · Trier · Legal</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Büroorganisation &amp; Verwaltung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003948538-S</link>
@@ -137,6 +145,22 @@
       <description>Pulsetrain GmbH · München · €17.00/h · HR &amp; Recruiting</description>
     </item>
     <item>
+      <title>GlobalFoundries Management Services GmbH &amp; Co. KG: Werkstudent*in im Bereich TCAD – Machine Learning</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3078511793660401-S</link>
+      <guid isPermaLink="false">11956-3078511793660401-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>GlobalFoundries Management Services GmbH &amp; Co. KG · Dresden · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>GlobalFoundries Management Services GmbH &amp; Co. KG: Werkstudent*in im Bereich TCAD – Prozesssimulatio</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3078551793660401-S</link>
+      <guid isPermaLink="false">11956-3078551793660401-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>GlobalFoundries Management Services GmbH &amp; Co. KG · Dresden · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent/in im Bereich Kundendienst Oberhausen (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4988272291-S</link>
       <guid isPermaLink="false">12288-4988272291-S</guid>
@@ -185,12 +209,76 @@
       <description>Siemens AG · Berlin · Operations &amp; Logistics</description>
     </item>
     <item>
+      <title>Night Auditor / Nachtdienst Aushilfe/ Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-POU1PT-SPZ-S</link>
+      <guid isPermaLink="false">12518-POU1PT-SPZ-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Lindner Hotel Köln City Plaza · Köln · €18.00/h · Finance &amp; Controlling</description>
+    </item>
+    <item>
       <title>Werkstudent im Produktmanagement Transformer / Wireless Power (m/w/d), PLZ 80-81</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2369530-S</link>
       <guid isPermaLink="false">12811-2369530-S</guid>
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Wurth Electronics Midcom Inc., German Branch · München · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent Wirtschaftsingenieurwesen (m/w/d), TEAM Baumanagement GmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2369763-S</link>
+      <guid isPermaLink="false">12811-2369763-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>TEAM Baumanagement GmbH · Köln · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Bauingenieurwesen (m/w/d), TEAM Baumanagement GmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2369764-S</link>
+      <guid isPermaLink="false">12811-2369764-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>TEAM Baumanagement GmbH · Köln · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Architektur (m/w/d), TEAM Baumanagement GmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2369765-S</link>
+      <guid isPermaLink="false">12811-2369765-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>TEAM Baumanagement GmbH · Köln · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent / Praktikant (m/w/d) im Bereich Finanzen / Treasury</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-02b5b604-37bf-4c5f--S</link>
+      <guid isPermaLink="false">12951-02b5b604-37bf-4c5f--S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>WESTFLEISCH · Münster · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent KI-Entwicklung für Multi-Agenten-Systeme in der Triebwerkserprobung (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-23ae1766-dfde-4b1a--S</link>
+      <guid isPermaLink="false">12951-23ae1766-dfde-4b1a--S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>MTU Aero Engines AG · München · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Abweichungsmangement (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-f5939058-cb2a-40ec--S</link>
+      <guid isPermaLink="false">12951-f5939058-cb2a-40ec--S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>MTU Aero Engines AG · München · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Entwicklung einer Engineering- und Datenintegrationsplattform (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-fb2aec0d-9672-430b--S</link>
+      <guid isPermaLink="false">12951-fb2aec0d-9672-430b--S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>MTU Aero Engines AG · München · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent Innovation &amp; Strategie (m/w/d/x)</title>
@@ -241,6 +329,14 @@
       <description>Mercedes-Benz Group AG · Sindelfingen · IT &amp; Software</description>
     </item>
     <item>
+      <title>Werkstudent (m/w/d) Security Consulting | Sicherheitsberatung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13465-00021a699fb001-S</link>
+      <guid isPermaLink="false">13465-00021a699fb001-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>WISAG Job &amp; Karriere GmbH &amp; Co. KG · Frankfurt am Main · Consulting &amp; Strategy</description>
+    </item>
+    <item>
       <title>Werkstudent:in (m/w/d) Personalmanagement</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-09c14735_JB5286403-S</link>
       <guid isPermaLink="false">13635-09c14735_JB5286403-S</guid>
@@ -287,6 +383,30 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Pon.Bike · Emstek · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Technische Dokumentation (m/w/d) Maschinenbau</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-288239-S</link>
+      <guid isPermaLink="false">13645-288239-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Brunel · Bielefeld · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Grunderwerb und Liegenschaften (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-288905-S</link>
+      <guid isPermaLink="false">13645-288905-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Die Autobahn GmbH des Bundes · Erfurt · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Natur- und Landschaftspflege (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-288906-S</link>
+      <guid isPermaLink="false">13645-288906-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Die Autobahn GmbH des Bundes · Erfurt · Health &amp; Care</description>
     </item>
     <item>
       <title>Werkstudent in der HR</title>
@@ -337,12 +457,68 @@
       <description>Tempton Personaldienstleistungen GmbH NL Kirchheim · Kirchheim unter Teck · HR &amp; Recruiting</description>
     </item>
     <item>
+      <title>Werkstudent Fuhrparkmanagement (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14763-44546946-112-S</link>
+      <guid isPermaLink="false">14763-44546946-112-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Vonovia SE · Bochum · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) im Bereich Kontraktlogistik - Value Added Services</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15112-44546492-112-S</link>
+      <guid isPermaLink="false">15112-44546492-112-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Dachser SE Head Office · Schönefeld bei Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
       <title>Werkstudent thermische Klärschlammverwertung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16166-k54172.1386-S</link>
       <guid isPermaLink="false">16166-k54172.1386-S</guid>
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>enercity Contracting GmbH · Hannover · €17.00/h · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Performance Marketing (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16470-44547208-112-S</link>
+      <guid isPermaLink="false">16470-44547208-112-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Telefónica Germany GmbH &amp; Co. OHG · München · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent im Bereich Tax / Steuerberatung (w/m/d) 315</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17890-44546966-112-S</link>
+      <guid isPermaLink="false">17890-44546966-112-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>KPMG AG Wirtschaftsprüfungs gesellschaft · Mannheim · €15.00/h · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent im Kundenkontakt (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001B0F-S</link>
+      <guid isPermaLink="false">18024-10Q4800001B0F-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Sparkasse Hohenlohekreis · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent in internen Bereichen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001C0F-S</link>
+      <guid isPermaLink="false">18024-10Q4800001C0F-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Sparkasse Hohenlohekreis · Künzelsau · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Testautomatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q00001608-S</link>
+      <guid isPermaLink="false">18024-10Q7q00001608-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent IT-Consulting im Kundenservice (m/w/d)</title>
@@ -2217,196 +2393,20 @@
       <description>HSE · Ismaning · Marketing &amp; Communication</description>
     </item>
     <item>
+      <title>Werkstudent Empfang Officemanagement (m/w/d), Braunschweig</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2366472-S</link>
+      <guid isPermaLink="false">12811-2366472-S</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>fme AG · Braunschweig · Office &amp; Admin</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) Prozessengineering, Dortmund</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2366475-S</link>
       <guid isPermaLink="false">12811-2366475-S</guid>
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Dr. Ausbüttel GmbH &amp; Co. KG · Dortmund · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Design - Grafik- &amp; Kommunikation(m/w/d), MC Center</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2366476-S</link>
-      <guid isPermaLink="false">12811-2366476-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Mercedes-Benz Consulting GmbH · Leinfelden-Echterdingen · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (w/m/d) Web Development, con|energy</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2366478-S</link>
-      <guid isPermaLink="false">12811-2366478-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>con | energy agentur gmbh · Essen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Studium - Praktikant / Werkstudent (m/w/d) Microanschlusstechnik und Feinstleit..., Otto Dunkel GmbH</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2366674-S</link>
-      <guid isPermaLink="false">12811-2366674-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>ODU GmbH &amp; Co. KG · Mühldorf am Inn · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Regulierungsmanagement, Balance Zentrale Leipzig</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2366737-S</link>
-      <guid isPermaLink="false">12811-2366737-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>BALANCE Erneuerbare Energien GmbH · Leipzig · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12942-1648808-1-S</link>
-      <guid isPermaLink="false">12942-1648808-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Dirk Rossmann GmbH · Wetzlar · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent HR - Executive Management (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-09e4a3cf-e367-4596--S</link>
-      <guid isPermaLink="false">12951-09e4a3cf-e367-4596--S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>MTU Aero Engines AG · München · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Flottenmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-62daab4f-7e6e-4fe8--S</link>
-      <guid isPermaLink="false">12951-62daab4f-7e6e-4fe8--S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Aira Home Germany GmbH · Berlin · €15.00/h · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Process Design &amp; Transformation (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-7795cf85-8f89-40c4--S</link>
-      <guid isPermaLink="false">12951-7795cf85-8f89-40c4--S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>MTU Maintenance Hannover GmbH · Langenhagen · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Automatisierte Kreditentscheidungssysteme (d/m/w)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-c5c05278-c6ae-4a49--S</link>
-      <guid isPermaLink="false">12951-c5c05278-c6ae-4a49--S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>VR Smart Finanz AG · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Sales Data Architecture &amp; Agentic AI (m/w/d/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1648124-1-S</link>
-      <guid isPermaLink="false">13151-1648124-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Mercedes-Benz Group AG · Ulm · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Entwicklung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1648423-1-S</link>
-      <guid isPermaLink="false">13151-1648423-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Prozesse &amp; Systeme Lieferantenkapazitätsmanagement / Industrialisierungsmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1648434-1-S</link>
-      <guid isPermaLink="false">13151-1648434-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Virtuelle SW-Entwicklung für Antriebssysteme</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1648523-1-S</link>
-      <guid isPermaLink="false">13151-1648523-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Facility Management</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1648939-1-S</link>
-      <guid isPermaLink="false">13151-1648939-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Mercedes-Benz Group AG · Bremen · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Leitungssatzentwicklung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1648965-1-S</link>
-      <guid isPermaLink="false">13151-1648965-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Working Student Key Account Management EPAR (m/f/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1648271-1-S</link>
-      <guid isPermaLink="false">13348-1648271-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Lufthansa Technik AG · Hamburg · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent - Java OpenJDK (m/w/divers)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1648776-1-S</link>
-      <guid isPermaLink="false">13348-1648776-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Lufthansa Technik AG · Hamburg · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent:in mit Schwerpunkt Evaluationen und Projektmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-1885f9ae_JB5284360-S</link>
-      <guid isPermaLink="false">13635-1885f9ae_JB5284360-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>IMAP GmbH · Berlin · €16.50/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Praktikant / Werkstudent (m/w/d) – Research &amp; Treatment Innovation</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-1de9ca33_JB5284566-S</link>
-      <guid isPermaLink="false">13635-1de9ca33_JB5284566-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>meinphysio+ GmbH · Berlin · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Working Student – Python Development for Aircraft Design Optimisation (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-a3f92df6_JB5284505-S</link>
-      <guid isPermaLink="false">13635-a3f92df6_JB5284505-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>eRC System · Ottobrunn · Design &amp; UX · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (gn) Einkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-b5ef65a2_JB5284881-S</link>
-      <guid isPermaLink="false">13635-b5ef65a2_JB5284881-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Vercore · Fulda · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Public Sector Consulting / Projektmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-bc930c07_JB5284363-S</link>
-      <guid isPermaLink="false">13635-bc930c07_JB5284363-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>IMAP GmbH · Düsseldorf · €16.50/h · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent Engineering (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-be4d2b7c_JB5284502-S</link>
-      <guid isPermaLink="false">13635-be4d2b7c_JB5284502-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Vogtmann-Herold+Co.GmbH · Koblenz am Rhein · Engineering &amp; Production</description>
     </item>
   </channel>
 </rss>
