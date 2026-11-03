@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:15:18 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Tischler / Schreiner (m/w/d) - Teilzeit, Werkstudent oder Minijob, Kupferhammer</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2369945-S</link>
+      <guid isPermaLink="false">12811-2369945-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>MöllerWerke GmbH · Bielefeld · Health &amp; Care</description>
+    </item>
     <item>
       <title>Werkstudent Natur- und Landschaftspflege (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13645-288906-S</link>

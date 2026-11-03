@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:15:18 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudentin/Werkstudent für den Bereich Mietrückstandsbearbeitung/Wohnberechtigungsscheine (m/w/d)</title>
@@ -31,6 +31,14 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Legal</category>
       <description>Testo SE &amp; Co. KGaA · Titisee-Neustadt · Legal</description>
+    </item>
+    <item>
+      <title>Werkstudent Compliance Due Diligence (CDD) (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-634617-7878-1423-S</link>
+      <guid isPermaLink="false">15939-BB-634617-7878-1423-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Rheinmetall AG · Düsseldorf · Legal</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Legal</title>

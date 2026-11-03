@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/marketing.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:15:18 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Redaktion (m/w/d)</title>
@@ -17,6 +17,14 @@
       <description>Röthig Medien Verlags GmbH &amp; Co. KG · Berlin · €16.00/h · Marketing &amp; Communication</description>
     </item>
     <item>
+      <title>Werkstudent Business Development &amp; Marketing (m/w/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13660-981042659-S</link>
+      <guid isPermaLink="false">13660-981042659-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Arvato · Marketing &amp; Communication</description>
+    </item>
+    <item>
       <title>Werkstudent Performance Marketing (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16470-44547208-112-S</link>
       <guid isPermaLink="false">16470-44547208-112-S</guid>
@@ -25,12 +33,44 @@
       <description>Telefónica Germany GmbH &amp; Co. OHG · München · Marketing &amp; Communication</description>
     </item>
     <item>
+      <title>Werkstudent External und  Internal Communications (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-975189-008-S</link>
+      <guid isPermaLink="false">16604-975189-008-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>TKMS GmbH · Hamburg · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent Communication und Project Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-975190-008-S</link>
+      <guid isPermaLink="false">16604-975190-008-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>TKMS GmbH · Hamburg · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Marketing und Social Media</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17071-3150402_4096317-S</link>
+      <guid isPermaLink="false">17071-3150402_4096317-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Dominikus-Ringeisen-Werk Kirchliche Stiftung des öffentlichen Rechts · Ursberg · Marketing &amp; Communication</description>
+    </item>
+    <item>
       <title>Werkstudent Mediaberatung, Marketing &amp; Werbung (Mensch)</title>
       <link>https://www.arbeitnow.com/jobs/companies/wppmedia/werkstudent-mediaberatung-marketing-werbung-mensch-cologne-274655</link>
       <guid isPermaLink="false">an:werkstudent-mediaberatung-marketing-werbung-mensch-cologne-274655</guid>
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>wppmedia · Köln · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Community Management (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/1komma50/werkstudentin-community-management-hamburg-244730</link>
+      <guid isPermaLink="false">an:werkstudentin-community-management-hamburg-244730</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>1KOMMA5˚ · Hamburg · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Werkstudent:in Growth Marketing (m/w/d)</title>

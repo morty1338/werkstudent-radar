@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:15:18 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Praktikant / Werkstudent (m/w/d)- HR Services Projects &amp; Processes</title>
@@ -47,6 +47,30 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Pulsetrain GmbH · München · €17.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) im Bereich Recruitment</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-267961_JB5289278-S</link>
+      <guid isPermaLink="false">12265-267961_JB5289278-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>FERCHAU GmbH Niederlassung Bremen City · Bremen · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Recruiting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-268511_JB5289225-S</link>
+      <guid isPermaLink="false">12265-268511_JB5289225-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>FERCHAU GmbH Niederlassung München Mobility · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent HR &amp; Administration (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-461341_JB5288531-S</link>
+      <guid isPermaLink="false">12265-461341_JB5288531-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>FERCHAU GmbH Niederlassung Oldenburg · Oldenburg (Oldb) · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) Koordination Personalaufbau &amp; Onboarding</title>

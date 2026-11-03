@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:15:18 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>WERKSTUDENT* IM VERKAUF, Filiale #28032 C</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2369939-S</link>
+      <guid isPermaLink="false">12811-2369939-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>NEW YORKER · Retail &amp; Hospitality</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) im Verkauf</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14543-25775-1802358-0-S</link>
@@ -15,6 +23,22 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>NKD Deutschland GmbH · Westhausen · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) / Aushilfe (m/w/d) Verkauf - Oldenburg-B</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-2aovp6pxcox-S</link>
+      <guid isPermaLink="false">14927-2aovp6pxcox-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>dennree GmbH · Oldenburg (Oldb) · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) - Geretsried</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-io53k8t3si-S</link>
+      <guid isPermaLink="false">14927-io53k8t3si-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>dennree GmbH · Geretsried · Retail &amp; Hospitality</description>
     </item>
     <item>
       <title>Werkstudentin im Verkauf Weiterstadt</title>

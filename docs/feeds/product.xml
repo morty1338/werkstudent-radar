@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:15:18 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (w/m/d) Kaufmännische Projektabwicklung für Hochgeschwindigkeitszüge</title>
@@ -23,6 +23,22 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Wurth Electronics Midcom Inc., German Branch · München · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent:in für Projekte &amp; Prozessen in der Energiewirtschaft, Geniner Str. 80 in 23560 Lübeck</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2370070-S</link>
+      <guid isPermaLink="false">12811-2370070-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>TraveNetz GmbH · Lübeck · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent technische Projektleitung E/E-Systementwicklung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635868-7878-5468-S</link>
+      <guid isPermaLink="false">15939-BB-635868-7878-5468-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Rheinmetall AG · Kassel · €18.14/h · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudent - Projektassistenz Instandhaltung Gas &amp; Strom (m/w/d)</title>

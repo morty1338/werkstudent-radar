@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 12:15:18 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Innovation &amp; Strategie (m/w/d/x)</title>
@@ -23,6 +23,22 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>WISAG Job &amp; Karriere GmbH &amp; Co. KG · Frankfurt am Main · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent Unternehmensentwicklung / Strategy (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14910-2EWZRN3XDG2B35Z9-S</link>
+      <guid isPermaLink="false">14910-2EWZRN3XDG2B35Z9-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Inotec Industrieanlagentechnik GmbH · Neuss · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent Strategic Foresight &amp; Market Intelligence (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635867-7878-7173-S</link>
+      <guid isPermaLink="false">15939-BB-635867-7878-7173-S</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Rheinmetall AG · Bremen · Consulting &amp; Strategy</description>
     </item>
     <item>
       <title>Werkstudent - HORBACH Wirtschaftsberatung Chemnitz, Horbach Wirtschaftsberatung Chemnitz</title>
