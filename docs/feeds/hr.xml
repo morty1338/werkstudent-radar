@@ -6,8 +6,72 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 12:15:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 11:16:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Recruiting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003955532-S</link>
+      <guid isPermaLink="false">10001-1003955532-S</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>GINGER HPC GmbH · Harburg (Schwaben) · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Content Creation &amp; On-Camera Talent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003960843-S</link>
+      <guid isPermaLink="false">10001-1003960843-S</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>JM Nature GmbH · Kassel · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) in der Personalberatung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4989470391-S</link>
+      <guid isPermaLink="false">12288-4989470391-S</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Grundmann Personalberatung · Stuhr · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Staffing / Resource Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1649963-1-S</link>
+      <guid isPermaLink="false">12465-1649963-1-S</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Siemens AG · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent HR / Akademie (m/w/d) - 18 Std./Woche</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12489-44549630-113-S</link>
+      <guid isPermaLink="false">12489-44549630-113-S</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Fressnapf Holding SE · Krefeld · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent HR - Recruiting, Active Sourcing &amp; Learning &amp; Development (w/m/d), Köln</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2370415-S</link>
+      <guid isPermaLink="false">12811-2370415-S</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>EY ifb · Köln · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent HR Operations (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15639-494597160-S</link>
+      <guid isPermaLink="false">15639-494597160-S</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Zeppelin GmbH · Garching bei München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (d/m/w) HR mit Schwerpunkt Recruiting</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-981081995-S</link>
+      <guid isPermaLink="false">16947-981081995-S</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Airbus Defence and Space GmbH · Donauwörth · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Praktikant / Werkstudent (m/w/d)- HR Services Projects &amp; Processes</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003949189-S</link>
@@ -65,7 +129,7 @@
       <description>FERCHAU GmbH Niederlassung München Mobility · München · HR &amp; Recruiting</description>
     </item>
     <item>
-      <title>Werkstudent HR &amp; Administration (m/w/d)</title>
+      <title>Werkstudent Recruiting (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-461341_JB5288531-S</link>
       <guid isPermaLink="false">12265-461341_JB5288531-S</guid>
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
@@ -383,62 +447,6 @@
       <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Verve · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Personalwesen / Human Relations (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003918530-S</link>
-      <guid isPermaLink="false">10001-1003918530-S</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Interone GmbH · Hamburg · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Personalmarketing &amp; Recruiting</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003920561-S</link>
-      <guid isPermaLink="false">10001-1003920561-S</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Gaul Catering GmbH &amp; Co. KG · Mainz · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Human Resources - Schwerpunkt Recruiting</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4980516924-S</link>
-      <guid isPermaLink="false">12288-4980516924-S</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Bertrandt AG · Mannheim · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Personalwesen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4980555217-S</link>
-      <guid isPermaLink="false">12288-4980555217-S</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>DIS AG Germany · Braunschweig · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent HR Operations Payroll (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-1ffadfe2-32cc-4beb--S</link>
-      <guid isPermaLink="false">12951-1ffadfe2-32cc-4beb--S</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>MTU Aero Engines AG · München · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent HR Projects (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635773-7878-3045-S</link>
-      <guid isPermaLink="false">15939-BB-635773-7878-3045-S</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Rheinmetall AG · Düsseldorf · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) HR &amp; Digitalisierung – Personaladministration</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17936-k59891.3269-S</link>
-      <guid isPermaLink="false">17936-k59891.3269-S</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Kraftverkehr Gesellschaft mit beschränkter Haftung -KVG GmbH · Stade · €14.50/h · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>

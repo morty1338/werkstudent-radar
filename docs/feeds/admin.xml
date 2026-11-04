@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 12:15:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 11:16:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Nebenjob/ Werkstudent/ Studentische Aushilfe (m/w/d) am Empfang</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-HJ1HT6-TS2-S</link>
+      <guid isPermaLink="false">12518-HJ1HT6-TS2-S</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Motel One Hamburg - Alster · Hamburg · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Nebenjob/ Minijob/Werkstudent/ Studentische Aushilfe (m/w/d) am Empfang</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-RGVCHU-8MM-S</link>
+      <guid isPermaLink="false">12518-RGVCHU-8MM-S</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Motel One Köln - Altstadt (Waidmarkt) · Köln · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Back Office (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-05a3efc7_JB5288636-S</link>
+      <guid isPermaLink="false">13635-05a3efc7_JB5288636-S</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>CRS medical GmbH · Aßlar · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Büroorganisation &amp; Verwaltung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003948538-S</link>
@@ -23,14 +47,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>LSB NRW e.V. · Duisburg · €15.00/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) kaufmännische Sachbearbeitung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17560-bc615c40dcb8416-S</link>
-      <guid isPermaLink="false">17560-bc615c40dcb8416-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>AlphaConsult Premium KG · Bitterfeld-Wolfen · Office &amp; Admin</description>
     </item>
     <item>
       <title>Werkstudent Office &amp; Team Management (F/M/*)</title>
@@ -79,22 +95,6 @@
       <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>Gebr. Westhoff GmbH &amp; Co. KG · Bremen · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudentin / Werkstudent (m/w/d) im Bereich Kanalunterhaltung (Backoffice), Stadtwerke Löhne</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2365118-S</link>
-      <guid isPermaLink="false">12811-2365118-S</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Stadtwerke Löhne · Löhne · €17.42/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Working Student CEO Office (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/codesphere/working-student-ceo-office-karlsruhe-54254</link>
-      <guid isPermaLink="false">an:working-student-ceo-office-karlsruhe-54254</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Codesphere · Karlsruhe · Office &amp; Admin · no German needed</description>
     </item>
   </channel>
 </rss>
