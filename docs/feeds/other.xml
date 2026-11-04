@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 11:16:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 12:25:50 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent/ Auszubildenter/ Schüler als Alltagsbegleiter für Senioren (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003962207-S</link>
+      <guid isPermaLink="false">10001-1003962207-S</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>PAZ Pflegerische Ambulanzzentren GmbH · Ludwigsburg · €15.75/h · Other</description>
+    </item>
     <item>
       <title>Werkstudent Nachhaltigkeitsmanagement Landwirtschaft</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4989513161-S</link>
@@ -31,6 +39,14 @@
       <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Hannoversche Volksbank eG · Hannover · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Kunden-Onboarding (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/cryptory-gmbh/werkstudent-kunden-onboarding-berlin-231969</link>
+      <guid isPermaLink="false">an:werkstudent-kunden-onboarding-berlin-231969</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Cryptory GmbH · Berlin · €27.50/h · Other</description>
     </item>
     <item>
       <title>Werkstudent:in Customer Support (m/w/d)</title>

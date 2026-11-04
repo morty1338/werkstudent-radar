@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 11:16:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 12:25:50 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent AI Consulting / AI Adoption (w/m/d)</title>
@@ -39,6 +39,14 @@
       <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>LESER GmbH &amp; Co. KG · Hamburg · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent/in (w/m/d) Fund Management / Strategy &amp; Sustainability</title>
+      <link>https://www.arbeitnow.com/jobs/companies/sonar-real-estate-gmbh/werkstudent-in-fund-management-strategy-sustainability-hamburg-156982</link>
+      <guid isPermaLink="false">an:werkstudent-in-fund-management-strategy-sustainability-hamburg-156982</guid>
+      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Sonar Real Estate GmbH · Hamburg · Consulting &amp; Strategy</description>
     </item>
     <item>
       <title>Werkstudent Innovation &amp; Strategie (m/w/d/x)</title>
