@@ -234,9 +234,11 @@ jobs:
             }
 
   # Pushes made with GITHUB_TOKEN don't trigger other workflows or Pages builds,
-  # so publish the updated site from here.
+  # so publish the updated site from here. A catch-up run that skips the update
+  # still deploys, so a deploy that failed in the morning is repaired the same day.
   deploy:
-    needs: update
+    needs: [check, update]
+    if: ${{ !cancelled() && needs.check.result == 'success' && (needs.update.result == 'success' || needs.update.result == 'skipped') }}
     permissions:
       contents: read
       pages: write
