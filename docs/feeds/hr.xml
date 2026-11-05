@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 11:47:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Personalentwicklung (m/w/d)</title>
@@ -23,6 +23,14 @@
       <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Yalwa GmbH · Wiesbaden · €17.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) People &amp; Organization (15-20h/Woche)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003966713-S</link>
+      <guid isPermaLink="false">10001-1003966713-S</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>synava GmbH · Karlsruhe · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent Human Resources (w/m/d)</title>

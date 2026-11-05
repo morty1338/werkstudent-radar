@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 11:47:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Gesundheitswesen (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1650967-1-S</link>
+      <guid isPermaLink="false">11070-1650967-1-S</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>MAN Truck &amp; Bus · München · €18.00/h · Health &amp; Care</description>
+    </item>
     <item>
       <title>Werkstudent Krankenhausmanagement</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003961936-S</link>

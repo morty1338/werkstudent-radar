@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 11:47:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) IT / Business Infrastructure – ERP, PIM, DMS &amp; CLM</title>
@@ -703,6 +703,14 @@
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Hamburger Energienetze GmbH · Hamburg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent IT Recruiting (w/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/hyplus-technology-gmbh/werkstudent-it-recruiting-ratingen-423129</link>
+      <guid isPermaLink="false">an:werkstudent-it-recruiting-ratingen-423129</guid>
+      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>HyPlus Technology GmbH · Ratingen · IT &amp; Software</description>
     </item>
     <item>
       <title>Working Student - Backend Development Product Creation &amp; Assignment (m|w|d)</title>

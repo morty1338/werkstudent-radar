@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/all.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 11:47:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent/-in Vertrieb &amp; Business Development (m/w/d)</title>
@@ -185,6 +185,14 @@
       <description>Peter Gross Hochbau GmbH &amp; Co. KG NL. Kaiserslautern · Kaiserslautern · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent (m/w/d) People &amp; Organization (15-20h/Woche)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003966713-S</link>
+      <guid isPermaLink="false">10001-1003966713-S</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>synava GmbH · Karlsruhe · HR &amp; Recruiting</description>
+    </item>
+    <item>
       <title>Werkstudent:in Marketing (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003966845-S</link>
       <guid isPermaLink="false">10001-1003966845-S</guid>
@@ -239,6 +247,22 @@
       <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>La Flamme Neuwied Tanja Bieker · Neuwied · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Rechnungswesen in Nürnberg</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003969753-S</link>
+      <guid isPermaLink="false">10001-1003969753-S</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Schmitt + Sohn Aufzüge GmbH &amp; Co. KG · Nürnberg · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Gesundheitswesen (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1650967-1-S</link>
+      <guid isPermaLink="false">11070-1650967-1-S</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>MAN Truck &amp; Bus · München · €18.00/h · Health &amp; Care</description>
     </item>
     <item>
       <title>Werkstudent Non Food Samples Administration (m/w/d)</title>
@@ -455,6 +479,14 @@
       <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Lufthansa Technik AG · Hamburg · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Station Control (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1650884-1-S</link>
+      <guid isPermaLink="false">13348-1650884-1-S</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Eurowings Aviation GmbH · Köln · Other</description>
     </item>
     <item>
       <title>Werkstudent Vertrieb (m/w/d)</title>
@@ -727,6 +759,14 @@
       <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Bundesgesellschaft für Endlag erung mbH (BGE) · Peine · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (m/w/d) Schadensregulierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18624-0068576587-S</link>
+      <guid isPermaLink="false">18624-0068576587-S</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Stadtwerke Augsburg Holding GmbH · Augsburg · €18.00/h · Other</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Bauingenieurwesen</title>
@@ -2367,46 +2407,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>iT Engineering Software Innovations GmbH · Pliezhausen · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Forderungsmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13999-k53401.34360-S</link>
-      <guid isPermaLink="false">13999-k53401.34360-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>jobtimum GmbH · Bremen · €16.50/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Software Testing (manuell)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14343-2369396-S</link>
-      <guid isPermaLink="false">14343-2369396-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>TOI TOI &amp; DIXI Group GmbH · Ratingen · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Verkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14543-25775-1802358-0-S</link>
-      <guid isPermaLink="false">14543-25775-1802358-0-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>NKD Deutschland GmbH · Westhausen · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent Personal und Recruiting (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-373A145326-S</link>
-      <guid isPermaLink="false">14751-373A145326-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Tempton Personaldienstleistungen GmbH NL Kirchheim · Kirchheim unter Teck · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Fuhrparkmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14763-44546946-112-S</link>
-      <guid isPermaLink="false">14763-44546946-112-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Vonovia SE · Bochum · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

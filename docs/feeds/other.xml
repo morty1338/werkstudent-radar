@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 11:47:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Service Spät (all gender)</title>
@@ -33,12 +33,28 @@
       <description>Lufthansa Technik AG · Hamburg · Other</description>
     </item>
     <item>
+      <title>Werkstudent:in Station Control (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1650884-1-S</link>
+      <guid isPermaLink="false">13348-1650884-1-S</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Eurowings Aviation GmbH · Köln · Other</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) Familienversicherung ab 16,00 EUR Std.</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13999-k53401.34403-S</link>
       <guid isPermaLink="false">13999-k53401.34403-S</guid>
       <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>jobtimum GmbH · Bremen · €16.50/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (m/w/d) Schadensregulierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18624-0068576587-S</link>
+      <guid isPermaLink="false">18624-0068576587-S</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Stadtwerke Augsburg Holding GmbH · Augsburg · €18.00/h · Other</description>
     </item>
     <item>
       <title>Werkstudent Customer Support (m/w/d)</title>
