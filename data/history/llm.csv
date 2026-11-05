@@ -328,6 +328,8 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 10000-1208484757-S,4a76af74b97b5601,2026-10-31,ok,claude-haiku-5-5,c5b58efa,ms_office,event,digitale Eventplattformen,,c1_plus,must_have,c1_plus,must_have,,,,
 10000-1208497926-S,38d758a46b780e8f,2026-11-02,ok,claude-haiku-5-5,c5b58efa,,,Digital affin / IT-Anwendungen,,unknown,not_stated,none,not_stated,,,,20
 10000-1208499275-S,7ef5f8f47d1fba5c,2026-11-02,ok,claude-haiku-5-5,c5b58efa,,cad|creo,3D-Druck;Mechanische Baugruppen;Elektrische Baugruppen,Elektronik;Programmierung;Modell- oder Drohnenbau;KI-Werkzeuge,c1_plus,must_have,fluent,must_have,,,,20
+10000-1208552703-S,7eebe6a70bade406,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
+10000-1208561144-S,3411db0594fef547,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel|ms_office,,LIMS;Stabilitätsstudien;Dokumentation und Standardisierung,,native,must_have,unknown,not_stated,,,,
 10001-1000002494-S,25a22c8e7cd8456a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,electrical,,,,unknown,not_stated,unknown,not_stated,,,,
 10001-1000007482-S,02f20b6d23dc9c84,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,Kundenberatung;Verkaufstätigkeiten,,unknown,not_stated,unknown,not_stated,,,,
 10001-1000051552-S,fbba323fdd3df9f6,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|ms_office,,,,c1_plus,must_have,c1_plus,must_have,,,,
@@ -1784,6 +1786,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 10001-1003955532-S,9dc062a47112f840,2026-11-04,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting,,,,c1_plus,must_have,unknown,not_stated,,,,
 10001-1003955928-S,24cf52c45aaf3c0e,2026-11-04,ok,claude-haiku-5-5,c5b58efa,illustrator|indesign|photoshop|video,,,,unknown,not_stated,unknown,not_stated,,,,
 10001-1003956420-S,50935789b8afe585,2026-11-04,ok,claude-haiku-5-5,c5b58efa,autocad|ms_office,,R & I Fließbilder,,c1_plus,must_have,unknown,not_stated,,,,
+10001-1003956930-S,e627de78b91c6aa7,2026-11-05,ok,claude-haiku-5-5,c5b58efa,controlling,,Learning Management Software (LMS);Moodle-basierte Plattformen,,unknown,not_stated,fluent,must_have,,,,
 10001-1003957166-S,1b3238245492711b,2026-11-04,ok,claude-haiku-5-5,c5b58efa,ms_office,itil,,COBIT,c1_plus,must_have,fluent,must_have,,,,
 10001-1003957895-S,d3d1d9df2176bd9c,2026-11-04,ok,claude-haiku-5-5,c5b58efa,content|ms_office|online_marketing|seo,adobe_cc|canva|sea|social_media|wordpress,Planung von Messen und Veranstaltungen,,c1_plus,must_have,unknown,not_stated,,,,
 10001-1003957983-S,cb29a31a1b7c8fb1,2026-11-04,ok,claude-haiku-5-5,c5b58efa,audit|ifrs_hgb,,Rechnungslegung,,c1_plus,must_have,fluent,must_have,,,,
@@ -1804,6 +1807,32 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 10001-1003961936-S,3b59bc7845e926e3,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,19
 10001-1003962207-S,c6fd38a3120b5b57,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,14,17.5,2,4
 10001-1003962278-S,4113be4a1584c477,2026-11-04,ok,claude-haiku-5-5,c5b58efa,ms_office,,Sozialrecht,,unknown,not_stated,unknown,not_stated,,,10,20
+10001-1003962624-S,30fd4d079c37ceae,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,project_mgmt,,Erfahrungen im Kundenkontakt,c1_plus,must_have,unknown,not_stated,,,,
+10001-1003962693-S,05544bbff1379122,2026-11-05,ok,claude-haiku-5-5,c5b58efa,accounting|controlling|excel,sap,,Analytical skills,unknown,nice_to_have,fluent,must_have,,,,
+10001-1003962735-S,f590703a2b73c13f,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Know-Your-Customer (KYC) Prüfungen;Geldwäscheprävention;Marktmissbrauchsüberwachung;Digitalisierung der Prozesse,Regulatorik,unknown,not_stated,unknown,not_stated,,,,
+10001-1003963074-S,2e9f133ec4cec0be,2026-11-05,ok,claude-haiku-5-5,c5b58efa,bim|cad|crm,,"Markt-, Kunden- und Projektanalysen",,unknown,not_stated,unknown,not_stated,14.2,16.3,20,20
+10001-1003963118-S,705729594dda89a4,2026-11-05,ok,claude-haiku-5-5,c5b58efa,adobe_cc|content|photography|social_media|video,,CapCut,,fluent,must_have,unknown,not_stated,,,,
+10001-1003963152-S,abc46fc77d56a4a2,2026-11-05,ok,claude-haiku-5-5,c5b58efa,accounting|excel|ms_office|outlook|word,,,,fluent,must_have,unknown,not_stated,,,,
+10001-1003963240-S,7a80d15686f2d0bc,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,sap,Vorgabezeitermittlung durch Zeitaufnahmen,,unknown,not_stated,unknown,not_stated,,,16,
+10001-1003963602-S,cf680383a0877f9e,2026-11-05,ok,claude-haiku-5-5,c5b58efa,tax,,,,c1_plus,must_have,c1_plus,must_have,,,,
+10001-1003963655-S,f17d90b10dea39c8,2026-11-05,ok,claude-haiku-5-5,c5b58efa,content|controlling|sea|seo,online_marketing|pr|social_media,,,c1_plus,must_have,c1_plus,must_have,,,,
+10001-1003963984-S,949a3354a2d627b8,2026-11-05,ok,claude-haiku-5-5,c5b58efa,accounting|tax,,Rechnungslegung,,c1_plus,must_have,c1_plus,must_have,,,,
+10001-1003964477-S,35c50bf64c09c78c,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Kundenberatung,,unknown,not_stated,unknown,not_stated,,,,
+10001-1003964713-S,c7f7583f84156501,2026-11-05,ok,claude-haiku-5-5,c5b58efa,jira|m365_admin,dynamics|other_erp|sql,,,fluent,must_have,fluent,must_have,,,,
+10001-1003965176-S,e7df255379607660,2026-11-05,ok,claude-haiku-5-5,c5b58efa,online_marketing|seo|social_media|ux,,Competitor and industry trend analysis;Brand management,,native,must_have,native,must_have,,,20,20
+10001-1003965201-S,79986e91751d6088,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Personio;Absence management tool,,fluent,must_have,fluent,must_have,,,20,20
+10001-1003965403-S,ffaf472342d913f3,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Organisationstalent,,unknown,not_stated,unknown,not_stated,,,20,20
+10001-1003966191-S,9aedbba3d24ad2f7,2026-11-05,ok,claude-haiku-5-5,c5b58efa,m365_admin,itil,SLAs und Vertragsunterlagen,Anwendungsmanagement in einem regulierten IT-Umfeld,unknown,not_stated,unknown,not_stated,,,,
+10001-1003966222-S,df22d23b303b1b39,2026-11-05,ok,claude-haiku-5-5,c5b58efa,controlling,,Budgetplanung;Rechnungslauf und Zahlungsverkehr,,unknown,not_stated,unknown,not_stated,,,,
+10001-1003966248-S,d7986284f918f33a,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Qualitätskontrolle;Bestellungen,,unknown,not_stated,unknown,not_stated,,,20,20
+10001-1003966291-S,592417ba2196f24e,2026-11-05,ok,claude-haiku-5-5,c5b58efa,supply_chain,,Qualitätskontrolle;Bestellungen,,unknown,not_stated,unknown,not_stated,,,20,20
+10001-1003966845-S,e524893716b07198,2026-11-05,ok,claude-haiku-5-5,c5b58efa,content|social_media,adobe_cc|seo|wordpress,Markt- und Wettbewerbsrecherchen,LinkedIn,c1_plus,must_have,unknown,not_stated,,,,
+10001-1003967326-S,e4a641068e069701,2026-11-05,ok,claude-haiku-5-5,c5b58efa,networking,,IT-Hardware,Netzwerkgeräte;IP-basierte Hardware,unknown,not_stated,unknown,not_stated,,,10,20
+10001-1003967943-S,52a4dc3eba431ff7,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,driving_licence|ms_office,,,unknown,not_stated,unknown,not_stated,,,,
+10001-1003968351-S,9b4906efb248f744,2026-11-05,ok,claude-haiku-5-5,c5b58efa,cad|driving_licence|ms_office,,mb AEC Software;VC Master,,c1_plus,must_have,unknown,not_stated,,,,
+10001-1003968614-S,a88ca1cb8bf3147c,2026-11-05,ok,claude-haiku-5-5,c5b58efa,data_analysis,,Zellkulturexperimenten,Zellkulturtechniken,unknown,not_stated,fluent,must_have,,,15,20
+10001-1003968921-S,35d31d8a6bf242bf,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,must_have,none,not_stated,,,,
+10001-1003968985-S,fa374f3a8e8c800e,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,basic,must_have,unknown,not_stated,,,,
 11070-1019956-2-S,ce2bb9fe20abbb2e,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|ms_office|quality,,Prozessbeschreibungen und Arbeitsanweisungen;Erste Erfahrungen im Bereich Produktion,,unknown,not_stated,unknown,not_stated,,,,
 11070-1040805-3-S,8b26edf2ed46c548,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,KPIs;Berichte und Präsentationen;Audits;Energieverbräuche analysieren,,unknown,not_stated,unknown,not_stated,,,,
 11070-1066485-3-S,c1b69ddb47765905,2026-10-14,ok,claude-haiku-5-5,b0e132ec,crm|ms_office|sales_skills,canva,,,c1_plus,must_have,c1_plus,must_have,,,,
@@ -1935,6 +1964,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 11937-35011_59546-1-S,71e0c1c7193b3368,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|power_platform|python|sql,qlik,,Datenmodellierung,fluent,must_have,unknown,not_stated,,,,
 11937-35055_59644-1-S,68cfb02bca696882,2026-10-22,ok,claude-haiku-5-5,c5b58efa,controlling|ms_office,excel,,,c1_plus,must_have,unknown,not_stated,,,,
 11937-35136_59613-1-S,2e3a80914da698f8,2026-10-29,ok,claude-haiku-5-5,c5b58efa,itil|process_mgmt|project_mgmt,jira,,AI,unknown,not_stated,fluent,must_have,,,,
+11937-35244_59586-1-S,636d4d60d5b84855,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|sap,,,,c1_plus,must_have,fluent,must_have,,,,
 11956-1234981790460001-S,331b07daca047e9d,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,csharp|java|mysql|php|ruby,,,fluent,must_have,unknown,not_stated,,,,
 11956-1234981792188001-S,331b07daca047e9d,2026-10-17,ok,claude-haiku-5-5,c5b58efa,,csharp|java|mysql|php|ruby,,,fluent,must_have,unknown,not_stated,,,,
 11956-1235021790460001-S,e4ecb6efeb728fae,2026-10-14,ok,claude-haiku-5-5,b0e132ec,mysql,php,TYPO3 Content Management System,TYPO3,fluent,must_have,unknown,not_stated,,,,
@@ -2333,6 +2363,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12288-4989498866-S,4bfa666acdc68825,2026-11-04,ok,claude-haiku-5-5,c5b58efa,canva|online_marketing|social_media|video,,Foto- und Videoinhalte;Textinhalte;CapCut;Lightroom,,c1_plus,must_have,fluent,must_have,,,,
 12288-4989500975-S,a79e78c83fef3cca,2026-11-04,ok,claude-haiku-5-5,c5b58efa,agile|notion|powerpoint,,Slack,,fluent,must_have,unknown,not_stated,,,,
 12288-4989513161-S,4209dce3cf5adfbc,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
+12288-4990947801-S,9fddc7071514f2d2,2026-11-05,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,must_have,,,,
 12336-a26f1048j0455629-S,a971b824212bf683,2026-10-17,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 12336-a26f1065j0457113-S,b43965d68b225e4f,2026-10-31,ok,claude-haiku-5-5,c5b58efa,it_support,,,,c1_plus,must_have,unknown,not_stated,,,10,20
 12336-a26f1075j0445863-S,0b67e6b93842fbab,2026-10-14,ok,claude-haiku-5-5,b0e132ec,quality,ms_office,Projektplanung und Durchführung,,unknown,not_stated,unknown,not_stated,,,,
@@ -2454,6 +2485,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12456-1649256-1-S,d7c753c6bb09c560,2026-10-31,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,c1_plus,must_have,unknown,not_stated,,,,
 12456-1649267-1-S,e319c5e9470a0915,2026-10-31,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|powerpoint|word,,,,unknown,not_stated,unknown,not_stated,,,15,20
 12456-1650237-1-S,d58c5981d6a97cbf,2026-11-04,ok,claude-haiku-5-5,c5b58efa,social_media,,Beiträge für LinkedIn erstellen;KI-Anwendungen wie Microsoft Copilot;Datenbanken,,unknown,not_stated,unknown,not_stated,,,10,
+12456-1650666-1-S,5f9a80a3b1096e2a,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|powerpoint|project_mgmt,,"360-Grad Kamera;Präsentationen, Berichten und Analysen;Sharepoint;Archivierungstool für Geschäftsunterlagen",,c1_plus,must_have,unknown,not_stated,,,,
 12462-1565199-1-S,5a08835693be5c1c,2026-10-14,ok,claude-haiku-5-5,b0e132ec,embedded,,,,c1_plus,must_have,c1_plus,must_have,,,,
 12462-1573524-1-S,bc090f051814ff30,2026-10-14,ok,claude-haiku-5-5,b0e132ec,project_mgmt,,Projektsteuerung,,c1_plus,must_have,c1_plus,must_have,,,,
 12462-1581762-1-S,3b1eb1e36c7fdf5a,2026-10-14,ok,claude-haiku-5-5,b0e132ec,powerpoint,,,,fluent,must_have,fluent,must_have,,,,
@@ -2657,6 +2689,8 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12489-44499300-1011-S,7c012a08ce8bc603,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|procurement,supply_chain,,,fluent,must_have,fluent,must_have,,,,
 12489-44501543-1012-S,4cffd97e00c90784,2026-10-14,ok,claude-haiku-5-5,b51c75bb,adobe_cc|canva|content|photography|video,,,,native,must_have,fluent,must_have,15,15,,
 12489-44549630-113-S,b9fbc45e0e218178,2026-11-04,ok,claude-haiku-5-5,c5b58efa,ms_office,,,KI ausprobieren,unknown,not_stated,unknown,not_stated,,,18,18
+12489-44551040-114-S,06777477f477bb4e,2026-11-05,ok,claude-haiku-5-5,c5b58efa,content|social_media,adobe_cc|video,,,c1_plus,must_have,fluent,must_have,,,,
+12489-44552072-114-S,ddcb6d1091a188de,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel|ms_office,,,,c1_plus,must_have,fluent,must_have,,,,
 12511-2026X0000050838-S,7311c72c749f6bb4,2026-10-14,ok,claude-haiku-5-5,b0e132ec,bash|cpp|csharp|git|linux,html_css|javascript|rest_api,Hochsprache;WPF;Datenbanken Architektur;Code Reviews;Sprints,Webframeworks;Softwarearchitektur,unknown,not_stated,unknown,not_stated,,,,
 12511-2026X0000052282-S,18f1a6aeec0ce943,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|ms_office|powerpoint,jira,Industrial IoT,SharePoint,fluent,must_have,fluent,must_have,,,,
 12513-0007655797-S,9338ecb9bf646b56,2026-10-14,ok,claude-haiku-5-5,b0e132ec,bim|cad|ms_office,,Gebäudeautomation;Technische Gebäudeausrüstung,VDI 3814;Trimble Plancal NOVA;WEBPROJECT,unknown,not_stated,unknown,not_stated,,,,
@@ -2685,6 +2719,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12518-0KI9II-Y9N-S,f2a4b6809c882d7c,2026-10-21,ok,claude-haiku-5-5,c5b58efa,driving_licence,,,,basic,must_have,unknown,not_stated,16,18,12,16
 12518-0NUO6K-TQZ-S,c020dae1ce4e93d9,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|ms_office,online_marketing,,,unknown,must_have,unknown,must_have,,,20,20
 12518-0RG79U-8BJ-S,7369fe1e855c9794,2026-10-23,ok,claude-haiku-5-5,c5b58efa,,,Datenschutz;Datenschutz-Folgenabschätzungen;Compliance;Rechtswissenschaften;Markenrecht;Zivilrechtliche Fragen;Richtlinien und Schulungen,,c1_plus,must_have,c1_plus,must_have,,,,
+12518-1YBG68-VKT-S,2d03c05a7bf25e87,2026-11-05,ok,claude-haiku-5-5,c5b58efa,m365_admin,,Grundkenntnisse in Windows;Netzwerken;Hard- und Softwareproblemen;Kassensysteme,,fluent,must_have,fluent,must_have,,,,
 12518-1YBG68-XIA-S,2d03c05a7bf25e87,2026-10-14,ok,claude-haiku-5-5,b51c75bb,m365_admin,,Hard- und Softwareprobleme;Netzwerken;Windows;Kassensysteme,,fluent,must_have,fluent,must_have,,,,
 12518-4Q8BY1-9MI-S,9080f52e3bcdbe01,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,driving_licence,,,fluent,must_have,unknown,not_stated,,,,
 12518-4Q8BY1-OPK-S,9080f52e3bcdbe01,2026-10-24,ok,claude-haiku-5-5,c5b58efa,supply_chain,driving_licence,,,fluent,must_have,unknown,not_stated,,,,
@@ -2696,6 +2731,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12518-942ZJR-VQW-S,4deca0be77b4a2d7,2026-10-28,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,16,20
 12518-B05D3C-WLX-S,220a9b9fd3e7ff8f,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,Kaffeespezialitäten als Barista;Warenverfügbarkeit mit Bestellungen,,native,not_stated,unknown,not_stated,,,,
 12518-CCWYFF-NJR-S,47e6efdfc68a3475,2026-10-14,ok,claude-haiku-5-5,b0e132ec,content|event|recruiting|social_media|video,,Fotos;Personalmarketing & Employer Branding,,c1_plus,nice_to_have,fluent,nice_to_have,,,,
+12518-CCWYFF-X7X-S,47e6efdfc68a3475,2026-11-05,ok,claude-haiku-5-5,c5b58efa,content|recruiting|social_media|video,,Fotos;Personalmarketing und Employer Branding,,c1_plus,nice_to_have,fluent,nice_to_have,,,,
 12518-CS4648-9QR-S,b271ec0167c32b0c,2026-10-17,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,20,20
 12518-F1RQ1I-B8C-S,eef0f7d51d03849c,2026-10-14,ok,claude-haiku-5-5,b51c75bb,driving_licence,,,,basic,must_have,unknown,not_stated,16,18,12,16
 12518-HJ1HT6-TS2-S,2b8fe2f3c8aa1543,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,20
@@ -2703,6 +2739,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12518-HNAD2Y-OD8-S,00a22e1727e9a8eb,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|excel|ms_office|powerpoint,sales_skills,Abrechnungen und Rechnungsfreigaben,,c1_plus,must_have,c1_plus,must_have,,,20,20
 12518-JS7UUN-3CI-S,9ab3f31206de8fef,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,,,unknown,not_stated,unknown,not_stated,,,,
 12518-K74POJ-WIU-S,2b846e0342edec6f,2026-10-27,ok,claude-haiku-5-5,c5b58efa,customer_service,,STAFFOMATIC app,,fluent,must_have,basic,must_have,,,15,20
+12518-L9IKDP-O99-S,345b443efdecaae9,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Kassensystem,,c1_plus,must_have,c1_plus,must_have,,,,20
 12518-N8FHLQ-M5K-S,a0003f5be5e50785,2026-11-04,ok,claude-haiku-5-5,c5b58efa,other_erp,,Buchungsschritte;Standardisierung von Reports;Systemtests;Prozessverbesserung,,unknown,not_stated,unknown,not_stated,,,,
 12518-OLGYVU-CKL-S,2c38fad52a6e2127,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,KI-Technologien,,c1_plus,must_have,unknown,nice_to_have,,,,
 12518-P99KHW-8GM-S,f55f175c130876c8,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|ms_office|quality,,A/B-Tests;Personalisierungskampagnen,,native,must_have,fluent,must_have,,,,
@@ -2917,6 +2954,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12649-1642937-1-S,03c1550355abcc8e,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,,c1_plus,must_have,unknown,not_stated,,,,
 12649-1648866-1-S,146e6d98f92e10b0,2026-10-30,ok,claude-haiku-5-5,c5b58efa,chem_analytics|molbio,,Biochemical in vitro assays,,c1_plus,must_have,c1_plus,must_have,,,,
 12649-1649832-1-S,9f163433567b0155,2026-11-04,ok,claude-haiku-5-5,c5b58efa,excel|gmp|outlook|quality|word,m365_admin|power_platform,"LIMS;Word, Excel, Outlook",Uptimize,unknown,not_stated,unknown,not_stated,,,,
+12649-1650694-1-S,c569d07edb2b2fc3,2026-11-05,ok,claude-haiku-5-5,c5b58efa,data_analysis|etl|excel|python|snowflake|sql,dwh|powerbi|qlik|salesforce,Streamlit;Palantir Foundry;Documentation,Microsoft Access,fluent,must_have,fluent,must_have,,,,
 12661-J9MLL0ZBVP4MNHBM-S,2a715564ad83f428,2026-10-14,ok,claude-haiku-5-5,b0e132ec,recruiting|social_media,,,Erste kaufmännische Kenntnisse,unknown,not_stated,unknown,not_stated,,,,
 12661-Z1VAEJMWLQTPXHEX-S,7b1089d247c87b99,2026-10-14,ok,claude-haiku-5-5,b0e132ec,recruiting|social_media,,,Erste kaufmännische Kenntnisse,unknown,not_stated,unknown,not_stated,,,,
 12688-28908110-RJA-S,5d19e061a1f1cb59,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,,,,fluent,must_have,unknown,not_stated,15.19,15.19,,
@@ -2982,6 +3020,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12728-876-1-S,f0671388ac08da85,2026-10-26,ok,claude-haiku-5-5,c5b58efa,crm|dynamics|excel|ms_office|word,power_platform,"SharePoint;DocuSign;Daten auswerten, Analysen und Reports;neue Funktionen testen",,fluent,must_have,unknown,not_stated,,,,
 12728-885-1-S,c1c1303489296353,2026-11-02,ok,claude-haiku-5-5,c5b58efa,excel|powerbi|powerpoint|sql,python,,Microsoft Fabric;Datenbanken;Cloud-Technologien,native,must_have,c1_plus,must_have,,,,
 12728-973-1-S,67932f16f200a14c,2026-10-30,ok,claude-haiku-5-5,c5b58efa,ms_office,driving_licence,,Elektrofachkraft,c1_plus,must_have,unknown,not_stated,16.92,16.92,,20
+12728-976-1-S,31f6b5bfa9d317e9,2026-11-05,ok,claude-haiku-5-5,c5b58efa,ms_office|process_mgmt,sap,,,unknown,not_stated,unknown,not_stated,,,20,37
 12745-974321520-S,5c2ad2080494cb84,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|ms_office|powerpoint|procurement,,Präsentationen;Preisvergleiche;Analytische Auswertungen,,fluent,must_have,fluent,must_have,,,20,20
 12745-975802190-S,51cc82ec71d96c58,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office|powerpoint|video,content,KI-Tools,Grafik-Tools,fluent,must_have,fluent,must_have,,,,20
 12745-978000497-S,5dcb0a20c27ca195,2026-10-21,ok,claude-haiku-5-5,c5b58efa,content|graphic_design|lean|ms_office|power_platform|video,illustrator|indesign|photoshop,SharePoint;Microsoft Copilot;Viva Engage,Training development;Community management,fluent,must_have,fluent,must_have,,,,20
@@ -3406,6 +3445,15 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12811-2370415-S,c42c3de88ff82053,2026-11-04,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting,,LinkedIn;SharePoint,,c1_plus,must_have,fluent,must_have,,,,
 12811-2370490-S,7b847bb0ccb02a19,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,Kasse,,unknown,not_stated,none,not_stated,,,18,18
 12811-2370512-S,8c8ca00d342a1cee,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,,,c1_plus,must_have,unknown,nice_to_have,,,,
+12811-2371107-S,2c89bb71eb185cec,2026-11-05,ok,claude-haiku-5-5,c5b58efa,ms_office|procurement|project_mgmt,process_mgmt,Coupa,,unknown,not_stated,unknown,not_stated,,,,
+12811-2371109-S,54e2df06be68ec0c,2026-11-05,ok,claude-haiku-5-5,c5b58efa,data_analysis|javascript|python|sql,,Visualisierung von Sachverhalten;KPI definition and visualisation;BI-Lösungen;ASPICE-Monitoring;Prozessautomatisierung,,c1_plus,must_have,c1_plus,must_have,,,,
+12811-2371279-S,dfa696e5781493ea,2026-11-05,ok,claude-haiku-5-5,c5b58efa,controlling|ms_office,,iTWO,,unknown,not_stated,unknown,not_stated,,,,
+12811-2371340-S,28c707a6f987e8ab,2026-11-05,ok,claude-haiku-5-5,c5b58efa,controlling|excel|ms_office|powerpoint,,Markt- und Wettbewerbsbeobachtung,easy-feedback survey tool,unknown,not_stated,unknown,not_stated,,,15,15
+12811-2371368-S,297b8a5b9394432a,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel|jira|ms_office,,Power-Point;Berichtswesen,,c1_plus,must_have,unknown,not_stated,,,,
+12811-2371387-S,4f0da9f2e5fa0842,2026-11-05,ok,claude-haiku-5-5,c5b58efa,canva|content|controlling|pr|social_media|wordpress,,,,unknown,not_stated,unknown,not_stated,,,,
+12811-2371527-S,f136c4559f79e6b1,2026-11-05,ok,claude-haiku-5-5,c5b58efa,social_media,,Bewerbermanagementsystem;Stellenanzeigen auf Plattformen,,unknown,not_stated,unknown,not_stated,,,20,20
+12811-2371698-S,967ec40f6f8388de,2026-11-05,ok,claude-haiku-5-5,c5b58efa,controlling|dataviz|excel|powerbi,sql,Analyse umfangreicher Datenmengen;Power Query,,native,must_have,fluent,must_have,,,,
+12811-2371856-S,843c54a1898bafc1,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Kassiertätigkeiten;Kundenberatung und Verkauf;Modeaffinität,,unknown,not_stated,unknown,not_stated,,,,
 12826-SA0147287_JB5247122-S,0b0900d582b8f2ec,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,Scannen und Erfassen von Sendungen,,fluent,must_have,unknown,not_stated,15.33,15.33,,16
 12826-SA0147287_JB5272410-S,0b0900d582b8f2ec,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,Scannen und Erfassen von Sendungen,,fluent,must_have,unknown,not_stated,15.33,15.33,,16
 12846-1621573-1-S,74735aee0cbb737e,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|fin_model|ms_office|powerpoint,,,,fluent,must_have,fluent,must_have,,,,
@@ -3504,6 +3552,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12951-37ab4cbe-1123-4443--S,1ffc38b67f713955,2026-10-14,ok,claude-haiku-5-5,b0e132ec,driving_licence,,,,fluent,must_have,unknown,not_stated,13.9,13.9,10,10
 12951-37ed134f-5b73-4684--S,4f921423a9c12650,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,Langzeitarchivierung;Archivmanagement;Dokumentenmanagement,,unknown,not_stated,unknown,not_stated,,,,
 12951-37fa989d-d0ad-4777--S,1ffc38b67f713955,2026-10-14,ok,claude-haiku-5-5,b0e132ec,driving_licence,,,Digitale Tools zur Fahrzeugbewertung,fluent,must_have,unknown,not_stated,13.9,13.9,,10
+12951-3856f9c4-543d-41c7--S,5b85c8110ffdbc96,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Hygienevorschriften,,native,not_stated,unknown,not_stated,,,,20
 12951-38b34802-ad28-44f9--S,1826e2be7a91207d,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,,,unknown,not_stated,unknown,not_stated,,,20,
 12951-393130f8-164b-49d4--S,8abd42c557f935cb,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|sap,data_analysis|energy,Datenqualität,,unknown,not_stated,unknown,not_stated,,,,
 12951-3ac1f9c8-4d3a-4874--S,9df3bb4ebfaa34a0,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,,,unknown,not_stated,unknown,not_stated,,,20,20
@@ -3516,6 +3565,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12951-406d1b9f-1017-4bb3--S,f55b0725c6725f1c,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|excel|process_mgmt,,,Projektarbeit,unknown,not_stated,unknown,not_stated,,,,
 12951-42090a28-f56f-4986--S,1ffc38b67f713955,2026-10-14,ok,claude-haiku-5-5,b0e132ec,driving_licence,,,Digitale Bewertungstools,fluent,must_have,unknown,not_stated,13.9,13.9,10,10
 12951-43c17ea0-6019-4ba4--S,1ffc38b67f713955,2026-10-14,ok,claude-haiku-5-5,b0e132ec,driving_licence,,,digitale Tools zur Fahrzeugbewertung,fluent,must_have,unknown,not_stated,13.9,13.9,,10
+12951-440f3004-cb33-410b--S,755620852b5b46d0,2026-11-05,ok,claude-haiku-5-5,c5b58efa,ms_office|social_media,,Kennzahlen auswerten;Gestaltungsprogrammen,Employer Branding,unknown,not_stated,unknown,not_stated,,,20,20
 12951-461e17c7-76a0-4f7a--S,125f4db60f945e73,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|m365_admin|ms_office|powerpoint|project_mgmt,,"Portfolio- und Managementgremien;PPMHub auf cplace;Methoden, Standards und Prozessen;Kommunikations- und Wissensmanagementformaten;KI-Anwendungen und Automatisierung",,native,must_have,fluent,must_have,,,,
 12951-462310a8-ab85-4377--S,3f27cd651257e9a1,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,,,unknown,not_stated,none,not_stated,,,,20
 12951-476c2f42-5577-4cb9--S,1ffc38b67f713955,2026-10-14,ok,claude-haiku-5-5,b0e132ec,driving_licence,,,Digitale Tools zur Fahrzeugbewertung,fluent,must_have,unknown,not_stated,13.9,13.9,,10
@@ -3632,6 +3682,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12951-a9e5cdfb-cbdb-47c7--S,af457d2ef21ff7f6,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|recruiting,,HR-Kennzahlen Auswertungen;Präsentationen;Employer Branding;HR-Systeme und digitale Personalakte,,unknown,not_stated,unknown,not_stated,,,,
 12951-aa9c386e-f630-4c77--S,6afcf25a3c2afc20,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,tableau,Kennzahlen und Reports,SharePoint,unknown,not_stated,fluent,must_have,,,,
 12951-ab7bc23c-080d-4c0a--S,2753afe15b4a1ef7,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|excel|market_research|ms_office|powerpoint|social_media,online_marketing,YouTube channels,,unknown,not_stated,fluent,must_have,,,,
+12951-ac5e9bb2-80de-4d94--S,6cfee00fa83270cd,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Kassentätigkeiten,Kassensystemen;Verkauf,fluent,must_have,unknown,not_stated,,,,
 12951-af3808b4-6158-4877--S,3c3042a35dcf70e5,2026-10-14,ok,claude-haiku-5-5,b51c75bb,csharp|dotnet,plc|sql,Prozessautomatisierung;Projektmitarbeit IT/OT,SCADA;OPC UA;industrielle Netzwerke,fluent,must_have,fluent,must_have,,,,
 12951-af9b5fa2-f96e-43c2--S,7bae5c40d1d25c5a,2026-10-14,ok,claude-haiku-5-5,b0e132ec,crm|driving_licence|event|ms_office|sales_skills,,,,unknown,not_stated,unknown,not_stated,,,20,20
 12951-b0abd46b-f3e3-4efc--S,b2da7870de632460,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|social_media|video,,Bildbearbeitung,,unknown,not_stated,unknown,not_stated,,,,
@@ -3674,6 +3725,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 12951-cb25357b-76b6-44fa--S,3bab993d2cabb65b,2026-10-14,ok,claude-haiku-5-5,b0e132ec,driving_licence,,,,fluent,must_have,unknown,not_stated,13.9,13.9,10,10
 12951-cb7628e3-4854-4d48--S,930b217900e250ba,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|powerpoint|word,sap|supply_chain,MS 365,Künstliche Intelligenz;Nachhaltigkeitstools;Nachhaltigkeitsberichterstattung,unknown,not_stated,unknown,not_stated,,,,
 12951-ccf59241-72e0-4b81--S,82849d549ecbe5fa,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|it_security|ms_office|outlook|powerpoint|word,,ServiceNow;XDR- und SIEM-Tool;KQL;Ticketbearbeitung,,c1_plus,must_have,unknown,not_stated,,,,
+12951-ce2252c9-3017-457b--S,fb1f2fa33a7824fb,2026-11-05,ok,claude-haiku-5-5,c5b58efa,agile|data_analysis|etl|python|tableau,r,"Datenmodelle entwerfen;Webapplikationen entwickeln;Datenstudium Informatik, Mathematik","Datenbanken, Datenmodellierung;Datenaufbereitung",unknown,not_stated,unknown,not_stated,,,,
 12951-ce6bda44-d868-45a6--S,9f5efe304142bc12,2026-10-14,ok,claude-haiku-5-5,b0e132ec,content|ms_office|social_media,canva|indesign|photoshop|wordpress,Markt- und Wettbewerbsrecherchen;Veranstaltungen;Presse- und Intranet-Texte,,unknown,not_stated,unknown,not_stated,,,19.5,19.5
 12951-cf39c1eb-5796-4ba8--S,c22527bdfc901295,2026-10-14,ok,claude-haiku-5-5,b0e132ec,driving_licence,,,Digitale Bewertungstools,fluent,must_have,unknown,not_stated,13.9,13.9,10,10
 12951-d055a806-e148-4f92--S,5c4750673dea0fe4,2026-10-14,ok,claude-haiku-5-5,b51c75bb,m365_admin|ms_office|power_platform|project_mgmt|video,data_analysis|process_mgmt,Testmanagement,Künstliche Intelligenz,c1_plus,must_have,c1_plus,must_have,,,,
@@ -3882,6 +3934,9 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13151-1650078-1-S,2acb7ef7a4a3ca5a,2026-11-04,ok,claude-haiku-5-5,c5b58efa,cicd|driving_licence|python|testing,genai|html_css|javascript|jira|matlab|simulink|typescript,Web-Tools Visualisierung,MF4 / CSV / ASAM,c1_plus,must_have,c1_plus,must_have,,,,
 13151-1650084-1-S,60f6f8fb898729fb,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,excel|ms_office|powerbi|powerpoint,Management-Reviews und Kennzahlen,,c1_plus,must_have,c1_plus,must_have,,,,
 13151-1650338-1-S,2630bffce5ed78b9,2026-11-04,ok,claude-haiku-5-5,c5b58efa,cpp|git,python,Vulkan API;Large data handling,,fluent,must_have,fluent,must_have,,,,
+13151-1650781-1-S,cdf4649893571800,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel|jira|ms_office|powerpoint,driving_licence,Visualisierungen technischer Daten;Projektleitungsteam unterstützen,,c1_plus,must_have,c1_plus,must_have,,,10,20
+13151-1650808-1-S,cbe0e126cdbe81da,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel|jira|ms_office|powerpoint,databricks|dataviz|devops|git|powerbi|sql,,Smaragd PDM;DIALOG-E,fluent,must_have,fluent,must_have,,,,
+13151-1650824-1-S,77411084b494d078,2026-11-05,ok,claude-haiku-5-5,c5b58efa,data_analysis|ms_office,powerbi|python,Berichte aus IT-Systemen;Projektverfolgung;Präsentationsvorlagen;VR/MR Anwendungen,Automobiltechnik,fluent,must_have,fluent,must_have,,,,
 13157-44438291-911-S,a60888af0d6e4287,2026-10-14,ok,claude-haiku-5-5,b0e132ec,controlling|data_analysis|dataviz|excel|gmp|ms_office|powerpoint|quality,,Qualitätskennzahlen analysieren;Reports und Präsentationen;HACCP;ISO 14001;ISO 50001;Produktionsprozesse,,fluent,must_have,unknown,not_stated,,,20,20
 13157-44438450-911-S,fb90f6445e2cc041,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|project_mgmt,,Arbeitssicherheit,,unknown,must_have,unknown,must_have,,,20,20
 13157-44487087-106-S,93189c0bf02923d9,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,excel|ms_office|powerpoint,Qualitätsstandards;Produktionsumfeld,,unknown,not_stated,unknown,not_stated,,,20,20
@@ -3925,9 +3980,11 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13348-1649196-1-S,75fc35bb7a61d7ae,2026-10-31,ok,claude-haiku-5-5,c5b58efa,dataviz|ms_office|powerbi|tableau,,,,fluent,must_have,fluent,must_have,,,,
 13348-1649197-1-S,980b63ba25dbad47,2026-10-31,ok,claude-haiku-5-5,c5b58efa,ms_office,,Erste Projekterfahrungen;Instandhaltungs- und Flottenmanagement,,fluent,must_have,fluent,must_have,,,,
 13348-1649724-1-S,206fbfbd2c1d12c0,2026-11-02,ok,claude-haiku-5-5,c5b58efa,graphic_design|online_marketing,,Design- und Layout-Tools;Kundenorientierung,,unknown,not_stated,unknown,not_stated,,,,
+13348-1650410-1-S,b8dee45505dcfda3,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,fluent,must_have,basic,must_have,,,,
 13356-356186A049733C4-S,ae75681658836fff,2026-10-14,ok,claude-haiku-5-5,b0e132ec,crm|sales_skills,,,,unknown,not_stated,unknown,not_stated,,,,20
 13356-356186A049733C5-S,ae75681658836fff,2026-10-16,ok,claude-haiku-5-5,c5b58efa,crm|sales_skills,,,,unknown,not_stated,unknown,not_stated,,,,20
 13356-356186A049733C6-S,ae75681658836fff,2026-11-03,ok,claude-haiku-5-5,c5b58efa,crm,sales_skills,,,unknown,not_stated,unknown,not_stated,,,,20
+13356-356186A049733C7-S,ae75681658836fff,2026-11-05,ok,claude-haiku-5-5,c5b58efa,crm|sales_skills,,,,unknown,not_stated,unknown,not_stated,,,,20
 13356-603920A050403C1-S,f75338c8a18a26cc,2026-10-26,ok,claude-haiku-5-5,c5b58efa,accounting|datev|ms_office|recruiting,,Zvoove,,unknown,not_stated,unknown,not_stated,17,17,,20
 13359-j105S20086-50756-S,2b5270843513c92d,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 13359-j105S20087-50758-S,8f3994a82e84f7a7,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,,Warenfluss sicherstellen,,unknown,not_stated,none,not_stated,,,,
@@ -3982,6 +4039,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-05a3efc7_JB5288636-S,fab583fc96ee83d2,2026-11-04,ok,claude-haiku-5-5,c5b58efa,ms_office,,Buchung von einzelnen Komponenten;Auswertung von Kennzahlen,,unknown,not_stated,unknown,not_stated,,,,
 13635-05a6a25f_JB5284387-S,b37ca28ca057afe0,2026-10-29,ok,claude-haiku-5-5,c5b58efa,controlling|excel|powerpoint,consulting,Markt- und Wettbewerbsbeobachtung,,unknown,not_stated,unknown,not_stated,,,16,20
 13635-08ebf167_JB5262894-S,1175a395f50e3b84,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,bim|indesign|ms_office|photoshop,,AVA (ORCA),fluent,must_have,unknown,not_stated,,,,
+13635-0944f669_JB5289870-S,e00d4af52150ce73,2026-11-05,ok,claude-haiku-5-5,c5b58efa,content|event|recruiting|social_media,,Employer Branding,,fluent,must_have,fluent,must_have,,,10,15
 13635-09c14735_JB5286403-S,2eceb773e360d841,2026-11-03,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,c1_plus,must_have,unknown,not_stated,,,,
 13635-0b119143_JB5265370-S,a59cecb476ca17a9,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office,gis,Kartenanwendungen;SharePoint,,fluent,must_have,unknown,nice_to_have,,,,
 13635-0b1ad656_JB5279724-S,9533f33adb0eaf92,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
@@ -4016,6 +4074,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-21dc7f7b_JB5270142-S,fa840ce2f8778f8b,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Pläne zeichnen,,unknown,not_stated,unknown,not_stated,,,,
 13635-224b7fc2_JB5281599-S,bc9ee528ac87af4d,2026-10-27,ok,claude-haiku-5-5,c5b58efa,lab|ms_office|quality,,KI-Tools;Produktions-Setup;Polymerchemie,Analysemethoden Kunststoffe,fluent,must_have,unknown,not_stated,,,20,20
 13635-232d7e61_JB5255598-S,f8b96e22fdb1246e,2026-10-14,ok,claude-haiku-5-5,b0e132ec,controlling|datev|excel|ms_office|sap,powerbi,,,fluent,must_have,fluent,must_have,,,,
+13635-233ce69f_JB5290543-S,1bcd3649b2a001eb,2026-11-05,ok,claude-haiku-5-5,c5b58efa,controlling|excel,,,,native,must_have,c1_plus,must_have,,,,
 13635-25925843_JB5259299-S,deb60bd0e1069dbf,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,Materialwissenschaft/Werkstofftechnik,,fluent,must_have,c1_plus,must_have,,,,
 13635-26732fbc_JB5063326-S,73c47aba9c12e7bc,2026-10-14,ok,claude-haiku-5-5,b0e132ec,controlling|online_marketing|sea|seo|social_media,,Webanalyse;Präsentationen;Webseiten pflegen,,unknown,not_stated,unknown,not_stated,,,,
 13635-26e561e5_JB5270140-S,c9356eccf003949e,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|word,driving_licence,Erstellung der Baustellendokumentation,,unknown,not_stated,unknown,not_stated,,,,
@@ -4031,6 +4090,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-31357c1b_JB5248083-S,eca0178479141cfe,2026-10-14,ok,claude-haiku-5-5,b0e132ec,dataviz|genai,,Integration von Tools & Datenbanken,,c1_plus,must_have,c1_plus,must_have,,,,
 13635-3158ba0d_JB5282924-S,ead9200fb27cd87d,2026-10-28,ok,claude-haiku-5-5,c5b58efa,,ms_office,,Windows,fluent,must_have,unknown,not_stated,,,,
 13635-335c225b_JB5219769-S,c3aecd15e2cf93d6,2026-10-14,ok,claude-haiku-5-5,b0e132ec,controlling|excel|ms_office|powerpoint,project_mgmt,Unternehmenskennzahlen analysieren;Management-Präsentationen,,c1_plus,must_have,unknown,not_stated,,,15,20
+13635-343f4ea6_JB5290295-S,1159b7b276822e61,2026-11-05,ok,claude-haiku-5-5,c5b58efa,java,networking,Design Patterns,Enterprise Architect,unknown,not_stated,unknown,not_stated,,,,
 13635-3488d770_JB5255160-S,c1b37dec043abede,2026-10-14,ok,claude-haiku-5-5,b0e132ec,canva|content|seo|social_media|video|wordpress,,,,unknown,must_have,unknown,not_stated,,,,
 13635-34db7bbf_JB5278621-S,74fe9cefde05d8d2,2026-10-22,ok,claude-haiku-5-5,c5b58efa,robotics,,Programmierkenntnisse,,unknown,not_stated,unknown,not_stated,,,,
 13635-35080f4e_JB5249604-S,2c59a3f6f446be93,2026-10-14,ok,claude-haiku-5-5,b51c75bb,driving_licence|excel|ms_office|project_mgmt,autocad|cad,Karten- und Planmaterial;Projektsteuerung und Projektdokumentation,,c1_plus,must_have,unknown,not_stated,,,,
@@ -4063,6 +4123,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-53856d32_JB5277594-S,0f4f40d05166e4ef,2026-10-22,ok,claude-haiku-5-5,c5b58efa,,,IT-Recht,Cybersicherheit,c1_plus,must_have,unknown,not_stated,,,16,20
 13635-54149d05_JB5255105-S,ff6ad0caa8525e63,2026-10-14,ok,claude-haiku-5-5,b0e132ec,content|event|ms_office|paid_social|recruiting|social_media|video,canva|wordpress,Kennzahlen aufbereiten,Claude,c1_plus,must_have,unknown,not_stated,18.5,18.5,,
 13635-5427803e_JB5288230-S,619c6976582e2a23,2026-11-03,ok,claude-haiku-5-5,c5b58efa,adobe_cc|figma|html_css|ux,,Design-Systeme;Motion Design / Animationen,,unknown,not_stated,unknown,not_stated,,,,
+13635-54674b15_JB5290266-S,f8b96e22fdb1246e,2026-11-05,ok,claude-haiku-5-5,c5b58efa,controlling|excel|ms_office,datev|powerbi|sap,,,fluent,must_have,fluent,must_have,,,,
 13635-54f230ef_JB5267434-S,525100ed06ea3924,2026-10-14,ok,claude-haiku-5-5,b0e132ec,event|ms_office|recruiting,,KI-unterstützte Arbeitsweise,,c1_plus,must_have,c1_plus,must_have,,,,
 13635-55654e14_JB5269454-S,91cd01f3857ac490,2026-10-14,ok,claude-haiku-5-5,b51c75bb,salesforce|testing,,Personio;Abbyy;Systemberichte,DSGVO,unknown,must_have,unknown,must_have,,,,
 13635-57daed75_JB5271909-S,662998799c66efb7,2026-10-14,ok,claude-haiku-5-5,b51c75bb,canva|content|ms_office|social_media|video,,Reports und Analysen;Veranstaltungen;Projekte mit externen Dienstleistern,,c1_plus,must_have,unknown,not_stated,,,,
@@ -4082,8 +4143,10 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-653f0249_JB5252775-S,8cd79bb4900c65e7,2026-10-14,ok,claude-haiku-5-5,b0e132ec,sales_skills,,,,fluent,must_have,fluent,must_have,,,16,20
 13635-65975487_JB5266524-S,5c7030f9123d5b68,2026-10-14,ok,claude-haiku-5-5,b0e132ec,accounting|excel,datev|dynamics|sap,,,c1_plus,must_have,unknown,not_stated,,,,
 13635-67d612a8_JB5269248-S,6c3b1646918592a5,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,,,fluent,must_have,unknown,not_stated,,,,
+13635-67f56765_JB5290934-S,f680a6aac7f25b22,2026-11-05,ok,claude-haiku-5-5,c5b58efa,embedded|python,automotive,Programmierung mit C,industrielle Automatisierungslösungen,unknown,not_stated,fluent,must_have,,,,
 13635-6859ec9c_JB5249786-S,48b67e5958701f99,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,,,,native,must_have,unknown,not_stated,,,16,20
 13635-6b2b2072_JB5258293-S,9b6fd334a53bfdd6,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,cad,,,unknown,not_stated,unknown,not_stated,,,,
+13635-6c71a3b4_JB5290929-S,e3db0e25430516b7,2026-11-05,ok,claude-haiku-5-5,c5b58efa,content|social_media|video,canva,"Analyse von Reichweiten, Kennzahlen;Kommunikation mit Medien",Meta Business Suite,c1_plus,must_have,unknown,not_stated,,,,
 13635-6d48c58d_JB5285144-S,b3777edbaf735e0b,2026-10-31,ok,claude-haiku-5-5,c5b58efa,agile|android|git|it_security|java|jira|linux|networking|rust,bash|docker|python,C,Wireshark;Yocto;Apache Karaf;Sonatype Nexus Repository,unknown,not_stated,unknown,not_stated,,,,
 13635-6e676e6c_JB5278620-S,8c0f157b20581969,2026-10-22,ok,claude-haiku-5-5,c5b58efa,robotics|testing,cad|python,3D-Drucker,,unknown,not_stated,unknown,not_stated,,,,
 13635-6f544c4b_JB5278631-S,33bac214079acbfd,2026-10-22,ok,claude-haiku-5-5,c5b58efa,crm|data_analysis|wordpress,html_css|javascript,KI-gestützte Lösungen,,fluent,must_have,unknown,not_stated,,,16,20
@@ -4146,6 +4209,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-Catch140_JB5171623-S,2b1f8a374c4f7f3b,2026-10-14,ok,claude-haiku-5-5,b0e132ec,fem,,FE-Berichten,,c1_plus,must_have,c1_plus,must_have,,,,
 13635-a0078994_JB5276359-S,bfe82a6fec72ab2e,2026-10-21,ok,claude-haiku-5-5,c5b58efa,controlling|excel|ms_office|powerpoint,,,,native,must_have,fluent,must_have,,,,10
 13635-a034a8c2_JB5285254-S,614f66ec1f74220e,2026-10-31,ok,claude-haiku-5-5,c5b58efa,testing,salesforce,Dokumentation,Personio;Abbyy;OCR,native,must_have,fluent,must_have,,,,
+13635-a0d094fe_JB5290104-S,ae73a93d6669be7f,2026-11-05,ok,claude-haiku-5-5,c5b58efa,event,customer_service,Verkaufsgespräche zum Abschluss führen,,unknown,not_stated,unknown,not_stated,,,,
 13635-a0d3e737_JB5283032-S,ce4556f2aa59646d,2026-10-28,ok,claude-haiku-5-5,c5b58efa,matlab|simulink,git|linux,"control theory (PID, state-space);flight dynamics;UAVs or model aircraft",PX4 or ArduPilot on Pixhawk;MAVLink;system identification,unknown,nice_to_have,fluent,must_have,,,,
 13635-a0dc46be_JB5267021-S,ae47d0aeb35aabe4,2026-10-14,ok,claude-haiku-5-5,b0e132ec,m365_admin,,,Cloud-Diensten oder IT-Systemen,unknown,not_stated,unknown,not_stated,,,,
 13635-a12af571_JB5272893-S,803f6f452b6c954b,2026-10-15,ok,claude-haiku-5-5,c5b58efa,adobe_cc|content|genai|graphic_design|illustrator|indesign|photoshop|social_media,,,,native,must_have,unknown,not_stated,,,,
@@ -4204,6 +4268,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13635-cb5e3504_JB5261437-S,4baa1480e18fda4a,2026-10-14,ok,claude-haiku-5-5,b0e132ec,customer_service,,Terminmanagement;Kundenkommunikation,,native,not_stated,unknown,not_stated,15,15,10,20
 13635-cd596d11_JB5270313-S,0b4ed99c68b629d9,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,Wirtschaftsinformatik;Interesse an Künstlicher Intelligenz,,c1_plus,must_have,fluent,must_have,,,,
 13635-cf26f879_JB5260469-S,3f090ba3cc742785,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,autocad|driving_licence,,AVA-Software (RIB iTWO),c1_plus,must_have,unknown,not_stated,,,,
+13635-cfbcf43e_JB5291110-S,43e32aa74c6d7441,2026-11-05,ok,claude-haiku-5-5,c5b58efa,driving_licence|excel|ms_office,data_analysis,Technische KPIs;Eigenständige Projektbegleitung,Instandhaltungssoftware,fluent,must_have,unknown,must_have,,,20,20
 13635-cfccff0a_JB5248170-S,5d84ef19f4029299,2026-10-14,ok,claude-haiku-5-5,b0e132ec,driving_licence|ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 13635-d0191c11_JB5249389-S,9c6b065d1983aa0a,2026-10-14,ok,claude-haiku-5-5,b0e132ec,accounting|excel|ms_office|outlook,,,,fluent,must_have,unknown,not_stated,,,15,20
 13635-d1289aae_JB5281797-S,36778b37183010b9,2026-10-26,ok,claude-haiku-5-5,c5b58efa,,,Digitale Erfassungssysteme,,unknown,not_stated,unknown,not_stated,,,,
@@ -4340,6 +4405,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13755-44461106-923-S,a25988b94fc419d3,2026-10-14,ok,claude-haiku-5-5,b0e132ec,git|java|jira|kafka|kotlin|postgresql|spring,,IntelliJ IDEA,,fluent,must_have,unknown,not_stated,,,,
 13755-44474639-930-S,00c4db392dbcd281,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,bim|cad,,digitale Baustellenanwendungen,unknown,not_stated,unknown,not_stated,,,,
 13755-44540043-1029-S,94b6d0422419a845,2026-10-30,ok,claude-haiku-5-5,c5b58efa,,agile,,Projektorganisation,unknown,not_stated,unknown,not_stated,,,,
+13755-44551373-114-S,00c4db392dbcd281,2026-11-05,ok,claude-haiku-5-5,c5b58efa,ms_office,bim|cad,,digitale Baustellenanwendungen,unknown,not_stated,unknown,not_stated,,,,
 13822-0068313573-S,02cdce8c9ffcd671,2026-10-26,ok,claude-haiku-5-5,c5b58efa,,labour_law,,,unknown,not_stated,unknown,not_stated,,,20,20
 13884-115316-S,2252ce572d88aba8,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Prozessautomatisierung;Datenbankpflege,,c1_plus,must_have,fluent,must_have,,,,
 13884-141140-S,554438e7c086a4ff,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,"Kassensystem;Hygiene-, Lebensmittel- und Qualitätsstandards",,unknown,must_have,none,not_stated,,,,
@@ -4349,6 +4415,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13884-252386-S,6a40e40ddb76c668,2026-10-14,ok,claude-haiku-5-5,b51c75bb,audit|fin_model,accounting|controlling|tax,Jahres- und Konzernabschlüssen,,unknown,not_stated,unknown,not_stated,,,15,
 13884-275412-S,44f76dc7a12cd175,2026-10-29,ok,claude-haiku-5-5,c5b58efa,crm|ms_office,customer_service|sales_skills|sap,Markt- und Kundenrecherche,,fluent,must_have,fluent,must_have,,,,20
 13884-298881-S,4fdb60b855965927,2026-10-14,ok,claude-haiku-5-5,b51c75bb,market_research|ms_office|project_mgmt,,Beratungsdienstleistungen,,c1_plus,must_have,fluent,must_have,,,,
+13884-302664-S,adf6de39db23e6d1,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Erfahrung im Verkauf,,unknown,not_stated,unknown,not_stated,,,,
 13884-309539-S,f2c02693ecd0970b,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,,,OneNote,unknown,not_stated,unknown,not_stated,,,,
 13884-323250-S,6c0b9b5b3e4145ea,2026-11-03,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting,,,Bewerbermanagementsystem,unknown,not_stated,unknown,not_stated,,,,
 13884-337778-S,408fcdba126befc8,2026-10-28,ok,claude-haiku-5-5,c5b58efa,controlling|excel|supply_chain,data_analysis,Präsentationen;Kostenvergleiche,,unknown,not_stated,unknown,not_stated,,,,
@@ -4380,6 +4447,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13884-348375-S,55b3ae0efe8d08f5,2026-10-21,ok,claude-haiku-5-5,c5b58efa,,,Buchungssystem;EDV-Kenntnisse,,c1_plus,must_have,c1_plus,must_have,,,,
 13884-348776-S,d88cbabed175d51a,2026-10-27,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,15,15
 13884-349368-S,28b1400d426ba9fa,2026-11-03,ok,claude-haiku-5-5,c5b58efa,email_marketing|social_media|ux|video,adobe_cc|illustrator|indesign|photoshop,"Grafiken, Bildern, Videos;Präsentationen",,fluent,must_have,unknown,not_stated,,,,
+13884-349789-S,a9b098cf88159208,2026-11-05,ok,claude-haiku-5-5,c5b58efa,lab,,Aufbau und Verdrahtung elektronischer Baugruppen,,c1_plus,must_have,unknown,nice_to_have,,,,
 13884-97131-S,c18caa00c2404de4,2026-10-28,ok,claude-haiku-5-5,c5b58efa,ms_office,sap,,,fluent,must_have,fluent,must_have,,,,
 13892-3141316_4077239-S,92d6ef7feb02341d,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,data_analysis,Qualitätsmaßnahmen;PPAP,,fluent,must_have,fluent,must_have,,,,
 13892-3144568_4084093-S,c619f4d3579d780a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,Vertragsmanagementsystem;DOXIS,,fluent,must_have,fluent,must_have,,,,
@@ -4398,6 +4466,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 13999-k53401.34297-S,b198524927c9aa15,2026-10-30,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,c1_plus,must_have,unknown,not_stated,16,16,,
 13999-k53401.34332-S,f4336356013a98ba,2026-10-31,ok,claude-haiku-5-5,c5b58efa,controlling|ms_office,,,,c1_plus,must_have,unknown,not_stated,16,16,,
 13999-k53401.34360-S,1c98ed61a41ad519,2026-11-03,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,fluent,must_have,unknown,not_stated,,,,
+13999-k53401.34403-S,cd45db91bc9bd82d,2026-11-05,ok,claude-haiku-5-5,c5b58efa,ms_office,,interne IT Systeme,,native,must_have,unknown,not_stated,16,16,,
 13999-k53401.7351-S,c23b860cb2a0fb15,2026-10-14,ok,claude-haiku-5-5,b0e132ec,recruiting,social_media,Personalmarketing,,unknown,not_stated,none,not_stated,,,,
 14005-44363209-86-S,768c52477c17658a,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,,,native,must_have,fluent,must_have,,,,
 14005-44389639-819-S,43880f11bb49e7c5,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office|powerpoint,content,DTP-Software;Erstellung von Inhalten,,unknown,not_stated,fluent,nice_to_have,,,,
@@ -4445,6 +4514,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14225-3320fbba113de11c-S,9cd4a74d2d80fa9b,2026-10-27,ok,claude-haiku-5-5,c5b58efa,it_support|itil,,Informatik Studium,,fluent,must_have,fluent,must_have,,,15,20
 14225-3ea1684d09c0b625-S,f4903f127fe21239,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,,,unknown,not_stated,unknown,not_stated,,,,
 14225-3f8806f85e93b164-S,97a88b49b0079605,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|crm|email_marketing|event|social_media,online_marketing|seo,"Trend-, Wettbewerbs- und Zielgruppenrecherchen",datenbasiertes Arbeiten (KPIs),c1_plus,must_have,fluent,must_have,,,,
+14225-41ae87fcd4b382f8-S,6ba15957d2fe12e7,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,cad,,Asta Powerproject;RIB iTWO,unknown,not_stated,unknown,not_stated,,,,
 14225-422f9ad926ad6621-S,86d8faa48e4857c8,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,Kommunikation,,c1_plus,must_have,unknown,not_stated,,,2,3
 14225-424474e47ddda0c5-S,64c4fd43c7eedeee,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,,Erfahrung als Verkäufer im Einzelhandel,unknown,not_stated,unknown,not_stated,,,,
 14225-4ab721c07d01f255-S,0985d20d78460e4a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,customer_service|excel|ms_office|powerpoint,,"Kundenorientierung, Kundenkontakt;Nutzungsanalyse der Software",,c1_plus,must_have,unknown,nice_to_have,,,,
@@ -4461,6 +4531,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14225-9ceb77e5a029d376-S,06e656d1b90092c6,2026-10-14,ok,claude-haiku-5-5,b51c75bb,testing,,,,fluent,must_have,unknown,not_stated,,,,
 14225-9dda290160fca6fb-S,00e990299db52d79,2026-10-22,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 14225-a639c345d88d01bd-S,438d74a9f8bb57aa,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,Business-Netzwerke;Telefonische Erstgespräche,,unknown,not_stated,unknown,not_stated,,,20,20
+14225-c1351c3ee7fe4711-S,6c1dabfb0dac01b5,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,cad,,Asta Powerproject;RIB iTWO,unknown,not_stated,unknown,not_stated,,,,
 14225-e16b2764ca3e1470-S,54cf295e262d793e,2026-10-23,ok,claude-haiku-5-5,c5b58efa,market_research|ms_office|social_media|video,content,,,unknown,not_stated,unknown,not_stated,,,,
 14225-e1a66810683befbe-S,8dee9147a883d841,2026-10-14,ok,claude-haiku-5-5,b51c75bb,audit|excel|ms_office,,Kontierung von Rechnungen;IT-Bestellprozesse;Vendor-Management,,fluent,must_have,fluent,must_have,,,,
 14225-e510c1e9ac5f0814-S,50412afbcc28365e,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|powerpoint|word,,,,c1_plus,must_have,c1_plus,must_have,,,20,20
@@ -4547,6 +4618,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14543-25734-1801801-0-S,c02d1c4236e5a9f6,2026-10-29,ok,claude-haiku-5-5,c5b58efa,,customer_service,,Verkauf,native,not_stated,unknown,not_stated,,,,
 14543-25747-1801924-0-S,fc48e275c34ef73a,2026-10-30,ok,claude-haiku-5-5,c5b58efa,customer_service,,,Erfahrung im Verkauf,unknown,not_stated,unknown,not_stated,,,,
 14543-25775-1802358-0-S,c02d1c4236e5a9f6,2026-11-03,ok,claude-haiku-5-5,c5b58efa,,,Kassiertätigkeiten,Kundenorientierung,unknown,not_stated,unknown,not_stated,,,,
+14543-25798-1802636-0-S,c02d1c4236e5a9f6,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,customer_service,Kassiertätigkeiten,,unknown,not_stated,unknown,not_stated,,,,
 14627-0067978002-S,86b10f30d95df821,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,,,unknown,not_stated,unknown,not_stated,,,,
 14751-206A15512-S,e168ab6433523025,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office|recruiting,,Mitwirken bei Sozialen Medien;Bewerbermanagementsystem,,c1_plus,must_have,unknown,not_stated,18,18,,
 14751-373A137055-S,e71c0cb4278dd933,2026-10-14,ok,claude-haiku-5-5,b0e132ec,customer_service,,,,fluent,must_have,unknown,not_stated,,,20,20
@@ -4607,6 +4679,8 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14829-932116650-S,d928994268a114ae,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,,,unknown,not_stated,unknown,not_stated,,,,
 14891-0067691237-S,dc414f804de8b5b4,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office|procurement,,Marktrecherchen;Auswertungen;Vertragsmanagementsystem,,unknown,not_stated,unknown,not_stated,16,16,,
 14891-0067885832-S,ac51d1dad52e0c74,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|powerpoint|quality|social_media|word,,Kennzahlenanalyse / KPI-Auswertung,,unknown,not_stated,none,not_stated,16,16,14,14
+14893-0068555257-S,5c3f8aedbc7c3928,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,other_erp|sap,,,unknown,not_stated,unknown,not_stated,,,,
+14893-0068568612-S,bdb62a5edb14b24a,2026-11-05,ok,claude-haiku-5-5,c5b58efa,java|sql,controlling,Datenbanken,,c1_plus,must_have,unknown,not_stated,,,,
 14910-2EWZRN3XDG2B35Z9-S,2e6719384c3ecc61,2026-11-03,ok,claude-haiku-5-5,c5b58efa,excel|market_research|powerpoint,,Kennzahlen und Performance-Daten,,native,must_have,unknown,not_stated,,,10,20
 14910-3245NVEJDOF1ZX71-S,2e6719384c3ecc61,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|market_research|powerpoint,,Lieferantenbewertung und -auswahl;Analyse von Kennzahlen und Performance-Daten,,c1_plus,must_have,unknown,not_stated,,,10,20
 14910-EGECK64Q03P0094Z-S,6c5b1311696a2403,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,Outsystems oder vergleichbare Low-Code-Plattform,,c1_plus,must_have,fluent,must_have,,,,
@@ -4645,6 +4719,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 14927-b4mg1v-S,e9940bb54d9925df,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,pcb,,,fluent,must_have,unknown,not_stated,,,,
 14927-dz4nmm-S,efbabf3a1dcbd46a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,,,unknown,not_stated,unknown,not_stated,,,,
 14927-hwn36jmo4q-S,6fd991aca84f2a94,2026-10-27,ok,claude-haiku-5-5,c5b58efa,,,,,c1_plus,must_have,unknown,not_stated,17,17,15,20
+14927-io0e7qrdpy-S,69c0418783e58ce5,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,15,15,15,20
 14927-io53k8t3si-S,0f4ddab27bd3d80f,2026-11-03,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 14927-jnfqw7kw5t-S,301e099d99ad64b0,2026-10-27,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 14927-ls4fiz1p0g-S,4a75719a77430104,2026-10-14,ok,claude-haiku-5-5,b0e132ec,content,,Pressetexte verfassen,,native,must_have,unknown,not_stated,,,,
@@ -4696,6 +4771,8 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 15120-1637106-1-S,3630837058d1dd2b,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|ms_office|powerpoint|word,sap,,PLM-System,fluent,must_have,fluent,must_have,,,20,20
 15158-2026277754-S,6eb4e314ee8e012b,2026-10-14,ok,claude-haiku-5-5,b0e132ec,3d|indesign|ms_office|powerpoint|solidworks|video,adobe_cc|cad|illustrator|photoshop,Motion Graphics;Fotoshootings;Bildbearbeitung;Druckdatenaufbereitung,3D-Software;Zeichnungen und Maße,unknown,not_stated,unknown,not_stated,,,,
 15158-2026286320-S,c6e0ac8bab03c3be,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,Produktexperte,,unknown,not_stated,unknown,not_stated,,,,
+15167-0068574927-S,e285886c4adedaea,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,fluent,must_have,unknown,not_stated,,,,14
+15195-44551639-114-S,5becdd897d9d5158,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel|quality|word,,,,c1_plus,must_have,c1_plus,must_have,,,,20
 15224-44422478-97-S,6117d60ef7190989,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|powerpoint,html_css|photoshop|wordpress,Analysen und Auswertungen,,unknown,not_stated,unknown,not_stated,,,20,20
 15224-44435590-910-S,8dd0da3de57d2508,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|labour_law|ms_office|powerpoint,,Auswertungen erstellen,,unknown,not_stated,unknown,not_stated,,,20,20
 15224-44444548-915-S,a803dcd4e7fd4955,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|excel|powerpoint|sap,,IBM Cognos TM1,,unknown,not_stated,fluent,must_have,,,20,20
@@ -4707,6 +4784,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 15224-44525641-1022-S,c9d83dae21408fda,2026-10-23,ok,claude-haiku-5-5,c5b58efa,controlling,,Kennzahlen analysieren;KI;Audio-Adserver,,unknown,must_have,fluent,nice_to_have,,,20,20
 15224-44529506-1023-S,4e52aa57bd3e8006,2026-10-24,ok,claude-haiku-5-5,c5b58efa,statistics,python,Programm R,Marketing-Mix-Modellierung (MMM),unknown,not_stated,unknown,not_stated,,,20,20
 15224-44535309-1027-S,0f427e7a842f769a,2026-10-28,ok,claude-haiku-5-5,c5b58efa,controlling|market_research|ms_office,,,,unknown,not_stated,unknown,not_stated,,,20,20
+15224-44551154-114-S,df982ed295085a81,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|payroll|sap_hcm|word,,Auswertungen,,c1_plus,must_have,unknown,not_stated,,,20,20
 15235-k43552.239526-S,76c3d5318735d060,2026-10-14,ok,claude-haiku-5-5,b0e132ec,recruiting|social_media,,Business Netzwerken;Stammdatenpflege;Recherche und Analyse der Plattformen und Märkte,,unknown,not_stated,unknown,not_stated,,,,
 15235-k43552.85808-S,8594255453e49754,2026-10-14,ok,claude-haiku-5-5,b0e132ec,recruiting|social_media,,Recherche und Analyse der Plattformen und Märkte,,unknown,not_stated,unknown,not_stated,,,,
 15252-k45286.1532-S,43d9c7d14f490806,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office|recruiting|social_media,online_marketing,,,unknown,not_stated,none,not_stated,,,,
@@ -4784,6 +4862,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 15794-468674_48459-1-S,7c050c0ae5f81e26,2026-10-29,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|powerpoint|python|vba,,R,,c1_plus,must_have,c1_plus,must_have,,,,
 15794-468921_49258-1-S,4327215d6985190a,2026-10-14,ok,claude-haiku-5-5,b0e132ec,data_analysis|excel|ms_office|powerpoint|project_mgmt|testing|word,controlling,Data Management;Change Management;Financial Services;IT-Architekturen;Teams,Banking-Schwerpunkt,c1_plus,must_have,c1_plus,must_have,,,,
 15794-468922_48673-1-S,861e2c82ed97e7ed,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|ms_office|powerpoint|word,controlling,,Präsentationen und Übersichten,fluent,must_have,fluent,must_have,,,,
+15794-468926_48917-1-S,03e56b8c70017e11,2026-11-05,ok,claude-haiku-5-5,c5b58efa,data_analysis|excel|ms_office|powerpoint|project_mgmt,,IT Asset Management;Contract Lifecycle Management;Third Party Risk Management;Präsentationen,AI-Tools,c1_plus,must_have,c1_plus,must_have,,,,
 15794-468931_49281-1-S,56dea7b1381d5a1a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|powerpoint,agile,Reports erstellen,,c1_plus,must_have,c1_plus,must_have,,,,
 15794-468933_48220-1-S,c2c215fa72167328,2026-10-14,ok,claude-haiku-5-5,b0e132ec,tax,,,,c1_plus,must_have,c1_plus,must_have,,,,
 15794-469010_49160-1-S,129875a8ea686b3e,2026-10-17,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|outlook|powerpoint|project_mgmt|word,,,,c1_plus,must_have,c1_plus,must_have,,,,
@@ -5014,9 +5093,12 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 15986-REF299610A-4bb4d61-S,8363febb31b5cb95,2026-10-29,ok,claude-haiku-5-5,c5b58efa,ms_office,,,Programmierung,c1_plus,must_have,unknown,not_stated,,,10,10
 15986-REF299808X-9b89e92-S,3efacb4fb8a890a7,2026-10-30,ok,claude-haiku-5-5,c5b58efa,excel|powerpoint|word,powerbi,,Adobe Acrobat,c1_plus,must_have,fluent,must_have,,,10,10
 15986-REF299826U-fe83cd9-S,c5bed24045222c27,2026-10-31,ok,claude-haiku-5-5,c5b58efa,adobe_cc|genai|graphic_design|illustrator|indesign|photoshop,video,Typografie und Layout,AfterEffects;CI/CD einer Marke,c1_plus,must_have,c1_plus,must_have,,,15,15
+15986-REF300185A-9db14bf-S,7c27f527d361cbc2,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,data_analysis|java|powerbi|python|sap|sql|tableau,,R,c1_plus,must_have,c1_plus,must_have,,,15,15
+15986-REF300188Y-0f90b83-S,ec3e6c8c12bd0e31,2026-11-05,ok,claude-haiku-5-5,c5b58efa,python,pytorch|react,,,basic,must_have,fluent,must_have,,,15,15
 15992-2359080-S,af53849fd93f70ba,2026-10-17,ok,claude-haiku-5-5,c5b58efa,excel,,eGecko;Vivendi,,unknown,not_stated,unknown,not_stated,,,,
 16012-44344346-729-S,277e673f15402eb5,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office|video,adobe_cc|online_marketing,Marketingmaterialien erstellen;Marketingdaten analysieren;Marketingprojekte koordinieren;Messevorbereitung,,fluent,must_have,fluent,must_have,,,,
 16012-44412180-91-S,5aef280cdabb3bfe,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|ms_office|powerbi,,TDSK pro;TraffiService Portal;Qualitätskontrolle;Berichte / Reports,,c1_plus,must_have,unknown,not_stated,,,,
+16012-44551352-114-S,dc017bb7ce407386,2026-11-05,ok,claude-haiku-5-5,c5b58efa,content|social_media,,,,native,not_stated,unknown,not_stated,,,,
 16037-0068112346-S,f6689938f9ad965d,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,none,not_needed,,,,
 16045-k56465.3120-S,2522a14ba902053c,2026-10-14,ok,claude-haiku-5-5,b0e132ec,canva|indesign|market_research|photoshop|powerpoint|sales_skills,,,,unknown,must_have,unknown,not_stated,,,,
 16045-k56465.3181-S,79d18c4c4a3f7c45,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,,,,native,must_have,unknown,not_stated,,,,
@@ -5089,6 +5171,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 16604-975189-008-S,6076b15db4bd77be,2026-11-03,ok,claude-haiku-5-5,c5b58efa,ms_office|powerpoint|word,,,,native,must_have,fluent,nice_to_have,,,,
 16604-975190-008-S,2d254f9be0424063,2026-11-03,ok,claude-haiku-5-5,c5b58efa,ms_office|powerpoint|project_mgmt|word,,Presentations,,native,must_have,fluent,nice_to_have,,,,
 16604-975213-008-S,42dc71d1482fbf46,2026-11-03,ok,claude-haiku-5-5,c5b58efa,pcb,,Produktion elektronischer Baugruppen;THT-Vorbereitung für Bauteile,,unknown,not_stated,unknown,not_stated,,,,
+16604-975612-008-S,cc370b2be9394c43,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel|vba,,Auswertungen für Kennzahlen oder Berichte,,unknown,not_stated,unknown,not_stated,,,,
 16604-JR0000013878-008-S,583ad1530dc6af50,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,,Technische Zeichnungen lesen,Programmiersprachen,native,must_have,fluent,must_have,,,,
 16604-JR0000014121-008-S,2db59899945f6585,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|ms_office|powerpoint|word,,Präsentationen;Auswertungen,,c1_plus,must_have,unknown,not_stated,,,,
 16604-JR0000014132-008-S,29151fdf37371641,2026-10-14,ok,claude-haiku-5-5,b51c75bb,audit|excel|ms_office|powerpoint|word,,Auswertung von Sicherheitskennzahlen,Arbeitsschutzrecht,unknown,not_stated,unknown,not_stated,,,,
@@ -5250,6 +5333,8 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 16947-981056481-S,9ad75e319dce7d07,2026-11-04,ok,claude-haiku-5-5,c5b58efa,cpp|java,,Unit- sowie Integrationstests;UML;SysML;MBSE tooling;CAMEO Systems Modeler;Modelltransformationen,,fluent,must_have,fluent,must_have,,,15,18
 16947-981061354-S,9b43467f7b51eecf,2026-11-04,ok,claude-haiku-5-5,c5b58efa,genai|git|jira|mysql|postgresql|python|sql|testing,,SQLite;Software architecture and Object-Oriented Programming;PyQt,,unknown,nice_to_have,c1_plus,must_have,,,18,18
 16947-981081995-S,a67b08aa3588abdb,2026-11-04,ok,claude-haiku-5-5,c5b58efa,google_workspace,,,,fluent,must_have,unknown,must_have,,,,20
+16947-981301283-S,c31217e4fe341701,2026-11-05,ok,claude-haiku-5-5,c5b58efa,project_mgmt,,KPIs for project monitoring;Risk and opportunity management;Project cost performance,Structural/airframe engineering;Industrial processes,unknown,nice_to_have,fluent,must_have,18.17,18.17,18,18
+16947-981303474-S,5a06ea4be809d26c,2026-11-05,ok,claude-haiku-5-5,c5b58efa,cpp|data_analysis|dataviz|testing,,"GNSS receiver algorithms;Satellite navigation (GPS, Galileo);Satellite-based augmentation (WAAS, EGNOS);Technical documentation",,fluent,must_have,fluent,must_have,,,18,18
 16963-REF528M-1851570389-S,6f7af1b9bd0cd16e,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office,canva,,Online-Shop Produktseiten,c1_plus,must_have,unknown,not_stated,,,,
 16963-REF533L-0023286100-S,bbd00bf420e302ba,2026-10-21,ok,claude-haiku-5-5,c5b58efa,content|ms_office|online_marketing|social_media|video,canva,,Texte schreiben/optimieren;KI-Themen,c1_plus,must_have,unknown,not_stated,,,,
 16972-0000d5058fa001-S,1fb5c1f5e2c52a8c,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|ms_office,,,CAFM-System NOVA FM,unknown,not_stated,unknown,not_stated,,,,20
@@ -5401,6 +5486,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 18024-100fe00003T00-S,911f5a8c71f1749d,2026-11-02,ok,claude-haiku-5-5,c5b58efa,driving_licence|ms_office,,,,c1_plus,must_have,unknown,not_stated,14.84,17,,20
 18024-100fe00003T01-S,911f5a8c71f1749d,2026-11-03,ok,claude-haiku-5-5,c5b58efa,driving_licence|ms_office,,,,c1_plus,must_have,unknown,not_stated,14.84,17,,20
 18024-100fe00003T02-S,911f5a8c71f1749d,2026-11-04,ok,claude-haiku-5-5,c5b58efa,driving_licence|ms_office,,,,c1_plus,must_have,unknown,not_stated,14.84,17,,20
+18024-100fe00003T03-S,911f5a8c71f1749d,2026-11-05,ok,claude-haiku-5-5,c5b58efa,driving_licence|ms_office,,,,c1_plus,must_have,unknown,not_stated,14.84,17,,20
 18024-10Q2D00005L00-S,86927e25770e8501,2026-10-21,ok,claude-haiku-5-5,c5b58efa,ms_office,content|google_analytics,Kennzahlen,Webanalyse-Tools,unknown,not_stated,unknown,not_stated,,,20,20
 18024-10Q2U0000B501-S,8e5d05eda43ad540,2026-10-14,ok,claude-haiku-5-5,b0e132ec,it_security,,Datenschutzmanagement,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q2U0000CK00-S,45c55e673b442388,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
@@ -5410,6 +5496,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 18024-10Q4800001B0E-S,f53a749132bacbd8,2026-11-02,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q4800001B0F-S,f53a749132bacbd8,2026-11-03,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q4800001B0G-S,f53a749132bacbd8,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
+18024-10Q4800001B0H-S,f53a749132bacbd8,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q4800001C0A-S,92b132315d4c9090,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q4800001C0B-S,92b132315d4c9090,2026-10-30,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q4800001C0C-S,92b132315d4c9090,2026-10-31,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
@@ -5428,6 +5515,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 18024-10Q6L00001Y0B-S,63f3ccd9ba7241c4,2026-11-02,ok,claude-haiku-5-5,c5b58efa,excel|ms_office,,Windows,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q6L00001Y0C-S,63f3ccd9ba7241c4,2026-11-03,ok,claude-haiku-5-5,c5b58efa,excel|ms_office,,Windows;Digitale Ablagestrukturen,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q6L00001Y0D-S,63f3ccd9ba7241c4,2026-11-04,ok,claude-haiku-5-5,c5b58efa,excel|ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
+18024-10Q6L00001Y0E-S,63f3ccd9ba7241c4,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel|ms_office,,Dokumentenmanagement;Dokumente scannen,,unknown,not_stated,unknown,not_stated,,,,
 18024-10Q7q00001601-S,bc3e1c144f392586,2026-10-27,ok,claude-haiku-5-5,c5b58efa,agile|testing,git|java|jira,,Playwright,fluent,must_have,fluent,must_have,,,,
 18024-10Q7q00001602-S,ba3a7f33e1cea697,2026-10-28,ok,claude-haiku-5-5,c5b58efa,agile|testing,git|java|jira,,Playwright,c1_plus,must_have,c1_plus,must_have,,,,
 18024-10Q7q00001603-S,ba3a7f33e1cea697,2026-10-29,ok,claude-haiku-5-5,c5b58efa,agile|statistics|testing,git|java|jira,,Playwright,c1_plus,must_have,c1_plus,must_have,,,,
@@ -5436,6 +5524,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 18024-10Q7q00001607-S,ba3a7f33e1cea697,2026-11-02,ok,claude-haiku-5-5,c5b58efa,agile|testing,git|java|jira,KI-gestützte Entwicklungsmethoden,Playwright,c1_plus,must_have,c1_plus,must_have,,,,
 18024-10Q7q00001608-S,ba3a7f33e1cea697,2026-11-03,ok,claude-haiku-5-5,c5b58efa,agile|testing,git|java|jira,,Playwright,c1_plus,must_have,c1_plus,must_have,,,,
 18024-10Q7q00001609-S,ba3a7f33e1cea697,2026-11-04,ok,claude-haiku-5-5,c5b58efa,agile|testing,git|java|jira,,Playwright;KI-gestützten Entwicklungsmethoden,native,must_have,c1_plus,must_have,,,,
+18024-10Q7q0000160A-S,ba3a7f33e1cea697,2026-11-05,ok,claude-haiku-5-5,c5b58efa,agile|testing,git|java|jira,KI-gestützte Entwicklungsmethoden,Playwright,c1_plus,must_have,c1_plus,must_have,,,,
 18069-44466584-925-S,2dc70b52b2c20819,2026-10-14,ok,claude-haiku-5-5,b51c75bb,controlling|excel|ms_office|payroll,,,HR-Systeme,fluent,must_have,c1_plus,must_have,,,,
 18069-44473007-929-S,196a1223ec8acd37,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office|quality,,,,fluent,must_have,unknown,not_stated,,,,
 18069-44501696-1012-S,b91a07e7d5b9ba4d,2026-10-14,ok,claude-haiku-5-5,b51c75bb,accounting|controlling|excel|ms_office|powerpoint,powerbi,,,c1_plus,must_have,c1_plus,must_have,,,,
@@ -5451,6 +5540,8 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 18121-0068236856-S,a62289bdcc4f674e,2026-10-22,ok,claude-haiku-5-5,c5b58efa,controlling|excel|ms_office|powerbi|powerpoint|sap,,MS Project,,c1_plus,must_have,c1_plus,must_have,,,,
 18188-k60270.1758-S,c237fa87c968148b,2026-10-14,ok,claude-haiku-5-5,b51c75bb,cad|ms_office,autocad,,Asta Powerproject,fluent,must_have,unknown,not_stated,,,,
 18207-44494307-109-S,5436c7327ab75db3,2026-10-14,ok,claude-haiku-5-5,b51c75bb,event|ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
+18207-44551078-114-S,741291c0f48e425d,2026-11-05,ok,claude-haiku-5-5,c5b58efa,m365_admin,data_analysis,,Grundkenntnisse in Programmierung;KI-Technologien,c1_plus,must_have,unknown,not_stated,,,,
+18207-44551115-114-S,eb65d9b1876346eb,2026-11-05,ok,claude-haiku-5-5,c5b58efa,genai|ml,,Künstliche Intelligenz;Chatbot;Wissensdatenbank;Projektdokumentation,,c1_plus,must_have,unknown,not_stated,,,,
 18213-mu7sj68rlg-S,1946cbec086730ca,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,,,unknown,not_stated,unknown,not_stated,,,,
 18247-2cN3bWOt-S,59e3a7dd5f30c01a,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,Kassiervorgänge mit Software,Einzelhandel Erfahrung,fluent,must_have,unknown,not_stated,,,,
 18247-3zpIPofb-S,62da9d8e17f1271e,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,Kassiervorgänge mit Software,Erste Erfahrung im Einzelhandel,fluent,must_have,unknown,not_stated,,,,
@@ -5608,6 +5699,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 19108-976196882-S,61d8ab6f40040040,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Prozessleitsystemen;Produktionsabläufen;technische Dokumentationen,Kenntnisse in einem Prozessleitsystem,unknown,not_stated,unknown,not_stated,,,,
 19192-260417-64762646-S,3bdd016c6d046cb9,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|ms_office|powerpoint,pm_tools,Projektsteuerung,,unknown,not_stated,unknown,not_stated,,,,
 19192-260615-30249794-S,d4195b1dd51ec0b6,2026-10-31,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
+19192-260615-39348013-S,f1cfc565abbec761,2026-11-05,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 19192-260615-53582955-S,1c454841b6eee206,2026-10-21,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 19192-260615-75850676-S,d4195b1dd51ec0b6,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
 19192-260615-84987830-S,bf486f5fbbc39177,2026-10-26,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
@@ -5616,6 +5708,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 19192-260727-22931794-S,99c97eaa9ccbb3ae,2026-10-21,ok,claude-haiku-5-5,c5b58efa,project_mgmt,,Qualitätskontrollen;Kalkulation,,unknown,not_stated,unknown,not_stated,,,20,20
 19192-260727-35256122-S,cc977c4374564ec9,2026-10-31,ok,claude-haiku-5-5,c5b58efa,project_mgmt,,,Bauwesen,unknown,not_stated,unknown,not_stated,,,20,20
 19192-260727-39119078-S,726a490ae65093b4,2026-10-14,ok,claude-haiku-5-5,b51c75bb,project_mgmt,,Bauleitung,Erste praktische Erfahrungen im Bauwesen,unknown,not_stated,unknown,not_stated,,,20,20
+19192-260727-54935270-S,c3f0ba2e4af4a03e,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,20,20
 19192-260727-63348355-S,90164cb17ea0fb05,2026-10-26,ok,claude-haiku-5-5,c5b58efa,,project_mgmt,Kalkulation;Projektleitung,,unknown,not_stated,none,not_stated,,,20,20
 19208-0067569802-S,b3a7ab01e495fca9,2026-10-14,ok,claude-haiku-5-5,b0e132ec,content|social_media|video,event|graphic_design|photography,,,unknown,not_stated,unknown,must_have,,,,
 19217-0066989900-S,8f90b344b21f96ed,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,pr|project_mgmt,,Fundraising,unknown,not_stated,unknown,not_stated,,,,
@@ -5642,6 +5735,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 19320-106995X347522-S,2311eaff7a55b14d,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,,Technische Dokumentation;Norm- und Literaturrecherche,,fluent,must_have,fluent,must_have,,,,
 19376-44512678-1016-S,67f2281dfe09586a,2026-10-17,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|powerpoint,,,,c1_plus,must_have,unknown,not_stated,,,,
 19376-44529391-1023-S,f17ae11823715217,2026-10-24,ok,claude-haiku-5-5,c5b58efa,controlling|excel|ms_office|powerpoint,,,,c1_plus,must_have,unknown,not_stated,,,,
+19376-44552790-114-S,a540825b369a4471,2026-11-05,ok,claude-haiku-5-5,c5b58efa,python,excel|ml|rpa|sql,,Datenqualität,c1_plus,must_have,unknown,not_stated,,,,
 19380-us8w3le2wk-S,c1808842e52e66e5,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,,Literatur- und Datenbankrecherchen,KI-Tools,c1_plus,must_have,none,not_stated,,,10,19
 19435-0067585382-S,45f77a751a490d94,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|ms_office,,Abrechnungen / Lieferantenrechnungen,energiewirtschaftlichen Zusammenhängen,unknown,not_stated,unknown,not_stated,,,,
 19442-Owyzm3dR-S,74e7d90469095cf7,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,excel|ms_office|powerpoint,,,unknown,not_stated,unknown,not_stated,,,,20
@@ -5743,6 +5837,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 20342-489-1793019853-S,6f899176d59c730a,2026-10-27,ok,claude-haiku-5-5,c5b58efa,,,Pädagogische Kenntnisse,,unknown,not_stated,none,not_stated,,,,
 20342-489-1793257281-S,6f899176d59c730a,2026-10-29,ok,claude-haiku-5-5,c5b58efa,,quality,Pädagogische Kenntnisse,,unknown,not_stated,unknown,not_stated,,,,
 20390-979413063-S,94502bd5f572a8ce,2026-10-27,ok,claude-haiku-5-5,c5b58efa,controlling|excel|ms_office,,Cost center work,Reporting tool,unknown,not_stated,fluent,must_have,,,,20
+20390-981430810-S,b420da6e6fa1aff1,2026-11-05,ok,claude-haiku-5-5,c5b58efa,accounting|tax,controlling,,,fluent,must_have,fluent,must_have,,,20,
 20393-44466755-925-S,d94906dc3b70de46,2026-10-14,ok,claude-haiku-5-5,b0e132ec,gmp,,Herstellungsdokumentation,,fluent,must_have,unknown,not_stated,,,,
 20393-44531453-1025-S,d94906dc3b70de46,2026-10-26,ok,claude-haiku-5-5,c5b58efa,gmp,,Herstellungsdokumentation,,fluent,must_have,unknown,not_stated,,,,
 20412-2337301-S,ec6e07cfa2253199,2026-10-14,ok,claude-haiku-5-5,b0e132ec,google_workspace|ms_office,,Schleupen;öffentliches Recht & Gebührensatzungen;Kontakt mit Kundinnen & Kunden,,unknown,not_stated,unknown,not_stated,14.5,14.5,,
@@ -5765,6 +5860,7 @@ refnr,text_hash,extracted,status,model,prompt,must,nice,other_must,other_nice,ge
 20471-2355796-S,d556faa0d05a12d2,2026-10-14,ok,claude-haiku-5-5,b51c75bb,project_mgmt,,"Präsentationen, Reports und Unterlagen",,c1_plus,must_have,c1_plus,must_have,,,,
 20478-2339462-S,ffa46d4dfa994781,2026-10-14,ok,claude-haiku-5-5,b0e132ec,controlling|it_security|project_mgmt,,Source Code Reviews;Testmanagement;Projektplanung;Präsentationen,Ethical Hacking,unknown,not_stated,unknown,not_stated,,,12,38
 20478-2355557-S,49454a4746d57d9e,2026-10-14,ok,claude-haiku-5-5,b51c75bb,excel|powerpoint|word,,KI-Tools,Praktische Erfahrungen im Gesundheitswesen;Erste Erfahrungen im Bereich Moderation,unknown,not_stated,unknown,not_stated,,,19,38
+20478-2371320-S,1e7b1ca6f6dfe1c5,2026-11-05,ok,claude-haiku-5-5,c5b58efa,ms_office,genai|pr,Texte schreiben,,unknown,not_stated,unknown,not_stated,,,15,19
 20534-10247244-S,bdd965a9f57590b1,2026-10-14,ok,claude-haiku-5-5,b0e132ec,cad,,Hottgenroth Energieberatungssoftware,,unknown,not_stated,unknown,not_stated,,,,
 20534-10247245-S,ec95377b4d31e2d0,2026-10-14,ok,claude-haiku-5-5,b0e132ec,cad,,Hottgenroth Energieberatungssoftware,,unknown,not_stated,unknown,not_stated,,,,
 20534-10247546-S,bdd965a9f57590b1,2026-10-14,ok,claude-haiku-5-5,b0e132ec,cad,,Energieberatungssoftware Hottgenroth,,unknown,not_stated,unknown,not_stated,,,,
@@ -5819,7 +5915,7 @@ an:business-development-representative-bdr-munich-34180,25c28b527ba5d4bd,2026-11
 an:business-intelligence-ai-consultant-als-werkstudent-cologne-304113,dc62d41ce1385302,2026-10-27,ok,claude-haiku-5-5,c5b58efa,data_analysis|dataviz|online_marketing|powerbi,sql,KPIs;Kundendaten analysieren;AI-Tools;Business Intelligence,generativer AI,c1_plus,must_have,fluent,nice_to_have,,,,
 an:business-operations-werkstudent-munchen-412185,141f0f8637cb9da9,2026-10-14,ok,claude-haiku-5-5,b51c75bb,sales_skills,,Datenprüfung Fahrzeugdaten,Autos Interesse,c1_plus,must_have,fluent,must_have,,,,20
 an:call-center-agent-bremen-312135,a6f0949f60332bda,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
-an:category-management-werkstudent-hamburg-hamburg-12355,3fb45595b268489b,2026-11-04,ok,claude-haiku-5-5,c5b58efa,content|supply_chain,,Datenblätter überprüfen;Auswertung von Verkaufszahlen;Datenbasierte Entscheidungen;Begeisterung für neue Software,,fluent,must_have,fluent,must_have,14.75,15.5,16,20
+an:category-management-werkstudent-hamburg-hamburg-12355,d5e3c94ab2425aea,2026-11-05,ok,claude-haiku-5-5,c5b58efa,content,,Daten & Analysen Verkaufszahlen auswerten,,fluent,must_have,fluent,must_have,14.75,15.5,16,20
 an:commercial-analytics-werkstudent-dusseldorf-north-rhine-westphalia-8301,a8d4f001df309a95,2026-10-16,ok,claude-haiku-5-5,c5b58efa,data_analysis|dataviz|excel|google_workspace|sql|tableau,python,,,unknown,not_stated,unknown,not_stated,14.75,15.5,16,20
 an:communications-and-inbound-marketing-working-student-wiesbaden-181640,3cd41026e5a7ac75,2026-11-03,ok,claude-haiku-5-5,c5b58efa,online_marketing|seo|social_media|ux,market_research,Excellence in writing,,unknown,not_stated,native,must_have,,,20,20
 an:community-managerin-fur-unsere-ki-community-minijob-werkstudentin-berlin-357596,266acdae664b5cbf,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|social_media,,"KI im täglichen Workflow;Kontext Engineering, MCPs, Skills, Plugins, Automations",,native,must_have,unknown,not_stated,,,,
@@ -5849,7 +5945,7 @@ an:digital-marketing-specialist-werkstudent-marketing-nagold-76004,a24c96ab35285
 an:driver-cleaner-carsharing-d-working-student-berlin-192279,4521641ce36cf27f,2026-10-18,ok,claude-haiku-5-5,c5b58efa,driving_licence,,,,unknown,not_stated,unknown,not_stated,,,,
 an:dsp-engineer-werkstudent-kassel-hesse-74152,94ab4dd70dc0235f,2026-10-22,ok,claude-haiku-5-5,c5b58efa,cpp|data_analysis|dataviz|python,,DSP fundamentals,,unknown,nice_to_have,unknown,must_have,,,,
 an:e-commerce-digital-commerce-praktikum-werkstudent-hamburg-273211,ecca648bb1e9e960,2026-10-16,ok,claude-haiku-5-5,c5b58efa,excel|google_workspace|shopify,,"Shop-KPIs (Conversion Rate, Abbruchraten);Admetrics, DataX",CRO / A/B-Testing,c1_plus,must_have,fluent,must_have,,,,
-an:e-commerce-werkstudent-hamburg-hamburg-130,8186341ed33450fa,2026-11-04,ok,claude-haiku-5-5,c5b58efa,data_analysis,,,,fluent,must_have,fluent,must_have,14.75,15.5,16,20
+an:e-commerce-werkstudent-hamburg-hamburg-130,7930f1cf27fad0e2,2026-11-05,ok,claude-haiku-5-5,c5b58efa,content,,Daten & Analysen,,fluent,must_have,fluent,must_have,14.75,15.5,16,20
 an:einkauf-werkstudent-hamburg-hamburg-286136,8fd24289fdc7df55,2026-11-03,ok,claude-haiku-5-5,c5b58efa,,,Daten & Analysen;Projektarbeit,,fluent,must_have,fluent,must_have,14.75,15.5,16,20
 an:energieberaterin-gebaudeberechnung-lennestadt-96268,2454b1a6acc6ed2f,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,,Energieberatung,,unknown,not_stated,unknown,not_stated,,,,
 an:erzieher-kita-werkstudent-grevenbroich-76354,b4b7d8f8e0a0a5a3,2026-10-17,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,20
@@ -5863,13 +5959,13 @@ an:founders-associate-cologne-262947,7c60f22ad6e99418,2026-10-16,ok,claude-haiku
 an:founders-associate-hiwi-fokus-financials-investor-readiness-aachen-474292,4dba182ea3a41c24,2026-10-15,ok,claude-haiku-5-5,c5b58efa,excel|fin_model,crm,"Kennzahlen und Reports;Markt-, Wettbewerbs- und Benchmark-Analysen;Analyse von SaaS-Kennzahlen",BI-Tools,c1_plus,must_have,fluent,must_have,,,15,20
 an:founders-associate-internship-or-working-student-munich-181655,b13071461c799871,2026-10-14,ok,claude-haiku-5-5,b0e132ec,sales_skills,consulting,Prozessautomatisierung,,unknown,not_stated,unknown,not_stated,,,,
 an:founders-associate-strategic-projects-ceo-office-internship-working-student-leipzig-117107,007e7f7f9934a015,2026-10-30,ok,claude-haiku-5-5,c5b58efa,excel|fin_model|recruiting,,Slides;KI nutzen,,unknown,not_stated,fluent,must_have,,,20,20
-an:founders-associate-werkstudentin-berlin-47287,962a480f736f3812,2026-11-03,ok,claude-haiku-5-5,c5b58efa,,consulting,,Start up experience,fluent,must_have,fluent,must_have,,,15,20
+an:founders-associate-werkstudentin-berlin-47287,ba9cf6278155970d,2026-11-05,ok,claude-haiku-5-5,c5b58efa,fin_model|market_research|process_mgmt|sales_skills,consulting,,Start up experience,fluent,must_have,fluent,must_have,,,15,20
 an:founders-associate-working-student-berlin-327142,693fb8d82c830df6,2026-11-04,ok,claude-haiku-5-5,c5b58efa,content|event|notion|recruiting|zapier,,Claude;Personio;LinkedIn;Medien-Outreach,,fluent,must_have,fluent,must_have,,,16,20
 an:founders-associate-working-student-munich-446007,126900791b76e5fa,2026-11-02,ok,claude-haiku-5-5,c5b58efa,accounting|controlling|fin_model|market_research|process_mgmt|sales_skills,,KPI tracking;Customer projects and presentations,,unknown,must_have,unknown,must_have,,,,
 an:founding-growth-content-associate-werkstudentin-berlin-347679,6dd02074983c20a1,2026-10-18,ok,claude-haiku-5-5,c5b58efa,content|event|social_media|video,,Analyse der Kanäle,,native,must_have,fluent,must_have,17,17,,
 an:frontend-developer-werkstudent-darmstadt-49919,a325c4bc5c74613f,2026-10-16,ok,claude-haiku-5-5,c5b58efa,html_css|javascript,,Bootstrap,,c1_plus,must_have,unknown,not_stated,15,15,,20
 an:full-stack-entwicklerin-heidenheim-305978,fb9f26013ef45a0d,2026-10-16,ok,claude-haiku-5-5,c5b58efa,django|genai|javascript|python|react,,Webserver administration,Hardware und Server,basic,must_have,unknown,must_have,,,,
-an:full-stack-entwicklerin-nextjs-remote-berlin-336824,b7738e287aff7be4,2026-11-04,ok,claude-haiku-5-5,c5b58efa,nextjs|typescript,,Claude Code,,fluent,must_have,basic,must_have,20,30,,
+an:full-stack-entwicklerin-nextjs-remote-berlin-336824,2406a362a9ca6ef9,2026-11-05,ok,claude-haiku-5-5,c5b58efa,nextjs|typescript,,Claude Code,,fluent,must_have,basic,must_have,20,30,,
 an:future-hr-leader-werkstudent-hr-nuremberg-443902,1dc3ee3e62e652ed,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,10,20
 an:gesundheitsmanagement-praktikum-werkstudentin-schwerpunkt-marketing-munich-156651,f128ec32fc1b37d2,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|market_research|online_marketing,,,,c1_plus,must_have,c1_plus,must_have,,,,
 an:go-to-market-working-student-berlin-106285,f418924cd954f2be,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,spreadsheets and data;unit economics;pricing,,unknown,nice_to_have,c1_plus,must_have,,,15,20
@@ -5890,10 +5986,11 @@ an:informatik-student-in-als-it-allrounder-in-im-stundenlohn-ca-20-30-lengnau-75
 an:ingenieur-innen-techniker-innen-und-werkstudent-innen-dorsten-410917,ba55ff8fcbde6f18,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,c1_plus,must_have,unknown,not_stated,,,,20
 an:initiativbewerbung-augsburg-11171,83fbc3ac7c090c01,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:initiativbewerbung-studenten-aschaffenburg-199769,2c50bc312f9159c8,2026-10-17,ok,claude-haiku-5-5,c5b58efa,online_marketing|ux,,,,c1_plus,must_have,fluent,must_have,,,,
-an:intern-working-student-alpha-engineering-design-team-munich-387584,7684cae5ea50c6b0,2026-11-03,ok,claude-haiku-5-5,c5b58efa,cad|fem,catia|python,materials selection,,unknown,not_stated,unknown,not_stated,,,,
+an:intern-working-student-alpha-engineering-design-team-munich-387584,4302d0c0e02f23d5,2026-11-05,ok,claude-haiku-5-5,c5b58efa,cad|fem,catia|python,materials selection,,unknown,not_stated,unknown,not_stated,,,,
 an:intern-working-student-influencer-performance-marketing-dutch-market-munchen-385099,c9468d9ec08676d9,2026-10-30,ok,claude-haiku-5-5,c5b58efa,content|controlling|online_marketing|paid_social|social_media|video,,Vertalen van advertenties,,unknown,not_stated,c1_plus,must_have,,,,
 an:it-administrator-working-student-frankfurt-am-main-hybrid-364257,b055a30b0375c220,2026-10-15,ok,claude-haiku-5-5,c5b58efa,bash|python,it_security|linux,IT administration,"Identity providers (Auth0, Entra ID)",unknown,nice_to_have,fluent,must_have,,,,20
 an:it-administrator-working-student-frankfurt-am-main-hybrid-495748,b055a30b0375c220,2026-10-21,ok,claude-haiku-5-5,c5b58efa,bash|it_security|python,linux,,Identity providers,unknown,nice_to_have,fluent,must_have,,,20,20
+an:it-operations-working-student-d-berlin-234154,e64ebddd55b7a728,2026-11-05,ok,claude-haiku-5-5,c5b58efa,it_support|networking,,macOS & Windows;Hardware troubleshooting,"MDM solutions, ticketing systems",unknown,nice_to_have,fluent,must_have,,,20,20
 an:it-support-teilzeit-werkstudenten-dinslaken-418380,afb3ef4cfb22c829,2026-10-15,ok,claude-haiku-5-5,c5b58efa,m365_admin|ms_office,driving_licence|windows_server,Windows,RDS;virtuelle Maschinen;Netzwerkthemen,unknown,not_stated,unknown,not_stated,,,20,20
 an:junior-it-security-consultant-werkstudentin-german-c1-darmstadt-139122,9b78167cb334b19a,2026-10-16,ok,claude-haiku-5-5,c5b58efa,it_security,,,,c1_plus,must_have,unknown,not_stated,15.5,17.5,,
 an:junior-marketing-manager-werkstudent-berlin-376153,a58cbec94c643e3f,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|email_marketing|figma|hubspot|social_media|video,,Loops,,c1_plus,must_have,fluent,must_have,,,,
@@ -5917,7 +6014,7 @@ an:marketing-werkstudent-praktikant-stuttgart-460518,2ed34349dabcf2fb,2026-10-16
 an:marketing-werkstudentin-taufkirchen-53981,27a4de75176a2eb2,2026-10-15,ok,claude-haiku-5-5,c5b58efa,canva|controlling|crm|email_marketing|google_analytics|hubspot|social_media,,Marketing Automations,,fluent,must_have,unknown,not_stated,,,15,20
 an:marketing-working-student-hamburg-369333,d0d8a07961005bd5,2026-10-15,ok,claude-haiku-5-5,c5b58efa,controlling|market_research|social_media,,Presentations and reports,,fluent,must_have,fluent,must_have,,,20,20
 an:marketingassistentin-leipzig-410947,38a46c67ff948bba,2026-10-22,ok,claude-haiku-5-5,c5b58efa,genai|paid_social|sea,,Tracking;Aufbau von Websites,,unknown,not_stated,unknown,not_stated,,,,20
-an:masterarbeit-werkstudent-agentic-ai-multi-agenten-systeme-heidelberg-119998,2e5bf9f60b2ea0cc,2026-11-04,ok,claude-haiku-5-5,c5b58efa,genai|git|it_security|python|rest_api|typescript,,"Agentic workflow frameworks (MCP, LangGraph, CrewAI, AutoGen);Agentic coding tools (Cursor, Cline, Claude Code)",,c1_plus,must_have,c1_plus,must_have,,,,
+an:masterarbeit-werkstudent-agentic-ai-multi-agenten-systeme-heidelberg-119998,c354f52550474acf,2026-11-05,ok,claude-haiku-5-5,c5b58efa,genai|git|it_security|python|rest_api|typescript,,"Agentic workflows and frameworks (MCP, LangGraph);Agentic coding tools (Cursor, Cline, Claude Code)",,c1_plus,must_have,c1_plus,must_have,,,,
 an:mediengestalter-grafikdesigner-web-e-commerce-design-nebenjob-werkstudent-karlsbad-122953,b358999b21c6cdbf,2026-10-15,ok,claude-haiku-5-5,c5b58efa,illustrator|photoshop|ux,html_css|indesign|wordpress,,Shop-Systeme,unknown,not_stated,unknown,not_stated,,,8,20
 an:mentor-fur-ai-gestutzte-softwareentwicklung-werkstudent-berlin-175215,26dbf43b840b0ff7,2026-10-22,ok,claude-haiku-5-5,c5b58efa,genai|git,,GitHub Copilot;Claude;Code-Review;Programmierung in moderner Sprache,,fluent,must_have,unknown,not_stated,17,20,15,20
 an:mitarbeiter-zur-unterstutzung-der-it-abteilung-auf-minijobbasis-oder-als-werkstudent-sankt-wendel-348778,2ca77b5e0e80befa,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,driving_licence,Betreuung der Hotline;Ticketbearbeitung,,fluent,must_have,unknown,not_stated,,,,
@@ -5929,13 +6026,15 @@ an:people-culture-hr-werkstudent-i-start-up-i-munchen-i-18eur-std-munich-472139,
 an:people-culture-working-student-all-genders-berlin-45233,6d2355fc25f6786d,2026-11-04,ok,claude-haiku-5-5,c5b58efa,jira,google_workspace,,Personio;Leapsome,native,must_have,c1_plus,must_have,,,,
 an:people-operations-working-student-476920,c23a6a418728c071,2026-10-17,ok,claude-haiku-5-5,c5b58efa,audit|controlling|payroll,project_mgmt,Personio;Employee queries,,c1_plus,must_have,c1_plus,must_have,,,15,20
 an:people-operations-working-student-aachen-279283,8327775447fb906e,2026-10-15,ok,claude-haiku-5-5,c5b58efa,google_workspace|ms_office,,,HRIS,c1_plus,must_have,fluent,must_have,,,,
+an:people-operations-working-student-berlin-284127,f2817d1321fb5e1b,2026-11-05,ok,claude-haiku-5-5,c5b58efa,payroll,data_analysis|project_mgmt,Personio,Automation,c1_plus,must_have,c1_plus,must_have,,,15,20
 an:people-operations-working-student-berlin-365930,2bbb18d5925934fa,2026-10-16,ok,claude-haiku-5-5,c5b58efa,audit|controlling|payroll,,Personio,,c1_plus,must_have,c1_plus,must_have,,,15,20
+an:performance-marketing-working-student-berlin-489245,9c0c904457341f55,2026-11-05,ok,claude-haiku-5-5,c5b58efa,controlling|excel|google_workspace|social_media,paid_social|sea,paid campaigns;Ad creatives,,unknown,not_stated,unknown,not_stated,,,,
 an:performance-marketing-working-student-talent-acquisition-berlin-445074,ef148e0fbc965205,2026-10-15,ok,claude-haiku-5-5,c5b58efa,controlling|market_research|online_marketing,,Comfortable working with spreadsheets;Keep job listings live;Coordinate creative feedback,,unknown,not_stated,c1_plus,must_have,,,20,20
 an:performance-marketing-working-student-talent-acquisition-berlin-470666,4201458f7dda5677,2026-10-14,ok,claude-haiku-5-5,b0e132ec,content|controlling|market_research|online_marketing|process_mgmt,,Keep job listings live across boards,,unknown,not_stated,c1_plus,must_have,,,20,20
 an:pflichtpraktikum-social-media-management-strategie-waldbronn-338813,3a032e2712d4d97e,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|social_media,,,,unknown,not_stated,unknown,not_stated,,,,
 an:praktika-werkstudent-ki-trifft-energie-hybride-energiesysteme-fur-h2-speicher-erneuerbare-energien-heidelberg-408071,f1e9e903195087bb,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,,BI;Zeitreihenanalysen;Frontend / Backend Entwicklung;KI Modelle,Web-Applikationen Entwicklung,unknown,not_stated,unknown,not_stated,,,,
 an:praktika-werkstudium-im-bereich-der-erneuerbaren-energiesysteme-heidelberg-387354,24c0b8c57cefc7b4,2026-10-16,ok,claude-haiku-5-5,c5b58efa,energy,,Projektplanung und -umsetzung;Budgetplanung und -überwachung;Smart Meter Integration,,unknown,not_stated,unknown,not_stated,,,,
-an:praktikant-operations-growth-berlin-482406,260ea114e3cd8b8f,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,KI im Alltag;Kundenkontakt;Funnel-Zahlen,Automatisierungen,c1_plus,must_have,unknown,not_stated,,,,20
+an:praktikant-operations-growth-berlin-482406,dd5a295074fb489c,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,KI im Alltag,Automatisierungen;Kundenkontakt;Funnel-Zahlen,c1_plus,must_have,unknown,not_stated,,,,20
 an:praktikant-werkstudent-fur-buy-and-build-it-plattform-ab-sofort-frankfurt-am-main-155330,6479ca06569d0ccf,2026-10-18,ok,claude-haiku-5-5,c5b58efa,consulting|excel|market_research|ms_office|powerpoint|project_mgmt|sales_skills,,Due Diligence;M&A;Berichte für Stakeholder,,c1_plus,must_have,c1_plus,must_have,,,,
 an:praktikant-werkstudent-fur-prototyping-zukunftstechnologien-erlangen-272773,4b0315c1784927dd,2026-11-03,ok,claude-haiku-5-5,c5b58efa,cicd|cpp|genai|microservices|python,,,,c1_plus,must_have,unknown,not_stated,,,15,20
 an:praktikant-werkstudent-im-bereich-salesforce-munich-393429,c732fc2586290aca,2026-10-17,ok,claude-haiku-5-5,c5b58efa,crm|dataviz|excel|powerpoint|salesforce,,,,c1_plus,must_have,fluent,must_have,,,,
@@ -5956,7 +6055,7 @@ an:praktikum-werkstudent-social-media-marketing-berlin-279221,aff67769a7f3d4e2,2
 an:praktikum-werkstudententatigkeit-recruiting-personalberatung-munich-98675,ecb19ca582445520,2026-10-15,ok,claude-haiku-5-5,c5b58efa,market_research|ms_office|recruiting,,"LinkedIn, XING Recherche",,unknown,not_stated,unknown,not_stated,,,,
 an:praktikum-werkstudentin-partnership-management-berlin-berlin-258311,c742b0522b7097c4,2026-10-22,ok,claude-haiku-5-5,c5b58efa,controlling,crm|excel|sales_skills,Partnership Management,,fluent,must_have,c1_plus,must_have,15,15,20,20
 an:programmiertutor-informatiktutor-complori-berlin-297126,0c740a32283bb325,2026-10-22,ok,claude-haiku-5-5,c5b58efa,python,javascript|unity,Programmiersprache Grundlagen,Scratch,c1_plus,must_have,unknown,not_stated,15,15,12,20
-an:recruiting-personalassistenz-minijob-werkstudent-teilzeit-essen-443332,8e8000c05a8b5f61,2026-11-04,ok,claude-haiku-5-5,c5b58efa,ms_office,recruiting,,,c1_plus,must_have,unknown,not_stated,,,,15
+an:recruiting-personalassistenz-minijob-werkstudent-teilzeit-essen-443332,4facb76f1f266ac2,2026-11-05,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting,,Dokumentation und Nachverfolgung,,fluent,must_have,unknown,not_stated,,,15,15
 an:remote-germany-working-student-in-consulting-climate-risk-and-decarbonisation-frankfurt-486948,75ea92dda194455a,2026-11-04,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|python|r|research_methods,,Agentic AI,,fluent,must_have,fluent,must_have,,,10,15
 an:remote-werkstudent-als-sprachdozent-deutsch-englisch-hessen-bbi-112218,8c7fe8204d903394,2026-10-18,ok,claude-haiku-5-5,c5b58efa,,,,,native,must_have,c1_plus,must_have,,,,
 an:remote-werkstudent-als-sprachdozent-deutsch-englisch-hessen-bbi-381642,dcf1ab6ad78780e3,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,,,c1_plus,must_have,c1_plus,must_have,,,,
@@ -5964,10 +6063,10 @@ an:remote-werkstudent-automatisierung-ki-workflows-im-enterprise-risk-management
 an:remote-werkstudent-customer-service-257523,0914730b5f354f42,2026-10-16,ok,claude-haiku-5-5,c5b58efa,customer_service,,,,c1_plus,must_have,unknown,not_stated,,,,
 an:remote-werkstudent-enterprise-risk-management-276225,6bd63aeb5fba0112,2026-10-17,ok,claude-haiku-5-5,c5b58efa,controlling|excel,,,KI-Anwendungen,fluent,must_have,fluent,must_have,,,,
 an:remote-werkstudent-finance-accounting-all-genders-67987,d612399d6fe5fe48,2026-10-27,ok,claude-haiku-5-5,c5b58efa,accounting|excel|notion|tax,,,,c1_plus,must_have,fluent,must_have,,,,
-an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-128511,eb4c529087e68454,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,KPIs;Kundentermine vereinbaren;Beratungsunterlagen,,unknown,not_stated,unknown,not_stated,,,,
+an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-128511,f7286d00b5141116,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,KPIs;Kundentermine vereinbaren;Beratungsunterlagen,,unknown,not_stated,unknown,not_stated,,,,
 an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-137491,eb4c529087e68454,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,KPIs;Kundentermine vereinbaren;Beratungsunterlagen vorbereiten,,unknown,not_stated,unknown,not_stated,,,,
 an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-171872,eb4c529087e68454,2026-10-21,ok,claude-haiku-5-5,c5b58efa,,,"KPIs;Beratungsunterlagen vorbereiten;Kundentermine, Leads, Pipeline",,unknown,not_stated,unknown,not_stated,,,,
-an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-18009,f7286d00b5141116,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,KPIs,,unknown,not_stated,unknown,not_stated,,,,
+an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-18009,eb4c529087e68454,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,KPIs,,unknown,not_stated,unknown,not_stated,,,,
 an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-354809,eb4c529087e68454,2026-10-30,ok,claude-haiku-5-5,c5b58efa,,,"KPIs;Kundentermine vereinbaren (Leads, Pipeline);Beratungsunterlagen vorbereiten",,unknown,not_stated,unknown,not_stated,,,,
 an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-370525,eb4c529087e68454,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,,mit KPIs arbeiten,,unknown,not_stated,unknown,not_stated,,,,
 an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-43421,f7286d00b5141116,2026-10-26,ok,claude-haiku-5-5,c5b58efa,,,KPIs;Kundentermine vereinbaren;Beratungsunterlagen,,unknown,not_stated,unknown,not_stated,,,,
@@ -5982,6 +6081,7 @@ an:retail-promoter-werkstudent-teilzeit-16-std-woche-ab-januar-berlin-133331,c66
 an:retail-promoter-werkstudent-teilzeit-16-std-woche-ab-januar-frankfurt-14596,c662232a603f697e,2026-10-15,ok,claude-haiku-5-5,c5b58efa,controlling,,Smartphone / Apps für Reporting,,unknown,not_stated,unknown,nice_to_have,,,16,16
 an:retail-promoter-werkstudent-teilzeit-16-std-woche-ab-januar-freiburg-214723,cd2c1063eb853f62,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,,digitales Reporting-System;Smartphone / Apps für Reporting,,unknown,not_stated,unknown,nice_to_have,,,16,16
 an:retail-promoter-werkstudent-teilzeit-16-std-woche-ab-januar-stuttgart-420881,cd2c1063eb853f62,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,Smartphone / Apps für Reporting,,unknown,not_stated,unknown,nice_to_have,,,16,16
+an:robotics-operator-working-student-20hrs-week-berlin-435369,34254efe122d5a32,2026-11-05,ok,claude-haiku-5-5,c5b58efa,driving_licence,linux,,Grafana / Prometheus,unknown,not_stated,unknown,not_stated,,,20,20
 an:rox-student-talent-pool-werkstudent-in-oder-praktikant-in-fur-digital-health-projekt-remote-berlin-231630,04f9418514c5e8b1,2026-10-18,ok,claude-haiku-5-5,c5b58efa,online_marketing|project_mgmt|social_media|testing,data_analysis,Kundenfragen und Probleme,,unknown,not_stated,unknown,not_stated,,,,
 an:sales-assistant-werkstudent-hamburg-europa-passage-401401,02915bff431d063b,2026-11-02,ok,claude-haiku-5-5,c5b58efa,content|customer_service,,Visual Merchandising;Kasse und Inventur,Einzelhandel Berufserfahrung,c1_plus,must_have,fluent,must_have,,,,
 an:seo-sea-werkstudent-mit-fokus-auf-sichtbarkeit-in-ki-suchen-remote-oder-wurzburg-166962,44de8c54c9e44760,2026-10-22,ok,claude-haiku-5-5,c5b58efa,content|controlling|sea|seo,genai|google_analytics,Claude Skills,Google Search Console;Statistics,unknown,not_stated,unknown,not_stated,,,,
@@ -6015,7 +6115,7 @@ an:teilzeit-oder-werksstudentin-marketing-cologne-258824,7c648a35464512a0,2026-1
 an:teilzeit-werkstudent-social-media-manager-in-ratingen-59504,7da5a3788568790c,2026-10-15,ok,claude-haiku-5-5,c5b58efa,social_media|video,,Kreative Schreibfähigkeiten;Performance-Reports;Gestaltung von Bild- und Videomedien,,fluent,must_have,unknown,not_stated,,,,
 an:textil-design-mediengestaltung-werkstudent-lahnau-63597,6e76a08e03599c60,2026-11-04,ok,claude-haiku-5-5,c5b58efa,adobe_cc|illustrator|photoshop,,,,unknown,not_stated,fluent,must_have,,,,
 an:tiktok-content-creator-video-editor-werkstudentenstelle-neckargemund-261700,e038b297e48e0d7e,2026-10-21,ok,claude-haiku-5-5,c5b58efa,video,,KPI-Analyse der Performance;Brand Account Posting;Creatives erstellen,AI-Tools;Affiliate- oder Creator-Marketing,native,must_have,fluent,must_have,16,18,15,20
-an:uav-engineer-working-student-all-genders-ohrdruf-thuringia-160341,9b99923ab076dd56,2026-11-04,ok,claude-haiku-5-5,c5b58efa,cpp|embedded|linux|networking|python|robotics|testing,,PX4 / ArduPilot flight controllers,"NVIDIA Jetson / Coral edge AI;RF, radar, optical sensing",unknown,not_stated,fluent,must_have,,,,
+an:uav-engineer-working-student-all-genders-ohrdruf-thuringia-160341,d24e9128aa10fcf5,2026-11-05,ok,claude-haiku-5-5,c5b58efa,cpp|embedded|fem|linux|networking|python|robotics|testing,,,"Edge AI hardware (NVIDIA Jetson, Coral);RF, radar, optical sensing",unknown,not_stated,fluent,must_have,,,,
 an:ui-ux-designer-mit-e-commerce-erfahrung-bielefeld-206107,e746936d98cc9449,2026-10-16,ok,claude-haiku-5-5,c5b58efa,adobe_cc|figma|ux,,E-Commerce-Erfahrung,,c1_plus,must_have,fluent,must_have,,,,
 an:unsolicited-application-working-student-flight-testing-munich-464361,62888a364e065682,2026-10-24,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:unsolicited-application-working-student-software-engineering-munich-322796,3cb7f40195d2802a,2026-10-17,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
@@ -6023,7 +6123,7 @@ an:unsolicited-hardware-engineering-working-student-munich-405128,c7e6a0ad492fdd
 an:user-interface-design-werkstudentin-berlin-25675,3eb5a903e97e5fba,2026-10-16,ok,claude-haiku-5-5,c5b58efa,adobe_cc|figma|sketch_xd|ux,,"Gespür für Typografie, Farbe, Layout;Design systems;Prototyping",,fluent,must_have,fluent,must_have,,,,
 an:ux-designerin-werkstudium-oder-pflichtpraktikum-heilbronn-15571,03d2b2126853aca7,2026-10-16,ok,claude-haiku-5-5,c5b58efa,django|flutter|python|rest_api|ux,,Dart,,unknown,not_stated,unknown,not_stated,,,,
 an:ux-ui-design-funnel-management-werkstudentin-munich-43076,dd3ea623860968a6,2026-10-16,ok,claude-haiku-5-5,c5b58efa,figma|project_mgmt|ux|wordpress,canva,AI- und No-Code-Tools;Conversion-Optimierung;A/B-Tests,,fluent,must_have,fluent,must_have,,,,
-an:verkauferin-weihnachtsaushilfe-pop-up-store-teilzeit-werkstudent-freiburg-im-breisgau-78435,9685e3a84e6857bb,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,,,fluent,must_have,unknown,not_stated,17,17,,
+an:verkauferin-weihnachtsaushilfe-pop-up-store-teilzeit-werkstudent-freiburg-im-breisgau-78435,e5ca3383ab5d1a9c,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Kundenberatung,Einzelhandel,fluent,must_have,unknown,not_stated,17,17,,
 an:verkauferin-werkstudent-bamberg-52461,43deec89ff165921,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,,Kassensystem;Warenwirtschaftssystem;digitale Tools,,fluent,must_have,basic,must_have,15.5,15.5,,
 an:verkauferin-werkstudent-passau-496097,cdec0e3209b10d03,2026-10-22,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,fluent,must_have,unknown,not_stated,15.5,15.5,,
 an:verkauferin-werkstudent-potsdam-59591,b7a0b4cc35f0507e,2026-10-29,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,fluent,must_have,unknown,not_stated,15.5,15.5,,
@@ -6049,7 +6149,7 @@ an:werkstudent-111749,95d417ff42857b60,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,
 an:werkstudent-agiles-projektmanagement-im-bereich-e-invoicing-dortmund-287094,60bd3f955d05f74a,2026-10-23,ok,claude-haiku-5-5,c5b58efa,agile|controlling|jira|project_mgmt,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-agrarberatung-osnabruck-466440,e840b0b1455cfad6,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office,,betriebswirtschaftlichen Gutachten und Berichten,,unknown,not_stated,none,not_stated,,,,
 an:werkstudent-ai-automation-n8n-make-zapier-hamburg-232004,f2bf940e866695d6,2026-11-04,ok,claude-haiku-5-5,c5b58efa,crm|etl|genai|rest_api|zapier,,"Airtable, Supabase",,unknown,not_stated,unknown,not_stated,,,,
-an:werkstudent-ai-business-analysis-wurzburg-174354,3e78cb8b28aebc4f,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,consulting|genai|process_mgmt,Geschäftsprozesse analysieren;KI-Use-Cases bewerten;Projektsteuerung,,native,must_have,unknown,nice_to_have,,,,
+an:werkstudent-ai-business-analysis-wurzburg-174354,2a9c6e3b46356e48,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,consulting|genai|process_mgmt,Prozessaufnahme / Geschäftsprozesse analysieren;KI-Use-Cases bewerten;Anforderungen erheben;Projektsteuerung,,native,must_have,unknown,nice_to_have,,,,
 an:werkstudent-ai-consulting-infrastructure-leipzig-361351,e7fbc7cf65e48660,2026-10-14,ok,claude-haiku-5-5,b0e132ec,linux|python,docker|genai|git|it_security|kubernetes,,"Vektordatenbanken;Ollama, vLLM, Open WebUI",c1_plus,must_have,unknown,not_stated,14,18,,
 an:werkstudent-ai-engineering-cologne-5088,3d31de38aaa06d1d,2026-10-18,ok,claude-haiku-5-5,c5b58efa,,ml|python|rest_api,,AI-Tools,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-ai-engineering-nuremberg-370334,f6a853e5a71ec19f,2026-10-22,ok,claude-haiku-5-5,c5b58efa,,ml|python|rest_api,,AI-Tools,c1_plus,must_have,unknown,not_stated,,,,
@@ -6064,20 +6164,20 @@ an:werkstudent-azubi-m-w-buchhaltung-lohnabrechnung-schonefeld-373528,08ce5d4d5f
 an:werkstudent-b2b-telefonvertrieb-munster-77992,3d7f6429185e48c2,2026-10-14,ok,claude-haiku-5-5,b0e132ec,crm|sales_skills,,,,unknown,not_stated,unknown,not_stated,15,15,,
 an:werkstudent-b2b-vertrieb-rostock-227752,9e839788ddaca071,2026-10-23,ok,claude-haiku-5-5,c5b58efa,ms_office|sales_skills,,,,c1_plus,must_have,c1_plus,must_have,,,,
 an:werkstudent-backoffice-operations-deutschlandweit-im-homeoffice-berlin-477225,82601855876b858d,2026-11-03,ok,claude-haiku-5-5,c5b58efa,,,,,c1_plus,must_have,unknown,not_stated,,,,20
-an:werkstudent-bad-salzungen-121764,7122780626f027ec,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
+an:werkstudent-bad-salzungen-121764,948a2a0a04a451a2,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-bad-salzungen-197542,948a2a0a04a451a2,2026-10-30,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-bad-salzungen-293836,948a2a0a04a451a2,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-bad-salzungen-384623,7122780626f027ec,2026-10-25,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-bad-salzungen-463201,7122780626f027ec,2026-10-21,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-bauleitung-holzbau-dasing-384418,9d22b4b03b4d13ec,2026-10-16,ok,claude-haiku-5-5,c5b58efa,cad|controlling|ms_office,,,,unknown,not_stated,unknown,not_stated,,,,
-an:werkstudent-bauuberwachung-essen-402974,015c6d30b471f967,2026-11-04,ok,claude-haiku-5-5,c5b58efa,driving_licence|project_mgmt,,MS Project;Qualitätskontrolle;Erfahrungen im Bereich Tiefbau,,c1_plus,must_have,unknown,not_stated,,,,
+an:werkstudent-bauuberwachung-essen-402974,77360cf0a7b9a8ef,2026-11-05,ok,claude-haiku-5-5,c5b58efa,driving_licence|project_mgmt,,"Tiefbau, Wasserbau, Wasserwirtschaft",,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-bereich-qualitatsmanagement-norderstedt-225538,2280ba0b1d149c6a,2026-10-21,ok,claude-haiku-5-5,c5b58efa,,,Materialnormen;Gefährdungsanalysen;Materialspezifikationen,,fluent,must_have,c1_plus,must_have,,,,
 an:werkstudent-betriebsplanung-berlin-419766,4b05feedab351e83,2026-10-18,ok,claude-haiku-5-5,c5b58efa,excel|outlook|word,,,,c1_plus,must_have,unknown,nice_to_have,,,20,20
-an:werkstudent-bewerbermanagement-mind-15h-woche-stuttgart-14565,0a944cb87c9e8d3d,2026-11-03,ok,claude-haiku-5-5,c5b58efa,recruiting,,,,unknown,not_stated,unknown,not_stated,15,15,15,
+an:werkstudent-bewerbermanagement-mind-15h-woche-stuttgart-14565,758baf8ba5ad1fad,2026-11-05,ok,claude-haiku-5-5,c5b58efa,recruiting,,,,unknown,not_stated,unknown,not_stated,15,15,15,
 an:werkstudent-brand-employer-branding-berlin-300684,cdd3d4e4307a6212,2026-10-14,ok,claude-haiku-5-5,b0e132ec,content|event|ms_office|paid_social|social_media|video,canva|wordpress,Kennzahlen aufbereiten,Claude,c1_plus,must_have,unknown,not_stated,18.5,18.5,,
 an:werkstudent-business-administration-schwerpunkt-ai-cologne-267659,97094edfbdcee7b6,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,controlling|data_analysis|process_mgmt,,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-business-administration-schwerpunkt-ai-nuremberg-438010,97094edfbdcee7b6,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,controlling|data_analysis|process_mgmt,,Business Intelligence,c1_plus,must_have,unknown,not_stated,,,,
-an:werkstudent-business-analyse-wurzburg-46362,abaf0c3120d83df9,2026-11-03,ok,claude-haiku-5-5,c5b58efa,,,Geschäftsprozesse analysieren,,unknown,not_stated,unknown,not_stated,,,,
+an:werkstudent-business-analyse-wurzburg-46362,54f520973dabc588,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Geschäftsprozesse systematisch erfassen;Beratungs- und Transformationsprojekte,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-business-analyst-consultant-hanover-428484,279bcd60417efb7d,2026-10-16,ok,claude-haiku-5-5,c5b58efa,controlling|excel|ms_office|powerpoint,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-business-development-frankfurt-am-main-403041,7049521fec1da583,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|sales_skills,,LinkedIn,,fluent,must_have,unknown,nice_to_have,,,,
 an:werkstudent-business-development-offenbach-am-main-275849,ed2b59c7c0e8b734,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,AI-Tools;Datenbasierte Analysen,,fluent,must_have,unknown,not_stated,,,,
@@ -6086,6 +6186,7 @@ an:werkstudent-business-operations-automation-ai-berlin-170975,ed030ede3cacb28f,
 an:werkstudent-business-operations-projektmanagement-hamburg-232876,c329fd0cc3373bb0,2026-10-16,ok,claude-haiku-5-5,c5b58efa,crm,,"Kennzahlen und Übersichten;Prozesse aufnehmen, dokumentieren;Projekte strukturieren, koordinieren",,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-campaign-data-management-munich-406349,c65e0e32478a96cc,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,,Kundendaten analysieren,Adobe Campaign,fluent,must_have,fluent,must_have,,,,20
 an:werkstudent-category-management-product-data-munich-383869,46f0f068e4e15694,2026-10-16,ok,claude-haiku-5-5,c5b58efa,excel|ms_office,other_erp,,Content-Management-Systeme;PIM-Systeme,fluent,must_have,unknown,nice_to_have,,,,
+an:werkstudent-commercial-enablement-ai-automation-german-speaking-berlin-228232,0015c91d325ff340,2026-11-05,ok,claude-haiku-5-5,c5b58efa,genai|rest_api|salesforce|zapier,,,Grundverständnis von Programmierung,native,must_have,fluent,must_have,,,20,20
 an:werkstudent-consulting-augsburg-101693,276e2548b129fbca,2026-10-15,ok,claude-haiku-5-5,c5b58efa,consulting|market_research,,,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-consulting-ki-implementierung-berlin-314542,50cf7dc43b5b9a12,2026-10-15,ok,claude-haiku-5-5,c5b58efa,consulting|zapier,project_mgmt,Claude;Reports für die Geschäftsführung;Prozesse dokumentieren,Lovable,c1_plus,must_have,fluent,must_have,,,15,20
 an:werkstudent-content-brand-berlin-215783,75cf8deff7a090a8,2026-10-16,ok,claude-haiku-5-5,c5b58efa,canva|content|figma|social_media|video,,Grafik;CapCut;Zahlen auswerten,,c1_plus,must_have,unknown,not_stated,18,22,16,20
@@ -6097,12 +6198,13 @@ an:werkstudent-content-creation-social-media-dgx-berlin-103092,c1d3f2b2d7c4d095,
 an:werkstudent-content-creation-social-media-management-berlin-389893,8afddb073ec294f5,2026-10-14,ok,claude-haiku-5-5,b51c75bb,canva|content|photography|photoshop|social_media|video,,CapCut,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-content-creation-tiktok-mensch-hamburg-316718,86d19ca7c85d53fe,2026-10-14,ok,claude-haiku-5-5,b0e132ec,content|social_media|video,,CapCut,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-content-creator-social-media-fur-instagram-tiktok-berlin-134297,7fb35da1f8590df2,2026-10-27,ok,claude-haiku-5-5,c5b58efa,content|social_media|video,,"AI tools;Reichweite, Engagement analysieren",,fluent,must_have,unknown,not_stated,,,,
+an:werkstudent-content-creator-social-media-mit-fokus-vor-der-kamera-wutoschingen-277417,3542083e562bd3f5,2026-11-05,ok,claude-haiku-5-5,c5b58efa,social_media|video,,CapCut;Kreative Videoformate,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-content-creator-social-media-mit-fokus-vor-der-kamera-wutoschingen-316929,3542083e562bd3f5,2026-10-15,ok,claude-haiku-5-5,c5b58efa,content|social_media|video,,CapCut,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-content-management-fur-kreuzfahrten-hamburg-207774,074b6017a3244808,2026-10-17,ok,claude-haiku-5-5,c5b58efa,,content|seo|wordpress,KI-Tools,PIM-Systeme;Bildbearbeitungsprogrammen,native,must_have,c1_plus,must_have,,,,20
 an:werkstudent-content-marketing-munich-457143,572aa73c9d7b4e00,2026-10-14,ok,claude-haiku-5-5,b51c75bb,content|online_marketing|social_media|video,,Grafiken,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-content-mwd-ca-15-wochenstunden-cybay-hannover-367159,220095cef376f601,2026-10-14,ok,claude-haiku-5-5,b0e132ec,content|seo,,"KI-Tools;Case Studies, Whitepapers, Präsentationen",Erfolgsmessung von Inhalten,c1_plus,must_have,unknown,not_stated,,,10,15
 an:werkstudent-content-mwd-ca-15-wochenstunden-hanover-455177,ef907ee9fa978539,2026-10-15,ok,claude-haiku-5-5,c5b58efa,content|seo,,KI-Tools;LinkedIn-Posts,,c1_plus,must_have,unknown,not_stated,,,10,15
-an:werkstudent-content-mwd-ca-15-wochenstunden-hanover-463036,ef907ee9fa978539,2026-11-04,ok,claude-haiku-5-5,c5b58efa,content|seo|social_media,,KI-Tools;Case Studies und Whitepapers;Präsentationen,Erfolgsmessung,c1_plus,must_have,unknown,not_stated,,,10,15
+an:werkstudent-content-mwd-ca-15-wochenstunden-hanover-463036,d955b70c8eabbfb5,2026-11-05,ok,claude-haiku-5-5,c5b58efa,content|email_marketing|seo,,LinkedIn-Posts;KI-Tools,,c1_plus,must_have,unknown,not_stated,,,10,15
 an:werkstudent-content-production-offenbach-am-main-363886,e9af0482323319bd,2026-10-28,ok,claude-haiku-5-5,c5b58efa,content|photography|social_media|video,online_marketing|sea,CapCut;KI-Tools,,fluent,must_have,unknown,not_stated,,,,
 an:werkstudent-content-redaktion-schwerpunkt-ernahrung-rezepte-video-100-homeoffice-grafschaft-399246,541a0f4e4addb8ae,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|research_methods|video,,,,c1_plus,must_have,unknown,not_stated,16,16,,
 an:werkstudent-controlling-berlin-boppstr-299123,6196559f8d6dc58b,2026-10-14,ok,claude-haiku-5-5,b0e132ec,controlling|excel|ms_office,,Monats- und Quartalsabschlüsse,auch mittels KI,fluent,must_have,fluent,must_have,,,20,20
@@ -6121,6 +6223,7 @@ an:werkstudent-customer-service-offenbach-am-main-17448,ec8f7e9625ea1c5f,2026-11
 an:werkstudent-customer-success-business-development-dusseldorf-149377,f919edfafd0a8880,2026-10-25,ok,claude-haiku-5-5,c5b58efa,excel|ms_office,,,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-customer-success-cologne-35440,46e39a8f0bc8ef50,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office|other_erp,,X-Rechnung,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-customer-success-support-berlin-240190,137fa6c862e8831e,2026-10-27,ok,claude-haiku-5-5,c5b58efa,,customer_service|online_marketing|paid_social|sea|seo,Intercom;FunnelCockpit;Linear;Technisches Verständnis,,fluent,must_have,fluent,must_have,,,,
+an:werkstudent-customer-support-berlin-287024,503d18b5d0610e1c,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Ticketsystem (Intercom),,native,must_have,fluent,must_have,,,20,20
 an:werkstudent-customer-support-erneuerbare-energien-glatten-112974,3af4d34ac5e76ae7,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,,,,c1_plus,must_have,fluent,must_have,,,,20
 an:werkstudent-customer-support-erneuerbare-energien-glatten-270032,409bf3cafba68e57,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,energy,,,c1_plus,must_have,fluent,must_have,,,,20
 an:werkstudent-cybersecurity-hannover-290302,664557e8b2afb3bd,2026-10-31,ok,claude-haiku-5-5,c5b58efa,,it_security,Softwareentwicklung;Softwarelösungen (weiter-)entwickeln,,c1_plus,must_have,fluent,must_have,,,,
@@ -6146,13 +6249,13 @@ an:werkstudent-elektromobilitat-ladeinfrastruktur-munich-83540,39dfdd053cc636e9,
 an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-140375,8effa8974461cd18,2026-10-22,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-148065,385f4b9119d28f1f,2026-10-24,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-150534,8effa8974461cd18,2026-10-31,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
-an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-416233,8effa8974461cd18,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
+an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-416233,385f4b9119d28f1f,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-65018,385f4b9119d28f1f,2026-10-17,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-energieberatung-berlin-218347,ab0723d1eb6a2935,2026-10-15,ok,claude-haiku-5-5,c5b58efa,3d,,,,c1_plus,must_have,unknown,not_stated,,,20,20
 an:werkstudent-energietechnik-mwd-munchen-365931,ea8df083d95f2d77,2026-10-15,ok,claude-haiku-5-5,c5b58efa,ms_office,,,MS Project,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-energiewirtschaft-holzwickede-275701,c2edc72ba0de8cc6,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office,,Energiedatenmanagement;Definition und Abbildung von Prozessen,,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudent-energiewirtschaft-in-berlin-76657,e3954646a93f4ef3,2026-10-15,ok,claude-haiku-5-5,c5b58efa,ms_office,,,Praktische Berührungspunkte mit technischen Anlagen,c1_plus,must_have,fluent,must_have,,,16,20
-an:werkstudent-engineering-munchen-281546,4072617a13ed847f,2026-11-04,ok,claude-haiku-5-5,c5b58efa,datev|sql,python|typescript,Kennzahlen anlegen;KI als Werkzeug;Datenstrecken;Code prüfen und testen,,unknown,must_have,unknown,not_stated,,,,
+an:werkstudent-engineering-munchen-281546,0bd4cff36ee90a4b,2026-11-05,ok,claude-haiku-5-5,c5b58efa,dataviz|datev|etl|sql|testing,python|typescript,KI als Werkzeug,,unknown,must_have,unknown,not_stated,,,,
 an:werkstudent-external-audit-in-neuss-145193,9faf644041312f79,2026-10-18,ok,claude-haiku-5-5,c5b58efa,ms_office,,Reports,,c1_plus,must_have,c1_plus,must_have,,,,
 an:werkstudent-external-audit-neuss-413837,f01932120e0f85c6,2026-11-04,ok,claude-haiku-5-5,c5b58efa,ms_office,,Reports,,c1_plus,must_have,c1_plus,must_have,,,,
 an:werkstudent-facility-management-heidelberg-209044,53fe9cd34f3f85c8,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,,,,c1_plus,must_have,fluent,must_have,,,,20
@@ -6164,7 +6267,7 @@ an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-314962,
 an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-357618,eb4c529087e68454,2026-10-26,ok,claude-haiku-5-5,c5b58efa,,,Beratung;Kundentermine vereinbaren;KPIs,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-361887,eb4c529087e68454,2026-10-24,ok,claude-haiku-5-5,c5b58efa,,,Kundentermine vereinbaren;KPIs;Beratungsunterlagen vorbereiten;Kundenkontakt,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-382532,f7286d00b5141116,2026-10-21,ok,claude-haiku-5-5,c5b58efa,,,KPIs,,unknown,not_stated,unknown,not_stated,,,,
-an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-385089,f7286d00b5141116,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,KPIs;Kundentermine vereinbaren;Beratungsunterlagen vorbereiten,,unknown,not_stated,unknown,not_stated,,,,
+an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-385089,eb4c529087e68454,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,KPIs;Kundentermine vereinbaren;Beratungsunterlagen vorbereiten,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-76505,eb4c529087e68454,2026-11-02,ok,claude-haiku-5-5,c5b58efa,,,KPIs,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-finance-berlin-99820,4ca7576f61d6d42d,2026-10-18,ok,claude-haiku-5-5,c5b58efa,accounting|controlling|excel|google_workspace|tax,,Agicap,,fluent,must_have,fluent,must_have,,,20,20
 an:werkstudent-finance-controlling-munchen-405865,2b296780644f8cf6,2026-10-14,ok,claude-haiku-5-5,b0e132ec,accounting|controlling|dataviz|excel|google_workspace,,KPI- und Performance-Auswertungen;Investorenreports;Monatsabschlüsse;Rechnungsbearbeitung;Förderprogramme und Zuschüsse,,fluent,must_have,fluent,must_have,,,15,20
@@ -6182,7 +6285,7 @@ an:werkstudent-full-stack-developer-leverkusen-463905,9c7aa0f60fb86271,2026-10-1
 an:werkstudent-full-stack-entwicklung-20h-woche-blankenheim-445411,050538352ee06616,2026-10-16,ok,claude-haiku-5-5,c5b58efa,angular|nodejs|typescript|ux,,,,native,must_have,unknown,not_stated,,,,20
 an:werkstudent-full-stack-softwareentwicklung-ki-anwendungen-munich-132425,4d25a629e6ba41e9,2026-10-15,ok,claude-haiku-5-5,c5b58efa,genai|python|rest_api,docker|git|html_css|javascript|linux|ml|typescript,automatisierte Tests;Authentifizierungs- und Berechtigungskonzepten,,c1_plus,must_have,c1_plus,must_have,,,,
 an:werkstudent-fullstack-developer-berlin-304491,f57f0d77d9604e53,2026-10-16,ok,claude-haiku-5-5,c5b58efa,html_css|javascript|rest_api|social_media|testing,nextjs,AI-Agent-Workflows;OpenClaw,,unknown,not_stated,unknown,not_stated,,,,
-an:werkstudent-fur-den-bereich-engineering-hochheim-am-main-germany-427397,827f4b95916041f4,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,autocad|cad,,,fluent,must_have,fluent,must_have,,,,
+an:werkstudent-fur-den-bereich-engineering-hochheim-am-main-germany-427397,05ebdd956d670d0f,2026-11-05,ok,claude-haiku-5-5,c5b58efa,mechanical,autocad|cad,R&I-Fließschemata (P&IDs);Technische Dokumentation;Stücklisten pflegen,,fluent,must_have,c1_plus,must_have,,,,
 an:werkstudent-fur-die-3d-datenaufbereitung-ulm-15889,dc5c7046b391af15,2026-11-03,ok,claude-haiku-5-5,c5b58efa,3d,,,,unknown,not_stated,unknown,not_stated,15,15,,20
 an:werkstudent-fur-die-beschaffungskostenoptimierung-personalbeschaffung-arbeitnehmeruberlassung-dusseldorf-390197,4081631e05ee9fd9,2026-10-16,ok,claude-haiku-5-5,c5b58efa,excel|labour_law|ms_office|powerpoint|procurement,,Markt- und Trendanalysen,,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudent-fur-die-projektentwicklung-hamburg-402285,fd8f79a2a310d213,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office|project_mgmt,,Wirtschaftlichkeitsberechnungen,HOAI / VOB / AHO,unknown,not_stated,unknown,not_stated,,,,
@@ -6200,6 +6303,7 @@ an:werkstudent-grafikdesign-berlin-125696,752377ddd8a836be,2026-10-16,ok,claude-
 an:werkstudent-grafikdesign-gersthofen-401072,195cc2c7e0f21aad,2026-11-04,ok,claude-haiku-5-5,c5b58efa,adobe_cc|graphic_design|illustrator|indesign|photoshop|social_media,,,,unknown,not_stated,unknown,not_stated,,,,20
 an:werkstudent-grafikdesign-hamburg-315211,8c99289725a4f270,2026-10-16,ok,claude-haiku-5-5,c5b58efa,adobe_cc|figma|illustrator|indesign|photoshop,sketch_xd|video,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-grafikdesign-ki-content-dusseldorf-352252,869a6983cc9902d8,2026-10-26,ok,claude-haiku-5-5,c5b58efa,genai|graphic_design|illustrator|photoshop,content|figma,Bildbearbeitung und Retusche,,native,must_have,basic,nice_to_have,,,,
+an:werkstudent-grafikdesign-meta-ads-canva-remote-berlin-428270,b2c71e44ec8a73c7,2026-11-05,ok,claude-haiku-5-5,c5b58efa,canva|genai|graphic_design|paid_social|social_media,,,,unknown,not_stated,unknown,not_stated,13.9,13.9,,
 an:werkstudent-grafikdesign-munich-59152,58998a9bf829d26a,2026-10-21,ok,claude-haiku-5-5,c5b58efa,adobe_cc|figma|graphic_design|illustrator|photoshop|sea|social_media,video,KI-Tools;KPIs,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-grafikdesigner-in-berlin-396866,5ec240e4776d498e,2026-10-16,ok,claude-haiku-5-5,c5b58efa,canva|figma,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-group-accounting-berlin-boppstr-241357,af13b582b69c1553,2026-10-15,ok,claude-haiku-5-5,c5b58efa,accounting|controlling|excel|ms_office|other_erp,,,,c1_plus,must_have,fluent,must_have,,,,
@@ -6214,7 +6318,7 @@ an:werkstudent-hospitality-research-data-hamburg-114931,f9928e3a841dab10,2026-10
 an:werkstudent-hr-dortmund-189076,3c629e8cdd8ce0f4,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-hr-recruiting-essen-283368,7a8016492d9f42a3,2026-11-04,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting,,,,fluent,must_have,fluent,must_have,18,18,16,20
 an:werkstudent-hr-recruiting-in-stuttgart-39758,1a5171baaaba8750,2026-10-16,ok,claude-haiku-5-5,c5b58efa,ms_office,recruiting,Bewerbermanagement-System;Personalmarketing / Employer Branding,,native,must_have,fluent,must_have,,,15,
-an:werkstudent-hr-recruiting-truckscout24-essen-87265,4527b1eab7ae76e0,2026-11-04,ok,claude-haiku-5-5,c5b58efa,ms_office|online_marketing|recruiting|social_media,,Employer Branding Website,,fluent,must_have,fluent,must_have,18,18,16,20
+an:werkstudent-hr-recruiting-truckscout24-essen-87265,4e569e09539ec955,2026-11-05,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting|social_media,,,,fluent,must_have,fluent,must_have,18,18,16,20
 an:werkstudent-hr-services-operations-dormagen-159267,1d1bccda47f750f3,2026-10-26,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|powerpoint|word,,,,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudent-hr-services-operations-dormagen-396987,1d1bccda47f750f3,2026-10-30,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|powerpoint|word,,,,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudent-hr-wiesbaden-489381,4934a642132049b2,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,recruiting,Personio,,fluent,must_have,fluent,must_have,,,20,20
@@ -6223,7 +6327,7 @@ an:werkstudent-im-backoffice-in-der-rechtsberatung-im-fachbereich-arbeitsrecht-m
 an:werkstudent-im-bereich-akademie-bis-zu-20-stunden-pro-woche-ab-sofort-stuttgart-485445,7f30109efa78b9b0,2026-10-17,ok,claude-haiku-5-5,c5b58efa,crm|ms_office|powerpoint|video,event,Kundenanfragen;Prüfungssoftware;MS Forms und Planner,,unknown,not_stated,unknown,not_stated,,,,20
 an:werkstudent-im-bereich-elektro-automations-und-leittechnik-berlin-440853,72dca67ae667f0eb,2026-10-22,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|word,cad,Access,Berechnungstool,fluent,must_have,unknown,must_have,,,,
 an:werkstudent-im-bereich-legal-compliance-berlin-267265,c1accaf54416df7d,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,,"Berichtswesen / Kennzahlen;Richtlinien, Handbücher pflegen",,c1_plus,must_have,fluent,nice_to_have,,,,
-an:werkstudent-im-bereich-legal-detmold-26255,98d4416dea18cf59,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,Rechtswissenschaften,,unknown,must_have,unknown,must_have,,,,
+an:werkstudent-im-bereich-legal-detmold-26255,cb85b2d834840a1e,2026-11-05,ok,claude-haiku-5-5,c5b58efa,labour_law,,"Dokumente, Richtlinien und Prozesse;Präsentationen",Compliance,fluent,must_have,fluent,must_have,,,,
 an:werkstudent-im-bereich-marketing-monchengladbach-403626,e7b5dadf25c47b88,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|email_marketing|online_marketing|sea|social_media,indesign|photoshop|wordpress,,Newsletter-Systeme;XD,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-im-bereich-mediengestaltung-und-kommunikationsdesign-100-remote-moglich-magdeburg-317056,cbf35c0a50513a8a,2026-10-16,ok,claude-haiku-5-5,c5b58efa,graphic_design|social_media|video,online_marketing,Bild- und Tonbearbeitungssoftware,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-im-bereich-mitgliedergewinnung-bundesgeschaftsstelle-berlin-14134,e7a370b29e7654e9,2026-10-17,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,nice_to_have,,,,
@@ -6243,7 +6347,7 @@ an:werkstudent-im-projekt-und-accountmanagement-im-facility-management-berlin-22
 an:werkstudent-im-verkauf-mode-und-bekleidung-berlin-108100,6733addde20754b2,2026-10-18,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-im-verkauf-mode-und-bekleidung-berlin-417944,d0651e9e6f70f947,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-im-verkauf-mode-und-bekleidung-berlin-444511,f93eb52302a905b3,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
-an:werkstudent-im-verkauf-mode-und-bekleidung-wetzlar-378509,f93eb52302a905b3,2026-11-03,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
+an:werkstudent-im-verkauf-mode-und-bekleidung-wetzlar-378509,d0651e9e6f70f947,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-im-vertrieb-dusseldorf-240001,bf702bf6cfa4fd3a,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,sales_skills,,,c1_plus,must_have,unknown,must_have,,,,
 an:werkstudent-in-business-development-prozessoptimierung-remote-berlin-286059,75d4c28e66ec2a18,2026-10-16,ok,claude-haiku-5-5,c5b58efa,excel,genai,Portfolio-Reports;Prozessaufnahme und -optimierung;Marktrecherchen;Bewerber-Management;Workflow-Automation,ix-Haus,c1_plus,must_have,fluent,nice_to_have,,,15,20
 an:werkstudent-in-content-creator-brandface-berlin-484948,8d9bab39e464928a,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|social_media,canva|video,,Business Suite,unknown,not_stated,unknown,not_stated,,,,
@@ -6257,7 +6361,7 @@ an:werkstudent-in-einkaufscontrolling-cologne-31411,558f944be557869e,2026-11-04,
 an:werkstudent-in-finance-fordermittelmanagement-aachen-311329,155c03839ee32472,2026-10-25,ok,claude-haiku-5-5,c5b58efa,controlling|excel|ms_office,sap,Finanz- und Stundendaten,,fluent,must_have,fluent,must_have,,,,
 an:werkstudent-in-finanzbuchhaltung-schwerpunkt-forderungsmanagement-bochum-192954,2d269d37cc179ebc,2026-10-22,ok,claude-haiku-5-5,c5b58efa,accounting,,,,fluent,must_have,unknown,not_stated,,,20,20
 an:werkstudent-in-finanzbuchhaltung-schwerpunkt-forderungsmanagement-bochum-93069,2d269d37cc179ebc,2026-10-28,ok,claude-haiku-5-5,c5b58efa,,accounting,Forderungsmanagement,,fluent,must_have,unknown,not_stated,,,20,20
-an:werkstudent-in-fund-management-strategy-sustainability-hamburg-156982,df8ebbc71b88d5ef,2026-11-04,ok,claude-haiku-5-5,c5b58efa,controlling|excel|powerpoint,,ESG-Strategie;Risikomanagement,,c1_plus,must_have,c1_plus,must_have,,,,
+an:werkstudent-in-fund-management-strategy-sustainability-hamburg-156982,de4a50e5c930ba10,2026-11-05,ok,claude-haiku-5-5,c5b58efa,controlling|excel|powerpoint,,,,c1_plus,must_have,c1_plus,must_have,,,,
 an:werkstudent-in-fur-podcast-videoproduktion-offenburg-185409,99d61f72152baa4b,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|video,social_media,Ton- & Schnittsoftware,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-in-google-ads-cologne-267827,d3cc3bd072a92442,2026-10-17,ok,claude-haiku-5-5,c5b58efa,sea,google_analytics,KPIs analysieren,,fluent,must_have,unknown,not_stated,,,,
 an:werkstudent-in-im-bereich-marketing-hamburg-70161,c51d50004b8dae32,2026-10-16,ok,claude-haiku-5-5,c5b58efa,canva|content|dynamics|pr|social_media|wordpress,,Gestaltung der Dokumente und Präsentationen;Veranstaltungen,,unknown,not_stated,unknown,not_stated,,,,
@@ -6288,6 +6392,7 @@ an:werkstudent-in-ux-ui-design-15-20-std-woche-100-remote-berlin-243797,2be3fa07
 an:werkstudent-in-vertrieb-recruiting-aachen-370347,8d7a3983b2b67e07,2026-11-03,ok,claude-haiku-5-5,c5b58efa,recruiting|sales_skills,,,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-in-wirtschaftsinformatik-remote-frankfurt-am-main-246432,e8f0f9c6b76fa287,2026-10-28,ok,claude-haiku-5-5,c5b58efa,,online_marketing,,Beratung,unknown,must_have,unknown,not_stated,20,20,,20
 an:werkstudent-influencer-manager-munich-106394,5c4c50de5bd83bc1,2026-10-15,ok,claude-haiku-5-5,c5b58efa,social_media,,Ergebnisse auswerten,Influencer Marketing,unknown,not_stated,unknown,not_stated,,,20,20
+an:werkstudent-influencer-marketing-affiliate-berlin-83424,deb0f215843ca523,2026-11-05,ok,claude-haiku-5-5,c5b58efa,google_workspace|online_marketing,notion|pm_tools,GoAffPro,Gmail,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-informatik-informationstechnik-oder-elektrotechnik-mittelbiberach-453152,39338ec9e1df1080,2026-10-16,ok,claude-haiku-5-5,c5b58efa,driving_licence|it_support|networking,,Technische Produktdokumentation;Systeminstallation vor Ort,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-informatik-wirtschaftsinformatik-schweinfurt-89115,bd8453368192c8c6,2026-10-16,ok,claude-haiku-5-5,c5b58efa,excel|ms_office,,Digitalisierung / IT projects;KI-Projekte;Prozesse dokumentieren,IT-Systeme;Datenbanken;Automatisierung;KI-Tools,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudent-innen-und-praktikant-innen-fur-marketing-vertrieb-im-weinhandel-mainz-104431,6d4c99cc0a4caafa,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,driving_licence,,,unknown,not_stated,unknown,not_stated,,,,
@@ -6310,12 +6415,15 @@ an:werkstudent-junior-business-development-products-teilzeit-berlin-190938,65bc9
 an:werkstudent-kamera-schnitt-darmstadt-48816,fc59af348fdc9f6e,2026-10-16,ok,claude-haiku-5-5,c5b58efa,adobe_cc|driving_licence|video,,"Kamera, Licht und Ton",,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-karriereberatung-coaching-und-marketing-kaarst-122603,bec0cf1bf6ec749f,2026-10-16,ok,claude-haiku-5-5,c5b58efa,accounting|ms_office|social_media,,"Konzeptionierung von Führungstrainings;Karriereblog;Benchmarks;Bewerbungsunterlagen erstellen;Potenzialanalysen, Trainings und Coachings;KI-Nutzung",,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-ki-automation-munich-338897,22d1b6c002df7a98,2026-10-14,ok,claude-haiku-5-5,b51c75bb,zapier,genai|javascript|online_marketing|python|rest_api,,,fluent,nice_to_have,unknown,not_stated,,,,20
-an:werkstudent-ki-automatisierung-data-analytics-dorsten-329449,4ad9c3e576a34fb8,2026-11-04,ok,claude-haiku-5-5,c5b58efa,dataviz|excel|genai|it_security|python|sql,,KI-Agenten,Warenwirtschaft,fluent,must_have,unknown,nice_to_have,14.6,14.6,,20
+an:werkstudent-ki-automatisierung-data-analytics-dorsten-329449,2cbd4692fc329c6e,2026-11-05,ok,claude-haiku-5-5,c5b58efa,dataviz|excel|genai|it_security|python|sql,,,Warenwirtschaft,fluent,must_have,unknown,nice_to_have,14.6,14.6,,20
 an:werkstudent-ki-unternehmensentwicklung-bonn-499521,6ce837d55211cfba,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,genai,"GPTs, KI-Assistenten und Agenten;Automatisierung von Prozessen und Workflows;Recherche und Bewertung neuer KI-Tools",,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-kommunale-warmeplanung-munich-224996,27be1fb74c9a1aec,2026-10-24,ok,claude-haiku-5-5,c5b58efa,energy|gis,ms_office|project_mgmt,Präsentationen;ENEKA;Enerlabs;nPro;Stanet,KI,native,must_have,unknown,not_stated,,,,
 an:werkstudent-kommunikationsdesign-cologne-398381,916ccd1c73e88cb9,2026-10-14,ok,claude-haiku-5-5,b0e132ec,canva|photoshop|social_media|video,adobe_cc,Foto- & Videomaterial;Static Ads und Creatives,,fluent,must_have,fluent,must_have,,,,
 an:werkstudent-kommunikationsdesign-frankfurt-am-main-98865,fb1b5c343c3fd896,2026-10-28,ok,claude-haiku-5-5,c5b58efa,social_media,adobe_cc,Print- und digitale Medien;Mockups und Layouts;Bildrecherche und -bearbeitung,,unknown,not_stated,unknown,not_stated,,,,
-an:werkstudent-kunden-onboarding-berlin-231969,9c67f53aeb66839f,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,,,c1_plus,must_have,unknown,not_stated,25,30,10,
+an:werkstudent-kommunikationsdesign-gn-bielefeld-361811,0b997bb8cdcc8c0e,2026-11-05,ok,claude-haiku-5-5,c5b58efa,adobe_cc|illustrator|indesign|photoshop,figma,Typografie;Corporate Design,,c1_plus,must_have,fluent,must_have,,,,20
+an:werkstudent-kommunikationsdesign-gn-lohne-331628,0b997bb8cdcc8c0e,2026-11-05,ok,claude-haiku-5-5,c5b58efa,adobe_cc|illustrator|indesign|photoshop,figma,"Typografie, Corporate Design",,c1_plus,must_have,fluent,must_have,,,,20
+an:werkstudent-kunden-onboarding-berlin-231969,b589856ba9fc5967,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,Videocall;Online-Tools;Digitale Plattformen,,c1_plus,must_have,none,not_stated,30,30,10,
+an:werkstudent-kundenakquise-immobilienbereich-koln-rheinauhafen-491827,a5bff47df269d236,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-kundenberater-kundenruckgewinnung-dortmund-74425,80c8d784dc8426b1,2026-10-14,ok,claude-haiku-5-5,b51c75bb,ms_office,,Kundenberatung,,c1_plus,must_have,unknown,not_stated,,,15,
 an:werkstudent-kundenberater-kundenruckgewinnung-dusseldorf-498199,77d1e2c5c3b5a7de,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office|sales_skills,,Vertragsverlängerung und Tarifoptimierung,,native,must_have,unknown,not_stated,,,15,
 an:werkstudent-kundenservice-berlin-446869,9e656d164e45b0a7,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,,,c1_plus,must_have,c1_plus,must_have,,,20,20
@@ -6352,7 +6460,7 @@ an:werkstudent-marketing-pr-augsburg-216521,a9b693bfe67a8a76,2026-10-16,ok,claud
 an:werkstudent-marketing-projektmanagement-mwd-ca-10-wochenstunden-cybay-hannover-239812,f4685ec7a14aae75,2026-10-14,ok,claude-haiku-5-5,b0e132ec,ms_office,project_mgmt,Projektpläne und Aufgabenübersichten;Plane;Optimierung und Automatisierung von Prozessen,,c1_plus,must_have,unknown,not_stated,,,10,10
 an:werkstudent-marketing-projektmanagement-mwd-ca-10-wochenstunden-hanover-443738,fb310127e277769b,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,project_mgmt,"Projektpläne und Aufgabenübersichten;Planung, Koordination und Steuerung von Marketingprojekten;Optimierung und Automatisierung von Prozessen",,c1_plus,must_have,unknown,not_stated,,,10,10
 an:werkstudent-marketing-remote-118440,1cb68f6c13b5f22d,2026-11-04,ok,claude-haiku-5-5,c5b58efa,content|genai|project_mgmt|social_media,,,LinkedIn and Instagram,c1_plus,must_have,unknown,not_stated,,,10,20
-an:werkstudent-marketing-remote-419659,060f983788f9a000,2026-11-04,ok,claude-haiku-5-5,c5b58efa,content|genai|online_marketing|social_media,,Landingpage-Builder,,c1_plus,must_have,unknown,not_stated,,,10,20
+an:werkstudent-marketing-remote-419659,1cb68f6c13b5f22d,2026-11-05,ok,claude-haiku-5-5,c5b58efa,content|genai|social_media,,Marketing-Projekte koordinieren;Landingpage-Builder,LinkedIn,c1_plus,must_have,unknown,not_stated,,,10,20
 an:werkstudent-marketing-sales-admin-support-hubspot-unit-berlin-471852,198d527a8a4fdbef,2026-10-16,ok,claude-haiku-5-5,c5b58efa,accounting|online_marketing|social_media,content|hubspot,Webinare;Slack,,fluent,must_have,fluent,must_have,20,20,,
 an:werkstudent-marketing-sales-munich-379226,fd44630cc6d6293e,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|crm|market_research|paid_social|social_media,canva|figma|online_marketing,"One-Pagern, Pitch-Decks, Produktflyern oder Präsentationen;Lead-Generierung und Outreach;Kampagnen-Ergebnissen analysieren",,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudent-marketing-sales-werbeartikel-hamburg-249903,b6ffb51e76cdc64d,2026-10-16,ok,claude-haiku-5-5,c5b58efa,sales_skills,crm|online_marketing,Sicherer Umgang mit GMail,,unknown,not_stated,unknown,not_stated,,,,
@@ -6360,7 +6468,7 @@ an:werkstudent-marketing-social-media-aachen-24399,fd444976c414a23c,2026-10-16,o
 an:werkstudent-marketing-social-media-neu-isenburg-405595,3adda0a419d43a80,2026-10-31,ok,claude-haiku-5-5,c5b58efa,canva|content|event|graphic_design|market_research|powerpoint|social_media,online_marketing|video,Präsentationen,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-marketing-social-media-stuttgart-320583,933a249b297089ab,2026-10-23,ok,claude-haiku-5-5,c5b58efa,content|email_marketing|online_marketing|social_media|video,,Grafiken;Marketingkennzahlen,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-marketing-und-projektmanagement-mwd-ca-10-wochenstunden-berlin-207557,d1801d9900b81df2,2026-10-31,ok,claude-haiku-5-5,c5b58efa,content|event|ms_office,project_mgmt,KI in der Praxis;Marketingprojekten steuern;Recherche zu Markt und Wettbewerb,,c1_plus,must_have,unknown,not_stated,,,10,10
-an:werkstudent-marketing-und-projektmanagement-mwd-ca-10-wochenstunden-berlin-301237,79346609c484ac5a,2026-11-03,ok,claude-haiku-5-5,c5b58efa,event|ms_office,project_mgmt,"Inhalten und Kampagnen;Recherche zu Markt, Wettbewerb;Planung, Koordination und Steuerung von Marketingprojekten;Plane",Interesse an Digitalisierung und KI,c1_plus,must_have,unknown,not_stated,,,10,10
+an:werkstudent-marketing-und-projektmanagement-mwd-ca-10-wochenstunden-berlin-301237,d1801d9900b81df2,2026-11-05,ok,claude-haiku-5-5,c5b58efa,event|ms_office|project_mgmt,,Plane;Inhalten und Kampagnen;Recherche zu Markt und Wettbewerb;KI-Tools,,c1_plus,must_have,unknown,not_stated,,,10,10
 an:werkstudent-marketplace-manager-100-remote-teilzeit-20-std-woche-aachen-179592,de1c7df83cb068e1,2026-10-18,ok,claude-haiku-5-5,c5b58efa,,,Helium 10;DataDive;Bewertungsanalysen erstellen;Sicherer Umgang mit Daten;Zielgruppenanalyse,,c1_plus,must_have,unknown,not_stated,,,20,20
 an:werkstudent-marketplace-manager-amazon-tiktok-shop-temu-berlin-83989,d70faf519bb63196,2026-11-03,ok,claude-haiku-5-5,c5b58efa,excel|google_workspace,online_marketing,Amazon PPC;TikTok Shop / Temu;Auswertungen;Produkttexte und Produktdaten,Amazon Seller Central;Social Commerce,c1_plus,must_have,unknown,must_have,,,,
 an:werkstudent-markt-datenanalyse-essen-19131,0b9e09ffcebc6058,2026-10-28,ok,claude-haiku-5-5,c5b58efa,excel|market_research|ms_office,,Präsentationen;Marktberichten;Marktdatenbanken,,unknown,not_stated,unknown,not_stated,16,19,,
@@ -6384,7 +6492,7 @@ an:werkstudent-oder-praxissemester-energieberatung-gebaudetechnik-messkirch-2579
 an:werkstudent-office-event-assistant-hamburg-866,9badf506e295ffeb,2026-10-30,ok,claude-haiku-5-5,c5b58efa,,,Bestellung von Büromaterial,,native,must_have,c1_plus,must_have,,,,
 an:werkstudent-office-management-all-genders-berlin-296711,eb0ec7589c05f238,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,,,,fluent,must_have,fluent,must_have,,,,20
 an:werkstudent-office-team-management-f-m-aachen-491481,79643085217a9924,2026-10-17,ok,claude-haiku-5-5,c5b58efa,,controlling,Budgets,,fluent,must_have,fluent,must_have,14,17,,
-an:werkstudent-office-team-management-f-m-koln-132535,15e238b2b440be34,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,controlling,Verträge / Fristen,,unknown,must_have,unknown,must_have,14,17,,
+an:werkstudent-office-team-management-f-m-koln-132535,d6a4282efa7b24a1,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,controlling,Verträgen;Hardware- und Bürobestellungen,,fluent,must_have,fluent,must_have,14,17,,
 an:werkstudent-onboarding-customer-success-berlin-281358,4af1ab591c42acfa,2026-10-26,ok,claude-haiku-5-5,c5b58efa,crm,,,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-online-marketing-fulfillment-mainz-88408,ef15e199d66c66d3,2026-10-16,ok,claude-haiku-5-5,c5b58efa,adobe_cc|canva|email_marketing|illustrator|online_marketing|photoshop|sea|seo|social_media,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-online-marketing-medtech-in-koln-cologne-127171,eb847d82eb8ab9fe,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|online_marketing|seo,social_media,Auswertungen,,c1_plus,must_have,fluent,must_have,,,,
@@ -6401,7 +6509,7 @@ an:werkstudent-people-operations-hamburg-69867,72958e8bd3cbab2a,2026-10-16,ok,cl
 an:werkstudent-performance-marketing-berlin-433563,23a185b216c1d677,2026-10-17,ok,claude-haiku-5-5,c5b58efa,crm|paid_social|sea|seo,genai,"Native Advertising (Taboola, Outbrain);Kreative Hooks und Werbemittel;Performance-Analyse",,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-performance-marketing-e-commerce-operations-kunzell-383153,8fcd380dc41ad32e,2026-10-14,ok,claude-haiku-5-5,b0e132ec,paid_social,pm_tools,Adcopy Texte,AI-Tools;Speekly,unknown,not_stated,unknown,not_stated,17,17,20,20
 an:werkstudent-personalabteilung-wiesbaden-262803,b7868a52cb9710a4,2026-10-28,ok,claude-haiku-5-5,c5b58efa,recruiting,,Personio;Abwesenheits-Tool,Praxiserfahrung im HR-Bereich,fluent,must_have,fluent,must_have,,,20,20
-an:werkstudent-pflichtpraktikant-grafikdesign-marketing-hanover-137964,8e985b449383f801,2026-10-16,ok,claude-haiku-5-5,c5b58efa,online_marketing|social_media,email_marketing,Grafiken und Layouts,,c1_plus,must_have,unknown,not_stated,,,,
+an:werkstudent-pflichtpraktikant-grafikdesign-marketing-hanover-137964,7821216a153551f3,2026-11-05,ok,claude-haiku-5-5,c5b58efa,online_marketing|social_media,email_marketing,Erstellung von Grafiken und Layouts,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudent-pflichtpraktikum-finance-controlling-berlin-145864,64072e022298b2ed,2026-10-15,ok,claude-haiku-5-5,c5b58efa,accounting|excel,,"Reports, Auswertungen und Analysen",,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudent-planning-control-immenhausen-152929,9c0fcab534c78b4b,2026-10-28,ok,claude-haiku-5-5,c5b58efa,controlling|excel|ms_office,data_analysis,Projektplanung,,fluent,must_have,fluent,must_have,15.5,17.5,20,20
 an:werkstudent-pr-beratung-cologne-164258,f4a258bf72443f37,2026-10-25,ok,claude-haiku-5-5,c5b58efa,event|pr|project_mgmt|social_media,,AI-Tools und Automatisierungslösungen,,unknown,not_stated,unknown,must_have,,,20,20
@@ -6457,7 +6565,7 @@ an:werkstudent-sales-100-remote-hanover-431921,a581af14594dbc8e,2026-10-16,ok,cl
 an:werkstudent-sales-20h-woche-wesel-261553,a745f99a0be97e52,2026-10-15,ok,claude-haiku-5-5,c5b58efa,ms_office|online_marketing|sales_skills,,LinkedIn;Lead generation tools;Social selling über E-Mail und LinkedIn,,c1_plus,must_have,unknown,not_stated,15,15,,20
 an:werkstudent-sales-apeiron-frankfurt-379221,3c751f899030dd51,2026-10-23,ok,claude-haiku-5-5,c5b58efa,crm,sales_skills,KI-Tools wie Claude und Gemini;Prozessautomatisierung,,native,must_have,c1_plus,must_have,,,16,20
 an:werkstudent-sales-business-development-berlin-17919,6fa5b966b137ed32,2026-10-27,ok,claude-haiku-5-5,c5b58efa,crm,,KI-Tools;LinkedIn;Automatisierungen;Angebote erstellen,,fluent,must_have,fluent,must_have,,,15,20
-an:werkstudent-sales-f-m-koln-233271,81d38fd9f723112f,2026-11-04,ok,claude-haiku-5-5,c5b58efa,crm|market_research,,Outbound-Kampagnen;Lead qualification;Digitale Tools,,unknown,nice_to_have,fluent,must_have,14,18,,
+an:werkstudent-sales-f-m-koln-233271,627838c4bc74c100,2026-11-05,ok,claude-haiku-5-5,c5b58efa,crm|market_research,sales_skills,,,unknown,nice_to_have,fluent,must_have,14,18,,
 an:werkstudent-sales-marketing-frankfurt-am-main-122664,ba0d2e8d1cb08966,2026-10-14,ok,claude-haiku-5-5,b51c75bb,sales_skills|sap,,Markt- und Wettbewerbsrecherchen;Ausschreibungen (RFPs),Affinität zu IT- und Digitalisierungsthemen,fluent,must_have,fluent,must_have,,,,20
 an:werkstudent-sales-netphen-siegen-102875,35743184e9464d8e,2026-10-27,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,native,must_have,unknown,not_stated,,,,
 an:werkstudent-sales-operations-kundenbetreuung-heilbronn-17931,d15eb35c6d5e1ab1,2026-10-24,ok,claude-haiku-5-5,c5b58efa,customer_service,crm,Prozesse analysieren und gestalten,AI-Tools,c1_plus,must_have,fluent,must_have,,,,
@@ -6492,6 +6600,7 @@ an:werkstudent-software-engineering-darmstadt-314415,1132bc5d0d61139e,2026-10-25
 an:werkstudent-software-entwicklung-fur-komplexe-systeme-karlsruhe-116676,3fc69329a90b9be8,2026-10-15,ok,claude-haiku-5-5,c5b58efa,cpp|deep_learning|java|python,,"Kalman-Filter, UKF;KI-Methoden",,c1_plus,must_have,c1_plus,must_have,,,,
 an:werkstudent-softwareentwickler-vuejs-aachen-480888,dc292acec360bcde,2026-10-16,ok,claude-haiku-5-5,c5b58efa,agile|git|javascript|nodejs|vue,gcp|typescript,Firebase,,c1_plus,must_have,unknown,not_stated,,,16,
 an:werkstudent-softwareentwicklung-aachen-232965,20231a621039f981,2026-10-15,ok,claude-haiku-5-5,c5b58efa,it_support|javascript|nodejs|nosql|react|rest_api|typescript,git,Express.js;Funktionstests,,fluent,must_have,fluent,must_have,,,,
+an:werkstudent-softwareentwicklung-berlin-202710,6ad277416ffe6f82,2026-11-05,ok,claude-haiku-5-5,c5b58efa,nextjs|python|react|typescript,,Tailwind;Supabase;Stripe;Hono on Cloudflare Workers;Vitest;KI-gestützte Softwareentwicklung,,fluent,nice_to_have,fluent,must_have,17,20,15,20
 an:werkstudent-softwareentwicklung-c-wpf-passau-322417,f7d4307b0feca938,2026-10-16,ok,claude-haiku-5-5,c5b58efa,csharp|sql,,WPF,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-softwareentwicklung-smart-factory-pliezhausen-323826,5b89db7175a2d25a,2026-10-15,ok,claude-haiku-5-5,c5b58efa,agile|angular|csharp|javascript,,,,fluent,must_have,unknown,not_stated,,,,
 an:werkstudent-softwareentwicklung-wurzburg-178085,60d9e2a9101ed6d8,2026-10-14,ok,claude-haiku-5-5,b0e132ec,csharp|git,testing,,Automatisierung;WPF;Datenbanken;Webtechnologien,unknown,not_stated,unknown,not_stated,,,,
@@ -6507,22 +6616,23 @@ an:werkstudent-sustainability-nachhaltigkeit-esg-germany-hamburg-287685,01bd7872
 an:werkstudent-talent-acquisition-munchen-367444,092fc7569ed121ac,2026-10-14,ok,claude-haiku-5-5,b51c75bb,recruiting,,"Juicebox, Clay (AI sourcing tools)",,native,must_have,c1_plus,must_have,,,20,20
 an:werkstudent-tech-und-automatisierung-munich-34537,c6fe9a5989fb8afc,2026-10-18,ok,claude-haiku-5-5,c5b58efa,git|hubspot|nodejs|pm_tools|python|testing|typescript,azure,Nutzungsdaten auswerten,KI-gestützte Entwicklung,c1_plus,must_have,unknown,not_stated,16,18,,
 an:werkstudent-technik-administration-frankfurt-am-main-237342,0774c3cd7b3b10c7,2026-10-28,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|outlook|word,,,,fluent,must_have,unknown,not_stated,,,,
-an:werkstudent-technik-operations-haar-485734,6a7cab25bbb54781,2026-11-04,ok,claude-haiku-5-5,c5b58efa,excel|lean|procurement,,"Wareneingang, Versand, Kommissionierung;Projektorganisation",,unknown,not_stated,unknown,not_stated,,,15,20
+an:werkstudent-technik-operations-haar-485734,bc50e4b3d6644d35,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel|lean|procurement,,,3D drucken;Löten,unknown,not_stated,unknown,not_stated,,,15,20
 an:werkstudent-technischer-vertrieb-immenhausen-246067,0827f50fe5946ee7,2026-10-27,ok,claude-haiku-5-5,c5b58efa,dataviz|excel|ms_office|sales_skills,crm|other_erp,"Markt-, Kunden- und Wettbewerbsrecherchen",,fluent,must_have,fluent,must_have,15.5,17.5,20,20
 an:werkstudent-technisches-management-gas-und-wasserstoffnetze-berlin-136878,3bfde0d12c572cbc,2026-10-15,ok,claude-haiku-5-5,c5b58efa,excel,,Visualisierung von Betriebsdaten,,native,must_have,c1_plus,must_have,,,,
 an:werkstudent-technisches-marketing-automation-karlsruhe-400185,fd688b3ba63eb7b8,2026-10-15,ok,claude-haiku-5-5,c5b58efa,content|controlling|hubspot|online_marketing|seo,,Firmenhomepage;Affinität für Daten und Kennzahlen;Präsentationen,Website-Performance,fluent,must_have,c1_plus,must_have,,,,
-an:werkstudent-technisches-projektmanagement-berlin-43664,32a543c3a7de06ad,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,,Ingenieurwissenschaften studieren,,unknown,not_stated,unknown,not_stated,,,20,20
-an:werkstudent-tegtmeier-inkubator-gmbh-hamburg-465944,7235b45f037ba4d5,2026-11-04,ok,claude-haiku-5-5,c5b58efa,nodejs|python,,Webtechnologien;Artificial Intelligence und Data Science;hardwarenahe Entwicklung,Smart-Home Systeme,fluent,must_have,unknown,not_stated,18,20,,
+an:werkstudent-technisches-projektmanagement-berlin-43664,56f7bacf04bd3c7d,2026-11-05,ok,claude-haiku-5-5,c5b58efa,project_mgmt,,Prozessbetreuung,,unknown,not_stated,unknown,not_stated,,,20,20
+an:werkstudent-tegtmeier-inkubator-gmbh-hamburg-465944,a9272600fc7232b2,2026-11-05,ok,claude-haiku-5-5,c5b58efa,ml|nodejs|python,,,"Smart-Home Systeme (KNX, HomeMatic, Loxone);hardwarenaher Entwicklung",fluent,must_have,unknown,not_stated,18,20,,
 an:werkstudent-teilzeit-social-media-content-creation-berlin-265154,7ad1a8e3b9eeca15,2026-10-17,ok,claude-haiku-5-5,c5b58efa,adobe_cc|canva|content|social_media|video,,Personal Branding,,native,must_have,unknown,nice_to_have,,,,
 an:werkstudent-tiktok-shop-live-management-operator-all-genders-cologne-311703,d74fb348dc083334,2026-11-03,ok,claude-haiku-5-5,c5b58efa,online_marketing,,TikTok Shop Live Streams;Social Commerce,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudent-transformation-management-kommunikation-munchen-270455,9ea62b32ab0539bf,2026-10-28,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|powerpoint|sap|word,project_mgmt,Künstliche Intelligenz (KI);Wissensmanagement,Change Management,native,must_have,fluent,must_have,,,,
 an:werkstudent-unternehmensentwicklung-munich-116562,873f46dfd0cfcb3a,2026-10-18,ok,claude-haiku-5-5,c5b58efa,accounting|ms_office,,Reports,,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudent-ux-design-regensburg-126103,e55ac3b3ff9b9274,2026-10-16,ok,claude-haiku-5-5,c5b58efa,adobe_cc|ux,,Grafiken;Arbeit mit KI,,unknown,not_stated,unknown,not_stated,,,,
-an:werkstudent-ux-ui-design-frankfurt-114939,20bbc3155cbc041c,2026-11-04,ok,claude-haiku-5-5,c5b58efa,adobe_cc|canva|figma|market_research|shopify|sketch_xd|ux,,,,unknown,not_stated,unknown,not_stated,,,16,20
-an:werkstudent-ux-ui-design-frankfurt-160361,f2bb270feec0552e,2026-11-04,ok,claude-haiku-5-5,c5b58efa,adobe_cc|canva|figma|market_research|shopify|sketch_xd|ux,,Visuelle Gestaltung,,unknown,not_stated,unknown,not_stated,,,,
+an:werkstudent-ux-ui-design-frankfurt-114939,f2bb270feec0552e,2026-11-05,ok,claude-haiku-5-5,c5b58efa,adobe_cc|canva|figma|market_research|online_marketing|shopify|sketch_xd|ux,,Conversion Rate Optimization,,unknown,not_stated,unknown,not_stated,,,16,20
+an:werkstudent-ux-ui-design-frankfurt-160361,20bbc3155cbc041c,2026-11-05,ok,claude-haiku-5-5,c5b58efa,adobe_cc|canva|figma|shopify|sketch_xd,ux,Conversion Rate Optimization (CRO),,unknown,not_stated,unknown,not_stated,,,16,20
+an:werkstudent-ux-ui-design-frankfurt-171503,20bbc3155cbc041c,2026-11-05,ok,claude-haiku-5-5,c5b58efa,adobe_cc|canva|figma|market_research|paid_social|shopify|sketch_xd|ux,,,,unknown,not_stated,unknown,not_stated,,,16,20
 an:werkstudent-verkehrsplanung-dresden-187069,c3c1a5a1ba544477,2026-10-18,ok,claude-haiku-5-5,c5b58efa,ms_office,driving_licence|gis,,CorelDRAW;VISUM;Richtlinien der FGSV,fluent,must_have,unknown,not_stated,,,,
 an:werkstudent-verschiedene-standorte-deutschlandweit-eschborn-162327,0e9a139d0d58455a,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,,,Interesse an Finanz- und Investmentthemen,unknown,not_stated,unknown,not_stated,,,,
-an:werkstudent-vertrieb-kundenberatung-warenautomaten-bensheim-214064,0e285c4ec2975274,2026-11-04,ok,claude-haiku-5-5,c5b58efa,sales_skills,,KI-Werkzeuge,Erfahrung im Kundenkontakt,c1_plus,must_have,unknown,not_stated,15,18,,
+an:werkstudent-vertrieb-kundenberatung-warenautomaten-bensheim-214064,64ad013cd3287c9a,2026-11-05,ok,claude-haiku-5-5,c5b58efa,sales_skills,,KI-Werkzeuge nutzen,Kundenkontakt,c1_plus,must_have,unknown,not_stated,15,18,,
 an:werkstudent-verwaltungsinformatik-digitale-verwaltungsprozesse-berlin-deutschland-hybrid-192869,b148795e85cc3de8,2026-10-17,ok,claude-haiku-5-5,c5b58efa,ms_office,,,,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudent-vibe-coding-ai-prototyping-hamburg-133198,823e9124b683733d,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,javascript|python|react|rest_api|typescript,"Vibe Coding;Codex, Cursor, Claude Code, Lovable, Replit;Web-Apps mit modernen AI-Coding-Tools;Automatisierung wiederkehrender Abläufe",,native,must_have,fluent,must_have,,,,
 an:werkstudent-video-editing-ai-berlin-496949,2db1eaf62f15bc1d,2026-10-17,ok,claude-haiku-5-5,c5b58efa,online_marketing|social_media|video,,KI-generiertes B-Roll;KI-Audio,,unknown,not_stated,unknown,not_stated,,,,
@@ -6541,6 +6651,7 @@ an:werkstudenten-job-in-hamburger-start-up-social-media-creative-marketing-22960
 an:werkstudenten-mathematik-oder-physik-tech-startup-hanover-354529,098102a8014d0b77,2026-10-16,ok,claude-haiku-5-5,c5b58efa,typescript,graphql|nodejs|rest_api|sql|testing,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudenten-social-media-berlin-362452,b8e385624539aee0,2026-10-16,ok,claude-haiku-5-5,c5b58efa,social_media|video,,Grafiktools;Kampagnenplanung,,native,must_have,unknown,not_stated,,,,20
 an:werkstudenten-telefonische-unterstutzung-des-campaign-management-teams-cologne-225952,c707e8bce713106b,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
+an:werkstudentenstelle-im-bereich-entwicklung-auch-praktikum-oder-abschlussarbeit-moglich-dusseldorf-192187,26fc53ce4e1c1256,2026-11-05,ok,claude-haiku-5-5,c5b58efa,cpp|embedded|lab,,ARM/STM32;Signalaufbereitung,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudentenstelle-technische-kundenbetreuung-it-support-berlin-408207,96f2b666feff2f41,2026-10-15,ok,claude-haiku-5-5,c5b58efa,it_support|project_mgmt,,Projektron BCS;Web Config Editor;XML-Dateien schreiben,Anwendungssoftware,unknown,not_stated,basic,nice_to_have,,,16,20
 an:werkstudentin-ai-automation-energy-berlin-339347,e66e49727b5778a8,2026-11-03,ok,claude-haiku-5-5,c5b58efa,rest_api|zapier,,KI-Agenten,,c1_plus,must_have,unknown,not_stated,,,15,20
 an:werkstudentin-ai-automation-munchen-headquarter-475430,963d6c6a394e00e9,2026-10-16,ok,claude-haiku-5-5,c5b58efa,genai|git|python|rest_api|sql,crm|excel|hubspot|power_platform|vba|zapier,,Finance-Kenntnisse,c1_plus,must_have,unknown,must_have,,,,
@@ -6568,12 +6679,12 @@ an:werkstudentin-creator-marketing-ugc-client-services-cologne-70590,b90e6f6ad20
 an:werkstudentin-crew-recruiting-hamburg-228192,3b3c35947c484f6e,2026-10-16,ok,claude-haiku-5-5,c5b58efa,customer_service,,,Personalmanagement,c1_plus,must_have,c1_plus,must_have,,,,
 an:werkstudentin-customer-experience-online-marketing-hamburg-55626,cd9785849a6d31a9,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|customer_service|online_marketing,crm,Nutzerverhalten analysieren,Chatbots;Automatisierung,native,must_have,unknown,not_stated,,,,20
 an:werkstudentin-customer-success-karlsruhe-287521,11eb194e0a29120b,2026-10-16,ok,claude-haiku-5-5,c5b58efa,controlling,ml,,,fluent,must_have,unknown,not_stated,,,,
-an:werkstudentin-customer-support-cologne-338116,602e1573726fb47e,2026-11-04,ok,claude-haiku-5-5,c5b58efa,content|social_media,,Kundenanliegen;Up- und Cross-Selling,,fluent,must_have,unknown,not_stated,,,,
+an:werkstudentin-customer-support-cologne-338116,50852d0f758bec97,2026-11-05,ok,claude-haiku-5-5,c5b58efa,content|customer_service|social_media,,,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudentin-cutter-visual-content-aachen-199340,ce96819730c13855,2026-10-16,ok,claude-haiku-5-5,c5b58efa,adobe_cc|graphic_design|social_media|video,pm_tools,,AI tools,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudentin-data-analytics-controlling-focus-hamburg-23182,994b316ec5a4909c,2026-10-14,ok,claude-haiku-5-5,b0e132ec,controlling|data_analysis|dataviz|etl|looker|python|sql,git|powerbi|tableau,Reports;KPI-Tracking;Datenintegrität;Anomalieerkennung;Datenaufnahme und Transformation;Datenmodellierung,Predictive Modeling;KI-Bibliotheken oder Tools,c1_plus,must_have,unknown,must_have,,,15,20
 an:werkstudentin-data-analytics-mainz-oder-berlin-42026,9b46895e8f1b53eb,2026-10-15,ok,claude-haiku-5-5,c5b58efa,data_analysis|dataviz|etl|excel|ms_office|powerpoint|statistics,gcp|google_analytics|powerbi|python|tableau,Reports,,native,must_have,c1_plus,must_have,,,,20
 an:werkstudentin-data-science-ki-munster-276118,167208b0d9e05546,2026-10-15,ok,claude-haiku-5-5,c5b58efa,data_analysis|etl|ml|python|sql,git|linux|pandas,,Claude Code / Codex;Prognosemodelle,c1_plus,must_have,unknown,not_stated,,,,
-an:werkstudentin-data-science-tegtmeier-internet-solutions-hamburg-25285,294c80707442883d,2026-11-03,ok,claude-haiku-5-5,c5b58efa,data_analysis|dataviz|etl|git|python|sql|statistics,,"R;Deployment und Monitoring;KI-Agenten / Claude Code, Codex;A/B-Tests",,c1_plus,must_have,fluent,must_have,,,,
+an:werkstudentin-data-science-tegtmeier-internet-solutions-hamburg-25285,78640453ca2e86d4,2026-11-05,ok,claude-haiku-5-5,c5b58efa,data_analysis|dataviz|git|python|sql|statistics,,R;Experimente;KI-gestützte Entwicklung;Datenaufbereitung;Deployment und Monitoring,,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudentin-dataset-creator-karlsruhe-39164,83fbc016a23da9b8,2026-10-16,ok,claude-haiku-5-5,c5b58efa,quality,,Künstlicher Intelligenz,,c1_plus,must_have,c1_plus,must_have,,,15,20
 an:werkstudentin-design-visuelle-gestaltung-marketing-berlin-147722,40d9cb3386d0e253,2026-11-04,ok,claude-haiku-5-5,c5b58efa,canva|content|event|excel|graphic_design|illustrator|indesign|online_marketing|outlook|photoshop|powerpoint|social_media|video|word,,"Word, Excel, PowerPoint, Outlook",Website-Updates;Motion-Graphics;Portfolio,native,must_have,fluent,must_have,,,,
 an:werkstudentin-design-visuelle-gestaltung-marketing-munich-338246,061fd3b513a4a650,2026-11-01,ok,claude-haiku-5-5,c5b58efa,canva|event|excel|illustrator|indesign|ms_office|online_marketing|outlook|photoshop|powerpoint|social_media|video|word,,Gestaltung von Marketingmaterialien;Bildbearbeitung,Website-Updates;Animation / Motion-Graphics;Portfolio,native,must_have,fluent,must_have,,,,
@@ -6602,7 +6713,7 @@ an:werkstudentin-graphic-design-hamburg-427420,4cf7927b87836318,2026-10-16,ok,cl
 an:werkstudentin-growth-engineer-berlin-127979,3e9d37bd24bdb780,2026-11-04,ok,claude-haiku-5-5,c5b58efa,google_analytics|social_media,,KI-Tools;Reports,,fluent,must_have,fluent,must_have,17,17,,
 an:werkstudentin-growth-marketing-berlin-267900,6c39ee068c7ee822,2026-11-03,ok,claude-haiku-5-5,c5b58efa,,,,,native,must_have,unknown,not_stated,,,15,20
 an:werkstudentin-growth-marketing-berlin-486387,9d706b79f42815df,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,,,,native,must_have,unknown,not_stated,,,15,20
-an:werkstudentin-guest-service-munich-167567,a1223055c3f83f1a,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,customer_service,Kommunikationsstärke in Deutsch und Englisch,,fluent,must_have,fluent,must_have,15,17,,
+an:werkstudentin-guest-service-munich-167567,ab7f9b6b344e47b8,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,,,,c1_plus,must_have,c1_plus,must_have,15,17,,
 an:werkstudentin-hamburg-informatik-wi-informatik-onboarding-und-support-digitaler-systeme-in-der-gastronomie-101884,12e95a9d63b930ff,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,driving_licence|networking,Technische Unterstützung;Kundenorientiert vermitteln,CSV-Daten;Programmierkenntnisse,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudentin-hr-business-development-munster-156410,77586aab4bd38efb,2026-10-16,ok,claude-haiku-5-5,c5b58efa,event|excel|recruiting,,Microsoft-Programme;Recherche und Analyse,,unknown,not_stated,unknown,not_stated,,,15,20
 an:werkstudentin-hr-duisburg-267665,a3a34769cd32b434,2026-10-28,ok,claude-haiku-5-5,c5b58efa,ms_office|recruiting,,Reports und Auswertungen,,unknown,not_stated,unknown,not_stated,,,,
@@ -6627,7 +6738,7 @@ an:werkstudentin-im-online-marketing-cologne-362153,364a723b9bd6a02d,2026-10-17,
 an:werkstudentin-im-paid-social-dortmund-19798,98852e8b1d0760c7,2026-11-04,ok,claude-haiku-5-5,c5b58efa,canva|content|social_media|video,paid_social,Community Management;CapCut,,c1_plus,must_have,fluent,must_have,,,16,20
 an:werkstudentin-im-sales-development-berlin-28183,48f75f8a7425663b,2026-10-31,ok,claude-haiku-5-5,c5b58efa,controlling|event|hubspot,crm,Recherche von FMCG-Marken;Erstansprache und Qualifizierung,,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudentin-im-sekretariat-office-management-rostock-315860,dd14bff70d50f8fd,2026-10-24,ok,claude-haiku-5-5,c5b58efa,event,,,,c1_plus,must_have,c1_plus,must_have,,,,
-an:werkstudentin-im-team-energy-projects-freiburg-im-breisgau-476382,d4e3a42565c2fe34,2026-11-04,ok,claude-haiku-5-5,c5b58efa,data_analysis|excel|ms_office,,Kenntnisse im Energiesektor;Berichte und Präsentationen,Programmierkenntnisse,c1_plus,must_have,fluent,must_have,,,,
+an:werkstudentin-im-team-energy-projects-freiburg-im-breisgau-476382,40823bd20d005ca0,2026-11-05,ok,claude-haiku-5-5,c5b58efa,data_analysis|excel|ms_office,,Kenntnisse im Energiesektor,Programmierkenntnisse,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudentin-im-team-engineerung-technology-freiburg-im-breisgau-78947,2039a143de293e5e,2026-10-15,ok,claude-haiku-5-5,c5b58efa,,,Programmieren / Coding;Simulationswerkzeuge;Analyse von Energie- und Infrastrukturdaten;energierelevante Themen,,c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudentin-in-der-redaktion-von-design-perspectives-frankfurt-am-main-477086,259162338c085c62,2026-10-23,ok,claude-haiku-5-5,c5b58efa,canva|email_marketing|figma|ms_office|social_media,,TYPO3;Kennzahlen auswerten,,c1_plus,must_have,c1_plus,must_have,,,,
 an:werkstudentin-in-sap-berechtigungen-gesucht-osnabruck-219136,6e046772b6550b75,2026-10-28,ok,claude-haiku-5-5,c5b58efa,sap,,Berechtigungs- und Sicherheitskonzepte,Kenntnisse in der Programmierung,unknown,not_stated,unknown,not_stated,18,18,,20
@@ -6652,6 +6763,7 @@ an:werkstudentin-kundenservice-100-homeoffice-grafschaft-397791,51cef0b755005615
 an:werkstudentin-kundensupport-social-media-grafelfing-212494,42b89e51227f78b9,2026-10-18,ok,claude-haiku-5-5,c5b58efa,content|customer_service,social_media,KI-gestützte Erstellung;Marketing-Kennzahlen,,c1_plus,must_have,c1_plus,must_have,,,15,20
 an:werkstudentin-landwirtschaft-und-betriebliche-datenprufung-all-genders-berlin-i-de-remote-moglich-235990,294f1d1461cd0401,2026-10-18,ok,claude-haiku-5-5,c5b58efa,,,Agrarwissenschaftliches Fachwissen;Digitale Tools,,fluent,must_have,basic,nice_to_have,,,,
 an:werkstudentin-lead-generation-hamburg-133242,b5b1853b5df436cb,2026-10-14,ok,claude-haiku-5-5,b0e132ec,hubspot,,,,c1_plus,must_have,unknown,not_stated,,,20,20
+an:werkstudentin-litigation-berlin-45064,f81ee53c5664e0a3,2026-11-05,ok,claude-haiku-5-5,c5b58efa,labour_law,,Recherchen,,c1_plus,must_have,c1_plus,must_have,,,,
 an:werkstudentin-machine-learning-tegtmeier-internet-solutions-gmbh-hamburg-122028,d25c0fd73fa93395,2026-11-03,ok,claude-haiku-5-5,c5b58efa,git|nlp|python,genai,Modelle für Recommendations;Function Calling / MCP;MLOps;KI-gestützte Entwicklung,,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudentin-markenbotschafterin-schweinfurt-236772,3476dfbaf7ace07d,2026-10-14,ok,claude-haiku-5-5,b51c75bb,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudentin-market-research-data-insights-hamburg-486711,77d828457762f0b1,2026-10-16,ok,claude-haiku-5-5,c5b58efa,controlling|excel|google_workspace,market_research,KI-Tools,,fluent,must_have,c1_plus,must_have,,,,
@@ -6702,13 +6814,14 @@ an:werkstudentin-quality-control-analyst-warmepumpe-berlin-496419,4c585509888b47
 an:werkstudentin-quereinstieg-kosmetikerin-waxing-brows-dusseldorf-9223,518b3ac4d5416fff,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,,Kassenführung,,unknown,not_stated,unknown,not_stated,,,,
 an:werkstudentin-recruiting-braunschweig-267199,79b25b32e6878ad0,2026-10-17,ok,claude-haiku-5-5,c5b58efa,recruiting|social_media,,,,c1_plus,must_have,unknown,not_stated,15,15,,20
 an:werkstudentin-recruiting-hamburg-276463,94f93fead88bf57e,2026-10-25,ok,claude-haiku-5-5,c5b58efa,recruiting,,LinkedIn,,native,not_stated,unknown,not_stated,,,15,20
-an:werkstudentin-sales-business-development-ai-software-solutions-cologne-402830,5eee0ac0df59b7d7,2026-11-04,ok,claude-haiku-5-5,c5b58efa,crm|email_marketing|sales_skills|social_media,,,,c1_plus,must_have,fluent,must_have,,,20,20
+an:werkstudentin-redaktion-berlin-264787,f2b6927764a1a287,2026-11-05,ok,claude-haiku-5-5,c5b58efa,social_media,content,KI-Tools,Content-Management-Systemen wie TYPO3 oder Webflow,native,must_have,unknown,not_stated,,,,
+an:werkstudentin-sales-business-development-ai-software-solutions-cologne-402830,2570bd2e3c53df24,2026-11-05,ok,claude-haiku-5-5,c5b58efa,crm|email_marketing|sales_skills,,LinkedIn Kanäle;Unternehmen recherchieren;KI-gestützte Vertriebsworkflows,,c1_plus,must_have,fluent,must_have,,,20,20
 an:werkstudentin-sales-development-cologne-144607,8d00a65e1b222d82,2026-10-25,ok,claude-haiku-5-5,c5b58efa,crm|event|ms_office,sales_skills,Energiesektor,,native,must_have,c1_plus,must_have,,,,
 an:werkstudentin-sales-unterstutzung-der-geschaftsleitung-hamburg-310225,defda92a9af5ccb9,2026-10-16,ok,claude-haiku-5-5,c5b58efa,crm|excel|powerpoint|sales_skills,,Claude von Anthropic;Aufbereitung von Kennzahlen;Zielkundenrecherche,,c1_plus,must_have,unknown,must_have,,,20,
 an:werkstudentin-schulungen-webinare-und-csm-cologne-275954,df3ca904fd34183d,2026-10-25,ok,claude-haiku-5-5,c5b58efa,ms_office|video,,,Webinare,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudentin-service-robotik-technischer-service-meinerzhagen-262410,8adfe3f9e3fadb32,2026-10-16,ok,claude-haiku-5-5,c5b58efa,driving_licence|ms_office,market_research|robotics,Technische Dokumentationen;Ticketportal,,c1_plus,must_have,fluent,must_have,,,,
 an:werkstudentin-simulation-frankfurt-am-main-277128,88858f5806c3e74c,2026-10-16,ok,claude-haiku-5-5,c5b58efa,cpp|csharp|java|ms_office,,Plant Simulation,,c1_plus,must_have,c1_plus,must_have,,,,
-an:werkstudentin-social-media-berlin-3687,3c35dc68f1bb4dd4,2026-11-04,ok,claude-haiku-5-5,c5b58efa,social_media|video,genai,,,c1_plus,must_have,unknown,not_stated,,,,
+an:werkstudentin-social-media-berlin-3687,e3ced3f59156d0d8,2026-11-05,ok,claude-haiku-5-5,c5b58efa,social_media,genai|video,Short-Form schneiden,"Opus Clip, Edits, CapCut",c1_plus,must_have,unknown,not_stated,,,,
 an:werkstudentin-social-media-cologne-110040,d4249db2c3e7eff7,2026-10-15,ok,claude-haiku-5-5,c5b58efa,social_media,,Captions schreiben;Bilder- & Foto-Assets;Foto-Assets,,unknown,must_have,unknown,must_have,,,,
 an:werkstudentin-social-media-content-berlin-245094,0c1908f941de9ea8,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|social_media|video,,,,native,must_have,c1_plus,must_have,,,20,20
 an:werkstudentin-social-media-content-creation-berlin-157039,65186daed0d47e38,2026-10-23,ok,claude-haiku-5-5,c5b58efa,canva|content|paid_social|photography|social_media|video,,,,c1_plus,must_have,c1_plus,must_have,,,15,20
@@ -6763,7 +6876,7 @@ an:working-student-ai-operations-berlin-484363,d02e79152f086f83,2026-10-18,ok,cl
 an:working-student-ai-product-designer-berlin-58805,8d7e1b67c616ed13,2026-10-15,ok,claude-haiku-5-5,c5b58efa,ux,,AI tools,,unknown,nice_to_have,fluent,must_have,,,,
 an:working-student-ai-product-engineering-data-munich-123540,b57b21650046c9c6,2026-10-16,ok,claude-haiku-5-5,c5b58efa,etl|python|sql,rest_api,"AI agents, MCP, tool-calling",,unknown,not_stated,unknown,must_have,,,,
 an:working-student-ai-software-engineer-langchain-all-genders-boblingen-394512,3178caa13df86ea9,2026-11-03,ok,claude-haiku-5-5,c5b58efa,genai|git|hubspot|jira|m365_admin|python|rest_api|sql,postgresql|typescript,LangChain;LangGraph;Structured outputs,LangSmith;Model Context Protocol;Vector stores;Lovable;Supabase,unknown,nice_to_have,c1_plus,must_have,,,15,20
-an:working-student-ai-solutions-architect-generative-ai-data-platforms-berlin-283450,9b118b84001857ea,2026-11-03,ok,claude-haiku-5-5,c5b58efa,aws|databricks|gcp|genai|python|rest_api|snowflake|sql,terraform,,Lakehouse architecture,unknown,not_stated,unknown,must_have,,,,
+an:working-student-ai-solutions-architect-generative-ai-data-platforms-berlin-283450,341c2c95ef33219c,2026-11-05,ok,claude-haiku-5-5,c5b58efa,aws|databricks|gcp|genai|python|rest_api|snowflake|sql,terraform,Retrieval-augmented generation;Data modeling,Anthropic Claude,unknown,not_stated,unknown,must_have,,,,
 an:working-student-all-genders-talent-development-augsburg-292909,a08687d1469042dc,2026-10-17,ok,claude-haiku-5-5,c5b58efa,agile|data_analysis|research_methods,,,Working with AI;Learning new tools,c1_plus,must_have,c1_plus,must_have,15.5,19.5,20,20
 an:working-student-analytics-engineering-berlin-zentrale-381296,cae91cac18aa4f58,2026-10-16,ok,claude-haiku-5-5,c5b58efa,data_analysis|dataviz|looker|sql,,Gemini or Claude,,basic,must_have,c1_plus,must_have,,,,
 an:working-student-assistant-seedings-events-cologne-370096,8327d07f00fc48b6,2026-10-15,ok,claude-haiku-5-5,c5b58efa,event|google_workspace|ms_office|project_mgmt,,,,c1_plus,must_have,fluent,nice_to_have,,,,
@@ -6779,7 +6892,7 @@ an:working-student-business-operations-koln-268281,223a558ad00d3a3d,2026-10-17,o
 an:working-student-cad-design-munich-164638,4723d70931e422c1,2026-10-17,ok,claude-haiku-5-5,c5b58efa,cad|catia|mechanical|siemens_nx|solidworks,python,,,unknown,not_stated,unknown,not_stated,,,20,20
 an:working-student-captains-management-at-meet5-usa-frankfurt-am-main-458985,68fd33f9d97df19a,2026-11-04,ok,claude-haiku-5-5,c5b58efa,recruiting,customer_service,,,unknown,not_stated,c1_plus,must_have,,,,
 an:working-student-ceo-office-karlsruhe-54254,fd3b65530b5403f3,2026-11-03,ok,claude-haiku-5-5,c5b58efa,process_mgmt,,,,c1_plus,must_have,c1_plus,must_have,,,16,20
-an:working-student-client-experience-berlin-94565,05cae2197ac466de,2026-11-03,ok,claude-haiku-5-5,c5b58efa,excel|process_mgmt,,AI tooling,Automation of workarounds;Financial services background,fluent,must_have,fluent,must_have,,,,
+an:working-student-client-experience-berlin-94565,3c6506a98b43752f,2026-11-05,ok,claude-haiku-5-5,c5b58efa,excel,,AI tooling,,fluent,must_have,fluent,must_have,,,,
 an:working-student-compliance-berlin-242411,ed93b3b81b0cf1c8,2026-10-22,ok,claude-haiku-5-5,c5b58efa,audit|genai,,regulatory research;compliance,AI prompting,unknown,not_stated,c1_plus,must_have,15,17,,
 an:working-student-content-creation-remote-berlin-german-speaking-255273,8903493ad9aa3ec0,2026-10-18,ok,claude-haiku-5-5,c5b58efa,content|graphic_design|social_media,canva|figma|paid_social|video,AI-Tools,,fluent,must_have,unknown,not_stated,18,22,,20
 an:working-student-content-marketing-berlin-chemnitz-sachsen-190676,b6f36e53bb645ead,2026-11-04,ok,claude-haiku-5-5,c5b58efa,pr|video,,"AI tools such as Claude;Storyblok, our CMS;write and edit German-language copy;optimized for search and AI-driven discovery",,c1_plus,must_have,c1_plus,must_have,,,20,20
@@ -6787,12 +6900,12 @@ an:working-student-corporate-and-business-development-frankfurt-am-main-255183,5
 an:working-student-corporate-and-business-development-hamburg-16339,9ddbcdba89a63eef,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,,,,fluent,nice_to_have,c1_plus,must_have,,,20,
 an:working-student-crm-data-operations-all-gender-berlin-317215,f28307f79de15009,2026-10-16,ok,claude-haiku-5-5,c5b58efa,crm|excel|google_workspace|html_css|hubspot|powerbi,sql|zapier,Reports,,basic,must_have,fluent,must_have,,,15,20
 an:working-student-customer-care-ludwigsburg-142623,a3b626490bb3f5be,2026-11-03,ok,claude-haiku-5-5,c5b58efa,controlling|genai|jira|process_mgmt|salesforce,,Support day-to-day support tickets,NetSuite,unknown,nice_to_have,fluent,must_have,,,16,20
-an:working-student-customer-care-ludwigsburg-471612,a3b626490bb3f5be,2026-11-04,ok,claude-haiku-5-5,c5b58efa,controlling|genai|jira|salesforce,,,NetSuite,unknown,nice_to_have,fluent,must_have,,,16,20
+an:working-student-customer-care-ludwigsburg-471612,ab91ec5630badd1c,2026-11-05,ok,claude-haiku-5-5,c5b58efa,controlling|customer_service|genai|jira|process_mgmt|salesforce,,Pilot Fleet inventory;Support tickets,NetSuite,unknown,nice_to_have,fluent,must_have,,,16,20
 an:working-student-customer-success-alternatively-mandatory-internship-munich-hq-125732,8fd8a0661ebb2f0f,2026-10-15,ok,claude-haiku-5-5,c5b58efa,content|customer_service|html_css,crm|hubspot|salesforce,AI tools;Report on adoption,CS platforms Planhat Gainsight,unknown,nice_to_have,c1_plus,must_have,,,15,20
 an:working-student-customer-success-germering-germany-127801,39a33628c7d093a4,2026-10-16,ok,claude-haiku-5-5,c5b58efa,crm,,,,fluent,must_have,fluent,must_have,,,,
 an:working-student-cyber-security-engineering-bensheim-277188,04050f15b03c92b7,2026-11-04,ok,claude-haiku-5-5,c5b58efa,cicd|it_security|networking,git|linux|python,Vulnerability scanners;Containers;DevSecOps;AI-assisted development tools,,unknown,nice_to_have,unknown,must_have,,,20,20
-an:working-student-cyber-security-engineering-berlin-329336,b320184fd6927420,2026-11-04,ok,claude-haiku-5-5,c5b58efa,cicd|it_security|networking,git|linux|python,,container technologies;DevSecOps,basic,nice_to_have,fluent,must_have,,,,20
-an:working-student-data-engineer-python-sql-cloud-platforms-berlin-407856,0fec1240b39e2300,2026-11-03,ok,claude-haiku-5-5,c5b58efa,dbt|etl|git|python|sql|testing,airflow|aws|databricks|gcp|snowflake|terraform,Cloud data platform;Data modelling,Orchestration and monitoring;Apache Iceberg;Dagster,unknown,not_stated,c1_plus,must_have,,,,
+an:working-student-cyber-security-engineering-berlin-329336,04050f15b03c92b7,2026-11-05,ok,claude-haiku-5-5,c5b58efa,cicd|it_security|networking,git|linux|python,Vulnerability scanners;Software supply chain security;SBOM,Container technologies;DevSecOps practices,unknown,nice_to_have,c1_plus,must_have,,,20,20
+an:working-student-data-engineer-python-sql-cloud-platforms-berlin-407856,43bb0ddd59a2c037,2026-11-05,ok,claude-haiku-5-5,c5b58efa,dbt|dwh|etl|git|python|sql|testing,airflow|aws|databricks|gcp|snowflake|terraform,Cloud data platform,Orchestration and monitoring;Cloud platform;Dagster;Apache Iceberg,unknown,not_stated,c1_plus,must_have,,,,
 an:working-student-data-engineer-software-developer-research-analytics-munich-bavaria-406891,1f10ba84a7ffb149,2026-10-24,ok,claude-haiku-5-5,c5b58efa,dataviz|docker|etl|git|html_css|javascript|python|rest_api|sql,genai,Web scraping;AI-based software development,JabRef,fluent,nice_to_have,c1_plus,must_have,,,,
 an:working-student-data-financial-research-ecommerce-hamburg-359904,59e460958f50ec04,2026-10-18,ok,claude-haiku-5-5,c5b58efa,excel|ms_office,python|sql|vba,,"annual reports, balance sheets, financial terminology",unknown,nice_to_have,fluent,must_have,,,15,17.5
 an:working-student-data-financial-research-ecommerce-hamburg-475894,890d4e2febd57235,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|ms_office,python|sql|vba,,"annual reports, balance sheets",unknown,nice_to_have,fluent,must_have,,,15,17.5
@@ -6800,7 +6913,7 @@ an:working-student-data-operations-process-support-oldenburg-450740,4584e67c5eea
 an:working-student-de-munchen-318289,bf4a154b7de03761,2026-10-14,ok,claude-haiku-5-5,b0e132ec,content|controlling|event|online_marketing|sales_skills|sea|seo|social_media|ux,,GEO;KPIs,,c1_plus,must_have,c1_plus,must_have,,,,
 an:working-student-deposit-integration-operations-berlin-berlin-417511,0898de2d12828aa9,2026-10-15,ok,claude-haiku-5-5,c5b58efa,jira,looker,,Jinja2 templating;Contentstack,unknown,nice_to_have,fluent,must_have,,,,
 an:working-student-designer-design-system-heartbeat-ai-berlin-155384,69cc675460fc0bee,2026-10-15,ok,claude-haiku-5-5,c5b58efa,figma|ux,,Claude;Cursor;AI-assisted workflows,,unknown,nice_to_have,fluent,must_have,,,,
-an:working-student-digital-marketing-website-management-remote-nationwide-148101,4f27bb8126500eed,2026-11-03,ok,claude-haiku-5-5,c5b58efa,genai|seo|wordpress,google_analytics|html_css|hubspot|ux,,"Page builders (Elementor, Divi);Conversion rate optimisation;Canva, Adobe Creative Suite, Figma",unknown,not_stated,c1_plus,must_have,,,,
+an:working-student-digital-marketing-website-management-remote-nationwide-148101,5e561b01cba54a73,2026-11-05,ok,claude-haiku-5-5,c5b58efa,genai|seo|wordpress,google_analytics|html_css|hubspot|ux,,"Page builders (Elementor, Divi);Conversion rate optimisation;Canva, Adobe Creative Suite, Figma",unknown,not_stated,c1_plus,must_have,,,,
 an:working-student-electrical-engineering-all-genders-477174,89fb9781d480a823,2026-10-16,ok,claude-haiku-5-5,c5b58efa,cad|embedded|mechanical,,3D printing;Electronics and circuits;RF systems;Hardware testing and validation;Signal processing,,unknown,not_stated,unknown,not_stated,,,,
 an:working-student-executive-talent-sourcing-berlin-139972,db895780e432a753,2026-10-16,ok,claude-haiku-5-5,c5b58efa,recruiting,crm,LinkedIn,,unknown,not_stated,unknown,not_stated,,,20,20
 an:working-student-executive-talent-sourcing-berlin-326490,00c3f45a3cae67a0,2026-10-17,ok,claude-haiku-5-5,c5b58efa,recruiting,crm,LinkedIn,,unknown,not_stated,unknown,not_stated,,,,
@@ -6813,7 +6926,7 @@ an:working-student-flight-test-manufacturing-ottobrunn-79476,074a003331de015b,20
 an:working-student-germany-146481,f436f8f49fd007e3,2026-10-16,ok,claude-haiku-5-5,c5b58efa,procurement,,Claude;common automation tools,,c1_plus,must_have,fluent,must_have,,,,
 an:working-student-gn-purchasing-germany-production-plant-fulda-119104,9965dc6f1e135698,2026-10-15,ok,claude-haiku-5-5,c5b58efa,excel|ms_office|powerpoint|sap|word,,,,c1_plus,must_have,c1_plus,must_have,,,,
 an:working-student-go-to-market-munich-33437,bd2509f37653e8d5,2026-11-02,ok,claude-haiku-5-5,c5b58efa,excel|powerpoint,,AI tools,,fluent,must_have,fluent,must_have,16,18,,
-an:working-student-graphic-3d-design-munchen-238512,31cc4d491d63a871,2026-11-03,ok,claude-haiku-5-5,c5b58efa,adobe_cc|graphic_design|illustrator|indesign|photoshop,3d,Packaging design;Print-ready prepress,,fluent,must_have,c1_plus,must_have,,,16,20
+an:working-student-graphic-3d-design-munchen-238512,c2fdae1349d3789f,2026-11-05,ok,claude-haiku-5-5,c5b58efa,adobe_cc|illustrator|indesign|photoshop,3d,Print-ready prepress files,,unknown,not_stated,c1_plus,must_have,,,16,20
 an:working-student-graphic-design-e-commerce-all-genders-berlin-189027,22e4427edc250a19,2026-10-14,no_sections,claude-haiku-5-5,b0e132ec,,,,,,,,,,,,
 an:working-student-hardware-engineering-munich-450348,12bdfa3acc77a1d9,2026-10-23,ok,claude-haiku-5-5,c5b58efa,,,,,unknown,not_stated,unknown,not_stated,,,,
 an:working-student-hardware-engineering-uas-propulsion-power-all-genders-272085,83e588cb52f006fe,2026-10-15,ok,claude-haiku-5-5,c5b58efa,data_analysis|dataviz|matlab|python,,Multimeter,Test benches / DAQ;Battery testing,unknown,nice_to_have,fluent,must_have,,,,
@@ -6842,7 +6955,7 @@ an:working-student-launch-vehicle-design-parsdorf-bavaria-192325,e8741860c64760e
 an:working-student-launch-vehicle-structures-parsdorf-bavaria-160498,47ca17aa55988063,2026-11-04,ok,claude-haiku-5-5,c5b58efa,data_analysis|matlab|python,fem,flow visualizations,"ParaView, Tecplot, StarCCM+",unknown,not_stated,c1_plus,must_have,,,,
 an:working-student-legal-compliance-germering-germany-262859,385ad309005c9335,2026-10-17,ok,claude-haiku-5-5,c5b58efa,ms_office,,Compliance processes,Contract review and management,c1_plus,must_have,c1_plus,must_have,,,,
 an:working-student-legal-operations-ai-automation-berlin-312671,3ea62bd9760c0274,2026-10-18,ok,claude-haiku-5-5,c5b58efa,,,AI tools and prompting,,unknown,not_stated,unknown,not_stated,,,,
-an:working-student-llm-inference-performance-munich-161026,5ab0c901d85fdf0b,2026-11-04,ok,claude-haiku-5-5,c5b58efa,cpp|python|rust,embedded,AI coding agents;Benchmarking and profiling tools;Roofline performance models,GPU or AI accelerator programming,unknown,not_stated,unknown,not_stated,,,,
+an:working-student-llm-inference-performance-munich-161026,7abb2204bb5dfe53,2026-11-05,ok,claude-haiku-5-5,c5b58efa,cpp|python|rust,embedded,AI coding agents,GPU or AI accelerator programming;Performance profiling,unknown,not_stated,unknown,not_stated,,,,
 an:working-student-llm-inference-performance-munich-225245,06b8f79fa968afa8,2026-11-03,ok,claude-haiku-5-5,c5b58efa,cpp|python|rust,embedded,AI coding agents,GPU or AI accelerator programming;LLM inference fundamentals,unknown,not_stated,unknown,not_stated,,,,
 an:working-student-llm-quantization-inference-performance-munich-124483,fce23023751a7605,2026-10-18,ok,claude-haiku-5-5,c5b58efa,python|pytorch,genai,Quantization,Performance profiling,unknown,not_stated,unknown,not_stated,,,,
 an:working-student-llm-quantization-inference-performance-munich-206903,fb6801fc798696e4,2026-11-02,ok,claude-haiku-5-5,c5b58efa,python|pytorch,genai,Model quantization,Performance profiling,unknown,not_stated,unknown,not_stated,,,,
@@ -6856,7 +6969,8 @@ an:working-student-minijob-retail-store-all-genders-werkstudium-store-koln-44829
 an:working-student-ml-compiler-munich-175718,60afbfa3b02d2e34,2026-11-04,ok,claude-haiku-5-5,c5b58efa,cpp|python,,Compiler design;Graph theory and algorithms,CUDA or OpenMP;Performance optimization,unknown,not_stated,unknown,not_stated,,,20,20
 an:working-student-ml-compiler-munich-381116,34be2a1965f70b94,2026-11-03,ok,claude-haiku-5-5,c5b58efa,cpp|python|rust,,ML compiler development;Graph theory and graph algorithms,CUDA / OpenMP;Performance optimization;Programming language design,unknown,not_stated,unknown,not_stated,,,20,20
 an:working-student-office-management-operations-all-genders-munich-314326,c7299bbd2b3b2193,2026-10-15,ok,claude-haiku-5-5,c5b58efa,google_workspace|notion,,Slack;AI tools;Personio;orders and invoices,,unknown,nice_to_have,fluent,must_have,,,16,20
-an:working-student-operations-munich-75785,c93ebc88269ccad4,2026-11-04,ok,claude-haiku-5-5,c5b58efa,event|excel|it_support|ms_office|outlook|payroll|powerpoint|process_mgmt|procurement|recruiting,,AI and automation,,unknown,nice_to_have,c1_plus,must_have,22,22,,20
+an:working-student-operations-munich-75785,b2c99f121c18ec6f,2026-11-05,ok,claude-haiku-5-5,c5b58efa,event|excel|it_support|ms_office|outlook|payroll|powerpoint|procurement|recruiting,,AI and automation tools,,unknown,nice_to_have,c1_plus,must_have,22,22,,20
+an:working-student-overall-aircraft-design-all-genders-delft-88516,8177dc90bd207536,2026-11-05,ok,claude-haiku-5-5,c5b58efa,matlab|python,,,OpenMDAO;Aviary,unknown,not_stated,c1_plus,must_have,,,,
 an:working-student-people-business-partner-munchen-395622,60931fd8435be519,2026-10-29,ok,claude-haiku-5-5,c5b58efa,,,Comfortable working in a digital environment;AI tools,,native,must_have,fluent,must_have,,,,
 an:working-student-people-operations-garching-bei-munchen-germany-97822,842c5d2edcb14c20,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,,,fluent,must_have,fluent,must_have,,,20,20
 an:working-student-people-projects-garching-bei-munchen-germany-80127,290c09e2c8dc70db,2026-10-14,ok,claude-haiku-5-5,b0e132ec,,,,,fluent,must_have,fluent,must_have,,,20,20
@@ -6865,19 +6979,19 @@ an:working-student-pool-your-start-at-quantum-systems-gilching-309579,4a8fcf64df
 an:working-student-pre-sales-support-bensheim-61132,2e4135ec84b46363,2026-11-03,ok,claude-haiku-5-5,c5b58efa,excel|genai|market_research|ms_office|powerpoint,,,,fluent,must_have,fluent,must_have,,,20,20
 an:working-student-privacy-engineering-compliance-automation-munich-296867,24acda6b413f88b3,2026-10-18,ok,claude-haiku-5-5,c5b58efa,audit|it_security,rest_api|sql,DPIA technical assessments,"Cloud infrastructure;GDPR, EU AI Act, NIS2, ISO 27001;Compliance and documentation tools",unknown,nice_to_have,fluent,nice_to_have,,,,
 an:working-student-procurement-land-domain-gilching-61847,271e3d503ef0eb60,2026-11-04,ok,claude-haiku-5-5,c5b58efa,,jira|m365_admin|other_erp|procurement|supply_chain,,NetSuite,fluent,must_have,fluent,must_have,,,20,20
-an:working-student-product-engineering-ruby-on-rails-for-auction-platform-kickdown-all-genders-hamburg-460221,9beb4fd5e6503337,2026-11-04,ok,claude-haiku-5-5,c5b58efa,data_analysis|ruby,testing,AI-assisted development tools,Web development,unknown,not_stated,unknown,not_stated,,,15,20
+an:working-student-product-engineering-ruby-on-rails-for-auction-platform-kickdown-all-genders-hamburg-460221,f1bc12e17b481fa2,2026-11-05,ok,claude-haiku-5-5,c5b58efa,data_analysis|ruby|testing,,AI-assisted development tools,,unknown,not_stated,unknown,not_stated,,,15,20
 an:working-student-product-management-cologne-494903,ca90d3665901f03a,2026-10-14,no_sections,claude-haiku-5-5,b0e132ec,,,,,,,,,,,,
 an:working-student-product-management-energy-products-tariffs-berlin-323094,deb9ce3d8245bc7a,2026-10-14,ok,claude-haiku-5-5,b51c75bb,energy|excel,python|sql,,,c1_plus,must_have,c1_plus,must_have,,,15,20
 an:working-student-product-operations-hamburg-hamburg-374820,872acf7a602540dc,2026-11-02,ok,claude-haiku-5-5,c5b58efa,,customer_service|testing,,spreadsheets or reporting tools,unknown,not_stated,unknown,must_have,,,,
 an:working-student-product-project-management-all-genders-berlin-367855,54168b1db284cc45,2026-11-03,ok,claude-haiku-5-5,c5b58efa,dataviz|google_workspace|jira|project_mgmt|sql|testing,consulting|genai|zapier,Metabase;Slack;Analyses for product team,Product management,fluent,must_have,fluent,must_have,,,20,20
 an:working-student-project-and-construction-management-berlin-charlottenburg-235518,e32838b6a2d2cfaa,2026-11-01,ok,claude-haiku-5-5,c5b58efa,project_mgmt,,"Construction sector knowledge;HOAI, VOB, AHO",,unknown,not_stated,unknown,not_stated,,,,
 an:working-student-qa-in-mobile-app-development-mfd-berlin-110910,81922122cfa00ae7,2026-11-04,ok,claude-haiku-5-5,c5b58efa,rest_api|testing,,,,unknown,not_stated,unknown,not_stated,,,,
-an:working-student-qa-in-mobile-app-development-mwd-berlin-79055,16b7c1f4c3ceb29d,2026-11-04,ok,claude-haiku-5-5,c5b58efa,rest_api|testing,,web and mobile applications,,unknown,not_stated,unknown,not_stated,,,,
+an:working-student-qa-in-mobile-app-development-mwd-berlin-79055,463f6f8ca79ddffd,2026-11-05,ok,claude-haiku-5-5,c5b58efa,rest_api|testing,,,,unknown,not_stated,unknown,not_stated,,,,
 an:working-student-quality-data-berlin-77350,42ba1d9b8af00fdd,2026-11-02,ok,claude-haiku-5-5,c5b58efa,android|computer_vision|ios|quality|sql|testing,dbt|git|google_analytics|python,Test camera-based jaw tracking;Linear bug reports;Amplitude;AppsFlyer;RevenueCat;BigQuery;Tracking plan;AI tools for automated tests,Accessibility WCAG VoiceOver TalkBack,unknown,not_stated,fluent,must_have,,,15,20
 an:working-student-retail-operations-berlin-kreuzberg-207693,6b06a839d9ad0b78,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|supply_chain,other_erp|sap,"Reports on orders, stock, deliveries",,fluent,must_have,fluent,must_have,,,15,20
 an:working-student-robotics-hardware-electronics-munich-441543,64e58dd2775e0bba,2026-10-22,ok,claude-haiku-5-5,c5b58efa,driving_licence|electrical|linux|procurement|python|testing,cad|pcb|robotics,Multimeter and oscilloscope;Soldering,Industrial wiring and control cabinets,unknown,not_stated,unknown,not_stated,16,18,,20
 an:working-student-sales-operations-frankfurt-am-main-39527,2337ff62ca91343a,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|powerpoint,crm,AI tools,,unknown,nice_to_have,fluent,must_have,,,,
-an:working-student-sap-coc-regensburg-170877,dfd3786abe6c38d8,2026-11-04,ok,claude-haiku-5-5,c5b58efa,itil|process_mgmt|sap|sap_s4|testing,abap,User management concepts,,c1_plus,must_have,c1_plus,must_have,,,,
+an:working-student-sap-coc-regensburg-170877,f52dda7d4beea824,2026-11-05,ok,claude-haiku-5-5,c5b58efa,sap|testing,abap,User management concepts,,native,must_have,c1_plus,must_have,,,,
 an:working-student-social-media-content-cologne-234391,cd5ace01ced28be1,2026-10-16,ok,claude-haiku-5-5,c5b58efa,content|controlling|social_media|video,,,,unknown,not_stated,unknown,not_stated,,,,
 an:working-student-social-media-content-ottobrunn-481945,ef3605750320955e,2026-10-15,ok,claude-haiku-5-5,c5b58efa,adobe_cc|canva|content|graphic_design|photography|social_media|video,,Channel performance monitoring,,unknown,nice_to_have,c1_plus,must_have,,,,
 an:working-student-software-engineer-potsdam-436123,7b5711466b8adc72,2026-10-16,ok,claude-haiku-5-5,c5b58efa,,agile|cicd|react|typescript,,Backend-Framework (z.B. Express);KI-gestützten Arbeitsweisen,fluent,must_have,unknown,not_stated,,,,
@@ -6886,6 +7000,7 @@ an:working-student-software-engineering-gilching-227201,e4e1d080fad5c965,2026-10
 an:working-student-spaceops-berlin-364417,854c6fd70ef395c3,2026-11-04,ok,claude-haiku-5-5,c5b58efa,python|statistics,agile|bash|cicd|docker|git|linux,software development,GitLab;Sentry;Datadog;automation and optimization tools,unknown,not_stated,unknown,not_stated,,,,
 an:working-student-supply-chain-berlin-kreuzberg-188337,ef1ebd0ce10aec76,2026-10-14,ok,claude-haiku-5-5,b0e132ec,excel|procurement|supply_chain,process_mgmt|sap,,,fluent,must_have,fluent,must_have,,,16,20
 an:working-student-sustainability-reporting-munchen-380646,4f2f80a342d01806,2026-10-29,ok,claude-haiku-5-5,c5b58efa,controlling,,,,unknown,not_stated,unknown,not_stated,15,17,,
+an:working-student-talent-acquisition-aschheim-bavaria-185340,43ef27f9ed293dd4,2026-11-05,ok,claude-haiku-5-5,c5b58efa,,recruiting,LinkedIn Recruiter;Greenhouse (ATS),Applicant tracking system,fluent,must_have,fluent,must_have,,,,
 an:working-student-talent-acquisition-gilching-122586,cbdc563510fc29ec,2026-11-02,ok,claude-haiku-5-5,c5b58efa,,,,,fluent,must_have,c1_plus,must_have,,,20,20
 an:working-student-talent-acquisition-gilching-396675,cbdc563510fc29ec,2026-11-02,ok,claude-haiku-5-5,c5b58efa,,,,,fluent,must_have,c1_plus,must_have,,,20,20
 an:working-student-talent-acquisition-hamburg-470328,9c1513a535ef9328,2026-11-04,ok,claude-haiku-5-5,c5b58efa,recruiting,,,,c1_plus,must_have,c1_plus,must_have,18,18,16,20

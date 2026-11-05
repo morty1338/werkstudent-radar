@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 12:25:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 11:47:35 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Compliance &amp; AML</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003962735-S</link>
+      <guid isPermaLink="false">10001-1003962735-S</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>HANSAINVEST -Hanseatische Investment-GmbH · Hamburg · Legal</description>
+    </item>
     <item>
       <title>Werkstudentin/Werkstudent für den Bereich Mietrückstandsbearbeitung/Wohnberechtigungsscheine (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003944488-S</link>
@@ -47,22 +55,6 @@
       <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
       <category>Legal</category>
       <description>Wortmann KG Internationale Schuhproduktionen · Detmold · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent Recht &amp; Compliance</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003927254-S</link>
-      <guid isPermaLink="false">10001-1003927254-S</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Caldic Deutschland GmbH · Düsseldorf · €16.00/h · Legal</description>
-    </item>
-    <item>
-      <title>Telefonzentrale Ingolstadt - VZ, TZ, Werkstudent oder Minijob (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-bc705ff1_JB5283717-S</link>
-      <guid isPermaLink="false">13635-bc705ff1_JB5283717-S</guid>
-      <pubDate>Thu, 29 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>2-Sigma-GmbH · Gaimersheim · €15.00/h · Legal</description>
     </item>
   </channel>
 </rss>
