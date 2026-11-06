@@ -6,15 +6,55 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
-      <title>Werkstudent Grafikdesign – Meta Ads &amp; Canva (m/w/d) | Remote</title>
-      <link>https://www.arbeitnow.com/jobs/companies/beginnerbudget/werkstudent-grafikdesign-meta-ads-canva-remote-berlin-428270</link>
-      <guid isPermaLink="false">an:werkstudent-grafikdesign-meta-ads-canva-remote-berlin-428270</guid>
-      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <title>Werkstudent Mediengestaltung &amp; Videoproduktion (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-526909_JB5291640-S</link>
+      <guid isPermaLink="false">12265-526909_JB5291640-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
-      <description>BeginnerBudget · Berlin · €13.90/h · Design &amp; UX</description>
+      <description>FERCHAU Contract GmbH Berlin CONTRACT · Berlin · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Energiedesign/Energiemanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4991500665-S</link>
+      <guid isPermaLink="false">12288-4991500665-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Drees &amp; Sommer SE · Dortmund · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Foto- und Videoproduktion, ABUS August Bremicker Söhne KG</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2372077-S</link>
+      <guid isPermaLink="false">12811-2372077-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>ABUS August Bremicker Söhne KG · Wetter (Ruhr) · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent Grafikdesign (w/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/ondevi-gmbh/werkstudent-grafikdesign-munich-132010</link>
+      <guid isPermaLink="false">an:werkstudent-grafikdesign-munich-132010</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>ondevi GmbH · München · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Marketing (Organic): Design &amp; Content</title>
+      <link>https://www.arbeitnow.com/jobs/companies/speekly/werkstudentin-marketing-organic-design-content-cologne-401382</link>
+      <guid isPermaLink="false">an:werkstudentin-marketing-organic-design-content-cologne-401382</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Speekly · Köln · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Working Student Hardware Engineering &amp; Product Design (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/datacept/working-student-hardware-engineering-product-design-horneburg-140582</link>
+      <guid isPermaLink="false">an:working-student-hardware-engineering-product-design-horneburg-140582</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Datacept · Horneburg · €18.00/h · Design &amp; UX · no German needed</description>
     </item>
     <item>
       <title>Werkstudent Kommunikationsdesign (gn)</title>
@@ -145,52 +185,12 @@
       <description>Robert Bosch GmbH · Wernau (Neckar) · Design &amp; UX</description>
     </item>
     <item>
-      <title>Werkstudent Grafikdesign (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/winch-industry-gmbh/werkstudent-grafikdesign-gersthofen-401072</link>
-      <guid isPermaLink="false">an:werkstudent-grafikdesign-gersthofen-401072</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Winch Industry GmbH · Gersthofen · Design &amp; UX</description>
-    </item>
-    <item>
       <title>Working Student (m/f/d) Video, Podcast &amp; Social Media Content Production</title>
       <link>https://www.arbeitnow.com/jobs/companies/primion-technology-gmbh/working-student-video-podcast-social-media-content-production-frankfurt-224829</link>
       <guid isPermaLink="false">an:working-student-video-podcast-social-media-content-production-frankfurt-224829</guid>
       <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>Primion Technology GmbH · Frankfurt am Main · Design &amp; UX · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Design - Grafik- &amp; Kommunikation(m/w/d), MC Center</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2366476-S</link>
-      <guid isPermaLink="false">12811-2366476-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Mercedes-Benz Consulting GmbH · Leinfelden-Echterdingen · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Process Design &amp; Transformation (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-7795cf85-8f89-40c4--S</link>
-      <guid isPermaLink="false">12951-7795cf85-8f89-40c4--S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>MTU Maintenance Hannover GmbH · Langenhagen · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Working Student – Python Development for Aircraft Design Optimisation (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-a3f92df6_JB5284505-S</link>
-      <guid isPermaLink="false">13635-a3f92df6_JB5284505-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>eRC System · Ottobrunn · Design &amp; UX · no German needed</description>
-    </item>
-    <item>
-      <title>Working Student Graphic / 3D Design (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/everdrop-gmbh/working-student-graphic-3d-design-munchen-238512</link>
-      <guid isPermaLink="false">an:working-student-graphic-3d-design-munchen-238512</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>everdrop GmbH · München · Design &amp; UX</description>
     </item>
   </channel>
 </rss>

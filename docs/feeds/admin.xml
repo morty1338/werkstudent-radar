@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Betrugsprävention und Geldwäsche (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003970965-S</link>
+      <guid isPermaLink="false">10001-1003970965-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>APO Data-Service GmbH · Düsseldorf · €17.00/h · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) gesucht</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003971837-S</link>
+      <guid isPermaLink="false">10001-1003971837-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>IMAConsulting Vornehm e. K. · Schierling · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Office Management (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003976757-S</link>
+      <guid isPermaLink="false">10001-1003976757-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>UFA GmbH · Berlin · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Mitarbeiter- und Kulturentwicklung (m/w/d), Molkerei Gropper GmbH &amp; Co. KG</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2372128-S</link>
+      <guid isPermaLink="false">12811-2372128-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Molkerei Gropper GmbH &amp; Co. KG · Bissingen · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Empfang (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-1a032135_JB5291697-S</link>
+      <guid isPermaLink="false">13635-1a032135_JB5291697-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>wiwi consult GmbH &amp; Co. KG · Mainz · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent Verwaltung &amp; Büroorganisation (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003963152-S</link>
@@ -79,38 +119,6 @@
       <pubDate>Sun, 01 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>Amber · Köln · €15.50/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent/in (m/w/d) im Büro gesucht</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208478210-S</link>
-      <guid isPermaLink="false">10000-1208478210-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Marc Philipp Gemballa GmbH · Freiberg am Neckar · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Office Management (m/w/d) in München</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003937635-S</link>
-      <guid isPermaLink="false">10001-1003937635-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Dentsu Germany GmbH · Frankfurt am Main · €16.00/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Empfang Officemanagement (m/w/d), Braunschweig</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2366472-S</link>
-      <guid isPermaLink="false">12811-2366472-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>fme AG · Braunschweig · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Regulierungsmanagement, Balance Zentrale Leipzig</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2366737-S</link>
-      <guid isPermaLink="false">12811-2366737-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>BALANCE Erneuerbare Energien GmbH · Leipzig · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

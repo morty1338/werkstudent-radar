@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Projektmanagement Aviation</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-312758_JB5292236-S</link>
+      <guid isPermaLink="false">12265-312758_JB5292236-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>FERCHAU GmbH GB Aviation München · Garching bei München · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent Provider Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0457410-S</link>
+      <guid isPermaLink="false">12336-a26f539j0457410-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>BWI GmbH · Nürnberg · €16.00/h · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Projektmanagement infrastrukturelles Anlagenmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1651246-1-S</link>
+      <guid isPermaLink="false">12456-1651246-1-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Deutsche Bahn AG · München · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent:in Projektmanagement Infrastruktur Bahnhof</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1650666-1-S</link>
@@ -121,14 +145,6 @@
       <description>Siemens AG · München · €17.27/h · Product &amp; Project Mgmt</description>
     </item>
     <item>
-      <title>Werkstudent (w/m/d) Projektmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1649392-1-S</link>
-      <guid isPermaLink="false">12465-1649392-1-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Siemens AG · Erlangen · €17.27/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
       <title>Working Student – Entrepreneurship &amp; Venture Support Programmes (m/f/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-7fc2942a_JB5285126-S</link>
       <guid isPermaLink="false">13635-7fc2942a_JB5285126-S</guid>
@@ -143,46 +159,6 @@
       <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Voltir · Berlin · €18.50/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent - Projektassistenz Instandhaltung Gas und Strom (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-973-1-S</link>
-      <guid isPermaLink="false">12728-973-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Schleswig-Holstein Netz GmbH · Scharbeutz · €16.92/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent:in mit Schwerpunkt Evaluationen und Projektmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-1885f9ae_JB5284360-S</link>
-      <guid isPermaLink="false">13635-1885f9ae_JB5284360-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>IMAP GmbH · Berlin · €16.50/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) für die Unterbringung von Flüchtlingen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15903-k7td4iimqh-S</link>
-      <guid isPermaLink="false">15903-k7td4iimqh-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Landkreis München · München · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (d/m/w) Projektmanagement Flügelausrüstung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-979971875-S</link>
-      <guid isPermaLink="false">16947-979971875-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Airbus Operations GmbH Werk Bremen · Bremen · €19.10/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Working Student - Product &amp; Project Management (all genders)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/getolo/working-student-product-project-management-all-genders-berlin-367855</link>
-      <guid isPermaLink="false">an:working-student-product-project-management-all-genders-berlin-367855</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Getolo · Berlin · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

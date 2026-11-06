@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Compliance &amp; AML</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4991484001-S</link>
+      <guid isPermaLink="false">12288-4991484001-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>HANSAINVEST · Hamburg · Legal</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Compliance &amp; AML</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003962735-S</link>
@@ -47,14 +55,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Legal</category>
       <description>Rheinmetall AG · Düsseldorf · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Bereich Legal</title>
-      <link>https://www.arbeitnow.com/jobs/companies/wortmann-kg-internationale-schuhproduktionen/werkstudent-im-bereich-legal-detmold-26255</link>
-      <guid isPermaLink="false">an:werkstudent-im-bereich-legal-detmold-26255</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Wortmann KG Internationale Schuhproduktionen · Detmold · Legal</description>
     </item>
   </channel>
 </rss>

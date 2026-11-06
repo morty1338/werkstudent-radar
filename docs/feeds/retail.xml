@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent / Sales Assistant (m/w/d) - Street One und CECIL Outlet in St. Augustin</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003974547-S</link>
+      <guid isPermaLink="false">10001-1003974547-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>CBR Service GmbH · Sankt Augustin · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12942-1651543-1-S</link>
+      <guid isPermaLink="false">12942-1651543-1-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Dirk Rossmann GmbH · Berlin · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent im Verkauf (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18019-201745-S</link>
+      <guid isPermaLink="false">18019-201745-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Media-Saturn Deutschland GmbH · Kerpen · Retail &amp; Hospitality</description>
+    </item>
     <item>
       <title>Aushilfen/Werkstudent/innen für unseren Verkauf gesucht (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003964477-S</link>
@@ -295,46 +319,6 @@
       <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>KULT | OLYMP &amp; HADES · Wetzlar · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>WERKSTUDENT* IM VERKAUF, Filiale #20136 C</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2366382-S</link>
-      <guid isPermaLink="false">12811-2366382-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>NEW YORKER · Sankt Augustin · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12942-1648808-1-S</link>
-      <guid isPermaLink="false">12942-1648808-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Dirk Rossmann GmbH · Wetzlar · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Beitragsmanagement ab 16,00 EUR Std.</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13999-k53401.34297-S</link>
-      <guid isPermaLink="false">13999-k53401.34297-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>jobtimum GmbH · Bremen · €16.50/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Verkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14543-25747-1801924-0-S</link>
-      <guid isPermaLink="false">14543-25747-1801924-0-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>NKD Deutschland GmbH · Schwalmstadt · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent im Verkauf (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18019-201067-S</link>
-      <guid isPermaLink="false">18019-201067-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Media-Saturn Deutschland GmbH · Lüneburg · Retail &amp; Hospitality</description>
     </item>
   </channel>
 </rss>

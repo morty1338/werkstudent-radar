@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) im Kundensupport / Anwendungsberatung - flexible Arbeitszeiten</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12076-20230414734-S</link>
+      <guid isPermaLink="false">12076-20230414734-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Data Dialog EDV-Systeme GmbH · Schkeuditz · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) strategisches Partnermanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-5cbba42f_JB5290774-S</link>
+      <guid isPermaLink="false">13635-5cbba42f_JB5290774-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Glasfaser NordWest GmbH &amp; Co. KG · Oldenburg (Oldb) · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Founders Associate - Strategic Projects | CEO Office (m/w/d) - Internship/Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/boost-startup-ecosystem-ggmbh/founders-associate-strategic-projects-ceo-office-internship-working-student-leipzig-45400</link>
+      <guid isPermaLink="false">an:founders-associate-strategic-projects-ceo-office-internship-working-student-leipzig-45400</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>boOst Startup Ecosystem gGmbH · Leipzig · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent AI Consulting / AI Adoption (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003955156-S</link>
@@ -87,22 +111,6 @@
       <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Horbach Wirtschaftsberatung Chemnitz · Chemnitz · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Public Sector Consulting / Projektmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-bc930c07_JB5284363-S</link>
-      <guid isPermaLink="false">13635-bc930c07_JB5284363-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>IMAP GmbH · Düsseldorf · €16.50/h · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent Strategisches Produktmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-js_bc_87_JB5265725-S</link>
-      <guid isPermaLink="false">13635-js_bc_87_JB5265725-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Uhlmann Pac-Systeme GmbH &amp; Co. KG · Laupheim · €16.00/h · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

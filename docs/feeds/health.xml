@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent/Pflichtpraktikum Therapeutischer Bereich und Unternehmens- und Organisationsentwicklung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003975748-S</link>
+      <guid isPermaLink="false">10001-1003975748-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>HJW · Gailingen am Hochrhein · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Werkstudierende*n (m/w/d) Studiengang Psychologie für 5 Stunden wöchentlich</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003977367-S</link>
+      <guid isPermaLink="false">10001-1003977367-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Bfz-Essen GmbH · Essen · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Empfang / Klinik für Ästhetik und Kosmetik</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-7e69c3b1_JB5291394-S</link>
+      <guid isPermaLink="false">13635-7e69c3b1_JB5291394-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Kalialab GmbH · Hamburg · €15.00/h · Health &amp; Care</description>
+    </item>
     <item>
       <title>Werkstudent Gesundheitswesen (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1650967-1-S</link>
@@ -47,30 +71,6 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>Health &amp; Care</category>
       <description>3raum PersonalManagement KG · Würzburg · €17.09/h · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Büro Leichte Sprache</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003934880-S</link>
-      <guid isPermaLink="false">10001-1003934880-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Salus Altmark Holding gGmbH · Magdeburg · €16.00/h · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent Natur- und Landschaftspflege (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003938757-S</link>
-      <guid isPermaLink="false">10001-1003938757-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Die Autobahn GmbH des Bundes Niederlassung Ost (Halle/Saale) · Erfurt · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Working Student - Customer Care (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/instagrid/working-student-customer-care-ludwigsburg-471612</link>
-      <guid isPermaLink="false">an:working-student-customer-care-ludwigsburg-471612</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Instagrid · Ludwigsburg · Health &amp; Care · no German needed</description>
     </item>
   </channel>
 </rss>

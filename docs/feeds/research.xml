@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent_in (m/w/d) Ratsbüro</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003970092-S</link>
+      <guid isPermaLink="false">10001-1003970092-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Stadt Mettmann · Mettmann · Research &amp; Science</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) im Bereich der zentralen Forschung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1650393-1-S</link>
+      <guid isPermaLink="false">12465-1650393-1-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Siemens AG · Erlangen · Research &amp; Science</description>
+    </item>
+    <item>
+      <title>Werkstudent Gefahrstoffanalytik (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12727-LS1384209-S</link>
+      <guid isPermaLink="false">12727-LS1384209-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>engineering people GmbH · Hardthausen am Kocher · Research &amp; Science</description>
+    </item>
     <item>
       <title>Werkstudent Innovationsmanagement (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4989500975-S</link>
@@ -55,22 +79,6 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>Research &amp; Science</category>
       <description>3raum PersonalManagement KG · Würzburg · €15.67/h · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent/in Prozessmanagement (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003936796-S</link>
-      <guid isPermaLink="false">10001-1003936796-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Landratsamt Konstanz Amt für Personal und Innovation · Konstanz · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Praktikant / Werkstudent (m/w/d) – Research &amp; Treatment Innovation</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-1de9ca33_JB5284566-S</link>
-      <guid isPermaLink="false">13635-1de9ca33_JB5284566-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>meinphysio+ GmbH · Berlin · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:44:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Bereich Power BI</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208580144-S</link>
+      <guid isPermaLink="false">10000-1208580144-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Symporo GmbH · Ludwigsburg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Künstliche Intelligenz &amp; Automatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003971412-S</link>
+      <guid isPermaLink="false">10001-1003971412-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Schlenotronic Computervertriebs GmbH · Frankenthal (Pfalz) · €17.50/h · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Service Engineering Support - technische Daten</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1650999-1-S</link>
+      <guid isPermaLink="false">12465-1650999-1-S</guid>
+      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · Erlangen · €15.00/h · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent Strategischer Einkauf - Data &amp; Analytics / Performance Management, Hamburg</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2371698-S</link>
@@ -63,14 +87,6 @@
       <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Siemens AG · Berlin · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Datenanalyse und Reporting im Bereich Home Connected</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-edcd926d_JB5288674-S</link>
-      <guid isPermaLink="false">13635-edcd926d_JB5288674-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Glasfaser Plus GmbH · Köln · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent KI, Automatisierung &amp; Data Analytics (m/w/d)</title>
@@ -145,52 +161,12 @@
       <description>Korsch AG · Berlin · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Working Student AI Solutions Architect – Generative AI &amp; Data Platforms</title>
-      <link>https://www.arbeitnow.com/jobs/companies/agentixlake-gmbh/working-student-ai-solutions-architect-generative-ai-data-platforms-berlin-283450</link>
-      <guid isPermaLink="false">an:working-student-ai-solutions-architect-generative-ai-data-platforms-berlin-283450</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>AgentixLake GmbH · Berlin · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
       <title>Working Student Data Engineer – Python, SQL &amp; Cloud Platforms</title>
       <link>https://www.arbeitnow.com/jobs/companies/agentixlake-gmbh/working-student-data-engineer-python-sql-cloud-platforms-berlin-407856</link>
       <guid isPermaLink="false">an:working-student-data-engineer-python-sql-cloud-platforms-berlin-407856</guid>
       <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>AgentixLake GmbH · Berlin · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Data &amp; Process Mining</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003934954-S</link>
-      <guid isPermaLink="false">10001-1003934954-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>BayWa AG HR Services · München · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Künstliche Intelligenz (KI), Data Engineering &amp; Digitalisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003935940-S</link>
-      <guid isPermaLink="false">10001-1003935940-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>EURO-LOCKS GMBH · Sulzbach · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Datenanalyse Automatisiertes Fahren (w/m/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1647884-1-S</link>
-      <guid isPermaLink="false">12462-1647884-1-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>BMW AG · München · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Working Student (d/f/m) Data Engineering, AI &amp; Digital Dashboards</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-979990298-S</link>
-      <guid isPermaLink="false">16947-979990298-S</guid>
-      <pubDate>Fri, 30 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Airbus Operations GmbH Werk Bremen · Hamburg · €18.53/h · Data &amp; Analytics · no German needed</description>
     </item>
   </channel>
 </rss>
