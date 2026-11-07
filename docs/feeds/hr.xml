@@ -6,8 +6,64 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Recruiting</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11868-13919882-S</link>
+      <guid isPermaLink="false">11868-13919882-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>I. K. Hofmann GmbH Hofmann Gunzenhausen/Ansbach · Ansbach · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (w/m/d) für das HR Team, ATLANTIC Hotel Frankfurt Messe GmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2373032-S</link>
+      <guid isPermaLink="false">12811-2373032-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>ATLANTIC Hotel Frankfurt · Frankfurt am Main · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent HR (m/w/d), Brost-Stiftung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2373421-S</link>
+      <guid isPermaLink="false">12811-2373421-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Brost-Stiftung · Essen · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Recruiting &amp; Personal</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17039-k58956.4268-S</link>
+      <guid isPermaLink="false">17039-k58956.4268-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>RWS Cateringservice GmbH · Leipzig · €16.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Recruitment Support - Working Student (All genders)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/skdse/recruitment-support-working-student-all-genders-berlin-munich-bavaria-490422</link>
+      <guid isPermaLink="false">an:recruitment-support-working-student-all-genders-berlin-munich-bavaria-490422</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Skdse · Berlin · HR &amp; Recruiting · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Recruiting / Talent Acquisition</title>
+      <link>https://www.arbeitnow.com/jobs/companies/bredehorst-clinical-medical-management/werkstudent-recruiting-talent-acquisition-dusseldorf-105501</link>
+      <guid isPermaLink="false">an:werkstudent-recruiting-talent-acquisition-dusseldorf-105501</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Bredehorst Clinical Medical Management · Düsseldorf · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Recruiting / Talent Acquisition</title>
+      <link>https://www.arbeitnow.com/jobs/companies/bredehorst-clinical-medical-management/werkstudent-recruiting-talent-acquisition-dusseldorf-183598</link>
+      <guid isPermaLink="false">an:werkstudent-recruiting-talent-acquisition-dusseldorf-183598</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Bredehorst Clinical Medical Management · Düsseldorf · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Personal</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003973128-S</link>
@@ -121,14 +177,6 @@
       <description>XING · Hamburg · HR &amp; Recruiting</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) Personalmarketing &amp; Recruiting</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-CCWYFF-X7X-S</link>
-      <guid isPermaLink="false">12518-CCWYFF-X7X-S</guid>
-      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Gaul Catering GmbH &amp; Co. KG · Mainz · HR &amp; Recruiting</description>
-    </item>
-    <item>
       <title>Werkstudent:in Marketing &amp; HR (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-0944f669_JB5289870-S</link>
       <guid isPermaLink="false">13635-0944f669_JB5289870-S</guid>
@@ -143,6 +191,22 @@
       <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>ProSiebenSat.1 Media SE · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>People Operations Working Student (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/wellhub/people-operations-working-student-berlin-284127</link>
+      <guid isPermaLink="false">an:people-operations-working-student-berlin-284127</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Wellhub · Berlin · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Working Student Talent Acquisition (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/alpineeagle/working-student-talent-acquisition-aschheim-bavaria-185340</link>
+      <guid isPermaLink="false">an:working-student-talent-acquisition-aschheim-bavaria-185340</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Alpineeagle · Aschheim · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent Recruiting (m/w/d)</title>
@@ -343,94 +407,6 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Medizinische Universität Lausitz - Carl Thiem · Cottbus · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) HR/Personal</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003940494-S</link>
-      <guid isPermaLink="false">10001-1003940494-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Grundmann Personalberatung GmbH · Stuhr · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent HR (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003941573-S</link>
-      <guid isPermaLink="false">10001-1003941573-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Ritter GmbH · Schwabmünchen · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent HR Operations (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1305781-2-S</link>
-      <guid isPermaLink="false">11070-1305781-2-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>MAN Truck &amp; Bus · Nürnberg · €18.00/h · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Talent Acquisition (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-521467_JBA5276858-S</link>
-      <guid isPermaLink="false">12265-521467_JBA5276858-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>FERCHAU GmbH Niederlassung Erfurt · Erfurt · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) HR Payroll - Pension &amp; Insurance (15h/Woche)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4985160485-S</link>
-      <guid isPermaLink="false">12288-4985160485-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Liebherr-International Deutschland GmbH · Biberach an der Riß · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent / Praktikant Corporate HR Marketing (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4985213910-S</link>
-      <guid isPermaLink="false">12288-4985213910-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Liebherr-International Deutschland GmbH · Biberach an der Riß · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Personalmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1649267-1-S</link>
-      <guid isPermaLink="false">12456-1649267-1-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Deutsche Bahn AG · Karlsruhe · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Recruiting</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15537-JOB-868978-S</link>
-      <guid isPermaLink="false">15537-JOB-868978-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>KNDS Deutschland GmbH &amp; Co. KG · Kassel · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent HR Business Partner Support (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15537-JOB-868984-S</link>
-      <guid isPermaLink="false">15537-JOB-868984-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>KNDS Deutschland GmbH &amp; Co. KG · Kassel · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudentin oder Werkstudent Personalentwicklung (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17751-44542798-1030-S</link>
-      <guid isPermaLink="false">17751-44542798-1030-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Die Autobahn GmbH des Bundes Niederlassung Nordwest (Hannover) · Hannover · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Working Student - Talent Acquisition</title>
-      <link>https://www.arbeitnow.com/jobs/companies/netlight/working-student-talent-acquisition-hamburg-470328</link>
-      <guid isPermaLink="false">an:working-student-talent-acquisition-hamburg-470328</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Netlight · Hamburg · €18.00/h · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>

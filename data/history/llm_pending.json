@@ -1,0 +1,562 @@
+{
+ "id": "msgbatch_01Q2pzBwdTqAKuBdEdoRhaKw",
+ "submitted": "2026-11-07T11:36:55+00:00",
+ "requests": {
+  "an_working-student-thesis-strategy-operations-bu-aec0d915": {
+   "refnr": "an:working-student-thesis-strategy-operations-business-development-munich-229023",
+   "hash": "456fbce385644eea"
+  },
+  "an_working-student-software-engineer-parsdorf-ba-bcba5e77": {
+   "refnr": "an:working-student-software-engineer-parsdorf-bavaria-407677",
+   "hash": "b5027cf9336e8066"
+  },
+  "an_working-student-professional-services-berlin--5f2effa1": {
+   "refnr": "an:working-student-professional-services-berlin-437941",
+   "hash": "e660aedb462492b8"
+  },
+  "an_working-student-platform-engineering-devops-m-0784d03a": {
+   "refnr": "an:working-student-platform-engineering-devops-munich-153449",
+   "hash": "108d039c6054afc0"
+  },
+  "an_working-student-network-planning-berlin-40063-fac963a3": {
+   "refnr": "an:working-student-network-planning-berlin-40063",
+   "hash": "a895aa826da5607f"
+  },
+  "an_working-student-it-helpdesk-parsdorf-bavaria--6c053cac": {
+   "refnr": "an:working-student-it-helpdesk-parsdorf-bavaria-297730",
+   "hash": "17fdb2b08246df85"
+  },
+  "an_working-student-content-management-france-mwd-7ea962cb": {
+   "refnr": "an:working-student-content-management-france-mwd-berlin-161710",
+   "hash": "7e4d378788c06b74"
+  },
+  "an_werkstudentin-influencer-creator-marketing-be-40a8706d": {
+   "refnr": "an:werkstudentin-influencer-creator-marketing-berlin-415915",
+   "hash": "acf47af22cfdcd8c"
+  },
+  "an_werkstudentin-content-marketing-frankreich-mw-3105a64b": {
+   "refnr": "an:werkstudentin-content-marketing-frankreich-mwd-berlin-461780",
+   "hash": "3ae7aa8e1c0db73c"
+  },
+  "an_werkstudentin-content-management-frankreich-b-0a18f750": {
+   "refnr": "an:werkstudentin-content-management-frankreich-berlin-44343",
+   "hash": "89af9a452b8d751f"
+  },
+  "an_werkstudentin-business-operations-automation--34469094": {
+   "refnr": "an:werkstudentin-business-operations-automation-leipzig-333404",
+   "hash": "039928452873ebd4"
+  },
+  "an_werkstudent-strategie-ausschreibungen-projekt-c50086ee": {
+   "refnr": "an:werkstudent-strategie-ausschreibungen-projektorganisation-zulpich-405821",
+   "hash": "db2d0543f63a6585"
+  },
+  "an_werkstudent-social-media-marketing-bad-salzun-d979bd49": {
+   "refnr": "an:werkstudent-social-media-marketing-bad-salzungen-300776",
+   "hash": "dd76f89462a2c34b"
+  },
+  "an_werkstudent-recruiting-talent-acquisition-dus-eee35f83": {
+   "refnr": "an:werkstudent-recruiting-talent-acquisition-dusseldorf-183598",
+   "hash": "0cb21121f9a6a94c"
+  },
+  "an_werkstudent-recruiting-talent-acquisition-dus-706983be": {
+   "refnr": "an:werkstudent-recruiting-talent-acquisition-dusseldorf-105501",
+   "hash": "0cb21121f9a6a94c"
+  },
+  "an_werkstudent-nutrition-community-management-ka-b98b2308": {
+   "refnr": "an:werkstudent-nutrition-community-management-karben-282298",
+   "hash": "38eceb785d274a92"
+  },
+  "an_werkstudent-mensch-google-dusseldorf-177985-bd2b52ff": {
+   "refnr": "an:werkstudent-mensch-google-dusseldorf-177985",
+   "hash": "2cce9a2f9a4606c2"
+  },
+  "an_werkstudent-marketing-cologne-405246-d4df019a": {
+   "refnr": "an:werkstudent-marketing-cologne-405246",
+   "hash": "cedae1d0ce83c5f4"
+  },
+  "an_werkstudent-leipzig-481754-2b5aa848": {
+   "refnr": "an:werkstudent-leipzig-481754",
+   "hash": "060570eada25261a"
+  },
+  "an_werkstudent-it-system-management-it-business--b33633e9": {
+   "refnr": "an:werkstudent-it-system-management-it-business-33100-205352",
+   "hash": "7b3bf0cc2798ff78"
+  },
+  "an_werkstudent-in-in-der-telefonischen-immobilie-0520cbc8": {
+   "refnr": "an:werkstudent-in-in-der-telefonischen-immobilienberatung-20-stunden-woche-bochum-331422",
+   "hash": "6863f693800f0b36"
+  },
+  "an_werkstudent-in-finanzbuchhaltung-schwerpunkt--18a4fad1": {
+   "refnr": "an:werkstudent-in-finanzbuchhaltung-schwerpunkt-forderungsmanagement-bochum-451970",
+   "hash": "a050db9c78835039"
+  },
+  "an_werkstudent-in-assistenz-in-der-filmproduktio-c609eb50": {
+   "refnr": "an:werkstudent-in-assistenz-in-der-filmproduktion-weinheim-414546",
+   "hash": "2ee9e1428141ac56"
+  },
+  "an_werkstudent-finance-beratung-unternehmerisch--00b13440": {
+   "refnr": "an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-367022",
+   "hash": "f7286d00b5141116"
+  },
+  "an_werkstudent-elektrotechnik-energietechnik-bad-74c86843": {
+   "refnr": "an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-99238",
+   "hash": "8effa8974461cd18"
+  },
+  "an_werkstudent-e-commerce-growth-marketing-karbe-b9b779c0": {
+   "refnr": "an:werkstudent-e-commerce-growth-marketing-karben-199698",
+   "hash": "26a4bce9f0b51a6c"
+  },
+  "an_werkstudent-bad-salzungen-115253-cde9b4ac": {
+   "refnr": "an:werkstudent-bad-salzungen-115253",
+   "hash": "7122780626f027ec"
+  },
+  "an_remote-werkstudent-finance-beratung-unternehm-5ddf070e": {
+   "refnr": "an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-335331",
+   "hash": "f7286d00b5141116"
+  },
+  "an_recruitment-support-working-student-all-gende-9d8203cc": {
+   "refnr": "an:recruitment-support-working-student-all-genders-berlin-munich-bavaria-490422",
+   "hash": "bd8a33b11e44aa41"
+  },
+  "an_rd-werkstudent-kassel-kassel-hesse-246003-d2ccffa8": {
+   "refnr": "an:rd-werkstudent-kassel-kassel-hesse-246003",
+   "hash": "a99ca63e0e556e72"
+  },
+  "21128-981716434-S-4607ac09": {
+   "refnr": "21128-981716434-S",
+   "hash": "451f9afca150fd9a"
+  },
+  "20390-JR0088199-S-ec50821e": {
+   "refnr": "20390-JR0088199-S",
+   "hash": "7f9b09e16a1f0f48"
+  },
+  "20390-JR0087608-S-2e782e3e": {
+   "refnr": "20390-JR0087608-S",
+   "hash": "6ab1b508ac8610e2"
+  },
+  "20083-1651297-1-S-7e13e1f6": {
+   "refnr": "20083-1651297-1-S",
+   "hash": "902a4db2318bbffb"
+  },
+  "18024-10Q7q0000160C-S-cfcd5845": {
+   "refnr": "18024-10Q7q0000160C-S",
+   "hash": "ba3a7f33e1cea697"
+  },
+  "18024-10Q6L00001Y0G-S-d60f3fb7": {
+   "refnr": "18024-10Q6L00001Y0G-S",
+   "hash": "63f3ccd9ba7241c4"
+  },
+  "18024-10Q4800001B0J-S-b6988c8c": {
+   "refnr": "18024-10Q4800001B0J-S",
+   "hash": "f53a749132bacbd8"
+  },
+  "18024-100fe00003T05-S-23f2729c": {
+   "refnr": "18024-100fe00003T05-S",
+   "hash": "911f5a8c71f1749d"
+  },
+  "17567-0068613668-S-3eb8be0d": {
+   "refnr": "17567-0068613668-S",
+   "hash": "a3537a2599e75b8d"
+  },
+  "17567-0068613138-S-3857a2e9": {
+   "refnr": "17567-0068613138-S",
+   "hash": "3670ad0de4ae10da"
+  },
+  "17567-0068613113-S-f7a6cd20": {
+   "refnr": "17567-0068613113-S",
+   "hash": "33cb48a958a42174"
+  },
+  "17567-0068613008-S-9e60caac": {
+   "refnr": "17567-0068613008-S",
+   "hash": "3c0806114ded668a"
+  },
+  "17402-44557812-116-S-9b9b4d6d": {
+   "refnr": "17402-44557812-116-S",
+   "hash": "fdbb81a17b1375f3"
+  },
+  "17039-k58956_4268-S-221d6dd2": {
+   "refnr": "17039-k58956.4268-S",
+   "hash": "e3f92b7ad6913adb"
+  },
+  "16947-981705762-S-c6768b4a": {
+   "refnr": "16947-981705762-S",
+   "hash": "2e6eb8e37be9f4df"
+  },
+  "16947-981703729-S-771a340d": {
+   "refnr": "16947-981703729-S",
+   "hash": "8978ccbc80600edd"
+  },
+  "16947-981699378-S-93125864": {
+   "refnr": "16947-981699378-S",
+   "hash": "618135688e39c2a2"
+  },
+  "16274-0068607148-S-a1047880": {
+   "refnr": "16274-0068607148-S",
+   "hash": "49d7e9d09b3d5d10"
+  },
+  "16274-0068607138-S-db9b5d96": {
+   "refnr": "16274-0068607138-S",
+   "hash": "6837b123a55b5a23"
+  },
+  "15939-BB-635927-7878-4729-S-51703208": {
+   "refnr": "15939-BB-635927-7878-4729-S",
+   "hash": "8031e4318c49b9f7"
+  },
+  "15939-BB-635926-7878-2836-S-e3418cbe": {
+   "refnr": "15939-BB-635926-7878-2836-S",
+   "hash": "b34b10f5692061cc"
+  },
+  "15939-BB-635924-7878-5638-S-02be801e": {
+   "refnr": "15939-BB-635924-7878-5638-S",
+   "hash": "3b019b0b0f34d3f9"
+  },
+  "15794-470334_49939-1-S-e3a64152": {
+   "refnr": "15794-470334_49939-1-S",
+   "hash": "3b792eefc6cf4a14"
+  },
+  "15794-468935_48417-1-S-bf384f25": {
+   "refnr": "15794-468935_48417-1-S",
+   "hash": "95531bb8d7c9c503"
+  },
+  "14795-70845_125297-S-b63ab9d1": {
+   "refnr": "14795-70845_125297-S",
+   "hash": "9168b6025d6abdc9"
+  },
+  "13635-956f1f0f_JB5292683-S-7012b75d": {
+   "refnr": "13635-956f1f0f_JB5292683-S",
+   "hash": "2f9f5f03e92fe797"
+  },
+  "13635-629f35c0_JB5292686-S-a176aea5": {
+   "refnr": "13635-629f35c0_JB5292686-S",
+   "hash": "db636859ba5380f3"
+  },
+  "13635-27f3cfc4_JB5292510-S-8ba0873c": {
+   "refnr": "13635-27f3cfc4_JB5292510-S",
+   "hash": "134f524cbe69e788"
+  },
+  "13151-1651345-1-S-db86111b": {
+   "refnr": "13151-1651345-1-S",
+   "hash": "06d0cb800327ab8d"
+  },
+  "13151-1650942-1-S-a490e9ae": {
+   "refnr": "13151-1650942-1-S",
+   "hash": "2476e00a35926d3c"
+  },
+  "12826-SA0151226_JB5293233-S-ea0dc0d4": {
+   "refnr": "12826-SA0151226_JB5293233-S",
+   "hash": "0b0900d582b8f2ec"
+  },
+  "12811-2373421-S-93c9547c": {
+   "refnr": "12811-2373421-S",
+   "hash": "190854b861393368"
+  },
+  "12811-2373225-S-12097fe3": {
+   "refnr": "12811-2373225-S",
+   "hash": "10cffe85f5e6afe3"
+  },
+  "12811-2373153-S-ce5734cd": {
+   "refnr": "12811-2373153-S",
+   "hash": "7e02708972f40ce0"
+  },
+  "12811-2373032-S-dc3efb06": {
+   "refnr": "12811-2373032-S",
+   "hash": "90fd87cd123b2b7b"
+  },
+  "12688-REG-46715-RJA-S-ad8bdef4": {
+   "refnr": "12688-REG-46715-RJA-S",
+   "hash": "dabe5a7e9c6e392b"
+  },
+  "12514-202611pattwbs02-S-d60908ec": {
+   "refnr": "12514-202611pattwbs02-S",
+   "hash": "5c595976810b09ed"
+  },
+  "12465-1651857-1-S-e2450246": {
+   "refnr": "12465-1651857-1-S",
+   "hash": "629b60d53728441b"
+  },
+  "12465-1651000-1-S-9506ca33": {
+   "refnr": "12465-1651000-1-S",
+   "hash": "4ce8d4ec60be7f50"
+  },
+  "12465-1650998-1-S-e7852c97": {
+   "refnr": "12465-1650998-1-S",
+   "hash": "7255ca335cfa63ab"
+  },
+  "12465-1650991-1-S-a35f3b53": {
+   "refnr": "12465-1650991-1-S",
+   "hash": "d305fd787125c7b5"
+  },
+  "12465-1650987-1-S-3a56c162": {
+   "refnr": "12465-1650987-1-S",
+   "hash": "55afe5e18c12eb7e"
+  },
+  "12465-1650985-1-S-5308b9d8": {
+   "refnr": "12465-1650985-1-S",
+   "hash": "17ffef6026082e6c"
+  },
+  "12465-1650984-1-S-eb435695": {
+   "refnr": "12465-1650984-1-S",
+   "hash": "07890ebae6e4e98e"
+  },
+  "12465-1646972-2-S-50df524e": {
+   "refnr": "12465-1646972-2-S",
+   "hash": "a163c6f2985214e5"
+  },
+  "12465-1645219-2-S-74d3047d": {
+   "refnr": "12465-1645219-2-S",
+   "hash": "daf8dbb5638ee198"
+  },
+  "12462-1651728-1-S-9d88571a": {
+   "refnr": "12462-1651728-1-S",
+   "hash": "e20f3c53c3dfc9aa"
+  },
+  "12456-1651666-1-S-623ce876": {
+   "refnr": "12456-1651666-1-S",
+   "hash": "23ef660e2dc84dc7"
+  },
+  "12288-4992359596-S-8f510c84": {
+   "refnr": "12288-4992359596-S",
+   "hash": "493b982213dffc8d"
+  },
+  "12288-4992356935-S-665fb6b8": {
+   "refnr": "12288-4992356935-S",
+   "hash": "69749123d0f7367d"
+  },
+  "12288-4992354855-S-678c8288": {
+   "refnr": "12288-4992354855-S",
+   "hash": "098a77d8e1e4da73"
+  },
+  "11956-3092121794006000-S-a7bc1df3": {
+   "refnr": "11956-3092121794006000-S",
+   "hash": "5b764705caa6b5b6"
+  },
+  "11956-3092011794006000-S-72b39162": {
+   "refnr": "11956-3092011794006000-S",
+   "hash": "0186476394198de6"
+  },
+  "11956-3091761794006000-S-aacbbe9c": {
+   "refnr": "11956-3091761794006000-S",
+   "hash": "0132bc4d525f3072"
+  },
+  "11956-3022631794006001-S-a6083e63": {
+   "refnr": "11956-3022631794006001-S",
+   "hash": "eef2adc30d71f8d2"
+  },
+  "11956-2985001794006001-S-ab2bb23b": {
+   "refnr": "11956-2985001794006001-S",
+   "hash": "71c1cb9ba0ce6fd6"
+  },
+  "11868-13919882-S-a86e79c3": {
+   "refnr": "11868-13919882-S",
+   "hash": "f5ee2b14e2bd6fc1"
+  },
+  "10001-1003979864-S-b7edc171": {
+   "refnr": "10001-1003979864-S",
+   "hash": "0c37a6a645aa9a57"
+  },
+  "10001-1003979579-S-4f30e6e8": {
+   "refnr": "10001-1003979579-S",
+   "hash": "e877c133ff8ba6d5"
+  },
+  "10001-1003979215-S-a0af3774": {
+   "refnr": "10001-1003979215-S",
+   "hash": "2cb40ceb0a7aff2e"
+  },
+  "10001-1003978903-S-a5bff353": {
+   "refnr": "10001-1003978903-S",
+   "hash": "f5136b07511bb435"
+  },
+  "10000-1208581485-S-2cb4fb3f": {
+   "refnr": "10000-1208581485-S",
+   "hash": "6fe14dc0457877ba"
+  },
+  "10000-1208581432-S-599ce407": {
+   "refnr": "10000-1208581432-S",
+   "hash": "727aefc6fce78d3d"
+  },
+  "10000-1208580655-S-85928d96": {
+   "refnr": "10000-1208580655-S",
+   "hash": "cc9bb42e8a38455e"
+  },
+  "10000-1207535260-S-5b4f067b": {
+   "refnr": "10000-1207535260-S",
+   "hash": "14e235e8095ca0a1"
+  },
+  "an_working-student-hardware-engineering-product--0f008bca": {
+   "refnr": "an:working-student-hardware-engineering-product-design-horneburg-140582",
+   "hash": "6c6c7a4185582f0f"
+  },
+  "an_werkstudentin-marketing-organic-design-conten-4d984c69": {
+   "refnr": "an:werkstudentin-marketing-organic-design-content-cologne-401382",
+   "hash": "3dfd2e25e9eb6bba"
+  },
+  "an_werkstudentin-finance-accounting-munchen-1184-98659fc6": {
+   "refnr": "an:werkstudentin-finance-accounting-munchen-118498",
+   "hash": "5c12f87e7573466a"
+  },
+  "an_people-operations-working-student-8336-7663ebd2": {
+   "refnr": "an:people-operations-working-student-8336",
+   "hash": "6feb0e170fcd96d5"
+  },
+  "an_working-student-overall-aircraft-design-all-g-0663d636": {
+   "refnr": "an:working-student-overall-aircraft-design-all-genders-delft-88516",
+   "hash": "8177dc90bd207536"
+  },
+  "an_werkstudentin-redaktion-berlin-264787-add7ba2c": {
+   "refnr": "an:werkstudentin-redaktion-berlin-264787",
+   "hash": "f2b6927764a1a287"
+  },
+  "an_werkstudent-ux-ui-design-frankfurt-171503-abeb8f5f": {
+   "refnr": "an:werkstudent-ux-ui-design-frankfurt-171503",
+   "hash": "f2bb270feec0552e"
+  },
+  "an_werkstudent-softwareentwicklung-berlin-202710-8fa0a408": {
+   "refnr": "an:werkstudent-softwareentwicklung-berlin-202710",
+   "hash": "6ad277416ffe6f82"
+  },
+  "an_werkstudent-kommunikationsdesign-gn-lohne-331-f40a056b": {
+   "refnr": "an:werkstudent-kommunikationsdesign-gn-lohne-331628",
+   "hash": "0b997bb8cdcc8c0e"
+  },
+  "an_werkstudent-kommunikationsdesign-gn-bielefeld-7adad3c3": {
+   "refnr": "an:werkstudent-kommunikationsdesign-gn-bielefeld-361811",
+   "hash": "0b997bb8cdcc8c0e"
+  },
+  "an_werkstudent-content-creator-social-media-mit--e8a169b7": {
+   "refnr": "an:werkstudent-content-creator-social-media-mit-fokus-vor-der-kamera-wutoschingen-277417",
+   "hash": "5796179e46332711"
+  },
+  "an_werkstudent-commercial-enablement-ai-automati-db50acbd": {
+   "refnr": "an:werkstudent-commercial-enablement-ai-automation-german-speaking-berlin-228232",
+   "hash": "14ef03356c1b8c74"
+  },
+  "an_robotics-operator-working-student-20hrs-week--4bab25b4": {
+   "refnr": "an:robotics-operator-working-student-20hrs-week-berlin-435369",
+   "hash": "34254efe122d5a32"
+  },
+  "an_people-operations-working-student-berlin-2841-769d8842": {
+   "refnr": "an:people-operations-working-student-berlin-284127",
+   "hash": "f2817d1321fb5e1b"
+  },
+  "an_working-student-qa-in-mobile-app-development--a1fa8f74": {
+   "refnr": "an:working-student-qa-in-mobile-app-development-mwd-berlin-79055",
+   "hash": "16b7c1f4c3ceb29d"
+  },
+  "an_working-student-flight-test-manufacturing-ott-569335eb": {
+   "refnr": "an:working-student-flight-test-manufacturing-ottobrunn-79476",
+   "hash": "78bc5fcd74e94606"
+  },
+  "an_working-student-data-operations-process-suppo-711bb639": {
+   "refnr": "an:working-student-data-operations-process-support-oldenburg-450740",
+   "hash": "32aff7cb27ff1ef3"
+  },
+  "an_working-student-content-marketing-berlin-chem-b17ee60b": {
+   "refnr": "an:working-student-content-marketing-berlin-chemnitz-sachsen-190676",
+   "hash": "ad18b57d152fde77"
+  },
+  "an_werkstudentin-customer-support-cologne-338116-09b6b66e": {
+   "refnr": "an:werkstudentin-customer-support-cologne-338116",
+   "hash": "602e1573726fb47e"
+  },
+  "an_werkstudent-sales-f-m-koln-233271-f897b826": {
+   "refnr": "an:werkstudent-sales-f-m-koln-233271",
+   "hash": "81d38fd9f723112f"
+  },
+  "an_werkstudent-operations-hamburg-471871-a3446f8c": {
+   "refnr": "an:werkstudent-operations-hamburg-471871",
+   "hash": "acedde4fcf4ad6bb"
+  },
+  "an_werkstudent-kunden-onboarding-berlin-231969-08dbfab1": {
+   "refnr": "an:werkstudent-kunden-onboarding-berlin-231969",
+   "hash": "897c49f8207bcdcb"
+  },
+  "an_werkstudent-ki-automatisierung-data-analytics-05819ac6": {
+   "refnr": "an:werkstudent-ki-automatisierung-data-analytics-dorsten-329449",
+   "hash": "2cbd4692fc329c6e"
+  },
+  "an_werkstudent-in-fund-management-strategy-susta-51e2d585": {
+   "refnr": "an:werkstudent-in-fund-management-strategy-sustainability-hamburg-156982",
+   "hash": "df8ebbc71b88d5ef"
+  },
+  "an_werkstudent-finance-beratung-unternehmerisch--2cc3201b": {
+   "refnr": "an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-119357",
+   "hash": "f7286d00b5141116"
+  },
+  "an_werkstudent-engineering-munchen-281546-e21446e4": {
+   "refnr": "an:werkstudent-engineering-munchen-281546",
+   "hash": "4072617a13ed847f"
+  },
+  "an_werkstudent-bauuberwachung-essen-402974-bc9b4195": {
+   "refnr": "an:werkstudent-bauuberwachung-essen-402974",
+   "hash": "015c6d30b471f967"
+  },
+  "an_remote-werkstudent-finance-beratung-unternehm-cdafaa44": {
+   "refnr": "an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-18009",
+   "hash": "f7286d00b5141116"
+  },
+  "an_full-stack-entwicklerin-nextjs-remote-berlin--228f0bfa": {
+   "refnr": "an:full-stack-entwicklerin-nextjs-remote-berlin-336824",
+   "hash": "084e60a733768cf8"
+  },
+  "an_werkstudentin-marketing-automation-ai-berlin--86f56505": {
+   "refnr": "an:werkstudentin-marketing-automation-ai-berlin-246461",
+   "hash": "25a44a6160d19a61"
+  },
+  "an_werkstudentin-guest-service-munich-167567-2f8a60d7": {
+   "refnr": "an:werkstudentin-guest-service-munich-167567",
+   "hash": "a1223055c3f83f1a"
+  },
+  "an_werkstudentin-growth-engineer-berlin-127979-e00ea026": {
+   "refnr": "an:werkstudentin-growth-engineer-berlin-127979",
+   "hash": "fa2d979c459cea02"
+  },
+  "an_werkstudent-mediaberatung-marketing-werbung-m-295f4b2f": {
+   "refnr": "an:werkstudent-mediaberatung-marketing-werbung-mensch-cologne-274655",
+   "hash": "f53f21b729216114"
+  },
+  "an_werkstudent-fur-den-bereich-engineering-hochh-875f1c06": {
+   "refnr": "an:werkstudent-fur-den-bereich-engineering-hochheim-am-main-germany-427397",
+   "hash": "827f4b95916041f4"
+  },
+  "an_intern-working-student-alpha-engineering-desi-e912499c": {
+   "refnr": "an:intern-working-student-alpha-engineering-design-team-munich-387584",
+   "hash": "4302d0c0e02f23d5"
+  },
+  "an_working-student-llm-inference-performance-mun-d1aaba53": {
+   "refnr": "an:working-student-llm-inference-performance-munich-225245",
+   "hash": "44e6cf4f75c74ad4"
+  },
+  "an_working-student-llm-inference-performance-mun-a86dc97c": {
+   "refnr": "an:working-student-llm-inference-performance-munich-161026",
+   "hash": "5ab0c901d85fdf0b"
+  },
+  "an_werkstudent-marketing-und-projektmanagement-m-641f3032": {
+   "refnr": "an:werkstudent-marketing-und-projektmanagement-mwd-ca-10-wochenstunden-berlin-301237",
+   "hash": "d1801d9900b81df2"
+  },
+  "an_werkstudent-content-mwd-ca-15-wochenstunden-h-15a0a92e": {
+   "refnr": "an:werkstudent-content-mwd-ca-15-wochenstunden-hanover-463036",
+   "hash": "d955b70c8eabbfb5"
+  },
+  "an_werkstudent-bewerbermanagement-mind-15h-woche-85506c93": {
+   "refnr": "an:werkstudent-bewerbermanagement-mind-15h-woche-stuttgart-14565",
+   "hash": "758baf8ba5ad1fad"
+  },
+  "an_werkstudentin-data-science-tegtmeier-internet-85f5d2e7": {
+   "refnr": "an:werkstudentin-data-science-tegtmeier-internet-solutions-hamburg-25285",
+   "hash": "78640453ca2e86d4"
+  },
+  "an_werkstudent-fur-die-beschaffungskostenoptimie-5a559e0f": {
+   "refnr": "an:werkstudent-fur-die-beschaffungskostenoptimierung-personalbeschaffung-arbeitnehmeruberlassung-dusseldorf-390197",
+   "hash": "d158448a4314c372"
+  },
+  "an_werkstudentin-im-team-energy-projects-freibur-7f01f3cd": {
+   "refnr": "an:werkstudentin-im-team-energy-projects-freiburg-im-breisgau-476382",
+   "hash": "40823bd20d005ca0"
+  },
+  "an_werkstudent-software-development-frontend-ess-97e48e05": {
+   "refnr": "an:werkstudent-software-development-frontend-essen-240593",
+   "hash": "474832f0750b51c6"
+  }
+ }
+}

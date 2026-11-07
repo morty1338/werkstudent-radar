@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Produktmanagement Motoren für Motion Control</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1645219-2-S</link>
+      <guid isPermaLink="false">12465-1645219-2-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Siemens AG · Erlangen · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Project Management Excellence</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1651857-1-S</link>
+      <guid isPermaLink="false">12465-1651857-1-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Siemens AG · Berlin · €15.00/h · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent Projektassistenz Entwicklung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635926-7878-2836-S</link>
+      <guid isPermaLink="false">15939-BB-635926-7878-2836-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Rheinmetall AG · Kassel · €18.14/h · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Projektmanagement Aviation</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-312758_JB5292236-S</link>
@@ -127,38 +151,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Rheinmetall AG · Kassel · €18.14/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent - Projektassistenz Instandhaltung Gas &amp; Strom (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4985162227-S</link>
-      <guid isPermaLink="false">12288-4985162227-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Schleswig-Holstein Netz GmbH · Scharbeutz · €16.92/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Projektmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1609188-3-S</link>
-      <guid isPermaLink="false">12465-1609188-3-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Siemens AG · München · €17.27/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Working Student – Entrepreneurship &amp; Venture Support Programmes (m/f/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-7fc2942a_JB5285126-S</link>
-      <guid isPermaLink="false">13635-7fc2942a_JB5285126-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>EIT Health · München · Product &amp; Project Mgmt · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent - Technisches Projektmanagement</title>
-      <link>https://www.arbeitnow.com/jobs/companies/voltir/werkstudent-technisches-projektmanagement-berlin-43664</link>
-      <guid isPermaLink="false">an:werkstudent-technisches-projektmanagement-berlin-43664</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Voltir · Berlin · €18.50/h · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

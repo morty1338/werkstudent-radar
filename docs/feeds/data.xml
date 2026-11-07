@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>GISA GmbH: Werkstudent:in Business Intelligence, Analytics und AI (m/w/d)*</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2985001794006001-S</link>
+      <guid isPermaLink="false">11956-2985001794006001-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>GISA GmbH · Chemnitz · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Outbound Logistik Digitalisierung &amp; Künstliche Intelligenz</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1650942-1-S</link>
+      <guid isPermaLink="false">13151-1650942-1-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Mercedes-Benz Group AG · Böblingen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent AI &amp; Machine Learning (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-629f35c0_JB5292686-S</link>
+      <guid isPermaLink="false">13635-629f35c0_JB5292686-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>LivEye GmbH · Föhren bei Trier · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Business Intelligence (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16274-0068607138-S</link>
+      <guid isPermaLink="false">16274-0068607138-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Bischof+Klein SE &amp; Co. KG · Lengerich · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Business Development Research Analyst (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21128-981716434-S</link>
+      <guid isPermaLink="false">21128-981716434-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Hackforth Holding GmbH &amp; Co.KG · Herne · €15.50/h · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Bereich Power BI</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208580144-S</link>
@@ -135,38 +175,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Teampicnic · Düsseldorf · €15.50/h · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Digitalization &amp; Data-Driven Business Applications</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1631719-1-S</link>
-      <guid isPermaLink="false">12465-1631719-1-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Siemens AG · Erlangen · €15.00/h · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im Bereich Pricing Schwerpunkt Data Analytics und Automatisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1646969-1-S</link>
-      <guid isPermaLink="false">12465-1646969-1-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Siemens AG · Erlangen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Signalverarbeitung &amp; Datenanalyse (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12513-0007660724-S</link>
-      <guid isPermaLink="false">12513-0007660724-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Korsch AG · Berlin · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Working Student Data Engineer – Python, SQL &amp; Cloud Platforms</title>
-      <link>https://www.arbeitnow.com/jobs/companies/agentixlake-gmbh/working-student-data-engineer-python-sql-cloud-platforms-berlin-407856</link>
-      <guid isPermaLink="false">an:working-student-data-engineer-python-sql-cloud-platforms-berlin-407856</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>AgentixLake GmbH · Berlin · Data &amp; Analytics · no German needed</description>
     </item>
   </channel>
 </rss>

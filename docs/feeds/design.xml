@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>accompio GmbH: Werkstudent (m/w/d) Grafikdesign und Videoschnitt</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3092011794006000-S</link>
+      <guid isPermaLink="false">11956-3092011794006000-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>accompio GmbH · Pulheim · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Video Editor / Cutter (m/w/d), SanoGym GbR</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2373225-S</link>
+      <guid isPermaLink="false">12811-2373225-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>SanoGym GbR · Stuttgart · Design &amp; UX</description>
+    </item>
     <item>
       <title>Werkstudent Mediengestaltung &amp; Videoproduktion (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-526909_JB5291640-S</link>
@@ -33,14 +49,6 @@
       <description>ABUS August Bremicker Söhne KG · Wetter (Ruhr) · Design &amp; UX</description>
     </item>
     <item>
-      <title>Werkstudent Grafikdesign (w/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/ondevi-gmbh/werkstudent-grafikdesign-munich-132010</link>
-      <guid isPermaLink="false">an:werkstudent-grafikdesign-munich-132010</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>ondevi GmbH · München · Design &amp; UX</description>
-    </item>
-    <item>
       <title>Werkstudent:in Marketing (Organic): Design &amp; Content</title>
       <link>https://www.arbeitnow.com/jobs/companies/speekly/werkstudentin-marketing-organic-design-content-cologne-401382</link>
       <guid isPermaLink="false">an:werkstudentin-marketing-organic-design-content-cologne-401382</guid>
@@ -55,6 +63,14 @@
       <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>Datacept · Horneburg · €18.00/h · Design &amp; UX · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent Grafikdesign – Meta Ads &amp; Canva (m/w/d) | Remote</title>
+      <link>https://www.arbeitnow.com/jobs/companies/beginnerbudget/werkstudent-grafikdesign-meta-ads-canva-remote-berlin-428270</link>
+      <guid isPermaLink="false">an:werkstudent-grafikdesign-meta-ads-canva-remote-berlin-428270</guid>
+      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>BeginnerBudget · Berlin · €13.90/h · Design &amp; UX</description>
     </item>
     <item>
       <title>Werkstudent Kommunikationsdesign (gn)</title>
@@ -167,30 +183,6 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>Lufthansa Technik AG · Hamburg · Design &amp; UX · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Design - Grafik- &amp; Kommunikation (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1648912-1-S</link>
-      <guid isPermaLink="false">13151-1648912-1-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Mercedes-Benz Group AG · Leinfelden-Echterdingen · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Graphic Design &amp; Digital Content Production (w/m/div.)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF299826U-fe83cd9-S</link>
-      <guid isPermaLink="false">15986-REF299826U-fe83cd9-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Robert Bosch GmbH · Wernau (Neckar) · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Working Student (m/f/d) Video, Podcast &amp; Social Media Content Production</title>
-      <link>https://www.arbeitnow.com/jobs/companies/primion-technology-gmbh/working-student-video-podcast-social-media-content-production-frankfurt-224829</link>
-      <guid isPermaLink="false">an:working-student-video-podcast-social-media-content-production-frankfurt-224829</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Primion Technology GmbH · Frankfurt am Main · Design &amp; UX · no German needed</description>
     </item>
   </channel>
 </rss>

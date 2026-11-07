@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) - Unterschleißheim (PENNY)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068613113-S</link>
+      <guid isPermaLink="false">17567-0068613113-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · Unterschleißheim · €16.00/h · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) Unterföhring</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068613138-S</link>
+      <guid isPermaLink="false">17567-0068613138-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · Unterföhring · €16.00/h · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) - Frankfurter Ring (Knorr)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068613668-S</link>
+      <guid isPermaLink="false">17567-0068613668-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · München · €16.50/h · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>R&amp;D Werkstudent, Kassel</title>
+      <link>https://www.arbeitnow.com/jobs/companies/axon/rd-werkstudent-kassel-kassel-hesse-246003</link>
+      <guid isPermaLink="false">an:rd-werkstudent-kassel-kassel-hesse-246003</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Axon · Kassel · Retail &amp; Hospitality · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent / Sales Assistant (m/w/d) - Street One und CECIL Outlet in St. Augustin</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003974547-S</link>
@@ -15,14 +47,6 @@
       <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>CBR Service GmbH · Sankt Augustin · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12942-1651543-1-S</link>
-      <guid isPermaLink="false">12942-1651543-1-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Dirk Rossmann GmbH · Berlin · Retail &amp; Hospitality</description>
     </item>
     <item>
       <title>Werkstudent im Verkauf (m/w/d)</title>
@@ -223,102 +247,6 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>3raum PersonalManagement KG · Würzburg · €15.67/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudenten (m/w/d) im Verkauf – Uhren &amp; Schmuck</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003941642-S</link>
-      <guid isPermaLink="false">10001-1003941642-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Juwelier Rüschenbeck KG · Dortmund · €15.00/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudierende (w/m/d) Restaurant &amp; Gästeservice</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-SJPVU3-AU9-S</link>
-      <guid isPermaLink="false">12518-SJPVU3-AU9-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>ATLANTIC Hotel Heidelberg · Heidelberg · €16.00/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudierende (w/m/d) Restaurant &amp; Gästeservice, ATLANTIC Hotel Heide...</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2367123-S</link>
-      <guid isPermaLink="false">12811-2367123-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>ATLANTIC Hotel Heidelberg · Heidelberg · €16.00/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>WERKSTUDENT* IM VERKAUF, Filiale #11801 C</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2367269-S</link>
-      <guid isPermaLink="false">12811-2367269-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>NEW YORKER · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent / Studentische Aushilfe Kasse (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14011-44542929-1030-S</link>
-      <guid isPermaLink="false">14011-44542929-1030-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Bauhaus AG · Hamburg · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) - Unterschleißheim (PENNY)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068467277-S</link>
-      <guid isPermaLink="false">17567-0068467277-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · Unterschleißheim · €16.00/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) Unterföhring</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068467577-S</link>
-      <guid isPermaLink="false">17567-0068467577-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · Unterföhring · €16.00/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) - Frankfurter Ring (Knorr)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068469722-S</link>
-      <guid isPermaLink="false">17567-0068469722-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · München · €16.50/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) Dachau Bahnhof</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068471262-S</link>
-      <guid isPermaLink="false">17567-0068471262-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · Dachau · €16.00/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) - Domagk</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068471472-S</link>
-      <guid isPermaLink="false">17567-0068471472-S</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · München · €16.00/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Verkäuferin / Weihnachtsaushilfe (m/w/d) – Pop-up-Store / Teilzeit / Werkstudent</title>
-      <link>https://www.arbeitnow.com/jobs/companies/gusti-leder-gmbh/verkauferin-weihnachtsaushilfe-pop-up-store-teilzeit-werkstudent-freiburg-im-breisgau-78435</link>
-      <guid isPermaLink="false">an:verkauferin-weihnachtsaushilfe-pop-up-store-teilzeit-werkstudent-freiburg-im-breisgau-78435</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Gusti Leder GmbH · Freiburg · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Verkauf Mode und Bekleidung</title>
-      <link>https://www.arbeitnow.com/jobs/companies/kult-olymp-hades/werkstudent-im-verkauf-mode-und-bekleidung-wetzlar-378509</link>
-      <guid isPermaLink="false">an:werkstudent-im-verkauf-mode-und-bekleidung-wetzlar-378509</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>KULT | OLYMP &amp; HADES · Wetzlar · Retail &amp; Hospitality</description>
     </item>
   </channel>
 </rss>

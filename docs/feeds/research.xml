@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 12:27:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent / Werkstudentin (m/w/d) in der Umsetzung der Geldpolitik im Eurosystem</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20083-1651297-1-S</link>
+      <guid isPermaLink="false">20083-1651297-1-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Deutsche Bundesbank Zentrale · Frankfurt am Main · Research &amp; Science</description>
+    </item>
     <item>
       <title>Werkstudent_in (m/w/d) Ratsbüro</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003970092-S</link>
