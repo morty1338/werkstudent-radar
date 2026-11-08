@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Category Management Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/category-management-werkstudent-dusseldorf-north-rhine-westphalia-98132</link>
+      <guid isPermaLink="false">an:category-management-werkstudent-dusseldorf-north-rhine-westphalia-98132</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Teampicnic · Düsseldorf · €15.12/h · Other</description>
+    </item>
+    <item>
+      <title>Internships &amp; working students at Hypersonica</title>
+      <link>https://www.arbeitnow.com/jobs/companies/hypersonica/internships-working-students-at-hypersonica-munich-313488</link>
+      <guid isPermaLink="false">an:internships-working-students-at-hypersonica-munich-313488</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Hypersonica · München · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Promotion (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/octopus-energy-group/werkstudentin-promotion-berlin-de-376841</link>
+      <guid isPermaLink="false">an:werkstudentin-promotion-berlin-de-376841</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Octopus Energy Group · Berlin · €16.50/h · Other</description>
+    </item>
     <item>
       <title>Volkssolidarität Dresden: WERKSTUDENT AUSBILDUNGSKOORDINATION (M/W/D)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3092121794006000-S</link>
@@ -295,14 +319,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>inca · Berlin · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent:in growth engineer (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/relokate-hr-gmbh/werkstudentin-growth-engineer-berlin-127979</link>
-      <guid isPermaLink="false">an:werkstudentin-growth-engineer-berlin-127979</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>relokate HR GmbH · Berlin · €17.00/h · Other</description>
     </item>
     <item>
       <title>Werkstudent:in Guest Service (m/f/d)</title>

@@ -6,15 +6,23 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
-      <title>ITARICON: Werkstudent IT Consulting &amp; Cloud Integration - SAP CI Umfeld (Mensch*)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3022631794006001-S</link>
-      <guid isPermaLink="false">11956-3022631794006001-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <title>Werkstudent - AI Manager Support (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/cbs-corporate-business-solutions-gmbh/werkstudent-ai-manager-support-heidelberg-113667</link>
+      <guid isPermaLink="false">an:werkstudent-ai-manager-support-heidelberg-113667</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
-      <description>ITARICON · Dresden · IT &amp; Software</description>
+      <description>cbs Corporate Business Solutions GmbH · Heidelberg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent - SAP Beratung (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/cbs-corporate-business-solutions-gmbh/werkstudent-sap-beratung-heidelberg-305608</link>
+      <guid isPermaLink="false">an:werkstudent-sap-beratung-heidelberg-305608</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>cbs Corporate Business Solutions GmbH · Heidelberg · IT &amp; Software</description>
     </item>
     <item>
       <title>SoftwareOne Deutschland GmbH: Werkstudent (gn) Marketing</title>
@@ -671,14 +679,6 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>idealo internet GmbH · Berlin · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Business Excellence &amp; Transformation</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003943695-S</link>
-      <guid isPermaLink="false">10001-1003943695-S</guid>
-      <pubDate>Sun, 01 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Clarius.Services GmbH · Eschborn · IT &amp; Software</description>
     </item>
   </channel>
 </rss>

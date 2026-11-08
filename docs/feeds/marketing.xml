@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/marketing.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Marketing/PR, Eschweiler</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2373722-S</link>
+      <guid isPermaLink="false">12811-2373722-S</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Klotz und Gangloff GmbH · Eschweiler · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>E-Commerce Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/e-commerce-werkstudent-dusseldorf-north-rhine-westphalia-94488</link>
+      <guid isPermaLink="false">an:e-commerce-werkstudent-dusseldorf-north-rhine-westphalia-94488</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Teampicnic · Düsseldorf · €15.12/h · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Marketing Einkauf Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/marketing-einkauf-werkstudent-dusseldorf-north-rhine-westphalia-256748</link>
+      <guid isPermaLink="false">an:marketing-einkauf-werkstudent-dusseldorf-north-rhine-westphalia-256748</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Teampicnic · Düsseldorf · €15.12/h · Marketing &amp; Communication</description>
+    </item>
     <item>
       <title>Werkstudent Marketing / Produktmanagement (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208581432-S</link>
@@ -529,22 +553,6 @@
       <description>wppmedia · Köln · Marketing &amp; Communication</description>
     </item>
     <item>
-      <title>Werkstudent:in Growth Marketing (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/1komma50/werkstudentin-growth-marketing-berlin-267900</link>
-      <guid isPermaLink="false">an:werkstudentin-growth-marketing-berlin-267900</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>1KOMMA5˚ · Berlin · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Marketing Automation &amp; AI (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/relokate-hr-gmbh/werkstudentin-marketing-automation-ai-berlin-246461</link>
-      <guid isPermaLink="false">an:werkstudentin-marketing-automation-ai-berlin-246461</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>relokate HR GmbH · Berlin · €17.00/h · Marketing &amp; Communication</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) – Social Media &amp; Content Creation</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003944219-S</link>
       <guid isPermaLink="false">10001-1003944219-S</guid>
@@ -559,6 +567,14 @@
       <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>The Yeah Lab GmbH · Estenfeld · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Employer Branding</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003946087-S</link>
+      <guid isPermaLink="false">10001-1003946087-S</guid>
+      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>United Internet AG · Karlsruhe · Marketing &amp; Communication</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Marketing Manager</title>

@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Testautomatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160D-S</link>
+      <guid isPermaLink="false">18024-10Q7q0000160D-S</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
+    </item>
     <item>
       <title>Working Student (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208580655-S</link>
@@ -95,14 +103,6 @@
       <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>ENERCON GmbH · Aurich · Engineering &amp; Production · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Testautomatisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160C-S</link>
-      <guid isPermaLink="false">18024-10Q7q0000160C-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent Elektrotechnik / Energietechnik (m/w/d)</title>

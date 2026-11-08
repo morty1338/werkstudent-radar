@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) im B2B-Vertrieb / Lead-Generierung / Outreach</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003980457-S</link>
+      <guid isPermaLink="false">10001-1003980457-S</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Zuben Enterprises UG (haftungsbeschränkt) · Berlin · €16.50/h · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Working Student Business Development / Pre-Sales Support (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/netlight/working-student-business-development-pre-sales-support-hamburg-414657</link>
+      <guid isPermaLink="false">an:working-student-business-development-pre-sales-support-hamburg-414657</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Netlight · Hamburg · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent Vertrieb Innendienst (m/w/d) – 20 Std./Woche</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003979579-S</link>
@@ -167,14 +183,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Redion · Rostock · €16.00/h · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent:in / Praktikant:in Customer Success &amp; Operations (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/decari-gmbh/praktikant-operations-growth-berlin-482406</link>
-      <guid isPermaLink="false">an:praktikant-operations-growth-berlin-482406</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Decari GmbH · Berlin · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>

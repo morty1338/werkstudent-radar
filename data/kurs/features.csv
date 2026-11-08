@@ -596,6 +596,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 10001-1000887221-S,9ec127bdfbce54a4,2026-10-14,ok,3,0,,0,driving_licence|ms_office|recruiting,de,implicit,0,,bwl,,,
 10001-1000889202-S,bfe993dc18331564,2026-10-14,ok,3,0,,0,excel|ms_office|outlook|recruiting,de,implicit,0,,,,,
 10001-1000909526-S,a0a1fa37db90e465,2026-10-14,ok,3,0,,0,sales_skills,de,required,0,,,,,
+10001-1000911762-S,045e44f321269c38,2026-11-08,ok,3,0,,0,recruiting,de,implicit,0,,bwl,,,
 10001-1000912356-S,818d89abc8abdb38,2026-10-14,ok,3,0,,0,accounting|excel,de,required,1,,,,,
 10001-1000941284-S,f96dead00af22f8b,2026-10-14,ok,3,0,,0,ms_office,de,required,0,,,,,
 10001-1000941318-S,f96dead00af22f8b,2026-10-14,ok,3,0,,0,ms_office,de,required,0,,,,,
@@ -1269,6 +1270,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 10001-1003657536-S,e8664c16d584689e,2026-10-14,ok,3,0,,0,labour_law|ms_office|recruiting|sap|sap_hcm,de,required,1,,,39600,43200,ba
 10001-1003657802-S,21b446b18be9e75a,2026-10-14,ok,3,0,,0,accounting|driving_licence|labour_law|ms_office,de,required,0,,bwl|math,,,
 10001-1003658172-S,2d5e7178acf4f187,2026-10-14,ok,3,0,,1,sales_skills,de,required,1,,bwl|wiinf|wiing,42000,60000,ba
+10001-1003658416-S,dc09904e06c14acf,2026-11-08,ok,3,0,,0,ms_office|recruiting,de,implicit,0,30,,32000,36000,ba
 10001-1003659246-S,6ff138b33e563697,2026-10-14,ok,3,0,,0,,de,implicit,0,,comm,,,
 10001-1003659809-S,edd045756c54796a,2026-10-14,ok,3,1,ohne_erfahrung,0,excel|word,de,required,0,,,,,
 10001-1003661075-S,b99855a0d0254df1,2026-10-14,ok,3,0,,0,recruiting,de,implicit,0,,bwl,,,
@@ -2586,6 +2588,8 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 10001-1003979811-S,963025ed6e4e39c7,2026-11-07,ok,3,0,,1,adobe_cc|ms_office|paid_social,de,implicit,0,,comm,48000,55200,ba
 10001-1003979903-S,621988374e333eeb,2026-11-07,ok,3,1,quereinstieg,1,content|genai|google_analytics|paid_social|sea|seo|social_media,de,required,0,,bwl,,,
 10001-1003979918-S,1d76ebee2a9862ae,2026-11-07,ok,3,0,,1,dynamics|online_marketing|power_platform|sea|seo|ux,de,required,1,,bwl|comm,,,
+10001-1003980273-S,0abe3c3a9847e014,2026-11-08,ok,3,0,,0,,de,implicit,0,,,40000,40000,ba
+10001-1003980367-S,2ba5316ec5cb1d77,2026-11-08,ok,3,0,,0,ms_office|sales_skills,de,required,1,,,,,
 11070-1532773-1-S,ce6ed2087f3a59a2,2026-10-14,ok,3,0,,0,,de,implicit,1,,bwl,,,
 11070-1605348-1-S,6a53ffa138134576,2026-10-14,ok,3,0,,1,consulting|customer_service|excel|google_analytics|other_erp|procurement|sales_skills|sap,en,none,1,,,,,
 11070-1630147-1-S,70a237ed12800406,2026-10-14,ok,3,0,,1,other_erp|sap,en,none,1,,,,,
@@ -2603,6 +2607,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 11081-8JCSPQE5OD2VIWA0-S,81af9724e4b4d000,2026-10-24,ok,3,0,,0,crm|google_workspace|ms_office|wordpress,de,implicit,1,40,bwl,48000,58000,ba
 11081-CEBO4E1G64BPDEVD-S,2eeacd923fb0bcb8,2026-10-14,ok,3,0,,0,ms_office|sap,de,required,0,20,,,,
 11081-DXIR3J8OGHP2SF4Z-S,a73ac9132f8802f0,2026-10-14,ok,3,0,,0,crm|customer_service|ms_office|other_erp|sales_skills,de,required,1,37,,42000,47000,ba
+11081-FA0OH1POUOAH6EIN-S,5af7511d6c7ac182,2026-11-08,ok,3,0,,1,crm|etl|recruiting,de,required,0,,,,,
 11081-FWJYZ0PRR4MU0QYS-S,58af6eb3238399cd,2026-10-22,ok,3,0,,0,ms_office|powerpoint,de,implicit,1,35,bwl,,,
 11081-G0OW0YVPR9G3HIPJ-S,aa76695df46d0982,2026-10-15,ok,3,0,,0,recruiting,de,required,0,,,,,
 11081-GGIULJJTH2XBRAXQ-S,7db0d4a50de63562,2026-10-29,ok,3,0,,0,ms_office|other_erp,de,implicit,1,,,,,
@@ -3065,6 +3070,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 11956-3070351792188001-S,ae4a6ac42391a1a9,2026-10-17,ok,3,0,,0,adobe_cc|content|illustrator|indesign|ms_office|photoshop|seo,de,required,1,,,,,
 11956-3072031790805600-S,77d8f3f6e87f1cbc,2026-10-14,ok,3,0,,1,aws|consulting|genai|sales_skills|testing,de,required,1,,,85000,120000,ba
 11956-3072031792533601-S,84e975513417608a,2026-10-21,ok,3,0,,1,aws|consulting|genai|sales_skills|testing,de,required,1,,,85000,120000,ba
+11956-3092311794092400-S,df69c8bb0b6965a6,2026-11-08,ok,3,0,,0,crm|devops|it_security|sales_skills,de,required,0,,,,,
 11959-107384-S,299a616cb7359bfe,2026-10-14,ok,3,0,,0,labour_law|ms_office|other_erp|php,de,implicit,0,,,,,
 11959-108018-S,ca8b92674135e3a0,2026-10-14,ok,3,0,,0,datev|labour_law|ms_office|php|recruiting,de,required,1,,,,,
 11959-108596-S,243fbfaf00ccab47,2026-10-30,ok,3,0,,0,ms_office|other_erp|php,de,implicit,1,,math,,,
@@ -3120,6 +3126,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 12016-10005832542-S,43fd211c3c0b50b1,2026-11-06,ok,3,0,,0,ms_office,de,required,0,,,43090,43090,ba
 12016-10005832793-S,ca7a803e7e6ae58d,2026-11-05,ok,3,1,quereinstieg,0,ms_office,de,required,1,,,,,
 12016-10005844275-S,b42d009440d148fa,2026-11-06,ok,3,0,,0,ms_office,de,implicit,1,,et,,,
+12016-10005857492-S,6159ff5bfc8abae3,2026-11-08,ok,3,0,,0,,de,implicit,0,,,50092,50092,ba
 12032-R622BE281-S,d44be4cecbd3f9a2,2026-10-14,ok,3,0,,0,ms_office,de,implicit,0,,,,,
 12032-R622BE282-S,d44be4cecbd3f9a2,2026-10-20,ok,3,0,,0,ms_office,de,implicit,0,,,,,
 12032-R622C42F2-S,2da8b5227847b29d,2026-10-14,ok,3,0,,0,ms_office,de,required,0,,,,,
@@ -3454,6 +3461,9 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 12122-981715294-S,195fd5c55c30ff7d,2026-11-07,ok,3,0,,0,sap,de,required,0,,,,,
 12122-981726666-S,7b300b6b48b5ef05,2026-11-07,ok,3,0,,0,accounting|controlling|ms_office|procurement,de,required,0,,,,,
 12122-981876966-S,45a7008b98d20cf1,2026-11-07,ok,3,0,,0,accounting|payroll,de,implicit,0,,,,,
+12122-981884446-S,d30dd7f53d2568b6,2026-11-08,ok,3,0,,0,ms_office|procurement,de,required,0,,math,,,
+12122-981897433-S,594eeaac5525e6a5,2026-11-08,ok,3,0,,0,ms_office|other_erp|procurement,de,required,0,,,,,
+12122-981899830-S,29465de3d375ec94,2026-11-08,ok,3,0,,0,excel|ms_office|sap|sap_hcm,de,implicit,1,,,,,
 12124-DQ5X6IKG9W9KC669-S,bfbd6132eb67767d,2026-10-14,ok,3,0,,0,ms_office|tax,de,implicit,0,40,,45500,52000,ba
 12147-20260930225932-S,3dfe015f66135970,2026-10-14,ok,3,0,,0,excel|ms_office,de,required,1,,,,,
 12147-20261007226297-S,66023c640fb8d499,2026-10-14,ok,3,0,,0,excel|ms_office|other_erp|payroll|sap,de,implicit,0,,,,,
@@ -3471,6 +3481,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 12150-13909291-S,717342df11adbfad,2026-11-01,ok,3,0,,0,,de,implicit,0,,bwl,50000,65000,ba
 12150-13909311-S,8da19259950f4c98,2026-11-01,ok,3,0,,0,ms_office|sales_skills,de,implicit,0,,,36000,46000,ba
 12150-13912527-S,a1d4e3c043eddd53,2026-10-31,ok,3,0,,0,labour_law|ms_office,de,required,1,,,,,
+12150-13920296-S,67b2c5ad0fd37776,2026-11-08,ok,3,0,,0,ms_office|other_erp,de,implicit,0,,,42000,46000,ba
 12160-13682632-S,87cb5911e986a561,2026-10-14,ok,3,0,,0,ms_office,de,required,1,,,46000,51000,text
 12160-13832279-S,633a2c4e0fe725e9,2026-11-04,ok,3,0,,0,,de,implicit,0,,,22100,41600,text
 12160-13835933-S,d5269cfba3cc7085,2026-10-14,ok,3,0,,0,ms_office,de,implicit,0,,,,,
@@ -3485,7 +3496,9 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 12160-13912003-S,b20107045ffff88c,2026-10-30,ok,3,0,,0,ms_office,de,implicit,0,,,,,
 12160-13912036-S,69234c1256d18ed6,2026-10-31,ok,3,0,,0,datev|labour_law|ms_office|payroll,de,implicit,1,,math,,,
 12160-13914946-S,b3dc466c345d7bf6,2026-11-02,ok,3,0,,0,sales_skills,de,implicit,1,,,,,
+12162-FBB51NTAM7PZOSQE-S,a8955c94aca828b9,2026-11-08,ok,3,0,,0,accounting|ms_office|tax,de,required,0,30,bwl,,,
 12203-5dade8012a9840c-S,a98dcc13096f8b8d,2026-10-23,ok,3,0,,0,ms_office,de,required,0,,,,,
+12203-66fdd23ef5b54a4-S,a98dcc13096f8b8d,2026-11-08,ok,3,0,,0,ms_office,de,required,0,,,,,
 12203-7a0a08dd9fcd404-S,539400e30a708dd0,2026-10-23,ok,3,0,,0,ms_office|supply_chain,de,implicit,0,,,,,
 12203-899906089150457-S,b7a7ac2d9710d758,2026-10-14,ok,3,0,,0,excel|ms_office|outlook|word,de,required,0,,,,,
 12203-b1537c033fc04ac-S,a98dcc13096f8b8d,2026-10-14,ok,3,0,,0,ms_office,de,required,0,,,,,
@@ -3666,6 +3679,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 12288-4929562839-S,7c41e144f5a88456,2026-10-14,ok,3,0,,0,crm,de,required,1,,math,,,
 12288-4929623420-S,4af5ac3412c5f6db,2026-10-14,ok,3,0,,0,content|google_analytics|online_marketing|seo|ux,de,required,0,,,,,
 12288-4930391150-S,4803f389bec997ac,2026-10-14,ok,3,0,,0,customer_service|excel|ms_office|other_erp|sales_skills|sap,de,implicit,1,,bwl,,,
+12288-4930463495-S,01201df5a2afe485,2026-11-08,ok,3,0,,0,etl|excel|ms_office|outlook|recruiting,de,required,1,,bwl,,,
 12288-4931096105-S,995abe3b34ba7aef,2026-10-14,ok,3,0,,0,recruiting,de,required,0,,,,,
 12288-4931121689-S,e0cda3bb57ab2dfd,2026-10-14,ok,3,0,,0,ms_office,de,required,1,,bwl,,,
 12288-4931153831-S,db49feef52098f6e,2026-10-14,ok,3,0,,0,ms_office,de,required,0,,bwl,,,
@@ -4825,6 +4839,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 12633-9b8333da_JB5216308-S,cf45aa895240d75a,2026-10-14,ok,3,0,,0,crm|customer_service|ms_office|sap,de,required,1,,,,,
 12633-9ea48cf7_JB5232265-S,e316ff5403012e64,2026-10-14,ok,3,0,,0,driving_licence|ms_office|sales_skills,de,implicit,0,,,,,
 12633-9f8f1611_JB5251488-S,af951f53cfd901ec,2026-10-14,ok,3,0,,0,ms_office,de,required,0,,,,,
+12633-a0755fb0_JB5239850-S,50672874562bf51a,2026-11-08,ok,3,0,,0,recruiting,de,required,1,,,,,
 12633-a203aad4_JB5276615-S,013455409abe69c8,2026-10-20,ok,3,0,,0,ms_office|other_erp|procurement|supply_chain,de,implicit,0,,,38000,44000,ba
 12633-a30067f9_JB5157177-S,ee2fffdcada22d67,2026-10-14,ok,3,0,,0,ms_office,de,implicit,1,,,,,
 12633-a453a5b7_JB5284192-S,e9f0e4a37259c0df,2026-10-29,ok,3,0,,0,ms_office,de,implicit,1,,math,,,
@@ -4861,6 +4876,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 12633-c47dd39b_JB5151767-S,5bbe6ffe9217eca3,2026-10-14,ok,3,0,,0,ms_office|sales_skills|sap,de,required,1,,,,,
 12633-c47ef495_JB5255003-S,43d56855adde6128,2026-10-14,ok,3,0,,0,ms_office|sap,de,required,1,,,,,
 12633-c4823d66_JB5204411-S,aa31a977253103b0,2026-10-14,ok,3,0,,0,ms_office|payroll|sap,de,implicit,0,38,math,,,
+12633-c4891a3f_JB5239849-S,4247699c37479dea,2026-11-08,ok,3,0,,0,networking|recruiting,de,required,1,,,,,
 12633-c4e74a27_JB5257927-S,c9c1f56c1d495bc9,2026-10-14,ok,3,0,,0,ms_office,de,implicit,1,,,,,
 12633-c5d4bea1_JB5105921-S,13c119ed247d2109,2026-10-14,ok,3,0,,0,ms_office,de,required,0,,math,40000,55000,text
 12633-c5fec5d7_JB5001848-S,e53252def142288d,2026-10-14,ok,3,0,,0,ms_office|sap,de,required,1,,,,,
@@ -4993,6 +5009,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 12704-5A1U5P1J8TD72JCS-S,eddb2f5e76cbaf6e,2026-10-14,ok,3,0,,0,accounting|ms_office|other_erp|sap,de,implicit,0,,,,,
 12704-5F99D811G7JGJB6N-S,eddb2f5e76cbaf6e,2026-11-01,ok,3,0,,0,accounting|ms_office|other_erp|sap,de,implicit,0,,,,,
 12704-6SFC7DUC879DO11J-S,a55d245b19eef822,2026-10-14,ok,3,0,,0,ms_office|other_erp|procurement|sap,de,required,1,,,,,
+12704-73X0TT6BJQL7ZEI1-S,75eaaae2b9e70a56,2026-11-08,ok,3,0,,0,ms_office,de,implicit,0,,,32400,33600,ba
 12704-7VGQ2RKUNVUIZ4J4-S,87397e849aeedeca,2026-10-14,ok,3,0,,0,other_erp|salesforce,de,implicit,1,,,,,
 12704-BYJNWQ7NEKCCIQS3-S,15ad204663636f2e,2026-11-01,ok,3,0,,0,ms_office|sap,de,implicit,1,,,,,
 12704-CABAPQJAT3S220BP-S,a55d245b19eef822,2026-10-21,ok,3,0,,0,ms_office|other_erp|procurement|sap,de,required,1,,,,,
@@ -5002,6 +5019,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 12704-OYOJY56JDRYU07N0-S,2ba9d92e93a16f67,2026-11-01,ok,3,0,,0,sap,de,implicit,1,,,,,
 12704-SAJWVR1AGOGNARHK-S,2facef95eb2063ab,2026-10-30,ok,3,0,,0,ms_office|sap|supply_chain,de,implicit,0,,,,,
 12704-T1F0WYFZS0041T7I-S,f6ece4740a42a15c,2026-10-14,ok,3,0,,0,ms_office|production,de,implicit,0,,,,,
+12704-VC6LG3YMLCWPCBDW-S,0617cddcaf7100e4,2026-11-08,ok,3,0,,0,other_erp|supply_chain,de,implicit,0,,math,,,
 12704-VCRGFS55IPQRIT7Z-S,c8628254560bafd9,2026-10-23,ok,3,0,,0,,de,implicit,0,,,,,
 12704-VE9475FBNGTSMEU1-S,b8abed0e08322369,2026-10-16,ok,3,0,,0,other_erp,de,implicit,0,,,,,
 12704-XXRBDE7Z7CM6XKXP-S,2ba9d92e93a16f67,2026-10-14,ok,3,0,,0,sap,de,implicit,1,,,,,
@@ -5033,6 +5051,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 12791-2fd9a1676e8d436-S,9e45615f16df421f,2026-10-21,ok,3,0,,0,ms_office|supply_chain,de,plus,1,,,,,
 12791-3957056084ee419-S,8348314495edc279,2026-10-23,ok,3,0,,0,crm|ms_office|other_erp|sales_skills,de,implicit,0,,,,,
 12791-3cf96a9c6b1e4aa-S,9e45615f16df421f,2026-11-05,ok,3,0,,0,ms_office|supply_chain,de,plus,1,,,,,
+12791-a574a5511a0e412-S,8348314495edc279,2026-11-08,ok,3,0,,0,crm|ms_office|other_erp|sales_skills,de,implicit,0,,,,,
 12794-FGTNSJDE6SNOG59J-S,b3e97f9e0c27e01f,2026-10-14,ok,3,0,,0,market_research|ms_office|other_erp|procurement|sap,de,implicit,1,40,,,,
 12794-ILYXBMGZ2X7UGW0F-S,117e35acb7fdc1c1,2026-10-15,ok,3,0,,0,ms_office|other_erp|sales_skills,de,implicit,0,,,37700,43000,ba
 12799-10626ce524c59f02-S,575566cb2313ee84,2026-10-29,ok,3,0,,0,ms_office|recruiting|sap|sap_hcm,de,implicit,0,,,,,
@@ -7176,6 +7195,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 17560-6142246de31440a-S,d57dc0d16cb2a217,2026-10-14,ok,3,0,,0,ms_office|procurement|sap,de,implicit,0,,,,,
 17560-63aba074ab6d407-S,560d3b1439e7cee0,2026-10-21,ok,3,0,,0,ms_office,de,implicit,0,,,,,
 17560-7ef3893b988c4a3-S,fc93bbf091aadffd,2026-10-29,ok,3,0,,0,ms_office,de,required,0,,bwl|et|mb,,,
+17560-8536c3fb4e1747e-S,d69de82274fdb90d,2026-11-08,ok,3,0,,0,ms_office|payroll,de,implicit,0,20,bwl|math,27000,27000,text
 17560-87a05a674d8f4e6-S,af8cb276c19ee349,2026-10-14,ok,3,0,,0,excel|google_workspace|jira|outlook|pm_tools|powerpoint|procurement,de,required,1,,bwl,,,
 17560-88c8511b73db453-S,d57dc0d16cb2a217,2026-11-02,ok,3,0,,0,ms_office|procurement|sap,de,implicit,0,,,,,
 17560-938ed0828b21413-S,fd52e832c87550de,2026-10-14,ok,3,0,,0,dynamics|excel|ms_office|outlook|word,de,implicit,0,,,,,
@@ -7285,6 +7305,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 18024-100BR0003fD08-S,c829bb102069a4b9,2026-11-05,ok,3,0,,0,ms_office,de,required,0,25,,,,
 18024-100BR0003fD09-S,c829bb102069a4b9,2026-11-06,ok,3,0,,0,ms_office,de,required,0,25,,,,
 18024-100BR0003fD0A-S,c829bb102069a4b9,2026-11-07,ok,3,0,,0,ms_office,de,required,0,25,,,,
+18024-100BR0003fD0B-S,c829bb102069a4b9,2026-11-08,ok,3,0,,0,ms_office,de,required,0,25,,,,
 18024-10Q1i00007O00-S,971d777ba0295e6f,2026-10-15,ok,3,0,,0,labour_law|ms_office|recruiting|sap|sap_hcm,de,implicit,0,,,,,
 18024-10Q1i00007O01-S,971d777ba0295e6f,2026-10-22,ok,3,0,,0,labour_law|ms_office|recruiting|sap|sap_hcm,de,implicit,0,,,,,
 18024-10Q6L00001X02-S,80d8c66369b6e101,2026-10-14,ok,3,0,,1,,de,implicit,0,,bwl,,,
@@ -7311,6 +7332,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 18024-10Q6L00001X0O-S,80d8c66369b6e101,2026-11-05,ok,3,0,,1,,de,implicit,0,,bwl,,,
 18024-10Q6L00001X0P-S,80d8c66369b6e101,2026-11-06,ok,3,0,,1,,de,implicit,0,,bwl,,,
 18024-10Q6L00001X0Q-S,80d8c66369b6e101,2026-11-07,ok,3,0,,1,,de,implicit,0,,bwl,,,
+18024-10Q6L00001X0R-S,80d8c66369b6e101,2026-11-08,ok,3,0,,1,,de,implicit,0,,bwl,,,
 18024-10Q7K00002600-S,cb678f263cb84417,2026-10-16,ok,3,0,,1,genai|it_security,de,implicit,0,,bwl|inf|math|wiinf,,,
 18024-10Q7K00002601-S,cb678f263cb84417,2026-10-17,ok,3,0,,1,genai|it_security,de,implicit,0,,bwl|inf|math|wiinf,,,
 18024-10Q7K00002602-S,cb678f263cb84417,2026-10-18,ok,3,0,,1,genai|it_security,de,implicit,0,,bwl|inf|math|wiinf,,,
@@ -7333,6 +7355,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 18024-10Q7K0000260K-S,cb678f263cb84417,2026-11-05,ok,3,0,,1,genai|it_security,de,implicit,0,,bwl|inf|math|wiinf,,,
 18024-10Q7K0000260L-S,cb678f263cb84417,2026-11-06,ok,3,0,,1,genai|it_security,de,implicit,0,,bwl|inf|math|wiinf,,,
 18024-10Q7K0000260M-S,cb678f263cb84417,2026-11-07,ok,3,0,,1,genai|it_security,de,implicit,0,,bwl|inf|math|wiinf,,,
+18024-10Q7K0000260N-S,cb678f263cb84417,2026-11-08,ok,3,0,,1,genai|it_security,de,implicit,0,,bwl|inf|math|wiinf,,,
 18024-10Q7q00000V01-S,b709519fb042e72a,2026-10-14,ok,3,0,,0,ms_office,de,implicit,0,,math,,,
 18024-10Q7q00000V02-S,b709519fb042e72a,2026-10-15,ok,3,0,,0,ms_office,de,implicit,0,,math,,,
 18024-10Q7q00000V03-S,b709519fb042e72a,2026-10-16,ok,3,0,,0,ms_office,de,implicit,0,,math,,,
@@ -7357,6 +7380,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 18024-10Q7q00000V0N-S,b709519fb042e72a,2026-11-05,ok,3,0,,0,ms_office,de,implicit,0,,math,,,
 18024-10Q7q00000V0O-S,b709519fb042e72a,2026-11-06,ok,3,0,,0,ms_office,de,implicit,0,,math,,,
 18024-10Q7q00000V0P-S,b709519fb042e72a,2026-11-07,ok,3,0,,0,ms_office,de,implicit,0,,math,,,
+18024-10Q7q00000V0Q-S,b709519fb042e72a,2026-11-08,ok,3,0,,0,ms_office,de,implicit,0,,math,,,
 18024-10Q9A00000R02-S,581239caf5121321,2026-10-14,ok,3,0,,0,ms_office,de,implicit,0,,,42900,50000,ba
 18024-10Q9A00000R03-S,581239caf5121321,2026-10-15,ok,3,0,,0,ms_office,de,implicit,0,,,42900,50000,ba
 18024-10Q9A00000R04-S,581239caf5121321,2026-10-16,ok,3,0,,0,ms_office,de,implicit,0,,,42900,50000,ba
@@ -7381,6 +7405,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 18024-10Q9A00000R0O-S,581239caf5121321,2026-11-05,ok,3,0,,0,ms_office,de,implicit,0,,,42900,50000,ba
 18024-10Q9A00000R0P-S,bb3201f1cc94d009,2026-11-06,ok,3,0,,0,ms_office,de,implicit,0,,,42900,50000,ba
 18024-10Q9A00000R0Q-S,bb3201f1cc94d009,2026-11-07,ok,3,0,,0,ms_office,de,implicit,0,,,42900,50000,ba
+18024-10Q9A00000R0R-S,bb3201f1cc94d009,2026-11-08,ok,3,0,,0,ms_office,de,implicit,0,,,42900,50000,ba
 18024-10Q9A00000Y01-S,a7390233d803baeb,2026-10-17,ok,3,0,,0,,de,implicit,0,,bwl,47500,56700,ba
 18024-10Q9A00000Y02-S,a7390233d803baeb,2026-10-18,ok,3,0,,0,,de,implicit,0,,bwl,47500,56700,ba
 18024-10Q9A00000Y03-S,a7390233d803baeb,2026-10-19,ok,3,0,,0,,de,implicit,0,,bwl,47500,56700,ba
@@ -7402,6 +7427,7 @@ refnr,text_hash,checked,status,version,qe_text,qe_kind,ai_text,rules_skills,lang
 18024-10Q9A00000Y0K-S,869825efb552748b,2026-11-05,ok,3,0,,0,,de,implicit,0,,bwl,47500,56700,ba
 18024-10Q9A00000Y0L-S,e25a9a32960a8025,2026-11-06,ok,3,0,,0,,de,implicit,0,,bwl,47500,56700,ba
 18024-10Q9A00000Y0M-S,e25a9a32960a8025,2026-11-07,ok,3,0,,0,,de,implicit,0,,bwl,47500,56700,ba
+18024-10Q9A00000Y0N-S,e25a9a32960a8025,2026-11-08,ok,3,0,,0,,de,implicit,0,,bwl,47500,56700,ba
 18026-0067848282-S,3d82c0caebb3e3ad,2026-10-14,ok,3,0,,0,crm|dynamics|sales_skills,de,implicit,0,,bwl|wiinf|wiing,,,
 18041-0068097831-S,9efd75310eef8533,2026-10-15,ok,3,0,,0,excel|ms_office|outlook|powerpoint|word,de,implicit,0,,,,,
 18041-0068446057-S,d539410f07cbefd2,2026-10-30,ok,3,0,,0,ms_office,de,implicit,0,,,,,

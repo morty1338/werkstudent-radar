@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Kundenservice - Schwerpunkt Kasse (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18019-201796-S</link>
+      <guid isPermaLink="false">18019-201796-S</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Media-Saturn Deutschland GmbH · Kerpen · Retail &amp; Hospitality</description>
+    </item>
     <item>
       <title>Werkstudent - Verkauf, Bäckerei (m/w/d) - Unterschleißheim (PENNY)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068613113-S</link>
@@ -175,14 +183,6 @@
       <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>dennree GmbH · Hamburg · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent im Verkauf (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18019-201468-S</link>
-      <guid isPermaLink="false">18019-201468-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Media-Saturn Deutschland GmbH · Frankfurt am Main · Retail &amp; Hospitality</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) im Verkauf Mode und Bekleidung</title>

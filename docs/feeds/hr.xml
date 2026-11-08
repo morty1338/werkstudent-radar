@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 11:37:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Recruiting &amp; KI (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/leon-feig-recruitment-services/werkstudent-recruiting-ki-berlin-355602</link>
+      <guid isPermaLink="false">an:werkstudent-recruiting-ki-berlin-355602</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Leon Feig Recruitment Services · Berlin · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Working Student, Recruiter (German-Speaking)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/the-global-talent-co/working-student-recruiter-german-speaking-berlin-330970</link>
+      <guid isPermaLink="false">an:working-student-recruiter-german-speaking-berlin-330970</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>The Global Talent Co. · Berlin · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Recruiting</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11868-13919882-S</link>
@@ -103,14 +119,6 @@
       <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>FERCHAU GmbH GB Aviation München · Garching bei München · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) für Englischtraining im Personalbereich, Thiemstrasse 111</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2372254-S</link>
-      <guid isPermaLink="false">12811-2372254-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Medizinische Universität Lausitz - Carl Thiem · Cottbus · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent People &amp; Culture (m/w/d), Ortivity</title>
