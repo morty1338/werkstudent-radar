@@ -6,15 +6,47 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
+      <title>Werkstudent Finance &amp; Risk (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-337dc341_JB5292792-S</link>
+      <guid isPermaLink="false">13635-337dc341_JB5292792-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Allane SE · München · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Praktikant/Werkstudent Finance (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-b2d0ea91_JB5294148-S</link>
+      <guid isPermaLink="false">13635-b2d0ea91_JB5294148-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Vilor GmbH · Köln · Finance &amp; Controlling</description>
+    </item>
+    <item>
       <title>Werkstudent im Kundenkontakt (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001B0K-S</link>
-      <guid isPermaLink="false">18024-10Q4800001B0K-S</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001B0L-S</link>
+      <guid isPermaLink="false">18024-10Q4800001B0L-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Sparkasse Hohenlohekreis · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-134501</link>
+      <guid isPermaLink="false">an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-134501</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Kevin Kehr · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-306891</link>
+      <guid isPermaLink="false">an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-306891</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Kevin Kehr · Hamburg · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent Tax Innovation - Garage for Tax &amp; Legal (m/w/d)</title>
@@ -111,14 +143,6 @@
       <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Robert Bosch GmbH · Wernau (Neckar) · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Finance &amp; Accounting (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/limehome/werkstudentin-finance-accounting-munchen-118498</link>
-      <guid isPermaLink="false">an:werkstudentin-finance-accounting-munchen-118498</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>limehome · München · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Working Student - Controlling (m/f/d)</title>
@@ -263,14 +287,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>TankE GmbH · Köln · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Finance (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21223-16901350-S</link>
-      <guid isPermaLink="false">21223-16901350-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>K.D. Pharma Bexbach GmbH · Bexbach · €15.50/h · Finance &amp; Controlling</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Strategieberatung Immobilien</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4992919089-S</link>
+      <guid isPermaLink="false">12288-4992919089-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Drees &amp; Sommer SE · Berlin · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent/-in (m/w/d) in der telefonischen Immobilienberatung (20 Stunden / Woche)</title>
       <link>https://www.arbeitnow.com/jobs/companies/immo-marketer/werkstudent-in-in-der-telefonischen-immobilienberatung-20-stunden-woche-bochum-331422</link>

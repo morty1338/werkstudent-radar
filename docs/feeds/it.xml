@@ -6,8 +6,56 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent IT (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003981910-S</link>
+      <guid isPermaLink="false">10001-1003981910-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Hexagon-IT GmbH · Westertimke · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) für die Unterstützung der Netzwerkaktivitäten</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13243-SDE-132452-JB-S</link>
+      <guid isPermaLink="false">13243-SDE-132452-JB-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Stadtwerke Aschaffenburg · Aschaffenburg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Business Solutions (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-8b4f66dd_JB5292788-S</link>
+      <guid isPermaLink="false">13635-8b4f66dd_JB5292788-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Allane SE · München · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) im Bereich IT</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18896-8660153-S</link>
+      <guid isPermaLink="false">18896-8660153-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>ME-Automation Projects GmbH · Fuldabrück · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>AI Internship/ KI Werksstudent (w/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/cepa-study-abroad-terra-education-europe-gmbh/ai-internship-ki-werksstudent-besigheim-318308</link>
+      <guid isPermaLink="false">an:ai-internship-ki-werksstudent-besigheim-318308</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>CEPA Study Abroad/ Terra Education Europe GmbH · Besigheim · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudentenstelle - Technische Kundenbetreuung / IT Support</title>
+      <link>https://www.arbeitnow.com/jobs/companies/projektron-gmbh/werkstudentenstelle-technische-kundenbetreuung-it-support-berlin-58194</link>
+      <guid isPermaLink="false">an:werkstudentenstelle-technische-kundenbetreuung-it-support-berlin-58194</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Projektron GmbH · Berlin · IT &amp; Software</description>
+    </item>
     <item>
       <title>Werkstudent - AI Manager Support (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/cbs-corporate-business-solutions-gmbh/werkstudent-ai-manager-support-heidelberg-113667</link>
@@ -23,6 +71,14 @@
       <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>cbs Corporate Business Solutions GmbH · Heidelberg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>ITARICON: Werkstudent IT Consulting &amp; Cloud Integration - SAP CI Umfeld (Mensch*)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3022631794006001-S</link>
+      <guid isPermaLink="false">11956-3022631794006001-S</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>ITARICON · Dresden · IT &amp; Software</description>
     </item>
     <item>
       <title>SoftwareOne Deutschland GmbH: Werkstudent (gn) Marketing</title>
@@ -225,7 +281,7 @@
       <description>SCHUMANN DE · Göttingen · €15.25/h · IT &amp; Software</description>
     </item>
     <item>
-      <title>Working Student Commercial Enablement - AI &amp; Automation</title>
+      <title>Werkstudent Commercial Enablement - AI &amp; Automation (f/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-9ae6af22-7ccc-45fb--S</link>
       <guid isPermaLink="false">12951-9ae6af22-7ccc-45fb--S</guid>
       <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
@@ -537,14 +593,6 @@
       <description>VDM Metals GmbH · Dortmund · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent*in: Full-Stack (Next.js) – Remote</title>
-      <link>https://www.arbeitnow.com/jobs/companies/itze-bits-gmbh/full-stack-entwicklerin-nextjs-remote-berlin-336824</link>
-      <guid isPermaLink="false">an:full-stack-entwicklerin-nextjs-remote-berlin-336824</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Itze-Bits GmbH · Berlin · €25.00/h · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Werkstudent:in Sales + Business Development - AI &amp; Software Solutions (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/aclue-gmbh/werkstudentin-sales-business-development-ai-software-solutions-cologne-402830</link>
       <guid isPermaLink="false">an:werkstudentin-sales-business-development-ai-software-solutions-cologne-402830</guid>
@@ -593,14 +641,6 @@
       <description>Mercedes-Benz Group AG · Böblingen · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent*in Kapazitätsmanagement Halbleiter</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1649921-1-S</link>
-      <guid isPermaLink="false">13151-1649921-1-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) Software Testing (manuell)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14343-2369396-S</link>
       <guid isPermaLink="false">14343-2369396-S</guid>
@@ -623,62 +663,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>AdKochMarketing GmbH · Hamburg · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent KI-Anwendungen (15-20 Wochenstunden) (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003946149-S</link>
-      <guid isPermaLink="false">10001-1003946149-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Rechenzentrum Hartmann GmbH &amp; Co. KG · Mönchengladbach · €17.50/h · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Working Student (f/m/d) - SAP Cloud ALM Operations Team</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1649668-1-S</link>
-      <guid isPermaLink="false">11070-1649668-1-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>SAP · St. Leon-Rot · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
-      <title>Bachelorand / Werkstudent / Praktikant (w/m/d) Generative KI und Digitalisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1001-1-S</link>
-      <guid isPermaLink="false">12728-1001-1-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>PreussenElektra GmbH Zentrale · Hannover · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent System Tester (m/w/d), corpuls Kaufering (Hauswiesenstraße)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2368753-S</link>
-      <guid isPermaLink="false">12811-2368753-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Corpuls · Kaufering · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent IT-Helpdesk m/w/d 15,29 EUR/Std.</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-414A254-S</link>
-      <guid isPermaLink="false">14751-414A254-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>3raum PersonalManagement KG · Würzburg · €15.67/h · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Working Student AI Automation &amp; Support (d/f/m)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/bettermile/working-student-ai-automation-support-berlin-19369</link>
-      <guid isPermaLink="false">an:working-student-ai-automation-support-berlin-19369</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Bettermile · Berlin · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
-      <title>Working Student QA in Mobile App Development (m|f|d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/idealo-internet-gmbh/working-student-qa-in-mobile-app-development-mfd-berlin-110910</link>
-      <guid isPermaLink="false">an:working-student-qa-in-mobile-app-development-mfd-berlin-110910</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>idealo internet GmbH · Berlin · IT &amp; Software · no German needed</description>
     </item>
   </channel>
 </rss>

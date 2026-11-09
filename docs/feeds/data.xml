@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Commercial Excellence – Digitalisierung &amp; Data</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-01fdc9ca_JB5293311-S</link>
+      <guid isPermaLink="false">13635-01fdc9ca_JB5293311-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Wanzl GmbH &amp; Co. KGaA · Leipheim · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Bachelorarbeit Data Science / Datenmanagement mit Werkstudententätigkeit (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14922-147067-S</link>
+      <guid isPermaLink="false">14922-147067-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Witt-Gruppe · Weiden in der Oberpfalz · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>GISA GmbH: Werkstudent:in Business Intelligence, Analytics und AI (m/w/d)*</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2985001794006001-S</link>

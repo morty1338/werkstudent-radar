@@ -6,15 +6,63 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
+      <title>Werkstudent (m/w/d) Prozessoptimierung unseres digitalen Werkstattmanagements</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003981805-S</link>
+      <guid isPermaLink="false">10001-1003981805-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Verkehrsunternehmen Wartburgmobil (VUW) gkAöR · Bad Salzungen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>GlobalFoundries Management Services GmbH &amp; Co. KG: Werkstudent*in Prozessintegration in der Halbleit</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3081761794178801-S</link>
+      <guid isPermaLink="false">11956-3081761794178801-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>GlobalFoundries Management Services GmbH &amp; Co. KG · Dresden · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Quality (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-ab6c08e0-ab4b-448a--S</link>
+      <guid isPermaLink="false">12951-ab6c08e0-ab4b-448a--S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Blackwave · Garching bei München · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Working Student Quality (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-136f481e_JB5293218-S</link>
+      <guid isPermaLink="false">13635-136f481e_JB5293218-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Blackwave GmbH · Garching bei München · Engineering &amp; Production · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent Netzmanagement (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-f610e56b_JB5294304-S</link>
+      <guid isPermaLink="false">13635-f610e56b_JB5294304-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Vilor GmbH · Köln · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) Testautomatisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160D-S</link>
-      <guid isPermaLink="false">18024-10Q7q0000160D-S</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160E-S</link>
+      <guid isPermaLink="false">18024-10Q7q0000160E-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Qualitätsmanagement / Qualitätssicherung (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/eugen-gutmann-gmbh/werkstudent-qualitatsmanagement-qualitatssicherung-leonberg-370121</link>
+      <guid isPermaLink="false">an:werkstudent-qualitatsmanagement-qualitatssicherung-leonberg-370121</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Eugen Gutmann GmbH · Leonberg · €17.00/h · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Working Student (w/m/d)</title>
@@ -247,14 +295,6 @@
       <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>thyssenkrupp AG Entgeltabrechnung · Dortmund · Engineering &amp; Production · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Verkehrstechnik</title>
-      <link>https://www.arbeitnow.com/jobs/companies/bernard-gruppe/werkstudent-verkehrstechnik-munchen-21986</link>
-      <guid isPermaLink="false">an:werkstudent-verkehrstechnik-munchen-21986</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>BERNARD Gruppe · München · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Qualitätskontrolle</title>
@@ -671,22 +711,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>thyssenkrupp Steel Europe AG · Duisburg · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) für den Bereich Engineering</title>
-      <link>https://www.arbeitnow.com/jobs/companies/ircagroup/werkstudent-fur-den-bereich-engineering-hochheim-am-main-germany-427397</link>
-      <guid isPermaLink="false">an:werkstudent-fur-den-bereich-engineering-hochheim-am-main-germany-427397</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Ircagroup · Hochheim am Main · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (d/m/w) im Bereich Instandhaltung von industriellen Anlagen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-980785752-S</link>
-      <guid isPermaLink="false">16947-980785752-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Airbus Operations GmbH Werk Bremen · Bremen · €19.10/h · Engineering &amp; Production</description>
     </item>
   </channel>
 </rss>

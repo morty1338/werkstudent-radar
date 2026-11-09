@@ -6,8 +6,80 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) im Recruiting / Sales / Placement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11119-4993702734-S</link>
+      <guid isPermaLink="false">11119-4993702734-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>DEKRA Arbeit GmbH · Freiburg · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Recruiting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-476236_JB5293866-S</link>
+      <guid isPermaLink="false">12265-476236_JB5293866-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>FERCHAU GmbH Niederlassung Schweinfurt · Schweinfurt · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Recruiting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-524158_JB5294030-S</link>
+      <guid isPermaLink="false">12265-524158_JB5294030-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>FERCHAU GmbH Niederlassung Darmstadt · Darmstadt · €15.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) für Englischtraining im Personalbereich, Thiemstrasse 111</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2374726-S</link>
+      <guid isPermaLink="false">12811-2374726-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Medizinische Universität Lausitz - Carl Thiem · Cottbus · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Personal (befristet für 12 Monate), Zentrale</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2374789-S</link>
+      <guid isPermaLink="false">12811-2374789-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>VOLKSWAGEN GROUP OTLG · Baunatal · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent HR: Controlling (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14922-147070-S</link>
+      <guid isPermaLink="false">14922-147070-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Witt-Gruppe · Weiden in der Oberpfalz · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Corporate Responsibility (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14922-147116-S</link>
+      <guid isPermaLink="false">14922-147116-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Witt-Gruppe · Weiden in der Oberpfalz · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Recruiting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635933-7878-1796-S</link>
+      <guid isPermaLink="false">15939-BB-635933-7878-1796-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Rheinmetall AG · Bremen · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Mitarbeiter Personalsuche als Werkstudentin /Minijob /TZ</title>
+      <link>https://www.arbeitnow.com/jobs/companies/abex-stahlbau-rohrbiegen-stadtmobel-gmbh/mitarbeiter-personalsuche-als-werkstudentin-minijob-tz-berlin-222352</link>
+      <guid isPermaLink="false">an:mitarbeiter-personalsuche-als-werkstudentin-minijob-tz-berlin-222352</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>ABEX Stahlbau-Rohrbiegen-Stadtmöbel GmbH · Berlin · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent Recruiting &amp; KI (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/leon-feig-recruitment-services/werkstudent-recruiting-ki-berlin-355602</link>
@@ -399,22 +471,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Inclusive Care · Essen · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Bereich Recruiting / Bewerbermanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4987600471-S</link>
-      <guid isPermaLink="false">12288-4987600471-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>RLE INTERNATIONAL Group · Bremen · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Personalmarketing / Recruiting, Thiemstrasse 111</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2368162-S</link>
-      <guid isPermaLink="false">12811-2368162-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Medizinische Universität Lausitz - Carl Thiem · Cottbus · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>

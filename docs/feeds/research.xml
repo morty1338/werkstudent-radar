@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Group Innovation (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4993271054-S</link>
+      <guid isPermaLink="false">12288-4993271054-S</guid>
+      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Müller Service GmbH · Freising · Research &amp; Science</description>
+    </item>
     <item>
       <title>Werkstudent / Werkstudentin (m/w/d) in der Umsetzung der Geldpolitik im Eurosystem</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20083-1651297-1-S</link>
@@ -63,30 +71,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Research &amp; Science</category>
       <description>nal von minden GmbH · Regensburg · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Bereich der Gleichstellung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003944523-S</link>
-      <guid isPermaLink="false">10001-1003944523-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Stadtverwaltung Worms · Worms · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>BSI-2026-115 - Werkstudentinnen / Werkstudenten (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003946817-S</link>
-      <guid isPermaLink="false">10001-1003946817-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Bundesverwaltungsamt · Freital · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent Rechtswissenschaften m/w/d 15,29 EUR/Std.</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-414A249-S</link>
-      <guid isPermaLink="false">14751-414A249-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>3raum PersonalManagement KG · Würzburg · €15.67/h · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 11:33:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>accompio GmbH: Werkstudent (m/w/d) Grafikdesign und Videoschnitt</title>
@@ -145,14 +145,6 @@
       <description>iT Engineering Software Innovations GmbH · Pliezhausen · Design &amp; UX</description>
     </item>
     <item>
-      <title>Intern/Working Student, Alpha Engineering Design Team</title>
-      <link>https://www.arbeitnow.com/jobs/companies/proxima-fusion-gmbh/intern-working-student-alpha-engineering-design-team-munich-387584</link>
-      <guid isPermaLink="false">an:intern-working-student-alpha-engineering-design-team-munich-387584</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Proxima Fusion GmbH · München · Design &amp; UX · no German needed</description>
-    </item>
-    <item>
       <title>Textil Design/ Mediengestaltung Werkstudent (M/W/D)</title>
       <link>https://www.arbeitnow.com/jobs/companies/corpotex-gmbh/textil-design-mediengestaltung-werkstudent-lahnau-63597</link>
       <guid isPermaLink="false">an:textil-design-mediengestaltung-werkstudent-lahnau-63597</guid>
@@ -175,14 +167,6 @@
       <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>Zeal Network · Design &amp; UX · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent – UX &amp; DesignOps (m/w/divers)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1631098-2-S</link>
-      <guid isPermaLink="false">13348-1631098-2-S</guid>
-      <pubDate>Mon, 02 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Lufthansa Technik AG · Hamburg · Design &amp; UX · no German needed</description>
     </item>
   </channel>
 </rss>
