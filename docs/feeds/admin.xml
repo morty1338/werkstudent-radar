@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 00:31:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) - Officemanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003992077-S</link>
+      <guid isPermaLink="false">10001-1003992077-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>therapiePUNKT GmbH · München · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Administration &amp; kaufmännische Prozesse</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003992423-S</link>
+      <guid isPermaLink="false">10001-1003992423-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>AVG Bau Goch GmbH · Duisburg · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent Dispute Management Visa (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003978903-S</link>

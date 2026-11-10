@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 00:31:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudierende (w/m/d) für den Bereich „Ideen- und Beschwerdemanagement"</title>
@@ -25,12 +25,36 @@
       <description>Siemens AG · Karlsruhe · Other</description>
     </item>
     <item>
+      <title>Working Student People Experience und Capability Enablement (f/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1071-1-S</link>
+      <guid isPermaLink="false">12728-1071-1-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>E.ON Digital Technology GmbH · Hannover · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Fitness &amp; Service Specialist (m/w/d) - Werkstudent</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-ea48eda4-9b47-4495--S</link>
+      <guid isPermaLink="false">12951-ea48eda4-9b47-4495--S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Fitness First Germany GmbH · Bretten · Other</description>
+    </item>
+    <item>
       <title>Werkstudent*in Internationale Transportplanung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1651773-1-S</link>
       <guid isPermaLink="false">13151-1651773-1-S</guid>
       <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Mercedes-Benz Group AG · Germersheim · Other</description>
+    </item>
+    <item>
+      <title>Intern/Werkstudent Partner Management (w/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/enter-by-baupal-gmbh/intern-werkstudent-partner-management-berlin-321465</link>
+      <guid isPermaLink="false">an:intern-werkstudent-partner-management-berlin-321465</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Enter by baupal GmbH · Berlin · Other</description>
     </item>
     <item>
       <title>Working Student – Program Management (m/f/d)</title>

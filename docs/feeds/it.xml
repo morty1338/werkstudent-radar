@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 00:31:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Finanzbuchhaltung mit SAP-Betreuung für Buchhaltung (m/w/x)</title>
@@ -15,6 +15,22 @@
       <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Bischöfliches Ordinariat Regensburg · Regensburg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent:in GIS (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003988642-S</link>
+      <guid isPermaLink="false">10001-1003988642-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>STRABAG AG Direktion Nds./Sachsen-Anhalt · Hannover · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Innovation &amp; Automatisierung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003988658-S</link>
+      <guid isPermaLink="false">10001-1003988658-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>STRABAG AG Direktion Nds./Sachsen-Anhalt · Hannover · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) Projektmanagement Rechenzentrum</title>
@@ -47,6 +63,30 @@
       <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Fressnapf Holding SE · Krefeld · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent IT (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635959-7878-1604-S</link>
+      <guid isPermaLink="false">15939-BB-635959-7878-1604-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Rheinmetall AG · Neuenstadt am Kocher · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent in der Digitalisierung und Logistikplanung (w/m/div.)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF300586W-aaedcae-S</link>
+      <guid isPermaLink="false">15986-REF300586W-aaedcae-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Robert Bosch GmbH · Lohr am Main · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent AI und Process Automation (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-976052-008-S</link>
+      <guid isPermaLink="false">16604-976052-008-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>TKMS ATLAS ELEKTRONIK GmbH · Bremen · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent* Software Engineering</title>

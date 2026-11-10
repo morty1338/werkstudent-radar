@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 00:31:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Lieferfahrer / Kurierfahrer in Leipzig – bis 20 Std./Woche</title>
@@ -55,6 +55,22 @@
       <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>KLC E-Commerce GmbH · Köln · €14.00/h · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudenten (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003991998-S</link>
+      <guid isPermaLink="false">10001-1003991998-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Norma Lebensmittelfilial- betrieb Stiftung &amp; Co. KG · Sigmaringendorf · €15.00/h · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Auslieferungsfahrer/-in (m/w/d) Minijob / Werkstudent / Rentner</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16230-0068657102-S</link>
+      <guid isPermaLink="false">16230-0068657102-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Kunststoffhandel Rexin GmbH · Dorsten · Retail &amp; Hospitality</description>
     </item>
     <item>
       <title>Werkstudent - Verkauf, Bäckerei (m/w/d) Dachau Bahnhof</title>

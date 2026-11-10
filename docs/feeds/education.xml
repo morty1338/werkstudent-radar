@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 00:31:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent / Studentenjob / Aushilfe (m/w/d) in der Kinderbetreuung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003989333-S</link>
+      <guid isPermaLink="false">10001-1003989333-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Pädagogische Kinderförderungsgesellschaft mbH · Stuttgart · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>IP-Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16818-100914006-S</link>
+      <guid isPermaLink="false">16818-100914006-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Knorr-Bremse Systeme für Schienenfahrzeuge GmbH · Pullach im Isartal · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudent/in (m/w/d) für das Jugendhaus</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208587258-S</link>
