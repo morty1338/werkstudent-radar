@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:31:44 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (gn) im Legal Team</title>
@@ -47,38 +47,6 @@
       <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
       <category>Legal</category>
       <description>HANSAINVEST -Hanseatische Investment-GmbH · Hamburg · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudentin/Werkstudent für den Bereich Mietrückstandsbearbeitung/Wohnberechtigungsscheine (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003944488-S</link>
-      <guid isPermaLink="false">10001-1003944488-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Stadtverwaltung Trier · Trier · Legal</description>
-    </item>
-    <item>
-      <title>Working Student (m/w/d) im Bereich Contract Services</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003948831-S</link>
-      <guid isPermaLink="false">10001-1003948831-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>DIEHL Informatik GmbH · Nürnberg · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Bereich Devices – PPWR-Konformitätserklärungen &amp; Verpackungs-Compliance</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-bb05811f_JB5288107-S</link>
-      <guid isPermaLink="false">13635-bb05811f_JB5288107-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Testo SE &amp; Co. KGaA · Titisee-Neustadt · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent Compliance Due Diligence (CDD) (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-634617-7878-1423-S</link>
-      <guid isPermaLink="false">15939-BB-634617-7878-1423-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Rheinmetall AG · Düsseldorf · Legal</description>
     </item>
   </channel>
 </rss>

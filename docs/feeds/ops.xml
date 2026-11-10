@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:31:44 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Mitnahmelager (m/w/d), Logistik Mitnahme</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2374875-S</link>
+      <guid isPermaLink="false">12811-2374875-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Weiterstadt · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent Operations (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kola-invest-gmbh/operations-manager-fur-warmecontracting-hamburg-185878</link>
+      <guid isPermaLink="false">an:operations-manager-fur-warmecontracting-hamburg-185878</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Kola Invest GmbH · Hamburg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Transformation &amp; Logistikoptimierung</title>
+      <link>https://www.arbeitnow.com/jobs/companies/currenta-gruppe/werkstudent-transformation-logistikoptimierung-leverkusen-231138</link>
+      <guid isPermaLink="false">an:werkstudent-transformation-logistikoptimierung-leverkusen-231138</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>CURRENTA GRUPPE · Leverkusen · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Einkauf</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003982055-S</link>
@@ -31,14 +55,6 @@
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>COPRO Immobilienmanagement GmbH · Stuttgart · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Lager</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-fd369600_JB5294303-S</link>
-      <guid isPermaLink="false">13635-fd369600_JB5294303-S</guid>
-      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Vilor GmbH · Unna · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent im Einkauf indirektes Material (m/w/d)</title>
@@ -239,38 +255,6 @@
       <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Skailark · München · €22.00/h · Operations &amp; Logistics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Customer Operations</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003949636-S</link>
-      <guid isPermaLink="false">10001-1003949636-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Heraeus Site Operations GmbH &amp; Co. KG HRdirekt · Hanau · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Fuhrparkmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14763-44546946-112-S</link>
-      <guid isPermaLink="false">14763-44546946-112-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Vonovia SE · Bochum · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Bereich Kontraktlogistik - Value Added Services</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15112-44546492-112-S</link>
-      <guid isPermaLink="false">15112-44546492-112-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Dachser SE Head Office · Schönefeld bei Berlin · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Product Operations: PV &amp; Wärmepumpe Modellierung(m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/re-green/werkstudent-product-operations-pv-warmepumpe-modellierung-frankfurt-am-main-217744</link>
-      <guid isPermaLink="false">an:werkstudent-product-operations-pv-warmepumpe-modellierung-frankfurt-am-main-217744</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>re-green · Frankfurt am Main · €17.50/h · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

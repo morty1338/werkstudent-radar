@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:31:44 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (w/m/d) Strategieberatung Immobilien</title>
@@ -57,14 +57,6 @@
       <description>Zweitag GmbH · Münster · Consulting &amp; Strategy</description>
     </item>
     <item>
-      <title>Werkstudent (w/m/d) im Bereich strategischer Einkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1650392-1-S</link>
-      <guid isPermaLink="false">12465-1650392-1-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Siemens AG · Leipzig · Consulting &amp; Strategy</description>
-    </item>
-    <item>
       <title>Working Student (f/m/d) PLM Strategy</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1650394-1-S</link>
       <guid isPermaLink="false">12465-1650394-1-S</guid>
@@ -87,38 +79,6 @@
       <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Sonar Real Estate GmbH · Hamburg · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent Innovation &amp; Strategie (m/w/d/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1638767-2-S</link>
-      <guid isPermaLink="false">13151-1638767-2-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Mercedes-Benz Group AG · Stuttgart · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Security Consulting | Sicherheitsberatung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13465-00021a699fb001-S</link>
-      <guid isPermaLink="false">13465-00021a699fb001-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>WISAG Job &amp; Karriere GmbH &amp; Co. KG · Frankfurt am Main · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent Unternehmensentwicklung / Strategy (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14910-2EWZRN3XDG2B35Z9-S</link>
-      <guid isPermaLink="false">14910-2EWZRN3XDG2B35Z9-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Inotec Industrieanlagentechnik GmbH · Neuss · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent Strategic Foresight &amp; Market Intelligence (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635867-7878-7173-S</link>
-      <guid isPermaLink="false">15939-BB-635867-7878-7173-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Rheinmetall AG · Bremen · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

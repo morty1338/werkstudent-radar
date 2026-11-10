@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:31:44 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent UI/UX &amp; Teamassistenz (m/w/d/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1639011-2-S</link>
+      <guid isPermaLink="false">13151-1639011-2-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Mercedes-Benz Group AG · Ulm · Design &amp; UX</description>
+    </item>
     <item>
       <title>accompio GmbH: Werkstudent (m/w/d) Grafikdesign und Videoschnitt</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3092011794006000-S</link>
@@ -127,46 +135,6 @@
       <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>ABRIO GmbH · Frankfurt am Main · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent UX/UI Design (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-5427803e_JB5288230-S</link>
-      <guid isPermaLink="false">13635-5427803e_JB5288230-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>LivEye GmbH · Föhren bei Trier · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Design und Marketing</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-349368-S</link>
-      <guid isPermaLink="false">13884-349368-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>iT Engineering Software Innovations GmbH · Pliezhausen · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Textil Design/ Mediengestaltung Werkstudent (M/W/D)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/corpotex-gmbh/textil-design-mediengestaltung-werkstudent-lahnau-63597</link>
-      <guid isPermaLink="false">an:textil-design-mediengestaltung-werkstudent-lahnau-63597</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>CorpoTex GmbH · Lahnau · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) Design, Visuelle Gestaltung &amp; Marketing</title>
-      <link>https://www.arbeitnow.com/jobs/companies/convercus/werkstudentin-design-visuelle-gestaltung-marketing-berlin-147722</link>
-      <guid isPermaLink="false">an:werkstudentin-design-visuelle-gestaltung-marketing-berlin-147722</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Convercus · Berlin · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Working Student - Media Design (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/zeal-network/working-student-media-design-hamburg-84950</link>
-      <guid isPermaLink="false">an:working-student-media-design-hamburg-84950</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Zeal Network · Design &amp; UX · no German needed</description>
     </item>
   </channel>
 </rss>

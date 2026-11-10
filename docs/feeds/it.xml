@@ -6,8 +6,56 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:31:44 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Finanzbuchhaltung mit SAP-Betreuung für Buchhaltung (m/w/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208600057-S</link>
+      <guid isPermaLink="false">10000-1208600057-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Bischöfliches Ordinariat Regensburg · Regensburg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Projektmanagement Rechenzentrum</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4993812811-S</link>
+      <guid isPermaLink="false">12288-4993812811-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Drees &amp; Sommer SE · Frankfurt am Main · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) KI-gestützte Software- und Plattformentwicklung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1646595-2-S</link>
+      <guid isPermaLink="false">12465-1646595-2-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · Braunschweig · €15.00/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d)  im Bereich Software Entwicklung und Projektleitung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1651848-1-S</link>
+      <guid isPermaLink="false">12465-1651848-1-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · Erlangen · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent:in HR IT (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12489-44563332-119-S</link>
+      <guid isPermaLink="false">12489-44563332-119-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Fressnapf Holding SE · Krefeld · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent* Software Engineering</title>
+      <link>https://www.arbeitnow.com/jobs/companies/accso-accelerated-solutions-gmbh/werkstudent-software-engineering-darmstadt-210512</link>
+      <guid isPermaLink="false">an:werkstudent-software-engineering-darmstadt-210512</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Accso – Accelerated Solutions GmbH · Darmstadt · IT &amp; Software</description>
+    </item>
     <item>
       <title>Werkstudent IT (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003981910-S</link>
@@ -607,62 +655,6 @@
       <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>idealo internet GmbH · Berlin · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Corporate Environment Health and Safety IT-Administration</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003949073-S</link>
-      <guid isPermaLink="false">10001-1003949073-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Heraeus Business Solutions GmbH HRdirekt · Hanau · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) TaxTech, KI &amp; Digitalisierung in der Steuerberatung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003950385-S</link>
-      <guid isPermaLink="false">10001-1003950385-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>awicontax GmbH &amp; Co. KG Sindelfingen Steuerberatungsgesellschaft · Sindelfingen · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent KI-Entwicklung für Multi-Agenten-Systeme in der Triebwerkserprobung (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-23ae1766-dfde-4b1a--S</link>
-      <guid isPermaLink="false">12951-23ae1766-dfde-4b1a--S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>MTU Aero Engines AG · München · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Transportlogistik mit Schwerpunkt Centerkoordination und Digitalisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1649349-1-S</link>
-      <guid isPermaLink="false">13151-1649349-1-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Mercedes-Benz Group AG · Böblingen · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Software Testing (manuell)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14343-2369396-S</link>
-      <guid isPermaLink="false">14343-2369396-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>TOI TOI &amp; DIXI Group GmbH · Ratingen · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent IT-Consulting im Kundenservice (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19236-k58963.1496-S</link>
-      <guid isPermaLink="false">19236-k58963.1496-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>SEC Service Enterprise Consulting GmbH · Walldorf · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent AI &amp; Automation (m/w/d) n8n, Make, Zapier</title>
-      <link>https://www.arbeitnow.com/jobs/companies/adkochmarketing-gmbh/werkstudent-ai-automation-n8n-make-zapier-hamburg-232004</link>
-      <guid isPermaLink="false">an:werkstudent-ai-automation-n8n-make-zapier-hamburg-232004</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>AdKochMarketing GmbH · Hamburg · IT &amp; Software</description>
     </item>
   </channel>
 </rss>

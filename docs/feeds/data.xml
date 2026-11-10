@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:31:44 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Valuation</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4993793346-S</link>
+      <guid isPermaLink="false">12288-4993793346-S</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>HANSAINVEST · Hamburg · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Commercial Excellence – Digitalisierung &amp; Data</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-01fdc9ca_JB5293311-S</link>
@@ -137,14 +145,6 @@
       <description>Bundesgesellschaft für Endlag erung mbH (BGE) · Peine · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Werkstudent (w/m/d) Digitalisierung, Data &amp; AI im Bereich Supply Chain Management</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1649395-1-S</link>
-      <guid isPermaLink="false">12465-1649395-1-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Siemens AG · Berlin · Data &amp; Analytics</description>
-    </item>
-    <item>
       <title>Werkstudent KI, Automatisierung &amp; Data Analytics (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/e-m-c-direct-gmbh-co-kg/werkstudent-ki-automatisierung-data-analytics-dorsten-329449</link>
       <guid isPermaLink="false">an:werkstudent-ki-automatisierung-data-analytics-dorsten-329449</guid>
@@ -159,38 +159,6 @@
       <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Linehub · Oldenburg · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Data &amp; AI - Group Procurement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003949221-S</link>
-      <guid isPermaLink="false">10001-1003949221-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Heraeus Business Solutions GmbH HRdirekt · Hanau · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>GlobalFoundries Management Services GmbH &amp; Co. KG: Werkstudent*in im Bereich TCAD – Machine Learning</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3078511793660401-S</link>
-      <guid isPermaLink="false">11956-3078511793660401-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>GlobalFoundries Management Services GmbH &amp; Co. KG · Dresden · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Entwicklung einer Engineering- und Datenintegrationsplattform (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-fb2aec0d-9672-430b--S</link>
-      <guid isPermaLink="false">12951-fb2aec0d-9672-430b--S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>MTU Aero Engines AG · München · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Working Student - Business Analyst (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/working-student-business-analyst-dusseldorf-north-rhine-westphalia-109744</link>
-      <guid isPermaLink="false">an:working-student-business-analyst-dusseldorf-north-rhine-westphalia-109744</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Teampicnic · Düsseldorf · €15.50/h · Data &amp; Analytics · no German needed</description>
     </item>
   </channel>
 </rss>

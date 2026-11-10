@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 13:23:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:31:44 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent im Vertrieb (m/w/d) sofort</title>
@@ -183,22 +183,6 @@
       <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Amber · Köln · €16.00/h · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent / Sales Assistant (m/w/d) - Street One und CECIL in Nürnberg</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003954906-S</link>
-      <guid isPermaLink="false">10001-1003954906-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>CBR Service GmbH · Nürnberg · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Kundenbetreuung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-10c0d355_JB5286616-S</link>
-      <guid isPermaLink="false">13635-10c0d355_JB5286616-S</guid>
-      <pubDate>Tue, 03 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Redion · Rostock · €16.00/h · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>
