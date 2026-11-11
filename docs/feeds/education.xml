@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:22:22 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent / Studentenjob / Aushilfe (m/w/d) in der Kinderbetreuung</title>
@@ -71,38 +71,6 @@
       <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
       <category>Education &amp; Social</category>
       <description>Chancenwerk e.V. · Castrop-Rauxel · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Ergänzungskraft / Werkstudent (m/w/d) als Nachtwache für koedukative Wohngruppe/Inobhutnahme</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003959160-S</link>
-      <guid isPermaLink="false">10001-1003959160-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Diakonie Michaelshoven e.V. · Köln · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Verwaltung – Schwerpunkt Sozialrecht</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003962278-S</link>
-      <guid isPermaLink="false">10001-1003962278-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>PAZ Pflegerische Ambulanzzentren GmbH · Ludwigsburg · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Fortbildungsmanagement – Schulbegleitung in Düsseldorf - Stadtmitte</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-acc04045_JB5289756-S</link>
-      <guid isPermaLink="false">13635-acc04045_JB5289756-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Caritasverband Düsseldorf e.V. · Düsseldorf · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Fortbildung in der Erwachsenenbildung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14795-71065_125107-S</link>
-      <guid isPermaLink="false">14795-71065_125107-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Bezirksamt Spandau von Berlin Abt. PersFinWiFö - PS II Abr.- · Berlin · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:22:22 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in Consulting (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-23cd1942_JB5295709-S</link>
+      <guid isPermaLink="false">13635-23cd1942_JB5295709-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>]init[ AG · Hamburg · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent People und Culture Strategic Projects (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-976333-008-S</link>
+      <guid isPermaLink="false">16604-976333-008-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>TKMS GmbH · Hamburg · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent:in Fiskalberatung (m/w/d) - AI focus</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-W1XKE2-9DQ-S</link>
@@ -49,52 +65,12 @@
       <description>VitaForst International Management of Forest &amp; Landscape e.K. · Zülpich · €18.00/h · Consulting &amp; Strategy</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) im Kundensupport / Anwendungsberatung - flexible Arbeitszeiten</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12076-20230414734-S</link>
-      <guid isPermaLink="false">12076-20230414734-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Data Dialog EDV-Systeme GmbH · Schkeuditz · Consulting &amp; Strategy</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) strategisches Partnermanagement</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-5cbba42f_JB5290774-S</link>
       <guid isPermaLink="false">13635-5cbba42f_JB5290774-S</guid>
       <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Glasfaser NordWest GmbH &amp; Co. KG · Oldenburg (Oldb) · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent AI Consulting / AI Adoption (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003955156-S</link>
-      <guid isPermaLink="false">10001-1003955156-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Zweitag GmbH · Münster · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Working Student (f/m/d) PLM Strategy</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1650394-1-S</link>
-      <guid isPermaLink="false">12465-1650394-1-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Siemens AG · Erlangen · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent Strategischer Einkauf - Supplier Management, Hamburg</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2370184-S</link>
-      <guid isPermaLink="false">12811-2370184-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>LESER GmbH &amp; Co. KG · Hamburg · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent/in (w/m/d) Fund Management / Strategy &amp; Sustainability</title>
-      <link>https://www.arbeitnow.com/jobs/companies/sonar-real-estate-gmbh/werkstudent-in-fund-management-strategy-sustainability-hamburg-156982</link>
-      <guid isPermaLink="false">an:werkstudent-in-fund-management-strategy-sustainability-hamburg-156982</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Sonar Real Estate GmbH · Hamburg · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

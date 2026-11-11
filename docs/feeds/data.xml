@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:22:22 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Bildverarbeitung &amp; KI – Labor und Bilddaten</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003997544-S</link>
+      <guid isPermaLink="false">10001-1003997544-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>phil-vision GmbH · Puchheim · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Digitale Transformation und Data Engineering (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-885-2-S</link>
+      <guid isPermaLink="false">12728-885-2-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>E.ON SE · Essen · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent / Praktikant (m/w/d) – PPWR-Datenmanagement &amp; Verpackungs-Compliance</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003990180-S</link>
@@ -55,14 +71,6 @@
       <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>GISA GmbH · Chemnitz · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Outbound Logistik Digitalisierung &amp; Künstliche Intelligenz</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1650942-1-S</link>
-      <guid isPermaLink="false">13151-1650942-1-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Mercedes-Benz Group AG · Böblingen · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent AI &amp; Machine Learning (m/w/d)</title>
@@ -159,22 +167,6 @@
       <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Bundesgesellschaft für Endlag erung mbH (BGE) · Peine · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent KI, Automatisierung &amp; Data Analytics (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/e-m-c-direct-gmbh-co-kg/werkstudent-ki-automatisierung-data-analytics-dorsten-329449</link>
-      <guid isPermaLink="false">an:werkstudent-ki-automatisierung-data-analytics-dorsten-329449</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>E-M-C-direct GmbH &amp; Co. KG · Dorsten · €14.60/h · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Working Student Data Operations &amp; Process Support</title>
-      <link>https://www.arbeitnow.com/jobs/companies/linehub/working-student-data-operations-process-support-oldenburg-450740</link>
-      <guid isPermaLink="false">an:working-student-data-operations-process-support-oldenburg-450740</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Linehub · Oldenburg · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

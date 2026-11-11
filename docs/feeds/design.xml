@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:22:22 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Marketing (m/w/d) - Social Media Content Creation (Video)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16470-44566949-1110-S</link>
+      <guid isPermaLink="false">16470-44566949-1110-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Telefónica Germany GmbH &amp; Co. OHG · München · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent Content Creation – Social Media &amp; Video (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/die-gruppe-werbeagentur-gmbh/werkstudent-content-creation-social-media-video-leinfelden-echterdingen-342509</link>
+      <guid isPermaLink="false">an:werkstudent-content-creation-social-media-video-leinfelden-echterdingen-342509</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Die Gruppe Werbeagentur GmbH · Leinfelden-Echterdingen · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent UI/UX Design (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/nulegal-gmbh/werkstudent-ui-ux-design-berlin-395445</link>
+      <guid isPermaLink="false">an:werkstudent-ui-ux-design-berlin-395445</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Nulegal GmbH · Potsdam · Design &amp; UX · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent UI/UX &amp; Teamassistenz (m/w/d/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1639011-2-S</link>
@@ -111,30 +135,6 @@
       <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>væridion · Delft · Design &amp; UX · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Mediendesign und Marketing (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003955928-S</link>
-      <guid isPermaLink="false">10001-1003955928-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>GINGER HPC GmbH · Harburg (Schwaben) · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent UX/UI Design (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/abrio-gmbh/werkstudent-ux-ui-design-frankfurt-114939</link>
-      <guid isPermaLink="false">an:werkstudent-ux-ui-design-frankfurt-114939</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>ABRIO GmbH · Frankfurt am Main · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent UX/UI Design (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/abrio-gmbh/werkstudent-ux-ui-design-frankfurt-160361</link>
-      <guid isPermaLink="false">an:werkstudent-ux-ui-design-frankfurt-160361</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>ABRIO GmbH · Frankfurt am Main · Design &amp; UX</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,136 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:22:22 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Webentwicklung / WordPress (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003995059-S</link>
+      <guid isPermaLink="false">10001-1003995059-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>sensatus GmbH · Detmold · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent EHS (w/m/d) Arbeitssicherheit, Umwelt- und Gesundheitsschutz</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003995838-S</link>
+      <guid isPermaLink="false">10001-1003995838-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>E.I.S. Electronics GmbH · Bremerhaven · €15.73/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Cybersecurity &amp; Informationssicherheit</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003996227-S</link>
+      <guid isPermaLink="false">10001-1003996227-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>BMZ Battery Solutions Germany GmbH · Karlstein am Main · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Wirtschaftsinformatik (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003996240-S</link>
+      <guid isPermaLink="false">10001-1003996240-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>IPG Photonics GmbH &amp; Co. KG · Burbach · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Anwendungsentwicklung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003996784-S</link>
+      <guid isPermaLink="false">10001-1003996784-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>SIGNAL IDUNA Krankenversicherung a. G. · Dortmund · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>#WHE2601 | Werkstudent*in (m/w/d) in Digitalisierungsprojekten</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4994447048-S</link>
+      <guid isPermaLink="false">12288-4994447048-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>THOST Projektmanagement GmbH · Stuttgart · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) im Bereich Software-/KI-Entwicklung für Business Applikationen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1652270-1-S</link>
+      <guid isPermaLink="false">12465-1652270-1-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · Leipzig · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Supply Chain Digitalization</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1652710-1-S</link>
+      <guid isPermaLink="false">12465-1652710-1-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · Erlangen · €15.00/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Infrastrukturplanung &amp; Digitalisierung (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-e00ee1fc-8401-4cbf--S</link>
+      <guid isPermaLink="false">12951-e00ee1fc-8401-4cbf--S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Blackwave · Garching bei München · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) ERP-Umstellung &amp; Anwenderdokumentation | 20 h/Woche</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-ebc65fbb-39d8-46c4--S</link>
+      <guid isPermaLink="false">12951-ebc65fbb-39d8-46c4--S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Getreide AG · Wurzen · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent CarIT Security – Cyber Security Pentesting (m/w/d/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1652383-1-S</link>
+      <guid isPermaLink="false">13151-1652383-1-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Mercedes-Benz Group AG · Ulm · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent IT Vertrieb (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44566081-1110-S</link>
+      <guid isPermaLink="false">15086-44566081-1110-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Bechtle AG · Koblenz am Rhein · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent IT-System-Management / IT &amp; Business (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/octogate-it-security-systems-gmbh/werkstudent-it-system-management-it-business-33100-412595</link>
+      <guid isPermaLink="false">an:werkstudent-it-system-management-it-business-33100-412595</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>OctoGate IT Security Systems GmbH · 33100 · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent IT-Systemadministration (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/mintcode-solutions-gmbh/werkstudent-it-systemadministration-haselunne-444668</link>
+      <guid isPermaLink="false">an:werkstudent-it-systemadministration-haselunne-444668</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>MintCode Solutions GmbH · Haselünne · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) SPS-Programmierung</title>
+      <link>https://www.arbeitnow.com/jobs/companies/ee-technik-gmbh/werkstudent-sps-programmierung-norderstedt-44001</link>
+      <guid isPermaLink="false">an:werkstudent-sps-programmierung-norderstedt-44001</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>ee technik gmbh · Norderstedt · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Working Student - IT Asset &amp; Stock Management (x/f/m)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/doctolib/working-student-it-asset-stock-management-berlin-426140</link>
+      <guid isPermaLink="false">an:working-student-it-asset-stock-management-berlin-426140</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Doctolib · Berlin · €15.00/h · IT &amp; Software</description>
+    </item>
     <item>
       <title>Werkstudent Finanzbuchhaltung mit SAP-Betreuung für Buchhaltung (m/w/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208600057-S</link>
@@ -233,28 +361,12 @@
       <description>Airbus Defence and Space GmbH · München · IT &amp; Software · no German needed</description>
     </item>
     <item>
-      <title>Werkstudent IT-System-Management / IT &amp; Business (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/octogate-it-security-systems-gmbh/werkstudent-it-system-management-it-business-33100-205352</link>
-      <guid isPermaLink="false">an:werkstudent-it-system-management-it-business-33100-205352</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>OctoGate IT Security Systems GmbH · 33100 · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Working Student IT Helpdesk (m/f/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/isaraerospace/working-student-it-helpdesk-parsdorf-bavaria-297730</link>
       <guid isPermaLink="false">an:working-student-it-helpdesk-parsdorf-bavaria-297730</guid>
       <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>isaraerospace · Parsdorf · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
-      <title>Working Student - Network Planning (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/flix/working-student-network-planning-berlin-40063</link>
-      <guid isPermaLink="false">an:working-student-network-planning-berlin-40063</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Flix · Berlin · IT &amp; Software · no German needed</description>
     </item>
     <item>
       <title>Working Student Platform Engineering &amp; DevOps (m/w/d)</title>
@@ -345,14 +457,6 @@
       <description>Müller Service GmbH · Fischach · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent (w/m/d) Cybersecurity</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1601249-3-S</link>
-      <guid isPermaLink="false">12465-1601249-3-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Siemens AG · Braunschweig · €15.00/h · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Werkstudent (w/m/d) Softwareentwicklung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1639341-2-S</link>
       <guid isPermaLink="false">12465-1639341-2-S</guid>
@@ -441,14 +545,6 @@
       <description>BIGFOOD Produktions GmbH · Hamburg · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) – Konfiguration Netzwerkgeräte &amp; IT-Komponenten (Helpdesk &amp; Staging)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003967326-S</link>
-      <guid isPermaLink="false">10001-1003967326-S</guid>
-      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>VTIS GmbH · Dortmund · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Werkstudent Product Development (x|w|m)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003968614-S</link>
       <guid isPermaLink="false">10001-1003968614-S</guid>
@@ -521,14 +617,6 @@
       <description>Hamburger Energienetze GmbH · Hamburg · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent Projektmanagement SAP (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14893-0068555257-S</link>
-      <guid isPermaLink="false">14893-0068555257-S</guid>
-      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Agaplesion Management und Beratungsgesellschaft mbH · Frankfurt am Main · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Werkstudent im Bereich Industrial Engineering und Digitalisierung (w/m/div.)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF300185A-9db14bf-S</link>
       <guid isPermaLink="false">15986-REF300185A-9db14bf-S</guid>
@@ -567,134 +655,6 @@
       <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Nhas City Chicken (1993) · Berlin · €18.50/h · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Praktikanten / Werkstudenten Audit &amp; Advisory - IT &amp; Controls Assurance (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003957166-S</link>
-      <guid isPermaLink="false">10001-1003957166-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Baker Tilly Holding GmbH Wirtschaftsprüfungs- gesellschaft · Düsseldorf · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Softwaretesting</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003959649-S</link>
-      <guid isPermaLink="false">10001-1003959649-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Rolls-Royce Deutschland Ltd &amp; Co. KG · Friedrichshafen · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Arbeitssicherheit/EHS (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003960272-S</link>
-      <guid isPermaLink="false">10001-1003960272-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>IFT GmbH · Dresden · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) - Security Tooling / 1671</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003960949-S</link>
-      <guid isPermaLink="false">10001-1003960949-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>IONOS SE · Berlin · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent QHSE (m/w/d) - Bremen, BRE</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2370183-S</link>
-      <guid isPermaLink="false">12811-2370183-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>KLN Freight Germany GmbH · Bremen · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Software Engineering: Analyse- &amp; KI-Tools</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1650078-1-S</link>
-      <guid isPermaLink="false">13151-1650078-1-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Lieferantenmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1650084-1-S</link>
-      <guid isPermaLink="false">13151-1650084-1-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Mercedes-Benz Group AG · Germersheim · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Softwareentwicklung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1650338-1-S</link>
-      <guid isPermaLink="false">13151-1650338-1-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Integration &amp; Verifikation (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635872-7878-2696-S</link>
-      <guid isPermaLink="false">15939-BB-635872-7878-2696-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Rheinmetall AG · Bremen · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent IT-Consulting (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16818-100913646-S</link>
-      <guid isPermaLink="false">16818-100913646-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>doubleSlash Net-Business GmbH · München · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (d/m/w), (Generative) Softwareentwicklung &amp; MBSE – Fokus Java</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-981056481-S</link>
-      <guid isPermaLink="false">16947-981056481-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Airbus Defence and Space GmbH · Ulm · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Working Student (d/f/m) - Software Development in the area of Mass Properties</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-981061354-S</link>
-      <guid isPermaLink="false">16947-981061354-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Airbus Defence and Space GmbH · Manching · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Softwareentwicklung Web- und mobile Anwendungen (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18340-20241a162387e6d2f07-S</link>
-      <guid isPermaLink="false">18340-20241a162387e6d2f07-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>JUMO GmbH &amp; Co. KG · Fulda · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent KI (m|w|d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19041-44549200-113-S</link>
-      <guid isPermaLink="false">19041-44549200-113-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>VDM Metals GmbH · Dortmund · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Sales + Business Development - AI &amp; Software Solutions (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/aclue-gmbh/werkstudentin-sales-business-development-ai-software-solutions-cologne-402830</link>
-      <guid isPermaLink="false">an:werkstudentin-sales-business-development-ai-software-solutions-cologne-402830</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Aclue GmbH · Köln · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Working Student QA in Mobile App Development (m|w|d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/idealo-internet-gmbh/working-student-qa-in-mobile-app-development-mwd-berlin-79055</link>
-      <guid isPermaLink="false">an:working-student-qa-in-mobile-app-development-mwd-berlin-79055</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>idealo internet GmbH · Berlin · IT &amp; Software · no German needed</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:22:22 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent*in - Gefäßchirurgie</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208627566-S</link>
+      <guid isPermaLink="false">10000-1208627566-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Vivantes Netzwerk für Gesundheit GmbH · Berlin · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Werkstudent mit dem Studienfach Psychologie (m,w,d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003997534-S</link>
+      <guid isPermaLink="false">10001-1003997534-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Impuls Reha &amp; Arbeit gGmbH · Hamburg · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Werkstudent Arbeitsmedizin (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-8d72bbc6-293a-4063--S</link>
+      <guid isPermaLink="false">12951-8d72bbc6-293a-4063--S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>MTU Aero Engines AG · München · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Werkstudent Erstellung Gesundheitsberichte (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14089-01510758-S</link>
+      <guid isPermaLink="false">14089-01510758-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Stadt Mannheim · Mannheim · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Werkstudent:in (m/w/d) Psychologie Altersmedizin</title>
+      <link>https://www.arbeitnow.com/jobs/companies/caritas-gesundheit-berlin-ggmbh/werkstudentin-psychologie-altersmedizin-berlin-268251</link>
+      <guid isPermaLink="false">an:werkstudentin-psychologie-altersmedizin-berlin-268251</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Caritas Gesundheit Berlin gGmbH · Berlin · Health &amp; Care</description>
+    </item>
     <item>
       <title>Werkstudent/Pflichtpraktikum Therapeutischer Bereich und Unternehmens- und Organisationsentwicklung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003975748-S</link>
@@ -39,14 +79,6 @@
       <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
       <category>Health &amp; Care</category>
       <description>MAN Truck &amp; Bus · München · €18.00/h · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent Krankenhausmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003961936-S</link>
-      <guid isPermaLink="false">10001-1003961936-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Heidekreis-Klinikum GmbH Krankenhäuser Soltau und Walsrode · Walsrode · Health &amp; Care</description>
     </item>
   </channel>
 </rss>

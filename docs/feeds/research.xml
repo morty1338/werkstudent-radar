@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:22:22 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-a1302465-0858-4cd9--S</link>
+      <guid isPermaLink="false">12951-a1302465-0858-4cd9--S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Bureau Veritas Germany Holding GmbH · Hamburg · Research &amp; Science</description>
+    </item>
     <item>
       <title>Werkstudent Group Innovation (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4993271054-S</link>
@@ -47,14 +55,6 @@
       <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
       <category>Research &amp; Science</category>
       <description>engineering people GmbH · Hardthausen am Kocher · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent Innovationsmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4989500975-S</link>
-      <guid isPermaLink="false">12288-4989500975-S</guid>
-      <pubDate>Wed, 04 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Deutscher Sparkassen Verlag GmbH · Stuttgart · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

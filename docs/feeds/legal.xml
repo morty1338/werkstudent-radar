@@ -6,10 +6,26 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 12:22:22 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
-      <title>Werkstudent (gn) im Legal Team</title>
+      <title>Werkstudent Legal / Recht (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003996159-S</link>
+      <guid isPermaLink="false">10001-1003996159-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>IPG Photonics GmbH &amp; Co. KG · Burbach · Legal</description>
+    </item>
+    <item>
+      <title>Working student (d/f/m) for the legal team in Bremen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-982568235-S</link>
+      <guid isPermaLink="false">16947-982568235-S</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Airbus Defence and Space GmbH · Bremen · Legal</description>
+    </item>
+    <item>
+      <title>Werkstudent (gn) Rechtsabteilung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-90262fc4-4ee7-4243--S</link>
       <guid isPermaLink="false">12951-90262fc4-4ee7-4243--S</guid>
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
