@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 12:22:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 13:09:29 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) offene Jugendarbeit im Jugendtreff Nordend</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004002740-S</link>
+      <guid isPermaLink="false">10001-1004002740-S</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Stadtverwaltung Worms · Worms · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996074256-S</link>
+      <guid isPermaLink="false">12288-4996074256-S</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>PERMACON GmbH Frankfurt · Frankfurt am Main · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) für Siemens Professional Education / Ausbildungsabteilung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1653067-1-S</link>
+      <guid isPermaLink="false">12465-1653067-1-S</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Siemens AG · Düsseldorf · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Global Training Coordination</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-349966-S</link>
+      <guid isPermaLink="false">13884-349966-S</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>ProMinent GmbH · Heidelberg · €18.49/h · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Kundenbetreuer:in (w/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/enpal/werkstudentin-kundenbetreuerin-berlin-348465</link>
+      <guid isPermaLink="false">an:werkstudentin-kundenbetreuerin-berlin-348465</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Enpal · Berlin · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudent / Studentenjob / Aushilfe (m/w/d) in der Kinderbetreuung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003989333-S</link>
@@ -55,22 +95,6 @@
       <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
       <category>Education &amp; Social</category>
       <description>Cornelsen Verlag GmbH · Berlin · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent:in für pädagogisch-psychologische Praxis</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003965403-S</link>
-      <guid isPermaLink="false">10001-1003965403-S</guid>
-      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Praxis Junge Büffel · Wiesbaden · €21.50/h · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Pädagogische:r Werkstudent:in (m/w/d)/ Trainer:in (m/w/d) Veranstaltungen für Erziehungsberechtigte</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15167-0068574927-S</link>
-      <guid isPermaLink="false">15167-0068574927-S</guid>
-      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Chancenwerk e.V. · Castrop-Rauxel · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

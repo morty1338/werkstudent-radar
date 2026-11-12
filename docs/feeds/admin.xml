@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 12:22:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 13:09:29 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Empfang &amp; Standortorganisation (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996077309-S</link>
+      <guid isPermaLink="false">12288-4996077309-S</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>CGI · Erfurt · €16.00/h · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Umweltpreis (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14089-01511333-S</link>
+      <guid isPermaLink="false">14089-01511333-S</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Deutsche Stiftung für Engagement und Ehrenamt · Neustrelitz · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003997964-S</link>
@@ -103,30 +119,6 @@
       <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>wiwi consult GmbH &amp; Co. KG · Mainz · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Verwaltung &amp; Büroorganisation (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003963152-S</link>
-      <guid isPermaLink="false">10001-1003963152-S</guid>
-      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Autocenter Heuberg GmbH · Villingen-Schwenningen · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Non Food Samples Administration (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11937-35244_59586-1-S</link>
-      <guid isPermaLink="false">11937-35244_59586-1-S</guid>
-      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Tchibo GmbH Abteilung HRO/HRO-P · Hamburg · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d), Mainz</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2371527-S</link>
-      <guid isPermaLink="false">12811-2371527-S</guid>
-      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>DAL · Mainz · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

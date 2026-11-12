@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 12:22:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 13:09:29 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudentin / Werkstudent (m/w/d) juristische Unterstützung – Mitgliedschaft und Beitrag</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004004288-S</link>
+      <guid isPermaLink="false">10001-1004004288-S</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Berufsgenossenschaft Rohstoffe und chemische Industrie · Langenhagen · Legal</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Compliance &amp; AML</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996060963-S</link>
+      <guid isPermaLink="false">12288-4996060963-S</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>HANSAINVEST · Hamburg · Legal</description>
+    </item>
+    <item>
+      <title>Werkstudent für Material Compliance (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996077464-S</link>
+      <guid isPermaLink="false">12288-4996077464-S</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Liebherr Electronics and Drives GmbH · Lindau (Bodensee) · Legal</description>
+    </item>
+    <item>
+      <title>Praktikant / Werkstudent Nachhaltigkeit - Lieferkette &amp;amp; Menschenrechte (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19220-00add0956697a9e8-S</link>
+      <guid isPermaLink="false">19220-00add0956697a9e8-S</guid>
+      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Kaufland Dienstleistung GmbH &amp; Co. KG · Heilbronn · Legal</description>
+    </item>
     <item>
       <title>Werkstudent Legal / Recht (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003996159-S</link>
@@ -39,30 +71,6 @@
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>Legal</category>
       <description>The Quality Group Gmbh · Hamburg · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent für Material Compliance (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4992354855-S</link>
-      <guid isPermaLink="false">12288-4992354855-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Liebherr Electronics and Drives GmbH · Lindau (Bodensee) · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Compliance &amp; AML</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4991484001-S</link>
-      <guid isPermaLink="false">12288-4991484001-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>HANSAINVEST · Hamburg · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Compliance &amp; AML</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003962735-S</link>
-      <guid isPermaLink="false">10001-1003962735-S</guid>
-      <pubDate>Thu, 05 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>HANSAINVEST -Hanseatische Investment-GmbH · Hamburg · Legal</description>
     </item>
   </channel>
 </rss>
