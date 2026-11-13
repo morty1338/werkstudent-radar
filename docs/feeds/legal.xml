@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 13:09:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Arbeitsrecht</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004004596-S</link>
+      <guid isPermaLink="false">10001-1004004596-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>DAHER INDUSTRIAL SERVICES GmbH · Hamburg · Legal</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Datenschutz und Informationssicherheit, Konzernzentrale</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2377071-S</link>
+      <guid isPermaLink="false">12811-2377071-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Telis Verwaltung GmbH · Regensburg · Legal</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Legal &amp; Compliance</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-aa62301e_JB5296428-S</link>
+      <guid isPermaLink="false">13635-aa62301e_JB5296428-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>DocuWare GmbH · Germering · Legal</description>
+    </item>
     <item>
       <title>Werkstudentin / Werkstudent (m/w/d) juristische Unterstützung – Mitgliedschaft und Beitrag</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004004288-S</link>

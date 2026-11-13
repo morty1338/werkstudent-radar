@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 13:09:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Pflegefachkraft mit Bereitschafts- und Nachtdiensten (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004009915-S</link>
+      <guid isPermaLink="false">10001-1004009915-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Christoph-Dornier-Klinik GmbH · Münster · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Individualbegleitung Kinderpflegerin/ Werkstudenten / Quereinsteiger mit Erfahrung (m/w/d) 12-16 Uhr</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004010017-S</link>
+      <guid isPermaLink="false">10001-1004010017-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>myschoolcare Main-Franken GmbH · Aschaffenburg · Health &amp; Care</description>
+    </item>
+    <item>
+      <title>Werkstudent Customer Care (all genders) - 100% Remote</title>
+      <link>https://www.arbeitnow.com/jobs/companies/wemolo/werkstudent-customer-care-all-genders-100-remote-421050</link>
+      <guid isPermaLink="false">an:werkstudent-customer-care-all-genders-100-remote-421050</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>Wemolo · Health &amp; Care</description>
+    </item>
     <item>
       <title>Werkstudent*in - Gefäßchirurgie</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208627566-S</link>
@@ -47,30 +71,6 @@
       <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
       <category>Health &amp; Care</category>
       <description>Caritas Gesundheit Berlin gGmbH · Berlin · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent/Pflichtpraktikum Therapeutischer Bereich und Unternehmens- und Organisationsentwicklung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003975748-S</link>
-      <guid isPermaLink="false">10001-1003975748-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Health &amp; Care</category>
-      <description>HJW · Gailingen am Hochrhein · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudierende*n (m/w/d) Studiengang Psychologie für 5 Stunden wöchentlich</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003977367-S</link>
-      <guid isPermaLink="false">10001-1003977367-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Bfz-Essen GmbH · Essen · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Empfang / Klinik für Ästhetik und Kosmetik</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-7e69c3b1_JB5291394-S</link>
-      <guid isPermaLink="false">13635-7e69c3b1_JB5291394-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Kalialab GmbH · Hamburg · €15.00/h · Health &amp; Care</description>
     </item>
   </channel>
 </rss>

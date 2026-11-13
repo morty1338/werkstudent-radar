@@ -6,10 +6,42 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 13:09:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
-      <title>Werkstudent Stammdatenmanagement (m/w/d)</title>
+      <title>Werkstudent (w/m/d) Data Engineering</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1643618-2-S</link>
+      <guid isPermaLink="false">12465-1643618-2-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · Erlangen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Personalstrategie / HR-Analytics Caritas Düsseldorf - Unterbilk</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-cda39b3a_JB5296645-S</link>
+      <guid isPermaLink="false">13635-cda39b3a_JB5296645-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Caritasverband Düsseldorf e.V. · Düsseldorf · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Data Engineering &amp; Backend (w/m/div.)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF300853P-677f670-S</link>
+      <guid isPermaLink="false">15986-REF300853P-677f670-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Robert Bosch GmbH · Wernau (Neckar) · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>NTT DATA Deutschland SE: Werkstudent (w/m/x) im Bereich Organisation, Development &amp; Culture</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19913-3094341794524400-S</link>
+      <guid isPermaLink="false">19913-3094341794524400-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>NTT DATA Deutschland SE · Rosenheim · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Stammdatenmanagement (m/w/d) / Student/in</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208645820-S</link>
       <guid isPermaLink="false">10000-1208645820-S</guid>
       <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
@@ -151,30 +183,6 @@
       <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Hackforth Holding GmbH &amp; Co.KG · Herne · €15.50/h · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Bereich Power BI</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208580144-S</link>
-      <guid isPermaLink="false">10000-1208580144-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Symporo GmbH · Ludwigsburg · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Künstliche Intelligenz &amp; Automatisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003971412-S</link>
-      <guid isPermaLink="false">10001-1003971412-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Schlenotronic Computervertriebs GmbH · Frankenthal (Pfalz) · €17.50/h · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Service Engineering Support - technische Daten</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1650999-1-S</link>
-      <guid isPermaLink="false">12465-1650999-1-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Siemens AG · Erlangen · €15.00/h · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

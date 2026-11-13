@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 13:09:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Corporate Sustainability</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004012933-S</link>
+      <guid isPermaLink="false">10001-1004012933-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>BayWa AG HR Services · München · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent im Bereich Vermögenskunden (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1211234-5-S</link>
+      <guid isPermaLink="false">11070-1211234-5-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>HypoVereinsbank - UniCredit Bank GmbH · Nürnberg · €18.06/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Organisationsentwicklung &amp; Unternehmenskultur (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-74faf3bf-6ed2-4472--S</link>
+      <guid isPermaLink="false">12951-74faf3bf-6ed2-4472--S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>MTU Aero Engines AG · München · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (w/m/d) Trainingsabteilung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44570620-1112-S</link>
+      <guid isPermaLink="false">16012-44570620-1112-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Jenoptik AG · Monheim am Rhein · Other</description>
+    </item>
     <item>
       <title>Werkstudent Business Unit Bus Central (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1652844-1-S</link>
@@ -49,14 +81,6 @@
       <description>avitea GmbH · Lippstadt · Other</description>
     </item>
     <item>
-      <title>Praktikum/Werkstudententätigkeit Teilezerlegung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996075184-S</link>
-      <guid isPermaLink="false">12288-4996075184-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Bertrandt AG · Neuburg an der Donau · Other</description>
-    </item>
-    <item>
       <title>Werkstudent/in im Bereich Kundendienst Oberhausen (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996076604-S</link>
       <guid isPermaLink="false">12288-4996076604-S</guid>
@@ -71,14 +95,6 @@
       <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Bremer Ost GmbH · Potsdam · Other</description>
-    </item>
-    <item>
-      <title>Working Student People Experience und Capability Enablement (f/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1071-2-S</link>
-      <guid isPermaLink="false">12728-1071-2-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>E.ON Digital Technology GmbH · Hannover · Other · no German needed</description>
     </item>
     <item>
       <title>Werkstudent*in People Solution Satellite</title>
@@ -121,7 +137,7 @@
       <description>Die Autobahn GmbH des Bundes Zentrale Berlin, Weidt Park Corner · Berlin · Other</description>
     </item>
     <item>
-      <title>Werkstudierende in der Bibliothek (m/w/d)</title>
+      <title>Werkstudierende/Hilfskraft in der Bibliothek (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19959-01510720-S</link>
       <guid isPermaLink="false">19959-01510720-S</guid>
       <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
@@ -345,76 +361,12 @@
       <description>wppmedia · Düsseldorf · Other</description>
     </item>
     <item>
-      <title>Working student - SCA/ ISO (m/f/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208572036-S</link>
-      <guid isPermaLink="false">10000-1208572036-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
+      <title>Working Student, Professional Services</title>
+      <link>https://www.arbeitnow.com/jobs/companies/planetlabs/working-student-professional-services-berlin-437941</link>
+      <guid isPermaLink="false">an:working-student-professional-services-berlin-437941</guid>
+      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
-      <description>Samsung SDS Europe Ltd. German Branch · Magdeburg · Other · no German needed</description>
-    </item>
-    <item>
-      <title>GISA GmbH: Werkstudent:in Enterprise Information Management (m/w/d)*</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2940811793919601-S</link>
-      <guid isPermaLink="false">11956-2940811793919601-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>GISA GmbH · Halle · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent myAIDA (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-GQGVGH-XMQ-S</link>
-      <guid isPermaLink="false">12518-GQGVGH-XMQ-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>AIDA Cruises · Rostock · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Employee Engagement und People Experience (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1019-1-S</link>
-      <guid isPermaLink="false">12728-1019-1-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>E.ON SE · Essen · Other</description>
-    </item>
-    <item>
-      <title>Teamkoordinator (m/w/d) in Teilzeit oder als Werkstudent</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-ebac8388_JB5291222-S</link>
-      <guid isPermaLink="false">13635-ebac8388_JB5291222-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>W.L. Schröder · Lüneburg · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Hydrologie (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20965-2371020-S</link>
-      <guid isPermaLink="false">20965-2371020-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Hamburg Port Authority AÖR · Hamburg · €19.00/h · Other</description>
-    </item>
-    <item>
-      <title>Sustainability Working Student</title>
-      <link>https://www.arbeitnow.com/jobs/companies/sumup/sustainability-working-student-berlin-107175</link>
-      <guid isPermaLink="false">an:sustainability-working-student-berlin-107175</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>SumUp · Berlin · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Sustainability Working Student</title>
-      <link>https://www.arbeitnow.com/jobs/companies/sumup/sustainability-working-student-berlin-282074</link>
-      <guid isPermaLink="false">an:sustainability-working-student-berlin-282074</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>sumup · Berlin · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Operational Planning (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/flix/werkstudent-operational-planning-berlin-81889</link>
-      <guid isPermaLink="false">an:werkstudent-operational-planning-berlin-81889</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Flix · Berlin · Other</description>
+      <description>planetlabs · Berlin · Other · no German needed</description>
     </item>
   </channel>
 </rss>

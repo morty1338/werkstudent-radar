@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 13:09:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent KI-Video Creator (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-bfa75ef3_JB5296581-S</link>
+      <guid isPermaLink="false">13635-bfa75ef3_JB5296581-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>snapAddy GmbH · Würzburg · Design &amp; UX</description>
+    </item>
     <item>
       <title>Working Student Video &amp; Content (m/f/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004003826-S</link>
@@ -79,30 +87,6 @@
       <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>SanoGym GbR · Stuttgart · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Mediengestaltung &amp; Videoproduktion (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-526909_JB5291640-S</link>
-      <guid isPermaLink="false">12265-526909_JB5291640-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>FERCHAU Contract GmbH Berlin CONTRACT · Berlin · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Foto- und Videoproduktion, ABUS August Bremicker Söhne KG</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2372077-S</link>
-      <guid isPermaLink="false">12811-2372077-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>ABUS August Bremicker Söhne KG · Wetter (Ruhr) · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Working Student Hardware Engineering &amp; Product Design (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/datacept/working-student-hardware-engineering-product-design-horneburg-140582</link>
-      <guid isPermaLink="false">an:working-student-hardware-engineering-product-design-horneburg-140582</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Datacept · Horneburg · €18.00/h · Design &amp; UX · no German needed</description>
     </item>
   </channel>
 </rss>

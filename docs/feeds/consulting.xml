@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 13:09:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Market &amp; Strategic Intelligence</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1653672-1-S</link>
+      <guid isPermaLink="false">12465-1653672-1-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Siemens AG · Erlangen · Consulting &amp; Strategy · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent * im Bereich Strategisches Produktionsmanagement, Klingenbergstraße 16</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2377632-S</link>
+      <guid isPermaLink="false">12811-2377632-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Weidmüller Interface GmbH &amp; Co. KG · Detmold · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent Strategie &amp; Marktanalyse (m/w/divers)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1653082-1-S</link>
+      <guid isPermaLink="false">13348-1653082-1-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Lufthansa Technik AG · Hamburg · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent im Bereich Strategic Procurement Armament, Electronic Warfare and Drones (d/m/w)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-983018460-S</link>
+      <guid isPermaLink="false">16947-983018460-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Airbus Defence and Space GmbH · Manching · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent/Praktikant (m/w/d) – Beratung Informationssicherheit &amp; Managementsysteme</title>
+      <link>https://www.arbeitnow.com/jobs/companies/dr-ing-phillip-kaser-consulting-gmbh/werkstudent-praktikant-beratung-informationssicherheit-managementsysteme-berlin-294965</link>
+      <guid isPermaLink="false">an:werkstudent-praktikant-beratung-informationssicherheit-managementsysteme-berlin-294965</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Dr.-Ing. Phillip Käser Consulting GmbH · Berlin · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) Strategieberatung Immobilien</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996074370-S</link>
@@ -79,14 +119,6 @@
       <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>VitaForst International Management of Forest &amp; Landscape e.K. · Zülpich · €18.00/h · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) strategisches Partnermanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-5cbba42f_JB5290774-S</link>
-      <guid isPermaLink="false">13635-5cbba42f_JB5290774-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Glasfaser NordWest GmbH &amp; Co. KG · Oldenburg (Oldb) · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

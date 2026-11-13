@@ -6,8 +6,56 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 13:09:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Infrastruktur &amp; Facility Management (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-54316-YF-S</link>
+      <guid isPermaLink="false">12117-YF-54316-YF-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Blackwave GmbH · Garching bei München · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent Infrastruktur &amp; Facility Management (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-919e3b82-a4ff-426f--S</link>
+      <guid isPermaLink="false">12951-919e3b82-a4ff-426f--S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Blackwave · Garching bei München · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent Materials Management / Supply Chain Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16481-1960284-S</link>
+      <guid isPermaLink="false">16481-1960284-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Baxter Medical Systems GmbH + Co. KG · Saalfeld/Saale · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (d/m/w) für Procurement Operations Digital Solutions</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-983039073-S</link>
+      <guid isPermaLink="false">16947-983039073-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Airbus Defence and Space GmbH · Taufkirchen · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (in) im Vertragsmanagement (d/m/w)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100fe00003T0B-S</link>
+      <guid isPermaLink="false">18024-100fe00003T0B-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Berliner Stadtgüter GmbH · Berlin · €15.92/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y0M-S</link>
+      <guid isPermaLink="false">18024-10Q6L00001Y0M-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) Fabrikplanung &amp; Logistik</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996059271-S</link>
@@ -49,22 +97,6 @@
       <description>BWI GmbH · Meckenheim · €16.00/h · Operations &amp; Logistics</description>
     </item>
     <item>
-      <title>Werkstudent (in) im Vertragsmanagement (d/m/w)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100fe00003T0A-S</link>
-      <guid isPermaLink="false">18024-100fe00003T0A-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Berliner Stadtgüter GmbH · Berlin · €15.92/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y0L-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001Y0L-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
-    </item>
-    <item>
       <title>Werkstudent Einkauf für Halbleiter und Partnermanagement (w/m/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1652563-1-S</link>
       <guid isPermaLink="false">12462-1652563-1-S</guid>
@@ -87,6 +119,14 @@
       <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Spielbank SH GmbH · Kiel · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Working Student - Staffing Operations (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/zenjob/working-student-staffing-operations-berlin-151853</link>
+      <guid isPermaLink="false">an:working-student-staffing-operations-berlin-151853</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Zenjob · Berlin · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent Mitnahmelager (m/w/d), Logistik Mitnahme</title>
@@ -119,6 +159,14 @@
       <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Kola Invest GmbH · Hamburg · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Transformation &amp; Logistikoptimierung</title>
+      <link>https://www.arbeitnow.com/jobs/companies/currenta-gruppe/werkstudent-transformation-logistikoptimierung-leverkusen-231138</link>
+      <guid isPermaLink="false">an:werkstudent-transformation-logistikoptimierung-leverkusen-231138</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>CURRENTA GRUPPE · Leverkusen · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Einkauf</title>
@@ -175,94 +223,6 @@
       <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Code17 GmbH · Leipzig · €17.50/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Working student - KPI (m/f/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208571890-S</link>
-      <guid isPermaLink="false">10000-1208571890-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Samsung SDS Europe Ltd. German Branch · Magdeburg · Operations &amp; Logistics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Logistik</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003970210-S</link>
-      <guid isPermaLink="false">10001-1003970210-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>hulle24 GmbH · Sprockhövel · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent in der Immobilienwirtschaft (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003971628-S</link>
-      <guid isPermaLink="false">10001-1003971628-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>LIV Management GmbH · Hildesheim · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Logistik / Supply Chain Management</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1651005-1-S</link>
-      <guid isPermaLink="false">12465-1651005-1-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Siemens AG · Rastatt · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Corp. Real Estate (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-cd3454ea-bf7d-4562--S</link>
-      <guid isPermaLink="false">12951-cd3454ea-bf7d-4562--S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Lekkerland SE · Frechen · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Operations &amp; Mobility Working Student (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-dc62befe-2d6e-4ad5--S</link>
-      <guid isPermaLink="false">12951-dc62befe-2d6e-4ad5--S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Aira Home Germany GmbH · Berlin · €15.00/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Fuhrpark (all genders), befristet bis 30.11.2027</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13157-44555054-115-S</link>
-      <guid isPermaLink="false">13157-44555054-115-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>CCEP Deutschland GmbH · Berlin · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Bereich Einkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-3f1e8191_JB5291906-S</link>
-      <guid isPermaLink="false">13635-3f1e8191_JB5291906-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Euco Rail Group · Langweid am Lech · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent / Studentische Aushilfe Service und Logistik (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14011-44553677-115-S</link>
-      <guid isPermaLink="false">14011-44553677-115-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Bauhaus AG · Kiel · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Online Einkauf / Digital Buying &amp; Merchandise Planning (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14774-BB-566482-12683-616-S</link>
-      <guid isPermaLink="false">14774-BB-566482-12683-616-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Deichmann SE · Essen · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Business Operations (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/elmi-power-gmbh/werkstudentin-business-operations-niddatal-155940</link>
-      <guid isPermaLink="false">an:werkstudentin-business-operations-niddatal-155940</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>ELMI Power GmbH · Niddatal · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

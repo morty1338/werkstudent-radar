@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 13:09:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Arzneimittelsicherheit (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-684cece8_JB5296289-S</link>
+      <guid isPermaLink="false">13635-684cece8_JB5296289-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Denk Pharma GmbH &amp; Co. KG · München · Research &amp; Science</description>
+    </item>
     <item>
       <title>Werkstudent Innovationsmanagement (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996073068-S</link>
@@ -63,30 +71,6 @@
       <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
       <category>Research &amp; Science</category>
       <description>Deutsche Bundesbank Zentrale · Frankfurt am Main · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent_in (m/w/d) Ratsbüro</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003970092-S</link>
-      <guid isPermaLink="false">10001-1003970092-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Stadt Mettmann · Mettmann · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im Bereich der zentralen Forschung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1650393-1-S</link>
-      <guid isPermaLink="false">12465-1650393-1-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Siemens AG · Erlangen · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent Gefahrstoffanalytik (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12727-LS1384209-S</link>
-      <guid isPermaLink="false">12727-LS1384209-S</guid>
-      <pubDate>Fri, 06 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>engineering people GmbH · Hardthausen am Kocher · Research &amp; Science</description>
     </item>
   </channel>
 </rss>
