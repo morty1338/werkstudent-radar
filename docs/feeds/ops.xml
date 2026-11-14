@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in Disposition Winterdienstzentrale</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1653793-1-S</link>
+      <guid isPermaLink="false">12456-1653793-1-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Deutsche Bahn AG · Hamburg · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent Infrastruktur &amp; Facility Management (all genders)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-54316-YF-S</link>
@@ -199,30 +207,6 @@
       <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Teampicnic · Düsseldorf · €15.12/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Paketsortierer (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12826-SA0151226_JB5293233-S</link>
-      <guid isPermaLink="false">12826-SA0151226_JB5293233-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Piening GmbH (Kiel) · Osterrönfeld · €15.33/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Operations (Infrastructure &amp; Property) (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635924-7878-5638-S</link>
-      <guid isPermaLink="false">15939-BB-635924-7878-5638-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Rheinmetall AG · Kiel · €17.50/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Business Operations &amp; Automation</title>
-      <link>https://www.arbeitnow.com/jobs/companies/code17-gmbh/werkstudentin-business-operations-automation-leipzig-333404</link>
-      <guid isPermaLink="false">an:werkstudentin-business-operations-automation-leipzig-333404</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Code17 GmbH · Leipzig · €17.50/h · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

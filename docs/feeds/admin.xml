@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent/-in Sachbearbeitung (w/m/d)</title>
@@ -127,22 +127,6 @@
       <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>AVG Bau Goch GmbH · Duisburg · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Dispute Management Visa (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003978903-S</link>
-      <guid isPermaLink="false">10001-1003978903-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>qards GmbH · Saarbrücken · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Büroassistenz / Mitarbeiter/in Büroorganisation / Werkstudent/in (m/w/d) für unsere Kanzlei gesucht!</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003979864-S</link>
-      <guid isPermaLink="false">10001-1003979864-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Rainer Schorsch Steuerberater Fachanwalt für Steuerrecht · Frankfurt am Main · €20.00/h · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

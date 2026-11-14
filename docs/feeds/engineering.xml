@@ -6,8 +6,80 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudierende/r (w/m/d) im Baumanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004014837-S</link>
+      <guid isPermaLink="false">10001-1004014837-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Bundeskriminalamt · Berlin · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Kfz Fahrzeugprüfwesen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12790-j119S7240-14453-S</link>
+      <guid isPermaLink="false">12790-j119S7240-14453-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DEKRA Automobil GmbH · Aurich · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Aushilfskräfte / Werkstudenten, Abteilung Geotechnik Wasserbau (m/w/d), Witten</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2377745-S</link>
+      <guid isPermaLink="false">12811-2377745-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Dr. Spang GmbH · Witten · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Bauwerkserhaltung, Niederlassung München</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2377775-S</link>
+      <guid isPermaLink="false">12811-2377775-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Wayss &amp; Freytag Ingenieurbau AG · München · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent:in - Planung, Bau &amp; Betrieb Netze, Geniner Str. 80 in 23560 Lübeck</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2377784-S</link>
+      <guid isPermaLink="false">12811-2377784-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>TraveNetz GmbH · Lübeck · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Baueinkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1653794-1-S</link>
+      <guid isPermaLink="false">13151-1653794-1-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Produktionsplanung Elektronik (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1653752-1-S</link>
+      <guid isPermaLink="false">13348-1653752-1-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Deutsche Lufthansa AG · Hamburg · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Praktikum / Werkstudententätigkeit – Produktion, Qualitätssicherung &amp; Produktentwicklung (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/linis-bites/praktikum-werkstudententatigkeit-produktion-qualitatssicherung-produktentwicklung-sauerlach-25736</link>
+      <guid isPermaLink="false">an:praktikum-werkstudententatigkeit-produktion-qualitatssicherung-produktentwicklung-sauerlach-25736</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Lini's Bites · Sauerlach · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent – Qualitätsmanagement &amp; Einführung CAQ-System Babtec  (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/werkstudent-qualitatsmanagement-einfuhrung-caq-system-babtec-gilching-371102</link>
+      <guid isPermaLink="false">an:werkstudent-qualitatsmanagement-einfuhrung-caq-system-babtec-gilching-371102</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Quantum-Systems GmbH · Gilching · Engineering &amp; Production</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) Kalkulation im Spezialtiefbau</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004007905-S</link>
@@ -287,14 +359,6 @@
       <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Drees &amp; Sommer SE · Nürnberg · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Qualitätsmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996078210-S</link>
-      <guid isPermaLink="false">12288-4996078210-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Optipack GmbH · Fischach · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) Tragwerksplanung</title>
@@ -663,86 +727,6 @@
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Eugen Gutmann GmbH · Leonberg · €17.00/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Working Student (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208580655-S</link>
-      <guid isPermaLink="false">10000-1208580655-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Aesculap AG · Tuttlingen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Geotechnik</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1651666-1-S</link>
-      <guid isPermaLink="false">12456-1651666-1-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Deutsche Bahn AG · Hannover · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Agentenbasierte GNSS-Funksignalsimulation</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1650991-1-S</link>
-      <guid isPermaLink="false">12465-1650991-1-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Siemens AG · Erlangen · €15.00/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>CAD-Konstrukteur / Technischer Zeichner / Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-956f1f0f_JB5292683-S</link>
-      <guid isPermaLink="false">13635-956f1f0f_JB5292683-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>LivEye GmbH · Badem · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent*in - Behörden-/Fachbauleitung in der  Fachgruppe Baudurchführung (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14795-70845_125297-S</link>
-      <guid isPermaLink="false">14795-70845_125297-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Bezirksamt Marzahn-Hellersdorf Serviceeinheit Personal · Berlin · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Verifikation Digitaler Systeme (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635927-7878-4729-S</link>
-      <guid isPermaLink="false">15939-BB-635927-7878-4729-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Rheinmetall AG · Kassel · €18.14/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (d/m/w) im Bereich Nachhaltigkeit &amp; CSR</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-981699378-S</link>
-      <guid isPermaLink="false">16947-981699378-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Airbus Operations GmbH Werk Bremen · Bremen · €19.10/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudenten für das Airbus Resources Planning Program (d/m/w)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-981705762-S</link>
-      <guid isPermaLink="false">16947-981705762-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Airbus Operations GmbH Werk Bremen · Hamburg · €18.53/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Working Student Engineering Foundation (m/f/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17402-44557812-116-S</link>
-      <guid isPermaLink="false">17402-44557812-116-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>ENERCON GmbH · Aurich · Engineering &amp; Production · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent/in - Assistenz in der Filmproduktion</title>
-      <link>https://www.arbeitnow.com/jobs/companies/erik-rct-filmproduktion-gmbh/werkstudent-in-assistenz-in-der-filmproduktion-weinheim-414546</link>
-      <guid isPermaLink="false">an:werkstudent-in-assistenz-in-der-filmproduktion-weinheim-414546</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Erik RCT Filmproduktion GmbH · Weinheim · Engineering &amp; Production</description>
     </item>
   </channel>
 </rss>

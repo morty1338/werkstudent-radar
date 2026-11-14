@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) Unterföhring</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068737173-S</link>
+      <guid isPermaLink="false">17567-0068737173-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · Unterföhring · €16.00/h · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) - Unterschleißheim (PENNY)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068737273-S</link>
+      <guid isPermaLink="false">17567-0068737273-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · Unterschleißheim · €16.00/h · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) im Verkauf Mode und Bekleidung</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kult-olymp-hades/werkstudent-im-verkauf-mode-und-bekleidung-bad-kreuznach-176071</link>
+      <guid isPermaLink="false">an:werkstudent-im-verkauf-mode-und-bekleidung-bad-kreuznach-176071</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>KULT | OLYMP &amp; HADES · Bad Kreuznach · Retail &amp; Hospitality</description>
+    </item>
     <item>
       <title>Werkstudentenjob (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004013015-S</link>
@@ -183,38 +207,6 @@
       <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>Media-Saturn Deutschland GmbH · Kerpen · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) - Unterschleißheim (PENNY)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068613113-S</link>
-      <guid isPermaLink="false">17567-0068613113-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · Unterschleißheim · €16.00/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) Unterföhring</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068613138-S</link>
-      <guid isPermaLink="false">17567-0068613138-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · Unterföhring · €16.00/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) - Frankfurter Ring (Knorr)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068613668-S</link>
-      <guid isPermaLink="false">17567-0068613668-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · München · €16.50/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>R&amp;D Werkstudent, Kassel</title>
-      <link>https://www.arbeitnow.com/jobs/companies/axon/rd-werkstudent-kassel-kassel-hesse-246003</link>
-      <guid isPermaLink="false">an:rd-werkstudent-kassel-kassel-hesse-246003</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Axon · Kassel · Retail &amp; Hospitality · no German needed</description>
     </item>
   </channel>
 </rss>

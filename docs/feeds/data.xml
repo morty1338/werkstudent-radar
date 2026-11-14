@@ -6,15 +6,39 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
-      <title>Werkstudent (w/m/d) Data Engineering</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1643618-2-S</link>
-      <guid isPermaLink="false">12465-1643618-2-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <title>Werkstudent (m/w/d) AI &amp; Automation - Produktmanagement &amp; Analytics, Insu..., CHECK24 Versicherungen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2377805-S</link>
+      <guid isPermaLink="false">12811-2377805-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
-      <description>Siemens AG · Erlangen · Data &amp; Analytics</description>
+      <description>CHECK24 - InsurTech · München · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudierende (m/w/d) für Datenanalysen im Projektumfeld</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-350530-S</link>
+      <guid isPermaLink="false">13884-350530-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Finanz Informatik GmbH &amp; Co. KG · Hannover · €16.50/h · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Data, Controlling &amp; KPI-Reporting</title>
+      <link>https://www.arbeitnow.com/jobs/companies/pflegia/werkstudent-data-controlling-kpi-reporting-berlin-67263</link>
+      <guid isPermaLink="false">an:werkstudent-data-controlling-kpi-reporting-berlin-67263</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Pflegia · Berlin · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student - Data Science (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/adjoe/working-student-data-science-hamburg-430330</link>
+      <guid isPermaLink="false">an:working-student-data-science-hamburg-430330</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>adjoe · Hamburg · Data &amp; Analytics · no German needed</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) Personalstrategie / HR-Analytics Caritas Düsseldorf - Unterbilk</title>
@@ -81,14 +105,6 @@
       <description>HANSAINVEST · Hamburg · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Werkstudent Data Analytics &amp; Business Intelligence (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996072760-S</link>
-      <guid isPermaLink="false">12288-4996072760-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Schleswig-Holstein Netz GmbH · Quickborn · €16.92/h · Data &amp; Analytics</description>
-    </item>
-    <item>
       <title>Werkstudent Datenbankmigration (MS Dynamics Field Service) (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1070-1-S</link>
       <guid isPermaLink="false">12728-1070-1-S</guid>
@@ -143,46 +159,6 @@
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Witt-Gruppe · Weiden in der Oberpfalz · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>GISA GmbH: Werkstudent:in Business Intelligence, Analytics und AI (m/w/d)*</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2985001794006001-S</link>
-      <guid isPermaLink="false">11956-2985001794006001-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>GISA GmbH · Chemnitz · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Outbound Logistik Digitalisierung &amp; Künstliche Intelligenz</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1650942-1-S</link>
-      <guid isPermaLink="false">13151-1650942-1-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Mercedes-Benz Group AG · Böblingen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent AI &amp; Machine Learning (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-629f35c0_JB5292686-S</link>
-      <guid isPermaLink="false">13635-629f35c0_JB5292686-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>LivEye GmbH · Föhren bei Trier · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Business Intelligence (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16274-0068607138-S</link>
-      <guid isPermaLink="false">16274-0068607138-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Bischof+Klein SE &amp; Co. KG · Lengerich · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Business Development Research Analyst (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21128-981716434-S</link>
-      <guid isPermaLink="false">21128-981716434-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Hackforth Holding GmbH &amp; Co.KG · Herne · €15.50/h · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

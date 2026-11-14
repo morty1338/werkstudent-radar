@@ -6,13 +6,21 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
-      <title>Werkstudent (w/m/d) Market &amp; Strategic Intelligence</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1653672-1-S</link>
-      <guid isPermaLink="false">12465-1653672-1-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <title>Werkstudent Strategieentwicklung Customer Support (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1654013-1-S</link>
+      <guid isPermaLink="false">12462-1654013-1-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>BMW AG · München · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) im strategischen Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654125-1-S</link>
+      <guid isPermaLink="false">12465-1654125-1-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Siemens AG · Erlangen · Consulting &amp; Strategy · no German needed</description>
     </item>
@@ -103,22 +111,6 @@
       <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>SOS-Kinderdorf e.V. · München · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent/-in (m/w/d) in der telefonischen Immobilienberatung (20 Stunden / Woche)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/immo-marketer/werkstudent-in-in-der-telefonischen-immobilienberatung-20-stunden-woche-bochum-331422</link>
-      <guid isPermaLink="false">an:werkstudent-in-in-der-telefonischen-immobilienberatung-20-stunden-woche-bochum-331422</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Immo-Marketer · Bochum · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent: Strategie, Ausschreibungen &amp; Projektorganisation (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/vitaforst-international-management-of-forest-landscape-ek/werkstudent-strategie-ausschreibungen-projektorganisation-zulpich-405821</link>
-      <guid isPermaLink="false">an:werkstudent-strategie-ausschreibungen-projektorganisation-zulpich-405821</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>VitaForst International Management of Forest &amp; Landscape e.K. · Zülpich · €18.00/h · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

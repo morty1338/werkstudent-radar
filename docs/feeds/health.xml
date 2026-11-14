@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Praktikum/ Werkstudenten Physiotherapeut:in (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-15ed045c_JB5298437-S</link>
+      <guid isPermaLink="false">13635-15ed045c_JB5298437-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Health &amp; Care</category>
+      <description>BOMI Physio GmbH · Mannheim · Health &amp; Care</description>
+    </item>
     <item>
       <title>Werkstudent Pflegefachkraft mit Bereitschafts- und Nachtdiensten (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004009915-S</link>

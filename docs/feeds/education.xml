@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Working Student for our bilingual primary school, F+U Rhein-Main-Neckar gGmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2377921-S</link>
+      <guid isPermaLink="false">12811-2377921-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>F+U Rhein-Main-Neckar gGmbH · Heidelberg · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d), Pädagogik, 22 €</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13092-13924643-S</link>
@@ -103,14 +111,6 @@
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>Education &amp; Social</category>
       <description>Arbeiterwohlfahrt Kreisverband Siegen-Wittgenstein/Olpe · Bad Berleburg · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) Mathematik Gymnasium</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003979215-S</link>
-      <guid isPermaLink="false">10001-1003979215-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Cornelsen Verlag GmbH · Berlin · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

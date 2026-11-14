@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Projektmanagement (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636020-7878-8866-S</link>
+      <guid isPermaLink="false">15939-BB-636020-7878-8866-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Rheinmetall AG · Bremen · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Working Student Service Product Management (m/f/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17402-44573136-1113-S</link>
+      <guid isPermaLink="false">17402-44573136-1113-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>ENERCON GmbH · Aurich · Product &amp; Project Mgmt · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student / Intern - Product Management, Air Domain (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-intern-product-management-air-domain-gilching-58535</link>
+      <guid isPermaLink="false">an:working-student-intern-product-management-air-domain-gilching-58535</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Quantum-Systems GmbH · Gilching · Product &amp; Project Mgmt · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Projektmanagement</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004006742-S</link>
@@ -87,14 +111,6 @@
       <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Drees &amp; Sommer SE · Hamburg · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Praktikant/Werkstudent (w/m/d) Projektmanagement Hochbau</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996079111-S</link>
-      <guid isPermaLink="false">12288-4996079111-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Drees &amp; Sommer SE · Kiel · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Praktikant/Werkstudent (w/m/d) Projektmanagement Hochbau – Industrie</title>
@@ -295,22 +311,6 @@
       <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Q Energy · Berlin · Product &amp; Project Mgmt · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Project Management Excellence</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1651857-1-S</link>
-      <guid isPermaLink="false">12465-1651857-1-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Siemens AG · Berlin · €15.00/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Projektassistenz Entwicklung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635926-7878-2836-S</link>
-      <guid isPermaLink="false">15939-BB-635926-7878-2836-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Rheinmetall AG · Kassel · €18.14/h · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

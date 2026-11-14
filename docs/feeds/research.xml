@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-8191fd43539a4d5f-S</link>
+      <guid isPermaLink="false">14225-8191fd43539a4d5f-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Fraunhofer-Institut für Software- und Systemtechnik ISST · Berlin · €18.42/h · Research &amp; Science</description>
+    </item>
+    <item>
+      <title>Werkstudent in der elektrischen Entwicklung (w/m/div.)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF300875B-9e61af5-S</link>
+      <guid isPermaLink="false">15986-REF300875B-9e61af5-S</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Robert Bosch GmbH · Gunzenhausen am Altmühlsee · Research &amp; Science</description>
+    </item>
     <item>
       <title>Werkstudent Arzneimittelsicherheit (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-684cece8_JB5296289-S</link>
@@ -63,14 +79,6 @@
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>Research &amp; Science</category>
       <description>Müller Service GmbH · Freising · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent / Werkstudentin (m/w/d) in der Umsetzung der Geldpolitik im Eurosystem</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20083-1651297-1-S</link>
-      <guid isPermaLink="false">20083-1651297-1-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Deutsche Bundesbank Zentrale · Frankfurt am Main · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

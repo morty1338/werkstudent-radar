@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Kundenservice (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/montredo-gmbh/werkstudent-kundenservice-berlin-97275</link>
+      <guid isPermaLink="false">an:werkstudent-kundenservice-berlin-97275</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Montredo GmbH · Berlin · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent*in in People, Operations &amp; Sales Support (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/wacom-europe-gmbh/werkstudentin-in-people-operations-sales-support-dusseldorf-41822</link>
+      <guid isPermaLink="false">an:werkstudentin-in-people-operations-sales-support-dusseldorf-41822</guid>
+      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Wacom Europe GmbH · Düsseldorf · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) - Sales Administrator</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-133014-STA-S</link>
@@ -129,14 +145,6 @@
       <description>Plisch GmbH · Frankenthal (Pfalz) · Sales &amp; Business Development</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) Legal Tech Sales</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-132857-STA-S</link>
-      <guid isPermaLink="false">11858-SDE-132857-STA-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Becker Büttner Held Rechtsanwälte Steuerberater Unternehmensberater PartGmbB · Berlin · €18.00/h · Sales &amp; Business Development</description>
-    </item>
-    <item>
       <title>Werkstudent Vertrieb Gebrauchtmotorräder (w/m/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1652564-1-S</link>
       <guid isPermaLink="false">12462-1652564-1-S</guid>
@@ -201,14 +209,6 @@
       <description>Yoummday · München · Sales &amp; Business Development</description>
     </item>
     <item>
-      <title>Werkstudent im Vertrieb (m/w/d) – Praxis neben dem Studium</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003992116-S</link>
-      <guid isPermaLink="false">10001-1003992116-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Jasmin Steinriede · Osnabrück · Sales &amp; Business Development</description>
-    </item>
-    <item>
       <title>Werkstudent Vertrieb (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-517858_JB5295309-S</link>
       <guid isPermaLink="false">12265-517858_JB5295309-S</guid>
@@ -255,38 +255,6 @@
       <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Netlight · Hamburg · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Vertrieb Innendienst (m/w/d) – 20 Std./Woche</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003979579-S</link>
-      <guid isPermaLink="false">10001-1003979579-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>JP Consulting GmbH · Großostheim · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Working Student Customer Success (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-27f3cfc4_JB5292510-S</link>
-      <guid isPermaLink="false">13635-27f3cfc4_JB5292510-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>DocuWare GmbH · Germering · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Vertrieb (m/w/d) - Sales Suport</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16274-0068607148-S</link>
-      <guid isPermaLink="false">16274-0068607148-S</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Bischof+Klein SE &amp; Co. KG · Lengerich · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Working Student / Thesis - Strategy Operations &amp; Business Development (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/tactiliarobotics/working-student-thesis-strategy-operations-business-development-munich-229023</link>
-      <guid isPermaLink="false">an:working-student-thesis-strategy-operations-business-development-munich-229023</guid>
-      <pubDate>Sat, 07 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Tactiliarobotics · München · Sales &amp; Business Development · no German needed</description>
     </item>
   </channel>
 </rss>
