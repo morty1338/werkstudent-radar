@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:08:04 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Kundenservice (m/w/d)</title>
@@ -185,14 +185,6 @@
       <description>Endress+Hauser (Deutschland) GmbH+Co.KG · Hannover · Sales &amp; Business Development</description>
     </item>
     <item>
-      <title>Werkstudent Customer Success (x/f/m)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/doctolib/werkstudent-customer-success-berlin-203710</link>
-      <guid isPermaLink="false">an:werkstudent-customer-success-berlin-203710</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Doctolib · Berlin · €15.00/h · Sales &amp; Business Development</description>
-    </item>
-    <item>
       <title>Werkstudent Partner Sales (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/galvany/werkstudent-partner-sales-berlin-430627</link>
       <guid isPermaLink="false">an:werkstudent-partner-sales-berlin-430627</guid>
@@ -239,22 +231,6 @@
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>leakshield GmbH · Berlin · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im B2B-Vertrieb / Lead-Generierung / Outreach</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003980457-S</link>
-      <guid isPermaLink="false">10001-1003980457-S</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Zuben Enterprises UG (haftungsbeschränkt) · Berlin · €16.50/h · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Working Student Business Development / Pre-Sales Support (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/netlight/working-student-business-development-pre-sales-support-hamburg-414657</link>
-      <guid isPermaLink="false">an:working-student-business-development-pre-sales-support-hamburg-414657</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Netlight · Hamburg · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:08:04 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent / Dualer Student / BA-Student (m/w/d) im Bereich QM/QSE</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12514-202611b060wes01-S</link>
+      <guid isPermaLink="false">12514-202611b060wes01-S</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Bertin GmbH · Frankfurt am Main · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Testautomatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160J-S</link>
+      <guid isPermaLink="false">18024-10Q7q0000160J-S</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
+    </item>
     <item>
       <title>Werkstudierende/r (w/m/d) im Baumanagement</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004014837-S</link>
@@ -183,14 +199,6 @@
       <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>EWE AG Abteilung Personalservice · Oldenburg (Oldb) · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Testautomatisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160I-S</link>
-      <guid isPermaLink="false">18024-10Q7q0000160I-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent Beschwerde und Qualität (w|m|d)</title>
@@ -529,14 +537,6 @@
       <description>Amprion GmbH · Dortmund · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent*in Baureihenmanagement Qualität</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1652654-1-S</link>
-      <guid isPermaLink="false">13151-1652654-1-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
-    </item>
-    <item>
       <title>Werkstudent*in Thermomanagement</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1652660-1-S</link>
       <guid isPermaLink="false">13151-1652660-1-S</guid>
@@ -583,14 +583,6 @@
       <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Kreis Borken · Borken · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) – Technischer Zeichner / Bauzeichner / Konstrukteur im Tiefbau</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003988601-S</link>
-      <guid isPermaLink="false">10001-1003988601-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Modern Construction Management GmbH · Krefeld · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent Technische Dokumentation - Mechatronik/Elektronik (m/w/d)</title>

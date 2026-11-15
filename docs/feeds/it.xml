@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:08:04 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent IT-System-Management / IT &amp; Business (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/octogate-it-security-systems-gmbh/werkstudent-it-system-management-it-business-33100-290936</link>
+      <guid isPermaLink="false">an:werkstudent-it-system-management-it-business-33100-290936</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>OctoGate IT Security Systems GmbH · 33100 · IT &amp; Software</description>
+    </item>
     <item>
       <title>Werkstudierende (m/w/d) IT-Auftragssteuerung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4998158025-S</link>
@@ -449,14 +457,6 @@
       <description>Bechtle AG · Koblenz am Rhein · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent IT-System-Management / IT &amp; Business (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/octogate-it-security-systems-gmbh/werkstudent-it-system-management-it-business-33100-412595</link>
-      <guid isPermaLink="false">an:werkstudent-it-system-management-it-business-33100-412595</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>OctoGate IT Security Systems GmbH · 33100 · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Werkstudent IT-Systemadministration (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/mintcode-solutions-gmbh/werkstudent-it-systemadministration-haselunne-444668</link>
       <guid isPermaLink="false">an:werkstudent-it-systemadministration-haselunne-444668</guid>
@@ -599,22 +599,6 @@
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Projektron GmbH · Berlin · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent - AI Manager Support (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/cbs-corporate-business-solutions-gmbh/werkstudent-ai-manager-support-heidelberg-113667</link>
-      <guid isPermaLink="false">an:werkstudent-ai-manager-support-heidelberg-113667</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>cbs Corporate Business Solutions GmbH · Heidelberg · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent - SAP Beratung (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/cbs-corporate-business-solutions-gmbh/werkstudent-sap-beratung-heidelberg-305608</link>
-      <guid isPermaLink="false">an:werkstudent-sap-beratung-heidelberg-305608</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>cbs Corporate Business Solutions GmbH · Heidelberg · IT &amp; Software</description>
     </item>
   </channel>
 </rss>

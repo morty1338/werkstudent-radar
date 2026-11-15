@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:08:04 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Büro</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-X6PNYU-T5W-S</link>
+      <guid isPermaLink="false">12518-X6PNYU-T5W-S</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Aramark Deutschland · Koblenz am Rhein · Other</description>
+    </item>
+    <item>
+      <title>Working Student / Intern – Industrialization Land / UGV (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-intern-industrialization-land-ugv-goppingen-338227</link>
+      <guid isPermaLink="false">an:working-student-intern-industrialization-land-ugv-goppingen-338227</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Quantum-Systems GmbH · Göppingen · Other</description>
+    </item>
+    <item>
+      <title>Working Student - Returns Management (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-returns-management-gilching-4623</link>
+      <guid isPermaLink="false">an:working-student-returns-management-gilching-4623</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Quantum-Systems GmbH · Gilching · Other</description>
+    </item>
     <item>
       <title>Werkstudent:in (m/w/d) Kalkulation</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004013650-S</link>
@@ -383,30 +407,6 @@
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>TKMS ATLAS ELEKTRONIK GmbH · Bremen · Other</description>
-    </item>
-    <item>
-      <title>Category Management Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/category-management-werkstudent-dusseldorf-north-rhine-westphalia-98132</link>
-      <guid isPermaLink="false">an:category-management-werkstudent-dusseldorf-north-rhine-westphalia-98132</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Teampicnic · Düsseldorf · €15.12/h · Other</description>
-    </item>
-    <item>
-      <title>Internships &amp; working students at Hypersonica</title>
-      <link>https://www.arbeitnow.com/jobs/companies/hypersonica/internships-working-students-at-hypersonica-munich-313488</link>
-      <guid isPermaLink="false">an:internships-working-students-at-hypersonica-munich-313488</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Hypersonica · München · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Promotion (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/octopus-energy-group/werkstudentin-promotion-berlin-de-376841</link>
-      <guid isPermaLink="false">an:werkstudentin-promotion-berlin-de-376841</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Octopus Energy Group · Berlin · €16.50/h · Other</description>
     </item>
   </channel>
 </rss>

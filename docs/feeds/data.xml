@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:08:04 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Working Student – Data &amp; AI  (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/black-semiconductor-gmbh/working-student-data-ai-aachen-356566</link>
+      <guid isPermaLink="false">an:working-student-data-ai-aachen-356566</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Black Semiconductor GmbH · Aachen · Data &amp; Analytics · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) AI &amp; Automation - Produktmanagement &amp; Analytics, Insu..., CHECK24 Versicherungen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2377805-S</link>
@@ -143,14 +151,6 @@
       <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Anstalt für kommunale Datenverarbeitung Bayern · Nürnberg · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Commercial Excellence – Digitalisierung &amp; Data</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-01fdc9ca_JB5293311-S</link>
-      <guid isPermaLink="false">13635-01fdc9ca_JB5293311-S</guid>
-      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Wanzl GmbH &amp; Co. KGaA · Leipheim · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Bachelorarbeit Data Science / Datenmanagement mit Werkstudententätigkeit (m/w/d)</title>

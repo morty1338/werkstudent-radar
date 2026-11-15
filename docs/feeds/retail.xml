@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:08:04 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent - Verkauf, Bäckerei (m/w/d) Unterföhring</title>
@@ -121,14 +121,6 @@
       <description>NKD Deutschland GmbH · Lindenberg im Allgäu · Retail &amp; Hospitality</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) im Verkauf Mode und Bekleidung</title>
-      <link>https://www.arbeitnow.com/jobs/companies/kult-olymp-hades/werkstudent-im-verkauf-mode-und-bekleidung-bad-kreuznach-241506</link>
-      <guid isPermaLink="false">an:werkstudent-im-verkauf-mode-und-bekleidung-bad-kreuznach-241506</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>KULT | OLYMP &amp; HADES · Bad Kreuznach · Retail &amp; Hospitality</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) Lieferfahrer / Kurierfahrer in Leipzig – bis 20 Std./Woche</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003988088-S</link>
       <guid isPermaLink="false">10001-1003988088-S</guid>
@@ -199,14 +191,6 @@
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>The Bellezza Group · München · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent Kundenservice - Schwerpunkt Kasse (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18019-201796-S</link>
-      <guid isPermaLink="false">18019-201796-S</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Media-Saturn Deutschland GmbH · Kerpen · Retail &amp; Hospitality</description>
     </item>
   </channel>
 </rss>

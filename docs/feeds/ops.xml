@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:08:04 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (in) im Vertragsmanagement (d/m/w)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100fe00003T0C-S</link>
+      <guid isPermaLink="false">18024-100fe00003T0C-S</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Berliner Stadtgüter GmbH · Berlin · €15.92/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y0N-S</link>
+      <guid isPermaLink="false">18024-10Q6L00001Y0N-S</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent:in Disposition Winterdienstzentrale</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1653793-1-S</link>
@@ -47,22 +63,6 @@
       <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Airbus Defence and Space GmbH · Taufkirchen · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (in) im Vertragsmanagement (d/m/w)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100fe00003T0B-S</link>
-      <guid isPermaLink="false">18024-100fe00003T0B-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Berliner Stadtgüter GmbH · Berlin · €15.92/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y0M-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001Y0M-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) Fabrikplanung &amp; Logistik</title>
@@ -199,14 +199,6 @@
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Rheinmetall AG · Kassel · €18.14/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Einkauf Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/einkauf-werkstudent-dusseldorf-north-rhine-westphalia-205146</link>
-      <guid isPermaLink="false">an:einkauf-werkstudent-dusseldorf-north-rhine-westphalia-205146</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Teampicnic · Düsseldorf · €15.12/h · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

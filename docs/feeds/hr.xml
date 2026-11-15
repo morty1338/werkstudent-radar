@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 11:41:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 12:08:04 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Recruiting</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11868-13927414-S</link>
+      <guid isPermaLink="false">11868-13927414-S</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>I. K. Hofmann GmbH Hofmann Gunzenhausen/Ansbach · Ansbach · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Volkssolidarität Dresden: WERKSTUDENT PERSONAL (M/W/D) für Stellenbeschreibungen und Stellenbewertun</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3051131794697201-S</link>
+      <guid isPermaLink="false">11956-3051131794697201-S</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Volkssolidarität Dresden · Dresden · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Recruiting &amp; Talent Acquisition</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004014911-S</link>
@@ -87,6 +103,14 @@
       <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>AWO Kreisverband Bamberg Stadt und Land e.V. · Bamberg · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Personalabteilung (all genders), Köln</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2376981-S</link>
+      <guid isPermaLink="false">12811-2376981-S</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>STEINERT GmbH · Köln · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent Recruiting (m/w/d) mit 20 Std./Woche</title>
@@ -447,22 +471,6 @@
       <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>ABEX Stahlbau-Rohrbiegen-Stadtmöbel GmbH · Berlin · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting &amp; KI (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/leon-feig-recruitment-services/werkstudent-recruiting-ki-berlin-355602</link>
-      <guid isPermaLink="false">an:werkstudent-recruiting-ki-berlin-355602</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Leon Feig Recruitment Services · Berlin · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Working Student, Recruiter (German-Speaking)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/the-global-talent-co/working-student-recruiter-german-speaking-berlin-330970</link>
-      <guid isPermaLink="false">an:working-student-recruiter-german-speaking-berlin-330970</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>The Global Talent Co. · Berlin · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>
