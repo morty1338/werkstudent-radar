@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 12:08:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 13:01:42 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Proposal Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636026-7878-7508-S</link>
+      <guid isPermaLink="false">15939-BB-636026-7878-7508-S</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Rheinmetall AG · Bremen · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Praktikant/ Werkstudent (m/w/d) im Business Development</title>
+      <link>https://www.arbeitnow.com/jobs/companies/northh-medical-gmbh/praktikant-werkstudent-im-business-development-hamburg-308910</link>
+      <guid isPermaLink="false">an:praktikant-werkstudent-im-business-development-hamburg-308910</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>northh medical GmbH · Hamburg · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent:in / Praktikant:in Customer Success &amp; Operations (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/decari-gmbh/werkstudentin-praktikantin-customer-success-operations-berlin-432010</link>
+      <guid isPermaLink="false">an:werkstudentin-praktikantin-customer-success-operations-berlin-432010</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Decari GmbH · Berlin · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent Kundenservice (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/montredo-gmbh/werkstudent-kundenservice-berlin-97275</link>
@@ -215,22 +239,6 @@
       <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>WISAG Elektrotechnik Mitteldtl. GmbH &amp; Co. KG - Region · Leipzig · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent im Vertrieb (m/w/d) sofort</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14385-482-3149P-26-S</link>
-      <guid isPermaLink="false">14385-482-3149P-26-S</guid>
-      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>ARWA Personaldienstleistungen GmbH · Recklinghausen · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Customer Success &amp; Sales (all gender)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/leakshield-gmbh/werkstudentin-customer-success-sales-berlin-221749</link>
-      <guid isPermaLink="false">an:werkstudentin-customer-success-sales-berlin-221749</guid>
-      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>leakshield GmbH · Berlin · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>

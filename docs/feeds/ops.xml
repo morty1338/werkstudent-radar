@@ -6,23 +6,39 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 12:08:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 13:01:42 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (in) im Vertragsmanagement (d/m/w)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100fe00003T0C-S</link>
-      <guid isPermaLink="false">18024-100fe00003T0C-S</guid>
-      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100fe00003T0D-S</link>
+      <guid isPermaLink="false">18024-100fe00003T0D-S</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Berliner Stadtgüter GmbH · Berlin · €15.92/h · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y0N-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001Y0N-S</guid>
-      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y0O-S</link>
+      <guid isPermaLink="false">18024-10Q6L00001Y0O-S</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Digital Facility Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19663-0068754260-S</link>
+      <guid isPermaLink="false">19663-0068754260-S</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Kelvion Holding GmbH · Herne · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent / Praktikant Tech &amp; Operations (m/w/d) – München / Berlin / Remote</title>
+      <link>https://www.arbeitnow.com/jobs/companies/walter360-gmbh/werkstudent-praktikant-tech-operations-munchen-berlin-remote-163423</link>
+      <guid isPermaLink="false">an:werkstudent-praktikant-tech-operations-munchen-berlin-remote-163423</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Walter360 GmbH · München · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Werkstudent:in Disposition Winterdienstzentrale</title>
@@ -175,30 +191,6 @@
       <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>CURRENTA GRUPPE · Leverkusen · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Bereich Einkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003982055-S</link>
-      <guid isPermaLink="false">10001-1003982055-S</guid>
-      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>EUCO Rail Services GmbH · Langweid am Lech · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Valuation</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003983336-S</link>
-      <guid isPermaLink="false">10001-1003983336-S</guid>
-      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>HANSAINVEST -Hanseatische Investment-GmbH · Hamburg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent im Einkauf indirektes Material (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635932-7878-4693-S</link>
-      <guid isPermaLink="false">15939-BB-635932-7878-4693-S</guid>
-      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Rheinmetall AG · Kassel · €18.14/h · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

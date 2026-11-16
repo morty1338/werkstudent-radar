@@ -6,8 +6,56 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 12:08:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 13:01:42 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Data &amp; Analytics | Microsoft Fabric (m/w/d) – Altdorf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004016627-S</link>
+      <guid isPermaLink="false">10001-1004016627-S</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Suspa GmbH Betriebsstätte Altdorf · Altdorf bei Nürnberg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Pipelinesystem (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11112-146-1695278-1-S</link>
+      <guid isPermaLink="false">11112-146-1695278-1-S</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>bayernets GmbH · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudierende (m/w/d) für Datenanalysen im Projektumfeld</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4998689248-S</link>
+      <guid isPermaLink="false">12288-4998689248-S</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Finanz Informatik GmbH &amp; Co. KG · Hannover · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudierende (m/w/d) für Datenanalysen im Projektumfeld</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4998706647-S</link>
+      <guid isPermaLink="false">12288-4998706647-S</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Finanz Informatik GmbH &amp; Co. KG · Hannover · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent:in BI &amp; Analytik (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13334-00005f68634001-S</link>
+      <guid isPermaLink="false">13334-00005f68634001-S</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>EDEKA IT Stiftung &amp; Co. OHG · Mannheim · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Data Analytics &amp; AI (m/w/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13660-983987389-S</link>
+      <guid isPermaLink="false">13660-983987389-S</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Arvato · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Working Student – Data &amp; AI  (f/m/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/black-semiconductor-gmbh/working-student-data-ai-aachen-356566</link>
@@ -151,14 +199,6 @@
       <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Anstalt für kommunale Datenverarbeitung Bayern · Nürnberg · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Bachelorarbeit Data Science / Datenmanagement mit Werkstudententätigkeit (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14922-147067-S</link>
-      <guid isPermaLink="false">14922-147067-S</guid>
-      <pubDate>Mon, 09 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Witt-Gruppe · Weiden in der Oberpfalz · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>
