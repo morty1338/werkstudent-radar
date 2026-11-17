@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 13:43:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 23:37:13 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent International Office w/m/d</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12790-j109S16828-46646-S</link>
+      <guid isPermaLink="false">12790-j109S16828-46646-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>SRH University · Heidelberg · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) in der Angebotsplanung, RVM Lüdingh.</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2380096-S</link>
+      <guid isPermaLink="false">12811-2380096-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Regionalverkehr Münsterland GmbH · Lüdinghausen · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Assistenz (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636055-7878-7121-S</link>
+      <guid isPermaLink="false">15939-BB-636055-7878-7121-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Rheinmetall AG · Unterlüß · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent/in (m/w/d) Back Office mit Schwerpunkt Online Auktion</title>
+      <link>https://www.arbeitnow.com/jobs/companies/munzen-medaillen-frankfurt/werkstudent-in-back-office-mit-schwerpunkt-online-auktion-frankfurt-am-main-258004</link>
+      <guid isPermaLink="false">an:werkstudent-in-back-office-mit-schwerpunkt-online-auktion-frankfurt-am-main-258004</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Münzen Medaillen Frankfurt · Frankfurt am Main · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) im Distanzkanalmanagement</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14319-00055c04112002-S</link>
@@ -95,30 +127,6 @@
       <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>Deutsche Stiftung für Engagement und Ehrenamt · Neustrelitz · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003997964-S</link>
-      <guid isPermaLink="false">10001-1003997964-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>FAMO GmbH &amp; Co. KG · Oldenburg (Oldb) · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Fuhrparkmanagement (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-57e32774_JB5295505-S</link>
-      <guid isPermaLink="false">13635-57e32774_JB5295505-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>APC AG · Nürnberg · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent/ Studentische Aushilfe/ Kaufmännischer Mitarbeiter (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-373A146208-S</link>
-      <guid isPermaLink="false">14751-373A146208-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Tempton Personaldienstleistungen GmbH Personalabteilung Mitte · Nürnberg · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

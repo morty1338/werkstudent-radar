@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 13:43:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 23:37:13 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Recruiting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-528196_JB5300455-S</link>
+      <guid isPermaLink="false">12265-528196_JB5300455-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>FERCHAU GmbH Niederlassung Hannover · Hannover · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent Recruiting (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004020290-S</link>
@@ -71,14 +79,6 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>ROOT GmbH · Mannheim · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent / Studentisches Praktikum (m/w/d) im Bereich Personalwesen (HR)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004018400-S</link>
-      <guid isPermaLink="false">10001-1004018400-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Sparkasse Amberg-Sulzbach · Amberg · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Recruiting / Bewerbermanagement</title>
@@ -343,78 +343,6 @@
       <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Gusti Leder GmbH · Rostock · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Recruiting &amp; Talent Acquisition</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11119-4994972240-S</link>
-      <guid isPermaLink="false">11119-4994972240-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Amano GmbH - Koblenz · Koblenz am Rhein · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>TOKYO ELECTRON: Working Student Human Resources</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3093361794351600-S</link>
-      <guid isPermaLink="false">11956-3093361794351600-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>TOKYO ELECTRON · Dresden · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Personalentwicklung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12706-44566250-1110-S</link>
-      <guid isPermaLink="false">12706-44566250-1110-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Amprion GmbH · Dortmund · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting &amp; Office Support (m/w/d), item Solingen, Friedenstraße</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2375773-S</link>
-      <guid isPermaLink="false">12811-2375773-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>item Industrietechnik GmbH · Solingen · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Human Relations - Schwerpunkt Recruiting (m/w/d), Brilon- Hoppecke</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2375859-S</link>
-      <guid isPermaLink="false">12811-2375859-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>HOPPECKE · Brilon · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Human Resources - Recruiting (m/w/d), Werk Barsinghausen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2375920-S</link>
-      <guid isPermaLink="false">12811-2375920-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Bahlsen GmbH &amp; Co. KG, Austausch Group und Werke · Barsinghausen · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent HR Operations (w/m/d), Stuttgart</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2376255-S</link>
-      <guid isPermaLink="false">12811-2376255-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Gleiss Lutz Support · Stuttgart · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Personalrecruiting (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13032-1AGUNRPH8EA5G0FG-S</link>
-      <guid isPermaLink="false">13032-1AGUNRPH8EA5G0FG-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Argo Defense Argo Aviation GmbH · Hamburg · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting &amp; HR (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-a099d670_JB5295825-S</link>
-      <guid isPermaLink="false">13635-a099d670_JB5295825-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>E.ON Home Deutschland GmbH · Heidelberg · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>

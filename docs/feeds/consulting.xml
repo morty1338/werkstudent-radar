@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 13:43:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 23:37:13 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) im strategischen Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654787-1-S</link>
+      <guid isPermaLink="false">12465-1654787-1-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Siemens AG · Bad Neustadt an der Saale · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent Strategic Foresight &amp; Market Intelligence (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635867-7878-7890-S</link>
@@ -79,22 +87,6 @@
       <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Drees &amp; Sommer SE · Leipzig · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Consulting (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-23cd1942_JB5295709-S</link>
-      <guid isPermaLink="false">13635-23cd1942_JB5295709-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>]init[ AG · Hamburg · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent People und Culture Strategic Projects (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-976333-008-S</link>
-      <guid isPermaLink="false">16604-976333-008-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>TKMS GmbH · Hamburg · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

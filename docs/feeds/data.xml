@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 13:43:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 23:37:13 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Personalstrategie / HR-Analytics Caritas Düsseldorf - Unterbilk</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-134069-STA-S</link>
+      <guid isPermaLink="false">11858-SDE-134069-STA-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Caritasverband Düsseldorf e. V. · Düsseldorf · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Portfoliosteuerung mit Schwerpunkt Data-Automation</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5001645150-S</link>
@@ -231,14 +239,6 @@
       <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Gusti Leder GmbH · Rostock · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Bildverarbeitung &amp; KI – Labor und Bilddaten</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003997544-S</link>
-      <guid isPermaLink="false">10001-1003997544-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>phil-vision GmbH · Puchheim · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

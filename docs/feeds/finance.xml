@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 13:43:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 23:37:13 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>WerkstudentIn Finance (m/w/x), metiundo Berlin</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2380310-S</link>
+      <guid isPermaLink="false">12811-2380310-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>metiundo · Berlin · €18.00/h · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Finance &amp; Consulting (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/horbach-finanzplanung-fur-akademiker/werkstudent-finance-consulting-berlin-321415</link>
+      <guid isPermaLink="false">an:werkstudent-finance-consulting-berlin-321415</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Horbach Finanzplanung für Akademiker · Berlin · Finance &amp; Controlling</description>
+    </item>
     <item>
       <title>Werkstudent Privatkundenbank im Bereich Finanzierungsspezialisten (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1654625-1-S</link>
@@ -23,14 +39,6 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>HANSAINVEST · Hamburg · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) DACH Finance E-Mobility</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654124-1-S</link>
-      <guid isPermaLink="false">12465-1654124-1-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Siemens AG · Erlangen · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent  - Testmethodenentwicklung für Materialprüfung (m/w/d) - REF100582R</title>
@@ -81,14 +89,6 @@
       <description>Haufe-Lexware GmbH &amp; Co.KG · Berlin · Finance &amp; Controlling</description>
     </item>
     <item>
-      <title>Werkstudent im Kundenkontakt (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001B0R-S</link>
-      <guid isPermaLink="false">18024-10Q4800001B0R-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Sparkasse Hohenlohekreis · Finance &amp; Controlling</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
       <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-4395</link>
       <guid isPermaLink="false">an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-4395</guid>
@@ -121,14 +121,6 @@
       <description>EPnP Integrated Systems GmbH · Neuhausen · Finance &amp; Controlling</description>
     </item>
     <item>
-      <title>Working Student - Debt Markets GER (f/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1370610-2-S</link>
-      <guid isPermaLink="false">11070-1370610-2-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>HypoVereinsbank - UniCredit Bank GmbH · München · €18.06/h · Finance &amp; Controlling</description>
-    </item>
-    <item>
       <title>Working Student Infrastructure &amp; Export Financing (f/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1653898-1-S</link>
       <guid isPermaLink="false">11070-1653898-1-S</guid>
@@ -151,30 +143,6 @@
       <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Roast Market GmbH · Frankfurt am Main · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Controlling</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635992-7878-3883-S</link>
-      <guid isPermaLink="false">15939-BB-635992-7878-3883-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Rheinmetall AG · Düsseldorf · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-246920</link>
-      <guid isPermaLink="false">an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-246920</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Kevin Kehr · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-318023</link>
-      <guid isPermaLink="false">an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-318023</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Kevin Kehr · Hamburg · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) im KI Startup mit Impact | Finance &amp; Accounting</title>
@@ -263,38 +231,6 @@
       <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>TECOSIM GmbH · Wiesbaden · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Food &amp; Beverage (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0457658-S</link>
-      <guid isPermaLink="false">12336-a26f539j0457658-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>BWI GmbH · Bonn · €16.00/h · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Finance</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-abbdb99d_JB5294636-S</link>
-      <guid isPermaLink="false">13635-abbdb99d_JB5294636-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Hormosan Pharma GmbH · Frankfurt am Main · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Trainee Controlling / Agrarberatung (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/claudius-wurth-agrarberatung/trainee-controlling-agrarberatung-osnabruck-220140</link>
-      <guid isPermaLink="false">an:trainee-controlling-agrarberatung-osnabruck-220140</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Claudius Wurth Agrarberatung · Osnabrück · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Working Student / Intern Finance &amp; Operations (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/genuine-beauty-gmbh/working-student-intern-finance-operations-cologne-179042</link>
-      <guid isPermaLink="false">an:working-student-intern-finance-operations-cologne-179042</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>GENUINE Beauty GmbH · Köln · Finance &amp; Controlling · no German needed</description>
     </item>
   </channel>
 </rss>

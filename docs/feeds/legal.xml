@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 13:43:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 23:37:13 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Working Student - Compliance</title>
@@ -95,22 +95,6 @@
       <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
       <category>Legal</category>
       <description>Kaufland Dienstleistung GmbH &amp; Co. KG · Heilbronn · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent Legal / Recht (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003996159-S</link>
-      <guid isPermaLink="false">10001-1003996159-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>IPG Photonics GmbH &amp; Co. KG · Burbach · Legal</description>
-    </item>
-    <item>
-      <title>Working student (d/f/m) for the legal team in Bremen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-982568235-S</link>
-      <guid isPermaLink="false">16947-982568235-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Airbus Defence and Space GmbH · Bremen · Legal</description>
     </item>
   </channel>
 </rss>
