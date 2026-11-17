@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 13:43:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Working Student - Compliance</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004026641-S</link>
+      <guid isPermaLink="false">10001-1004026641-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Universal-Investment-GmbH · Frankfurt am Main · Legal</description>
+    </item>
+    <item>
+      <title>Werkstudent/-in Widerspruchsverfahren (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004027662-S</link>
+      <guid isPermaLink="false">10001-1004027662-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>BG Holz und Metall · Mainz · €20.58/h · Legal</description>
+    </item>
+    <item>
+      <title>Minijob / Werkstudent Recht und Regulierung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14922-75033-S</link>
+      <guid isPermaLink="false">14922-75033-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>BREKO Bundesverband Breitbandkommunikation e.V. · Bonn · Legal</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Datenschutz</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16470-44576595-1116-S</link>

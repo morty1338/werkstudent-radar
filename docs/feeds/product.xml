@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 13:43:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) als Projektassistenz | Berlin</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13465-00021a6a040001-S</link>
+      <guid isPermaLink="false">13465-00021a6a040001-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>WISAG Job &amp; Karriere GmbH &amp; Co. KG · Berlin · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Planungskoordination</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14012-2026kd2ar4ee-000-S</link>
+      <guid isPermaLink="false">14012-2026kd2ar4ee-000-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>GWH Wohnungsgesellschaft mbH Hessen · Frankfurt am Main · €17.70/h · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent Missile Launcher &amp; Combat Modules (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636036-7878-6637-S</link>
@@ -15,6 +31,14 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Rheinmetall AG · Bremen · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (d/m/w) in der Produktion: Projektmanagement Flügelausrüstung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-984249156-S</link>
+      <guid isPermaLink="false">16947-984249156-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Airbus Operations GmbH Werk Bremen · Bremen · €19.10/h · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Energiemanagement &amp; Projektingenieurwesen - mit Perspektive auf Festanstellung</title>

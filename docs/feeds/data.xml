@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 13:43:57 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Portfoliosteuerung mit Schwerpunkt Data-Automation</title>
@@ -39,6 +39,14 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>EDEKA IT Stiftung &amp; Co. OHG · Hamburg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudierende (m/w/d) für Datenanalysen im Projektumfeld</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-314726-S</link>
+      <guid isPermaLink="false">13644-314726-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Finanz Informatik · Hannover · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent Digitalisierung &amp; Business Intelligence im Controlling (w/m/div.)</title>

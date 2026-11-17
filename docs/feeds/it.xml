@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 13:43:57 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Verwaltung und Digitalisierung</title>
@@ -57,6 +57,14 @@
       <description>ADAC IT Service GmbH · München · IT &amp; Software</description>
     </item>
     <item>
+      <title>Werkstudent oder Praktikant im Bereich Produkt-Cybersecurity für Maschinen und Fahrzeuge (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12952-2026_1793140-S</link>
+      <guid isPermaLink="false">12952-2026_1793140-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>SCHEUERLE Fahrzeugfabrik GmbH · Pfedelbach · IT &amp; Software</description>
+    </item>
+    <item>
       <title>Werkstudent IT-Support &amp; Logistik-Infrastruktur (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-4603fa09_JB5298852-S</link>
       <guid isPermaLink="false">13635-4603fa09_JB5298852-S</guid>
@@ -79,6 +87,14 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Digitalagentur1 GmbH · Aichach · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Software Engineering (all genders)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/titanom-technologies/werkstudent-software-engineering-all-genders-germering-104959</link>
+      <guid isPermaLink="false">an:werkstudent-software-engineering-all-genders-germering-104959</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Titanom Technologies · Germering · €21.25/h · IT &amp; Software</description>
     </item>
     <item>
       <title>DPS Business Solutions GmbH: Werkstudent IT-Projektmanagement &amp; Technical Solutions (m/w/d)</title>

@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 13:43:57 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (in) im Vertragsmanagement (d/m/w)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100fe00003T0E-S</link>
+      <guid isPermaLink="false">18024-100fe00003T0E-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Berliner Stadtgüter GmbH · Berlin · €15.92/h · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y0P-S</link>
+      <guid isPermaLink="false">18024-10Q6L00001Y0P-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent (in) im Vertragsmanagement (d/m/w)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100fe00003T0D-S</link>
