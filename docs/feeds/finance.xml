@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 13:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Fund Annual Reports</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5001678605-S</link>
+      <guid isPermaLink="false">12288-5001678605-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>HANSAINVEST · Hamburg · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) DACH Finance E-Mobility</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654124-1-S</link>
+      <guid isPermaLink="false">12465-1654124-1-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Siemens AG · Erlangen · Finance &amp; Controlling</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Regulierung &amp; Netzcontrolling</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004016361-S</link>
@@ -103,6 +119,14 @@
       <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Rheinmetall AG · Düsseldorf · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-246920</link>
+      <guid isPermaLink="false">an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-246920</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Kevin Kehr · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
@@ -231,78 +255,6 @@
       <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>GENUINE Beauty GmbH · Köln · Finance &amp; Controlling · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent/in (m/w/d) – Wahl Steuerberatung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208616182-S</link>
-      <guid isPermaLink="false">10000-1208616182-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Wahl, Christina Steuerberaterin · Göppingen · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Accounting &amp; Tax</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003985994-S</link>
-      <guid isPermaLink="false">10001-1003985994-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>United Internet AG · Montabaur · €17.00/h · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent – Schwerpunkt Controlling (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003990286-S</link>
-      <guid isPermaLink="false">10001-1003990286-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>ALDB GmbH · Berlin · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) Engineering - Steuerungstechnik SPS</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003990594-S</link>
-      <guid isPermaLink="false">10001-1003990594-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>USHIO INE GmbH · Berlin · €18.00/h · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Projektmanagement / Projektsteuerung (m/w/d), Hamburg SBS</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2375235-S</link>
-      <guid isPermaLink="false">12811-2375235-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>SOCOTEC Building Solutions GmbH · Hamburg · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudententätigkeit Finanzcontrolling m/w/d</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-a2b26386-9fbb-4f0a--S</link>
-      <guid isPermaLink="false">12951-a2b26386-9fbb-4f0a--S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Unfallkasse Baden-Württemberg (UKBW) · Stuttgart · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Controlling (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16818-100914035-S</link>
-      <guid isPermaLink="false">16818-100914035-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Knorr-Bremse Systeme für Schienenfahrzeuge GmbH · München · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Vendor Risk Management &amp; Dienstleistungssteuerung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19376-44564325-119-S</link>
-      <guid isPermaLink="false">19376-44564325-119-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>HDI AG · Hannover · €17.50/h · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent:in öffentliche Finanzen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21008-2375149-S</link>
-      <guid isPermaLink="false">21008-2375149-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>PD - Berater der öffentlichen Hand GmbH · Berlin · Finance &amp; Controlling</description>
     </item>
   </channel>
 </rss>

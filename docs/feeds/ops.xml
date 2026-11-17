@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 13:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (in) im Vertragsmanagement (d/m/w)</title>
@@ -151,46 +151,6 @@
       <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Zenjob · Berlin · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Mitnahmelager (m/w/d), Logistik Mitnahme</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2374875-S</link>
-      <guid isPermaLink="false">12811-2374875-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Weiterstadt · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Mitnahmelager (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-c529f1bd-96ba-41bc--S</link>
-      <guid isPermaLink="false">12951-c529f1bd-96ba-41bc--S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Weiterstadt · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Mitnahmelager (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19146-100016105036-S</link>
-      <guid isPermaLink="false">19146-100016105036-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Hans Segmüller Polstermöbelfabrik GmbH &amp; Co. KG · Weiterstadt · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Operations (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/kola-invest-gmbh/operations-manager-fur-warmecontracting-hamburg-185878</link>
-      <guid isPermaLink="false">an:operations-manager-fur-warmecontracting-hamburg-185878</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Kola Invest GmbH · Hamburg · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Transformation &amp; Logistikoptimierung</title>
-      <link>https://www.arbeitnow.com/jobs/companies/currenta-gruppe/werkstudent-transformation-logistikoptimierung-leverkusen-231138</link>
-      <guid isPermaLink="false">an:werkstudent-transformation-logistikoptimierung-leverkusen-231138</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>CURRENTA GRUPPE · Leverkusen · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 13:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Customer Success Manager (w/m/d) - Werkstudium oder Pflichtpraktikum</title>
+      <link>https://www.arbeitnow.com/jobs/companies/bloom-future/customer-success-manager-werkstudium-oder-pflichtpraktikum-heilbronn-420280</link>
+      <guid isPermaLink="false">an:customer-success-manager-werkstudium-oder-pflichtpraktikum-heilbronn-420280</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Bloom Future · Heilbronn · €16.00/h · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent Customer Success (w/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/nextaudit/werkstudent-customer-success-aachen-243583</link>
+      <guid isPermaLink="false">an:werkstudent-customer-success-aachen-243583</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>nextAudit · Aachen · €17.00/h · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent Proposal Management (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636026-7878-7508-S</link>
@@ -223,22 +239,6 @@
       <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Yoummday · München · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Vertrieb (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-517858_JB5295309-S</link>
-      <guid isPermaLink="false">12265-517858_JB5295309-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>FERCHAU GmbH Niederlassung Lübeck · Lübeck · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Vertrieb | Elektrotechnik</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13465-00021a65678002-S</link>
-      <guid isPermaLink="false">13465-00021a65678002-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>WISAG Elektrotechnik Mitteldtl. GmbH &amp; Co. KG - Region · Leipzig · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>

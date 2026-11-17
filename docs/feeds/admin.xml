@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 13:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) im Distanzkanalmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14319-00055c04112002-S</link>
+      <guid isPermaLink="false">14319-00055c04112002-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>KKH Kaufmännische Krankenkasse · Hannover · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent/-in Sachbearbeitung (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004005490-S</link>
@@ -111,22 +119,6 @@
       <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>Tempton Personaldienstleistungen GmbH Personalabteilung Mitte · Nürnberg · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) - Officemanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003992077-S</link>
-      <guid isPermaLink="false">10001-1003992077-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>therapiePUNKT GmbH · München · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Administration &amp; kaufmännische Prozesse</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003992423-S</link>
-      <guid isPermaLink="false">10001-1003992423-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>AVG Bau Goch GmbH · Duisburg · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

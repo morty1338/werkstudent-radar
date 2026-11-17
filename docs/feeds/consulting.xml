@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 13:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Strategic Foresight &amp; Market Intelligence (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-635867-7878-7890-S</link>
+      <guid isPermaLink="false">15939-BB-635867-7878-7890-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Rheinmetall AG · Bremen · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent Strategieentwicklung Customer Support (w/m/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1654013-1-S</link>
@@ -15,14 +23,6 @@
       <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>BMW AG · München · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im strategischen Einkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654125-1-S</link>
-      <guid isPermaLink="false">12465-1654125-1-S</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Siemens AG · Erlangen · Consulting &amp; Strategy · no German needed</description>
     </item>
     <item>
       <title>Werkstudent * im Bereich Strategisches Produktionsmanagement, Klingenbergstraße 16</title>
@@ -95,22 +95,6 @@
       <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>TKMS GmbH · Hamburg · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Fiskalberatung (m/w/d) - AI focus</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-W1XKE2-9DQ-S</link>
-      <guid isPermaLink="false">12518-W1XKE2-9DQ-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Scopevisio AG · Halle (Westfalen) · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudentin (m/w/d) für unser Beratungs- und Familienzentrum in Berg am Laim, St.-Michael-Straße 7</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2375394-S</link>
-      <guid isPermaLink="false">12811-2375394-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>SOS-Kinderdorf e.V. · München · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

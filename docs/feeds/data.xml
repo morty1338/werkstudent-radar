@@ -6,8 +6,56 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 13:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Portfoliosteuerung mit Schwerpunkt Data-Automation</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5001645150-S</link>
+      <guid isPermaLink="false">12288-5001645150-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>SIGNAL IDUNA · Hamburg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent*in E-Systemintegration für Data Engineering und Analytics</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1654259-1-S</link>
+      <guid isPermaLink="false">13151-1654259-1-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Mercedes-Benz Group AG · Sindelfingen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Data &amp; Analytics (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13334-00005f6724e001-S</link>
+      <guid isPermaLink="false">13334-00005f6724e001-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>EDEKA IT Stiftung &amp; Co. OHG · Hamburg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Change und Kommunikation Datenplattform (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13334-00005f6737b001-S</link>
+      <guid isPermaLink="false">13334-00005f6737b001-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>EDEKA IT Stiftung &amp; Co. OHG · Hamburg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Digitalisierung &amp; Business Intelligence im Controlling (w/m/div.)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF301005E-2ad385a-S</link>
+      <guid isPermaLink="false">15986-REF301005E-2ad385a-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Robert Bosch GmbH · Lohr am Main · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student: Design Operations &amp; 3D Data Architecture (d/f/m)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-983987838-S</link>
+      <guid isPermaLink="false">16947-983987838-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Airbus Operations GmbH Werk Bremen · Hamburg · €18.53/h · Data &amp; Analytics · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent Data &amp; Analytics | Microsoft Fabric (m/w/d) – Altdorf</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004016627-S</link>
@@ -183,22 +231,6 @@
       <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>phil-vision GmbH · Puchheim · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent / Praktikant (m/w/d) – PPWR-Datenmanagement &amp; Verpackungs-Compliance</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003990180-S</link>
-      <guid isPermaLink="false">10001-1003990180-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Anduronda Import GmbH Lebensmittel-Großhandel · Köln · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Zertifikatsservice &amp; Datenmanagement,Nürnberg,Bayreuth,Regensburg</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2375531-S</link>
-      <guid isPermaLink="false">12811-2375531-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Anstalt für kommunale Datenverarbeitung Bayern · Nürnberg · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

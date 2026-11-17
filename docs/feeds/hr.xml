@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 13:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Recruiting (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004020290-S</link>
+      <guid isPermaLink="false">10001-1004020290-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>ADAC Luftrettung gGmbH · Weßling · €18.50/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Human Resources</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654496-1-S</link>
+      <guid isPermaLink="false">12465-1654496-1-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Siemens AG · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Softwaretesting &amp; Qualitätssicherung (m/w/d) E-Recruiting-Software Mainz</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-5025fb77_JB5299070-S</link>
+      <guid isPermaLink="false">13635-5025fb77_JB5299070-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>hidden professionals GmbH · Mainz · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Recruiting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14271-1654208-1-S</link>
+      <guid isPermaLink="false">14271-1654208-1-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Johanniter-Unfall-Hilfe e.V. Landesverband Niedersachsen/Bremen · Hannover · €20.00/h · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent / Studentisches Praktikum (m/w/d) im Bereich Personalwesen (HR)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004018400-S</link>
@@ -89,7 +121,7 @@
       <description>House of Healthcare GmbH · Hamburg · HR &amp; Recruiting</description>
     </item>
     <item>
-      <title>Praktikant/Werkstudent Personalmanagement (m/w/d)</title>
+      <title>Praktikant/ Werkstudent Personalmanagement (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20478-2377909-S</link>
       <guid isPermaLink="false">20478-2377909-S</guid>
       <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
@@ -249,14 +281,6 @@
       <description>DIS AG Germany · Erfurt · HR &amp; Recruiting</description>
     </item>
     <item>
-      <title>Praktikum / Werkstudent:in HR Business Partner:in (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1652964-1-S</link>
-      <guid isPermaLink="false">12456-1652964-1-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Deutsche Bahn AG · München · HR &amp; Recruiting</description>
-    </item>
-    <item>
       <title>Werkstudent Personal- &amp; Organisationsentwicklung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16274-0068698063-S</link>
       <guid isPermaLink="false">16274-0068698063-S</guid>
@@ -303,14 +327,6 @@
       <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>TOKYO ELECTRON · Dresden · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Working Student (f/m/d) People &amp; Organisation</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1652709-1-S</link>
-      <guid isPermaLink="false">12465-1652709-1-S</guid>
-      <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Siemens AG · München · HR &amp; Recruiting · no German needed</description>
     </item>
     <item>
       <title>Werkstudent Personalentwicklung (m/w/d)</title>
@@ -367,70 +383,6 @@
       <pubDate>Wed, 11 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>E.ON Home Deutschland GmbH · Heidelberg · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Personal (befristet für 12 Monate)*</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003987368-S</link>
-      <guid isPermaLink="false">10001-1003987368-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>VOLKSWAGEN GROUP Original Teil e Logistik, Vertrieb &amp; Service s GmbH · Baunatal · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting &amp; Vertrieb (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11112-13386-1803318-0-S</link>
-      <guid isPermaLink="false">11112-13386-1803318-0-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Randstad Deuschland GmbH &amp;  Co. KG · Rastatt · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting (m/w/d/k.A.)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-81KXJY-VMV-S</link>
-      <guid isPermaLink="false">12518-81KXJY-VMV-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Phantasialand Schmidt-Löffelhardt GmbH &amp; Co. KG · Brühl · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent/Praktikant für Personalberatung und Recruitment (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12661-99R8C0ZP0WUR9R6M-S</link>
-      <guid isPermaLink="false">12661-99R8C0ZP0WUR9R6M-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Five Hunters GmbH · Halle · €13.90/h · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Employer Branding &amp; Personalmarketing | 15-20 Std./W..., Neumarkt in der Ober...</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2374774-S</link>
-      <guid isPermaLink="false">12811-2374774-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>PFLEIDERER Deutschland GmbH · Neumarkt in der Oberpfalz · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>MA Personalsuche: Werkstudentin Minijob /TZ Studentenjob Neukölln, ABEX Stahlbau-Rohrbi...</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2375578-S</link>
-      <guid isPermaLink="false">12811-2375578-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>ABEX Stahlbau-Rohrbiegen-Stadtmöbel GmbH · Berlin · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Personalabteilung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16678-0068633103-S</link>
-      <guid isPermaLink="false">16678-0068633103-S</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>WM SE · Osnabrück · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent oder Praktikant Recruiting &amp; Active Sourcing (m/w/d) – 100 % Remote</title>
-      <link>https://www.arbeitnow.com/jobs/companies/best-talents-consulting-gmbh/werkstudent-oder-praktikant-recruiting-active-sourcing-100-remote-berlin-170386</link>
-      <guid isPermaLink="false">an:werkstudent-oder-praktikant-recruiting-active-sourcing-100-remote-berlin-170386</guid>
-      <pubDate>Tue, 10 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Best Talents Consulting GmbH · Berlin · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 13:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:22:00 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Datenschutz</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16470-44576595-1116-S</link>
+      <guid isPermaLink="false">16470-44576595-1116-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Telefónica Germany GmbH &amp; Co. OHG · Hamburg · Legal</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Arbeitsrecht</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004004596-S</link>
