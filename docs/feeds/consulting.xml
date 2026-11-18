@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 23:37:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 13:18:27 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (w/m/d) im strategischen Einkauf</title>
@@ -15,6 +15,14 @@
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Siemens AG · Bad Neustadt an der Saale · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Business Consultancy</title>
+      <link>https://www.arbeitnow.com/jobs/companies/northwave-cyber-security/werkstudentin-business-consultancy-leipzig-438002</link>
+      <guid isPermaLink="false">an:werkstudentin-business-consultancy-leipzig-438002</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Northwave Cyber Security · Leipzig · Consulting &amp; Strategy</description>
     </item>
     <item>
       <title>Werkstudent Strategic Foresight &amp; Market Intelligence (m/w/d)</title>

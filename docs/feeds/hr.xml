@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 23:37:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 13:18:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent HR – Schwerpunkt Recruiting und Personalmarketing (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004032290-S</link>
+      <guid isPermaLink="false">10001-1004032290-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>eQ-3 AG · Leer (Ostfriesland) · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Recruiting</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11868-13930217-S</link>
+      <guid isPermaLink="false">11868-13930217-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>I. K. Hofmann GmbH Hofmann Gunzenhausen/Ansbach · Ansbach · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent Recruiting (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-528196_JB5300455-S</link>
@@ -15,6 +31,70 @@
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>FERCHAU GmbH Niederlassung Hannover · Hannover · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent / Praktikant (m/w/d) Strategische Recruiting &amp; Employer Branding</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-ZYD4KU-FK5-S</link>
+      <guid isPermaLink="false">12518-ZYD4KU-FK5-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Motel One Head Office · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Assessment Center (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1467637-28033-1-S</link>
+      <guid isPermaLink="false">12608-1467637-28033-1-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>REWE Group · Köln · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Human Resources, Langenhagen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2380465-S</link>
+      <guid isPermaLink="false">12811-2380465-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Bahlsen GmbH &amp; Co. KG Group · Langenhagen · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Personalmanagement Nachwuchskräfte (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13334-00005f68a04001-S</link>
+      <guid isPermaLink="false">13334-00005f68a04001-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>EDEKA IT Stiftung &amp; Co. OHG · Hamburg · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent im Recruiting (m/w/d) Fachkraft</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14385-419-3178P-26-S</link>
+      <guid isPermaLink="false">14385-419-3178P-26-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>ARWA Personaldienstleistungen GmbH · Chemnitz · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Recruiting &amp; Personalmanagement (Home Office)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15235-k43552.245818-S</link>
+      <guid isPermaLink="false">15235-k43552.245818-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>rocket match powered by notificAI GmbH · Düsseldorf · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Human Resources (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636063-7878-3473-S</link>
+      <guid isPermaLink="false">15939-BB-636063-7878-3473-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Rheinmetall AG · Unterlüß · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Personalentwicklung und Zukunftscampus /w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17751-44577952-1117-S</link>
+      <guid isPermaLink="false">17751-44577952-1117-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Die Autobahn GmbH des Bundes Zentrale Berlin, Weidt Park Corner · Berlin · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent Recruiting (w/m/d)</title>
@@ -79,6 +159,14 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>ROOT GmbH · Mannheim · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent / Studentisches Praktikum (m/w/d) im Bereich Personalwesen (HR)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004018400-S</link>
+      <guid isPermaLink="false">10001-1004018400-S</guid>
+      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Sparkasse Amberg-Sulzbach · Amberg · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Recruiting / Bewerbermanagement</title>

@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 23:37:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 13:18:27 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) Technischer Support</title>
@@ -25,12 +25,36 @@
       <description>Vermögen und Bau BW Amt Ravensburg · Ravensburg · €16.98/h · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent (m/w/d) im Bereich Qualitätssicherung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004030923-S</link>
+      <guid isPermaLink="false">10001-1004030923-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Volksbank pur eG · Karlsruhe · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Elektrotechnik / Mechatronik (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004031309-S</link>
+      <guid isPermaLink="false">10001-1004031309-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>TELOGS GmbH Technikservice für Logistikanlagen · Wettenberg · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent (w/m/d) Technische Gebäudeausrüstung – HLSK (Heizung, Lüftung, Sanitär, Klima)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5002905476-S</link>
       <guid isPermaLink="false">12288-5002905476-S</guid>
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Drees &amp; Sommer SE · Köln · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>WERKSTUDENT/ PRAKTIKANT (m/w/d) FÜR DIE BAULEITUNG - BAUVORHABEN BEI FREIBURG</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5002910441-S</link>
+      <guid isPermaLink="false">12288-5002910441-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Bremer Süd GmbH · Karlsruhe · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent (w/m/d) Fertigungsplanung und Arbeitsvorbereitung</title>
@@ -63,6 +87,54 @@
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Parador GmbH Deutschland · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>WerkstudentIn | Studentische Aushilfe (w/m/d) Architektur oder Baumanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14340-497584981-S</link>
+      <guid isPermaLink="false">14340-497584981-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DHL AG Zentrale · Stuttgart · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Elektronikentwicklung (m/w/d) für den Bereich Schaltnetzteilentwicklung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15584-k50989.2580-S</link>
+      <guid isPermaLink="false">15584-k50989.2580-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Gebrüder Frei GmbH &amp; Co. KG · Albstadt · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Unterstützung der Systemtechnik Fahrzeugsysteme (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636067-7878-1150-S</link>
+      <guid isPermaLink="false">15939-BB-636067-7878-1150-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Rheinmetall AG · Bremen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Engineering Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636073-7878-4178-S</link>
+      <guid isPermaLink="false">15939-BB-636073-7878-4178-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Rheinmetall AG · Wedel · €17.50/h · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent im Qualitätsmanagement für Halbleiter (w/m/div.)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF301268H-e4fc985-S</link>
+      <guid isPermaLink="false">15986-REF301268H-e4fc985-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Robert Bosch GmbH · Reutlingen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Testautomatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160M-S</link>
+      <guid isPermaLink="false">18024-10Q7q0000160M-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent Flächensicherung / Akquise Wind- und PV-Anlagen (m/w/d)</title>

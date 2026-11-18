@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 23:37:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 13:18:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Content Creator (m/w/d) – Social Media &amp; Video</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004031483-S</link>
+      <guid isPermaLink="false">10001-1004031483-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Kuchem Konferenz Technik GmbH &amp; Co. KG · Königswinter · Design &amp; UX</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) Video Content und Internal Communications</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654780-1-S</link>
@@ -15,6 +23,14 @@
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>Siemens AG · Erlangen · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Praktikum/Werkstudium - Design (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/prepmymeal-gmbh/praktikum-werkstudium-design-frankfurt-am-main-82430</link>
+      <guid isPermaLink="false">an:praktikum-werkstudium-design-frankfurt-am-main-82430</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>prepmymeal GmbH · Frankfurt am Main · Design &amp; UX</description>
     </item>
     <item>
       <title>Werkstudent(in) im Grafikdesign/Mediengestaltung: Deine Bühne im Universum der Kreativität</title>
