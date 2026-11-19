@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent / Studentenjob / Aushilfe (m/w/d) in der Kinderbetreuung</title>
@@ -71,22 +71,6 @@
       <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>Education &amp; Social</category>
       <description>Flix · Berlin · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d), Pädagogik, 22 €</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13092-13924643-S</link>
-      <guid isPermaLink="false">13092-13924643-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>all.medi Personalmagement GmbH · Wedemark · €20.50/h · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Erzieher (m/w/d), 25€, Minijob / Werkstudent</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13092-13924656-S</link>
-      <guid isPermaLink="false">13092-13924656-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>all.medi Personalmagement GmbH · Hannover · €23.00/h · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

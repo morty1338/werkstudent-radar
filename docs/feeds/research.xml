@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Marktforschung (m/w/d)</title>
@@ -103,14 +103,6 @@
       <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
       <category>Research &amp; Science</category>
       <description>Robert Bosch GmbH · Gunzenhausen am Altmühlsee · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent Arzneimittelsicherheit (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-684cece8_JB5296289-S</link>
-      <guid isPermaLink="false">13635-684cece8_JB5296289-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Denk Pharma GmbH &amp; Co. KG · München · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

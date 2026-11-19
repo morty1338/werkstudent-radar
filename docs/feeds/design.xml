@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) UX/UI Design</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1655578-1-S</link>
+      <guid isPermaLink="false">12465-1655578-1-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Siemens AG · Berlin · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent:in (m/w/d) Content Creation &amp; Videoschnitt</title>
+      <link>https://www.arbeitnow.com/jobs/companies/vanozza-foods-gmbh/werkstudentin-content-creation-videoschnitt-hamburg-150159</link>
+      <guid isPermaLink="false">an:werkstudentin-content-creation-videoschnitt-hamburg-150159</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>vanozza foods GmbH · Hamburg · Design &amp; UX</description>
+    </item>
     <item>
       <title>Werkstudent Print- und Screendesign mit Schwerpunkt WordPress (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004035915-S</link>
@@ -89,14 +105,6 @@
       <description>Kuchem Konferenz Technik GmbH &amp; Co. KG · Königswinter · Design &amp; UX</description>
     </item>
     <item>
-      <title>Werkstudent (w/m/d) Video Content und Internal Communications</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654780-1-S</link>
-      <guid isPermaLink="false">12465-1654780-1-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Siemens AG · Erlangen · Design &amp; UX</description>
-    </item>
-    <item>
       <title>Praktikum/Werkstudium - Design (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/prepmymeal-gmbh/praktikum-werkstudium-design-frankfurt-am-main-82430</link>
       <guid isPermaLink="false">an:praktikum-werkstudium-design-frankfurt-am-main-82430</guid>
@@ -145,20 +153,20 @@
       <description>SaleLab GmbH · Ravensburg · Design &amp; UX</description>
     </item>
     <item>
+      <title>Werkstudent Photovoltaik und Lademanagement (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/solarkonig-services-gmbh/werkstudent-photovoltaik-und-lademanagement-sendenhorst-330055</link>
+      <guid isPermaLink="false">an:werkstudent-photovoltaik-und-lademanagement-sendenhorst-330055</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Solarkönig Services GmbH · Sendenhorst · Design &amp; UX</description>
+    </item>
+    <item>
       <title>Working Student Video &amp; Content (m/f/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-54266-YF-S</link>
       <guid isPermaLink="false">12117-YF-54266-YF-S</guid>
       <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>SoftProject GmbH · Ettlingen · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Marketing Grafikdesgin (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/delabogroup/werkstudent-marketing-grafikdesgin-dusseldorf-270891</link>
-      <guid isPermaLink="false">an:werkstudent-marketing-grafikdesgin-dusseldorf-270891</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>DELABO.GROUP · Düsseldorf · Design &amp; UX</description>
     </item>
     <item>
       <title>Werkstudent Video Content Creation – Social Media (m/w/d)</title>
@@ -191,14 +199,6 @@
       <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>Neural Frames GmbH · Berlin · Design &amp; UX · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent KI-Video Creator (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-bfa75ef3_JB5296581-S</link>
-      <guid isPermaLink="false">13635-bfa75ef3_JB5296581-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>snapAddy GmbH · Würzburg · Design &amp; UX</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Legal – Gesellschafts- und Vertragsrecht</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20208-af94c0de0517c618f24-S</link>
+      <guid isPermaLink="false">20208-af94c0de0517c618f24-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>CHECK24 Services Personal GmbH · München · Legal</description>
+    </item>
     <item>
       <title>Werkstudent im Rechts-Service (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14244-BB-440180-7878-6530-S</link>
@@ -215,30 +223,6 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>Legal</category>
       <description>Telefónica Germany GmbH &amp; Co. OHG · Hamburg · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Arbeitsrecht</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004004596-S</link>
-      <guid isPermaLink="false">10001-1004004596-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>DAHER INDUSTRIAL SERVICES GmbH · Hamburg · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Datenschutz und Informationssicherheit, Konzernzentrale</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2377071-S</link>
-      <guid isPermaLink="false">12811-2377071-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Telis Verwaltung GmbH · Regensburg · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Legal &amp; Compliance</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-aa62301e_JB5296428-S</link>
-      <guid isPermaLink="false">13635-aa62301e_JB5296428-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>DocuWare GmbH · Germering · Legal</description>
     </item>
   </channel>
 </rss>

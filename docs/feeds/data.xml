@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudententätigkeit Datenanalyse und Testing von Hochvoltspeichern (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1655452-1-S</link>
+      <guid isPermaLink="false">12462-1655452-1-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>BMW AG · München · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Management Support &amp; Artificial Intelligence</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654788-1-S</link>
+      <guid isPermaLink="false">12465-1654788-1-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · Fürth · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) mit Masterarbeit: "Software, Datenplattform und KI für eine autonome...</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654793-1-S</link>
+      <guid isPermaLink="false">12465-1654793-1-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · Krefeld · €15.00/h · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Automatisierung und Daten (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/vimerox-real-estate-management-gmbh/werkstudent-automatisierung-und-daten-berlin-450481</link>
+      <guid isPermaLink="false">an:werkstudent-automatisierung-und-daten-berlin-450481</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Vimerox Real Estate Management GmbH · Berlin · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student – Robot Pilot / Data Collection (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/robco/working-student-robot-pilot-data-collection-munich-200149</link>
+      <guid isPermaLink="false">an:working-student-robot-pilot-data-collection-munich-200149</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>RobCo · München · Data &amp; Analytics · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent/Masterand (m/w/d) Datenbankerstellung im Finanzcontrolling</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12586-44580390-1118-S</link>
@@ -247,22 +287,6 @@
       <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>adjoe · Hamburg · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Personalstrategie / HR-Analytics Caritas Düsseldorf - Unterbilk</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-cda39b3a_JB5296645-S</link>
-      <guid isPermaLink="false">13635-cda39b3a_JB5296645-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Caritasverband Düsseldorf e.V. · Düsseldorf · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Data Engineering &amp; Backend (w/m/div.)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF300853P-677f670-S</link>
-      <guid isPermaLink="false">15986-REF300853P-677f670-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Robert Bosch GmbH · Wernau (Neckar) · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

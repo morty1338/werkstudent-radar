@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) - Gestalte deine Zukunft in der Rodday-Family!, Eichstetten am Kaiserstuhl</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2381873-S</link>
+      <guid isPermaLink="false">12811-2381873-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Initiativ · Eichstetten am Kaiserstuhl · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Arbeits- und Freizeitassistenz in Witten - Minijob oder Werkstudent (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17839-2026-10510010-S</link>
@@ -103,70 +111,6 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>KKH Kaufmännische Krankenkasse · Hannover · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent/-in Sachbearbeitung (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004005490-S</link>
-      <guid isPermaLink="false">10001-1004005490-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Handwerkskammer Düsseldorf · Düsseldorf · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Workplace Experience &amp; Frontdesk (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004011796-S</link>
-      <guid isPermaLink="false">10001-1004011796-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>gematik GmbH · Berlin · €17.00/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Mitgliederverwaltung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004012937-S</link>
-      <guid isPermaLink="false">10001-1004012937-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Psychotherapeutenversorgungswe rk · Hannover · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Travelmanagement Administration (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0457770-S</link>
-      <guid isPermaLink="false">12336-a26f539j0457770-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>BWI GmbH · Frankfurt am Main · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Systemführung (w/d/m)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1142-1-S</link>
-      <guid isPermaLink="false">12728-1142-1-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Avacon AG · Salzgitter · €19.00/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Travelmanagement Administration (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13509-00002111884001-S</link>
-      <guid isPermaLink="false">13509-00002111884001-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>BWI GmbH · Wilhelmshaven · €16.00/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Rezeption / Empfang und Wellness (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-350474-S</link>
-      <guid isPermaLink="false">13884-350474-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Vabali Spa Hamburg GmbH &amp; Co. KG · Glinde · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Informationssicherheit</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21008-2376983-S</link>
-      <guid isPermaLink="false">21008-2376983-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>PD - Berater der öffentlichen Hand GmbH · Hamburg · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

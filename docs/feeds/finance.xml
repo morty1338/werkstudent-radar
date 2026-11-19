@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>#WVE2602 | Werkstudent*in (m/w/d) in der Projektsteuerung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5005509926-S</link>
+      <guid isPermaLink="false">12288-5005509926-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>THOST Projektmanagement GmbH · Leipzig · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Finance Manufacturing</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1656072-1-S</link>
+      <guid isPermaLink="false">12465-1656072-1-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Siemens AG · Karlsruhe · Finance &amp; Controlling</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Fund Annual Reports</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004041067-S</link>
@@ -15,14 +31,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>HANSAINVEST -Hanseatische Investment-GmbH · Hamburg · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Working Student (f/m/d) Investment Team - Equity Finance</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1655572-1-S</link>
-      <guid isPermaLink="false">12465-1655572-1-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Siemens AG · München · Finance &amp; Controlling · no German needed</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) für die Bauwerksprüfung an insbesondere Höhenbauwerken</title>
@@ -799,14 +807,6 @@
       <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>EWR Aktiengesellschaft · Alzey · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent:in im Financial Backoffice bei Semigator (d/m/w)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16963-REF552G-3421001300-S</link>
-      <guid isPermaLink="false">16963-REF552G-3421001300-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Haufe-Lexware GmbH &amp; Co.KG · Berlin · Finance &amp; Controlling</description>
     </item>
   </channel>
 </rss>

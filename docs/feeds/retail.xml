@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Küchenhilfe (m/w/d) im Markt 5 Café</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004044049-S</link>
+      <guid isPermaLink="false">10001-1004044049-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Markt 5 Café - bargusto GmbH · Paderborn · Retail &amp; Hospitality</description>
+    </item>
     <item>
       <title>Werkstudent / Sales Assistant (m/w/d) - CECIL und Street One Outlet in Geislingen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004036251-S</link>
@@ -431,62 +439,6 @@
       <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>KULT | OLYMP &amp; HADES · Bad Kreuznach · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudentenjob (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004013015-S</link>
-      <guid isPermaLink="false">10001-1004013015-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Johannes Walter - Laichingen · Bad Urach · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudentenjob (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004013160-S</link>
-      <guid isPermaLink="false">10001-1004013160-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Johannes Walter - Laichingen · Pfullingen · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) in Fachabteilungen der Sparkasse Essen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-133409-STA-S</link>
-      <guid isPermaLink="false">11858-SDE-133409-STA-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Sparkasse Essen · Essen · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) in Fachabteilungen der Sparkasse Essen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996685763-S</link>
-      <guid isPermaLink="false">12288-4996685763-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Sparkasse Essen · Essen · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Verkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14543-25856-1803861-0-S</link>
-      <guid isPermaLink="false">14543-25856-1803861-0-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>NKD Deutschland GmbH · Cuxhaven · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) - Domagk</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068727513-S</link>
-      <guid isPermaLink="false">17567-0068727513-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · München · €16.50/h · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent - Verkauf, Bäckerei (m/w/d) - Frankfurter Ring (Knorr)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17567-0068735498-S</link>
-      <guid isPermaLink="false">17567-0068735498-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Familienbäckerei Kistenpfennig GmbH &amp; Co. KG · München · €16.50/h · Retail &amp; Hospitality</description>
     </item>
   </channel>
 </rss>

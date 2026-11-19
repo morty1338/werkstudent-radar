@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent als Projektassistenz Werkstudent:in (BWL o. ä.)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004044024-S</link>
+      <guid isPermaLink="false">10001-1004044024-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>INspares GmbH · Erkelenz · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent Projektmanagement Creative Hub (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1465184-28033-1-S</link>
@@ -70,7 +78,7 @@
       <guid isPermaLink="false">an:studentische-hilfskraft-werkstudent-projektentwicklung-frankfurt-am-main-474596</guid>
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
-      <description>Initiative für wirtschaftliche Jugendbildung (IWJB) · Frankfurt am Main · €18.00/h · Product &amp; Project Mgmt</description>
+      <description>Initiative für wirtschaftliche Jugendbildung (IWJB) · Berlin · €18.00/h · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudent Travel Management (m/w/d)</title>
@@ -199,38 +207,6 @@
       <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Quantum-Systems GmbH · Gilching · Product &amp; Project Mgmt · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Projektmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004006742-S</link>
-      <guid isPermaLink="false">10001-1004006742-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>BORA Lüftungstechnik GmbH · Kiefersfelden · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Produktmanagement / Back Office (m/w/d), Jena</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2377577-S</link>
-      <guid isPermaLink="false">12811-2377577-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>DAKO GmbH · Jena · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Multiprojektmanagement Bau &amp; Industrialisierung (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-0d5d4425-d39f-4892--S</link>
-      <guid isPermaLink="false">12951-0d5d4425-d39f-4892--S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>MTU Aero Engines AG · München · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Digitales Produktmanagement AurumCars</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20208-db55d103ba7b4510b4f-S</link>
-      <guid isPermaLink="false">20208-db55d103ba7b4510b4f-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>CHECK24 Services Personal GmbH · München · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

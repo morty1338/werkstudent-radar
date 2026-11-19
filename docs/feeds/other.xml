@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent im Dokumentenmanagement (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17172-98D6A1CF9BC77E52AE7-S</link>
+      <guid isPermaLink="false">17172-98D6A1CF9BC77E52AE7-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Vereinigte Hagelvers. VVaG · Other</description>
+    </item>
+    <item>
+      <title>Category Management Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/category-management-werkstudent-dusseldorf-north-rhine-westphalia-290421</link>
+      <guid isPermaLink="false">an:category-management-werkstudent-dusseldorf-north-rhine-westphalia-290421</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Teampicnic · Düsseldorf · €15.12/h · Other</description>
+    </item>
+    <item>
+      <title>People Associate - Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/wolt/people-associate-working-student-berlin-289879</link>
+      <guid isPermaLink="false">an:people-associate-working-student-berlin-289879</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>wolt · Berlin · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student Founders Associate (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/selqo/working-student-founders-associate-paderborn-149305</link>
+      <guid isPermaLink="false">an:working-student-founders-associate-paderborn-149305</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>selqo · Paderborn · €20.00/h · Other</description>
+    </item>
+    <item>
+      <title>Working Student Global Marketplaces</title>
+      <link>https://www.arbeitnow.com/jobs/companies/lovehoney-group/working-student-global-marketplaces-berlin-372242</link>
+      <guid isPermaLink="false">an:working-student-global-marketplaces-berlin-372242</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Lovehoney Group · Berlin · Other · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent Windows Server Support (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004037946-S</link>
@@ -161,6 +201,14 @@
       <description>Nefino · Hannover · Other</description>
     </item>
     <item>
+      <title>Intern/Working Student Process Management (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/intern-working-student-process-management-gilching-22698</link>
+      <guid isPermaLink="false">an:intern-working-student-process-management-gilching-22698</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Quantum-Systems GmbH · Gilching · Other · no German needed</description>
+    </item>
+    <item>
       <title>Social Promoter (w/m/d) / 2.500- 4.500€ pro Monat / Work and Travel / Ferienjob / Studentenjob / Nebenjob / Außendienst / Fundraiser</title>
       <link>https://www.arbeitnow.com/jobs/companies/places-to-be-fundraising/social-promoter-2500-4500eur-pro-monat-work-and-travel-ferienjob-studentenjob-nebenjob-aussendienst-fundraiser-cologne-417067</link>
       <guid isPermaLink="false">an:social-promoter-2500-4500eur-pro-monat-work-and-travel-ferienjob-studentenjob-nebenjob-aussendienst-fundraiser-cologne-417067</guid>
@@ -223,6 +271,14 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Stadt Passau · Passau · €16.00/h · Other</description>
+    </item>
+    <item>
+      <title>Praktikum / Werkstudent Global Travel Management / Fleet (m/</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-1pskhyj2w6q-S</link>
+      <guid isPermaLink="false">14927-1pskhyj2w6q-S</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Eberspächer Gruppe GmbH &amp; Co. KG · Esslingen am Neckar · Other</description>
     </item>
     <item>
       <title>Werkstudent Customer Relationship Management (m/w/d)</title>
@@ -295,14 +351,6 @@
       <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>VYGON Germany GmbH · Aachen · €19.51/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-bad-salzungen-59348</link>
-      <guid isPermaLink="false">an:werkstudent-bad-salzungen-59348</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>WerraEnergie GmbH · Bad Salzungen · Other · no German needed</description>
     </item>
     <item>
       <title>Werkstudent*in im Kundensupport (20 Wochenstunden)</title>
@@ -391,38 +439,6 @@
       <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>isaraerospace · Ottobrunn · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Corporate Sustainability</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004012933-S</link>
-      <guid isPermaLink="false">10001-1004012933-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>BayWa AG HR Services · München · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent im Bereich Vermögenskunden (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1211234-5-S</link>
-      <guid isPermaLink="false">11070-1211234-5-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>HypoVereinsbank - UniCredit Bank GmbH · Nürnberg · €18.06/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Organisationsentwicklung &amp; Unternehmenskultur (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-74faf3bf-6ed2-4472--S</link>
-      <guid isPermaLink="false">12951-74faf3bf-6ed2-4472--S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>MTU Aero Engines AG · München · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (w/m/d) Trainingsabteilung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16012-44570620-1112-S</link>
-      <guid isPermaLink="false">16012-44570620-1112-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Jenoptik AG · Monheim am Rhein · Other</description>
     </item>
   </channel>
 </rss>
