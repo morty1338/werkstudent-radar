@@ -6,15 +6,71 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 13:18:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
-      <title>Werkstudent HR – Schwerpunkt Recruiting und Personalmarketing (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004032290-S</link>
-      <guid isPermaLink="false">10001-1004032290-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <title>Recruiter / Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004037007-S</link>
+      <guid isPermaLink="false">10001-1004037007-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
-      <description>eQ-3 AG · Leer (Ostfriesland) · HR &amp; Recruiting</description>
+      <description>Freie Waldorfschule und Kindergärten Augsburg e.V. · Augsburg · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent:in HR Business Partner:in</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1655401-1-S</link>
+      <guid isPermaLink="false">12456-1655401-1-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Deutsche Bahn AG · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent HR Operations: Betreuung von Auszubildenden (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-8a663842-b6bc-46fc--S</link>
+      <guid isPermaLink="false">12951-8a663842-b6bc-46fc--S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>MTU Aero Engines AG · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Personalmanagement &amp; HR-Controlling (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-b56d7233_JB5301657-S</link>
+      <guid isPermaLink="false">13635-b56d7233_JB5301657-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>DEVK Versicherungen · Köln · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent HR/Personal (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-977016-008-S</link>
+      <guid isPermaLink="false">16604-977016-008-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>thyssenkrupp AG · Oberhausen · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (d/m/w) HR Support</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-984782504-S</link>
+      <guid isPermaLink="false">16947-984782504-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Airbus Defence and Space GmbH · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Recruiter (m/w/d) für unsere Bewerberhotline – Vollzeit / Werkstudent / Quereinsteiger</title>
+      <link>https://www.arbeitnow.com/jobs/companies/innosolv-gmbh/recruiter-fur-unsere-bewerberhotline-vollzeit-werkstudent-quereinsteiger-munich-269934</link>
+      <guid isPermaLink="false">an:recruiter-fur-unsere-bewerberhotline-vollzeit-werkstudent-quereinsteiger-munich-269934</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>InnoSolv GmbH · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent HR Generalist (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/pflegia/werkstudent-hr-generalist-berlin-328470</link>
+      <guid isPermaLink="false">an:werkstudent-hr-generalist-berlin-328470</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Pflegia · Berlin · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Recruiting</title>
@@ -121,14 +177,6 @@
       <description>FERCHAU GmbH Niederlassung Stuttgart Mobility · Leinfelden-Echterdingen · HR &amp; Recruiting</description>
     </item>
     <item>
-      <title>Werkstudent (w/m/d) Human Resources</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654496-1-S</link>
-      <guid isPermaLink="false">12465-1654496-1-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Siemens AG · München · HR &amp; Recruiting</description>
-    </item>
-    <item>
       <title>Werkstudent (w/m/d) im Bereich Human Resources</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-5fa9f07b-75d3-41ce--S</link>
       <guid isPermaLink="false">12951-5fa9f07b-75d3-41ce--S</guid>
@@ -199,14 +247,6 @@
       <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>momox · Leipzig · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Recruiting</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11868-13927414-S</link>
-      <guid isPermaLink="false">11868-13927414-S</guid>
-      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>I. K. Hofmann GmbH Hofmann Gunzenhausen/Ansbach · Ansbach · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Volkssolidarität Dresden: WERKSTUDENT PERSONAL (M/W/D) für Stellenbeschreibungen und Stellenbewertun</title>
@@ -327,110 +367,6 @@
       <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>CHECK24 Services Personal GmbH · Augsburg · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Schwerpunkt Personalsachbearbeitung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003998834-S</link>
-      <guid isPermaLink="false">10001-1003998834-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Wulff Textil-Service GmbH · Kiel · €15.93/h · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (d/m/w) Personal</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003999076-S</link>
-      <guid isPermaLink="false">10001-1003999076-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Wulff Textil-Service GmbH · Kiel · €15.93/h · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) HR Business Partner</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4995225403-S</link>
-      <guid isPermaLink="false">12288-4995225403-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Drees &amp; Sommer SE · Frankfurt am Main · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) HR Payroll - Pension &amp; Insurance (15h/Woche)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996062708-S</link>
-      <guid isPermaLink="false">12288-4996062708-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Liebherr-International Deutschland GmbH · Biberach an der Riß · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent / Praktikant Corporate HR Marketing (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996070983-S</link>
-      <guid isPermaLink="false">12288-4996070983-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Liebherr-International Deutschland GmbH · Biberach an der Riß · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) in der Personalberatung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996073513-S</link>
-      <guid isPermaLink="false">12288-4996073513-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Grundmann Personalberatung · Stuhr · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Human Resources - Payroll &amp; Digitalisierung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996074190-S</link>
-      <guid isPermaLink="false">12288-4996074190-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Liebherr-Hausgeräte Ochsenhausen GmbH · Ochsenhausen · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Human Resources (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996077130-S</link>
-      <guid isPermaLink="false">12288-4996077130-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>XING · Hamburg · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Recruiting Research &amp; Arbeitsmarktanalyse</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996080458-S</link>
-      <guid isPermaLink="false">12288-4996080458-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>DIS AG Germany · Erfurt · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Personal- &amp; Organisationsentwicklung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16274-0068698063-S</link>
-      <guid isPermaLink="false">16274-0068698063-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Bischof+Klein SE &amp; Co. KG · Lengerich · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Human Resources (d/m/w)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-982601667-S</link>
-      <guid isPermaLink="false">16947-982601667-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Airbus Defence and Space GmbH · Donauwörth · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Vertragsmanagement &amp; HR-Schriftverkehr</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19510-r23222-S</link>
-      <guid isPermaLink="false">19510-r23222-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Mediengruppe Main-Post · Würzburg · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) - Human Resources</title>
-      <link>https://www.arbeitnow.com/jobs/companies/gusti-leder-gmbh/werkstudent-human-resources-rostock-205645</link>
-      <guid isPermaLink="false">an:werkstudent-human-resources-rostock-205645</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Gusti Leder GmbH · Rostock · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>

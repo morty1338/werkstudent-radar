@@ -6,8 +6,64 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 13:18:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Arbeits- und Freizeitassistenz in Witten - Minijob oder Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17839-2026-10510010-S</link>
+      <guid isPermaLink="false">17839-2026-10510010-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>der assistenzdienst ruhr GmbH · Witten · €16.00/h · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Sicherheitsmanagement/Gebäudesicherheit (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984544441-S</link>
+      <guid isPermaLink="false">18989-984544441-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>PricewaterhouseCoopers GmbH WPG · München · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Sicherheitsmanagement/Gebäudesicherheit (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984544444-S</link>
+      <guid isPermaLink="false">18989-984544444-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Frankfurt am Main · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Administrative Unterstützung (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547728-S</link>
+      <guid isPermaLink="false">18989-984547728-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>PricewaterhouseCoopers GmbH WPG · München · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Sicherheitsmanagement/Gebäudesicherheit (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547731-S</link>
+      <guid isPermaLink="false">18989-984547731-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Stuttgart · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Administrative Unterstützung (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547768-S</link>
+      <guid isPermaLink="false">18989-984547768-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Schwerin · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Terminkoordinator</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21455-9804015v1-S</link>
+      <guid isPermaLink="false">21455-9804015v1-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>SEO for Jobs GmbH · Hamburg · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent International Office w/m/d</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12790-j109S16828-46646-S</link>
@@ -111,22 +167,6 @@
       <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>PD - Berater der öffentlichen Hand GmbH · Hamburg · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Empfang &amp; Standortorganisation (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996077309-S</link>
-      <guid isPermaLink="false">12288-4996077309-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>CGI · Erfurt · €16.00/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Umweltpreis (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14089-01511333-S</link>
-      <guid isPermaLink="false">14089-01511333-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Deutsche Stiftung für Engagement und Ehrenamt · Neustrelitz · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

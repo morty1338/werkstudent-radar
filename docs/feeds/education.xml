@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 13:18:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent / Studentenjob / Aushilfe (m/w/d) in der Kinderbetreuung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004041624-S</link>
+      <guid isPermaLink="false">10001-1004041624-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Pädagogische Kinderförderungsgesellschaft mbH · Stuttgart · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) KiTa Berghausen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12287-JOB-872691-S</link>
+      <guid isPermaLink="false">12287-JOB-872691-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Arbeiterwohlfahrt Kreisverband Siegen-Wittgenstein/Olpe · Bad Berleburg · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Wohngruppe</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19447-k61580.1089-S</link>
+      <guid isPermaLink="false">19447-k61580.1089-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Sozialdienst katholischer Frauen e.V. · Frankfurt am Main · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudent*in (m/w/d) für unsere Jugendhilfewerkstatt Griesheim</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004028952-S</link>
@@ -63,46 +87,6 @@
       <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
       <category>Education &amp; Social</category>
       <description>all.medi Personalmagement GmbH · Hannover · €23.00/h · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) offene Jugendarbeit im Jugendtreff Nordend</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004002740-S</link>
-      <guid isPermaLink="false">10001-1004002740-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Stadtverwaltung Worms · Worms · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996074256-S</link>
-      <guid isPermaLink="false">12288-4996074256-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>PERMACON GmbH Frankfurt · Frankfurt am Main · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) für Siemens Professional Education / Ausbildungsabteilung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1653067-1-S</link>
-      <guid isPermaLink="false">12465-1653067-1-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Siemens AG · Düsseldorf · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Global Training Coordination</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-349966-S</link>
-      <guid isPermaLink="false">13884-349966-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>ProMinent GmbH · Heidelberg · €18.49/h · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Kundenbetreuer:in (w/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/enpal/werkstudentin-kundenbetreuerin-berlin-348465</link>
-      <guid isPermaLink="false">an:werkstudentin-kundenbetreuerin-berlin-348465</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Enpal · Berlin · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

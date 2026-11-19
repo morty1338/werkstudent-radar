@@ -6,8 +6,56 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 13:18:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 13:39:54 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent/Masterand (m/w/d) Datenbankerstellung im Finanzcontrolling</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12586-44580390-1118-S</link>
+      <guid isPermaLink="false">12586-44580390-1118-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Bausparkasse Schwäbisch Hall AG · Schwäbisch Hall · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Datenerfassung &amp; Stammdatenpflege (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18346-0068823260-S</link>
+      <guid isPermaLink="false">18346-0068823260-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Heizkurier GmbH · Wachtberg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent:in (w/m/d) für Basisdienste, Datengetriebene Verwaltung und Register</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21008-2381047-S</link>
+      <guid isPermaLink="false">21008-2381047-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>PD - Berater der öffentlichen Hand GmbH · Berlin · €18.00/h · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent - SAP Business Intelligence BI (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/cbs-corporate-business-solutions-gmbh/werkstudent-sap-business-intelligence-bi-dortmund-131965</link>
+      <guid isPermaLink="false">an:werkstudent-sap-business-intelligence-bi-dortmund-131965</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>cbs Corporate Business Solutions GmbH · Dortmund · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student AI Solutions Architect – Generative AI &amp; Data Platforms</title>
+      <link>https://www.arbeitnow.com/jobs/companies/agentixlake-gmbh/working-student-ai-solutions-architect-generative-ai-data-platforms-berlin-292864</link>
+      <guid isPermaLink="false">an:working-student-ai-solutions-architect-generative-ai-data-platforms-berlin-292864</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>AgentixLake GmbH · Berlin · Data &amp; Analytics · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student Data Engineer – Python, SQL &amp; Cloud Platforms</title>
+      <link>https://www.arbeitnow.com/jobs/companies/agentixlake-gmbh/working-student-data-engineer-python-sql-cloud-platforms-berlin-454463</link>
+      <guid isPermaLink="false">an:working-student-data-engineer-python-sql-cloud-platforms-berlin-454463</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>AgentixLake GmbH · Berlin · Data &amp; Analytics · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) Personalstrategie / HR-Analytics Caritas Düsseldorf - Unterbilk</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-134069-STA-S</link>
@@ -169,14 +217,6 @@
       <description>Arvato · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Working Student – Data &amp; AI  (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/black-semiconductor-gmbh/working-student-data-ai-aachen-356566</link>
-      <guid isPermaLink="false">an:working-student-data-ai-aachen-356566</guid>
-      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Black Semiconductor GmbH · Aachen · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) AI &amp; Automation - Produktmanagement &amp; Analytics, Insu..., CHECK24 Versicherungen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2377805-S</link>
       <guid isPermaLink="false">12811-2377805-S</guid>
@@ -223,70 +263,6 @@
       <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Robert Bosch GmbH · Wernau (Neckar) · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>NTT DATA Deutschland SE: Werkstudent (w/m/x) im Bereich Organisation, Development &amp; Culture</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19913-3094341794524400-S</link>
-      <guid isPermaLink="false">19913-3094341794524400-S</guid>
-      <pubDate>Fri, 13 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>NTT DATA Deutschland SE · Rosenheim · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Stammdatenmanagement (m/w/d) / Student/in</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208645820-S</link>
-      <guid isPermaLink="false">10000-1208645820-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Movianto Deutschland GmbH · Neunkirchen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Datenmanagement (M/W/D)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004002447-S</link>
-      <guid isPermaLink="false">10001-1004002447-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>ENSO eCommerce GmbH · Bremen · €16.00/h · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Künstliche Intelligenz &amp; Digitalisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004003687-S</link>
-      <guid isPermaLink="false">10001-1004003687-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>LMT Tool Systems GmbH &amp; Co. KG · Schwarzenbek · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Stammdatenmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-54104-YF-S</link>
-      <guid isPermaLink="false">12117-YF-54104-YF-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Movianto Deutschland GmbH · Neunkirchen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Valuation</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4996061747-S</link>
-      <guid isPermaLink="false">12288-4996061747-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>HANSAINVEST · Hamburg · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Datenbankmigration (MS Dynamics Field Service) (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1070-1-S</link>
-      <guid isPermaLink="false">12728-1070-1-S</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>E.DIS AG · Schönefeld bei Berlin · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudentin im Bereich Performance Marketing Analytics (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/gusti-leder-gmbh/werkstudentin-im-bereich-performance-marketing-analytics-rostock-177982</link>
-      <guid isPermaLink="false">an:werkstudentin-im-bereich-performance-marketing-analytics-rostock-177982</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Gusti Leder GmbH · Rostock · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>
