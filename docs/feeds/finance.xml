@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 13:21:22 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) in der Steuerberatung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004049492-S</link>
+      <guid isPermaLink="false">10001-1004049492-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>PKF WMS GmbH · Osnabrück · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) in der Wirtschaftsprüfung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004049510-S</link>
+      <guid isPermaLink="false">10001-1004049510-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>PKF WMS GmbH · Osnabrück · Finance &amp; Controlling</description>
+    </item>
     <item>
       <title>#WVE2602 | Werkstudent*in (m/w/d) in der Projektsteuerung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5005509926-S</link>
@@ -23,6 +39,30 @@
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Siemens AG · Karlsruhe · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Corporate Finance (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16470-44579536-1119-S</link>
+      <guid isPermaLink="false">16470-44579536-1119-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Telefónica Germany GmbH &amp; Co. OHG · Düsseldorf · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent im Kundenkontakt (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001B0V-S</link>
+      <guid isPermaLink="false">18024-10Q4800001B0V-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Sparkasse Hohenlohekreis · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-334034</link>
+      <guid isPermaLink="false">an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-334034</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Kevin Kehr · Hamburg · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Fund Annual Reports</title>
@@ -767,46 +807,6 @@
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Horbach Finanzplanung für Akademiker · Berlin · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Privatkundenbank im Bereich Finanzierungsspezialisten (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1654625-1-S</link>
-      <guid isPermaLink="false">11070-1654625-1-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>HypoVereinsbank - UniCredit Bank GmbH · Hamburg · €18.06/h · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Fund Annual Reports</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5001678605-S</link>
-      <guid isPermaLink="false">12288-5001678605-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>HANSAINVEST · Hamburg · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent  - Testmethodenentwicklung für Materialprüfung (m/w/d) - REF100582R</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12745-984230596-S</link>
-      <guid isPermaLink="false">12745-984230596-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Continental AG · Hannover · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Event Management &amp; Social Media - Strategy, Risk &amp; Transactions (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15794-471874_50569-1-S</link>
-      <guid isPermaLink="false">15794-471874_50569-1-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Deloitte GmbH · Düsseldorf · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Bereich Regulierung &amp; Netzcontrolling</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004016361-S</link>
-      <guid isPermaLink="false">10001-1004016361-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>EWR Aktiengesellschaft · Alzey · Finance &amp; Controlling</description>
     </item>
   </channel>
 </rss>

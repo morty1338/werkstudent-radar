@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 13:21:22 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudenten im Gründerzentrum (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004044779-S</link>
+      <guid isPermaLink="false">10001-1004044779-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Stadt Passau · Passau · €16.00/h · Other</description>
+    </item>
     <item>
       <title>Werkstudent im Dokumentenmanagement (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17172-98D6A1CF9BC77E52AE7-S</link>
@@ -47,6 +55,30 @@
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Lovehoney Group · Berlin · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student - Investor Relations (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/isaraerospace/working-student-investor-relations-parsdorf-bavaria-148946</link>
+      <guid isPermaLink="false">an:working-student-investor-relations-parsdorf-bavaria-148946</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>isaraerospace · Parsdorf · Other</description>
+    </item>
+    <item>
+      <title>Working Student, POQ (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/isaraerospace/working-student-poq-ottobrunn-bavaria-124750</link>
+      <guid isPermaLink="false">an:working-student-poq-ottobrunn-bavaria-124750</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>isaraerospace · Ottobrunn · Other</description>
+    </item>
+    <item>
+      <title>Working Student – UAV Prototyping &amp; Integration (All Genders)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/skdse/working-student-uav-prototyping-integration-all-genders-berlin-129053</link>
+      <guid isPermaLink="false">an:working-student-uav-prototyping-integration-all-genders-berlin-129053</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Skdse · Berlin · Other · no German needed</description>
     </item>
     <item>
       <title>Werkstudent Windows Server Support (m/w/d)</title>
@@ -273,7 +305,7 @@
       <description>Stadt Passau · Passau · €16.00/h · Other</description>
     </item>
     <item>
-      <title>Praktikum / Werkstudent Global Travel Management / Fleet (m/</title>
+      <title>Praktikum / Werkstudent Global Travel Management / Fleet (m/w/d) 1</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-1pskhyj2w6q-S</link>
       <guid isPermaLink="false">14927-1pskhyj2w6q-S</guid>
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>

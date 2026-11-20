@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 23:10:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 13:21:22 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent als Projektassistenz Werkstudent:in (BWL o. ä.)</title>
@@ -15,6 +15,38 @@
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>INspares GmbH · Erkelenz · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent Projektmanagement (gn)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12513-0007662609-S</link>
+      <guid isPermaLink="false">12513-0007662609-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Elettronica GmbH · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent Projektmanagement (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636101-7878-8203-S</link>
+      <guid isPermaLink="false">15939-BB-636101-7878-8203-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Rheinmetall AG · Düsseldorf · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent Project Production Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-977180-008-S</link>
+      <guid isPermaLink="false">16604-977180-008-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>TKMS ATLAS ELEKTRONIK GmbH · Bremen · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent*in - Infrastrukturprojekte der Energiewende</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17811-00071304cf3001-S</link>
+      <guid isPermaLink="false">17811-00071304cf3001-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>SachsenEnergieBau GmbH · Heidenau · €16.00/h · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudent Projektmanagement Creative Hub (m/w/d)</title>
