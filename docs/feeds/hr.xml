@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 13:21:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:54:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Recruiting / Talent Management / Staffing (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5006838229-S</link>
+      <guid isPermaLink="false">12288-5006838229-S</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>grey engineering GmbH · Holzwickede · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent:in im Personalmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1639697-2-S</link>
+      <guid isPermaLink="false">12456-1639697-2-S</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Deutsche Bahn AG · Düsseldorf · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Human Resources / Personalmanagement, F+U Rhein-Main-Neckar gGmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2382584-S</link>
+      <guid isPermaLink="false">12811-2382584-S</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>F+U Rhein-Main-Neckar gGmbH · Heidelberg · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent Recruiting (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11868-13930783-S</link>
@@ -303,62 +327,6 @@
       <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Volkssolidarität Dresden · Dresden · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Recruiting &amp; Talent Acquisition</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004014911-S</link>
-      <guid isPermaLink="false">10001-1004014911-S</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Flemming Dental GmbH · Hamburg · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting (m/w/d) | DIS AG Kiel</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4998139233-S</link>
-      <guid isPermaLink="false">12288-4998139233-S</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>DIS AG Germany · Kiel · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting (m/w/d) in Hamburg</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-c636bb51_JB5298196-S</link>
-      <guid isPermaLink="false">13635-c636bb51_JB5298196-S</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>House of Healthcare GmbH · Hamburg · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Praktikant/ Werkstudent Personalmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20478-2377909-S</link>
-      <guid isPermaLink="false">20478-2377909-S</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Deutsche Telekom MMS GmbH · Dresden · €16.00/h · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>People Operations Working Student (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/gympass/people-operations-working-student-308837</link>
-      <guid isPermaLink="false">an:people-operations-working-student-308837</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>gympass · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>People Operations Working Student (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/wellhub/people-operations-working-student-berlin-323013</link>
-      <guid isPermaLink="false">an:people-operations-working-student-berlin-323013</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Wellhub · Berlin · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent HR – Recruiting &amp; Employer Branding (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/abrio-gmbh/werkstudent-hr-recruiting-employer-branding-frankfurt-418360</link>
-      <guid isPermaLink="false">an:werkstudent-hr-recruiting-employer-branding-frankfurt-418360</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>ABRIO GmbH · Frankfurt am Main · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>

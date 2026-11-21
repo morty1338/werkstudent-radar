@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 13:21:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:54:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Video Editor / Cutter (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11971-1001906971462943-S</link>
+      <guid isPermaLink="false">11971-1001906971462943-S</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>SanoGym GbR · Stuttgart · €15.00/h · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Video Editor / Cutter (m/w/d), SanoGym GbR</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2382563-S</link>
+      <guid isPermaLink="false">12811-2382563-S</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>SanoGym GbR · Stuttgart · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent Videoschnitt &amp; Social Media (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/aesthetica-media/werkstudent-videoschnitt-social-media-minden-29167</link>
+      <guid isPermaLink="false">an:werkstudent-videoschnitt-social-media-minden-29167</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Aesthetica Media · Minden · Design &amp; UX</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) UX/UI Design</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1655578-1-S</link>
@@ -105,20 +129,20 @@
       <description>Kuchem Konferenz Technik GmbH &amp; Co. KG · Königswinter · Design &amp; UX</description>
     </item>
     <item>
+      <title>Werkstudent (w/m/d) Video Content und Internal Communications</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654780-1-S</link>
+      <guid isPermaLink="false">12465-1654780-1-S</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Siemens AG · Erlangen · Design &amp; UX</description>
+    </item>
+    <item>
       <title>Praktikum/Werkstudium - Design (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/prepmymeal-gmbh/praktikum-werkstudium-design-frankfurt-am-main-82430</link>
       <guid isPermaLink="false">an:praktikum-werkstudium-design-frankfurt-am-main-82430</guid>
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>prepmymeal GmbH · Frankfurt am Main · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent(in) im Grafikdesign/Mediengestaltung: Deine Bühne im Universum der Kreativität</title>
-      <link>https://www.arbeitnow.com/jobs/companies/enerdomo-franchisezentrale/werkstudentin-im-grafikdesign-mediengestaltung-deine-buhne-im-universum-der-kreativitat-konigstein-im-taunus-450237</link>
-      <guid isPermaLink="false">an:werkstudentin-im-grafikdesign-mediengestaltung-deine-buhne-im-universum-der-kreativitat-konigstein-im-taunus-450237</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>ENERDOMO Franchisezentrale · Königstein im Taunus · Design &amp; UX</description>
     </item>
     <item>
       <title>Werkstudent im Modedesign, OPUS und someday, Hamburg, (m/w/d)</title>
@@ -183,22 +207,6 @@
       <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>Datacept · Horneburg · €18.00/h · Design &amp; UX · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Service Design und Prozesse (w/m/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1654015-1-S</link>
-      <guid isPermaLink="false">12462-1654015-1-S</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>BMW AG · München · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Social Media Manager (Working Student) // AI Music Video Platform</title>
-      <link>https://www.arbeitnow.com/jobs/companies/neural-frames-gmbh/social-media-manager-working-student-ai-music-video-platform-berlin-302221</link>
-      <guid isPermaLink="false">an:social-media-manager-working-student-ai-music-video-platform-berlin-302221</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Neural Frames GmbH · Berlin · Design &amp; UX · no German needed</description>
     </item>
   </channel>
 </rss>

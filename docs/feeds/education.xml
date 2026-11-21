@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 13:21:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:54:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:innen, KSP Hamburg</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2382634-S</link>
+      <guid isPermaLink="false">12811-2382634-S</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>KSP Kanzlei Dr. Seegers, Dr. Frankenheim Rechtsanwaltsgesellschaft mbH · Hamburg · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) für die Nachtbereitschaft – Jugendhilfe</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004049013-S</link>

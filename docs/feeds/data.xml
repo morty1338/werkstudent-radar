@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 13:21:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:54:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Working Student -   Data &amp; AI (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12649-1655918-1-S</link>
+      <guid isPermaLink="false">12649-1655918-1-S</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Merck KGaA · Darmstadt · Data &amp; Analytics · no German needed</description>
+    </item>
     <item>
       <title>Werkstudententätigkeit Datenanalyse und Testing von Hochvoltspeichern (w/m/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1655452-1-S</link>
@@ -49,14 +57,6 @@
       <description>Anstalt für Kommunale Datenverarbeitung in Bayern (AKDB) · München · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Werkstudent:in Data Engineering &amp; Claims Analytics</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19376-44584383-1119-S</link>
-      <guid isPermaLink="false">19376-44584383-1119-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>HDI AG · Hannover · Data &amp; Analytics</description>
-    </item>
-    <item>
       <title>Werkstudent Vertriebsdatenpflege (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19533-985039348-S</link>
       <guid isPermaLink="false">19533-985039348-S</guid>
@@ -73,7 +73,7 @@
       <description>Vimerox Real Estate Management GmbH · Berlin · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Werkstudent in Tech – Product Development, BI &amp; Onboarding (m/w/d)</title>
+      <title>Werkstudent:in in Tech – Product Development, BI &amp; Onboarding (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/nu-estate-gmbh/werkstudent-in-tech-product-development-bi-onboarding-hamburg-136569</link>
       <guid isPermaLink="false">an:werkstudent-in-tech-product-development-bi-onboarding-hamburg-136569</guid>
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
@@ -303,46 +303,6 @@
       <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>EDEKA IT Stiftung &amp; Co. OHG · Mannheim · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Data Analytics &amp; AI (m/w/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13660-983987389-S</link>
-      <guid isPermaLink="false">13660-983987389-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Arvato · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) AI &amp; Automation - Produktmanagement &amp; Analytics, Insu..., CHECK24 Versicherungen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2377805-S</link>
-      <guid isPermaLink="false">12811-2377805-S</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>CHECK24 - InsurTech · München · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudierende (m/w/d) für Datenanalysen im Projektumfeld</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13884-350530-S</link>
-      <guid isPermaLink="false">13884-350530-S</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Finanz Informatik GmbH &amp; Co. KG · Hannover · €16.50/h · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Data, Controlling &amp; KPI-Reporting</title>
-      <link>https://www.arbeitnow.com/jobs/companies/pflegia/werkstudent-data-controlling-kpi-reporting-berlin-67263</link>
-      <guid isPermaLink="false">an:werkstudent-data-controlling-kpi-reporting-berlin-67263</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Pflegia · Berlin · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Working Student - Data Science (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/adjoe/working-student-data-science-hamburg-430330</link>
-      <guid isPermaLink="false">an:working-student-data-science-hamburg-430330</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>adjoe · Hamburg · Data &amp; Analytics · no German needed</description>
     </item>
   </channel>
 </rss>

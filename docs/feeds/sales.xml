@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 13:21:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:54:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Customer Service</title>
+      <link>https://www.arbeitnow.com/jobs/companies/dsb-deutsche-sanierungsberatung-gmbh/werkstudent-customer-service-berlin-194796</link>
+      <guid isPermaLink="false">an:werkstudent-customer-service-berlin-194796</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>dsb Deutsche Sanierungsberatung GmbH · Berlin · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent im Kundenservice (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/avedo-eine-marke-der-stroer-x-gmbh/werkstudent-im-kundenservice-pforzheim-439370</link>
+      <guid isPermaLink="false">an:werkstudent-im-kundenservice-pforzheim-439370</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Avedo - Eine Marke der Ströer X GmbH · Pforzheim · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent*in (m/w/d) im Vertrieb der Münchner Verlagsgruppe</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-54662-YF-S</link>
@@ -95,14 +111,6 @@
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>appinio · Hamburg · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Working Student - Customer Success</title>
-      <link>https://www.arbeitnow.com/jobs/companies/skailark/working-student-customer-success-munich-285837</link>
-      <guid isPermaLink="false">an:working-student-customer-success-munich-285837</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Skailark · München · €22.00/h · Sales &amp; Business Development · no German needed</description>
     </item>
     <item>
       <title>Werkstudent:in (w/m/d) im Vertrieb</title>
@@ -297,36 +305,12 @@
       <description>Rheinmetall AG · Bremen · Sales &amp; Business Development</description>
     </item>
     <item>
-      <title>Praktikant/ Werkstudent (m/w/d) im Business Development</title>
-      <link>https://www.arbeitnow.com/jobs/companies/northh-medical-gmbh/praktikant-werkstudent-im-business-development-hamburg-308910</link>
-      <guid isPermaLink="false">an:praktikant-werkstudent-im-business-development-hamburg-308910</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>northh medical GmbH · Hamburg · Sales &amp; Business Development</description>
-    </item>
-    <item>
       <title>Werkstudent:in / Praktikant:in Customer Success &amp; Operations (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/decari-gmbh/werkstudentin-praktikantin-customer-success-operations-berlin-432010</link>
       <guid isPermaLink="false">an:werkstudentin-praktikantin-customer-success-operations-berlin-432010</guid>
       <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Decari GmbH · Berlin · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Kundenservice (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/montredo-gmbh/werkstudent-kundenservice-berlin-97275</link>
-      <guid isPermaLink="false">an:werkstudent-kundenservice-berlin-97275</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Montredo GmbH · Berlin · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent*in in People, Operations &amp; Sales Support (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/wacom-europe-gmbh/werkstudentin-in-people-operations-sales-support-dusseldorf-41822</link>
-      <guid isPermaLink="false">an:werkstudentin-in-people-operations-sales-support-dusseldorf-41822</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Wacom Europe GmbH · Düsseldorf · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>

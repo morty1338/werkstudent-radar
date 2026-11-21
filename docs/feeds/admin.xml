@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 13:21:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:54:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in Teamassistenz (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18406-0068875490-S</link>
+      <guid isPermaLink="false">18406-0068875490-S</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>WBS TRAINING SE Berlin · Aschaffenburg · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Office Management Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/quantco/office-management-working-student-munich-or-karlsruhe-175687</link>
+      <guid isPermaLink="false">an:office-management-working-student-munich-or-karlsruhe-175687</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Quantco · München · €28.00/h · Office &amp; Admin · no German needed</description>
+    </item>
     <item>
       <title>kaufmännischer Mitarbeiter -  Werkstudent / Teilzeitkraft</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004047048-S</link>
@@ -63,22 +79,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>PricewaterhouseCoopers GmbH WPG · Frankfurt am Main · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Administrative Unterstützung (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547728-S</link>
-      <guid isPermaLink="false">18989-984547728-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>PricewaterhouseCoopers GmbH WPG · München · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Sicherheitsmanagement/Gebäudesicherheit (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547731-S</link>
-      <guid isPermaLink="false">18989-984547731-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Stuttgart · Office &amp; Admin</description>
     </item>
     <item>
       <title>Werkstudent Administrative Unterstützung (w/m/d)</title>

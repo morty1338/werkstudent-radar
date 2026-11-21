@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 13:21:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:54:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudierende / Werkstudierender Sozialwissenschaften im Bereich Dunkelfeldforschung (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004050293-S</link>
+      <guid isPermaLink="false">10001-1004050293-S</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>Bundeskriminalamt · Wiesbaden · Research &amp; Science</description>
+    </item>
     <item>
       <title>Werkstudent Marktforschung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1469895-28033-1-S</link>
@@ -65,14 +73,6 @@
       <description>HORSCH Leeb AS SE &amp; Co. KG · Landau an der Isar · Research &amp; Science</description>
     </item>
     <item>
-      <title>Werkstudent / Werkstudentin (w/m/d) Feldmanagement / Marktforschung</title>
-      <link>https://www.arbeitnow.com/jobs/companies/moventi-gmbh/werkstudent-werkstudentin-feldmanagement-marktforschung-cologne-353856</link>
-      <guid isPermaLink="false">an:werkstudent-werkstudentin-feldmanagement-marktforschung-cologne-353856</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Moventi GmbH · Köln · Research &amp; Science</description>
-    </item>
-    <item>
       <title>Werkstudent*in - Maintenance of Remote Target Lab</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-314311-S</link>
       <guid isPermaLink="false">13644-314311-S</guid>
@@ -87,22 +87,6 @@
       <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>Research &amp; Science</category>
       <description>Lovion GmbH · Dortmund · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-8191fd43539a4d5f-S</link>
-      <guid isPermaLink="false">14225-8191fd43539a4d5f-S</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Fraunhofer-Institut für Software- und Systemtechnik ISST · Berlin · €18.42/h · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent in der elektrischen Entwicklung (w/m/div.)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF300875B-9e61af5-S</link>
-      <guid isPermaLink="false">15986-REF300875B-9e61af5-S</guid>
-      <pubDate>Sat, 14 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Robert Bosch GmbH · Gunzenhausen am Altmühlsee · Research &amp; Science</description>
     </item>
   </channel>
 </rss>
