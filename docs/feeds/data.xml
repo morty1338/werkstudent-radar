@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 12:54:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 12:47:45 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Working Student -   Data &amp; AI (all genders)</title>
@@ -55,6 +55,14 @@
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Anstalt für Kommunale Datenverarbeitung in Bayern (AKDB) · München · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Data Engineering &amp; Claims Analytics</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19376-44584383-1119-S</link>
+      <guid isPermaLink="false">19376-44584383-1119-S</guid>
+      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>HDI AG · Hannover · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent Vertriebsdatenpflege (m/w/d)</title>

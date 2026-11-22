@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 12:54:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 12:47:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-bad-salzungen-192190</link>
+      <guid isPermaLink="false">an:werkstudent-bad-salzungen-192190</guid>
+      <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>WerraEnergie GmbH · Bad Salzungen · Other · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent*in (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208720408-S</link>
@@ -423,30 +431,6 @@
       <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>adjoe · Hamburg · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Büro</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-X6PNYU-T5W-S</link>
-      <guid isPermaLink="false">12518-X6PNYU-T5W-S</guid>
-      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Aramark Deutschland · Koblenz am Rhein · Other</description>
-    </item>
-    <item>
-      <title>Working Student / Intern – Industrialization Land / UGV (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-intern-industrialization-land-ugv-goppingen-338227</link>
-      <guid isPermaLink="false">an:working-student-intern-industrialization-land-ugv-goppingen-338227</guid>
-      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Quantum-Systems GmbH · Göppingen · Other</description>
-    </item>
-    <item>
-      <title>Working Student - Returns Management (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-returns-management-gilching-4623</link>
-      <guid isPermaLink="false">an:working-student-returns-management-gilching-4623</guid>
-      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Quantum-Systems GmbH · Gilching · Other</description>
     </item>
   </channel>
 </rss>

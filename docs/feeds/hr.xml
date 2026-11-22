@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 12:54:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 12:47:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Human Relations mit dem Schwerpunkt Personalmanagement, Mainz</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2382531-S</link>
+      <guid isPermaLink="false">12811-2382531-S</guid>
+      <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>DAL · Mainz · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Working student (m/f/d) Talent Acquisition</title>
+      <link>https://www.arbeitnow.com/jobs/companies/agilerobotsse/working-student-talent-acquisition-munich-bavaria-119574</link>
+      <guid isPermaLink="false">an:working-student-talent-acquisition-munich-bavaria-119574</guid>
+      <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Agilerobotsse · München · HR &amp; Recruiting · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent Recruiting / Talent Management / Staffing (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5006838229-S</link>
@@ -297,14 +313,6 @@
       <description>RLE INTERNATIONAL Group · Bremen · HR &amp; Recruiting</description>
     </item>
     <item>
-      <title>Werkstudent HR (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-634979-7878-7552-S</link>
-      <guid isPermaLink="false">15939-BB-634979-7878-7552-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Rheinmetall AG · Oberndorf am Neckar · HR &amp; Recruiting</description>
-    </item>
-    <item>
       <title>Werkstudent Recruiting &amp; Bewerbermanagement  (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/strautmann-hydraulik/werkstudent-recruiting-bewerbermanagement-melle-380858</link>
       <guid isPermaLink="false">an:werkstudent-recruiting-bewerbermanagement-melle-380858</guid>
@@ -319,14 +327,6 @@
       <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>momox · Leipzig · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Volkssolidarität Dresden: WERKSTUDENT PERSONAL (M/W/D) für Stellenbeschreibungen und Stellenbewertun</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3051131794697201-S</link>
-      <guid isPermaLink="false">11956-3051131794697201-S</guid>
-      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Volkssolidarität Dresden · Dresden · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>

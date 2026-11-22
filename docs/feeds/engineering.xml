@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 12:54:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 12:47:45 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudierende/Werkstudierender (w/m/d) im Fachdienst 71 - Bauaufsicht</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14089-01513873-S</link>
+      <guid isPermaLink="false">14089-01513873-S</guid>
+      <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Landkreis Gießen - Der Kreisausschuss · Gießen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Testautomatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160Q-S</link>
+      <guid isPermaLink="false">18024-10Q7q0000160Q-S</guid>
+      <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Elektrotechnik / Energietechnik (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-elektrotechnik-energietechnik-bad-salzungen-309098</link>
+      <guid isPermaLink="false">an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-309098</guid>
+      <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>WerraEnergie GmbH · Bad Salzungen · Engineering &amp; Production · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student – Hardware Engineering (UAS Propulsion &amp; Power) (All Genders)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/skdse/working-student-hardware-engineering-uas-propulsion-power-all-genders-438072</link>
+      <guid isPermaLink="false">an:working-student-hardware-engineering-uas-propulsion-power-all-genders-438072</guid>
+      <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Skdse · Engineering &amp; Production · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent/Praktikant – Qualitätskontrolllabor (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004050299-S</link>
@@ -47,14 +79,6 @@
       <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Testautomatisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160P-S</link>
-      <guid isPermaLink="false">18024-10Q7q0000160P-S</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Bauingenieurwesen</title>
@@ -687,14 +711,6 @@
       <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Thüringer Landgesellschaft mbH · Erfurt · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent / Dualer Student / BA-Student (m/w/d) im Bereich QM/QSE</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12514-202611b060wes01-S</link>
-      <guid isPermaLink="false">12514-202611b060wes01-S</guid>
-      <pubDate>Sun, 15 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Bertin GmbH · Frankfurt am Main · Engineering &amp; Production</description>
     </item>
   </channel>
 </rss>
