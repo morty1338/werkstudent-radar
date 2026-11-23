@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 12:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Auftragsplanung (w/m/d) #775</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004052169-S</link>
+      <guid isPermaLink="false">10001-1004052169-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>InfraServ GmbH &amp; Co.Gendorf KG · Burgkirchen an der Alz · €18.00/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Prozessmanagement (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1470360-28042-1-S</link>
+      <guid isPermaLink="false">12608-1470360-28042-1-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>REWE Group · Köln · Other</description>
+    </item>
+    <item>
+      <title>(Teilzeit) Rezeptentwicklung &amp; Ernährungspläne (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/fruhlingszwiebel/teilzeit-rezeptentwicklung-ernahrungsplane-frankfurt-am-main-238253</link>
+      <guid isPermaLink="false">an:teilzeit-rezeptentwicklung-ernahrungsplane-frankfurt-am-main-238253</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Frühlingszwiebel · Frankfurt am Main · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Founders Associate</title>
+      <link>https://www.arbeitnow.com/jobs/companies/adwise-media-gmbh/werkstudent-founders-associate-bonn-442650</link>
+      <guid isPermaLink="false">an:werkstudent-founders-associate-bonn-442650</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Adwise Media GmbH · Bonn · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Kundensupport (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/nuggit-gmbh/werkstudent-kundensupport-berlin-293146</link>
+      <guid isPermaLink="false">an:werkstudent-kundensupport-berlin-293146</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>nuggit GmbH · Berlin · Other</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-bad-salzungen-192190</link>
@@ -313,14 +353,6 @@
       <description>NemoVote GmbH · Böblingen · Other</description>
     </item>
     <item>
-      <title>Werkstudierende (m/w/d) flexible Zeiten, Region Würzburg</title>
-      <link>https://www.arbeitnow.com/jobs/companies/business-data-solutions-gmbh-co-kg/werkstudierende-flexible-zeiten-region-wurzburg-rimpar-43213</link>
-      <guid isPermaLink="false">an:werkstudierende-flexible-zeiten-region-wurzburg-rimpar-43213</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Business Data Solutions GmbH &amp; Co. KG · Rimpar · Other</description>
-    </item>
-    <item>
       <title>Workplace Management Werkstudent:in (m|w|d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/idealo-internet-gmbh/workplace-management-werkstudentin-mwd-berlin-166288</link>
       <guid isPermaLink="false">an:workplace-management-werkstudentin-mwd-berlin-166288</guid>
@@ -391,46 +423,6 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Kommunal Agentur NRW GmbH · Düsseldorf · Other</description>
-    </item>
-    <item>
-      <title>CAD-Zeichner (m/w/d) _ Werkstudent oder Mini-Job-Basis</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208667905-S</link>
-      <guid isPermaLink="false">10000-1208667905-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Ruhr Liegenschaften Verwaltungs GmbH · Bochum · Other</description>
-    </item>
-    <item>
-      <title>Fundraiser / Promoter (w/m/d) Vollzeit / Teilzeit / Aushilfe / Werkstudent / Nebejobs</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12688-28908109-RJA-S</link>
-      <guid isPermaLink="false">12688-28908109-RJA-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>GREENPEACE E.V. · Berlin · €15.19/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Regulatory Affairs m/w/d</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19053-BB-634759-7878-6563-S</link>
-      <guid isPermaLink="false">19053-BB-634759-7878-6563-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>VYGON Germany GmbH · Aachen · €19.51/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent*in im Kundensupport (20 Wochenstunden)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/otinga-gmbh/werkstudentin-im-kundensupport-20-wochenstunden-cologne-435515</link>
-      <guid isPermaLink="false">an:werkstudentin-im-kundensupport-20-wochenstunden-cologne-435515</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>otinga GmbH · Köln · Other</description>
-    </item>
-    <item>
-      <title>Working Student - Supply Growth (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/adjoe/working-student-supply-growth-hamburg-24886</link>
-      <guid isPermaLink="false">an:working-student-supply-growth-hamburg-24886</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>adjoe · Hamburg · Other · no German needed</description>
     </item>
   </channel>
 </rss>

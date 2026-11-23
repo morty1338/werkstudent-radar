@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 12:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent / Werkstudentin in Stuttgart (m/w/d), Stuttgart</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2383937-S</link>
+      <guid isPermaLink="false">12811-2383937-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Tennis-Point · Stuttgart · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent:in Teamassistenz (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18406-0068875490-S</link>

@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 12:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Working Student, Export Control/ International Trade Compliance (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/planetlabs/working-student-export-control-international-trade-compliance-berlin-17696</link>
+      <guid isPermaLink="false">an:working-student-export-control-international-trade-compliance-berlin-17696</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>planetlabs · Berlin · Legal</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Legal, Datenschutz &amp; Compliance</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-0RG79U-V15-S</link>
@@ -23,14 +31,6 @@
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Legal</category>
       <description>Bartels-Langness Handelsgesellschaft mbH &amp; Co. KG · Kiel · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Legal – Gesellschafts- und Vertragsrecht</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20208-af94c0de0517c618f24-S</link>
-      <guid isPermaLink="false">20208-af94c0de0517c618f24-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>CHECK24 Services Personal GmbH · München · Legal</description>
     </item>
     <item>
       <title>Werkstudent im Rechts-Service (m/w/d)</title>

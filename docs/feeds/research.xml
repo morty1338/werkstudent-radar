@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 12:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Marktforschung / Customer Experience (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1470451-28033-1-S</link>
+      <guid isPermaLink="false">12608-1470451-28033-1-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>REWE Group · Köln · Research &amp; Science</description>
+    </item>
+    <item>
+      <title>Werkstudent für Geistes-, Kultur-, Sozial-, Medien- oder Gesellschaftswissenschaften (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16809-9EGB4TX2Pkpjbb-S</link>
+      <guid isPermaLink="false">16809-9EGB4TX2Pkpjbb-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>STADTVERWALTUNG BAYREUTH · Bayreuth · Research &amp; Science</description>
+    </item>
     <item>
       <title>Werkstudierende / Werkstudierender Sozialwissenschaften im Bereich Dunkelfeldforschung (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004050293-S</link>
@@ -79,14 +95,6 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>Research &amp; Science</category>
       <description>Tata Consultancy Services Deutschland GmbH · Villingen-Schwenningen · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) Erforschung KI-Anwendungen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004018125-S</link>
-      <guid isPermaLink="false">10001-1004018125-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Lovion GmbH · Dortmund · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

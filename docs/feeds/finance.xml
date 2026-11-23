@@ -6,15 +6,55 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 12:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
+      <title>Working Student Transaction (m/f/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5008066460-S</link>
+      <guid isPermaLink="false">12288-5008066460-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>ATCP Management GmbH · Berlin · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Accounting (all genders), Elmshorn</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2383775-S</link>
+      <guid isPermaLink="false">12811-2383775-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Orlen Deutschland · Elmshorn · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) - Finanzbuchhaltung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15268-0068889496-S</link>
+      <guid isPermaLink="false">15268-0068889496-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>4WHEELS Services GmbH · Düsseldorf · Finance &amp; Controlling</description>
+    </item>
+    <item>
       <title>Werkstudent im Kundenkontakt (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001B0X-S</link>
-      <guid isPermaLink="false">18024-10Q4800001B0X-S</guid>
-      <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001B0Y-S</link>
+      <guid isPermaLink="false">18024-10Q4800001B0Y-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Sparkasse Hohenlohekreis · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Energiewirtschaft / Einspeiseprozesse (eMobility Powerbank)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/fleetboost-gmbh/werkstudent-energiewirtschaft-einspeiseprozesse-emobility-powerbank-greven-263103</link>
+      <guid isPermaLink="false">an:werkstudent-energiewirtschaft-einspeiseprozesse-emobility-powerbank-greven-263103</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Fleetboost GmbH · Greven · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-350877</link>
+      <guid isPermaLink="false">an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-350877</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Kevin Kehr · Hamburg · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
@@ -105,6 +145,14 @@
       <description>HANSAINVEST -Hanseatische Investment-GmbH · Hamburg · Finance &amp; Controlling</description>
     </item>
     <item>
+      <title>Werkstudent (m/w/d) für die Bauwerksprüfung an insbesondere Höhenbauwerken</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-0f3cf766_JB5301910-S</link>
+      <guid isPermaLink="false">13635-0f3cf766_JB5301910-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>ZETCON Ingenieure GmbH · Bochum · Finance &amp; Controlling</description>
+    </item>
+    <item>
       <title>Werkstudent m/w/d Controlling</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-3f531f2b_JB5301417-S</link>
       <guid isPermaLink="false">13635-3f531f2b_JB5301417-S</guid>
@@ -119,14 +167,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Neusehland · Gießen · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent kaufmännische Projektsteuerung - Bochum (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14763-44579985-1118-S</link>
-      <guid isPermaLink="false">14763-44579985-1118-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Vonovia SE · Bochum · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent Controlling (m/w/d)</title>
@@ -753,22 +793,6 @@
       <description>Matera · Berlin · Finance &amp; Controlling</description>
     </item>
     <item>
-      <title>Founders Associate/M&amp;A - Praktikant/Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/matera-gmbh/founders-associate-ma-praktikant-werkstudent-berlin-499819</link>
-      <guid isPermaLink="false">an:founders-associate-ma-praktikant-werkstudent-berlin-499819</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Matera GmbH · Berlin · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-22124</link>
-      <guid isPermaLink="false">an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-22124</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Kevin Kehr · Finance &amp; Controlling</description>
-    </item>
-    <item>
       <title>Werkstudent Investments &amp; Operations</title>
       <link>https://www.arbeitnow.com/jobs/companies/navigator-group/werkstudent-investements-operations-dusseldorf-143398</link>
       <guid isPermaLink="false">an:werkstudent-investements-operations-dusseldorf-143398</guid>
@@ -783,30 +807,6 @@
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Aktrion GmbH · Mittenwalde · €16.00/h · Finance &amp; Controlling · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent REWE Controlling (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1467057-28033-1-S</link>
-      <guid isPermaLink="false">12608-1467057-28033-1-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>REWE Markt GmbH · Köln · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent kaufmännische Projektsteuerung - Bochum (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-d198ff5a-8f8b-4c29--S</link>
-      <guid isPermaLink="false">12951-d198ff5a-8f8b-4c29--S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Vonovia Recruiting DE · Bochum · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Automatisierung, KI &amp; Workflows im Enterprise Risk Management (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-5205ad40_JB5300978-S</link>
-      <guid isPermaLink="false">13635-5205ad40_JB5300978-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>auxmoney · Düsseldorf · Finance &amp; Controlling</description>
     </item>
   </channel>
 </rss>

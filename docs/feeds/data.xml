@@ -6,15 +6,31 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 12:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
-      <title>Working Student -   Data &amp; AI (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12649-1655918-1-S</link>
-      <guid isPermaLink="false">12649-1655918-1-S</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
+      <title>Werkstudent*in (m/w/d) Künstliche Intelligenz und Datenwissenschaft</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004052265-S</link>
+      <guid isPermaLink="false">10001-1004052265-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
-      <description>Merck KGaA · Darmstadt · Data &amp; Analytics · no German needed</description>
+      <description>IAB-Institut für angewandte Bauforschung Weimar gGmbH · Weimar · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (mwd) Software Development, Data &amp; AI,Heidelberg,Berlin,Ulm</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2383886-S</link>
+      <guid isPermaLink="false">12811-2383886-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>HMS Analytical Software GmbH · Ulm · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student - Medical AI Data Annotation &amp; Clinical Research</title>
+      <link>https://www.arbeitnow.com/jobs/companies/curevision-gmbh/working-student-medical-ai-data-annotation-clinical-research-munich-294686</link>
+      <guid isPermaLink="false">an:working-student-medical-ai-data-annotation-clinical-research-munich-294686</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>cureVision GmbH · München · Data &amp; Analytics · no German needed</description>
     </item>
     <item>
       <title>Werkstudententätigkeit Datenanalyse und Testing von Hochvoltspeichern (w/m/x)</title>
@@ -145,22 +161,6 @@
       <description>cbs Corporate Business Solutions GmbH · Dortmund · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Working Student AI Solutions Architect – Generative AI &amp; Data Platforms</title>
-      <link>https://www.arbeitnow.com/jobs/companies/agentixlake-gmbh/working-student-ai-solutions-architect-generative-ai-data-platforms-berlin-292864</link>
-      <guid isPermaLink="false">an:working-student-ai-solutions-architect-generative-ai-data-platforms-berlin-292864</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>AgentixLake GmbH · Berlin · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
-      <title>Working Student Data Engineer – Python, SQL &amp; Cloud Platforms</title>
-      <link>https://www.arbeitnow.com/jobs/companies/agentixlake-gmbh/working-student-data-engineer-python-sql-cloud-platforms-berlin-454463</link>
-      <guid isPermaLink="false">an:working-student-data-engineer-python-sql-cloud-platforms-berlin-454463</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>AgentixLake GmbH · Berlin · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent (w/m/d) Personalstrategie / HR-Analytics Caritas Düsseldorf - Unterbilk</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-134069-STA-S</link>
       <guid isPermaLink="false">11858-SDE-134069-STA-S</guid>
@@ -271,46 +271,6 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Airbus Operations GmbH Werk Bremen · Hamburg · €18.53/h · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Data &amp; Analytics | Microsoft Fabric (m/w/d) – Altdorf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004016627-S</link>
-      <guid isPermaLink="false">10001-1004016627-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Suspa GmbH Betriebsstätte Altdorf · Altdorf bei Nürnberg · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Pipelinesystem (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11112-146-1695278-1-S</link>
-      <guid isPermaLink="false">11112-146-1695278-1-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>bayernets GmbH · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudierende (m/w/d) für Datenanalysen im Projektumfeld</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4998689248-S</link>
-      <guid isPermaLink="false">12288-4998689248-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Finanz Informatik GmbH &amp; Co. KG · Hannover · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudierende (m/w/d) für Datenanalysen im Projektumfeld</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4998706647-S</link>
-      <guid isPermaLink="false">12288-4998706647-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Finanz Informatik GmbH &amp; Co. KG · Hannover · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in BI &amp; Analytik (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13334-00005f68634001-S</link>
-      <guid isPermaLink="false">13334-00005f68634001-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>EDEKA IT Stiftung &amp; Co. OHG · Mannheim · Data &amp; Analytics</description>
     </item>
   </channel>
 </rss>

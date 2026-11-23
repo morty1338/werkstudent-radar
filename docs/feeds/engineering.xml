@@ -6,8 +6,64 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 12:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>GlobalFoundries Management Services GmbH &amp; Co. KG: Werkstudent*in im Bereich TCAD – Prozesssimulatio</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3078551795388401-S</link>
+      <guid isPermaLink="false">11956-3078551795388401-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>GlobalFoundries Management Services GmbH &amp; Co. KG · Dresden · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Bauwerkserhaltung, Bauwerkserhaltung  Recklinghausen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2383864-S</link>
+      <guid isPermaLink="false">12811-2383864-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Wayss &amp; Freytag Ingenieurbau AG · Recklinghausen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Elektrotechnik / Bauleitung - Oldenburg, Oldenburg</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2383925-S</link>
+      <guid isPermaLink="false">12811-2383925-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Müller &amp; Bleher GmbH &amp; Co. KG - Niederlassung Berlin · Oldenburg (Oldb) · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Formatmanagement (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-396d38cb-a696-4fae--S</link>
+      <guid isPermaLink="false">12951-396d38cb-a696-4fae--S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Lekkerland SE · Frechen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Working Student (d/f/m) in Digital Quality</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-985598028-S</link>
+      <guid isPermaLink="false">16947-985598028-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Airbus Defence and Space GmbH · München · Engineering &amp; Production · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Testautomatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160R-S</link>
+      <guid isPermaLink="false">18024-10Q7q0000160R-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) - Erneuerbare Energien &amp; Gebäudetechnik</title>
+      <link>https://www.arbeitnow.com/jobs/companies/smartana-gmbh/werkstudent-erneuerbare-energien-gebaudetechnik-falkensee-98656</link>
+      <guid isPermaLink="false">an:werkstudent-erneuerbare-energien-gebaudetechnik-falkensee-98656</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>SMARTANA GmbH · Falkensee · Engineering &amp; Production</description>
+    </item>
     <item>
       <title>Werkstudierende/Werkstudierender (w/m/d) im Fachdienst 71 - Bauaufsicht</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14089-01513873-S</link>
@@ -15,14 +71,6 @@
       <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Landkreis Gießen - Der Kreisausschuss · Gießen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Testautomatisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160Q-S</link>
-      <guid isPermaLink="false">18024-10Q7q0000160Q-S</guid>
-      <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent Elektrotechnik / Energietechnik (m/w/d)</title>
@@ -679,38 +727,6 @@
       <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Batch Robotics GmbH · Esslingen · €15.00/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Bereich Anmeldewesen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004016557-S</link>
-      <guid isPermaLink="false">10001-1004016557-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>EWR Aktiengesellschaft · Alzey · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Architektur / Bauingenieurwesen (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004018302-S</link>
-      <guid isPermaLink="false">10001-1004018302-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Thüringer Landgesellschaft mbH · Erfurt · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Produktion (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636023-7878-8863-S</link>
-      <guid isPermaLink="false">15939-BB-636023-7878-8863-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Rheinmetall AG · Kassel · €18.14/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Architektur / Bauingenieurwesen (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16481-1960594-S</link>
-      <guid isPermaLink="false">16481-1960594-S</guid>
-      <pubDate>Mon, 16 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Thüringer Landgesellschaft mbH · Erfurt · Engineering &amp; Production</description>
     </item>
   </channel>
 </rss>
