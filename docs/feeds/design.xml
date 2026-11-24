@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Working student (d/f/m) for Website design and internal communication</title>
@@ -23,6 +23,14 @@
       <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>SaleLab GmbH · Ravensburg · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Grafikdesign (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/twlv-gmbh/werkstudentin-grafikdesign-berlin-19344</link>
+      <guid isPermaLink="false">an:werkstudentin-grafikdesign-berlin-19344</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>TWLV GMBH · Berlin · Design &amp; UX · no German needed</description>
     </item>
     <item>
       <title>Werkstudent / Sales Assistant (m/w/d) - CECIL und Street One im Designer Outlet Ochtrup</title>
@@ -119,6 +127,14 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>REWE Group · Köln · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent UX Systemdesign (m/w/d/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1639712-2-S</link>
+      <guid isPermaLink="false">13151-1639712-2-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Mercedes-Benz Group AG · Ulm · Design &amp; UX</description>
     </item>
     <item>
       <title>Werkstudent:in Video Editing &amp; Social Content (all genders)</title>

@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Patentportfolio-Management &amp; IP Strategy (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208781653-S</link>
+      <guid isPermaLink="false">10000-1208781653-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>V4Smart GmbH &amp; Co. KG · Nördlingen · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Praktikant/Werkstudent im Bereich Operational Excellence Consulting &amp; Smart Factory (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009657607-S</link>
@@ -23,6 +31,14 @@
       <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>Siemens AG · Rastatt · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Junior Consultant (Werkstudent:in, m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/better-earth-advisory-gmbh/junior-consultant-werkstudentin-berlin-167831</link>
+      <guid isPermaLink="false">an:junior-consultant-werkstudentin-berlin-167831</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Better Earth Advisory GmbH · Berlin · €17.50/h · Consulting &amp; Strategy</description>
     </item>
     <item>
       <title>Werkstudent*in (m/w/d) im Bereich Consulting für Geografische Informationssysteme</title>

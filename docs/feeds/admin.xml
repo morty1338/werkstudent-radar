@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Assistenz Geschäftsführung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004059816-S</link>
+      <guid isPermaLink="false">10001-1004059816-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>STADTWERKE SCHORNDORF GMBH · Schorndorf · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Konzessionsmanagement  (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-10796-1-S</link>
+      <guid isPermaLink="false">12728-10796-1-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>envia Mitteldeutsche Energie AG · Markkleeberg · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent Empfang (m/w/d), Stuttgart</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2384391-S</link>
+      <guid isPermaLink="false">12811-2384391-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Gleiss Lutz Support · Stuttgart · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Mitarbeitende oder Werkstudierende (m/w/d) für die Servicestelle</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14089-01515264-S</link>
@@ -41,7 +65,7 @@
       <description>Quantco · München · €28.00/h · Office &amp; Admin · no German needed</description>
     </item>
     <item>
-      <title>kaufmännischer Mitarbeiter -  Werkstudent / Teilzeitkraft</title>
+      <title>kaufmännischer Mitarbeiter -  Werkstudent / Teilzeitkraft / Student/in</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004047048-S</link>
       <guid isPermaLink="false">10001-1004047048-S</guid>
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>

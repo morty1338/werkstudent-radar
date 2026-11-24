@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Human Resources (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208782207-S</link>
+      <guid isPermaLink="false">10000-1208782207-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>V4Smart GmbH &amp; Co. KG · Nördlingen · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) im Bereich Recruiting &amp; Personalmarketing</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004062583-S</link>
+      <guid isPermaLink="false">10001-1004062583-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Kugler &amp; Rosenberger GmbH &amp; Co. KG · Altdorf bei Nürnberg · €15.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>WERKSTUDENT HUMAN RESOURCES (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004062999-S</link>
+      <guid isPermaLink="false">10001-1004062999-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Nicolay GmbH · Nagold · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>accompio GmbH: Werkstudent (m/w/d) Recruiting - remote</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3096511795474801-S</link>
+      <guid isPermaLink="false">11956-3096511795474801-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>accompio GmbH · Wuppertal · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent Personalentwicklung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009647204-S</link>
@@ -15,6 +47,54 @@
       <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Liebherr Electronics and Drives GmbH · Lindau (Bodensee) · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Human Resources - Payroll &amp; Digitalisierung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009704936-S</link>
+      <guid isPermaLink="false">12288-5009704936-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Liebherr-Hausgeräte Ochsenhausen GmbH · Ochsenhausen · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>1519 Werkstudentin/Werkstudent (m/w/d) HR, Paul-Ehrlich-Institut, Außenstelle I</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2384768-S</link>
+      <guid isPermaLink="false">12811-2384768-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Paul-Ehrlich-Institut · Langen (Hessen) · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Personal (m/w/d), Essen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2384929-S</link>
+      <guid isPermaLink="false">12811-2384929-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Rhomberg Sersa Bahntechnik GmbH (Essen) · Essen · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (m/w/d) Arbeitsrecht und Personalbetreuung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18624-0068923241-S</link>
+      <guid isPermaLink="false">18624-0068923241-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Stadtwerke Augsburg Holding GmbH · Augsburg · €18.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent / Werkstudentin (m/w/d) im Personalbereich</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20083-1657427-1-S</link>
+      <guid isPermaLink="false">20083-1657427-1-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Deutsche Bundesbank Zentrale · Düsseldorf · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Talent &amp; Culture Intern / Working Student (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/avantgarde/talent-culture-intern-working-student-avantgarde-munchen-462901</link>
+      <guid isPermaLink="false">an:talent-culture-intern-working-student-avantgarde-munchen-462901</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Avantgarde · München · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Recruiting &amp; Vertrieb</title>

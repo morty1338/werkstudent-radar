@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Python &amp; KI (LLMs / Machine Learning) (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208778251-S</link>
+      <guid isPermaLink="false">10000-1208778251-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>HUK-COBURG VVaG · Coburg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Data &amp; Visualisierung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208781309-S</link>
+      <guid isPermaLink="false">10000-1208781309-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>V4Smart GmbH &amp; Co. KG · Nördlingen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Digitale Transformation und Data Engineering (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-885-3-S</link>
+      <guid isPermaLink="false">12728-885-3-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>E.ON SE · Essen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Data Science (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16818-100918367-S</link>
+      <guid isPermaLink="false">16818-100918367-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>HUK - COBURG · Coburg · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student – Data Engineering &amp; MLOps (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/tytan-technologies-gmbh/working-student-data-engineering-mlops-munich-264532</link>
+      <guid isPermaLink="false">an:working-student-data-engineering-mlops-munich-264532</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>TYTAN Technologies GmbH · München · Data &amp; Analytics · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent*in (m/w/d) Künstliche Intelligenz und Datenwissenschaft</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004052265-S</link>

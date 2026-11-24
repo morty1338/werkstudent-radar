@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Projektmanagement &amp; Prozessoptimierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004061346-S</link>
+      <guid isPermaLink="false">10001-1004061346-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>LST-Laserschneidtechnik GmbH · Hövelhof · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent:in technisches Projektmanagement im Großprojekt NBS Frankfurt - Mannheim</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1656696-1-S</link>
@@ -17,12 +25,44 @@
       <description>Deutsche Bahn AG · Frankfurt am Main · Product &amp; Project Mgmt</description>
     </item>
     <item>
+      <title>Werkstudent Wärmeprojekte und Erneuerbare Energien (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1052-1-S</link>
+      <guid isPermaLink="false">12728-1052-1-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Bayernwerk Natur GmbH · Regensburg · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent im Bereich Projekt Management - Assurance (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15548-1657458-1-S</link>
+      <guid isPermaLink="false">15548-1657458-1-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>EY GmbH &amp; Co. KG WPG · Hamburg · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
       <title>Working Student (d/f/m) within PMO Eurodrone</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-985711326-S</link>
       <guid isPermaLink="false">16947-985711326-S</guid>
       <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>Airbus Defence and Space GmbH · Manching · Product &amp; Project Mgmt · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Projektmanagement SHIFT NOW Dein Zukunftsfestival (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/joblinge-ev/werkstudentin-projektmanagement-shift-now-dein-zukunftsfestival-hannover-414117</link>
+      <guid isPermaLink="false">an:werkstudentin-projektmanagement-shift-now-dein-zukunftsfestival-hannover-414117</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>JOBLINGE e.V. · Hannover · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Working Student Operations &amp; Project Management</title>
+      <link>https://www.arbeitnow.com/jobs/companies/twentyfour-industries/working-student-operations-project-management-munich-291371</link>
+      <guid isPermaLink="false">an:working-student-operations-project-management-munich-291371</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Twentyfour Industries · München · Product &amp; Project Mgmt</description>
     </item>
     <item>
       <title>Werkstudenten im Bereich Projektabwicklung, Hamburg</title>
