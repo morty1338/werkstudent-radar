@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Personalentwicklung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009647204-S</link>
+      <guid isPermaLink="false">12288-5009647204-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Liebherr Electronics and Drives GmbH · Lindau (Bodensee) · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Recruiting &amp; Vertrieb</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11112-13403-1805058-0-S</link>
@@ -271,62 +279,6 @@
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Die Autobahn GmbH des Bundes Zentrale Berlin, Weidt Park Corner · Berlin · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004020290-S</link>
-      <guid isPermaLink="false">10001-1004020290-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>ADAC Luftrettung gGmbH · Weßling · €18.50/h · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Working Student - Human Resources</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004026732-S</link>
-      <guid isPermaLink="false">10001-1004026732-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Universal-Investment-GmbH · Frankfurt am Main · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-272178_JB5300203-S</link>
-      <guid isPermaLink="false">12265-272178_JB5300203-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>FERCHAU GmbH Niederlassung Stuttgart Mobility · Leinfelden-Echterdingen · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im Bereich Human Resources</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-5fa9f07b-75d3-41ce--S</link>
-      <guid isPermaLink="false">12951-5fa9f07b-75d3-41ce--S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Excelitas Deutschland GmbH · Feldkirchen · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Softwaretesting &amp; Qualitätssicherung (m/w/d) E-Recruiting-Software Mainz</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-5025fb77_JB5299070-S</link>
-      <guid isPermaLink="false">13635-5025fb77_JB5299070-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>hidden professionals GmbH · Mainz · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14271-1654208-1-S</link>
-      <guid isPermaLink="false">14271-1654208-1-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Johanniter-Unfall-Hilfe e.V. Landesverband Niedersachsen/Bremen · Hannover · €20.00/h · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Sales &amp; Recruiting (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18750-k62053.1320-S</link>
-      <guid isPermaLink="false">18750-k62053.1320-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>ROOT GmbH · Mannheim · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>

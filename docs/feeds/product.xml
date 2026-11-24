@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in technisches Projektmanagement im Großprojekt NBS Frankfurt - Mannheim</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1656696-1-S</link>
+      <guid isPermaLink="false">12456-1656696-1-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Deutsche Bahn AG · Frankfurt am Main · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Working Student (d/f/m) within PMO Eurodrone</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-985711326-S</link>
+      <guid isPermaLink="false">16947-985711326-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Airbus Defence and Space GmbH · Manching · Product &amp; Project Mgmt · no German needed</description>
+    </item>
     <item>
       <title>Werkstudenten im Bereich Projektabwicklung, Hamburg</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2383848-S</link>
@@ -215,30 +231,6 @@
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>CHECK24 Services Personal GmbH · Düsseldorf · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) als Projektassistenz | Berlin</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13465-00021a6a040001-S</link>
-      <guid isPermaLink="false">13465-00021a6a040001-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>WISAG Job &amp; Karriere GmbH &amp; Co. KG · Berlin · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Planungskoordination</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14012-2026kd2ar4ee-000-S</link>
-      <guid isPermaLink="false">14012-2026kd2ar4ee-000-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>GWH Wohnungsgesellschaft mbH Hessen · Frankfurt am Main · €17.70/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (d/m/w) in der Produktion: Projektmanagement Flügelausrüstung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-984249156-S</link>
-      <guid isPermaLink="false">16947-984249156-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Airbus Operations GmbH Werk Bremen · Bremen · €19.10/h · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

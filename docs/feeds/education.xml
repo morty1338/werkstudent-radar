@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Praktikum/Werkstudent - Digitales Lernen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009648394-S</link>
+      <guid isPermaLink="false">12288-5009648394-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Liebherr-Hydraulikbagger GmbH · Kirchdorf an der Iller · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudent*in oder päd. Hilfskraft (m/w/d) für Verselbstständigungswohnen/MOB Nähe Augsburg</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004051840-S</link>
@@ -103,22 +111,6 @@
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>Education &amp; Social</category>
       <description>Caritasverband Frankfurt e.V. · Frankfurt am Main · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent zur Unterstützung von Sport- und Rehakursen bei Kindern und Jugendlichen (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004025182-S</link>
-      <guid isPermaLink="false">10001-1004025182-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Kinderakademie-GO GmbH · Leimen · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Kinderbetreuung Grundschule, F+U Rhein-Main-Neckar gGmbH</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2379476-S</link>
-      <guid isPermaLink="false">12811-2379476-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>F+U Rhein-Main-Neckar gGmbH · Heidelberg · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

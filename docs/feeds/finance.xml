@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Legal, Risk und Compliance (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14369-2026bzkxcn2u-000-S</link>
+      <guid isPermaLink="false">14369-2026bzkxcn2u-000-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>gsm GmbH · Kiel · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent Controlling &amp; Sustainable Finance (m/w/d) in Düsseldorf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17102-44584750-1123-S</link>
+      <guid isPermaLink="false">17102-44584750-1123-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Vodafone GmbH · Düsseldorf · Finance &amp; Controlling</description>
+    </item>
     <item>
       <title>Working Student Transaction (m/f/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5008066460-S</link>
@@ -791,22 +807,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Matera · Berlin · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Investments &amp; Operations</title>
-      <link>https://www.arbeitnow.com/jobs/companies/navigator-group/werkstudent-investements-operations-dusseldorf-143398</link>
-      <guid isPermaLink="false">an:werkstudent-investements-operations-dusseldorf-143398</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Navigator Group · Düsseldorf · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Rechnungswesen im Bereich Finanzen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004033663-S</link>
-      <guid isPermaLink="false">10001-1004033663-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Aktrion GmbH · Mittenwalde · €16.00/h · Finance &amp; Controlling · no German needed</description>
     </item>
   </channel>
 </rss>

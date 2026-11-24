@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Marktforschung / Customer Experience (m/w/d)</title>
@@ -87,14 +87,6 @@
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>Research &amp; Science</category>
       <description>HORSCH Leeb AS SE &amp; Co. KG · Landau an der Isar · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent*in - Maintenance of Remote Target Lab</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-314311-S</link>
-      <guid isPermaLink="false">13644-314311-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Tata Consultancy Services Deutschland GmbH · Villingen-Schwenningen · Research &amp; Science</description>
     </item>
   </channel>
 </rss>

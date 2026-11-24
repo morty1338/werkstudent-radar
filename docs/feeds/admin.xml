@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Mitarbeitende oder Werkstudierende (m/w/d) für die Servicestelle</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14089-01515264-S</link>
+      <guid isPermaLink="false">14089-01515264-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Regierung von Oberbayern · Rosenheim · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent / Werkstudentin in Stuttgart (m/w/d), Stuttgart</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2383937-S</link>
@@ -47,14 +55,6 @@
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>REWE digital GmbH · Köln · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) - Gestalte deine Zukunft in der Rodday-Family!, Eichstetten am Kaiserstuhl</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2381873-S</link>
-      <guid isPermaLink="false">12811-2381873-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Initiativ · Eichstetten am Kaiserstuhl · Office &amp; Admin</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Kundenempfang in Köln, Köln</title>
@@ -151,14 +151,6 @@
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>Münzen Medaillen Frankfurt · Frankfurt am Main · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Distanzkanalmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14319-00055c04112002-S</link>
-      <guid isPermaLink="false">14319-00055c04112002-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>KKH Kaufmännische Krankenkasse · Hannover · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

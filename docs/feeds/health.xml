@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/health.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudentin/Werkstudent im Bereich „Aktenmanagement beim Ärztlichen Dienst&amp;quot; (m/w/d)</title>
@@ -31,30 +31,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Health &amp; Care</category>
       <description>Patient 21 SE · Münster · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) im Patientenservice - KIRINUS Online-Therapie, KIRINUS Online-Therapie München</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2379843-S</link>
-      <guid isPermaLink="false">12811-2379843-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Health &amp; Care</category>
-      <description>KIRINUS Praxis GmbH (Online-Therapie) · München · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Büro &amp; Organisation im Gesundheitsbereich</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14407-44115-S</link>
-      <guid isPermaLink="false">14407-44115-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Health &amp; Care</category>
-      <description>timecon GmbH &amp; Co. KG · Bremen · €16.08/h · Health &amp; Care</description>
-    </item>
-    <item>
-      <title>Werkstudent Verwaltung für ambulante Pflege &amp; Tagespflege | Stutensee Blankenloch (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14922-148088-S</link>
-      <guid isPermaLink="false">14922-148088-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Health &amp; Care</category>
-      <description>Agesto GmbH &amp; Co. KG · Stutensee · Health &amp; Care</description>
     </item>
   </channel>
 </rss>

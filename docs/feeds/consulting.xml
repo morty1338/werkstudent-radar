@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Praktikant/Werkstudent im Bereich Operational Excellence Consulting &amp; Smart Factory (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009657607-S</link>
+      <guid isPermaLink="false">12288-5009657607-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Liebherr-Components Biberach GmbH · Kirchdorf an der Iller · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) im strategischen Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1657157-1-S</link>
+      <guid isPermaLink="false">12465-1657157-1-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>Siemens AG · Rastatt · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent*in (m/w/d) im Bereich Consulting für Geografische Informationssysteme</title>
       <link>https://www.arbeitnow.com/jobs/companies/inno2grid-gmbh/werkstudentin-im-bereich-consulting-fur-geografische-informationssysteme-berlin-103752</link>

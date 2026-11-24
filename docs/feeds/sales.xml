@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 15:06:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 03:01:33 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) im Global Sales Machine Building</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1656631-1-S</link>
+      <guid isPermaLink="false">12465-1656631-1-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Siemens AG · Erlangen · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Working Student - Sales Operations  (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-sales-operations-gilching-205176</link>
+      <guid isPermaLink="false">an:working-student-sales-operations-gilching-205176</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Quantum-Systems GmbH · Gilching · Sales &amp; Business Development · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Vertrieb / Sales Support</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004057050-S</link>
@@ -303,62 +319,6 @@
       <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>ekipa GmbH · Frankfurt am Main · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Business Development &amp; Sales (m/w/d) | Founders Associate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004023603-S</link>
-      <guid isPermaLink="false">10001-1004023603-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>dekarbo GmbH · Hilden · €16.00/h · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent technischer Vertrieb (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-477196_JB5299978-S</link>
-      <guid isPermaLink="false">12265-477196_JB5299978-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>FERCHAU GmbH Niederlassung Mannheim · Mannheim · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Sales Support,München,Eschborn</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2379531-S</link>
-      <guid isPermaLink="false">12811-2379531-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Randstad Digital · München · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Handelssupport (20 Std. Woche / befristet für 6 Monate)*, Vertriebszentrum West</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2379719-S</link>
-      <guid isPermaLink="false">12811-2379719-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>VOLKSWAGEN GROUP OTLG · Köln · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Sales Assistant (all genders), Werkstudent, mind. 12 Std./Woche, München</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-d260e70a_JB5300581-S</link>
-      <guid isPermaLink="false">13635-d260e70a_JB5300581-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Broke + Schön · München · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Global Pricing &amp; Sales Excellence</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-js_ul_53_JB5300474-S</link>
-      <guid isPermaLink="false">13635-js_ul_53_JB5300474-S</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Rehm Thermal Systems GmbH · Blaubeuren · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Customer Success (w/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/nextaudit/werkstudent-customer-success-aachen-243583</link>
-      <guid isPermaLink="false">an:werkstudent-customer-success-aachen-243583</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>nextAudit · Aachen · €17.00/h · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>
