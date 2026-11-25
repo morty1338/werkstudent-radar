@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Executive Search (m/w/d), BludauPartners Executive Consultants GmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2385497-S</link>
+      <guid isPermaLink="false">12811-2385497-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>BludauPartners Executive Consultants GmbH · Frankfurt am Main · Consulting &amp; Strategy</description>
+    </item>
+    <item>
+      <title>Werkstudent Strategy &amp; Operations Logistik (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/caronsale/werkstudent-strategy-operations-logistik-berlin-109808</link>
+      <guid isPermaLink="false">an:werkstudent-strategy-operations-logistik-berlin-109808</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Consulting &amp; Strategy</category>
+      <description>caronsale · Berlin · Consulting &amp; Strategy</description>
+    </item>
     <item>
       <title>Werkstudent Patentportfolio-Management &amp; IP Strategy (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208781653-S</link>

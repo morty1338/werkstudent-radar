@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent/in in der Spedition (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208794230-S</link>
+      <guid isPermaLink="false">10000-1208794230-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>103 Karl Heinz Dietrich GmbH &amp; Co.KG Internationale Spedition · Hamburg · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (all gender) im Housekeeping oder Service</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-K74POJ-BCB-S</link>
+      <guid isPermaLink="false">12518-K74POJ-BCB-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Maritim Hotel Ulm · Ulm · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Medical Training (m/w/d), Neumarkt</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2385476-S</link>
+      <guid isPermaLink="false">12811-2385476-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>BIONORICA SE · Neumarkt in der Oberpfalz · Other</description>
+    </item>
     <item>
       <title>Freelance-Social-Media-Redakteur (m/w/d) in der Ästhetik gesucht!</title>
       <link>https://www.arbeitnow.com/jobs/companies/docure-berlin/freelance-social-media-redakteur-in-der-asthetik-gesucht-berlin-270707</link>
@@ -55,6 +79,14 @@
       <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Proxima Fusion GmbH · München · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student MDR</title>
+      <link>https://www.arbeitnow.nl/jobs/companies/careerstrengo/working-student-mdr-utrecht-23674</link>
+      <guid isPermaLink="false">an:working-student-mdr-utrecht-23674</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Careerstrengo · Utrecht · Other · no German needed</description>
     </item>
     <item>
       <title>Werkstudent:in operatives Kostenmanagement</title>
@@ -329,12 +361,28 @@
       <description>PricewaterhouseCoopers GmbH WPG · Hamburg · Other</description>
     </item>
     <item>
+      <title>Bachelorand / Masterand / Werkstudent (m/w)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/nagele-mechanik-gmbh/bachelorand-masterand-werkstudent-m-w-marbach-am-neckar-328373</link>
+      <guid isPermaLink="false">an:bachelorand-masterand-werkstudent-m-w-marbach-am-neckar-328373</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Nägele Mechanik GmbH · Marbach am Neckar · Other</description>
+    </item>
+    <item>
       <title>People Associate - Working Student</title>
       <link>https://www.arbeitnow.com/jobs/companies/wolt-english/people-associate-working-student-berlin-386365</link>
       <guid isPermaLink="false">an:people-associate-working-student-berlin-386365</guid>
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Wolt - English · Berlin · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent Bewerbermanagement (mind. 15h/Woche)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/taxit-consulting-gmbh/werkstudent-bewerbermanagement-mind-15h-woche-stuttgart-416773</link>
+      <guid isPermaLink="false">an:werkstudent-bewerbermanagement-mind-15h-woche-stuttgart-416773</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>TaxIt Consulting GmbH · Stuttgart · €15.00/h · Other</description>
     </item>
     <item>
       <title>Werkstudent*in Customer Relations (m/w/d)</title>

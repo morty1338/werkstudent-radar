@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5010715643-S</link>
+      <guid isPermaLink="false">12288-5010715643-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>PERMACON GmbH Hamburg · Frankfurt am Main · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent / Werkstudentin (m/w/d) Berufspädagogik Pflege</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12667-0006a407537001-S</link>
+      <guid isPermaLink="false">12667-0006a407537001-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Rummelsberger Diakonie e.V. Rummelsberger Dienste gAG · Starnberg · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent/in (m/w/d) Jugendhilfe vor Ort Westlicher Landkreis</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13243-SDE-125506-JB-S</link>
+      <guid isPermaLink="false">13243-SDE-125506-JB-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>Landratsamt Fürstenfeldbruck · Fürstenfeldbruck · Education &amp; Social</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Sozialdienst</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19692-sd2v1e13w2-S</link>
+      <guid isPermaLink="false">19692-sd2v1e13w2-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>BG Klinikum Hamburg gGmbH · Hamburg · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Sozialdienst Eingliederungshilfe erwachsene Menschen mit Behinderung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004059670-S</link>

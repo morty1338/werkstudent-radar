@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Maschinenbau - Kälte- und Verfahrenstechnik (m/w/d)</title>
@@ -15,6 +15,38 @@
       <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>technotrans SE · Bad Doberan · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) PC-Planung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11070-1657853-1-S</link>
+      <guid isPermaLink="false">11070-1657853-1-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>KHS GmbH · Dortmund · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Bauingenieurwesen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-10801-2-S</link>
+      <guid isPermaLink="false">12728-10801-2-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>envia Mitteldeutsche Energie AG · Halle · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Produktentwicklung (m/w/d), christiani.de</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2385672-S</link>
+      <guid isPermaLink="false">12811-2385672-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Dr.-Ing. Paul Christiani GmbH &amp; Co. KG · Konstanz · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Testing (3D-Druck &amp; Testlabor) (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-d6d669d9-13e2-4fd0--S</link>
+      <guid isPermaLink="false">12951-d6d669d9-13e2-4fd0--S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Blackwave · Taufkirchen · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent*in Future Materials &amp; Exterior</title>
@@ -41,6 +73,22 @@
       <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent / Dualer Student Bauleitung (m/w/d) - Bauingenieurwesen / Architektur</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13243-SDE-126391-JB-S</link>
+      <guid isPermaLink="false">13243-SDE-126391-JB-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>CONCEPT BAU GmbH · Bayreuth · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudenten (m/w/d) im Bereich Shared Engineering &amp; Documentation - befristet für 12 Monate</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15120-1637106-2-S</link>
+      <guid isPermaLink="false">15120-1637106-2-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Thermo Fisher Scientific (Bremen) GmbH · Bremen · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudierende Bauingenieurwesen (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15798-44593032-1124-S</link>
       <guid isPermaLink="false">15798-44593032-1124-S</guid>
@@ -49,12 +97,52 @@
       <description>Landesbetrieb Straßenbau NRW Betriebssitz Gelsenkirchen · Coesfeld · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent Produktion Passivschutz (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636066-7878-7667-S</link>
+      <guid isPermaLink="false">15939-BB-636066-7878-7667-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Rheinmetall AG · Neuss · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Testautomatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160T-S</link>
+      <guid isPermaLink="false">18024-10Q7q0000160T-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent / Werkstudentin (m/w/d) für das Testing einer Monitoring-Lösung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20083-1657547-1-S</link>
+      <guid isPermaLink="false">20083-1657547-1-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Deutsche Bundesbank Zentrale · München · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) im Produktionsmaterialeinkauf - REF3001O</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20867-986549942-S</link>
+      <guid isPermaLink="false">20867-986549942-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>ContiTech Deutschland GmbH · Hannover · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent Elektroplanung (m/w/d) in Gießen</title>
       <link>https://www.arbeitnow.com/jobs/companies/iterra-energy-gmbh/werkstudent-elektroplanung-in-giessen-196684</link>
       <guid isPermaLink="false">an:werkstudent-elektroplanung-in-giessen-196684</guid>
       <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Iterra Energy Gmbh · Gießen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Working Student Electronics Engineering (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-electronics-engineering-gilching-233995</link>
+      <guid isPermaLink="false">an:working-student-electronics-engineering-gilching-233995</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Quantum-Systems GmbH · Gilching · Engineering &amp; Production · no German needed</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Entwicklung Maschinenbau oder Elektrotechnik</title>
@@ -719,30 +807,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>ZETCON Ingenieure GmbH · Bendorf · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Qualitätsmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-f5146ea0_JB5301844-S</link>
-      <guid isPermaLink="false">13635-f5146ea0_JB5301844-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>KMK Kinderzimmer GmbH &amp; Co. KG · Hamburg · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent / Praktikant - Taktile Sensorik für humanoide Hände / Greifer (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636087-7878-4726-S</link>
-      <guid isPermaLink="false">15939-BB-636087-7878-4726-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Rheinmetall AG · Düsseldorf · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Working student - Mechanical</title>
-      <link>https://www.arbeitnow.com/jobs/companies/vesoma/working-student-mechanical-garching-bei-munchen-91397</link>
-      <guid isPermaLink="false">an:working-student-mechanical-garching-bei-munchen-91397</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Vesoma · München · Engineering &amp; Production · no German needed</description>
     </item>
   </channel>
 </rss>

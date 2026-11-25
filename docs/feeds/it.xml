@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Softwareentwicklung (m/w/d)</title>
@@ -25,6 +25,14 @@
       <description>Siemens AG · Berlin · IT &amp; Software</description>
     </item>
     <item>
+      <title>Werkstudent IT-Projektmanagement (w|m|d), ADAC Zentrale</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2385719-S</link>
+      <guid isPermaLink="false">12811-2385719-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>ADAC IT Service GmbH · München · IT &amp; Software</description>
+    </item>
+    <item>
       <title>Werkstudent*in Drive Systems Software &amp; Calibration Engineering – Development Process Steering</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1631999-3-S</link>
       <guid isPermaLink="false">13151-1631999-3-S</guid>
@@ -41,12 +49,92 @@
       <description>Mercedes-Benz Group AG · Sindelfingen · IT &amp; Software</description>
     </item>
     <item>
+      <title>Werkstudent - IT Supply Chain Management (w/m/divers)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13348-1657911-1-S</link>
+      <guid isPermaLink="false">13348-1657911-1-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Lufthansa Technik AG · Hamburg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Ingenieur, Betriebswirt, Informatiker - Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-dfedaadbfd88862f-S</link>
+      <guid isPermaLink="false">14225-dfedaadbfd88862f-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Saar-Metallwerke GmbH · Saarbrücken · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Software &amp; System Testing (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16088-3155698_4107686-S</link>
+      <guid isPermaLink="false">16088-3155698_4107686-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>DPD Deutschland GmbH · Aschaffenburg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Praktikant / Werkstudent Cloud Transformation (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986500086-S</link>
+      <guid isPermaLink="false">18989-986500086-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Berlin · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Praktikant / Werkstudent Cloud Transformation (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986500091-S</link>
+      <guid isPermaLink="false">18989-986500091-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Hamburg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Praktikant / Werkstudent Cloud Transformation (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986500096-S</link>
+      <guid isPermaLink="false">18989-986500096-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Düsseldorf · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Praktikant / Werkstudent Cloud Transformation (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986500113-S</link>
+      <guid isPermaLink="false">18989-986500113-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>PricewaterhouseCoopers GmbH WPG · München · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Praktikant / Werkstudent Cloud Transformation (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986500114-S</link>
+      <guid isPermaLink="false">18989-986500114-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Frankfurt am Main · IT &amp; Software</description>
+    </item>
+    <item>
       <title>Werkstudent Softwareentwicklung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19027-44593300-1124-S</link>
       <guid isPermaLink="false">19027-44593300-1124-S</guid>
       <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Komax SLE GmbH &amp; Co. KG · Grafenau · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>IT Operations - Working Student (w/m/x/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/miles-mobility/it-operations-working-student-d-berlin-332747</link>
+      <guid isPermaLink="false">an:it-operations-working-student-d-berlin-332747</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>MILES Mobility · Berlin · IT &amp; Software · no German needed</description>
+    </item>
+    <item>
+      <title>Software Integration &amp; DevOps Intern / Working Student (m/f/d) Robotics Software</title>
+      <link>https://www.arbeitnow.com/jobs/companies/agilerobotsse/software-integration-devops-intern-working-student-robotics-software-munich-bavaria-185917</link>
+      <guid isPermaLink="false">an:software-integration-devops-intern-working-student-robotics-software-munich-bavaria-185917</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Agilerobotsse · München · IT &amp; Software · no German needed</description>
     </item>
     <item>
       <title>Praktikant / Werkstudent Digitalisierung und Innovation Public Services (m/w/d)</title>
@@ -249,6 +337,14 @@
       <description>BMW AG · München · IT &amp; Software</description>
     </item>
     <item>
+      <title>Werkstudent HR IT Support (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1470623-28033-1-S</link>
+      <guid isPermaLink="false">12608-1470623-28033-1-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>REWE Markt GmbH · Köln · IT &amp; Software</description>
+    </item>
+    <item>
       <title>Werkstudent Netzwerkmanagement (w|m|d), ADAC Zentrale</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2383895-S</link>
       <guid isPermaLink="false">12811-2383895-S</guid>
@@ -263,6 +359,14 @@
       <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Dirk Rossmann GmbH · Burgwedel · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent System Engineering UAS (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636112-7878-9783-S</link>
+      <guid isPermaLink="false">15939-BB-636112-7878-9783-S</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Rheinmetall AG · Penzberg · IT &amp; Software</description>
     </item>
     <item>
       <title>Tax Technology Praktikum / Werkstudent (m/w/d) | Digitale Steuerlösungen</title>
@@ -703,62 +807,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>PricewaterhouseCoopers GmbH WPG · Berlin · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Praktikant / Werkstudent im Bereich IT-Transformation/CIO Advisory (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984543045-S</link>
-      <guid isPermaLink="false">18989-984543045-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Frankfurt am Main · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Praktikant / Werkstudent im Bereich IT-Transformation/CIO Advisory (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984543048-S</link>
-      <guid isPermaLink="false">18989-984543048-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Köln · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Praktikant / Werkstudent im Bereich IT-Transformation/CIO Advisory (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984543051-S</link>
-      <guid isPermaLink="false">18989-984543051-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>PricewaterhouseCoopers GmbH WPG · München · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Praktikant / Werkstudent im Bereich IT-Transformation/CIO Advisory (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984543054-S</link>
-      <guid isPermaLink="false">18989-984543054-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Hamburg · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Praktikant / Werkstudent im Bereich IT-Transformation/CIO Advisory (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984543060-S</link>
-      <guid isPermaLink="false">18989-984543060-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Düsseldorf · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent - Technology Risk Management (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984544986-S</link>
-      <guid isPermaLink="false">18989-984544986-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Düsseldorf · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Recruiting Engineering &amp; IT</title>
-      <link>https://www.arbeitnow.com/jobs/companies/advanced-engineering-gmbh/werkstudent-recruiting-engineering-it-worthsee-69778</link>
-      <guid isPermaLink="false">an:werkstudent-recruiting-engineering-it-worthsee-69778</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>advanced engineering GmbH · Wörthsee · IT &amp; Software</description>
     </item>
   </channel>
 </rss>

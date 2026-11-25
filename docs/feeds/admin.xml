@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Office Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004068442-S</link>
+      <guid isPermaLink="false">10001-1004068442-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>sovanta AG · Heidelberg · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>People Associate - Working Student</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004068835-S</link>
+      <guid isPermaLink="false">10001-1004068835-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Wolt Enterprises Deutschland G mbH · Berlin · Office &amp; Admin · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent:in Office Management Busbetrieb</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1657487-1-S</link>
@@ -15,6 +31,14 @@
       <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>Deutsche Bahn AG · Waiblingen · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) - Gestalte deine Zukunft in der Rodday-Family!, Eichstetten am Kaiserstuhl</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2385455-S</link>
+      <guid isPermaLink="false">12811-2385455-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Initiativ · Eichstetten am Kaiserstuhl · Office &amp; Admin</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Assistenz Geschäftsführung</title>
@@ -33,7 +57,7 @@
       <description>envia Mitteldeutsche Energie AG · Markkleeberg · Office &amp; Admin</description>
     </item>
     <item>
-      <title>Werkstudent Empfang (m/w/d), Stuttgart</title>
+      <title>Werkstudent Empfang (w/m/d), Stuttgart</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2384391-S</link>
       <guid isPermaLink="false">12811-2384391-S</guid>
       <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>

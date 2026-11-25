@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Grafikdesign, IPRI - International Performance Research Institute</title>
@@ -33,12 +33,36 @@
       <description>SMA Solar Technology AG · Niestetal · Design &amp; UX</description>
     </item>
     <item>
+      <title>Working Student (all genders welcome) for Graphic Design und Visual Content Creation</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16604-977672-008-S</link>
+      <guid isPermaLink="false">16604-977672-008-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>thyssenkrupp AG Entgeltabrechnung · Dortmund · Design &amp; UX · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent Videoschnitt und Content Marketing (m/w/d) mit Übernahmeperspektive</title>
+      <link>https://www.arbeitnow.com/jobs/companies/ready-to-rock-marketing-gmbh/werkstudent-videoschnitt-und-content-marketing-mit-ubernahmeperspektive-hamburg-158577</link>
+      <guid isPermaLink="false">an:werkstudent-videoschnitt-und-content-marketing-mit-ubernahmeperspektive-hamburg-158577</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Ready to Rock Marketing GmbH · Hamburg · Design &amp; UX</description>
+    </item>
+    <item>
       <title>Werkstudent*in Grafik- &amp; Motion-Design (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/zdf-digital-medienproduktion-gmbh/werkstudentin-grafik-motion-design-mainz-345629</link>
       <guid isPermaLink="false">an:werkstudentin-grafik-motion-design-mainz-345629</guid>
       <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>ZDF Digital Medienproduktion GmbH · Mainz · Design &amp; UX</description>
+    </item>
+    <item>
+      <title>Werkstudent*in (w/m/d) in der Redaktion von Design Perspectives</title>
+      <link>https://www.arbeitnow.com/jobs/companies/german-design-council-rat-fur-formgebung/werkstudentin-in-der-redaktion-von-design-perspectives-frankfurt-am-main-133616</link>
+      <guid isPermaLink="false">an:werkstudentin-in-der-redaktion-von-design-perspectives-frankfurt-am-main-133616</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>German Design Council - Rat für Formgebung · Frankfurt am Main · Design &amp; UX</description>
     </item>
     <item>
       <title>Werkstudent*in Motion Design (m/w/d)</title>
