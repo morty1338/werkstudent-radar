@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Sozialdienst Eingliederungshilfe erwachsene Menschen mit Behinderung</title>
@@ -57,14 +57,6 @@
       <description>Jona Sozialwerk gGmbH · Amelinghausen · Education &amp; Social</description>
     </item>
     <item>
-      <title>Werkstudent:innen, KSP Hamburg</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2382634-S</link>
-      <guid isPermaLink="false">12811-2382634-S</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>KSP Kanzlei Dr. Seegers, Dr. Frankenheim Rechtsanwaltsgesellschaft mbH · Hamburg · Education &amp; Social</description>
-    </item>
-    <item>
       <title>Werkstudent (w/m/d) für die Nachtbereitschaft – Jugendhilfe</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004049013-S</link>
       <guid isPermaLink="false">10001-1004049013-S</guid>
@@ -111,14 +103,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Education &amp; Social</category>
       <description>Sozialdienst katholischer Frauen e.V. · Frankfurt am Main · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) für unsere Jugendhilfewerkstatt Griesheim</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004028952-S</link>
-      <guid isPermaLink="false">10001-1004028952-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Caritasverband Frankfurt e.V. · Frankfurt am Main · Education &amp; Social</description>
     </item>
   </channel>
 </rss>

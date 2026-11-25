@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in Office Management Busbetrieb</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1657487-1-S</link>
+      <guid isPermaLink="false">12456-1657487-1-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Deutsche Bahn AG · Waiblingen · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Assistenz Geschäftsführung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004059816-S</link>
@@ -143,38 +151,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>SEO for Jobs GmbH · Hamburg · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent International Office w/m/d</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12790-j109S16828-46646-S</link>
-      <guid isPermaLink="false">12790-j109S16828-46646-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>SRH University · Heidelberg · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) in der Angebotsplanung, RVM Lüdingh.</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2380096-S</link>
-      <guid isPermaLink="false">12811-2380096-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Regionalverkehr Münsterland GmbH · Lüdinghausen · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Assistenz (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636055-7878-7121-S</link>
-      <guid isPermaLink="false">15939-BB-636055-7878-7121-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Rheinmetall AG · Unterlüß · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent/in (m/w/d) Back Office mit Schwerpunkt Online Auktion</title>
-      <link>https://www.arbeitnow.com/jobs/companies/munzen-medaillen-frankfurt/werkstudent-in-back-office-mit-schwerpunkt-online-auktion-frankfurt-am-main-258004</link>
-      <guid isPermaLink="false">an:werkstudent-in-back-office-mit-schwerpunkt-online-auktion-frankfurt-am-main-258004</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Münzen Medaillen Frankfurt · Frankfurt am Main · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

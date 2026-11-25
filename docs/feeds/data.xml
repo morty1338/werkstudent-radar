@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Python &amp; KI (LLMs / Machine Learning) (w/m/d)</title>
@@ -33,28 +33,12 @@
       <description>E.ON SE · Essen · Data &amp; Analytics</description>
     </item>
     <item>
-      <title>Werkstudent Data Science (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16818-100918367-S</link>
-      <guid isPermaLink="false">16818-100918367-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>HUK - COBURG · Coburg · Data &amp; Analytics</description>
-    </item>
-    <item>
       <title>Working Student – Data Engineering &amp; MLOps (m/f/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/tytan-technologies-gmbh/working-student-data-engineering-mlops-munich-264532</link>
       <guid isPermaLink="false">an:working-student-data-engineering-mlops-munich-264532</guid>
       <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>TYTAN Technologies GmbH · München · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent*in (m/w/d) Künstliche Intelligenz und Datenwissenschaft</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004052265-S</link>
-      <guid isPermaLink="false">10001-1004052265-S</guid>
-      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>IAB-Institut für angewandte Bauforschung Weimar gGmbH · Weimar · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent (mwd) Software Development, Data &amp; AI,Heidelberg,Berlin,Ulm</title>
@@ -191,62 +175,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>cbs Corporate Business Solutions GmbH · Dortmund · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Personalstrategie / HR-Analytics Caritas Düsseldorf - Unterbilk</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-134069-STA-S</link>
-      <guid isPermaLink="false">11858-SDE-134069-STA-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Caritasverband Düsseldorf e. V. · Düsseldorf · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f1103j0457915-S</link>
-      <guid isPermaLink="false">12336-a26f1103j0457915-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Sennheiser electronic SE &amp; Co. KG · Wedemark · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Data Analyst (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-634482-7878-2327-S</link>
-      <guid isPermaLink="false">15939-BB-634482-7878-2327-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Rheinmetall AG · Bremen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Data Analytics &amp; Business Intelligence (w/m/div.)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF301118P-1140ed3-S</link>
-      <guid isPermaLink="false">15986-REF301118P-1140ed3-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Robert Bosch GmbH · Gunzenhausen am Altmühlsee · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Datenanalyse &amp; Prozessoptimierung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16852-44578570-1117-S</link>
-      <guid isPermaLink="false">16852-44578570-1117-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>BASF Services Europe GmbH · Freiburg · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Computer Vision &amp; Machine Learning</title>
-      <link>https://www.arbeitnow.com/jobs/companies/sightwise-gmbh/werkstudent-computer-vision-machine-learning-hanover-155631</link>
-      <guid isPermaLink="false">an:werkstudent-computer-vision-machine-learning-hanover-155631</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Sightwise GmbH · Hannover · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Working Student - Business Analyst, Growth &amp; Operations (m/f/d) – Dutch Market</title>
-      <link>https://www.arbeitnow.com/jobs/companies/raisin/working-student-business-analyst-growth-operations-dutch-market-berlin-berlin-40633</link>
-      <guid isPermaLink="false">an:working-student-business-analyst-growth-operations-dutch-market-berlin-berlin-40633</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>raisin · Berlin · Data &amp; Analytics · no German needed</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Working Student Legal (AI Infrastructure)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/lyceum/working-student-legal-ai-infrastructure-berlin-176466</link>
+      <guid isPermaLink="false">an:working-student-legal-ai-infrastructure-berlin-176466</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Legal</category>
+      <description>Lyceum · Berlin · Legal · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent Legal befristet (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/work-in-progress-textilhandels-gmbh/werkstudent-legal-befristet-weil-am-rhein-95473</link>
@@ -207,14 +215,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Legal</category>
       <description>PricewaterhouseCoopers GmbH WPG · Schwerin · Legal</description>
-    </item>
-    <item>
-      <title>Working Student Export Control &amp; Trade Compliance (All Genders)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/skdse/working-student-export-control-trade-compliance-all-genders-368343</link>
-      <guid isPermaLink="false">an:working-student-export-control-trade-compliance-all-genders-368343</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Skdse · Legal</description>
     </item>
   </channel>
 </rss>

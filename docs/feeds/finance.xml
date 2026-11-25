@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent m/w/d im Bereich Controlling</title>
@@ -97,22 +97,6 @@
       <description>Orlen Deutschland · Elmshorn · Finance &amp; Controlling</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) - Finanzbuchhaltung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15268-0068889496-S</link>
-      <guid isPermaLink="false">15268-0068889496-S</guid>
-      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>4WHEELS Services GmbH · Düsseldorf · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent im Kundenkontakt (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q4800001B0Y-S</link>
-      <guid isPermaLink="false">18024-10Q4800001B0Y-S</guid>
-      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Sparkasse Hohenlohekreis · Finance &amp; Controlling</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) Energiewirtschaft / Einspeiseprozesse (eMobility Powerbank)</title>
       <link>https://www.arbeitnow.com/jobs/companies/fleetboost-gmbh/werkstudent-energiewirtschaft-einspeiseprozesse-emobility-powerbank-greven-263103</link>
       <guid isPermaLink="false">an:werkstudent-energiewirtschaft-einspeiseprozesse-emobility-powerbank-greven-263103</guid>
@@ -185,28 +169,12 @@
       <description>THOST Projektmanagement GmbH · Leipzig · Finance &amp; Controlling</description>
     </item>
     <item>
-      <title>Werkstudent (w/m/d) Finance Manufacturing</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1656072-1-S</link>
-      <guid isPermaLink="false">12465-1656072-1-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Siemens AG · Karlsruhe · Finance &amp; Controlling</description>
-    </item>
-    <item>
       <title>Werkstudent Corporate Finance (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16470-44579536-1119-S</link>
       <guid isPermaLink="false">16470-44579536-1119-S</guid>
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Telefónica Germany GmbH &amp; Co. OHG · Düsseldorf · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-334034</link>
-      <guid isPermaLink="false">an:werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-334034</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Kevin Kehr · Hamburg · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) Fund Annual Reports</title>
@@ -786,14 +754,6 @@
     </item>
     <item>
       <title>Praktikum / Werkstudent Finance &amp; Treasury Management (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547917-S</link>
-      <guid isPermaLink="false">18989-984547917-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Hamburg · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Praktikum / Werkstudent Finance &amp; Treasury Management (w/m/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547918-S</link>
       <guid isPermaLink="false">18989-984547918-S</guid>
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
@@ -807,6 +767,46 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>PricewaterhouseCoopers GmbH WPG · Hannover · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Praktikum / Werkstudent Customs, Excise &amp; International Trade (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547944-S</link>
+      <guid isPermaLink="false">18989-984547944-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Düsseldorf · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Praktikum / Werkstudent Customs, Excise &amp; International Trade (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547947-S</link>
+      <guid isPermaLink="false">18989-984547947-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Frankfurt am Main · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Praktikum / Werkstudent Customs, Excise &amp; International Trade (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547950-S</link>
+      <guid isPermaLink="false">18989-984547950-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Essen · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Praktikum / Werkstudent Customs, Excise &amp; International Trade (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547954-S</link>
+      <guid isPermaLink="false">18989-984547954-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Hamburg · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Praktikum / Werkstudent Customs, Excise &amp; International Trade (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547957-S</link>
+      <guid isPermaLink="false">18989-984547957-S</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Nürnberg · Finance &amp; Controlling</description>
     </item>
   </channel>
 </rss>

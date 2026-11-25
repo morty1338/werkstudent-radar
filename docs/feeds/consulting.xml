@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Patentportfolio-Management &amp; IP Strategy (m/w/d)</title>
@@ -55,14 +55,6 @@
       <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>celonis · München · Consulting &amp; Strategy · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent/-in (m/w/d) in der telefonischen Immobilienberatung (20 Stunden / Woche)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/immo-marketer/werkstudent-in-in-der-telefonischen-immobilienberatung-20-stunden-woche-bochum-342440</link>
-      <guid isPermaLink="false">an:werkstudent-in-in-der-telefonischen-immobilienberatung-20-stunden-woche-bochum-342440</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Immo-Marketer · Bochum · Consulting &amp; Strategy</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) - Consulting Einkauf</title>
@@ -231,22 +223,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>PricewaterhouseCoopers GmbH WPG · Bielefeld · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im strategischen Einkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654787-1-S</link>
-      <guid isPermaLink="false">12465-1654787-1-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Siemens AG · Bad Neustadt an der Saale · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Business Consultancy</title>
-      <link>https://www.arbeitnow.com/jobs/companies/northwave-cyber-security/werkstudentin-business-consultancy-leipzig-438002</link>
-      <guid isPermaLink="false">an:werkstudentin-business-consultancy-leipzig-438002</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Northwave Cyber Security · Leipzig · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

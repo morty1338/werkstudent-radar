@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Softwareentwicklung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004064871-S</link>
+      <guid isPermaLink="false">10001-1004064871-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>technotrans SE · Sassenberg · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Softwareentwicklung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1620279-2-S</link>
+      <guid isPermaLink="false">12465-1620279-2-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · Berlin · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Drive Systems Software &amp; Calibration Engineering – Development Process Steering</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1631999-3-S</link>
+      <guid isPermaLink="false">13151-1631999-3-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Mercedes-Benz Group AG · Sindelfingen · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent*in AI &amp; Automatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1657314-1-S</link>
+      <guid isPermaLink="false">13151-1657314-1-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Mercedes-Benz Group AG · Sindelfingen · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Softwareentwicklung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19027-44593300-1124-S</link>
+      <guid isPermaLink="false">19027-44593300-1124-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Komax SLE GmbH &amp; Co. KG · Grafenau · IT &amp; Software</description>
+    </item>
     <item>
       <title>Praktikant / Werkstudent Digitalisierung und Innovation Public Services (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004058268-S</link>
@@ -95,14 +135,6 @@
       <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>AMAZONEN-Werke H. Dreyer SE &amp; Co. KG, Werk Gaste · Hasbergen · IT &amp; Software · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent in der Software- und Elektronikentwicklung (modellbasierte Softwareentwicklung) (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100100003I800-S</link>
-      <guid isPermaLink="false">18024-100100003I800-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>AMAZONEN-Werke H. Dreyer SE &amp; Co. KG, Werk Gaste · Hasbergen · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent Webentwicklung / Smart Farming (m/w/d)</title>
@@ -217,14 +249,6 @@
       <description>BMW AG · München · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent HR IT Support (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1470623-28033-1-S</link>
-      <guid isPermaLink="false">12608-1470623-28033-1-S</guid>
-      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>REWE Markt GmbH · Köln · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Werkstudent Netzwerkmanagement (w|m|d), ADAC Zentrale</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2383895-S</link>
       <guid isPermaLink="false">12811-2383895-S</guid>
@@ -239,14 +263,6 @@
       <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Dirk Rossmann GmbH · Burgwedel · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent System Engineering UAS (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636112-7878-9783-S</link>
-      <guid isPermaLink="false">15939-BB-636112-7878-9783-S</guid>
-      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Rheinmetall AG · Penzberg · IT &amp; Software</description>
     </item>
     <item>
       <title>Tax Technology Praktikum / Werkstudent (m/w/d) | Digitale Steuerlösungen</title>
@@ -737,76 +753,12 @@
       <description>PricewaterhouseCoopers GmbH WPG · Düsseldorf · IT &amp; Software</description>
     </item>
     <item>
-      <title>Werkstudent im Bereich IT &amp; KI (mind. 15h/Woche)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/taxit-consulting-gmbh/werkstudent-im-bereich-it-ki-mind-15h-woche-stuttgart-450637</link>
-      <guid isPermaLink="false">an:werkstudent-im-bereich-it-ki-mind-15h-woche-stuttgart-450637</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>TaxIt Consulting GmbH · Stuttgart · €16.00/h · IT &amp; Software</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) Recruiting Engineering &amp; IT</title>
       <link>https://www.arbeitnow.com/jobs/companies/advanced-engineering-gmbh/werkstudent-recruiting-engineering-it-worthsee-69778</link>
       <guid isPermaLink="false">an:werkstudent-recruiting-engineering-it-worthsee-69778</guid>
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>advanced engineering GmbH · Wörthsee · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Digitalisierung, KI &amp; Automatisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004032978-S</link>
-      <guid isPermaLink="false">10001-1004032978-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>ZV Komm. Verkehrssicherheit · Amberg · €18.00/h · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Digitalisierung &amp; Prozessentwicklung im Qualitätsmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004034647-S</link>
-      <guid isPermaLink="false">10001-1004034647-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Yageo Nexensos GmbH · Kleinostheim · €21.75/h · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudententätigkeit (m/w/d) IT und Projekte</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004034900-S</link>
-      <guid isPermaLink="false">10001-1004034900-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Technische Akademie Nord e.V. · Kiel · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>tracetronic GmbH: Werkstudent IT (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3086131794956401-S</link>
-      <guid isPermaLink="false">11956-3086131794956401-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>tracetronic GmbH · Dresden · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>GlobalFoundries Management Services GmbH &amp; Co. KG: Werkstudent*in im Bereich Power Technology Develo</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3095971794956400-S</link>
-      <guid isPermaLink="false">11956-3095971794956400-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>GlobalFoundries Management Services GmbH &amp; Co. KG · Dresden · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Eventmanagement im Cyber Innovation Hub der Bundeswehr (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0457958-S</link>
-      <guid isPermaLink="false">12336-a26f539j0457958-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>BWI GmbH · Berlin · €16.00/h · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Visual Design im Cyber Innovation Hub der Bundeswehr (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0457959-S</link>
-      <guid isPermaLink="false">12336-a26f539j0457959-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>BWI GmbH · Berlin · IT &amp; Software</description>
     </item>
   </channel>
 </rss>

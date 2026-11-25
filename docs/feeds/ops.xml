@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/ops.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Nov 2026 15:06:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:56:36 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) im Einkauf</title>
+      <link>https://www.arbeitnow.com/jobs/companies/dnsnet-internet-service-gmbh/werkstudent-im-einkauf-berlin-433596</link>
+      <guid isPermaLink="false">an:werkstudent-im-einkauf-berlin-433596</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>DNS:NET Internet Service GmbH · Berlin · Operations &amp; Logistics</description>
+    </item>
     <item>
       <title>Werkstudent Customer Solution Management &amp; Operations (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0458149-S</link>
@@ -71,22 +79,6 @@
       <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>DHL AG Zentrale · Schkeuditz · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (in) im Vertragsmanagement (d/m/w)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100fe00003T0K-S</link>
-      <guid isPermaLink="false">18024-100fe00003T0K-S</guid>
-      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Berliner Stadtgüter GmbH · Berlin · €15.92/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y0V-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001Y0V-S</guid>
-      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
     </item>
     <item>
       <title>Working Student – Laser Lab &amp; Cleanroom Operations (f/m/d)</title>
@@ -287,38 +279,6 @@
       <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
       <category>Operations &amp; Logistics</category>
       <description>Socialsweethearts · Düsseldorf · Operations &amp; Logistics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent/in Immobilienverwaltung (m/w/d) – WEG &amp; Immobilienmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004028882-S</link>
-      <guid isPermaLink="false">10001-1004028882-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Julian Talakerer · Altenholz · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent im Lager und Versand (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004032813-S</link>
-      <guid isPermaLink="false">10001-1004032813-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>BestesFutter GmbH &amp; Co. KG · Harrislee · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent im Einkauf (m/w/d) - mittendrin statt nur dabei!</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5002884939-S</link>
-      <guid isPermaLink="false">12288-5002884939-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>in-tech GmbH · Garching bei München · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Operations (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636070-7878-3094-S</link>
-      <guid isPermaLink="false">15939-BB-636070-7878-3094-S</guid>
-      <pubDate>Wed, 18 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Rheinmetall AG · Kiel · €17.50/h · Operations &amp; Logistics</description>
     </item>
   </channel>
 </rss>
