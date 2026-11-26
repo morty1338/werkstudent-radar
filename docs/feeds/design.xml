@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 00:35:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 14:08:27 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Design Working Student / Intern</title>
@@ -15,6 +15,14 @@
       <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>Se3 · München · Design &amp; UX · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent - Mediengestalter/Grafikdesigner (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/backer-gortz-gmbh/werkstudent-mediengestalter-grafikdesigner-ludwigshafen-338363</link>
+      <guid isPermaLink="false">an:werkstudent-mediengestalter-grafikdesigner-ludwigshafen-338363</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Bäcker Görtz GmbH · Ludwigshafen · Design &amp; UX</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Grafikdesign, IPRI - International Performance Research Institute</title>

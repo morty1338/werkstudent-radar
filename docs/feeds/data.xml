@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 00:35:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 14:08:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent - Datenanalyse &amp; Reporting im Bereich Einkauf  (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-adb97ce9-e886-4aa1--S</link>
+      <guid isPermaLink="false">12951-adb97ce9-e886-4aa1--S</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>MTU Maintenance Hannover GmbH · Langenhagen · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent*in Data Analytics Prozess, Methode und Tooling für Way of Working</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1657330-1-S</link>
@@ -15,6 +23,14 @@
       <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Mercedes-Benz Group AG · Sindelfingen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student (d/f/m) – Data Analytics in Master Data Governance</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-986706452-S</link>
+      <guid isPermaLink="false">16947-986706452-S</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Airbus Operations GmbH Werk Bremen · Hamburg · €18.53/h · Data &amp; Analytics · no German needed</description>
     </item>
     <item>
       <title>Working Student Business Analytics &amp; Supply Chain Excellence (no internship)</title>

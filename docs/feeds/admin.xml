@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 00:35:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 14:08:27 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Vertragsmanagement (m/w/d),Dresden,Meißen</title>
@@ -15,6 +15,14 @@
       <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>E1NE UKA · Meißen · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Working Student - Reception / Office &amp; Team Assistant (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/interpath-advisory/working-student-reception-office-team-assistant-frankfurt-am-main-340273</link>
+      <guid isPermaLink="false">an:working-student-reception-office-team-assistant-frankfurt-am-main-340273</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Interpath Advisory · Frankfurt am Main · Office &amp; Admin</description>
     </item>
     <item>
       <title>Werkstudent Office Management (m/w/d)</title>
@@ -31,6 +39,14 @@
       <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>Wolt Enterprises Deutschland G mbH · Berlin · Office &amp; Admin · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Office Management Busbetrieb</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1657487-1-S</link>
+      <guid isPermaLink="false">12456-1657487-1-S</guid>
+      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Deutsche Bahn AG · Waiblingen · Office &amp; Admin</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) - Gestalte deine Zukunft in der Rodday-Family!, Eichstetten am Kaiserstuhl</title>

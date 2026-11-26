@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 00:35:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 14:08:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent*in (m/w/d)  im Team Wohnen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004071528-S</link>
+      <guid isPermaLink="false">10001-1004071528-S</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Region Hannover Gebietskörperschaft · Hannover · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) im Bereich Regionalmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004075540-S</link>
+      <guid isPermaLink="false">10001-1004075540-S</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Landkreis Neu-Ulm · Neu-Ulm · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Category Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11937-35078_59615-1-S</link>
+      <guid isPermaLink="false">11937-35078_59615-1-S</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Tchibo GmbH Abteilung HRO/HRO-P · Hamburg · Other</description>
+    </item>
+    <item>
+      <title>GISA GmbH: Werkstudent:in Enterprise Information Management (m/w/d)*</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2940811795647601-S</link>
+      <guid isPermaLink="false">11956-2940811795647601-S</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>GISA GmbH · Halle · Other</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) Zulassung Lokomotiven</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1658105-1-S</link>
@@ -23,6 +55,38 @@
       <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>E.ON Grid Solutions GmbH · Hamburg · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Kunst &amp; Kultur (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-61a54121-35ae-45c1--S</link>
+      <guid isPermaLink="false">12951-61a54121-35ae-45c1--S</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>DKB STIFTUNG für gesellschaftliches Engagement · Berlin · Other</description>
+    </item>
+    <item>
+      <title>Founders Associate Werkstudent (m/w/d) | 17 €/Std.</title>
+      <link>https://www.arbeitnow.com/jobs/companies/axro-gmbh/founders-associate-werkstudent-17-eur-std-hamburg-268590</link>
+      <guid isPermaLink="false">an:founders-associate-werkstudent-17-eur-std-hamburg-268590</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>AXRO GmbH · Hamburg · €17.00/h · Other</description>
+    </item>
+    <item>
+      <title>Praktikant:in / Werkstudent:in Corporate Development</title>
+      <link>https://www.arbeitnow.com/jobs/companies/re-green/praktikantin-werkstudentin-corporate-development-frankfurt-am-main-269097</link>
+      <guid isPermaLink="false">an:praktikantin-werkstudentin-corporate-development-frankfurt-am-main-269097</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>re-green · Frankfurt am Main · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent*in im Kundensupport (20 Wochenstunden)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/otinga-gmbh/werkstudentin-im-kundensupport-20-wochenstunden-cologne-401420</link>
+      <guid isPermaLink="false">an:werkstudentin-im-kundensupport-20-wochenstunden-cologne-401420</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>otinga GmbH · Köln · Other</description>
     </item>
     <item>
       <title>Werkstudent/in in der Spedition (m/w/d)</title>
@@ -49,7 +113,7 @@
       <description>BIONORICA SE · Neumarkt in der Oberpfalz · Other</description>
     </item>
     <item>
-      <title>Freelance-Social-Media-Redakteur (m/w/d) in der Ästhetik gesucht!</title>
+      <title>Freelance-Social-Media-Redakteur (m/w/d) in der Ästhetik gesucht</title>
       <link>https://www.arbeitnow.com/jobs/companies/docure-berlin/freelance-social-media-redakteur-in-der-asthetik-gesucht-berlin-270707</link>
       <guid isPermaLink="false">an:freelance-social-media-redakteur-in-der-asthetik-gesucht-berlin-270707</guid>
       <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
