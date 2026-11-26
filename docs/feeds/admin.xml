@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:35:15 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Vertragsmanagement (m/w/d),Dresden,Meißen</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2385716-S</link>
+      <guid isPermaLink="false">12811-2385716-S</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>E1NE UKA · Meißen · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent Office Management (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004068442-S</link>
@@ -25,14 +33,6 @@
       <description>Wolt Enterprises Deutschland G mbH · Berlin · Office &amp; Admin · no German needed</description>
     </item>
     <item>
-      <title>Werkstudent:in Office Management Busbetrieb</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1657487-1-S</link>
-      <guid isPermaLink="false">12456-1657487-1-S</guid>
-      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Deutsche Bahn AG · Waiblingen · Office &amp; Admin</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) - Gestalte deine Zukunft in der Rodday-Family!, Eichstetten am Kaiserstuhl</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2385455-S</link>
       <guid isPermaLink="false">12811-2385455-S</guid>
@@ -47,14 +47,6 @@
       <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>STADTWERKE SCHORNDORF GMBH · Schorndorf · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Konzessionsmanagement  (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-10796-1-S</link>
-      <guid isPermaLink="false">12728-10796-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>envia Mitteldeutsche Energie AG · Markkleeberg · Office &amp; Admin</description>
     </item>
     <item>
       <title>Werkstudent Empfang (w/m/d), Stuttgart</title>
@@ -119,62 +111,6 @@
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Office &amp; Admin</category>
       <description>Gerhard D. Wempe GmbH &amp; Co. KG · Köln · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Arbeits- und Freizeitassistenz in Witten - Minijob oder Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17839-2026-10510010-S</link>
-      <guid isPermaLink="false">17839-2026-10510010-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>der assistenzdienst ruhr GmbH · Witten · €16.00/h · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Sicherheitsmanagement/Gebäudesicherheit (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984544441-S</link>
-      <guid isPermaLink="false">18989-984544441-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>PricewaterhouseCoopers GmbH WPG · München · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Sicherheitsmanagement/Gebäudesicherheit (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984544444-S</link>
-      <guid isPermaLink="false">18989-984544444-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Frankfurt am Main · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Administrative Unterstützung (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547728-S</link>
-      <guid isPermaLink="false">18989-984547728-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>PricewaterhouseCoopers GmbH WPG · München · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Sicherheitsmanagement/Gebäudesicherheit (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547731-S</link>
-      <guid isPermaLink="false">18989-984547731-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Stuttgart · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Administrative Unterstützung (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984547768-S</link>
-      <guid isPermaLink="false">18989-984547768-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Schwerin · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Terminkoordinator</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21455-9804015v1-S</link>
-      <guid isPermaLink="false">21455-9804015v1-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>SEO for Jobs GmbH · Hamburg · Office &amp; Admin</description>
     </item>
   </channel>
 </rss>

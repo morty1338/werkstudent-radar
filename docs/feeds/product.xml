@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:35:15 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Produktmanagement</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kijimea/werkstudent-produktmanagement-grafelfing-76936</link>
+      <guid isPermaLink="false">an:werkstudent-produktmanagement-grafelfing-76936</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Kijimea · Gräfelfing · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudent Kaufmännisches Bauprojektmanagement (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636132-7878-4328-S</link>
@@ -223,62 +231,6 @@
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>SachsenEnergieBau GmbH · Heidenau · €16.00/h · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Projektmanagement Creative Hub (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1465184-28033-1-S</link>
-      <guid isPermaLink="false">12608-1465184-28033-1-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Penny Markt GmbH · Köln · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Projektmanagement Public Affairs (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1469421-28043-1-S</link>
-      <guid isPermaLink="false">12608-1469421-28043-1-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>REWE Group · Köln · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent PMO &amp; Projektmanagement uvGE</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15933-44582911-1118-S</link>
-      <guid isPermaLink="false">15933-44582911-1118-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Bundesdruckerei Gruppe GmbH · Berlin · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Administration im EPMO Global Lead Office (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636080-7878-2521-S</link>
-      <guid isPermaLink="false">15939-BB-636080-7878-2521-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Rheinmetall AG · Düsseldorf · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent PMO - Business Enablement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636081-7878-3226-S</link>
-      <guid isPermaLink="false">15939-BB-636081-7878-3226-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Rheinmetall AG · Düsseldorf · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent PMO - Corporate Enablement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636082-7878-7574-S</link>
-      <guid isPermaLink="false">15939-BB-636082-7878-7574-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Rheinmetall AG · Düsseldorf · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Studentische Hilfskraft / Werkstudent Projektentwicklung (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/initiative-fur-wirtschaftliche-jugendbildung-iwjb/studentische-hilfskraft-werkstudent-projektentwicklung-frankfurt-am-main-474596</link>
-      <guid isPermaLink="false">an:studentische-hilfskraft-werkstudent-projektentwicklung-frankfurt-am-main-474596</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Initiative für wirtschaftliche Jugendbildung (IWJB) · Berlin · €18.00/h · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

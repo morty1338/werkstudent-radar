@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:35:15 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Vertrieb (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15086-44596818-1125-S</link>
+      <guid isPermaLink="false">15086-44596818-1125-S</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Bechtle AG · Mainz · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent Kundenservice (w/m/d) - Geislingen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12117-YF-54857-YF-S</link>
@@ -239,78 +247,6 @@
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>appinio · Hamburg · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Working Student - Customer Success</title>
-      <link>https://www.arbeitnow.com/jobs/companies/skailark/working-student-customer-success-munich-285837</link>
-      <guid isPermaLink="false">an:working-student-customer-success-munich-285837</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Skailark · München · €22.00/h · Sales &amp; Business Development · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent:in (w/m/d) im Vertrieb</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208715716-S</link>
-      <guid isPermaLink="false">10000-1208715716-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>M.T.R Enterprises GmbH · Hamburg · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Administration Vertrieb / Sales</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-134361-STA-S</link>
-      <guid isPermaLink="false">11858-SDE-134361-STA-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Provadis Professionals GmbH · Berlin · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Sales</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15588-109186X356363-S</link>
-      <guid isPermaLink="false">15588-109186X356363-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Indaver Deutschland GmbH · Stuttgart · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent im telefonischen Bestandskundenservice (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16856-0068826250-S</link>
-      <guid isPermaLink="false">16856-0068826250-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>KIND GmbH &amp; Co. KG · Burgwedel · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent (d/m/w) - Einkauf - Account Management Hamburg</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16947-984767696-S</link>
-      <guid isPermaLink="false">16947-984767696-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Airbus Operations GmbH Werk Bremen · Hamburg · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Sales Assistant, Werkstudent (m/w/d), Bikini/Kadewe Berlin</title>
-      <link>https://www.arbeitnow.com/jobs/companies/lakrids-by-bulow/sales-assistant-werkstudent-bikini-kadewe-berlin-80818</link>
-      <guid isPermaLink="false">an:sales-assistant-werkstudent-bikini-kadewe-berlin-80818</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>LAKRIDS BY BÜLOW · Berlin · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Sales (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/idealo-internet-gmbh/werkstudent-sales-berlin-195754</link>
-      <guid isPermaLink="false">an:werkstudent-sales-berlin-195754</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>idealo internet GmbH · Berlin · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Working Student - Governmental Sales (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-governmental-sales-gilching-210636</link>
-      <guid isPermaLink="false">an:working-student-governmental-sales-gilching-210636</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Quantum-Systems GmbH · Gilching · Sales &amp; Business Development · no German needed</description>
     </item>
   </channel>
 </rss>

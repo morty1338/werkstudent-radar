@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:35:15 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Zulassung Lokomotiven</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1658105-1-S</link>
+      <guid isPermaLink="false">12465-1658105-1-S</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Siemens AG · Erlangen · €15.00/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Agile Transformation (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1118-1-S</link>
+      <guid isPermaLink="false">12728-1118-1-S</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>E.ON Grid Solutions GmbH · Hamburg · Other</description>
+    </item>
     <item>
       <title>Werkstudent/in in der Spedition (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208794230-S</link>
@@ -119,14 +135,6 @@
       <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>envia Mitteldeutsche Energie AG · Halle · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent/in Sponsoring/Veranstaltungen (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-10805-1-S</link>
-      <guid isPermaLink="false">12728-10805-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>envia Mitteldeutsche Energie AG · Chemnitz · Other</description>
     </item>
     <item>
       <title>Werkstudent*in Netzbetreibermanagement (w/m/d)</title>
@@ -265,14 +273,6 @@
       <description>wolt · Berlin · Other · no German needed</description>
     </item>
     <item>
-      <title>Working Student Founders Associate (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/selqo/working-student-founders-associate-paderborn-149305</link>
-      <guid isPermaLink="false">an:working-student-founders-associate-paderborn-149305</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>selqo · Paderborn · €20.00/h · Other</description>
-    </item>
-    <item>
       <title>Working Student Global Marketplaces</title>
       <link>https://www.arbeitnow.com/jobs/companies/lovehoney-group/working-student-global-marketplaces-berlin-372242</link>
       <guid isPermaLink="false">an:working-student-global-marketplaces-berlin-372242</guid>
@@ -295,102 +295,6 @@
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>isaraerospace · Ottobrunn · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Windows Server Support (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004037946-S</link>
-      <guid isPermaLink="false">10001-1004037946-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>ARAG IT GmbH · Düsseldorf · €17.00/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent:in für den Bereich Vertragsmanagement Industrie (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5004331950-S</link>
-      <guid isPermaLink="false">12288-5004331950-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>SV SparkassenVersicherung · Stuttgart · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Sponsoring / Partnerships (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1466553-28452-1-S</link>
-      <guid isPermaLink="false">12608-1466553-28452-1-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>REWE Markt GmbH · Dortmund · €14.50/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Digitale Betriebsanleitung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1655180-1-S</link>
-      <guid isPermaLink="false">13151-1655180-1-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Mercedes-Benz Group AG · Böblingen · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Digital Transformation (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984544045-S</link>
-      <guid isPermaLink="false">18989-984544045-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Berlin · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Digital Transformation (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984544119-S</link>
-      <guid isPermaLink="false">18989-984544119-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Düsseldorf · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Digital Transformation (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984544123-S</link>
-      <guid isPermaLink="false">18989-984544123-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Frankfurt am Main · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Digital Transformation (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-984544131-S</link>
-      <guid isPermaLink="false">18989-984544131-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>PricewaterhouseCoopers GmbH WPG · Hamburg · Other</description>
-    </item>
-    <item>
-      <title>Bachelorand / Masterand / Werkstudent (m/w)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/nagele-mechanik-gmbh/bachelorand-masterand-werkstudent-m-w-marbach-am-neckar-328373</link>
-      <guid isPermaLink="false">an:bachelorand-masterand-werkstudent-m-w-marbach-am-neckar-328373</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Nägele Mechanik GmbH · Marbach am Neckar · Other</description>
-    </item>
-    <item>
-      <title>People Associate - Working Student</title>
-      <link>https://www.arbeitnow.com/jobs/companies/wolt-english/people-associate-working-student-berlin-386365</link>
-      <guid isPermaLink="false">an:people-associate-working-student-berlin-386365</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Wolt - English · Berlin · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Bewerbermanagement (mind. 15h/Woche)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/taxit-consulting-gmbh/werkstudent-bewerbermanagement-mind-15h-woche-stuttgart-416773</link>
-      <guid isPermaLink="false">an:werkstudent-bewerbermanagement-mind-15h-woche-stuttgart-416773</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>TaxIt Consulting GmbH · Stuttgart · €15.00/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Customer Relations (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/happybrush/werkstudentin-customer-relations-munich-365994</link>
-      <guid isPermaLink="false">an:werkstudentin-customer-relations-munich-365994</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>happybrush · München · Other</description>
     </item>
   </channel>
 </rss>

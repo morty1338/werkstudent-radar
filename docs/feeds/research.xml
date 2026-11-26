@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/research.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:35:15 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Research (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20778-2385916-S</link>
+      <guid isPermaLink="false">20778-2385916-S</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>SozialBank AG · Köln · Research &amp; Science</description>
+    </item>
     <item>
       <title>Werkstudent Marktforschung / Customer Experience (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1470451-28033-1-S</link>
@@ -31,54 +39,6 @@
       <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
       <category>Research &amp; Science</category>
       <description>Bundeskriminalamt · Wiesbaden · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent Marktforschung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1469895-28033-1-S</link>
-      <guid isPermaLink="false">12608-1469895-28033-1-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>REWE-Markt GmbH Zweigniederlassung West · Köln · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent für Business Unit Chemicals (m/w/d), Hattersheim am Main</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2380899-S</link>
-      <guid isPermaLink="false">12811-2380899-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Kuraray Europe GmbH · Hattersheim am Main · Research &amp; Science · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Sozialpädagogik / Erziehungswissenschaften</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14751-445A184-S</link>
-      <guid isPermaLink="false">14751-445A184-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>WUTOW Professional GmbH · Frankfurt am Main · €22.00/h · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Werkstudent in der Entwicklung mit Fokus Normung (w/m/div.)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF301289Q-a275411-S</link>
-      <guid isPermaLink="false">15986-REF301289Q-a275411-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Robert Bosch GmbH · Wetzlar · Research &amp; Science</description>
-    </item>
-    <item>
-      <title>Research Working Student, Microbiology</title>
-      <link>https://www.arbeitnow.com/jobs/companies/differentialbio/research-working-student-microbiology-munich-326366</link>
-      <guid isPermaLink="false">an:research-working-student-microbiology-munich-326366</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Differential.bio · München · Research &amp; Science · no German needed</description>
-    </item>
-    <item>
-      <title>Working Student AI Research (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/nulegal-gmbh/working-student-ai-research-potsdam-111204</link>
-      <guid isPermaLink="false">an:working-student-ai-research-potsdam-111204</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Research &amp; Science</category>
-      <description>Nulegal GmbH · Potsdam · Research &amp; Science · no German needed</description>
     </item>
   </channel>
 </rss>

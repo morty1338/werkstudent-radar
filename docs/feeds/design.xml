@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 14:45:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:35:15 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Design Working Student / Intern</title>
+      <link>https://www.arbeitnow.com/jobs/companies/se3/design-working-student-intern-munich-47992</link>
+      <guid isPermaLink="false">an:design-working-student-intern-munich-47992</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>Se3 · München · Design &amp; UX · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Grafikdesign, IPRI - International Performance Research Institute</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2385038-S</link>
@@ -175,78 +183,6 @@
       <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>vanozza foods GmbH · Hamburg · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Print- und Screendesign mit Schwerpunkt WordPress (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004035915-S</link>
-      <guid isPermaLink="false">10001-1004035915-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>51bytes GmbH · Würzburg · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Advertising Design / Art Direction (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1466682-28033-1-S</link>
-      <guid isPermaLink="false">12608-1466682-28033-1-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>REWE Group · Köln · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent UX Systemdesign (m/w/d/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1639712-2-S</link>
-      <guid isPermaLink="false">13151-1639712-2-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Mercedes-Benz Group AG · Ulm · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Video Editing &amp; Social Content (all genders)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-54d5af92_JB5301520-S</link>
-      <guid isPermaLink="false">13635-54d5af92_JB5301520-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Looping Group · Berlin · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Grafik &amp; Video (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-7bdbaace_JB5301470-S</link>
-      <guid isPermaLink="false">13635-7bdbaace_JB5301470-S</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>cellumation GmbH · Bremen · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Grafikdesign (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/stopfer-verlag/werkstudent-grafikdesign-berlin-275988</link>
-      <guid isPermaLink="false">an:werkstudent-grafikdesign-berlin-275988</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Stopfer Verlag · Berlin · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Grafikdesign (m/w/d) - % Homeoffice, flexible Arbeitszeiten</title>
-      <link>https://www.arbeitnow.com/jobs/companies/nutrition-plus-gmbh/werkstudent-grafikdesign-homeoffice-flexible-arbeitszeiten-berlin-168079</link>
-      <guid isPermaLink="false">an:werkstudent-grafikdesign-homeoffice-flexible-arbeitszeiten-berlin-168079</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Nutrition-Plus GmbH · Berlin · €16.00/h · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent:in (m/w/d) – UX Copywriting</title>
-      <link>https://www.arbeitnow.com/jobs/companies/tide/werkstudentin-ux-copywriting-berlin-345472</link>
-      <guid isPermaLink="false">an:werkstudentin-ux-copywriting-berlin-345472</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>tide · Berlin · €17.00/h · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Working Student (f/m/d) Civil Engineering / Architecture – AI Building Design</title>
-      <link>https://www.arbeitnow.com/jobs/companies/comstruct-ict/working-student-civil-engineering-architecture-ai-building-design-munich-59650</link>
-      <guid isPermaLink="false">an:working-student-civil-engineering-architecture-ai-building-design-munich-59650</guid>
-      <pubDate>Thu, 19 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>comstruct ICT · München · Design &amp; UX</description>
     </item>
   </channel>
 </rss>
