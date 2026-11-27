@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 14:08:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Human Resources</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654496-2-S</link>
+      <guid isPermaLink="false">12465-1654496-2-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Siemens AG · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Working Student (f/m/d) Leadership Development Programs</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1657153-1-S</link>
+      <guid isPermaLink="false">12465-1657153-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Siemens AG · München · HR &amp; Recruiting · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) KI-Agenten &amp; Multi-Agenten-Systeme im HR</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16470-44597953-1126-S</link>
+      <guid isPermaLink="false">16470-44597953-1126-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Telefónica Germany GmbH &amp; Co. OHG · Nürnberg · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent Personal (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208811040-S</link>
@@ -137,14 +161,6 @@
       <description>Deutsche Bundesbank · Düsseldorf · HR &amp; Recruiting</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) - HR</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15268-0068940191-S</link>
-      <guid isPermaLink="false">15268-0068940191-S</guid>
-      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>4WHEELS Services GmbH · Düsseldorf · HR &amp; Recruiting</description>
-    </item>
-    <item>
       <title>Werkstudent Personal Teilzeit (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19220-897b352df6e8b4bf-S</link>
       <guid isPermaLink="false">19220-897b352df6e8b4bf-S</guid>
@@ -175,14 +191,6 @@
       <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Suena Energy · Hamburg · €17.00/h · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Human Resources (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208782207-S</link>
-      <guid isPermaLink="false">10000-1208782207-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>V4Smart GmbH &amp; Co. KG · Nördlingen · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Recruiting &amp; Personalmarketing</title>
@@ -335,38 +343,6 @@
       <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>F+U Rhein-Main-Neckar gGmbH · Heidelberg · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11868-13930783-S</link>
-      <guid isPermaLink="false">11868-13930783-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>I.K. Hofmann Personal GmbH Regensburg I · Regensburg · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Praktikant/ Werkstudent HR Projekte zur Digitalisierung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15939-BB-636050-7878-2801-S</link>
-      <guid isPermaLink="false">15939-BB-636050-7878-2801-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Rheinmetall AG · Stockach · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18349-47878_17_JB5302852-S</link>
-      <guid isPermaLink="false">18349-47878_17_JB5302852-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>ADAC Luftrettung gGmbH · Weßling · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (Mensch)  Active Sourcing &amp; Recruiting</title>
-      <link>https://www.arbeitnow.com/jobs/companies/wppmedia/werkstudent-mensch-active-sourcing-recruiting-dusseldorf-257427</link>
-      <guid isPermaLink="false">an:werkstudent-mensch-active-sourcing-recruiting-dusseldorf-257427</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>wppmedia · Düsseldorf · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>

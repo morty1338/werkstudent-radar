@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/legal.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 14:08:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent*in im Datenschutzmanagement (befristet) (m/w/d)</title>
@@ -55,14 +55,6 @@
       <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
       <category>Legal</category>
       <description>Motel One Head Office · München · Legal</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Compliance Management</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14927-26l2qf4ptaj-S</link>
-      <guid isPermaLink="false">14927-26l2qf4ptaj-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Legal</category>
-      <description>Bartels-Langness Handelsgesellschaft mbH &amp; Co. KG · Kiel · Legal</description>
     </item>
   </channel>
 </rss>

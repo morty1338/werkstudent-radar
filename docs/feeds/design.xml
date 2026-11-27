@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 14:08:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Design Working Student / Intern</title>
@@ -113,14 +113,6 @@
       <description>TWLV GMBH · Berlin · Design &amp; UX · no German needed</description>
     </item>
     <item>
-      <title>Werkstudent / Sales Assistant (m/w/d) - CECIL und Street One im Designer Outlet Ochtrup</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004053197-S</link>
-      <guid isPermaLink="false">10001-1004053197-S</guid>
-      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>CBR Service GmbH · Ochtrup · Design &amp; UX</description>
-    </item>
-    <item>
       <title>Werkstudent:in Grafikdesign &amp; KI-Bildbearbeitung (Fashion / E-Commerce) (m/w/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/kiefermann-gmbh/werkstudentin-grafikdesign-ki-bildbearbeitung-fashion-e-commerce-krefeld-414809</link>
       <guid isPermaLink="false">an:werkstudentin-grafikdesign-ki-bildbearbeitung-fashion-e-commerce-krefeld-414809</guid>
@@ -145,14 +137,6 @@
       <description>Julery · Düsseldorf · €19.00/h · Design &amp; UX</description>
     </item>
     <item>
-      <title>Werkstudent:in Social Media &amp; Video Content</title>
-      <link>https://www.arbeitnow.com/jobs/companies/zattoo/werkstudentin-social-media-video-content-berlin-248565</link>
-      <guid isPermaLink="false">an:werkstudentin-social-media-video-content-berlin-248565</guid>
-      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Zattoo · Berlin · Design &amp; UX</description>
-    </item>
-    <item>
       <title>Werkstudent Video Editor / Cutter (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11971-1001906971462943-S</link>
       <guid isPermaLink="false">11971-1001906971462943-S</guid>
@@ -175,22 +159,6 @@
       <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>Aesthetica Media · Minden · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) UX/UI Design</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1655578-1-S</link>
-      <guid isPermaLink="false">12465-1655578-1-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Siemens AG · Berlin · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent:in (m/w/d) Content Creation &amp; Videoschnitt</title>
-      <link>https://www.arbeitnow.com/jobs/companies/vanozza-foods-gmbh/werkstudentin-content-creation-videoschnitt-hamburg-150159</link>
-      <guid isPermaLink="false">an:werkstudentin-content-creation-videoschnitt-hamburg-150159</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>vanozza foods GmbH · Hamburg · Design &amp; UX</description>
     </item>
   </channel>
 </rss>

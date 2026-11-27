@@ -6,8 +6,384 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/all.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 14:08:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Arbeitsschutzmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004076434-S</link>
+      <guid isPermaLink="false">10001-1004076434-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Willke Holding GmbH · Wittorf · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Qualitätsmanagement</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004076473-S</link>
+      <guid isPermaLink="false">10001-1004076473-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Willke Holding GmbH · Wittorf · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Öffentlichkeitsarbeit &amp; Marketing</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004077050-S</link>
+      <guid isPermaLink="false">10001-1004077050-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>ASB Regionalverband Unterfranken e.V. · Würzburg · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent/in Schwerpunkt Informationstechnik (m/w/d) in Teilzeit</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-136523-STA-S</link>
+      <guid isPermaLink="false">11858-SDE-136523-STA-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Landratsamt Fürstenfeldbruck · Fürstenfeldbruck · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Softwareentwicklung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-529321_JB5307204-S</link>
+      <guid isPermaLink="false">12265-529321_JB5307204-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>FERCHAU Management GmbH · Gummersbach · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Innovationsmanagement (Fokus KI &amp; neue Technologien)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5012289494-S</link>
+      <guid isPermaLink="false">12288-5012289494-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>SIGNAL IDUNA · Berlin · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Messtechnik und Fertigungsprozesse (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1657962-1-S</link>
+      <guid isPermaLink="false">12462-1657962-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>BMW AG · Dingolfing · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent im Bereich Data Driven Corporate Strategy (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1657965-1-S</link>
+      <guid isPermaLink="false">12462-1657965-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>BMW AG · München · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent AI &amp; Automation im Project Steering  - Direktvertriebsmodell (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1657966-1-S</link>
+      <guid isPermaLink="false">12462-1657966-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>BMW AG · München · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent MINI Lifestyle - Sales &amp; Marketing (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1657970-1-S</link>
+      <guid isPermaLink="false">12462-1657970-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>BMW AG · München · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent Fuhrparkmanagement BMW Motorrad (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1658429-1-S</link>
+      <guid isPermaLink="false">12462-1658429-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>BMW AG · München · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Einkauf &amp; Lieferantennetzwerk Produktlinie Oberklasse (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1658433-1-S</link>
+      <guid isPermaLink="false">12462-1658433-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>BMW AG · München · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent Digitalisierung, KI &amp; Projektmanagement (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1658434-1-S</link>
+      <guid isPermaLink="false">12462-1658434-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>BMW AG · München · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent technische Absicherung und Digitalisierung (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1658437-1-S</link>
+      <guid isPermaLink="false">12462-1658437-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>BMW AG · München · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Human Resources</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654496-2-S</link>
+      <guid isPermaLink="false">12465-1654496-2-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Siemens AG · München · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Working Student (f/m/d) R&amp;D Digitalization &amp; AI Infrastructure</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1656071-1-S</link>
+      <guid isPermaLink="false">12465-1656071-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Siemens AG · Berlin · IT &amp; Software · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student Marine CFD Simulation (m/f/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1656074-1-S</link>
+      <guid isPermaLink="false">12465-1656074-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Siemens AG · München · Engineering &amp; Production · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student (f/m/d) Leadership Development Programs</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1657153-1-S</link>
+      <guid isPermaLink="false">12465-1657153-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Siemens AG · München · HR &amp; Recruiting · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Fertigungsplanung und Arbeitsvorbereitung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1658562-1-S</link>
+      <guid isPermaLink="false">12465-1658562-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Siemens AG · Frankfurt am Main · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) im Bereich Data Quality Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1658563-1-S</link>
+      <guid isPermaLink="false">12465-1658563-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · Frankfurt am Main · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Projektmanagement für Lokomotiven-Upgrades</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1658568-1-S</link>
+      <guid isPermaLink="false">12465-1658568-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Siemens AG · München · €15.00/h · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) Projektmanagement Egypt High-Speed</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1658571-1-S</link>
+      <guid isPermaLink="false">12465-1658571-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Siemens AG · Erlangen · €15.00/h · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) - Digital Plant Operations Wiesbaden</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12649-1658416-1-S</link>
+      <guid isPermaLink="false">12649-1658416-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Merck KGaA · Wiesbaden · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Forschung &amp; Entwicklung – eDrive Fluids, Simulation &amp; Digitalisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1658047-1-S</link>
+      <guid isPermaLink="false">13151-1658047-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Mercedes-Benz Group AG · Sindelfingen · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent*in im Baureihenmanagement Einkauf</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1658510-1-S</link>
+      <guid isPermaLink="false">13151-1658510-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent*in im Stabsteam der Direktionsleitung Plattformenentwicklung Large &amp; Core</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1658534-1-S</link>
+      <guid isPermaLink="false">13151-1658534-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Mercedes-Benz Group AG · Sindelfingen · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent Collaboration Alarmierungsservice (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13509-000021119af001-S</link>
+      <guid isPermaLink="false">13509-000021119af001-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>BWI GmbH · Bonn · €16.00/h · Research &amp; Science</description>
+    </item>
+    <item>
+      <title>Werkstudent Social Media- und Community Management (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13509-000021119b3001-S</link>
+      <guid isPermaLink="false">13509-000021119b3001-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>BWI GmbH · Berlin · €16.00/h · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent Social Media Management und Marketing Operations (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13509-000021119c0001-S</link>
+      <guid isPermaLink="false">13509-000021119c0001-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>BWI GmbH · Berlin · €16.00/h · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent Knowledge Database &amp; Collaborationtools (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13509-000021119f0001-S</link>
+      <guid isPermaLink="false">13509-000021119f0001-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Research &amp; Science</category>
+      <description>BWI GmbH · Berlin · €16.00/h · Research &amp; Science</description>
+    </item>
+    <item>
+      <title>Werkstudent / Werkstudentin (m/w/d) im Bereich Integration von Fremdsoftware</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14089-01515102-S</link>
+      <guid isPermaLink="false">14089-01515102-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Deutsche Bundesbank · Frankfurt am Main · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent / Werkstudentin (m/w/d) für das Testing einer Monitoring-Lösung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14089-01515890-S</link>
+      <guid isPermaLink="false">14089-01515890-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Deutsche Bundesbank · Frankfurt am Main · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent / Werkstudentin (m/w/d) für das Testing einer Monitoring-Lösung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14089-01516502-S</link>
+      <guid isPermaLink="false">14089-01516502-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Deutsche Bundesbank · München · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Wirtschaftswissenschaften - Vertriebsprozess (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-32c5759be04d479f-S</link>
+      <guid isPermaLink="false">14225-32c5759be04d479f-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>PRÄZI-FLACHSTAHL AG · Everswinkel · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-7f0e144c7421d383-S</link>
+      <guid isPermaLink="false">14225-7f0e144c7421d383-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>ekom21 - KGRZ Hessen · Kassel · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) im Verkauf für unsere Neueröffnung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14543-25956-1805414-0-S</link>
+      <guid isPermaLink="false">14543-25956-1805414-0-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>NKD Deutschland GmbH · Adelsdorf · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent im Bereich Entwicklung Webanwendung im Projektmanagement Umfeld (w/m/div.)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF301955T-e0980ed-S</link>
+      <guid isPermaLink="false">15986-REF301955T-e0980ed-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Robert Bosch GmbH · Reutlingen · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) KI-Agenten &amp; Multi-Agenten-Systeme im HR</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16470-44597953-1126-S</link>
+      <guid isPermaLink="false">16470-44597953-1126-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Telefónica Germany GmbH &amp; Co. OHG · Nürnberg · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Praktikum / Werkstudent Tax Compliance Consulting (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986802759-S</link>
+      <guid isPermaLink="false">18989-986802759-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Berlin · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) im Maschinenbau – Montage, Elektrotechnik &amp; CAD</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19570-16990740-S</link>
+      <guid isPermaLink="false">19570-16990740-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>MiVEG GmbH Automated Food Systems - European · Röttenbach bei Erlangen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>3D Concept &amp; Visualization Artist (m/f/d) (Freelance / Working Student)</title>
+      <link>https://www.arbeitnow.ch/jobs/companies/dufour-aerospace/3d-concept-visualization-artist-freelance-working-student-dubendorf-492490</link>
+      <guid isPermaLink="false">an:3d-concept-visualization-artist-freelance-working-student-dubendorf-492490</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Dufour Aerospace · Dübendorf · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Operations Koordination - Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/enter-by-baupal-gmbh/operations-koordination-werkstudent-berlin-465194</link>
+      <guid isPermaLink="false">an:operations-koordination-werkstudent-berlin-465194</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Operations &amp; Logistics</category>
+      <description>Enter by baupal GmbH · Berlin · Operations &amp; Logistics</description>
+    </item>
+    <item>
+      <title>Werkstudent/in Marketing (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/volt-venture-gmbh/werkstudent-in-marketing-munster-489233</link>
+      <guid isPermaLink="false">an:werkstudent-in-marketing-munster-489233</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Volt Venture GmbH · Münster · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent / Praktikant (m/w/d) – Growth Marketing &amp; Content</title>
+      <link>https://www.arbeitnow.com/jobs/companies/strive-nutrition-gmbh/werkstudent-praktikant-growth-marketing-content-berlin-417651</link>
+      <guid isPermaLink="false">an:werkstudent-praktikant-growth-marketing-content-berlin-417651</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Strive Nutrition GmbH · Berlin · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent / Praktikant (m/w/d) – Growth Marketing &amp; Content</title>
+      <link>https://www.arbeitnow.com/jobs/companies/strive-nutrition-gmbh/werkstudent-praktikant-growth-marketing-content-berlin-425536</link>
+      <guid isPermaLink="false">an:werkstudent-praktikant-growth-marketing-content-berlin-425536</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Marketing &amp; Communication</category>
+      <description>Strive Nutrition GmbH · Berlin · Marketing &amp; Communication</description>
+    </item>
+    <item>
+      <title>Werkstudent / Praktikant (m/w/d) – Product Management, Operations &amp; International Expansion</title>
+      <link>https://www.arbeitnow.com/jobs/companies/strive-nutrition-gmbh/werkstudent-praktikant-product-management-operations-international-expansion-berlin-388895</link>
+      <guid isPermaLink="false">an:werkstudent-praktikant-product-management-operations-international-expansion-berlin-388895</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Strive Nutrition GmbH · Berlin · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
+      <title>Werkstudent / Praktikant (m/w/d) – Product Management, Operations &amp; International Expansion</title>
+      <link>https://www.arbeitnow.com/jobs/companies/strive-nutrition-gmbh/werkstudent-praktikant-product-management-operations-international-expansion-berlin-81456</link>
+      <guid isPermaLink="false">an:werkstudent-praktikant-product-management-operations-international-expansion-berlin-81456</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Strive Nutrition GmbH · Berlin · Product &amp; Project Mgmt</description>
+    </item>
     <item>
       <title>Werkstudentin bzw. einen Werkstudenten (w/m/d) befristet auf 24 Monate</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208806145-S</link>
@@ -1377,14 +1753,6 @@
       <description>Thermo Fisher Scientific (Bremen) GmbH · Bremen · Engineering &amp; Production</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) - HR</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15268-0068940191-S</link>
-      <guid isPermaLink="false">15268-0068940191-S</guid>
-      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>4WHEELS Services GmbH · Düsseldorf · HR &amp; Recruiting</description>
-    </item>
-    <item>
       <title>Werkstudent UI Designer (m/w/d) (Kassel Hybrid, DE)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15537-JOB-874126-S</link>
       <guid isPermaLink="false">15537-JOB-874126-S</guid>
@@ -1465,44 +1833,12 @@
       <description>Media-Saturn Deutschland GmbH · Lüneburg · Retail &amp; Hospitality</description>
     </item>
     <item>
-      <title>Werkstudent (in) im Vertragsmanagement (d/m/w)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-100fe00003T0M-S</link>
-      <guid isPermaLink="false">18024-100fe00003T0M-S</guid>
-      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>Berliner Stadtgüter GmbH · Berlin · €15.92/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
       <title>Werkstudent (w/m/d) in der Abteilung Unternehmenssteuerung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q2H00004J00-S</link>
       <guid isPermaLink="false">18024-10Q2H00004J00-S</guid>
       <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Sparkasse Darmstadt und Dieburg · Darmstadt · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Dokumentenmanagement / Immobilienverwaltung zunächst befristet für 6 Monate</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001Y0X-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001Y0X-S</guid>
-      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>SIM GmbH · Solingen · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudentenstellen (m/w/d) – Kundenkommunikation &amp; Outbound</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q6L00001b02-S</link>
-      <guid isPermaLink="false">18024-10Q6L00001b02-S</guid>
-      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Stadt-Sparkasse Solingen · Solingen · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Testautomatisierung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160T-S</link>
-      <guid isPermaLink="false">18024-10Q7q0000160T-S</guid>
-      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Praktikant / Werkstudent Cloud Transformation (w/m/d)</title>
@@ -1551,14 +1887,6 @@
       <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Lidl Dienstleistung GmbH &amp; Co. KG · Bietigheim · €16.00/h · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Sozialdienst</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19692-sd2v1e13w2-S</link>
-      <guid isPermaLink="false">19692-sd2v1e13w2-S</guid>
-      <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>BG Klinikum Hamburg gGmbH · Hamburg · Education &amp; Social</description>
     </item>
     <item>
       <title>Werkstudent / Werkstudentin (m/w/d) für das Testing einer Monitoring-Lösung</title>
@@ -1873,14 +2201,6 @@
       <description>V4Smart GmbH &amp; Co. KG · Nördlingen · Consulting &amp; Strategy</description>
     </item>
     <item>
-      <title>Werkstudent Human Resources (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208782207-S</link>
-      <guid isPermaLink="false">10000-1208782207-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>V4Smart GmbH &amp; Co. KG · Nördlingen · HR &amp; Recruiting</description>
-    </item>
-    <item>
       <title>Werkstudent:in (m/w/d) im Bereich Kalkulation - Verkehrswegebau</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004057964-S</link>
       <guid isPermaLink="false">10001-1004057964-S</guid>
@@ -2087,326 +2407,6 @@
       <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
       <category>Marketing &amp; Communication</category>
       <description>Liebherr-Werk Ehingen GmbH · Ehingen (Donau) · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent Personalentwicklung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009647204-S</link>
-      <guid isPermaLink="false">12288-5009647204-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Liebherr Electronics and Drives GmbH · Lindau (Bodensee) · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Praktikum/Werkstudent - Digitales Lernen (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009648394-S</link>
-      <guid isPermaLink="false">12288-5009648394-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Education &amp; Social</category>
-      <description>Liebherr-Hydraulikbagger GmbH · Kirchdorf an der Iller · Education &amp; Social</description>
-    </item>
-    <item>
-      <title>Praktikant/Werkstudent im Bereich Operational Excellence Consulting &amp; Smart Factory (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009657607-S</link>
-      <guid isPermaLink="false">12288-5009657607-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Liebherr-Components Biberach GmbH · Kirchdorf an der Iller · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) - Automatisierungstechnik / Equipment Construction</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009688528-S</link>
-      <guid isPermaLink="false">12288-5009688528-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Liebherr Electronics and Drives GmbH · Lindau (Bodensee) · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Praktikant / Werkstudent im Bereich Fertigungssteuerung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009694733-S</link>
-      <guid isPermaLink="false">12288-5009694733-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Liebherr-Werk Ehingen GmbH · Ehingen (Donau) · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent / Aushilfe Dokumentenmanagement (m/w/d) - Customer Service Diabetes</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009701805-S</link>
-      <guid isPermaLink="false">12288-5009701805-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Mediq Deutschland · Liederbach am Taunus · €15.00/h · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Human Resources - Payroll &amp; Digitalisierung (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5009704936-S</link>
-      <guid isPermaLink="false">12288-5009704936-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Liebherr-Hausgeräte Ochsenhausen GmbH · Ochsenhausen · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Customer Solution Management &amp; Operations (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f539j0458149-S</link>
-      <guid isPermaLink="false">12336-a26f539j0458149-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Operations &amp; Logistics</category>
-      <description>BWI GmbH · Bonn · €16.00/h · Operations &amp; Logistics</description>
-    </item>
-    <item>
-      <title>Werkstudent Shopmanagement &amp; E-Commerce (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12336-a26f557j0458133-S</link>
-      <guid isPermaLink="false">12336-a26f557j0458133-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Avena · Solingen · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Bauingenieurwesen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1644256-2-S</link>
-      <guid isPermaLink="false">12456-1644256-2-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Deutsche Bahn AG · Duisburg · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent:in technisches Projektmanagement im Großprojekt NBS Frankfurt - Mannheim</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1656696-1-S</link>
-      <guid isPermaLink="false">12456-1656696-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Deutsche Bahn AG · Frankfurt am Main · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent:in operatives Kostenmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1656957-1-S</link>
-      <guid isPermaLink="false">12456-1656957-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Deutsche Bahn AG · Frankfurt am Main · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Baubetriebsplanung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1656987-1-S</link>
-      <guid isPermaLink="false">12456-1656987-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Deutsche Bahn AG · Leipzig · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent Digitalisierung und KI im Facility Management (w/m/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1657051-1-S</link>
-      <guid isPermaLink="false">12462-1657051-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>BMW AG · München · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im Global Sales Machine Building</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1656631-1-S</link>
-      <guid isPermaLink="false">12465-1656631-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Siemens AG · Erlangen · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im Bereich Security Processes</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1657150-1-S</link>
-      <guid isPermaLink="false">12465-1657150-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Siemens AG · München · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im strategischen Einkauf</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1657157-1-S</link>
-      <guid isPermaLink="false">12465-1657157-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Siemens AG · Rastatt · Consulting &amp; Strategy</description>
-    </item>
-    <item>
-      <title>Praktikant / Werkstudent Produktvertrieb und Produktmanagement - Messtechnik (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12511-2026X0000053614-S</link>
-      <guid isPermaLink="false">12511-2026X0000053614-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Liebherr-Mischtechnik GmbH · Bad Schussenried · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent mit Kassiertätigkeit (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1437224-28075-2-S</link>
-      <guid isPermaLink="false">12608-1437224-28075-2-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>REWE Markt GmbH ZwNL Nord · Hannover · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent Molkereiprodukte (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1470577-28446-1-S</link>
-      <guid isPermaLink="false">12608-1470577-28446-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>REWE Markt GmbH ZwNL Mitte · Darmstadt · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent Quick-Commerce (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1470604-28042-1-S</link>
-      <guid isPermaLink="false">12608-1470604-28042-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>REWE Group · Köln · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent IT-Support und Projektmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1470621-4078-1-S</link>
-      <guid isPermaLink="false">12608-1470621-4078-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>REWE digital GmbH · Köln · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent Wärmeprojekte und Erneuerbare Energien (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1052-1-S</link>
-      <guid isPermaLink="false">12728-1052-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Bayernwerk Natur GmbH · Regensburg · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Berufsorientierung und Messen (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-10799-1-S</link>
-      <guid isPermaLink="false">12728-10799-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>envia Mitteldeutsche Energie AG · Halle · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Veranstaltungs- und Bildungsmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-10800-1-S</link>
-      <guid isPermaLink="false">12728-10800-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>envia Mitteldeutsche Energie AG · Halle · Other</description>
-    </item>
-    <item>
-      <title>Werkstudentin IT-Produkt- und Projektmanagement (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1098-1-S</link>
-      <guid isPermaLink="false">12728-1098-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>E.ON Grid Solutions GmbH · Würzburg · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Digitale Transformation und Data Engineering (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-885-3-S</link>
-      <guid isPermaLink="false">12728-885-3-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>E.ON SE · Essen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Empfang (w/m/d), Stuttgart</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2384391-S</link>
-      <guid isPermaLink="false">12811-2384391-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Gleiss Lutz Support · Stuttgart · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Gebäudeautomation / MSR-Technik (m/w/d),Dresden,Frankfurt am Main,Mülheim an der Ruhr</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2384628-S</link>
-      <guid isPermaLink="false">12811-2384628-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>SOCOTEC Building Solutions GmbH · Frankfurt am Main · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>1519 Werkstudentin/Werkstudent (m/w/d) HR, Paul-Ehrlich-Institut, Außenstelle I</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2384768-S</link>
-      <guid isPermaLink="false">12811-2384768-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Paul-Ehrlich-Institut · Langen (Hessen) · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent Personal (m/w/d), Essen</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2384929-S</link>
-      <guid isPermaLink="false">12811-2384929-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Rhomberg Sersa Bahntechnik GmbH (Essen) · Essen · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Netzbetreibermanagement (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-71c84409-44a7-4a6a--S</link>
-      <guid isPermaLink="false">12951-71c84409-44a7-4a6a--S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Octopus Energy Germany GmbH · Berlin · €17.00/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent Legal, Risk und Compliance (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-80d097be-8a4c-4289--S</link>
-      <guid isPermaLink="false">12951-80d097be-8a4c-4289--S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>gsm GmbH · Kiel · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (all genders) – Technik / Produktion / Instandhaltung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-95f871f2-a4de-47af--S</link>
-      <guid isPermaLink="false">12951-95f871f2-a4de-47af--S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Der Grüne Punkt Duales System Deutschland GmbH · Eisfeld · €16.50/h · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Consumer Marketing</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13011-44591455-1123-S</link>
-      <guid isPermaLink="false">13011-44591455-1123-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Marketing &amp; Communication</category>
-      <description>Dr. August Oetker NM KG · Bielefeld · Marketing &amp; Communication</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Entwicklung und Serienbetreuung Elektrischer Antrieb</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1656205-1-S</link>
-      <guid isPermaLink="false">13151-1656205-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Werkstudent*in IT-Monitoring &amp; Alerting</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1656546-1-S</link>
-      <guid isPermaLink="false">13151-1656546-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>IT &amp; Software</category>
-      <description>Mercedes-Benz Group AG · Böblingen · IT &amp; Software</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Technische Informationsschrift</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1656608-1-S</link>
-      <guid isPermaLink="false">13151-1656608-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Engineering &amp; Production</category>
-      <description>Mercedes-Benz Group AG · Sindelfingen · Engineering &amp; Production</description>
-    </item>
-    <item>
-      <title>Mitarbeitende oder Werkstudierende (m/w/d) für die Servicestelle</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14089-01515264-S</link>
-      <guid isPermaLink="false">14089-01515264-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Office &amp; Admin</category>
-      <description>Regierung von Oberbayern · Rosenheim · Office &amp; Admin</description>
-    </item>
-    <item>
-      <title>Werkstudent Legal, Risk und Compliance (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14369-2026bzkxcn2u-000-S</link>
-      <guid isPermaLink="false">14369-2026bzkxcn2u-000-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>gsm GmbH · Kiel · Finance &amp; Controlling</description>
     </item>
   </channel>
 </rss>

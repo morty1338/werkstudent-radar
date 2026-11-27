@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 14:08:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Fuhrparkmanagement BMW Motorrad (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1658429-1-S</link>
+      <guid isPermaLink="false">12462-1658429-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>BMW AG · München · Other</description>
+    </item>
+    <item>
+      <title>3D Concept &amp; Visualization Artist (m/f/d) (Freelance / Working Student)</title>
+      <link>https://www.arbeitnow.ch/jobs/companies/dufour-aerospace/3d-concept-visualization-artist-freelance-working-student-dubendorf-492490</link>
+      <guid isPermaLink="false">an:3d-concept-visualization-artist-freelance-working-student-dubendorf-492490</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Dufour Aerospace · Dübendorf · Other · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent*in (m/w/d)  im Team Wohnen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004071528-S</link>
@@ -273,14 +289,6 @@
       <description>nuggit GmbH · Berlin · Other</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-bad-salzungen-192190</link>
-      <guid isPermaLink="false">an:werkstudent-bad-salzungen-192190</guid>
-      <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>WerraEnergie GmbH · Bad Salzungen · Other · no German needed</description>
-    </item>
-    <item>
       <title>Werkstudent*in (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208720408-S</link>
       <guid isPermaLink="false">10000-1208720408-S</guid>
@@ -303,62 +311,6 @@
       <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>ARAG SE · Düsseldorf · €15.00/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudenten im Gründerzentrum (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004044779-S</link>
-      <guid isPermaLink="false">10001-1004044779-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Stadt Passau · Passau · €16.00/h · Other</description>
-    </item>
-    <item>
-      <title>Werkstudent im Dokumentenmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/17172-98D6A1CF9BC77E52AE7-S</link>
-      <guid isPermaLink="false">17172-98D6A1CF9BC77E52AE7-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Vereinigte Hagelvers. VVaG · Other</description>
-    </item>
-    <item>
-      <title>Category Management Werkstudent (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/teampicnic/category-management-werkstudent-dusseldorf-north-rhine-westphalia-290421</link>
-      <guid isPermaLink="false">an:category-management-werkstudent-dusseldorf-north-rhine-westphalia-290421</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Teampicnic · Düsseldorf · €15.12/h · Other</description>
-    </item>
-    <item>
-      <title>People Associate - Working Student</title>
-      <link>https://www.arbeitnow.com/jobs/companies/wolt/people-associate-working-student-berlin-289879</link>
-      <guid isPermaLink="false">an:people-associate-working-student-berlin-289879</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>wolt · Berlin · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Working Student Global Marketplaces</title>
-      <link>https://www.arbeitnow.com/jobs/companies/lovehoney-group/working-student-global-marketplaces-berlin-372242</link>
-      <guid isPermaLink="false">an:working-student-global-marketplaces-berlin-372242</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>Lovehoney Group · Berlin · Other · no German needed</description>
-    </item>
-    <item>
-      <title>Working Student - Investor Relations (f/m/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/isaraerospace/working-student-investor-relations-parsdorf-bavaria-148946</link>
-      <guid isPermaLink="false">an:working-student-investor-relations-parsdorf-bavaria-148946</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>isaraerospace · Parsdorf · Other</description>
-    </item>
-    <item>
-      <title>Working Student, POQ (m/f/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/isaraerospace/working-student-poq-ottobrunn-bavaria-124750</link>
-      <guid isPermaLink="false">an:working-student-poq-ottobrunn-bavaria-124750</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Other</category>
-      <description>isaraerospace · Ottobrunn · Other</description>
     </item>
   </channel>
 </rss>

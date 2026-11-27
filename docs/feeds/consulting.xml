@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/consulting.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 14:08:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent in der Energieberatung (m/w/d)</title>
@@ -79,14 +79,6 @@
       <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
       <category>Consulting &amp; Strategy</category>
       <description>celonis · München · Consulting &amp; Strategy · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) - Consulting Einkauf</title>
-      <link>https://www.arbeitnow.com/jobs/companies/bredehorst-clinical-medical-management/werkstudent-consulting-einkauf-dusseldorf-352077</link>
-      <guid isPermaLink="false">an:werkstudent-consulting-einkauf-dusseldorf-352077</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Consulting &amp; Strategy</category>
-      <description>Bredehorst Clinical Medical Management · Düsseldorf · Consulting &amp; Strategy</description>
     </item>
   </channel>
 </rss>

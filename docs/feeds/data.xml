@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 14:08:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent im Bereich Data Driven Corporate Strategy (w/m/x)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1657965-1-S</link>
+      <guid isPermaLink="false">12462-1657965-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>BMW AG · München · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) im Bereich Data Quality Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1658563-1-S</link>
+      <guid isPermaLink="false">12465-1658563-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Siemens AG · Frankfurt am Main · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent - Datenanalyse &amp; Reporting im Bereich Einkauf  (all genders)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-adb97ce9-e886-4aa1--S</link>
@@ -119,86 +135,6 @@
       <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>cureVision GmbH · München · Data &amp; Analytics · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudententätigkeit Datenanalyse und Testing von Hochvoltspeichern (w/m/x)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1655452-1-S</link>
-      <guid isPermaLink="false">12462-1655452-1-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>BMW AG · München · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) mit Masterarbeit: "Software, Datenplattform und KI für eine autonome...</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654793-1-S</link>
-      <guid isPermaLink="false">12465-1654793-1-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Siemens AG · Krefeld · €15.00/h · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Python &amp; KI (LLMs / Machine Learning) (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13649-13733920AB-S</link>
-      <guid isPermaLink="false">13649-13733920AB-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>HUK-COBURG Versicherungsgruppe · Coburg · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent PKI &amp; Daten (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16818-100916507-S</link>
-      <guid isPermaLink="false">16818-100916507-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Anstalt für Kommunale Datenverarbeitung in Bayern (AKDB) · München · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Data Engineering &amp; Claims Analytics</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19376-44584383-1119-S</link>
-      <guid isPermaLink="false">19376-44584383-1119-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>HDI AG · Hannover · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Vertriebsdatenpflege (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19533-985039348-S</link>
-      <guid isPermaLink="false">19533-985039348-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Ströer SE &amp; Co. KGaA · Köln · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent Automatisierung und Daten (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/vimerox-real-estate-management-gmbh/werkstudent-automatisierung-und-daten-berlin-450481</link>
-      <guid isPermaLink="false">an:werkstudent-automatisierung-und-daten-berlin-450481</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Vimerox Real Estate Management GmbH · Berlin · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in in Tech – Product Development, BI &amp; Onboarding (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/nu-estate-gmbh/werkstudent-in-tech-product-development-bi-onboarding-hamburg-136569</link>
-      <guid isPermaLink="false">an:werkstudent-in-tech-product-development-bi-onboarding-hamburg-136569</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>nu estate GmbH · Hamburg · €17.50/h · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Markt- &amp; Datenanalyse</title>
-      <link>https://www.arbeitnow.com/jobs/companies/buesken-strategy-consulting/werkstudent-markt-datenanalyse-essen-51432</link>
-      <guid isPermaLink="false">an:werkstudent-markt-datenanalyse-essen-51432</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>buesken strategy &amp; consulting · Essen · €17.00/h · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Working Student – Robot Teleoperation &amp; Data Collection for Robot Foundation Models (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/anton-robotics/working-student-robot-teleoperation-data-collection-for-robot-foundation-models-munich-47562</link>
-      <guid isPermaLink="false">an:working-student-robot-teleoperation-data-collection-for-robot-foundation-models-munich-47562</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Anton Robotics · München · Data &amp; Analytics · no German needed</description>
     </item>
   </channel>
 </rss>

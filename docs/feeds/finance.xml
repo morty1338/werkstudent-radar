@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 14:08:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Praktikum / Werkstudent Tax Compliance Consulting (w/m/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18989-986802759-S</link>
+      <guid isPermaLink="false">18989-986802759-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>PricewaterhouseCoopers GmbH WPG · Berlin · Finance &amp; Controlling</description>
+    </item>
     <item>
       <title>Werkstudent Invest Controlling (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-9836a0a3-07c7-490d--S</link>
@@ -193,14 +201,6 @@
       <description>Kevin Kehr · Hamburg · Finance &amp; Controlling</description>
     </item>
     <item>
-      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-209646</link>
-      <guid isPermaLink="false">an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-209646</guid>
-      <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Kevin Kehr · Finance &amp; Controlling</description>
-    </item>
-    <item>
       <title>Werkstudent - Tax (m/w/d) (Kassel Hybrid, DE)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15537-JOB-873698-S</link>
       <guid isPermaLink="false">15537-JOB-873698-S</guid>
@@ -223,38 +223,6 @@
       <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>momox · Berlin · €16.00/h · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) in der Steuerberatung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004049492-S</link>
-      <guid isPermaLink="false">10001-1004049492-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>PKF WMS GmbH · Osnabrück · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) in der Wirtschaftsprüfung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004049510-S</link>
-      <guid isPermaLink="false">10001-1004049510-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>PKF WMS GmbH · Osnabrück · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>#WVE2602 | Werkstudent*in (m/w/d) in der Projektsteuerung</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5005509926-S</link>
-      <guid isPermaLink="false">12288-5005509926-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>THOST Projektmanagement GmbH · Leipzig · Finance &amp; Controlling</description>
-    </item>
-    <item>
-      <title>Werkstudent Corporate Finance (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16470-44579536-1119-S</link>
-      <guid isPermaLink="false">16470-44579536-1119-S</guid>
-      <pubDate>Fri, 20 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Finance &amp; Controlling</category>
-      <description>Telefónica Germany GmbH &amp; Co. OHG · Düsseldorf · Finance &amp; Controlling</description>
     </item>
   </channel>
 </rss>
