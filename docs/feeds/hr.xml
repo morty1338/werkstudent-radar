@@ -6,8 +6,40 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 14:06:42 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Personalsachbearbeitung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004078148-S</link>
+      <guid isPermaLink="false">10001-1004078148-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>TIMOCOM GmbH · Erkrath · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Recruiting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004081733-S</link>
+      <guid isPermaLink="false">10001-1004081733-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>momox Services GmbH · Leipzig · €16.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Recruiting Research &amp; Arbeitsmarktanalyse</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5012310128-S</link>
+      <guid isPermaLink="false">12288-5012310128-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>DIS AG Germany · Erfurt · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent*in HR Administration &amp; Reporting (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5012401342-S</link>
+      <guid isPermaLink="false">12288-5012401342-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Westfalen Weser Netz GmbH · Herford · HR &amp; Recruiting</description>
+    </item>
     <item>
       <title>Werkstudent (w/m/d) Human Resources</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654496-2-S</link>
@@ -25,12 +57,52 @@
       <description>Siemens AG · München · HR &amp; Recruiting · no German needed</description>
     </item>
     <item>
+      <title>Werkstudent / Aushilfe Personalberatung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12513-0007663524-S</link>
+      <guid isPermaLink="false">12513-0007663524-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>BBRecruiting Personalberatung · Neuss · HR &amp; Recruiting · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent im HR-Bereich (m/w/d), DIaLOGIKa GmbH</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2386828-S</link>
+      <guid isPermaLink="false">12811-2386828-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>DIaLOGIKa GmbH · Saarbrücken · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Talent Sourcing (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15794-471924_50543-1-S</link>
+      <guid isPermaLink="false">15794-471924_50543-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Deloitte GmbH · Düsseldorf · HR &amp; Recruiting</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) KI-Agenten &amp; Multi-Agenten-Systeme im HR</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16470-44597953-1126-S</link>
       <guid isPermaLink="false">16470-44597953-1126-S</guid>
       <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Telefónica Germany GmbH &amp; Co. OHG · Nürnberg · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>People Operations - Working Student (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/black-semiconductor-gmbh/people-operations-working-student-aachen-265763</link>
+      <guid isPermaLink="false">an:people-operations-working-student-aachen-265763</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Black Semiconductor GmbH · Aachen · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent:in Marketing, Social Media &amp; HR (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/schiffer-immobilienbewertung/werkstudentin-marketing-social-media-hr-dusseldorf-468349</link>
+      <guid isPermaLink="false">an:werkstudentin-marketing-social-media-hr-dusseldorf-468349</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Schiffer Immobilienbewertung · Düsseldorf · €16.00/h · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent Personal (m/w/d)</title>
@@ -191,6 +263,14 @@
       <pubDate>Wed, 25 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Suena Energy · Hamburg · €17.00/h · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent Human Resources (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208782207-S</link>
+      <guid isPermaLink="false">10000-1208782207-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>V4Smart GmbH &amp; Co. KG · Nördlingen · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Werkstudent (m/w/d) im Bereich Recruiting &amp; Personalmarketing</title>

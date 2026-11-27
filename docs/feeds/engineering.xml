@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/engineering.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 14:06:42 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudenten Produktionsplanung / Arbeitsvorbereitung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208826990-S</link>
+      <guid isPermaLink="false">10000-1208826990-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>VETEC Anlagenbau GmbH · Verden (Aller) · Engineering &amp; Production</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Qualitätsmanagement</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004076473-S</link>
@@ -17,12 +25,36 @@
       <description>Willke Holding GmbH · Wittorf · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent Architektur / Bauingenieurwesen (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004081671-S</link>
+      <guid isPermaLink="false">10001-1004081671-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Thüringer Landgesellschaft mbH · Erfurt · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Quality Assurance (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004082124-S</link>
+      <guid isPermaLink="false">10001-1004082124-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Grifols Deutschland GmbH · Frankfurt am Main · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent/in Schwerpunkt Informationstechnik (m/w/d) in Teilzeit</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11858-SDE-136523-STA-S</link>
       <guid isPermaLink="false">11858-SDE-136523-STA-S</guid>
       <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Landratsamt Fürstenfeldbruck · Fürstenfeldbruck · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Elektrotechnik</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-528280_JB5307202-S</link>
+      <guid isPermaLink="false">12265-528280_JB5307202-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>FERCHAU GmbH Niederlassung Mannheim · Mannheim · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudent Messtechnik und Fertigungsprozesse (w/m/x)</title>
@@ -49,6 +81,14 @@
       <description>Siemens AG · Frankfurt am Main · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent Qualitätsmanagement Trockensortiment (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1471984-28033-1-S</link>
+      <guid isPermaLink="false">12608-1471984-28033-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>REWE Group · Köln · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent*in im Baureihenmanagement Einkauf</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1658510-1-S</link>
       <guid isPermaLink="false">13151-1658510-1-S</guid>
@@ -73,12 +113,60 @@
       <description>Deutsche Bundesbank · München · Engineering &amp; Production</description>
     </item>
     <item>
+      <title>Werkstudent im Bereich Qualitätsmanagement und Methoden (m/w/div.)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/15986-REF302015M-3d066bb-S</link>
+      <guid isPermaLink="false">15986-REF302015M-3d066bb-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>Robert Bosch GmbH · Ravensburg · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent thermische Klärschlammverwertung (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/16166-k54172.1396-S</link>
+      <guid isPermaLink="false">16166-k54172.1396-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>enercity Contracting GmbH · Hannover · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Testautomatisierung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18024-10Q7q0000160V-S</link>
+      <guid isPermaLink="false">18024-10Q7q0000160V-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DG Nexolution eG · Wiesbaden · €18.50/h · Engineering &amp; Production</description>
+    </item>
+    <item>
       <title>Werkstudent (m/w/d) im Maschinenbau – Montage, Elektrotechnik &amp; CAD</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/19570-16990740-S</link>
       <guid isPermaLink="false">19570-16990740-S</guid>
       <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>MiVEG GmbH Automated Food Systems - European · Röttenbach bei Erlangen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Entwicklung Schraubtechnik  (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/21037-k63204.1075-S</link>
+      <guid isPermaLink="false">21037-k63204.1075-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>DEPRAG Schulz GmbH u. Co. KG · Amberg · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent Elektrotechnik / Energietechnik (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-elektrotechnik-energietechnik-bad-salzungen-241210</link>
+      <guid isPermaLink="false">an:werkstudent-elektrotechnik-energietechnik-bad-salzungen-241210</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>WerraEnergie GmbH · Bad Salzungen · Engineering &amp; Production · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student - Robot Learning</title>
+      <link>https://www.arbeitnow.com/jobs/companies/roboservice-gmbh/working-student-robot-learning-berlin-474717</link>
+      <guid isPermaLink="false">an:working-student-robot-learning-berlin-474717</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>RoboService GmbH · Berlin · €17.00/h · Engineering &amp; Production · no German needed</description>
     </item>
     <item>
       <title>Werkstudent - Schwerpunkt Engineering &amp; Maschinenbau</title>
@@ -527,6 +615,14 @@
       <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
       <category>Engineering &amp; Production</category>
       <description>Lekkerland SE · Frechen · Engineering &amp; Production</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) - Erneuerbare Energien &amp; Gebäudetechnik</title>
+      <link>https://www.arbeitnow.com/jobs/companies/smartana-gmbh/werkstudent-erneuerbare-energien-gebaudetechnik-falkensee-98656</link>
+      <guid isPermaLink="false">an:werkstudent-erneuerbare-energien-gebaudetechnik-falkensee-98656</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Engineering &amp; Production</category>
+      <description>SMARTANA GmbH · Falkensee · Engineering &amp; Production</description>
     </item>
     <item>
       <title>Werkstudierende/Werkstudierender (w/m/d) im Fachdienst 71 - Bauaufsicht</title>

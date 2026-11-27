@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 14:06:42 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Verwaltung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004079834-S</link>
+      <guid isPermaLink="false">10001-1004079834-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>PAZ Pflegerische Ambulanzzentren GmbH · Ludwigsburg · Office &amp; Admin</description>
+    </item>
+    <item>
+      <title>Werkstudent ESG</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/20293-2386757-S</link>
+      <guid isPermaLink="false">20293-2386757-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Kappa optronics GmbH · Gleichen · €17.73/h · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent Vertragsmanagement (m/w/d),Dresden,Meißen</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2385716-S</link>

@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 14:06:42 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent:in Netzpläne (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004076323-S</link>
+      <guid isPermaLink="false">10001-1004076323-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>aconium GmbH Hauptsitz Berlin · Berlin · Other</description>
+    </item>
+    <item>
+      <title>Volkssolidarität Dresden: WERKSTUDENT AUSBILDUNGSKOORDINATION (M/W/D)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3092121795734001-S</link>
+      <guid isPermaLink="false">11956-3092121795734001-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Volkssolidarität Dresden · Dresden · Other</description>
+    </item>
     <item>
       <title>Werkstudent Fuhrparkmanagement BMW Motorrad (w/m/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1658429-1-S</link>
@@ -17,12 +33,44 @@
       <description>BMW AG · München · Other</description>
     </item>
     <item>
+      <title>Werkstudent (w/m/d) im Bereich des Corporate Carbon Footprint, Dortmund allgemein</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2386498-S</link>
+      <guid isPermaLink="false">12811-2386498-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>EDG Entsorgung Dortmund GmbH · €17.66/h · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent/in Bildung (m/w/d), Klima Arena</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2386765-S</link>
+      <guid isPermaLink="false">12811-2386765-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Klima Arena · Sinsheim · Other</description>
+    </item>
+    <item>
+      <title>Werkstudent Führungskräfteentwicklung (all genders)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-924ff3b8-6a1f-4779--S</link>
+      <guid isPermaLink="false">12951-924ff3b8-6a1f-4779--S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>MTU Aero Engines AG · München · Other</description>
+    </item>
+    <item>
       <title>3D Concept &amp; Visualization Artist (m/f/d) (Freelance / Working Student)</title>
       <link>https://www.arbeitnow.ch/jobs/companies/dufour-aerospace/3d-concept-visualization-artist-freelance-working-student-dubendorf-492490</link>
       <guid isPermaLink="false">an:3d-concept-visualization-artist-freelance-working-student-dubendorf-492490</guid>
       <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>Dufour Aerospace · Dübendorf · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/werraenergie-gmbh/werkstudent-bad-salzungen-260217</link>
+      <guid isPermaLink="false">an:werkstudent-bad-salzungen-260217</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>WerraEnergie GmbH · Bad Salzungen · Other · no German needed</description>
     </item>
     <item>
       <title>Werkstudent*in (m/w/d)  im Team Wohnen</title>

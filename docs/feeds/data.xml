@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 00:43:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 14:06:42 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent im Bereich Data Driven Corporate Strategy (w/m/x)</title>
@@ -23,6 +23,30 @@
       <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>Siemens AG · Frankfurt am Main · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Signalverarbeitung &amp; Datenanalyse (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12513-0007663513-S</link>
+      <guid isPermaLink="false">12513-0007663513-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Korsch AG · Berlin · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Requirements Engineering für das Team Procurement Data (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12608-1472086-4078-1-S</link>
+      <guid isPermaLink="false">12608-1472086-4078-1-S</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>REWE digital GmbH · Köln · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent - Master Data Management (MDM) (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/cbs-corporate-business-solutions-gmbh/werkstudent-master-data-management-mdm-heidelberg-113665</link>
+      <guid isPermaLink="false">an:werkstudent-master-data-management-mdm-heidelberg-113665</guid>
+      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>cbs Corporate Business Solutions GmbH · Heidelberg · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent - Datenanalyse &amp; Reporting im Bereich Einkauf  (all genders)</title>
