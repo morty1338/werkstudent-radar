@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 14:06:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (w/m/d) Sales, Business Development &amp; AI</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1658945-1-S</link>
+      <guid isPermaLink="false">12465-1658945-1-S</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Siemens AG · Erlangen · €15.00/h · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent Business Development (a)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/oviva/remote-werkstudent-business-development-a-214099</link>
+      <guid isPermaLink="false">an:remote-werkstudent-business-development-a-214099</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>Oviva · Sales &amp; Business Development</description>
+    </item>
     <item>
       <title>Werkstudent*in Sales (m/w/d)  für KI und Leichte Sprache</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208827878-S</link>
@@ -31,14 +47,6 @@
       <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>BMW AG · München · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent Wirtschaftswissenschaften - Vertriebsprozess (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-32c5759be04d479f-S</link>
-      <guid isPermaLink="false">14225-32c5759be04d479f-S</guid>
-      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>PRÄZI-FLACHSTAHL AG · Everswinkel · Sales &amp; Business Development</description>
     </item>
     <item>
       <title>Werkstudent:in Sales Operations / Backoffice (d/m/w)</title>
@@ -113,14 +121,6 @@
       <description>Mediq Deutschland · Liederbach am Taunus · €15.00/h · Sales &amp; Business Development</description>
     </item>
     <item>
-      <title>Werkstudent (w/m/d) im Global Sales Machine Building</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1656631-1-S</link>
-      <guid isPermaLink="false">12465-1656631-1-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Siemens AG · Erlangen · Sales &amp; Business Development</description>
-    </item>
-    <item>
       <title>Praktikant / Werkstudent Produktvertrieb und Produktmanagement - Messtechnik (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12511-2026X0000053614-S</link>
       <guid isPermaLink="false">12511-2026X0000053614-S</guid>
@@ -193,44 +193,12 @@
       <description>Rheinmetall AG · Bremen · Sales &amp; Business Development</description>
     </item>
     <item>
-      <title>Werkstudent Kundenberatung im Pflegebereich (Remote Möglichkeit)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/deutsche-pflegegemeinschaft-sankt-josef-gmbh-berlin/werkstudent-kundenberatung-im-pflegebereich-remote-moglichkeit-berlin-485640</link>
-      <guid isPermaLink="false">an:werkstudent-kundenberatung-im-pflegebereich-remote-moglichkeit-berlin-485640</guid>
-      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Deutsche Pflegegemeinschaft Sankt Josef GmbH (Berlin) · Berlin · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Growth &amp; Business Development (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/acemateai/werkstudentin-growth-business-development-berlin-116041</link>
-      <guid isPermaLink="false">an:werkstudentin-growth-business-development-berlin-116041</guid>
-      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>acemate.ai · Berlin · Sales &amp; Business Development</description>
-    </item>
-    <item>
       <title>Working Student - Sales Operations  (m/f/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/working-student-sales-operations-gilching-368235</link>
       <guid isPermaLink="false">an:working-student-sales-operations-gilching-368235</guid>
       <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Quantum-Systems GmbH · Gilching · Sales &amp; Business Development · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Customer Service</title>
-      <link>https://www.arbeitnow.com/jobs/companies/dsb-deutsche-sanierungsberatung-gmbh/werkstudent-customer-service-berlin-194796</link>
-      <guid isPermaLink="false">an:werkstudent-customer-service-berlin-194796</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>dsb Deutsche Sanierungsberatung GmbH · Berlin · Sales &amp; Business Development</description>
-    </item>
-    <item>
-      <title>Werkstudent im Kundenservice (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/avedo-eine-marke-der-stroer-x-gmbh/werkstudent-im-kundenservice-pforzheim-439370</link>
-      <guid isPermaLink="false">an:werkstudent-im-kundenservice-pforzheim-439370</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Sales &amp; Business Development</category>
-      <description>Avedo - Eine Marke der Ströer X GmbH · Pforzheim · Sales &amp; Business Development</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/design.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 14:06:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Video &amp; Social Media</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004082681-S</link>
+      <guid isPermaLink="false">10001-1004082681-S</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Design &amp; UX</category>
+      <description>GS-COMPANY GmbH &amp; Co. KG · Berlin · Design &amp; UX</description>
+    </item>
     <item>
       <title>accompio GmbH: Werkstudent (m/w/d) Grafikdesign und Videoschnitt</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-3092011795734001-S</link>
@@ -151,30 +159,6 @@
       <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
       <category>Design &amp; UX</category>
       <description>Zattoo · Berlin · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Video Editor / Cutter (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11971-1001906971462943-S</link>
-      <guid isPermaLink="false">11971-1001906971462943-S</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>SanoGym GbR · Stuttgart · €15.00/h · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent*in Video Editor / Cutter (m/w/d), SanoGym GbR</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2382563-S</link>
-      <guid isPermaLink="false">12811-2382563-S</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>SanoGym GbR · Stuttgart · Design &amp; UX</description>
-    </item>
-    <item>
-      <title>Werkstudent Videoschnitt &amp; Social Media (m/w/d)</title>
-      <link>https://www.arbeitnow.com/jobs/companies/aesthetica-media/werkstudent-videoschnitt-social-media-minden-29167</link>
-      <guid isPermaLink="false">an:werkstudent-videoschnitt-social-media-minden-29167</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Design &amp; UX</category>
-      <description>Aesthetica Media · Minden · Design &amp; UX</description>
     </item>
   </channel>
 </rss>

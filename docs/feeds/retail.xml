@@ -6,8 +6,24 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/retail.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 14:06:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent / Studentische Aushilfe Service Team Stadtgarten (m/w/d)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/14011-44600810-1127-S</link>
+      <guid isPermaLink="false">14011-44600810-1127-S</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Bauhaus AG · Karlsruhe · Retail &amp; Hospitality</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Filialmanagement / Store Operations</title>
+      <link>https://www.arbeitnow.com/jobs/companies/gusti-leder-gmbh/werkstudent-filialmanagement-store-operations-rostock-188774</link>
+      <guid isPermaLink="false">an:werkstudent-filialmanagement-store-operations-rostock-188774</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Retail &amp; Hospitality</category>
+      <description>Gusti Leder GmbH · Rostock · €18.00/h · Retail &amp; Hospitality</description>
+    </item>
     <item>
       <title>Werkstudent/Hilfskraft (m/w/d) für neue🍩Bäckereifiliale +☕Cafè</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208797710-S</link>
@@ -329,28 +345,12 @@
       <description>Penny-Markt GmbH Ost · Potsdam · Retail &amp; Hospitality</description>
     </item>
     <item>
-      <title>Werkstudent Kundenservice - Schwerpunkt Kasse (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18019-202447-S</link>
-      <guid isPermaLink="false">18019-202447-S</guid>
-      <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Media-Saturn Deutschland GmbH · Hanau · Retail &amp; Hospitality</description>
-    </item>
-    <item>
       <title>Werkstudent (m/w/d) im Verkauf Mode und Bekleidung</title>
       <link>https://www.arbeitnow.com/jobs/companies/kult-olymp-hades/werkstudent-im-verkauf-mode-und-bekleidung-aschaffenburg-110572</link>
       <guid isPermaLink="false">an:werkstudent-im-verkauf-mode-und-bekleidung-aschaffenburg-110572</guid>
       <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
       <category>Retail &amp; Hospitality</category>
       <description>KULT | OLYMP &amp; HADES · Aschaffenburg · Retail &amp; Hospitality</description>
-    </item>
-    <item>
-      <title>Werkstudent im Verkauf (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/18019-202444-S</link>
-      <guid isPermaLink="false">18019-202444-S</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Retail &amp; Hospitality</category>
-      <description>Media-Saturn Deutschland GmbH · Hanau · Retail &amp; Hospitality</description>
     </item>
   </channel>
 </rss>

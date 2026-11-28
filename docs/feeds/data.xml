@@ -6,8 +6,48 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/data.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 14:06:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>GISA GmbH: Werkstudent:in Business Intelligence, Analytics und AI (m/w/d)*</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/11956-2985001795734001-S</link>
+      <guid isPermaLink="false">11956-2985001795734001-S</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>GISA GmbH · Chemnitz · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent*in Digitalisierung und Datenanalyse in der Rohbauentwicklung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13151-1658685-1-S</link>
+      <guid isPermaLink="false">13151-1658685-1-S</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>Mercedes-Benz Group AG · Sindelfingen · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Data &amp; AI (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/betterdoc-gmbh/werkstudent-data-ai-cologne-213130</link>
+      <guid isPermaLink="false">an:werkstudent-data-ai-cologne-213130</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>BetterDoc GmbH · Köln · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Werkstudent Data &amp; AI (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/betterdoc-gmbh/werkstudent-data-ai-cologne-308057</link>
+      <guid isPermaLink="false">an:werkstudent-data-ai-cologne-308057</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>BetterDoc GmbH · Köln · Data &amp; Analytics</description>
+    </item>
+    <item>
+      <title>Working Student Data &amp; AI (m/f/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/betterdoc-gmbh/working-student-data-ai-cologne-397080</link>
+      <guid isPermaLink="false">an:working-student-data-ai-cologne-397080</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Data &amp; Analytics</category>
+      <description>BetterDoc GmbH · Köln · Data &amp; Analytics</description>
+    </item>
     <item>
       <title>Werkstudent im Bereich Data Driven Corporate Strategy (w/m/x)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12462-1657965-1-S</link>
@@ -15,14 +55,6 @@
       <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>BMW AG · München · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) im Bereich Data Quality Management</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1658563-1-S</link>
-      <guid isPermaLink="false">12465-1658563-1-S</guid>
-      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>Siemens AG · Frankfurt am Main · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent Signalverarbeitung &amp; Datenanalyse (m/w/d)</title>
@@ -111,14 +143,6 @@
       <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
       <category>Data &amp; Analytics</category>
       <description>V4Smart GmbH &amp; Co. KG · Nördlingen · Data &amp; Analytics</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Digitale Transformation und Data Engineering (w/m/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-885-3-S</link>
-      <guid isPermaLink="false">12728-885-3-S</guid>
-      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Data &amp; Analytics</category>
-      <description>E.ON SE · Essen · Data &amp; Analytics</description>
     </item>
     <item>
       <title>Werkstudent Data Science (m/w/d)</title>

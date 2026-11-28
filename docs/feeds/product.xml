@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/product.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 14:06:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (w/m/d) Projektmanagement für Lokomotiven-Upgrades</title>
@@ -41,15 +41,7 @@
       <description>Robert Bosch GmbH · Reutlingen · Product &amp; Project Mgmt</description>
     </item>
     <item>
-      <title>Werkstudent / Praktikant (m/w/d) – Product Management, Operations &amp; International Expansion</title>
-      <link>https://www.arbeitnow.com/jobs/companies/strive-nutrition-gmbh/werkstudent-praktikant-product-management-operations-international-expansion-berlin-388895</link>
-      <guid isPermaLink="false">an:werkstudent-praktikant-product-management-operations-international-expansion-berlin-388895</guid>
-      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Strive Nutrition GmbH · Berlin · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent / Praktikant (m/w/d) – Product Management, Operations &amp; International Expansion</title>
+      <title>Werkstudent (m/w/d) – Product Management, Operations &amp; International Expansion</title>
       <link>https://www.arbeitnow.com/jobs/companies/strive-nutrition-gmbh/werkstudent-praktikant-product-management-operations-international-expansion-berlin-81456</link>
       <guid isPermaLink="false">an:werkstudent-praktikant-product-management-operations-international-expansion-berlin-81456</guid>
       <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
@@ -145,6 +137,14 @@
       <description>LST-Laserschneidtechnik GmbH · Hövelhof · Product &amp; Project Mgmt</description>
     </item>
     <item>
+      <title>Werkstudent:in technisches Projektmanagement im Großprojekt NBS Frankfurt - Mannheim</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1656696-1-S</link>
+      <guid isPermaLink="false">12456-1656696-1-S</guid>
+      <pubDate>Tue, 24 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Product &amp; Project Mgmt</category>
+      <description>Deutsche Bahn AG · Frankfurt am Main · Product &amp; Project Mgmt</description>
+    </item>
+    <item>
       <title>Werkstudent Wärmeprojekte und Erneuerbare Energien (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12728-1052-1-S</link>
       <guid isPermaLink="false">12728-1052-1-S</guid>
@@ -231,30 +231,6 @@
       <pubDate>Mon, 23 Nov 2026 06:30:00 +0100</pubDate>
       <category>Product &amp; Project Mgmt</category>
       <description>FION Energy GmbH · Berlin · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent Technisches Projektmanagement (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12265-528574_JB5302392-S</link>
-      <guid isPermaLink="false">12265-528574_JB5302392-S</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>FERCHAU GmbH Niederlassung Hannover · Hannover · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent:in Bauprojektmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1656229-1-S</link>
-      <guid isPermaLink="false">12456-1656229-1-S</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Deutsche Bahn AG · Berlin · Product &amp; Project Mgmt</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Projektmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1656633-1-S</link>
-      <guid isPermaLink="false">12465-1656633-1-S</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>Product &amp; Project Mgmt</category>
-      <description>Siemens AG · Erlangen · €17.27/h · Product &amp; Project Mgmt</description>
     </item>
   </channel>
 </rss>

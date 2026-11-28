@@ -6,8 +6,32 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 14:06:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Studentische Aushilfe / Werkstudent*in im Recruiting - Schwerpunkt Praktika</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1208828792-S</link>
+      <guid isPermaLink="false">10000-1208828792-S</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Vivantes Netzwerk für Gesundheit GmbH · Berlin · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Werkstudent (m/w/d) Recruiting &amp; HR Management</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5013473921-S</link>
+      <guid isPermaLink="false">12288-5013473921-S</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>GWH Wohnungsgesellschaft mbH Hessen · Frankfurt am Main · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Working Student (f/m/d) P&amp;O Business Partner Global Functions</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1658565-1-S</link>
+      <guid isPermaLink="false">12465-1658565-1-S</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Siemens AG · München · HR &amp; Recruiting · no German needed</description>
+    </item>
     <item>
       <title>Werkstudent Personalsachbearbeitung (m/w/d)</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004078148-S</link>
@@ -39,14 +63,6 @@
       <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Westfalen Weser Netz GmbH · Herford · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (w/m/d) Human Resources</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12465-1654496-2-S</link>
-      <guid isPermaLink="false">12465-1654496-2-S</guid>
-      <pubDate>Fri, 27 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Siemens AG · München · HR &amp; Recruiting</description>
     </item>
     <item>
       <title>Working Student (f/m/d) Leadership Development Programs</title>
@@ -399,30 +415,6 @@
       <pubDate>Sun, 22 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Agilerobotsse · München · HR &amp; Recruiting · no German needed</description>
-    </item>
-    <item>
-      <title>Werkstudent Recruiting / Talent Management / Staffing (m/w/d)</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-5006838229-S</link>
-      <guid isPermaLink="false">12288-5006838229-S</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>grey engineering GmbH · Holzwickede · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent:in im Personalmanagement</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12456-1639697-2-S</link>
-      <guid isPermaLink="false">12456-1639697-2-S</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>Deutsche Bahn AG · Düsseldorf · HR &amp; Recruiting</description>
-    </item>
-    <item>
-      <title>Werkstudent (m/w/d) Human Resources / Personalmanagement, F+U Rhein-Main-Neckar gGmbH</title>
-      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2382584-S</link>
-      <guid isPermaLink="false">12811-2382584-S</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 +0100</pubDate>
-      <category>HR &amp; Recruiting</category>
-      <description>F+U Rhein-Main-Neckar gGmbH · Heidelberg · HR &amp; Recruiting</description>
     </item>
   </channel>
 </rss>
