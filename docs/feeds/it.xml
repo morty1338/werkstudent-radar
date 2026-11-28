@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/it.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 13:24:27 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Working Student (f/m/d) eBusiness</title>
@@ -15,6 +15,14 @@
       <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>Siemens AG · München · IT &amp; Software · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent – Software Development (gn)</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12513-0007663732-S</link>
+      <guid isPermaLink="false">12513-0007663732-S</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Elettronica GmbH · Meckenheim · IT &amp; Software</description>
     </item>
     <item>
       <title>Werkstudent*in Regelsystemanalyse – Fahrdynamik-Cluster-HiL</title>
@@ -31,6 +39,14 @@
       <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
       <category>IT &amp; Software</category>
       <description>SBK Siemens-Betriebskrankenkasse · München · €16.90/h · IT &amp; Software</description>
+    </item>
+    <item>
+      <title>IT Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kertos/it-working-student-munich-165542</link>
+      <guid isPermaLink="false">an:it-working-student-munich-165542</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>IT &amp; Software</category>
+      <description>Kertos · München · €18.00/h · IT &amp; Software · no German needed</description>
     </item>
     <item>
       <title>Werkstudent IT-System-Management / IT &amp; Business (m/w/d)</title>

@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/other.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 13:24:27 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent Contract Management (m/w/d)</title>
@@ -41,12 +41,28 @@
       <description>CONROO GmbH · München · Other · no German needed</description>
     </item>
     <item>
+      <title>Founder's Associate - Internship or Working Student  (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/archive-gmbh/founders-associate-internship-or-working-student-munich-8493</link>
+      <guid isPermaLink="false">an:founders-associate-internship-or-working-student-munich-8493</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>ARCHIVE GmbH · München · Other</description>
+    </item>
+    <item>
       <title>Intern/Working Student Flight Safety (f/m/d)</title>
       <link>https://www.arbeitnow.com/jobs/companies/isaraerospace/intern-working-student-flight-safety-parsdorf-bavaria-12488</link>
       <guid isPermaLink="false">an:intern-working-student-flight-safety-parsdorf-bavaria-12488</guid>
       <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
       <category>Other</category>
       <description>isaraerospace · Parsdorf · Other · no German needed</description>
+    </item>
+    <item>
+      <title>Working Student</title>
+      <link>https://www.arbeitnow.com/jobs/companies/novaspace/working-student-munich-germany-375592</link>
+      <guid isPermaLink="false">an:working-student-munich-germany-375592</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Other</category>
+      <description>Novaspace · München · Other</description>
     </item>
     <item>
       <title>Working Student – UAV Prototyping &amp; Integration (All Genders)</title>

@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/education.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 13:24:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent (m/w/d) Operational Excellence, Zentrale</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2387224-S</link>
+      <guid isPermaLink="false">12811-2387224-S</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Education &amp; Social</category>
+      <description>NORDSEE Hauptverwaltung · Bremerhaven · Education &amp; Social</description>
+    </item>
     <item>
       <title>Werkstudent soziale Arbeit (m/w/d) | Freizeit.plus | Bielefeld / Eckardtsheim / Gütersloh</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/13916-44600588-1127-S</link>

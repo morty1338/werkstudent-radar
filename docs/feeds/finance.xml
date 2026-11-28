@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/finance.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 13:24:27 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Working Student (f/m/d) – Succession Risk Management</title>
@@ -25,12 +25,28 @@
       <description>SEEGER-ORBIS GmbH · Königstein im Taunus · Finance &amp; Controlling</description>
     </item>
     <item>
+      <title>Werkstudent (m/w/d) – Finance &amp; Beratung (unternehmerisch, leistungsbasiert)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-497375</link>
+      <guid isPermaLink="false">an:remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-497375</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Kevin Kehr · Finance &amp; Controlling</description>
+    </item>
+    <item>
       <title>Werkstudent/-in (m/w/d) Finanzbuchhaltung (Schwerpunkt Forderungsmanagement)</title>
       <link>https://www.arbeitnow.com/jobs/companies/immo-marketer/werkstudent-in-finanzbuchhaltung-schwerpunkt-forderungsmanagement-bochum-490377</link>
       <guid isPermaLink="false">an:werkstudent-in-finanzbuchhaltung-schwerpunkt-forderungsmanagement-bochum-490377</guid>
       <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
       <category>Finance &amp; Controlling</category>
       <description>Immo-Marketer · Bochum · Finance &amp; Controlling</description>
+    </item>
+    <item>
+      <title>Working Student Finance (f/m/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/moss/working-student-finance-berlin-394263</link>
+      <guid isPermaLink="false">an:working-student-finance-berlin-394263</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Finance &amp; Controlling</category>
+      <description>Moss · Berlin · Finance &amp; Controlling</description>
     </item>
     <item>
       <title>Werkstudent Integrated Management System / CO2-Bilanzierung (m/w/d)</title>

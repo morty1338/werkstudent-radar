@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/sales.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 13:24:27 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Werkstudent (w/m/d) Sales, Business Development &amp; AI</title>
@@ -23,6 +23,14 @@
       <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
       <category>Sales &amp; Business Development</category>
       <description>Oviva · Sales &amp; Business Development</description>
+    </item>
+    <item>
+      <title>Werkstudent Kundenservice &amp; Operations (m/w/d)</title>
+      <link>https://www.arbeitnow.com/jobs/companies/finn/werkstudent-kundenservice-operations-cologne-15857</link>
+      <guid isPermaLink="false">an:werkstudent-kundenservice-operations-cologne-15857</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Sales &amp; Business Development</category>
+      <description>FINN · Köln · €16.00/h · Sales &amp; Business Development</description>
     </item>
     <item>
       <title>Werkstudent*in Sales (m/w/d)  für KI und Leichte Sprache</title>

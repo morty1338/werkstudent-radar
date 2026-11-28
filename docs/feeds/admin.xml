@@ -6,8 +6,16 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/admin.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 13:24:27 +0000</lastBuildDate>
     <ttl>720</ttl>
+    <item>
+      <title>Werkstudent Versand &amp; Backoffice (m/w/d) – Pralinen-Manufaktur bei Freiburg</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004083409-S</link>
+      <guid isPermaLink="false">10001-1004083409-S</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>Office &amp; Admin</category>
+      <description>Elena Seger Eli Pralinen · Ihringen · €14.00/h · Office &amp; Admin</description>
+    </item>
     <item>
       <title>Werkstudent (m/w/d) Verwaltung</title>
       <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1004079834-S</link>

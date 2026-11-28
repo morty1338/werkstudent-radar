@@ -6,7 +6,7 @@
     <atom:link href="https://morty1338.github.io/werkstudent-radar/feeds/hr.xml" rel="self" type="application/rss+xml"/>
     <description>New Werkstudent postings in Germany from the Bundesagentur für Arbeit and company career sites, collected daily by Werkstudent Radar. Links lead to the original postings.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Nov 2026 00:10:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 13:24:27 +0000</lastBuildDate>
     <ttl>720</ttl>
     <item>
       <title>Studentische Aushilfe / Werkstudent*in im Recruiting - Schwerpunkt Praktika</title>
@@ -31,6 +31,22 @@
       <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
       <category>HR &amp; Recruiting</category>
       <description>Siemens AG · München · HR &amp; Recruiting · no German needed</description>
+    </item>
+    <item>
+      <title>Werkstudent (w/m/d) für unsere Personalabteilung</title>
+      <link>https://www.arbeitsagentur.de/jobsuche/jobdetail/12513-0007663720-S</link>
+      <guid isPermaLink="false">12513-0007663720-S</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Gerber Architekten GmbH · Dortmund · HR &amp; Recruiting</description>
+    </item>
+    <item>
+      <title>Working Student Talent &amp; Growth</title>
+      <link>https://www.arbeitnow.com/jobs/companies/netlight/working-student-talent-growth-hamburg-147879</link>
+      <guid isPermaLink="false">an:working-student-talent-growth-hamburg-147879</guid>
+      <pubDate>Sat, 28 Nov 2026 06:30:00 +0100</pubDate>
+      <category>HR &amp; Recruiting</category>
+      <description>Netlight · Hamburg · HR &amp; Recruiting · no German needed</description>
     </item>
     <item>
       <title>Werkstudent Personalsachbearbeitung (m/w/d)</title>
